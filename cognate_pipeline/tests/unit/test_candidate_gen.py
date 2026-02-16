@@ -111,3 +111,73 @@ class TestGenerateCandidates:
         rel_types = {p[2] for p in pairs}
         assert "cognate_inherited" in rel_types  # uga-heb
         assert "similarity_only" in rel_types    # uga-got, heb-got
+
+    def test_family_aware_germanic(self):
+        """Gothic-Old English pair should be cognate_inherited (germanic)."""
+        lexemes = [
+            _make("a", "got", "water"),
+            _make("b", "ang", "water"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_celtic(self):
+        """Old Irish-Welsh pair should be cognate_inherited (celtic)."""
+        lexemes = [
+            _make("a", "sga", "father"),
+            _make("b", "cym", "father"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_balto_slavic(self):
+        """Lithuanian-OCS pair should be cognate_inherited (balto_slavic)."""
+        lexemes = [
+            _make("a", "lit", "water"),
+            _make("b", "chu", "water"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_indo_iranian(self):
+        """Sanskrit-Avestan pair should be cognate_inherited (indo_iranian)."""
+        lexemes = [
+            _make("a", "san", "fire"),
+            _make("b", "ave", "fire"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_turkic(self):
+        """Turkish-Azerbaijani pair should be cognate_inherited (turkic)."""
+        lexemes = [
+            _make("a", "tur", "water"),
+            _make("b", "aze", "water"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_uralic(self):
+        """Finnish-Estonian pair should be cognate_inherited (uralic)."""
+        lexemes = [
+            _make("a", "fin", "water"),
+            _make("b", "est", "water"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "cognate_inherited"
+
+    def test_family_aware_cross_new_families(self):
+        """Germanic-Celtic pair should be similarity_only."""
+        lexemes = [
+            _make("a", "ang", "water"),
+            _make("b", "cym", "water"),
+        ]
+        pairs = generate_candidates(lexemes, family_aware=True)
+        assert len(pairs) == 1
+        assert pairs[0][2] == "similarity_only"

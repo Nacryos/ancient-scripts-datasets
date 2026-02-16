@@ -47,9 +47,20 @@ _SCA_MAP: dict[str, str] = {
     "θ": "T", "ð": "D",
     "x": "K", "ɣ": "G", "χ": "K", "ʝ": "G",
 
+    # Palatal stops (Turkic, Celtic, Hungarian)
+    "c": "K", "ɟ": "G",
+
+    # Retroflex sibilant and approximant (Sanskrit, Avestan)
+    "ʂ": "S", "ɻ": "R",
+
+    # Implosives (edge cases)
+    "ɓ": "B", "ɗ": "D",
+
     # Affricates (common)
     "t͡s": "S", "d͡z": "S", "t͡ʃ": "S", "d͡ʒ": "S",
+    "t͡ɕ": "S", "d͡ʑ": "S",  # palatal affricates (Slavic)
     "ts": "S", "dz": "S", "tʃ": "S", "dʒ": "S",
+    "tɕ": "S", "dʑ": "S",  # palatal affricates (no tie bar)
 
     # Glides
     "w": "W", "j": "Y", "ʋ": "W", "ɰ": "W",
@@ -65,8 +76,8 @@ _SCA_MAP: dict[str, str] = {
 
 # Pattern to split IPA into segments (handles affricates with tie bar)
 _SEGMENT_RE = re.compile(
-    r"[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰ$H<@*]"
-    r"(?:\u0361[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰ])?"
+    r"[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗ$H<@*]"
+    r"(?:\u0361[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗ])?"
     r"[\u0300-\u036F\u0325\u0329\u032A\u033A\u033B\u033C\u02B0\u02BC\u02D0\u02D1]*"
 )
 

@@ -71,6 +71,29 @@ class TestSegmentToClass:
         assert segment_to_class("$") == "S"
         assert segment_to_class("H") == "H"
 
+    def test_palatal_stops(self):
+        """Palatal stops for Turkic, Celtic, Hungarian."""
+        assert segment_to_class("c") == "K"
+        assert segment_to_class("ɟ") == "G"
+
+    def test_retroflex_sibilant(self):
+        """Retroflex sibilant for Sanskrit, Avestan."""
+        assert segment_to_class("ʂ") == "S"
+
+    def test_retroflex_approximant(self):
+        """Retroflex approximant for Sanskrit."""
+        assert segment_to_class("ɻ") == "R"
+
+    def test_implosives(self):
+        """Implosive stops (edge cases)."""
+        assert segment_to_class("ɓ") == "B"
+        assert segment_to_class("ɗ") == "D"
+
+    def test_palatal_affricates(self):
+        """Palatal affricates for Slavic languages."""
+        assert segment_to_class("t͡ɕ") == "S"
+        assert segment_to_class("d͡ʑ") == "S"
+
 
 class TestIpaToSoundClass:
     def test_simple_word(self):
@@ -94,3 +117,16 @@ class TestIpaToSoundClass:
         uga = ipa_to_sound_class("abd")
         heb = ipa_to_sound_class("abd")
         assert uga == heb
+
+    def test_new_segments_no_unknowns(self):
+        """Words containing new IPA segments should produce no '0' unknowns."""
+        # Sanskrit-like: ʂarva (Sharva)
+        assert "0" not in ipa_to_sound_class("ʂarva")
+        # Turkic-like: cøɟ
+        assert "0" not in ipa_to_sound_class("cøɟ")
+        # Slavic-like with palatal affricate
+        assert "0" not in ipa_to_sound_class("mot͡ɕ")
+        # Retroflex approximant
+        assert "0" not in ipa_to_sound_class("ɻana")
+        # Implosive
+        assert "0" not in ipa_to_sound_class("ɓaɗa")

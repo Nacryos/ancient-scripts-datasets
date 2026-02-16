@@ -15,15 +15,48 @@ logger = logging.getLogger(__name__)
 # Maps language IDs to family labels so we can distinguish inherited
 # cognacy (within-family) from areal/chance similarity (cross-family).
 _FAMILY_MAP: dict[str, str] = {
+    # --- Semitic ---
     "uga": "semitic",
     "heb": "semitic",
     "akk": "semitic",
     "arc": "semitic",
     "phn": "semitic",
     "syc": "semitic",
+    "arb": "semitic",
+    "amh": "semitic",
+    # --- Germanic ---
     "got": "germanic",
+    "ang": "germanic",
+    "non": "germanic",
+    "goh": "germanic",
+    # --- Italic ---
     "lat": "italic",
+    "osc": "italic",
+    "xum": "italic",
+    # --- Hellenic ---
     "grc": "hellenic",
+    "gmy": "hellenic",
+    # --- Celtic ---
+    "sga": "celtic",
+    "cym": "celtic",
+    "bre": "celtic",
+    # --- Balto-Slavic ---
+    "lit": "balto_slavic",
+    "chu": "balto_slavic",
+    "rus": "balto_slavic",
+    # --- Indo-Iranian ---
+    "san": "indo_iranian",
+    "ave": "indo_iranian",
+    "fas": "indo_iranian",
+    # --- Turkic ---
+    "otk": "turkic",
+    "tur": "turkic",
+    "aze": "turkic",
+    # --- Uralic ---
+    "fin": "uralic",
+    "hun": "uralic",
+    "est": "uralic",
+    # --- Isolates / other ---
     "sux": "sumerian",
     "egy": "egyptian",
     "hit": "anatolian",

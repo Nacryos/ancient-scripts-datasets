@@ -34,6 +34,19 @@ data/
 │   ├── gothic_religious.tsv         # ~65 Gothic Bible religious terms
 │   └── iberian_religious.tsv        # ~40 Iberian votive/religious elements
 │
+├── validation/                      # Phylogenetic validation dataset (9 branches)
+│   ├── README.md                    # Format, sources, concept list
+│   ├── concepts.tsv                 # 40 shared concept IDs
+│   ├── germanic.tsv                 # got, ang, non, goh (~160 entries)
+│   ├── celtic.tsv                   # sga, cym, bre (~120 entries)
+│   ├── balto_slavic.tsv             # lit, chu, rus (~120 entries)
+│   ├── indo_iranian.tsv             # san, ave, fas (~120 entries)
+│   ├── italic.tsv                   # lat, osc, xum (~120 entries)
+│   ├── hellenic.tsv                 # grc, gmy (~80 entries)
+│   ├── semitic.tsv                  # heb, arb, amh (~120 entries)
+│   ├── turkic.tsv                   # otk, tur, aze (~120 entries)
+│   └── uralic.tsv                   # fin, hun, est (~120 entries)
+│
 └── cited_sources/                   # External datasets cited in the paper
     ├── genesis/
     │   ├── Hebrew.xml               # Hebrew Bible (Christodouloupoulos & Steedman 2015)
@@ -116,9 +129,9 @@ The `cognate_pipeline/` directory contains a full Python package for cross-lingu
 - **Export** to CLDF Wordlist and JSON-LD formats
 - **Full provenance tracking** through every pipeline stage
 
-Supports 14 ancient/historical languages (Ugaritic, Hebrew, Akkadian, Aramaic, Phoenician, Syriac, Gothic, Latin, Ancient Greek, Sumerian, Egyptian, Hittite, Iberian, Basque) with Glottocode resolution.
+Supports 36 languages across 9 phylogenetic branches (Germanic, Celtic, Balto-Slavic, Indo-Iranian, Italic, Hellenic, Semitic, Turkic, Uralic) plus isolates, with Glottocode resolution and IPA transcriptions.
 
-**141 tests passing** (4 skipped due to optional C-extension dependencies).
+See `data/validation/README.md` for the phylogenetic validation dataset.
 
 See [`cognate_pipeline/README.md`](cognate_pipeline/README.md) for installation and usage.
 

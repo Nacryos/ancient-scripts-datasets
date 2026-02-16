@@ -43,6 +43,107 @@ sources:
       lang_a_col: ugaritic_form
       lang_b_col: hebrew_cognate
 
+  # --- Validation branches (9 phylogenetic families) ---
+
+  - name: germanic
+    path: ../ancient-scripts-datasets/data/validation/germanic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: celtic
+    path: ../ancient-scripts-datasets/data/validation/celtic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: balto_slavic
+    path: ../ancient-scripts-datasets/data/validation/balto_slavic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: indo_iranian
+    path: ../ancient-scripts-datasets/data/validation/indo_iranian.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: italic
+    path: ../ancient-scripts-datasets/data/validation/italic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: hellenic
+    path: ../ancient-scripts-datasets/data/validation/hellenic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: semitic
+    path: ../ancient-scripts-datasets/data/validation/semitic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: turkic
+    path: ../ancient-scripts-datasets/data/validation/turkic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: uralic
+    path: ../ancient-scripts-datasets/data/validation/uralic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
 database:
   host: localhost
   port: 5432
