@@ -1,0 +1,74 @@
+staging_dir: staging
+log_level: INFO
+batch_size: 5000
+
+# Glottolog languoid CSV (optional — needed for family-aware cognate detection)
+# glottolog_data_dir: /path/to/glottolog-data
+
+sources:
+  - name: ugaritic_hebrew
+    path: ../ancient-scripts-datasets/data/ugaritic/uga-heb.small.no_spe.cog
+    format: cog
+    license: "Research / Fair Use"
+    license_url: ""
+    citation_bibtex: |
+      @article{luo2021deciphering,
+        title={Deciphering Undersegmented Ancient Scripts Using Phonetic Prior},
+        author={Luo, Jiaming and Hartmann, Frederik and Santus, Enrico and Barzilay, Regina and Cao, Yuan},
+        journal={Transactions of the Association for Computational Linguistics},
+        year={2021}
+      }
+    column_mapping:
+      language: null
+      form: null
+      concept: null
+    delimiter: "\t"
+    extra:
+      lang_a: uga
+      lang_b: heb
+      header_a: "uga-no_spe"
+      header_b: "heb-no_spe"
+
+  - name: religious_terms
+    path: ../ancient-scripts-datasets/data/religious_terms/ugaritic_hebrew_religious.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: null
+      form: ugaritic_form
+      concept: english_meaning
+      ipa: null
+    delimiter: "\t"
+    extra:
+      lang_a_col: ugaritic_form
+      lang_b_col: hebrew_cognate
+
+database:
+  host: localhost
+  port: 5432
+  name: cognate_db
+  user: postgres
+  password: ""
+  schema_name: public
+
+normalisation:
+  unicode_form: NFC
+  strip_suprasegmentals: false
+  strip_whitespace: true
+  ipa_backend_priority:
+    - attested
+    - epitran
+    - phonemizer
+  transliteration_passthrough: true
+
+cognate:
+  method: baseline_lev
+  clustering: connected_components
+  threshold: 0.5
+  family_aware: true
+  batch_size: 10000
+
+export:
+  cldf_output_dir: export/cldf
+  jsonld_output_dir: export/jsonld
+  include_provenance: true

@@ -102,6 +102,28 @@ The following sources were cited in the paper but are not machine-readable or fr
 
 ---
 
+## Cognate Detection Pipeline
+
+The `cognate_pipeline/` directory contains a full Python package for cross-linguistic cognate detection, built on the datasets in this repository. It provides:
+
+- **Ingestion** of CSV/TSV/COG, CLDF, Wiktionary JSONL, and generic JSON sources
+- **Phonetic normalisation** with transcription type tracking (IPA, transliteration, orthographic)
+- **SCA sound class encoding** (List 2012) for phonological comparison
+- **Family-aware cognate candidate generation** (tags `cognate_inherited` vs `similarity_only`)
+- **Weighted Levenshtein scoring** with SCA-class-aware substitution costs
+- **Clustering** via connected components or UPGMA
+- **PostgreSQL/PostGIS database** with 8 normalised tables and Alembic migrations
+- **Export** to CLDF Wordlist and JSON-LD formats
+- **Full provenance tracking** through every pipeline stage
+
+Supports 14 ancient/historical languages (Ugaritic, Hebrew, Akkadian, Aramaic, Phoenician, Syriac, Gothic, Latin, Ancient Greek, Sumerian, Egyptian, Hittite, Iberian, Basque) with Glottocode resolution.
+
+**141 tests passing** (4 skipped due to optional C-extension dependencies).
+
+See [`cognate_pipeline/README.md`](cognate_pipeline/README.md) for installation and usage.
+
+---
+
 ## Original Repositories
 
 - [j-luo93/DecipherUnsegmented](https://github.com/j-luo93/DecipherUnsegmented) — main code for the paper
