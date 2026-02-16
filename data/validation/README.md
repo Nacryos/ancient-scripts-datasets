@@ -39,9 +39,17 @@ Each branch TSV has columns: `Language_ID`, `Parameter_ID`, `Form`, `IPA`, `Glot
 
 Unlike the branch files, entries sharing a `Parameter_ID` include both true cognates (same etymological root) and false positives (unrelated names in the same semantic slot). The pipeline should cluster true cognates together while keeping false positives apart.
 
-| File | Languages | Entries | Concepts |
-|---|---|---|---|
-| names.tsv | 30 (cross-family) | ~168 | 15 |
+### Cognate annotations
+
+`names.tsv` has an extra 6th column `Cognate_Set_ID` providing ground-truth cognate judgements. Forms sharing the same `Cognate_Set_ID` within a `Parameter_ID` are etymologically related; forms with different IDs are not. Null entries use `_`. The ingester ignores this column (not in column_mapping), but evaluation scripts can read it directly.
+
+| Statistic | Value |
+|---|---|
+| Total entries | 168 (160 non-null) |
+| Languages | 30 (cross-family) |
+| Concepts | 15 |
+| True cognate pairs | 227 (27%) |
+| False-positive pairs | 605 (73%) |
 
 ### Name Categories (15 concepts)
 
