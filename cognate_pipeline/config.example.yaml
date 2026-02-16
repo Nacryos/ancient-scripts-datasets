@@ -144,6 +144,19 @@ sources:
       ipa: IPA
       glottocode: Glottocode
 
+  # --- Cross-family names subset (deity, proper, place names) ---
+
+  - name: names
+    path: ../ancient-scripts-datasets/data/validation/names.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
 database:
   host: localhost
   port: 5432

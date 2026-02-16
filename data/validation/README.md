@@ -33,6 +33,39 @@ Each branch TSV has columns: `Language_ID`, `Parameter_ID`, `Form`, `IPA`, `Glot
 - **Verbs** (8): eat, drink, give, come, die, know, hear, see
 - **Other** (4): name, god, king, house
 
+## Names Subset
+
+`names.tsv` is a cross-family validation file covering deity names (theonyms), proper/personal names (anthroponyms), and place names (toponyms) across 30 languages from all 9 families plus additional ancient languages (Hittite, Ugaritic, Akkadian, Phoenician, Aramaic).
+
+Unlike the branch files, entries sharing a `Parameter_ID` include both true cognates (same etymological root) and false positives (unrelated names in the same semantic slot). The pipeline should cluster true cognates together while keeping false positives apart.
+
+| File | Languages | Entries | Concepts |
+|---|---|---|---|
+| names.tsv | 30 (cross-family) | ~168 | 15 |
+
+### Name Categories (15 concepts)
+
+**Deity names (10):**
+- `sky_father` — PIE *dyēws cognates (Zeus, Jupiter, Dyaus, Týr, Dievas) vs unrelated (El, Tengri, Ukko)
+- `thunder_god` — PIE *Perkʷ- (Perkūnas, Perun, Parjanya) + PIE *tonh₂r- (Þórr, Þunor, Donar) vs Semitic Baal
+- `sun_god` — PIE *sóh₂wl̥ (Sūrya, Sōl, Sunne) + Semitic (Šemeš, Šams, Šapšu) vs Hēlios, Hvar
+- `moon_god` — PIE *meh₁ns- (Máni, Mōna, Māno, Mēna, Mėnulis) vs Selēnē, Lūna, Yareaḥ
+- `war_god` — Germanic *Wōdanaz (Óðinn, Wōden, Wuotan) vs Arēs, Mārs, Indra
+- `love_deity` — Semitic *ʿAṯtar- (ʿAṯtartu, ʿAštoret, Ištar) vs Aphrodītē, Venus, Freyja
+- `death_god` — PIE *Yemo- (Yama, Yima) + Semitic *mwt (Māvet, Mawt, Mōtu) vs Hādēs, Hel
+- `sea_god` — Semitic *yamm- (Yammu, Yām) vs Poseidōn, Neptūnus, Njǫrðr
+- `smith_god` — Celtic (Goibniu, Gofannon) + Germanic (Wēland, Vǫlundr) vs Hēphaistos, Koṯaru
+- `supreme_god` — Semitic *ʔil- (El, Ilāh, Ilu) + Turkic *teŋri (Teŋri, Tanrı) + Uralic (Jumala, Jumal)
+
+**Proper names (2):**
+- `caesar_title` — Latin loanword chain: Caesar → Kaisar → Cěsarĭ → Car → Qayṣar → Kayser
+- `alexander_name` — Greek loanword chain: Alexandros → Iskandar → İskender → Eskandar
+
+**Place names (3):**
+- `sacred_river` — PIE *deh₂nu- river names (Dānuvius, Dunaj, Dānu) vs Neilos, Yardēn
+- `sacred_mountain` — Mostly unrelated (Olumpos, Sinay, Meru, Ásgarðr) — false positive testing
+- `holy_city` — Mostly unrelated (Yerušalayim, Athēnai, Rōma) — false positive testing
+
 ## IPA Sources
 
 | Branch | Reference |

@@ -161,3 +161,88 @@ class TestValidationBranch:
         )
         for cs in sets:
             assert len(cs.members) >= 2
+
+
+class TestNamesSubset:
+    """End-to-end tests for the cross-family names validation subset.
+
+    Unlike the single-family branches, names.tsv spans 30 languages across
+    multiple families, so family-aware tagging produces both cognate_inherited
+    and similarity_only pairs.
+    """
+
+    BRANCH = "names"
+    MIN_ENTRIES = 140  # 160 non-null expected, allow some margin
+
+    def test_ingest_count(self):
+        """Names TSV produces at least MIN_ENTRIES lexemes after null skip."""
+        source = _make_source(self.BRANCH)
+        ingester = CsvIngester(source)
+        lexemes = list(ingester.ingest())
+        assert len(lexemes) >= self.MIN_ENTRIES, (
+            f"names: expected >= {self.MIN_ENTRIES} lexemes, got {len(lexemes)}"
+        )
+
+    def test_ipa_transcription_type(self):
+        """All ingested entries with IPA should have TranscriptionType.IPA."""
+        source = _make_source(self.BRANCH)
+        ingester = CsvIngester(source)
+        for lex in ingester.ingest():
+            if lex.phonetic_raw:
+                assert lex.transcription_type == TranscriptionType.IPA, (
+                    f"names: '{lex.form}' has IPA '{lex.phonetic_raw}' "
+                    f"but type={lex.transcription_type}"
+                )
+
+    def test_no_unknown_sca_segments(self):
+        """No IPA form should produce '0' (unknown) in its SCA encoding."""
+        normalised = _ingest_and_normalise(self.BRANCH)
+        unknowns = []
+        for n in normalised:
+            if "0" in n.sound_class:
+                tokens = tokenize_ipa(n.phonetic_canonical or n.form)
+                bad = [t for i, t in enumerate(tokens)
+                       if i < len(n.sound_class) and n.sound_class[i] == "0"]
+                unknowns.append((n.form, n.sound_class, bad))
+        assert len(unknowns) == 0, (
+            f"names: {len(unknowns)} forms with unknown SCA segments: "
+            + ", ".join(f"'{f}' -> '{sc}' (bad: {b})" for f, sc, b in unknowns[:5])
+        )
+
+    def test_family_aware_tagging(self):
+        """Cross-family names produce both inherited and similarity_only pairs."""
+        normalised = _ingest_and_normalise(self.BRANCH)
+        pairs = generate_candidates(normalised, family_aware=True)
+        inherited = [p for p in pairs if p[2] == "cognate_inherited"]
+        similarity = [p for p in pairs if p[2] == "similarity_only"]
+        assert len(inherited) > 0, "names: no cognate_inherited pairs found"
+        assert len(similarity) > 0, "names: no similarity_only pairs found"
+
+    def test_scoring_above_threshold(self):
+        """Scoring produces links above 0.3 threshold."""
+        normalised = _ingest_and_normalise(self.BRANCH)
+        pairs = generate_candidates(normalised, family_aware=True)
+        scorer = BaselineLevenshtein()
+        links = scorer.score_pairs(pairs, threshold=0.3)
+        assert len(links) > 0, "names: no links above 0.3 threshold"
+
+    def test_minimum_pair_count(self):
+        """Names produces a reasonable number of candidate pairs."""
+        normalised = _ingest_and_normalise(self.BRANCH)
+        pairs = generate_candidates(normalised, family_aware=True)
+        assert len(pairs) >= 50, (
+            f"names: only {len(pairs)} pairs, expected >= 50"
+        )
+
+    def test_clustering(self):
+        """Clustering produces cognate sets from scored links."""
+        normalised = _ingest_and_normalise(self.BRANCH)
+        pairs = generate_candidates(normalised, family_aware=True)
+        scorer = BaselineLevenshtein()
+        links = scorer.score_pairs(pairs, threshold=0.3)
+        if len(links) == 0:
+            pytest.skip("names: no links to cluster")
+        sets = cluster_links(links, ClusteringAlgorithm.CONNECTED_COMPONENTS)
+        assert len(sets) > 0, "names: clustering produced no cognate sets"
+        for cs in sets:
+            assert len(cs.members) >= 2
