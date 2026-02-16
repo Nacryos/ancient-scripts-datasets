@@ -157,6 +157,237 @@ sources:
       ipa: IPA
       glottocode: Glottocode
 
+  # --- Expanded validation branches (original langs + CLDF additions) ---
+
+  - name: germanic_expanded
+    path: ../ancient-scripts-datasets/data/validation/germanic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: &expanded_cols
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: celtic_expanded
+    path: ../ancient-scripts-datasets/data/validation/celtic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: balto_slavic_expanded
+    path: ../ancient-scripts-datasets/data/validation/balto_slavic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: indo_iranian_expanded
+    path: ../ancient-scripts-datasets/data/validation/indo_iranian_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: italic_expanded
+    path: ../ancient-scripts-datasets/data/validation/italic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: hellenic_expanded
+    path: ../ancient-scripts-datasets/data/validation/hellenic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: semitic_expanded
+    path: ../ancient-scripts-datasets/data/validation/semitic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: turkic_expanded
+    path: ../ancient-scripts-datasets/data/validation/turkic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: uralic_expanded
+    path: ../ancient-scripts-datasets/data/validation/uralic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  # --- New language families ---
+
+  - name: albanian
+    path: ../ancient-scripts-datasets/data/validation/albanian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: armenian
+    path: ../ancient-scripts-datasets/data/validation/armenian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: dravidian
+    path: ../ancient-scripts-datasets/data/validation/dravidian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: kartvelian
+    path: ../ancient-scripts-datasets/data/validation/kartvelian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: austronesian
+    path: ../ancient-scripts-datasets/data/validation/austronesian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: sino_tibetan
+    path: ../ancient-scripts-datasets/data/validation/sino_tibetan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: mongolic
+    path: ../ancient-scripts-datasets/data/validation/mongolic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: tungusic
+    path: ../ancient-scripts-datasets/data/validation/tungusic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: japonic
+    path: ../ancient-scripts-datasets/data/validation/japonic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: koreanic
+    path: ../ancient-scripts-datasets/data/validation/koreanic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: northeast_caucasian
+    path: ../ancient-scripts-datasets/data/validation/northeast_caucasian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: northwest_caucasian
+    path: ../ancient-scripts-datasets/data/validation/northwest_caucasian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: eskimo_aleut
+    path: ../ancient-scripts-datasets/data/validation/eskimo_aleut.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: isolates
+    path: ../ancient-scripts-datasets/data/validation/isolates.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_berber
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_berber.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_chadic
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_chadic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_cushitic
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_cushitic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: niger_congo_bantu
+    path: ../ancient-scripts-datasets/data/validation/niger_congo_bantu.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: tai_kadai
+    path: ../ancient-scripts-datasets/data/validation/tai_kadai.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: austroasiatic
+    path: ../ancient-scripts-datasets/data/validation/austroasiatic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: mayan
+    path: ../ancient-scripts-datasets/data/validation/mayan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: uto_aztecan
+    path: ../ancient-scripts-datasets/data/validation/uto_aztecan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: quechuan
+    path: ../ancient-scripts-datasets/data/validation/quechuan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: hmong_mien
+    path: ../ancient-scripts-datasets/data/validation/hmong_mien.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: chukotko_kamchatkan
+    path: ../ancient-scripts-datasets/data/validation/chukotko_kamchatkan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: yukaghir
+    path: ../ancient-scripts-datasets/data/validation/yukaghir.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: saharan
+    path: ../ancient-scripts-datasets/data/validation/saharan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: pama_nyungan
+    path: ../ancient-scripts-datasets/data/validation/pama_nyungan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
 database:
   host: localhost
   port: 5432

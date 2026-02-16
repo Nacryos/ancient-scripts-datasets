@@ -30,15 +30,18 @@ _SCA_MAP: dict[str, str] = {
     # Velar stops
     "k": "K", "g": "G", "ɡ": "G", "q": "K", "ɢ": "G",
 
-    # Glottal
+    # Glottal / Pharyngeal
     "ʔ": "H", "h": "H", "ɦ": "H",
+    "ʕ": "H", "ħ": "H",  # pharyngeals (Arabic, Hebrew, Maltese)
 
     # Nasals
     "m": "M", "n": "N", "ɲ": "N", "ŋ": "N", "ɳ": "N", "ɴ": "N",
 
     # Liquids
     "l": "L", "ɫ": "L", "ɭ": "L", "ɬ": "L",
+    "ɮ": "L",  # voiced lateral fricative (Zulu, Mongolian)
     "r": "R", "ɾ": "R", "ɽ": "R", "ʀ": "R", "ɹ": "R", "ʁ": "R",
+    "ɺ": "R",  # lateral flap (Japanese)
 
     # Fricatives
     "f": "P", "v": "B",
@@ -52,9 +55,19 @@ _SCA_MAP: dict[str, str] = {
 
     # Retroflex sibilant and approximant (Sanskrit, Avestan)
     "ʂ": "S", "ɻ": "R",
+    "ɧ": "S",  # sj-sound (Swedish)
 
-    # Implosives (edge cases)
+    # Click consonants (Bantu, Khoisan)
+    "ʘ": "K",  # bilabial click
+    "ǀ": "T",  # dental click
+    "ǁ": "L",  # lateral click
+    "ǃ": "T",  # alveolar click
+    "ǂ": "K",  # palatal click
+
+    # Implosives / trills / flaps
     "ɓ": "B", "ɗ": "D",
+    "ʙ": "B",  # bilabial trill (Niger-Congo)
+    "ⱱ": "B",  # labiodental flap (Niger-Congo)
 
     # Affricates (common)
     "t͡s": "S", "d͡z": "S", "t͡ʃ": "S", "d͡ʒ": "S",
@@ -64,6 +77,7 @@ _SCA_MAP: dict[str, str] = {
 
     # Glides
     "w": "W", "j": "Y", "ʋ": "W", "ɰ": "W",
+    "ɥ": "W",  # labial-palatal approximant (French, Mandarin)
 
     # Transliteration characters (for ancient scripts)
     # These map based on their phonological values
@@ -76,8 +90,8 @@ _SCA_MAP: dict[str, str] = {
 
 # Pattern to split IPA into segments (handles affricates with tie bar)
 _SEGMENT_RE = re.compile(
-    r"[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗ$H<@*]"
-    r"(?:\u0361[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗ])?"
+    r"[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɮɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗʕħɺɥɧʙⱱʘǀǁǃǂ$H<@*]"
+    r"(?:\u0361[a-zA-Zɑæɐɛəɘɪɨɔɵʊʉɯøœɸβʈɖɡɢʔɦɲŋɳɴɫɭɬɮɾɽʀɹʁɕʑʃʒθðɣχʝʋɰɟʂɻɓɗʕħɺɥɧʙⱱʘǀǁǃǂ])?"
     r"[\u0300-\u036F\u0325\u0329\u032A\u033A\u033B\u033C\u02B0\u02BC\u02D0\u02D1]*"
 )
 

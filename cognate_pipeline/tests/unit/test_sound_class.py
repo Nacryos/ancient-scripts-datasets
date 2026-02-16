@@ -94,6 +94,43 @@ class TestSegmentToClass:
         assert segment_to_class("t͡ɕ") == "S"
         assert segment_to_class("d͡ʑ") == "S"
 
+    def test_pharyngeals(self):
+        """Pharyngeal consonants for Arabic, Hebrew, Maltese."""
+        assert segment_to_class("ʕ") == "H"
+        assert segment_to_class("ħ") == "H"
+
+    def test_voiced_lateral_fricative(self):
+        """Voiced lateral fricative for Zulu, Mongolian."""
+        assert segment_to_class("ɮ") == "L"
+
+    def test_lateral_flap(self):
+        """Lateral flap for Japanese."""
+        assert segment_to_class("ɺ") == "R"
+
+    def test_labial_palatal_approximant(self):
+        """Labial-palatal approximant for French, Mandarin."""
+        assert segment_to_class("ɥ") == "W"
+
+    def test_sj_sound(self):
+        """Swedish sj-sound."""
+        assert segment_to_class("ɧ") == "S"
+
+    def test_bilabial_trill(self):
+        """Bilabial trill for Niger-Congo."""
+        assert segment_to_class("ʙ") == "B"
+
+    def test_labiodental_flap(self):
+        """Labiodental flap for Niger-Congo."""
+        assert segment_to_class("ⱱ") == "B"
+
+    def test_click_consonants(self):
+        """Click consonants for Bantu, Khoisan."""
+        assert segment_to_class("ʘ") == "K"
+        assert segment_to_class("ǀ") == "T"
+        assert segment_to_class("ǁ") == "L"
+        assert segment_to_class("ǃ") == "T"
+        assert segment_to_class("ǂ") == "K"
+
 
 class TestIpaToSoundClass:
     def test_simple_word(self):
@@ -130,3 +167,21 @@ class TestIpaToSoundClass:
         assert "0" not in ipa_to_sound_class("ɻana")
         # Implosive
         assert "0" not in ipa_to_sound_class("ɓaɗa")
+        # Pharyngeals (Arabic)
+        assert "0" not in ipa_to_sound_class("ʕajn")
+        assert "0" not in ipa_to_sound_class("ħamsa")
+        # Lateral fricative (Zulu)
+        assert "0" not in ipa_to_sound_class("ɮala")
+        # Lateral flap (Japanese)
+        assert "0" not in ipa_to_sound_class("ɺana")
+        # Labial-palatal (French)
+        assert "0" not in ipa_to_sound_class("ɥit")
+        # Sj-sound (Swedish)
+        assert "0" not in ipa_to_sound_class("ɧøːn")
+        # Bilabial trill
+        assert "0" not in ipa_to_sound_class("ʙara")
+        # Labiodental flap
+        assert "0" not in ipa_to_sound_class("ⱱara")
+        # Click consonants
+        assert "0" not in ipa_to_sound_class("ǃosa")
+        assert "0" not in ipa_to_sound_class("ǀala")

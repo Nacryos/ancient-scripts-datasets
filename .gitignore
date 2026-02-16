@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Cloned CLDF source repositories (large, not ours to commit)
+sources/
