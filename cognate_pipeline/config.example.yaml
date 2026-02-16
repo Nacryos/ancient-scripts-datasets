@@ -388,6 +388,32 @@ sources:
     license: "CC-BY / Research"
     column_mapping: *expanded_cols
 
+  # --- Training data (full-dictionary scale) ---
+
+  - name: training_lexicons
+    path: ../ancient-scripts-datasets/data/training/lexicons/
+    format: tsv
+    license: "CC-BY / Research / WikiPron"
+    column_mapping:
+      language: null
+      form: Word
+      concept: Concept_ID
+      ipa: IPA
+    extra:
+      description: "Per-language lexicon TSVs from WikiPron + CLDF sources"
+      entries_target: 4000000
+
+  - name: training_cognate_pairs
+    path: ../ancient-scripts-datasets/data/training/cognate_pairs/
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping:
+      language: null
+      form: null
+      concept: Concept_ID
+    extra:
+      description: "Cognate pair files (inherited, similarity, borrowing)"
+
 database:
   host: localhost
   port: 5432
