@@ -19,6 +19,13 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+# Ensure cognate_pipeline package is importable
+sys.path.insert(
+    0,
+    str(Path(__file__).resolve().parent.parent / "cognate_pipeline" / "src"),
+)
+from cognate_pipeline.normalise.sound_class import ipa_to_sound_class
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -109,34 +116,100 @@ def get_timespan(iso_a: str, iso_b: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Religious concepts
+# Religious concepts — organised by sub-domain (generous classification)
 # ---------------------------------------------------------------------------
 
-RELIGIOUS_CONCEPTS: set[str] = {
-    # Numeric IDs (from cross-lingual datasets)
+RELIGIOUS_CORE: set[str] = {
+    "DEITY", "DEITY/GOD", "GOD", "SPIRIT", "TEMPLE", "ALTAR", "SACRIFICE",
+    "WORSHIP", "PRAY", "PRIEST", "HOLY", "PREACH", "BLESS", "CHURCH",
+    "MOSQUE", "SOUL", "RELIGION", "IDOL", "MINISTER",
+}
+
+RELIGIOUS_SUPERNATURAL: set[str] = {
+    "GHOST", "DEMON", "MAGIC", "SORCERER", "MAGICIAN", "OMEN",
+    "ELF OR FAIRY", "FAIRY TALE", "DREAM (SOMETHING)", "DREAM",
+}
+
+RELIGIOUS_MORAL: set[str] = {
+    "SIN", "BAD OR EVIL", "EVIL", "BELIEVE", "TRUTH", "SHAME",
+    "GUILTY", "CRIME", "ADULTERY", "PITY", "FORGIVE", "INNOCENT",
+    "ACCUSE", "CONDEMN", "JUDGE", "JUDGMENT", "LAW", "PUNISHMENT",
+    "WITNESS", "POOR", "RICH", "FAITHFUL", "GOOD",
+}
+
+RELIGIOUS_RITUAL: set[str] = {
+    "CURSE", "FAST", "CIRCUMCISION", "INITIATION CEREMONY", "WEDDING",
+    "OATH", "SWEAR", "CUSTOM", "BURY", "GRAVE", "CORPSE", "DANCE",
+    "DRUM", "SONG",
+}
+
+RELIGIOUS_VERBS: set[str] = {
+    "GIVE", "DONATE", "KNEEL", "BURN (SOMETHING)", "KILL", "POUR",
+    "FEED", "SHARE", "INVITE", "COMMAND", "PROMISE", "OBEY",
+    "HELP", "PROTECT", "DEFEND", "RESCUE", "HOPE (SOMETHING)",
+    "FEAR (BE AFRAID)", "FEAR (FRIGHT)", "LOVE",
+}
+
+RELIGIOUS_COSMIC: set[str] = {
+    "HEAVEN", "HELL", "LIGHTNING", "THUNDER", "FIRE", "SUN", "MOON",
+    "STAR", "SKY", "RAINBOW", "EARTHQUAKE", "WORLD", "LIFE",
+    "DEATH", "BE DEAD OR DIE", "BE ALIVE", "BE BORN",
+    "ANCESTORS", "DESCENDANTS",
+}
+
+RELIGIOUS_PLACES: set[str] = {
+    "TEMPLE", "CHURCH", "MOSQUE", "CAVE", "MOUNTAIN", "MOUNTAIN OR HILL",
+    "SPRING OR WELL", "GARDEN", "FOREST", "STONE", "STONE OR ROCK",
+    "VILLAGE", "TOWN", "COUNTRY", "ISLAND", "RIVER", "SEA",
+    "NATIVE COUNTRY",
+}
+
+# Additional numeric IDs from cross-lingual datasets that map to religious concepts
+_RELIGIOUS_NUMERIC_IDS: set[str] = {
     "3231", "53", "911", "853", "1103", "257", "24", "852", "1702", "304",
     "391", "8", "303", "1565", "878", "1973", "1945", "392", "2137", "1175",
     "107", "1349", "1603", "811", "2971", "661", "1944",
-    # Text concept IDs (uppercase)
-    "DEITY/GOD", "SPIRIT", "TEMPLE", "ALTAR", "SACRIFICE", "WORSHIP", "PRAY",
-    "PRIEST", "HOLY", "PREACH", "BLESS", "CURSE", "FAST", "HEAVEN", "HELL",
-    "DEMON", "IDOL", "MAGIC", "SORCERER", "GHOST", "OMEN", "CHURCH", "MOSQUE",
-    "SOUL", "SIN", "RELIGION", "GOD",
-    # Lowercase mirrors
-    "deity/god", "spirit", "temple", "altar", "sacrifice", "worship", "pray",
-    "priest", "holy", "preach", "bless", "curse", "fast", "heaven", "hell",
-    "demon", "idol", "magic", "sorcerer", "ghost", "omen", "church", "mosque",
-    "soul", "sin", "religion", "god",
 }
+
+# Union of all sub-domains — the generous set
+RELIGIOUS_ALL: set[str] = (
+    RELIGIOUS_CORE
+    | RELIGIOUS_SUPERNATURAL
+    | RELIGIOUS_MORAL
+    | RELIGIOUS_RITUAL
+    | RELIGIOUS_VERBS
+    | RELIGIOUS_COSMIC
+    | RELIGIOUS_PLACES
+    | _RELIGIOUS_NUMERIC_IDS
+)
+
+# Sub-domain name → concept set mapping (for generating sub-domain files)
+RELIGIOUS_SUBDOMAINS: dict[str, set[str]] = {
+    "core_religious": RELIGIOUS_CORE,
+    "supernatural": RELIGIOUS_SUPERNATURAL,
+    "moral_ethical": RELIGIOUS_MORAL,
+    "ritual_ceremony": RELIGIOUS_RITUAL,
+    "religious_verbs": RELIGIOUS_VERBS,
+    "cosmic_spiritual": RELIGIOUS_COSMIC,
+    "sacred_places": RELIGIOUS_PLACES,
+}
+
+# Pre-compute uppercase set for fast case-insensitive matching
+_RELIGIOUS_ALL_UPPER: set[str] = {c.upper() for c in RELIGIOUS_ALL}
 
 
 def is_religious(concept_id: str) -> bool:
     """Return True if *concept_id* refers to a religious concept."""
-    if concept_id in RELIGIOUS_CONCEPTS:
+    if concept_id in RELIGIOUS_ALL:
         return True
-    # Case-insensitive fallback on the textual keywords
-    upper = concept_id.upper()
-    return upper in {c.upper() for c in RELIGIOUS_CONCEPTS}
+    return concept_id.upper() in _RELIGIOUS_ALL_UPPER
+
+
+def _in_subdomain(concept_id: str, subdomain_set: set[str]) -> bool:
+    """Return True if *concept_id* belongs to the given sub-domain set."""
+    if concept_id in subdomain_set:
+        return True
+    return concept_id.upper() in {c.upper() for c in subdomain_set}
 
 
 # ---------------------------------------------------------------------------
@@ -702,12 +775,12 @@ def generate_true_cognates(
             continue
 
         cid = row.get("Concept_ID", "")
-        sca_a = _lookup_sca(lexicon, lang_a, cid, row.get("Word_A", ""))
-        sca_b = _lookup_sca(lexicon, lang_b, cid, row.get("Word_B", ""))
         ipa_a = row.get("IPA_A", "")
         ipa_b = row.get("IPA_B", "")
         word_a = row.get("Word_A", "")
         word_b = row.get("Word_B", "")
+        sca_a = _lookup_sca(lexicon, lang_a, cid, word_a, ipa_a)
+        sca_b = _lookup_sca(lexicon, lang_b, cid, word_b, ipa_b)
 
         score_str = row.get("Score", "0")
         try:
@@ -840,8 +913,12 @@ def _lookup_sca(
     iso: str,
     concept_id: str,
     word: str,
+    ipa: str = "",
 ) -> str:
-    """Try to find the SCA encoding for a given word from the lexicon."""
+    """Try to find the SCA encoding for a given word from the lexicon.
+
+    Falls back to computing SCA on-the-fly from IPA if all lookups fail.
+    """
     entries = lexicon.get((iso, concept_id), [])
     # Exact word match first
     for e in entries:
@@ -852,7 +929,13 @@ def _lookup_sca(
         if e[2]:
             return e[2]
     # Use the word index for cross-concept fallback (fast)
-    return _word_sca_index.get((iso, word), "")
+    sca = _word_sca_index.get((iso, word), "")
+    if sca:
+        return sca
+    # Last resort: compute from IPA on-the-fly
+    if ipa:
+        return ipa_to_sound_class(ipa)
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -948,8 +1031,10 @@ def generate_false_positives(
             continue  # only want cross-family
 
         cid = row.get("Concept_ID", "")
-        sca_a = _lookup_sca(lexicon, lang_a, cid, row.get("Word_A", ""))
-        sca_b = _lookup_sca(lexicon, lang_b, cid, row.get("Word_B", ""))
+        sca_a = _lookup_sca(lexicon, lang_a, cid, row.get("Word_A", ""),
+                            row.get("IPA_A", ""))
+        sca_b = _lookup_sca(lexicon, lang_b, cid, row.get("Word_B", ""),
+                            row.get("IPA_B", ""))
 
         score_str = row.get("Score", "0")
         try:
@@ -1080,8 +1165,8 @@ def generate_borrowings(
         ipa_a = row.get("IPA_A", "")
         ipa_b = row.get("IPA_B", "")
 
-        sca_a = _lookup_sca(lexicon, lang_a, cid, word_a)
-        sca_b = _lookup_sca(lexicon, lang_b, cid, word_b)
+        sca_a = _lookup_sca(lexicon, lang_a, cid, word_a, ipa_a)
+        sca_b = _lookup_sca(lexicon, lang_b, cid, word_b, ipa_b)
 
         score_str = row.get("Score", "0")
         try:
@@ -1117,23 +1202,31 @@ def generate_religious_pairs(
     concept_langs: dict[str, list[str]],
     lang_paths: dict[str, list[str]],
     family_map: dict[str, str],
-) -> tuple[list[dict[str, str]], dict[str, list[dict[str, str]]]]:
+) -> tuple[
+    list[dict[str, str]],
+    dict[str, list[dict[str, str]]],
+    dict[str, list[dict[str, str]]],
+]:
     """Filter existing pairs for religious concepts and generate additional ones.
 
-    Returns (all_religious_pairs, per_family_dict).
+    Returns (all_religious_pairs, per_family_dict, subdomain_dict).
     """
     print("Step 7: Building religious concept subsets ...")
 
-    # 7a: Filter all existing pairs
+    # 7a: Filter all existing pairs — SKIP compound concept IDs (true negatives)
     religious: list[dict[str, str]] = []
+    skipped_compound = 0
     for rec in all_pairs:
         cid = rec.get("Concept_ID", "")
-        # Handle compound concept IDs (true negatives use "cid_a / cid_b")
-        cids = [c.strip() for c in cid.split("/")]
-        if any(is_religious(c) for c in cids):
+        # Skip compound concept IDs (true negatives use "cid_a / cid_b")
+        if "/" in cid:
+            skipped_compound += 1
+            continue
+        if is_religious(cid):
             religious.append(rec)
 
-    print(f"  Filtered {len(religious):,} religious pairs from existing data")
+    print(f"  Filtered {len(religious):,} religious pairs from existing data "
+          f"(skipped {skipped_compound:,} compound IDs)")
 
     # 7b: Generate additional within-family and cross-family pairs for
     #     religious concepts not already covered
@@ -1225,7 +1318,18 @@ def generate_religious_pairs(
         if fam_b in _TOP_FAMILY_SET and fam_b != fam_a:
             per_family[fam_b].append(rec)
 
-    return religious, dict(per_family)
+    # Build sub-domain subsets
+    subdomain_pairs: dict[str, list[dict[str, str]]] = {}
+    for sd_name, sd_concepts in RELIGIOUS_SUBDOMAINS.items():
+        sd_list: list[dict[str, str]] = []
+        for rec in religious:
+            cid = rec.get("Concept_ID", "")
+            if _in_subdomain(cid, sd_concepts):
+                sd_list.append(rec)
+        subdomain_pairs[sd_name] = sd_list
+        print(f"  Sub-domain {sd_name}: {len(sd_list):,} pairs")
+
+    return religious, dict(per_family), subdomain_pairs
 
 
 # ---------------------------------------------------------------------------
@@ -1501,15 +1605,43 @@ def main() -> None:
 
     # ----- Step 7: Religious subsets --------------------------------------
     print("\nStep 7: Building religious subsets ...")
-    religious, religious_by_family = generate_religious_pairs(
+    religious, religious_by_family, subdomain_pairs = generate_religious_pairs(
         all_pairs, lexicon, concept_langs, lang_paths, family_map,
     )
-    write_pairs_tsv(OUTPUT_DIR / "religious_pairs.tsv", religious)
 
-    rel_family_dir = OUTPUT_DIR / "religious_by_family"
+    # Write to religious/ subdirectory
+    rel_dir = OUTPUT_DIR / "religious"
+    rel_dir.mkdir(parents=True, exist_ok=True)
+    write_pairs_tsv(rel_dir / "all_pairs.tsv", religious)
+
+    # Split by label
+    rel_true_cog = [r for r in religious if r.get("Label") == "true_cognate"]
+    rel_false_pos = [r for r in religious if r.get("Label") == "false_positive"]
+    rel_borrowings = [r for r in religious if r.get("Label") == "borrowing"]
+    write_pairs_tsv(rel_dir / "true_cognates.tsv", rel_true_cog)
+    write_pairs_tsv(rel_dir / "false_positives.tsv", rel_false_pos)
+    write_pairs_tsv(rel_dir / "borrowings.tsv", rel_borrowings)
+
+    # Sub-domain files
+    for sd_name, sd_pairs in sorted(subdomain_pairs.items()):
+        write_pairs_tsv(rel_dir / f"{sd_name}.tsv", sd_pairs)
+
+    # Per-family under religious/by_family/
+    rel_family_dir = rel_dir / "by_family"
     rel_family_dir.mkdir(parents=True, exist_ok=True)
     for fam, fam_pairs in sorted(religious_by_family.items()):
         write_pairs_tsv(rel_family_dir / f"{fam}.tsv", fam_pairs)
+
+    # Clean up old flat files if they exist
+    old_religious = OUTPUT_DIR / "religious_pairs.tsv"
+    if old_religious.exists():
+        old_religious.unlink()
+        print(f"  Removed old {old_religious.relative_to(REPO_ROOT)}")
+    old_rel_family = OUTPUT_DIR / "religious_by_family"
+    if old_rel_family.exists() and old_rel_family.is_dir():
+        import shutil
+        shutil.rmtree(old_rel_family)
+        print(f"  Removed old {old_rel_family.relative_to(REPO_ROOT)}")
 
     # ----- Step 8: Timespan stratification --------------------------------
     print("\nStep 8: Stratifying by timespan ...")

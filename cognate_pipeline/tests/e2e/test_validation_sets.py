@@ -10,12 +10,21 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
 from pathlib import Path
 
 import pytest
 
+# Ensure cognate_pipeline is importable (for RELIGIOUS_ALL)
+_PIPELINE_SRC = (
+    Path(__file__).resolve().parent.parent.parent / "src"
+)
+sys.path.insert(0, str(_PIPELINE_SRC))
+
 # Paths relative to the ancient-scripts-datasets repo
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent / "ancient-scripts-datasets"
+# test is at: ancient-scripts-datasets/cognate_pipeline/tests/e2e/test_validation_sets.py
+# parent chain: e2e -> tests -> cognate_pipeline -> ancient-scripts-datasets
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 VALIDATION_DIR = REPO_ROOT / "data" / "training" / "validation"
 FAMILY_MAP_PATH = (
     REPO_ROOT
@@ -43,15 +52,15 @@ TOP_FAMILIES = [
     "semitic", "dravidian", "japonic", "koreanic", "kartvelian",
 ]
 
-RELIGIOUS_CONCEPTS = {
-    "3231", "53", "911", "853", "1103", "257", "24", "852", "1702", "304",
-    "391", "8", "303", "1565", "878", "1973", "1945", "392", "2137", "1175",
-    "107", "1349", "1603", "811", "2971", "661", "1944",
-    "DEITY/GOD", "SPIRIT", "TEMPLE", "ALTAR", "SACRIFICE", "WORSHIP", "PRAY",
-    "PRIEST", "HOLY", "PREACH", "BLESS", "CURSE", "FAST", "HEAVEN", "HELL",
-    "DEMON", "IDOL", "MAGIC", "SORCERER", "GHOST", "OMEN", "CHURCH", "MOSQUE",
-    "SOUL", "SIN", "RELIGION", "GOD",
-}
+RELIGIOUS_SUBDOMAINS = [
+    "core_religious",
+    "supernatural",
+    "moral_ethical",
+    "ritual_ceremony",
+    "religious_verbs",
+    "cosmic_spiritual",
+    "sacred_places",
+]
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -73,13 +82,6 @@ def _read_tsv_header(path: Path) -> list[str]:
     with path.open(encoding="utf-8") as fh:
         reader = csv.reader(fh, delimiter="\t")
         return next(reader)
-
-
-def _is_religious(concept_id: str) -> bool:
-    """Check if a concept ID is religious (case-insensitive)."""
-    if concept_id in RELIGIOUS_CONCEPTS:
-        return True
-    return concept_id.upper() in {c.upper() for c in RELIGIOUS_CONCEPTS}
 
 
 @pytest.fixture(scope="module")
@@ -141,7 +143,6 @@ CORE_FILES = [
     "false_positives.tsv",
     "true_negatives.tsv",
     "borrowings.tsv",
-    "religious_pairs.tsv",
     "timespan_ancient_ancient.tsv",
     "timespan_ancient_modern.tsv",
     "timespan_medieval_modern.tsv",
@@ -177,7 +178,6 @@ PAIR_FILES = [
     "false_positives.tsv",
     "true_negatives.tsv",
     "borrowings.tsv",
-    "religious_pairs.tsv",
 ]
 
 
@@ -260,21 +260,6 @@ def test_false_positives_cross_family(family_map):
     # At least 80% should be cross-family
     assert cross_family >= len(sample) * 0.8, (
         f"Only {cross_family}/{len(sample)} false positives are cross-family"
-    )
-
-
-def test_religious_pairs_contain_religious_concepts():
-    """Religious pairs file should only contain religious concept IDs."""
-    rows = _read_tsv(VALIDATION_DIR / "religious_pairs.tsv")
-    non_religious = 0
-    for row in rows:
-        cid = row["Concept_ID"]
-        # Handle compound concept IDs from true negatives
-        cids = [c.strip() for c in cid.split("/")]
-        if not any(_is_religious(c) for c in cids):
-            non_religious += 1
-    assert non_religious == 0, (
-        f"{non_religious} pairs in religious_pairs.tsv have non-religious concepts"
     )
 
 
@@ -364,22 +349,115 @@ def test_minimum_pairs_borrowings():
 
 
 # ---------------------------------------------------------------------------
-# Religious subset tests
+# Religious subset tests (new religious/ directory structure)
 # ---------------------------------------------------------------------------
 
+RELIGIOUS_DIR = VALIDATION_DIR / "religious"
 
-def test_religious_subset_concept_diversity():
-    """Religious subset should have at least 10 distinct concept types."""
-    rows = _read_tsv(VALIDATION_DIR / "religious_pairs.tsv")
-    concepts = set()
-    for row in rows:
-        cid = row["Concept_ID"]
-        for c in cid.split("/"):
-            c = c.strip()
-            if _is_religious(c):
-                concepts.add(c.upper())
-    assert len(concepts) >= 10, (
-        f"Religious subset has only {len(concepts)} concept types: {concepts}"
+RELIGIOUS_CORE_FILES = [
+    "all_pairs.tsv",
+    "true_cognates.tsv",
+    "false_positives.tsv",
+    "borrowings.tsv",
+]
+
+
+@pytest.mark.parametrize("filename", RELIGIOUS_CORE_FILES)
+def test_religious_core_file_exists(filename):
+    """Religious core files exist in the religious/ directory."""
+    path = RELIGIOUS_DIR / filename
+    assert path.exists(), f"Missing: {path}"
+    assert path.stat().st_size > 0, f"Empty: {path}"
+
+
+@pytest.mark.parametrize("filename", RELIGIOUS_CORE_FILES)
+def test_religious_core_file_header(filename):
+    """Religious core files have the correct header."""
+    path = RELIGIOUS_DIR / filename
+    header = _read_tsv_header(path)
+    assert header == EXPECTED_FIELDS, f"Header mismatch in religious/{filename}: {header}"
+
+
+def test_religious_true_cognates_label_only():
+    """religious/true_cognates.tsv should only contain true_cognate labels."""
+    rows = _read_tsv(RELIGIOUS_DIR / "true_cognates.tsv")
+    labels = {r["Label"] for r in rows}
+    assert labels == {"true_cognate"}, (
+        f"Expected only true_cognate labels, got: {labels}"
+    )
+
+
+def test_religious_false_positives_label_only():
+    """religious/false_positives.tsv should only contain false_positive labels."""
+    rows = _read_tsv(RELIGIOUS_DIR / "false_positives.tsv")
+    labels = {r["Label"] for r in rows}
+    assert labels == {"false_positive"}, (
+        f"Expected only false_positive labels, got: {labels}"
+    )
+
+
+def test_religious_no_compound_concept_ids():
+    """No compound concept IDs (containing '/') in religious files."""
+    for filename in RELIGIOUS_CORE_FILES:
+        path = RELIGIOUS_DIR / filename
+        rows = _read_tsv(path)
+        compound = [r["Concept_ID"] for r in rows if "/" in r["Concept_ID"]]
+        assert len(compound) == 0, (
+            f"{len(compound)} compound concept IDs in religious/{filename}: "
+            f"{compound[:5]}"
+        )
+
+
+def test_religious_concept_diversity():
+    """Religious all_pairs.tsv should have at least 20 unique concepts."""
+    rows = _read_tsv(RELIGIOUS_DIR / "all_pairs.tsv")
+    concepts = {r["Concept_ID"] for r in rows}
+    assert len(concepts) >= 20, (
+        f"Religious all_pairs has only {len(concepts)} unique concepts: {concepts}"
+    )
+
+
+@pytest.mark.parametrize("subdomain", RELIGIOUS_SUBDOMAINS)
+def test_religious_subdomain_file_exists(subdomain):
+    """Sub-domain files exist and are non-empty in the religious/ directory."""
+    path = RELIGIOUS_DIR / f"{subdomain}.tsv"
+    assert path.exists(), f"Missing: {path}"
+    assert path.stat().st_size > 0, f"Empty: {path}"
+
+
+@pytest.mark.parametrize("subdomain", RELIGIOUS_SUBDOMAINS)
+def test_religious_subdomain_header(subdomain):
+    """Sub-domain files have the correct header."""
+    path = RELIGIOUS_DIR / f"{subdomain}.tsv"
+    header = _read_tsv_header(path)
+    assert header == EXPECTED_FIELDS, (
+        f"Header mismatch in religious/{subdomain}.tsv: {header}"
+    )
+
+
+def test_religious_by_family_dir_exists():
+    """religious/by_family/ directory exists with at least some family files."""
+    by_family_dir = RELIGIOUS_DIR / "by_family"
+    assert by_family_dir.exists(), f"Missing: {by_family_dir}"
+    tsv_files = list(by_family_dir.glob("*.tsv"))
+    assert len(tsv_files) >= 3, (
+        f"Expected at least 3 family files, got {len(tsv_files)}"
+    )
+
+
+def test_old_religious_pairs_removed():
+    """Old religious_pairs.tsv should no longer exist at the top level."""
+    old_path = VALIDATION_DIR / "religious_pairs.tsv"
+    assert not old_path.exists(), (
+        f"Old file still exists: {old_path}"
+    )
+
+
+def test_old_religious_by_family_removed():
+    """Old religious_by_family/ directory should no longer exist."""
+    old_dir = VALIDATION_DIR / "religious_by_family"
+    assert not old_dir.exists(), (
+        f"Old directory still exists: {old_dir}"
     )
 
 

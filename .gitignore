@@ -9,4 +9,4 @@ sources/
 # Training data (too large for git, regenerated from scripts)
 data/training/lexicons/
 data/training/cognate_pairs/
-data/training/validation/
+# data/training/validation/ — now tracked via Git LFS
