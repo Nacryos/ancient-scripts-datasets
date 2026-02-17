@@ -518,3 +518,73 @@ def test_stats_file_has_content():
     assert len(rows) >= 10, f"Stats file only has {len(rows)} rows"
     # Check header
     assert rows[0] == ["Category", "Subset", "Count"]
+
+
+# ---------------------------------------------------------------------------
+# Language profile tests
+# ---------------------------------------------------------------------------
+
+PROFILES_DIR = REPO_ROOT / "data" / "training" / "language_profiles"
+
+
+def test_language_profiles_dir_exists():
+    """language_profiles/ directory should exist."""
+    assert PROFILES_DIR.exists(), f"Missing: {PROFILES_DIR}"
+
+
+def test_language_profiles_count():
+    """Should have 1,110 .md profile files (one per language)."""
+    md_files = list(PROFILES_DIR.glob("*.md"))
+    assert len(md_files) == 1110, (
+        f"Expected 1110 profile files, got {len(md_files)}"
+    )
+
+
+@pytest.mark.parametrize("iso", ["eng", "lat", "fin"])
+def test_language_profile_structure(iso):
+    """Spot-check that key sections exist in profile markdown."""
+    path = PROFILES_DIR / f"{iso}.md"
+    assert path.exists(), f"Missing profile: {path}"
+    content = path.read_text(encoding="utf-8")
+
+    # Must have the main heading with ISO code
+    assert f"(`{iso}`)" in content, f"Missing ISO in heading for {iso}"
+
+    # Must have all expected section headers
+    for section in [
+        "## Overview",
+        "## Lexicon Summary",
+        "## Cognate Pair Participation",
+        "## Timespan Distribution",
+        "## Family-Internal Pairs",
+        "## Religious Domain",
+        "## Top Partner Languages",
+    ]:
+        assert section in content, f"Missing section '{section}' in {iso}.md"
+
+
+@pytest.mark.parametrize("iso", ["eng", "lat", "fin"])
+def test_language_profile_has_lexicon_data(iso):
+    """Spot-check languages should have non-zero lexicon stats."""
+    path = PROFILES_DIR / f"{iso}.md"
+    content = path.read_text(encoding="utf-8")
+    # These well-known languages should have entries
+    assert "| Total entries | 0 |" not in content, (
+        f"{iso}.md shows 0 total entries"
+    )
+
+
+@pytest.mark.parametrize("iso", ["eng", "lat", "fin"])
+def test_language_profile_has_validation_pairs(iso):
+    """Spot-check languages should participate in validation pairs."""
+    path = PROFILES_DIR / f"{iso}.md"
+    content = path.read_text(encoding="utf-8")
+    # At least one cognate level should be non-zero
+    has_pairs = False
+    for label in ["True Cognates L1", "True Cognates L2", "True Cognates L3"]:
+        # Find the line for this label and check it's not "| ... | 0 |"
+        for line in content.splitlines():
+            if label in line and "| 0 |" not in line:
+                has_pairs = True
+                break
+    assert has_pairs, f"{iso}.md has no cognate pairs"
