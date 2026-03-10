@@ -185,7 +185,8 @@ def parse(url: str, **kwargs: Any) -> list[dict]:
         List of dicts with keys: word, transliteration, gloss.
         Returns empty list if URL is unreachable.
     """
-    max_pages = kwargs.get("max_pages", 30)
+    # No artificial page limit — follow ALL pagination links
+    max_pages = kwargs.get("max_pages", 9999)
     logger.info("LRC: downloading index from %s", url)
 
     html = _fetch_page(url)

@@ -456,17 +456,16 @@ def get_phrygian_swadesh_entries() -> list[dict]:
 # Fetch additional Avestan words from individual Wiktionary pages
 # ---------------------------------------------------------------------------
 
-def fetch_avestan_word_romanizations(page_ids: list[int], max_fetch: int = 200) -> list[dict]:
+def fetch_avestan_word_romanizations(page_ids: list[int]) -> list[dict]:
     """Fetch individual Avestan word pages and extract romanizations.
 
     Each page has pattern: Avestan_script • ( romanization ) with gloss below.
+    No artificial limit — fetches ALL pages in the category.
     """
     entries = []
     fetched = 0
 
     for pid in page_ids:
-        if fetched >= max_fetch:
-            break
         try:
             title, text = fetch_page_by_id(pid)
             if not text:
@@ -551,16 +550,17 @@ def extract_old_persian_reconstruction_words(members: list[dict]) -> list[dict]:
 # Fetch Phrygian lemma data from individual pages
 # ---------------------------------------------------------------------------
 
-def fetch_phrygian_lemma_romanizations(members: list[dict], max_fetch: int = 30) -> list[dict]:
-    """Fetch individual Phrygian lemma pages to extract romanized forms."""
+def fetch_phrygian_lemma_romanizations(members: list[dict]) -> list[dict]:
+    """Fetch individual Phrygian lemma pages to extract romanized forms.
+
+    No artificial limit — fetches ALL main-namespace pages in the category.
+    """
     entries = []
     fetched = 0
 
     for m in members:
         if m.get("ns") != 0:  # Main namespace only
             continue
-        if fetched >= max_fetch:
-            break
 
         title = m["title"]
 
@@ -747,7 +747,7 @@ def main():
 
         # Fetch individual pages for romanized forms (limit to 50 to stay under rate limit)
         print("  Fetching individual Avestan word pages for romanization...")
-        ave_page_entries = fetch_avestan_word_romanizations(ave_main_ids, max_fetch=50)
+        ave_page_entries = fetch_avestan_word_romanizations(ave_main_ids)
         print(f"  Additional entries from pages: {len(ave_page_entries)}")
     except Exception as e:
         print(f"  Warning: could not fetch category members: {e}", file=sys.stderr)
@@ -808,7 +808,7 @@ def main():
 
         # Fetch individual pages
         print("  Fetching individual Phrygian word pages...")
-        xpg_page_entries = fetch_phrygian_lemma_romanizations(xpg_members, max_fetch=30)
+        xpg_page_entries = fetch_phrygian_lemma_romanizations(xpg_members)
         print(f"  Additional entries from pages: {len(xpg_page_entries)}")
     except Exception as e:
         print(f"  Warning: could not fetch category members: {e}", file=sys.stderr)

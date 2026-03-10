@@ -17,6 +17,7 @@ import logging
 import re
 import urllib.request
 import urllib.error
+import urllib.parse
 from html.parser import HTMLParser
 from typing import Any
 
@@ -280,6 +281,250 @@ def parse(url: str, **kwargs: Any) -> list[dict]:
             unique.append(e)
 
     logger.info("Wiktionary: extracted %d entries from %s", len(unique), url)
+    return unique
+
+
+# ---------------------------------------------------------------------------
+# MediaWiki API-based category pagination
+# ---------------------------------------------------------------------------
+
+import json
+import time
+
+_MW_API = "https://en.wiktionary.org/w/api.php"
+_MW_UA = "PhaiPhon/1.0 (ancient-scripts-datasets)"
+
+
+def _mw_api(params: dict) -> dict:
+    """Call the MediaWiki API with retry on 429."""
+    params["format"] = "json"
+    qs = "&".join(
+        f"{k}={urllib.parse.quote(str(v))}"
+        for k, v in params.items()
+    )
+    url = f"{_MW_API}?{qs}"
+    req = urllib.request.Request(url, headers={"User-Agent": _MW_UA})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                wait = 10 * (attempt + 1)
+                logger.info("Rate limited, waiting %ds...", wait)
+                time.sleep(wait)
+            else:
+                raise
+
+
+def fetch_category_members(category: str, namespace: int = 0) -> list[dict]:
+    """Fetch ALL members of a Wiktionary category, paginating via cmcontinue.
+
+    Args:
+        category: Full category name, e.g. "Category:Avestan_lemmas"
+        namespace: MediaWiki namespace (0=main, 118=Reconstruction)
+
+    Returns:
+        List of dicts with keys: pageid, ns, title
+    """
+    all_members: list[dict] = []
+    params = {
+        "action": "query",
+        "list": "categorymembers",
+        "cmtitle": category,
+        "cmlimit": "500",
+        "cmnamespace": str(namespace),
+    }
+    while True:
+        data = _mw_api(params)
+        members = data.get("query", {}).get("categorymembers", [])
+        all_members.extend(members)
+        if "continue" not in data:
+            break
+        params["cmcontinue"] = data["continue"]["cmcontinue"]
+        time.sleep(1)  # Rate limiting
+    logger.info("Category %s: fetched %d members (ns=%d)",
+                category, len(all_members), namespace)
+    return all_members
+
+
+def fetch_page_wikitext(page_title: str) -> str:
+    """Fetch the raw wikitext of a page (for definition extraction)."""
+    data = _mw_api({
+        "action": "parse",
+        "page": page_title,
+        "prop": "wikitext",
+    })
+    if "parse" not in data:
+        return ""
+    return data["parse"]["wikitext"].get("*", "")
+
+
+def fetch_page_html(page_title: str) -> str:
+    """Fetch the rendered HTML of a page (for gloss extraction)."""
+    data = _mw_api({
+        "action": "parse",
+        "page": page_title,
+        "prop": "text",
+    })
+    if "parse" not in data:
+        return ""
+    return data["parse"]["text"].get("*", "")
+
+
+def extract_gloss_from_html(html: str, language_name: str) -> str:
+    """Extract the first English gloss for a specific language section from HTML.
+
+    Looks for the language heading, then finds the first definition <li>.
+    """
+    # Find the language section
+    # Wiktionary uses <h2><span id="Language_Name">...</span></h2>
+    lang_pattern = re.compile(
+        rf'<span[^>]*id="{re.escape(language_name)}"[^>]*>',
+        re.IGNORECASE,
+    )
+    m = lang_pattern.search(html)
+    if not m:
+        # Try without escaping (for "Proto-Indo-European" etc.)
+        lang_id = language_name.replace(" ", "_")
+        lang_pattern = re.compile(
+            rf'<span[^>]*id="{re.escape(lang_id)}"[^>]*>',
+            re.IGNORECASE,
+        )
+        m = lang_pattern.search(html)
+    if not m:
+        return ""
+
+    # Get text after language heading, up to next h2
+    rest = html[m.end():]
+    next_h2 = re.search(r"<h2[^>]*>", rest)
+    section = rest[:next_h2.start()] if next_h2 else rest[:5000]
+
+    # Find first <li> with a definition (skip empty ones)
+    li_pattern = re.compile(r"<li[^>]*>(.*?)</li>", re.DOTALL)
+    for li_match in li_pattern.finditer(section):
+        li_text = li_match.group(1)
+        # Strip HTML tags
+        clean = re.sub(r"<[^>]+>", "", li_text).strip()
+        # Skip navigation/category items
+        if not clean or clean.startswith("(") or len(clean) < 2:
+            continue
+        # Truncate to first sentence
+        clean = re.sub(r"\s+", " ", clean)
+        if len(clean) > 100:
+            clean = clean[:100].rsplit(" ", 1)[0]
+        return clean
+
+    return ""
+
+
+def extract_romanization_from_html(html: str, language_name: str) -> str:
+    """Extract romanization/transliteration from a Wiktionary entry HTML."""
+    lang_id = language_name.replace(" ", "_")
+    m = re.search(rf'id="{re.escape(lang_id)}"', html, re.IGNORECASE)
+    if not m:
+        return ""
+
+    rest = html[m.end():]
+    next_h2 = re.search(r"<h2[^>]*>", rest)
+    section = rest[:next_h2.start()] if next_h2 else rest[:5000]
+
+    # Pattern: (romanization) after script form
+    romans = re.findall(
+        r'•\s*\(\s*([a-zA-ZÀ-žḀ-ỿāēīōūəąęðθšžŋɣβγñδ'
+        r'\u0300-\u036f\u0323\u0331\u0325ᵛ\s\-]+?)\s*\)',
+        section
+    )
+    if romans:
+        return romans[0].strip()
+
+    # Pattern: Romanization in transliteration span
+    translit = re.findall(r'class="tr[^"]*"[^>]*>([^<]+)<', section)
+    if translit:
+        return translit[0].strip()
+
+    return ""
+
+
+def fetch_category_lemmas(
+    category: str,
+    language_name: str,
+    namespace: int = 0,
+    fetch_glosses: bool = True,
+    rate_limit: float = 1.5,
+) -> list[dict]:
+    """Fetch all lemmas from a Wiktionary category with optional gloss extraction.
+
+    This is the main entry point for Phase 2 Wiktionary expansion.
+    Paginates through ALL category members and fetches individual pages.
+
+    Args:
+        category: e.g. "Category:Avestan_lemmas"
+        language_name: e.g. "Avestan" (for section detection in HTML)
+        namespace: 0 for main, 118 for Reconstruction
+        fetch_glosses: If True, fetch each page to extract gloss
+        rate_limit: Seconds between page fetches
+
+    Returns:
+        List of dicts with keys: word, transliteration, gloss
+    """
+    members = fetch_category_members(category, namespace=namespace)
+    logger.info("Fetching %d individual pages for %s...", len(members), language_name)
+
+    entries: list[dict] = []
+    for i, m in enumerate(members):
+        title = m.get("title", "")
+        if not title:
+            continue
+
+        # Extract word from title
+        if namespace == 118:
+            # Reconstruction namespace: "Reconstruction:Language/word"
+            parts = title.split("/")
+            word = parts[-1].strip() if len(parts) >= 2 else ""
+        else:
+            word = title.strip()
+
+        # Clean reconstruction markers
+        word = re.sub(r"^\*+", "", word)
+        if not word or len(word) > 50:
+            continue
+
+        gloss = ""
+        romanization = ""
+
+        if fetch_glosses:
+            try:
+                html = fetch_page_html(title)
+                if html:
+                    gloss = extract_gloss_from_html(html, language_name)
+                    romanization = extract_romanization_from_html(html, language_name)
+            except Exception as exc:
+                logger.warning("Failed to fetch page '%s': %s", title, exc)
+
+            if (i + 1) % 50 == 0:
+                logger.info("  Progress: %d/%d pages fetched", i + 1, len(members))
+                time.sleep(3)  # Extra pause at milestones
+            else:
+                time.sleep(rate_limit)
+
+        entries.append({
+            "word": word,
+            "transliteration": romanization or word,
+            "gloss": gloss,
+        })
+
+    # Deduplicate by word
+    seen: set[str] = set()
+    unique: list[dict] = []
+    for e in entries:
+        key = e["word"].lower()
+        if key not in seen:
+            seen.add(key)
+            unique.append(e)
+
+    logger.info("fetch_category_lemmas: %d unique entries for %s",
+                len(unique), language_name)
     return unique
 
 
