@@ -125,6 +125,57 @@ LANGUAGE_CONFIGS = {
         "tsv_filename": "ccs-pro.tsv",
         "source_label": "wiktionary_cat",
     },
+    # --- New languages added for Phase B expansion ---
+    "xlw": {
+        "name": "Luwian",
+        "category": "Category:Luwian_lemmas",
+        "namespace": 0,
+        "wikt_lang_name": "Luwian",
+        "iso_for_translit": "hit",  # Closest Anatolian transliteration map
+        "tsv_filename": "xlw.tsv",
+        "source_label": "wiktionary_cat",
+        "use_word_for_ipa": True,  # Don't trust romanization field
+    },
+    "xhu": {
+        "name": "Hurrian",
+        "category": "Category:Hurrian_lemmas",
+        "namespace": 0,
+        "wikt_lang_name": "Hurrian",
+        "iso_for_translit": "xur",  # Closest Hurro-Urartian map
+        "tsv_filename": "xhu.tsv",
+        "source_label": "wiktionary_cat",
+        "use_word_for_ipa": True,
+    },
+    "ett": {
+        "name": "Etruscan",
+        "category": "Category:Etruscan_lemmas",
+        "namespace": 0,
+        "wikt_lang_name": "Etruscan",
+        "iso_for_translit": "xrr",  # Closest (Tyrsenian family)
+        "tsv_filename": "ett.tsv",
+        "source_label": "wiktionary_cat",
+        "use_word_for_ipa": True,
+    },
+    "txb": {
+        "name": "Tocharian B",
+        "category": "Category:Tocharian_B_lemmas",
+        "namespace": 0,
+        "wikt_lang_name": "Tocharian B",
+        "iso_for_translit": "ine",  # IE transliteration
+        "tsv_filename": "txb.tsv",
+        "source_label": "wiktionary_cat",
+        "use_word_for_ipa": True,
+    },
+    "xto": {
+        "name": "Tocharian A",
+        "category": "Category:Tocharian_A_lemmas",
+        "namespace": 0,
+        "wikt_lang_name": "Tocharian A",
+        "iso_for_translit": "ine",  # IE transliteration
+        "tsv_filename": "xto.tsv",
+        "source_label": "wiktionary_cat",
+        "use_word_for_ipa": True,
+    },
 }
 
 

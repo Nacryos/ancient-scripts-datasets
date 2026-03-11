@@ -1,0 +1,3586 @@
+[
+  {
+    "word": "acil",
+    "gloss": "work, product",
+    "transliteration": "",
+    "ipa_source": "acil",
+    "word_id": 33809
+  },
+  {
+    "word": "aclus",
+    "gloss": "month name, june",
+    "transliteration": "aclus",
+    "ipa_source": "aclus",
+    "word_id": 33647
+  },
+  {
+    "word": "acnanas",
+    "gloss": "having given birth to",
+    "transliteration": "",
+    "ipa_source": "acnanas",
+    "word_id": 33810
+  },
+  {
+    "word": "aesar",
+    "gloss": "god",
+    "transliteration": "aesar",
+    "ipa_source": "aesar",
+    "word_id": 33649
+  },
+  {
+    "word": "Afana",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34247
+  },
+  {
+    "word": "Afuna",
+    "gloss": "personal name",
+    "transliteration": "afuna",
+    "ipa_source": "afuna",
+    "word_id": 33636
+  },
+  {
+    "word": "aisoi",
+    "gloss": "gods",
+    "transliteration": "aisoi",
+    "ipa_source": "aisoi",
+    "word_id": 33648
+  },
+  {
+    "word": "Aiθa",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "aitha",
+    "word_id": 34870
+  },
+  {
+    "word": "Akhratinei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34246
+  },
+  {
+    "word": "aklχis",
+    "gloss": "worker",
+    "transliteration": "",
+    "ipa_source": "aklkʰis",
+    "word_id": 34923
+  },
+  {
+    "word": "al-",
+    "gloss": "to give, to offer, to donate",
+    "transliteration": "",
+    "ipa_source": "al",
+    "word_id": 34924
+  },
+  {
+    "word": "alśase",
+    "gloss": "salted, salty",
+    "transliteration": "",
+    "ipa_source": "alshase",
+    "word_id": 34928
+  },
+  {
+    "word": "ala",
+    "gloss": "to donate",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33811
+  },
+  {
+    "word": "aliqu",
+    "gloss": "donated, presented",
+    "transliteration": "",
+    "ipa_source": "aliqu",
+    "word_id": 33807
+  },
+  {
+    "word": "alpan",
+    "gloss": "votive offering, gift, present",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34925
+  },
+  {
+    "word": "alpnina",
+    "gloss": "small gift",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34927
+  },
+  {
+    "word": "alumnaθ",
+    "gloss": "in service, in office",
+    "transliteration": "",
+    "ipa_source": "alumnath",
+    "word_id": 34930
+  },
+  {
+    "word": "alza",
+    "gloss": "present, small gift",
+    "transliteration": "",
+    "ipa_source": "alt͡sa",
+    "word_id": 34933
+  },
+  {
+    "word": "alφazei",
+    "gloss": "barley, flour, kind of bread, barley-cake",
+    "transliteration": "",
+    "ipa_source": "alpʰat͡sei",
+    "word_id": 34926
+  },
+  {
+    "word": "Alχumena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "alkʰumena",
+    "word_id": 34932
+  },
+  {
+    "word": "amce",
+    "gloss": "was",
+    "transliteration": "",
+    "ipa_source": "amce",
+    "word_id": 33746
+  },
+  {
+    "word": "ame",
+    "gloss": "is",
+    "transliteration": "",
+    "ipa_source": "ame",
+    "word_id": 33745
+  },
+  {
+    "word": "ame",
+    "gloss": "i am",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34934
+  },
+  {
+    "word": "amer",
+    "gloss": "cup, bucket",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34935
+  },
+  {
+    "word": "an",
+    "gloss": "he, who",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33752
+  },
+  {
+    "word": "ananc",
+    "gloss": "necessity, need",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34938
+  },
+  {
+    "word": "Andromaχe",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "andromakʰe",
+    "word_id": 34939
+  },
+  {
+    "word": "aniaχ",
+    "gloss": "month name, January",
+    "transliteration": "",
+    "ipa_source": "aniakʰ",
+    "word_id": 34940
+  },
+  {
+    "word": "antar",
+    "gloss": "eagle",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34941
+  },
+  {
+    "word": "apa",
+    "gloss": "father",
+    "transliteration": "",
+    "ipa_source": "apa",
+    "word_id": 33813
+  },
+  {
+    "word": "apana",
+    "gloss": "paternal",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33814
+  },
+  {
+    "word": "apcar",
+    "gloss": "abacus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34942
+  },
+  {
+    "word": "apiana",
+    "gloss": "chamomile, bee grass",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34944
+  },
+  {
+    "word": "apirase",
+    "gloss": "April",
+    "transliteration": "",
+    "ipa_source": "apirase",
+    "word_id": 33815
+  },
+  {
+    "word": "apire",
+    "gloss": "month name, April",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34946
+  },
+  {
+    "word": "Aplu",
+    "gloss": "theonym, apollo",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34947
+  },
+  {
+    "word": "aprenśaiś",
+    "gloss": "curse",
+    "transliteration": "",
+    "ipa_source": "aprenshaish",
+    "word_id": 34948
+  },
+  {
+    "word": "aprinθu",
+    "gloss": "initiator, usher, master of ceremonies",
+    "transliteration": "",
+    "ipa_source": "aprinthu",
+    "word_id": 34949
+  },
+  {
+    "word": "Apulu",
+    "gloss": "theonym, apollo",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34950
+  },
+  {
+    "word": "ar",
+    "gloss": "go",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34952
+  },
+  {
+    "word": "ar-",
+    "gloss": "to go, to act, to operate",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34953
+  },
+  {
+    "word": "ara",
+    "gloss": "to put, to place, to make",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33816
+  },
+  {
+    "word": "Aranθ",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "aranth",
+    "word_id": 34239
+  },
+  {
+    "word": "arhakos",
+    "gloss": "falcon, hawk",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34954
+  },
+  {
+    "word": "ari",
+    "gloss": "in addition, as well",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34955
+  },
+  {
+    "word": "Ariana",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34240
+  },
+  {
+    "word": "Aril",
+    "gloss": "theonym, Atlas",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34956
+  },
+  {
+    "word": "arimos",
+    "gloss": "monkey",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34958
+  },
+  {
+    "word": "aripa",
+    "gloss": "pledge",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34959
+  },
+  {
+    "word": "arnas",
+    "gloss": "cavity",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34960
+  },
+  {
+    "word": "Arntlei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34242
+  },
+  {
+    "word": "Arnza",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "arnt͡sa",
+    "word_id": 34241
+  },
+  {
+    "word": "arse",
+    "gloss": "move",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34961
+  },
+  {
+    "word": "aru-",
+    "gloss": "construction",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34962
+  },
+  {
+    "word": "asil",
+    "gloss": "asylum, refuge, tabernacle",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34964
+  },
+  {
+    "word": "aska",
+    "gloss": "wine vessel, vase",
+    "transliteration": "aska",
+    "ipa_source": "aska",
+    "word_id": 33662
+  },
+  {
+    "word": "asθ",
+    "gloss": "hit",
+    "transliteration": "",
+    "ipa_source": "asth",
+    "word_id": 34966
+  },
+  {
+    "word": "ata",
+    "gloss": "grandfather",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34967
+  },
+  {
+    "word": "ataison",
+    "gloss": "vine",
+    "transliteration": "",
+    "ipa_source": "ataisón",
+    "word_id": 34968
+  },
+  {
+    "word": "Atalanta",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34969
+  },
+  {
+    "word": "Ateinei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34243
+  },
+  {
+    "word": "Atelina",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34244
+  },
+  {
+    "word": "ati",
+    "gloss": "mother",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33817
+  },
+  {
+    "word": "ati-nacna",
+    "gloss": "grandmother",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34978
+  },
+  {
+    "word": "atinana",
+    "gloss": "grandmother",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34979
+  },
+  {
+    "word": "Atiuce",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34980
+  },
+  {
+    "word": "Atlenta",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34981
+  },
+  {
+    "word": "atrś",
+    "gloss": "house, family",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34983
+  },
+  {
+    "word": "atrium",
+    "gloss": "atrium, house, temple",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34982
+  },
+  {
+    "word": "atrs",
+    "gloss": "parent",
+    "transliteration": "",
+    "ipa_source": "atrs",
+    "word_id": 33709
+  },
+  {
+    "word": "Atunis",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34900
+  },
+  {
+    "word": "aukelos",
+    "gloss": "dawn, aurora",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34992
+  },
+  {
+    "word": "Aule",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34245
+  },
+  {
+    "word": "auleσi",
+    "gloss": "aule, courtyard",
+    "transliteration": "",
+    "ipa_source": "aulesi",
+    "word_id": 33750
+  },
+  {
+    "word": "aur",
+    "gloss": "charioteer",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34993
+  },
+  {
+    "word": "avil",
+    "gloss": "year",
+    "transliteration": "avil",
+    "ipa_source": "awil",
+    "word_id": 33706
+  },
+  {
+    "word": "Avile",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "awile",
+    "word_id": 34901
+  },
+  {
+    "word": "avratum",
+    "gloss": "breezy",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34994
+  },
+  {
+    "word": "azaru",
+    "gloss": "to the gods",
+    "transliteration": "",
+    "ipa_source": "at͡saru",
+    "word_id": 35000
+  },
+  {
+    "word": "aθeme",
+    "gloss": "vase",
+    "transliteration": "",
+    "ipa_source": "atheme",
+    "word_id": 34970
+  },
+  {
+    "word": "aθmi-",
+    "gloss": "nobble, lord",
+    "transliteration": "",
+    "ipa_source": "athmi",
+    "word_id": 34972
+  },
+  {
+    "word": "aθna",
+    "gloss": "sacrificial vessel",
+    "transliteration": "",
+    "ipa_source": "athna",
+    "word_id": 34974
+  },
+  {
+    "word": "aθnu",
+    "gloss": "priest",
+    "transliteration": "",
+    "ipa_source": "athnu",
+    "word_id": 34975
+  },
+  {
+    "word": "aθre",
+    "gloss": "atrium, temple",
+    "transliteration": "",
+    "ipa_source": "athre",
+    "word_id": 34976
+  },
+  {
+    "word": "aχapri",
+    "gloss": "love",
+    "transliteration": "",
+    "ipa_source": "akʰapri",
+    "word_id": 34996
+  },
+  {
+    "word": "Aχile",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "akʰile",
+    "word_id": 34997
+  },
+  {
+    "word": "aχrum",
+    "gloss": "Acheron, river name, theonym",
+    "transliteration": "akhrum",
+    "ipa_source": "akʰrum",
+    "word_id": 33659
+  },
+  {
+    "word": "Aχuia",
+    "gloss": "theonym, epithet",
+    "transliteration": "",
+    "ipa_source": "akʰuia",
+    "word_id": 34871
+  },
+  {
+    "word": "aχumia",
+    "gloss": "agony",
+    "transliteration": "",
+    "ipa_source": "akʰumia",
+    "word_id": 34998
+  },
+  {
+    "word": "aχvil",
+    "gloss": "gift, donation",
+    "transliteration": "",
+    "ipa_source": "akʰwil",
+    "word_id": 34907
+  },
+  {
+    "word": "baltea",
+    "gloss": "belt",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35002
+  },
+  {
+    "word": "burrhοs",
+    "gloss": "kantharos, cup",
+    "transliteration": "",
+    "ipa_source": "burrhοs",
+    "word_id": 35003
+  },
+  {
+    "word": "Cae",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34249
+  },
+  {
+    "word": "Cafates",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34253
+  },
+  {
+    "word": "calisna",
+    "gloss": "deceased, funeral, hell",
+    "transliteration": "calisna",
+    "ipa_source": "calisna",
+    "word_id": 35004
+  },
+  {
+    "word": "Calisni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34250
+  },
+  {
+    "word": "calusna",
+    "gloss": "hazy, dark, netherworld",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35005
+  },
+  {
+    "word": "Canatnei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34252
+  },
+  {
+    "word": "Caninas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34251
+  },
+  {
+    "word": "Canlas",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "canlas",
+    "word_id": 34874
+  },
+  {
+    "word": "canva",
+    "gloss": "tabernacle",
+    "transliteration": "",
+    "ipa_source": "canwa",
+    "word_id": 35006
+  },
+  {
+    "word": "caper",
+    "gloss": "garment",
+    "transliteration": "",
+    "ipa_source": "caper",
+    "word_id": 33718
+  },
+  {
+    "word": "caperc",
+    "gloss": "cup, vase",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35007
+  },
+  {
+    "word": "capi",
+    "gloss": "to take, to hold, to steal, to seize",
+    "transliteration": "capi",
+    "ipa_source": "capi",
+    "word_id": 33627
+  },
+  {
+    "word": "capra",
+    "gloss": "urn, ossuary, sarcophagus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35008
+  },
+  {
+    "word": "capus",
+    "gloss": "falcon",
+    "transliteration": "",
+    "ipa_source": "capys",
+    "word_id": 33651
+  },
+  {
+    "word": "cars-",
+    "gloss": "stone, marble",
+    "transliteration": "",
+    "ipa_source": "cars",
+    "word_id": 35009
+  },
+  {
+    "word": "cassida",
+    "gloss": "helmet",
+    "transliteration": "",
+    "ipa_source": "cassida",
+    "word_id": 35014
+  },
+  {
+    "word": "catrua",
+    "gloss": "crowd, group",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35015
+  },
+  {
+    "word": "Cavaθa",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "cawatha",
+    "word_id": 34872
+  },
+  {
+    "word": "cavsa",
+    "gloss": "cause, reason",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35016
+  },
+  {
+    "word": "Caθa",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "catha",
+    "word_id": 34873
+  },
+  {
+    "word": "Caθarnai",
+    "gloss": "personal name",
+    "transliteration": "catharnai",
+    "ipa_source": "catharnai",
+    "word_id": 34984
+  },
+  {
+    "word": "caθn-",
+    "gloss": "basin, tray, bowl",
+    "transliteration": "",
+    "ipa_source": "cathn",
+    "word_id": 35013
+  },
+  {
+    "word": "caθna",
+    "gloss": "bowl",
+    "transliteration": "",
+    "ipa_source": "cathna",
+    "word_id": 35010
+  },
+  {
+    "word": "caθra",
+    "gloss": "to purify",
+    "transliteration": "",
+    "ipa_source": "cathra",
+    "word_id": 35011
+  },
+  {
+    "word": "cealχls",
+    "gloss": "thirty, 30",
+    "transliteration": "",
+    "ipa_source": "cealkʰls",
+    "word_id": 35017
+  },
+  {
+    "word": "cehe",
+    "gloss": "this here",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35018
+  },
+  {
+    "word": "ceia",
+    "gloss": "sacrificial pit",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35019
+  },
+  {
+    "word": "Ceisatrui",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34254
+  },
+  {
+    "word": "Ceisina",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34255
+  },
+  {
+    "word": "Ceisui",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34256
+  },
+  {
+    "word": "Cel",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34875
+  },
+  {
+    "word": "cel-",
+    "gloss": "heaven",
+    "transliteration": "",
+    "ipa_source": "celth",
+    "word_id": 35023
+  },
+  {
+    "word": "cela",
+    "gloss": "cell, mortuary, tomb",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35021
+  },
+  {
+    "word": "celati",
+    "gloss": "chamber",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34164
+  },
+  {
+    "word": "Celatina",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34257
+  },
+  {
+    "word": "celetra",
+    "gloss": "set of cells, columbarium",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35022
+  },
+  {
+    "word": "celi",
+    "gloss": "earth",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34165
+  },
+  {
+    "word": "celtinêi",
+    "gloss": "district",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34166
+  },
+  {
+    "word": "cem",
+    "gloss": "each, every",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35024
+  },
+  {
+    "word": "Cemni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34258
+  },
+  {
+    "word": "cen",
+    "gloss": "this",
+    "transliteration": "cen",
+    "ipa_source": "cen",
+    "word_id": 33638
+  },
+  {
+    "word": "cenu",
+    "gloss": "sold, ceded",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34167
+  },
+  {
+    "word": "cepar",
+    "gloss": "boundary stone, cippus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35025
+  },
+  {
+    "word": "cepen",
+    "gloss": "priest",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34169
+  },
+  {
+    "word": "cepta",
+    "gloss": "chief, commander",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35027
+  },
+  {
+    "word": "ceriχunce",
+    "gloss": "built",
+    "transliteration": "cerikhunce",
+    "ipa_source": "cerikʰunce",
+    "word_id": 33640
+  },
+  {
+    "word": "cerur",
+    "gloss": "artifacts",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35028
+  },
+  {
+    "word": "ces-",
+    "gloss": "to bury",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33760
+  },
+  {
+    "word": "ceseθce",
+    "gloss": "rested, found peace",
+    "transliteration": "",
+    "ipa_source": "cesethce",
+    "word_id": 35029
+  },
+  {
+    "word": "Ceshunia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34259
+  },
+  {
+    "word": "cesu",
+    "gloss": "buried",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34170
+  },
+  {
+    "word": "cezp",
+    "gloss": "7, seven",
+    "transliteration": "",
+    "ipa_source": "cet͡sp",
+    "word_id": 33725
+  },
+  {
+    "word": "cezp",
+    "gloss": "eight, 8",
+    "transliteration": "",
+    "ipa_source": "cet͡sp",
+    "word_id": 35033
+  },
+  {
+    "word": "cezpalχ",
+    "gloss": "thirty, 30",
+    "transliteration": "",
+    "ipa_source": "cet͡spalkʰ",
+    "word_id": 34163
+  },
+  {
+    "word": "cezpalχ",
+    "gloss": "eighty, 80",
+    "transliteration": "",
+    "ipa_source": "cet͡spalkʰ",
+    "word_id": 35032
+  },
+  {
+    "word": "ceσu",
+    "gloss": "resided",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34168
+  },
+  {
+    "word": "ceχa",
+    "gloss": "law, on behalf of, in favor of",
+    "transliteration": "",
+    "ipa_source": "cekʰa",
+    "word_id": 34171
+  },
+  {
+    "word": "ceχane",
+    "gloss": "legal",
+    "transliteration": "",
+    "ipa_source": "cekʰane",
+    "word_id": 35030
+  },
+  {
+    "word": "ceχase",
+    "gloss": "judge, jurist",
+    "transliteration": "",
+    "ipa_source": "cekʰase",
+    "word_id": 35031
+  },
+  {
+    "word": "ceχa₂",
+    "gloss": "above",
+    "transliteration": "",
+    "ipa_source": "cekʰa",
+    "word_id": 33756
+  },
+  {
+    "word": "ci",
+    "gloss": "3, three",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33721
+  },
+  {
+    "word": "cilva neri",
+    "gloss": "mead",
+    "transliteration": "",
+    "ipa_source": "cilwa neri",
+    "word_id": 35036
+  },
+  {
+    "word": "cilθ",
+    "gloss": "citadel",
+    "transliteration": "",
+    "ipa_source": "cilth",
+    "word_id": 33713
+  },
+  {
+    "word": "cilθ",
+    "gloss": "cult",
+    "transliteration": "",
+    "ipa_source": "cilth",
+    "word_id": 35034
+  },
+  {
+    "word": "clan",
+    "gloss": "son",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33623
+  },
+  {
+    "word": "clenar",
+    "gloss": "sons",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34172
+  },
+  {
+    "word": "cletram",
+    "gloss": "litter",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34173
+  },
+  {
+    "word": "Cleusinas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34260
+  },
+  {
+    "word": "cleva",
+    "gloss": "offer",
+    "transliteration": "",
+    "ipa_source": "clewa",
+    "word_id": 35037
+  },
+  {
+    "word": "clitram",
+    "gloss": "litter",
+    "transliteration": "",
+    "ipa_source": "clitram",
+    "word_id": 33770
+  },
+  {
+    "word": "cloroplis",
+    "gloss": "plant name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35062
+  },
+  {
+    "word": "cluce",
+    "gloss": "hollow, empty",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35063
+  },
+  {
+    "word": "Clueshte",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34261
+  },
+  {
+    "word": "cluθi",
+    "gloss": "vase, vase type, container",
+    "transliteration": "cluthi",
+    "ipa_source": "cluthi",
+    "word_id": 35064
+  },
+  {
+    "word": "Creicia",
+    "gloss": "place name, Greece",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35065
+  },
+  {
+    "word": "Crepus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34262
+  },
+  {
+    "word": "Cuśu",
+    "gloss": "personal name",
+    "transliteration": "Cushu",
+    "ipa_source": "",
+    "word_id": 34288
+  },
+  {
+    "word": "Cuśual",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34289
+  },
+  {
+    "word": "cuśuθuraσ",
+    "gloss": "family name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34290
+  },
+  {
+    "word": "Cucrina",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34263
+  },
+  {
+    "word": "cuiesχu",
+    "gloss": "quieted, appeased",
+    "transliteration": "",
+    "ipa_source": "cuieskʰu",
+    "word_id": 35066
+  },
+  {
+    "word": "culchna",
+    "gloss": "drinking cup",
+    "transliteration": "culchna",
+    "ipa_source": "culchna",
+    "word_id": 33657
+  },
+  {
+    "word": "culcna",
+    "gloss": "cup",
+    "transliteration": "culcna",
+    "ipa_source": "culcna",
+    "word_id": 35067
+  },
+  {
+    "word": "culiχna",
+    "gloss": "small cup",
+    "transliteration": "",
+    "ipa_source": "culikʰna",
+    "word_id": 35068
+  },
+  {
+    "word": "culs",
+    "gloss": "gate",
+    "transliteration": "",
+    "ipa_source": "culs",
+    "word_id": 33712
+  },
+  {
+    "word": "Cultces",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34284
+  },
+  {
+    "word": "Cumerunia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34285
+  },
+  {
+    "word": "cupe",
+    "gloss": "cup",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35069
+  },
+  {
+    "word": "Cupes",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34286
+  },
+  {
+    "word": "Curunas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34287
+  },
+  {
+    "word": "cver",
+    "gloss": "votive offering, donation",
+    "transliteration": "",
+    "ipa_source": "cwer",
+    "word_id": 35072
+  },
+  {
+    "word": "damnos",
+    "gloss": "horse",
+    "transliteration": "",
+    "ipa_source": "da.mnos",
+    "word_id": 35073
+  },
+  {
+    "word": "drouna",
+    "gloss": "power, sovereignty",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35074
+  },
+  {
+    "word": "Easun",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35078
+  },
+  {
+    "word": "eca",
+    "gloss": "this",
+    "transliteration": "eca",
+    "ipa_source": "eca",
+    "word_id": 33658
+  },
+  {
+    "word": "Ecapa",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34918
+  },
+  {
+    "word": "ei",
+    "gloss": "not",
+    "transliteration": "ei",
+    "ipa_source": "ei",
+    "word_id": 33626
+  },
+  {
+    "word": "eim",
+    "gloss": "nor, and not",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35079
+  },
+  {
+    "word": "ein",
+    "gloss": "not",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34919
+  },
+  {
+    "word": "ein",
+    "gloss": "not",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35080
+  },
+  {
+    "word": "Einanal",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34292
+  },
+  {
+    "word": "eis",
+    "gloss": "god",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35081
+  },
+  {
+    "word": "eiser",
+    "gloss": "gods",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35082
+  },
+  {
+    "word": "Elacsantre",
+    "gloss": "personal name",
+    "transliteration": "elacsantre",
+    "ipa_source": "elacsantre",
+    "word_id": 35083
+  },
+  {
+    "word": "Elaχsantre",
+    "gloss": "personal name",
+    "transliteration": "elakhsantre",
+    "ipa_source": "elakʰsantre",
+    "word_id": 34988
+  },
+  {
+    "word": "eleivana",
+    "gloss": "balsamarium, unguentarium",
+    "transliteration": "",
+    "ipa_source": "eleiwana",
+    "word_id": 34920
+  },
+  {
+    "word": "eleivana",
+    "gloss": "olive oil, jar for ointments",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35084
+  },
+  {
+    "word": "Elena",
+    "gloss": "personal name",
+    "transliteration": "elena",
+    "ipa_source": "elena",
+    "word_id": 35085
+  },
+  {
+    "word": "elfa",
+    "gloss": "barley",
+    "transliteration": "",
+    "ipa_source": "elfa",
+    "word_id": 34921
+  },
+  {
+    "word": "Elina",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34986
+  },
+  {
+    "word": "eliuntś",
+    "gloss": "olive producer, olive tree farmer",
+    "transliteration": "",
+    "ipa_source": "eliuntsh",
+    "word_id": 35117
+  },
+  {
+    "word": "els",
+    "gloss": "sign, signal, mark",
+    "transliteration": "",
+    "ipa_source": "els",
+    "word_id": 35118
+  },
+  {
+    "word": "enac",
+    "gloss": "then, after",
+    "transliteration": "",
+    "ipa_source": "enac",
+    "word_id": 35120
+  },
+  {
+    "word": "enan",
+    "gloss": "anything",
+    "transliteration": "",
+    "ipa_source": "enan",
+    "word_id": 33742
+  },
+  {
+    "word": "enan",
+    "gloss": "nothing, not at all",
+    "transliteration": "",
+    "ipa_source": "enan",
+    "word_id": 35121
+  },
+  {
+    "word": "Ercle",
+    "gloss": "personal name, Herakles",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35122
+  },
+  {
+    "word": "Ermania",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34987
+  },
+  {
+    "word": "erθ",
+    "gloss": "in peace",
+    "transliteration": "",
+    "ipa_source": "erth",
+    "word_id": 35077
+  },
+  {
+    "word": "eses",
+    "gloss": "equal",
+    "transliteration": "",
+    "ipa_source": "eses",
+    "word_id": 35123
+  },
+  {
+    "word": "eslśi",
+    "gloss": "second time",
+    "transliteration": "",
+    "ipa_source": "eslshi/eslt͡s",
+    "word_id": 35119
+  },
+  {
+    "word": "eslz",
+    "gloss": "twice",
+    "transliteration": "",
+    "ipa_source": "eslt͡s",
+    "word_id": 34175
+  },
+  {
+    "word": "Espi",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34876
+  },
+  {
+    "word": "esvita",
+    "gloss": "consecration",
+    "transliteration": "",
+    "ipa_source": "eswita",
+    "word_id": 35124
+  },
+  {
+    "word": "etera",
+    "gloss": "friend, partner, companion, client",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35126
+  },
+  {
+    "word": "eu",
+    "gloss": "good",
+    "transliteration": "",
+    "ipa_source": "eu",
+    "word_id": 35127
+  },
+  {
+    "word": "Eucle",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34293
+  },
+  {
+    "word": "Ezpus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "et͡spus",
+    "word_id": 34291
+  },
+  {
+    "word": "eθ",
+    "gloss": "thus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34174
+  },
+  {
+    "word": "faś",
+    "gloss": "law, divine norm",
+    "transliteration": "",
+    "ipa_source": "fash",
+    "word_id": 35142
+  },
+  {
+    "word": "faśena",
+    "gloss": "sand, ash",
+    "transliteration": "",
+    "ipa_source": "fashena",
+    "word_id": 35143
+  },
+  {
+    "word": "fala",
+    "gloss": "column, wooden post",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35128
+  },
+  {
+    "word": "faladum",
+    "gloss": "sky",
+    "transliteration": "",
+    "ipa_source": "faladum",
+    "word_id": 35129
+  },
+  {
+    "word": "fanu",
+    "gloss": "small temple, shrine",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35133
+  },
+  {
+    "word": "Fapi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35137
+  },
+  {
+    "word": "farce",
+    "gloss": "engraved",
+    "transliteration": "",
+    "ipa_source": "farce",
+    "word_id": 35138
+  },
+  {
+    "word": "farθan",
+    "gloss": "unleavened, without yeast",
+    "transliteration": "",
+    "ipa_source": "farthan",
+    "word_id": 35139
+  },
+  {
+    "word": "farθana",
+    "gloss": "virgin",
+    "transliteration": "",
+    "ipa_source": "farthana",
+    "word_id": 35140
+  },
+  {
+    "word": "faσe",
+    "gloss": "libation",
+    "transliteration": "",
+    "ipa_source": "fase",
+    "word_id": 33771
+  },
+  {
+    "word": "fetiu",
+    "gloss": "fetus, offspring, child",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35144
+  },
+  {
+    "word": "Feysalnai",
+    "gloss": "personal name",
+    "transliteration": "feysalnai",
+    "ipa_source": "feysalnai",
+    "word_id": 33644
+  },
+  {
+    "word": "flere",
+    "gloss": "spirit, divinity",
+    "transliteration": "",
+    "ipa_source": "flere",
+    "word_id": 33731
+  },
+  {
+    "word": "fleres",
+    "gloss": "votive offering",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35145
+  },
+  {
+    "word": "fler₁",
+    "gloss": "sacrifice",
+    "transliteration": "",
+    "ipa_source": "fler",
+    "word_id": 33710
+  },
+  {
+    "word": "fler₂",
+    "gloss": "victim",
+    "transliteration": "",
+    "ipa_source": "fler",
+    "word_id": 33737
+  },
+  {
+    "word": "fratuce",
+    "gloss": "incised",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34421
+  },
+  {
+    "word": "frontac",
+    "gloss": "dazzling, flashing",
+    "transliteration": "",
+    "ipa_source": "frontac",
+    "word_id": 35146
+  },
+  {
+    "word": "Fuflun",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34898
+  },
+  {
+    "word": "fulu",
+    "gloss": "washerman",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35147
+  },
+  {
+    "word": "gapos",
+    "gloss": "cart, vehicle",
+    "transliteration": "",
+    "ipa_source": "gapos",
+    "word_id": 35148
+  },
+  {
+    "word": "garouleou",
+    "gloss": "chrysanthemum, kind of plant",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35149
+  },
+  {
+    "word": "gigaroum",
+    "gloss": "estragon, tarragon",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35150
+  },
+  {
+    "word": "hamφisca₁",
+    "gloss": "right",
+    "transliteration": "",
+    "ipa_source": "hampʰisca",
+    "word_id": 34180
+  },
+  {
+    "word": "hamφisca₂",
+    "gloss": "left (direction)",
+    "transliteration": "",
+    "ipa_source": "hampʰisca",
+    "word_id": 33758
+  },
+  {
+    "word": "Hanunia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34322
+  },
+  {
+    "word": "Hapishnei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34323
+  },
+  {
+    "word": "Haprni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34324
+  },
+  {
+    "word": "Hashmun",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34325
+  },
+  {
+    "word": "Hasti",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34326
+  },
+  {
+    "word": "havrnas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "hawrnas",
+    "word_id": 34321
+  },
+  {
+    "word": "Hercle",
+    "gloss": "theonym, Herakles",
+    "transliteration": "",
+    "ipa_source": "hercle",
+    "word_id": 34877
+  },
+  {
+    "word": "Hercna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34327
+  },
+  {
+    "word": "Herine",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34328
+  },
+  {
+    "word": "Hirminai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34331
+  },
+  {
+    "word": "Hirume",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34332
+  },
+  {
+    "word": "Hulave",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "hulawe",
+    "word_id": 34336
+  },
+  {
+    "word": "Hulχenas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "hulkʰenas",
+    "word_id": 34337
+  },
+  {
+    "word": "hupni",
+    "gloss": "burial niche",
+    "transliteration": "",
+    "ipa_source": "hupni",
+    "word_id": 33714
+  },
+  {
+    "word": "hupnine",
+    "gloss": "sarcophagus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34181
+  },
+  {
+    "word": "huθ",
+    "gloss": "6, six",
+    "transliteration": "",
+    "ipa_source": "huth",
+    "word_id": 33724
+  },
+  {
+    "word": "huσ",
+    "gloss": "child",
+    "transliteration": "",
+    "ipa_source": "hus",
+    "word_id": 33708
+  },
+  {
+    "word": "huσur",
+    "gloss": "children",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34182
+  },
+  {
+    "word": "Hvlave",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "Flave",
+    "word_id": 34329
+  },
+  {
+    "word": "Hvuluves",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "Fuluves",
+    "word_id": 34330
+  },
+  {
+    "word": "ilucu",
+    "gloss": "sacrifice, ritual, lament, funeral song",
+    "transliteration": "",
+    "ipa_source": "ilucu",
+    "word_id": 34908
+  },
+  {
+    "word": "in",
+    "gloss": "which",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34187
+  },
+  {
+    "word": "itun",
+    "gloss": "this",
+    "transliteration": "itun",
+    "ipa_source": "itun",
+    "word_id": 33630
+  },
+  {
+    "word": "iχ",
+    "gloss": "as",
+    "transliteration": "",
+    "ipa_source": "ikʰ",
+    "word_id": 34188
+  },
+  {
+    "word": "iχnac",
+    "gloss": "how",
+    "transliteration": "",
+    "ipa_source": "ikʰnac",
+    "word_id": 34189
+  },
+  {
+    "word": "kaiseriθesi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "kaiserithesi",
+    "word_id": 34345
+  },
+  {
+    "word": "Kaisie",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "kaisie",
+    "word_id": 34346
+  },
+  {
+    "word": "Kanzinai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "kant͡sinai",
+    "word_id": 34347
+  },
+  {
+    "word": "kapra",
+    "gloss": "goat",
+    "transliteration": "kapra",
+    "ipa_source": "kapra",
+    "word_id": 33646
+  },
+  {
+    "word": "Karkana",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34348
+  },
+  {
+    "word": "karkanas",
+    "gloss": "personal name",
+    "transliteration": "karkanas",
+    "ipa_source": "karkanas",
+    "word_id": 33654
+  },
+  {
+    "word": "Karku",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34349
+  },
+  {
+    "word": "Kartazie",
+    "gloss": "personal name",
+    "transliteration": "kartazie",
+    "ipa_source": "kartat͡sie",
+    "word_id": 34350
+  },
+  {
+    "word": "Kavθa",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "kawtha",
+    "word_id": 34880
+  },
+  {
+    "word": "Lapanas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "lapanas",
+    "word_id": 34353
+  },
+  {
+    "word": "Larece",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34354
+  },
+  {
+    "word": "Laris",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34390
+  },
+  {
+    "word": "Lariza",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "larit͡sa",
+    "word_id": 34389
+  },
+  {
+    "word": "Lart",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34391
+  },
+  {
+    "word": "Larza",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "lart͡sa",
+    "word_id": 34355
+  },
+  {
+    "word": "Larθ",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "larth",
+    "word_id": 34356
+  },
+  {
+    "word": "Latini",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34392
+  },
+  {
+    "word": "Lauśa",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34393
+  },
+  {
+    "word": "lautni",
+    "gloss": "freedman, free",
+    "transliteration": "",
+    "ipa_source": "lawtni",
+    "word_id": 34191
+  },
+  {
+    "word": "lautniθa",
+    "gloss": "free woman",
+    "transliteration": "",
+    "ipa_source": "lautnitha",
+    "word_id": 34193
+  },
+  {
+    "word": "lavtni",
+    "gloss": "freeman",
+    "transliteration": "",
+    "ipa_source": "lawtni",
+    "word_id": 34190
+  },
+  {
+    "word": "Laθerna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "latherna",
+    "word_id": 34352
+  },
+  {
+    "word": "Lemni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34395
+  },
+  {
+    "word": "Leθams",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "lethams",
+    "word_id": 34881
+  },
+  {
+    "word": "Leθes",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "lethes",
+    "word_id": 34394
+  },
+  {
+    "word": "leχtumuza",
+    "gloss": "oil-flask",
+    "transliteration": "",
+    "ipa_source": "lekʰtumut͡sa",
+    "word_id": 34194
+  },
+  {
+    "word": "Licene",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34396
+  },
+  {
+    "word": "Limurce",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34397
+  },
+  {
+    "word": "Luśa",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "lusha",
+    "word_id": 34883
+  },
+  {
+    "word": "Lucer",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34398
+  },
+  {
+    "word": "Luiśna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34400
+  },
+  {
+    "word": "lupu",
+    "gloss": "dead",
+    "transliteration": "",
+    "ipa_source": "lupu",
+    "word_id": 33764
+  },
+  {
+    "word": "Lurmi",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34882
+  },
+  {
+    "word": "Luvχmes",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "luwkʰmes",
+    "word_id": 34399
+  },
+  {
+    "word": "luθ-",
+    "gloss": "sacred area",
+    "transliteration": "",
+    "ipa_source": "luth",
+    "word_id": 34195
+  },
+  {
+    "word": "Lárice",
+    "gloss": "personal name",
+    "transliteration": "lárice",
+    "ipa_source": "lárice",
+    "word_id": 33655
+  },
+  {
+    "word": "Maclae",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34401
+  },
+  {
+    "word": "malakasi",
+    "gloss": "beautiful",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34197
+  },
+  {
+    "word": "malana",
+    "gloss": "mirror",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34196
+  },
+  {
+    "word": "Mamarce",
+    "gloss": "personal name",
+    "transliteration": "mamarce",
+    "ipa_source": "mamarce",
+    "word_id": 33641
+  },
+  {
+    "word": "man",
+    "gloss": "monument",
+    "transliteration": "",
+    "ipa_source": "man",
+    "word_id": 33739
+  },
+  {
+    "word": "manim",
+    "gloss": "funerary monument",
+    "transliteration": "",
+    "ipa_source": "manim",
+    "word_id": 33767
+  },
+  {
+    "word": "Marce",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34402
+  },
+  {
+    "word": "Matrns",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "matrns",
+    "word_id": 34884
+  },
+  {
+    "word": "Matunai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34403
+  },
+  {
+    "word": "maχ",
+    "gloss": "5, five",
+    "transliteration": "",
+    "ipa_source": "makʰ",
+    "word_id": 33723
+  },
+  {
+    "word": "Mefanate",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34410
+  },
+  {
+    "word": "Melacinas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34405
+  },
+  {
+    "word": "Meluta",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34406
+  },
+  {
+    "word": "mene",
+    "gloss": "me",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34199
+  },
+  {
+    "word": "menece",
+    "gloss": "made",
+    "transliteration": "",
+    "ipa_source": "menece",
+    "word_id": 33748
+  },
+  {
+    "word": "Menerva",
+    "gloss": "theonym, Minerva",
+    "transliteration": "menerva",
+    "ipa_source": "menerwa",
+    "word_id": 33632
+  },
+  {
+    "word": "Meteli",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34407
+  },
+  {
+    "word": "Metiena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34409
+  },
+  {
+    "word": "Mezenties",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "met͡senties",
+    "word_id": 34404
+  },
+  {
+    "word": "meθlume",
+    "gloss": "city",
+    "transliteration": "",
+    "ipa_source": "methlume",
+    "word_id": 33769
+  },
+  {
+    "word": "meχli",
+    "gloss": "territory",
+    "transliteration": "",
+    "ipa_source": "mekʰli",
+    "word_id": 34198
+  },
+  {
+    "word": "mi",
+    "gloss": "I",
+    "transliteration": "mi",
+    "ipa_source": "mi",
+    "word_id": 33624
+  },
+  {
+    "word": "mini",
+    "gloss": "me",
+    "transliteration": "mini",
+    "ipa_source": "mini",
+    "word_id": 33628
+  },
+  {
+    "word": "mlakas",
+    "gloss": "beautiful",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34200
+  },
+  {
+    "word": "mlaχ",
+    "gloss": "good, beautiful",
+    "transliteration": "",
+    "ipa_source": "mlakʰ",
+    "word_id": 33733
+  },
+  {
+    "word": "moutoθka",
+    "gloss": "plant name, anagallis",
+    "transliteration": "moutothka",
+    "ipa_source": "moutothka",
+    "word_id": 33650
+  },
+  {
+    "word": "mul-",
+    "gloss": "to give",
+    "transliteration": "",
+    "ipa_source": "mul",
+    "word_id": 33759
+  },
+  {
+    "word": "muluvanice",
+    "gloss": "gave",
+    "transliteration": "muluvanice",
+    "ipa_source": "muluwanice",
+    "word_id": 33629
+  },
+  {
+    "word": "Murila",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34412
+  },
+  {
+    "word": "murσ",
+    "gloss": "ossuary",
+    "transliteration": "",
+    "ipa_source": "murs",
+    "word_id": 33716
+  },
+  {
+    "word": "mutna",
+    "gloss": "sarcophagus",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34202
+  },
+  {
+    "word": "muvalχls",
+    "gloss": "fifty",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34201
+  },
+  {
+    "word": "Muθiku",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "muthiku",
+    "word_id": 34411
+  },
+  {
+    "word": "nac",
+    "gloss": "when, because",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34203
+  },
+  {
+    "word": "nefts",
+    "gloss": "nephew, grandson",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33793
+  },
+  {
+    "word": "Nevza",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "newt͡sa",
+    "word_id": 34899
+  },
+  {
+    "word": "Neθuns",
+    "gloss": "Neptune, Poseidon, theonym",
+    "transliteration": "",
+    "ipa_source": "nethuns",
+    "word_id": 33732
+  },
+  {
+    "word": "Nufreśa",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "nufresha",
+    "word_id": 34416
+  },
+  {
+    "word": "Nulaθe",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "nulathe",
+    "word_id": 34414
+  },
+  {
+    "word": "Numna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34415
+  },
+  {
+    "word": "nurφ",
+    "gloss": "9, nine",
+    "transliteration": "",
+    "ipa_source": "nurpʰ",
+    "word_id": 33727
+  },
+  {
+    "word": "Nuzinaie",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "nut͡sinaie",
+    "word_id": 34413
+  },
+  {
+    "word": "nuθ-",
+    "gloss": "to listen to",
+    "transliteration": "",
+    "ipa_source": "nuth",
+    "word_id": 34204
+  },
+  {
+    "word": "paiθinaie",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "paithinaie",
+    "word_id": 34425
+  },
+  {
+    "word": "palazui",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "palat͡sui",
+    "word_id": 34426
+  },
+  {
+    "word": "palpe",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34427
+  },
+  {
+    "word": "papals",
+    "gloss": "nephew",
+    "transliteration": "",
+    "ipa_source": "papals",
+    "word_id": 33707
+  },
+  {
+    "word": "papalser",
+    "gloss": "grandchilden",
+    "transliteration": "",
+    "ipa_source": "papalser",
+    "word_id": 33766
+  },
+  {
+    "word": "Parfilunia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "parfilunia",
+    "word_id": 34429
+  },
+  {
+    "word": "Parkena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34434
+  },
+  {
+    "word": "Partunus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34430
+  },
+  {
+    "word": "patara",
+    "gloss": "shallow bowl",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34213
+  },
+  {
+    "word": "Patrus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34431
+  },
+  {
+    "word": "Peśna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "peshna",
+    "word_id": 34435
+  },
+  {
+    "word": "penθuna",
+    "gloss": "cippus",
+    "transliteration": "",
+    "ipa_source": "penthuna",
+    "word_id": 34214
+  },
+  {
+    "word": "Percumsna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34248
+  },
+  {
+    "word": "Petce",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34436
+  },
+  {
+    "word": "Petru",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "petru",
+    "word_id": 34437
+  },
+  {
+    "word": "Petruni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34438
+  },
+  {
+    "word": "Peθna",
+    "gloss": "peronal name",
+    "transliteration": "",
+    "ipa_source": "pethna",
+    "word_id": 34432
+  },
+  {
+    "word": "Peθunus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "pethunus",
+    "word_id": 34433
+  },
+  {
+    "word": "Pilipus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 35151
+  },
+  {
+    "word": "Pisna",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34459
+  },
+  {
+    "word": "pivi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34458
+  },
+  {
+    "word": "Platunalu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34460
+  },
+  {
+    "word": "Prasanai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34461
+  },
+  {
+    "word": "Precuθuraσi",
+    "gloss": "family name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34462
+  },
+  {
+    "word": "prumaθσ",
+    "gloss": "great grandson",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34215
+  },
+  {
+    "word": "pruχum",
+    "gloss": "jug, vase",
+    "transliteration": "",
+    "ipa_source": "prukʰum",
+    "word_id": 34216
+  },
+  {
+    "word": "puia",
+    "gloss": "wife",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34217
+  },
+  {
+    "word": "Pulena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34463
+  },
+  {
+    "word": "Pulia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34464
+  },
+  {
+    "word": "pulum",
+    "gloss": "star",
+    "transliteration": "",
+    "ipa_source": "pulum",
+    "word_id": 33711
+  },
+  {
+    "word": "Pumpu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34465
+  },
+  {
+    "word": "Pumpui",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34466
+  },
+  {
+    "word": "putina",
+    "gloss": "flask",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34218
+  },
+  {
+    "word": "puθs",
+    "gloss": "place",
+    "transliteration": "",
+    "ipa_source": "puths",
+    "word_id": 33735
+  },
+  {
+    "word": "Qutu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34467
+  },
+  {
+    "word": "qutum",
+    "gloss": "wine pitcher",
+    "transliteration": "qutum",
+    "ipa_source": "qutum",
+    "word_id": 33653
+  },
+  {
+    "word": "Rakalu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34810
+  },
+  {
+    "word": "Ramuθa",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "ramutha",
+    "word_id": 34812
+  },
+  {
+    "word": "Ramθa",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "ramtha",
+    "word_id": 34811
+  },
+  {
+    "word": "Raqunθi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "raqunthi",
+    "word_id": 34813
+  },
+  {
+    "word": "Ravnθu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "rawnthu",
+    "word_id": 34468
+  },
+  {
+    "word": "Raθ",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "rath",
+    "word_id": 34888
+  },
+  {
+    "word": "raσna",
+    "gloss": "public, people",
+    "transliteration": "",
+    "ipa_source": "rasna",
+    "word_id": 34220
+  },
+  {
+    "word": "ril",
+    "gloss": "age",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34221
+  },
+  {
+    "word": "Rutelnai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34816
+  },
+  {
+    "word": "ruva",
+    "gloss": "brother",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34222
+  },
+  {
+    "word": "Ruvfi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34815
+  },
+  {
+    "word": "sanicle",
+    "gloss": "sanctuary",
+    "transliteration": "",
+    "ipa_source": "sanicle",
+    "word_id": 33768
+  },
+  {
+    "word": "Sanχu",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "sankʰu",
+    "word_id": 34889
+  },
+  {
+    "word": "Satnei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34820
+  },
+  {
+    "word": "Saturnies",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "saturnies",
+    "word_id": 34821
+  },
+  {
+    "word": "Saupunias",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34817
+  },
+  {
+    "word": "sealχls",
+    "gloss": "forty",
+    "transliteration": "",
+    "ipa_source": "sealkʰls",
+    "word_id": 33788
+  },
+  {
+    "word": "Sekśtalus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "sekśtalus",
+    "word_id": 34385
+  },
+  {
+    "word": "Selvans",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "selwans",
+    "word_id": 34890
+  },
+  {
+    "word": "Semni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34829
+  },
+  {
+    "word": "semφ",
+    "gloss": "8, eight",
+    "transliteration": "",
+    "ipa_source": "sempʰ",
+    "word_id": 33726
+  },
+  {
+    "word": "semφalχls",
+    "gloss": "seventy-five, 75",
+    "transliteration": "",
+    "ipa_source": "sempʰalkʰls",
+    "word_id": 33763
+  },
+  {
+    "word": "Setiu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "setiu",
+    "word_id": 34830
+  },
+  {
+    "word": "Silqetenas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "silqetenas",
+    "word_id": 34834
+  },
+  {
+    "word": "snuiuφ",
+    "gloss": "12, twelve",
+    "transliteration": "",
+    "ipa_source": "snuiupʰ",
+    "word_id": 33729
+  },
+  {
+    "word": "spanti",
+    "gloss": "plate, dish",
+    "transliteration": "spanti",
+    "ipa_source": "spanti",
+    "word_id": 33656
+  },
+  {
+    "word": "Spantui",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "spantui",
+    "word_id": 34837
+  },
+  {
+    "word": "Spantus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "spantus",
+    "word_id": 34838
+  },
+  {
+    "word": "spanθi",
+    "gloss": "plain",
+    "transliteration": "spanthi",
+    "ipa_source": "spanthi",
+    "word_id": 34224
+  },
+  {
+    "word": "sparza",
+    "gloss": "tablet",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34226
+  },
+  {
+    "word": "Spitus",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "spitus",
+    "word_id": 34839
+  },
+  {
+    "word": "Spourianas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "spourianas",
+    "word_id": 34840
+  },
+  {
+    "word": "spure",
+    "gloss": "community",
+    "transliteration": "",
+    "ipa_source": "spure",
+    "word_id": 33765
+  },
+  {
+    "word": "Spurie",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "spurie",
+    "word_id": 34841
+  },
+  {
+    "word": "Squlia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "squlia",
+    "word_id": 34842
+  },
+  {
+    "word": "sren",
+    "gloss": "scene",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34227
+  },
+  {
+    "word": "Statlane",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "statlane",
+    "word_id": 34843
+  },
+  {
+    "word": "Sucisnaia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "sucisnaia",
+    "word_id": 34844
+  },
+  {
+    "word": "suθ-",
+    "gloss": "to put, to place",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34228
+  },
+  {
+    "word": "sval",
+    "gloss": "living, alive",
+    "transliteration": "",
+    "ipa_source": "swal",
+    "word_id": 33753
+  },
+  {
+    "word": "ta",
+    "gloss": "the",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34231
+  },
+  {
+    "word": "tamera",
+    "gloss": "tomb chamber",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34232
+  },
+  {
+    "word": "Tarxnas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tarxnas",
+    "word_id": 34846
+  },
+  {
+    "word": "Tata",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tata",
+    "word_id": 34847
+  },
+  {
+    "word": "Tati",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tati",
+    "word_id": 34848
+  },
+  {
+    "word": "Tecśinei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tecshinei",
+    "word_id": 34849
+  },
+  {
+    "word": "Tece Śans",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "tece shans",
+    "word_id": 34891
+  },
+  {
+    "word": "tei",
+    "gloss": "this",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34233
+  },
+  {
+    "word": "Teiθurnas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "teithurnas",
+    "word_id": 34850
+  },
+  {
+    "word": "Telaθuras",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "telathuras",
+    "word_id": 34851
+  },
+  {
+    "word": "Telicles",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "telicles",
+    "word_id": 34852
+  },
+  {
+    "word": "Telmun",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34279
+  },
+  {
+    "word": "tenθa",
+    "gloss": "measures",
+    "transliteration": "",
+    "ipa_source": "tentha",
+    "word_id": 34234
+  },
+  {
+    "word": "Tetana",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tetana",
+    "word_id": 34853
+  },
+  {
+    "word": "Tetanu",
+    "gloss": "theonym, epithet",
+    "transliteration": "",
+    "ipa_source": "tetanu",
+    "word_id": 34892
+  },
+  {
+    "word": "Tetnies",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tetnies",
+    "word_id": 34854
+  },
+  {
+    "word": "Tiścuśnei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tishcushnei",
+    "word_id": 34856
+  },
+  {
+    "word": "tiśσ",
+    "gloss": "lake",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34235
+  },
+  {
+    "word": "Tinia",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34893
+  },
+  {
+    "word": "Tipei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34855
+  },
+  {
+    "word": "Tita",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tita",
+    "word_id": 34857
+  },
+  {
+    "word": "Tite",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tite",
+    "word_id": 34858
+  },
+  {
+    "word": "Titela",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34859
+  },
+  {
+    "word": "Titena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "titena",
+    "word_id": 34860
+  },
+  {
+    "word": "Titi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "titi",
+    "word_id": 34861
+  },
+  {
+    "word": "Titlni",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "titlni",
+    "word_id": 34863
+  },
+  {
+    "word": "Titnei",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "titnei",
+    "word_id": 34862
+  },
+  {
+    "word": "Tiφile",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tipʰile",
+    "word_id": 34864
+  },
+  {
+    "word": "Tlena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34865
+  },
+  {
+    "word": "Trepu",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "trepu",
+    "word_id": 34894
+  },
+  {
+    "word": "Treseles",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "treseles",
+    "word_id": 34866
+  },
+  {
+    "word": "trin",
+    "gloss": "to say, to invoke, to utter",
+    "transliteration": "",
+    "ipa_source": "trin",
+    "word_id": 33730
+  },
+  {
+    "word": "trutnvt",
+    "gloss": "interpreter",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34237
+  },
+  {
+    "word": "Truφun",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "trupʰun",
+    "word_id": 34867
+  },
+  {
+    "word": "Tulalu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34868
+  },
+  {
+    "word": "tular",
+    "gloss": "boundary stone, boundary",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34238
+  },
+  {
+    "word": "Tulumne",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "tulumne",
+    "word_id": 34869
+  },
+  {
+    "word": "tur",
+    "gloss": "give",
+    "transliteration": "",
+    "ipa_source": "tur",
+    "word_id": 33743
+  },
+  {
+    "word": "tura",
+    "gloss": "shall place",
+    "transliteration": "",
+    "ipa_source": "tura",
+    "word_id": 33747
+  },
+  {
+    "word": "Turan",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34896
+  },
+  {
+    "word": "Turms",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34895
+  },
+  {
+    "word": "turuce",
+    "gloss": "gave, dedicated",
+    "transliteration": "",
+    "ipa_source": "turuce",
+    "word_id": 33744
+  },
+  {
+    "word": "tuθineσ",
+    "gloss": "city ward",
+    "transliteration": "",
+    "ipa_source": "tuthines",
+    "word_id": 33751
+  },
+  {
+    "word": "une",
+    "gloss": "for you",
+    "transliteration": "",
+    "ipa_source": "une",
+    "word_id": 33734
+  },
+  {
+    "word": "Uni",
+    "gloss": "theonym",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34897
+  },
+  {
+    "word": "Veśi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34309
+  },
+  {
+    "word": "Vel",
+    "gloss": "personal name",
+    "transliteration": "vel",
+    "ipa_source": "wel",
+    "word_id": 33637
+  },
+  {
+    "word": "Velara",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34295
+  },
+  {
+    "word": "Velaθri",
+    "gloss": "place name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34902
+  },
+  {
+    "word": "Velelia",
+    "gloss": "personal name",
+    "transliteration": "velelia",
+    "ipa_source": "welelia",
+    "word_id": 33643
+  },
+  {
+    "word": "Velelias",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34297
+  },
+  {
+    "word": "Veleθnalas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "welethnalas",
+    "word_id": 34296
+  },
+  {
+    "word": "Velia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34300
+  },
+  {
+    "word": "Velkasnas",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34301
+  },
+  {
+    "word": "Velθur",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34298
+  },
+  {
+    "word": "Velθuria",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34299
+  },
+  {
+    "word": "Velσu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "welsu",
+    "word_id": 34302
+  },
+  {
+    "word": "Velχaesi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "welkʰaesi",
+    "word_id": 34303
+  },
+  {
+    "word": "Velχai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "welkʰai",
+    "word_id": 34304
+  },
+  {
+    "word": "Venalia",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34305
+  },
+  {
+    "word": "Venatres",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34306
+  },
+  {
+    "word": "Venel",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34307
+  },
+  {
+    "word": "Venu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34308
+  },
+  {
+    "word": "Vetu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34310
+  },
+  {
+    "word": "Vhlakunaie",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "Flakunaie",
+    "word_id": 34311
+  },
+  {
+    "word": "Vhulve",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34312
+  },
+  {
+    "word": "Vhulχena",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "Fulkʰena",
+    "word_id": 34313
+  },
+  {
+    "word": "vinum",
+    "gloss": "wine",
+    "transliteration": "vinum",
+    "ipa_source": "winum",
+    "word_id": 33661
+  },
+  {
+    "word": "Vinumai",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34314
+  },
+  {
+    "word": "Vipi",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34315
+  },
+  {
+    "word": "Vipinal",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34316
+  },
+  {
+    "word": "Vipinal",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34317
+  },
+  {
+    "word": "Vuvze",
+    "gloss": "personal name",
+    "transliteration": "vuvze",
+    "ipa_source": "wuwt͡se",
+    "word_id": 34319
+  },
+  {
+    "word": "zal",
+    "gloss": "2, two",
+    "transliteration": "",
+    "ipa_source": "t͡sal",
+    "word_id": 33720
+  },
+  {
+    "word": "zatlaθ",
+    "gloss": "guard",
+    "transliteration": "zatlath",
+    "ipa_source": "t͡satlath",
+    "word_id": 33660
+  },
+  {
+    "word": "zaθrmisc",
+    "gloss": "twenty, 20",
+    "transliteration": "",
+    "ipa_source": "t͡sathrmisc",
+    "word_id": 34176
+  },
+  {
+    "word": "zaθrumsne",
+    "gloss": "twentieth, 20th",
+    "transliteration": "",
+    "ipa_source": "t͡sathrumsne",
+    "word_id": 33757
+  },
+  {
+    "word": "zaθrumsne",
+    "gloss": "twentieth, 20th",
+    "transliteration": "",
+    "ipa_source": "t͡sathrumsne",
+    "word_id": 34177
+  },
+  {
+    "word": "zic",
+    "gloss": "document, writing",
+    "transliteration": "",
+    "ipa_source": "t͡sic",
+    "word_id": 33740
+  },
+  {
+    "word": "zilc",
+    "gloss": "governor",
+    "transliteration": "",
+    "ipa_source": "t͡silc",
+    "word_id": 33761
+  },
+  {
+    "word": "zilci",
+    "gloss": "governorship",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 34178
+  },
+  {
+    "word": "zin-",
+    "gloss": "to make, to create",
+    "transliteration": "",
+    "ipa_source": "t͡sin",
+    "word_id": 34179
+  },
+  {
+    "word": "zinace",
+    "gloss": "fashioned, made",
+    "transliteration": "",
+    "ipa_source": "t͡sinace",
+    "word_id": 33806
+  },
+  {
+    "word": "zivaσ",
+    "gloss": "living",
+    "transliteration": "",
+    "ipa_source": "t͡siwas",
+    "word_id": 33736
+  },
+  {
+    "word": "ziχuχe",
+    "gloss": "was designed, was painted, was written",
+    "transliteration": "",
+    "ipa_source": "",
+    "word_id": 33754
+  },
+  {
+    "word": "Zuqu",
+    "gloss": "personal name",
+    "transliteration": "",
+    "ipa_source": "t͡suqu",
+    "word_id": 34320
+  },
+  {
+    "word": "zusle",
+    "gloss": "offering",
+    "transliteration": "",
+    "ipa_source": "t͡susle",
+    "word_id": 33715
+  }
+]

@@ -71,6 +71,23 @@ LANGUAGE_CONFIGS = {
         "iso_for_translit": "xcr",
         "tsv_filename": "xcr.tsv",
     },
+    "xlw": {
+        "name": "Luwian",
+        "specs": [
+            {"headword_sub": "Luwian", "headword_spec": "Cuneiform Luwian"},
+            {"headword_sub": "Luwian", "headword_spec": "Hieroglyphic Luwian"},
+        ],
+        "iso_for_translit": "hit",  # closest transliteration map (Anatolian)
+        "tsv_filename": "xlw.tsv",
+    },
+    "xhu": {
+        "name": "Hurrian",
+        "specs": [
+            {"headword_sub": "Hurrian", "headword_spec": "Hurrian"},
+        ],
+        "iso_for_translit": "xur",  # closest transliteration map (Hurro-Urartian)
+        "tsv_filename": "xhu.tsv",
+    },
 }
 
 
@@ -129,9 +146,9 @@ def fetch_language_entries(config: dict) -> list[dict]:
             if not isinstance(item, dict):
                 continue
 
-            lemma = item.get("L_lemma_full", "").strip()
-            translit = item.get("L_trans", "").strip()
-            lang = item.get("L_lang", "").strip()
+            lemma = (item.get("L_lemma_full") or "").strip()
+            translit = (item.get("L_trans") or "").strip()
+            lang = (item.get("L_lang") or "").strip()
             entry_id = item.get("L_id", "")
 
             if not lemma:
@@ -208,29 +225,32 @@ def process_language(iso: str, config: dict, dry_run: bool = False) -> dict:
             for e in new_entries:
                 word = e["word"]
 
-                # Use transliteration if available, else use word form
-                translit = e.get("transliteration", "")
+                # eDiAna L_trans is the English GLOSS, not a transliteration.
+                # Use the word form itself for IPA conversion.
                 try:
-                    ipa = transliterate(
-                        translit if translit else word,
-                        config["iso_for_translit"],
-                    )
+                    ipa = transliterate(word, config["iso_for_translit"])
                 except Exception:
-                    ipa = translit if translit else word
+                    ipa = word
 
                 try:
                     sca = ipa_to_sound_class(ipa)
                 except Exception:
                     sca = ""
 
-                concept_id = "-"
+                # Use L_trans (stored as "transliteration") as concept/gloss
+                gloss = e.get("transliteration", "").strip()
+                if gloss:
+                    concept_id = gloss.split(",")[0].split(";")[0].strip()
+                    concept_id = concept_id.replace(" ", "_").lower()[:50]
+                else:
+                    concept_id = "-"
 
                 f.write(f"{word}\t{ipa}\t{sca}\tediana\t{concept_id}\t-\n")
                 new_count += 1
 
                 audit_trail.append({
                     "word": word,
-                    "transliteration": translit,
+                    "gloss": gloss,
                     "ipa": ipa,
                     "entry_id": e.get("entry_id", ""),
                     "language_detail": e.get("language_detail", ""),
