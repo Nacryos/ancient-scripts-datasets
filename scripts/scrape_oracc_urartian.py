@@ -18,6 +18,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import logging
 import re
@@ -25,6 +26,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -70,6 +72,72 @@ def fetch_json(url: str) -> dict | None:
                 return None
 
 
+def strategy_zip_glossary(project: str = "ecut") -> list[dict]:
+    """Strategy 0: Download the project zip and extract gloss-xur.json.
+
+    Oracc serves full project data as zip at /json/{project}.zip.
+    The zip contains ecut/gloss-xur.json with structured glossary entries.
+    """
+    entries = []
+    zip_url = f"{ORACC_BASE}/json/{project}.zip"
+    logger.info("Downloading zip: %s", zip_url)
+
+    req = urllib.request.Request(zip_url, headers={"User-Agent": USER_AGENT})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                raw = resp.read()
+            break
+        except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
+            if attempt < 2:
+                logger.warning("Retry %d for %s: %s", attempt + 1, zip_url, exc)
+                time.sleep(5 * (attempt + 1))
+            else:
+                logger.warning("FAILED to fetch %s: %s", zip_url, exc)
+                return entries
+
+    if len(raw) < 100:
+        logger.info("Zip too small (%d bytes), likely empty", len(raw))
+        return entries
+
+    logger.info("Downloaded %d bytes", len(raw))
+
+    try:
+        with zipfile.ZipFile(io.BytesIO(raw)) as zf:
+            # Try main glossary first, then numbered variants
+            gloss_files = [n for n in zf.namelist()
+                          if "gloss-xur" in n and n.endswith(".json")]
+            logger.info("Found glossary files: %s", gloss_files)
+
+            for gf in sorted(gloss_files):
+                try:
+                    with zf.open(gf) as f:
+                        content = f.read()
+                    if not content or not content.strip():
+                        logger.info("  Skipping empty file: %s", gf)
+                        continue
+                    data = json.loads(content)
+                except (json.JSONDecodeError, ValueError) as exc:
+                    logger.warning("  Failed to parse %s: %s", gf, exc)
+                    continue
+
+                if not isinstance(data, dict):
+                    continue
+
+                for ge in data.get("entries", []):
+                    if not isinstance(ge, dict):
+                        continue
+                    cf = ge.get("cf", "")
+                    gw = ge.get("gw", "")
+                    if cf and gw:
+                        entries.append({"word": cf, "gloss": gw})
+    except (zipfile.BadZipFile, KeyError) as exc:
+        logger.warning("Failed to read zip: %s", exc)
+
+    logger.info("Strategy zip glossary: %d entries", len(entries))
+    return entries
+
+
 def strategy_glossary(project: str = "ecut") -> list[dict]:
     """Strategy 1: Fetch the Urartian glossary JSON."""
     entries = []
@@ -87,6 +155,9 @@ def strategy_glossary(project: str = "ecut") -> list[dict]:
         if not data:
             continue
 
+        if not isinstance(data, dict):
+            logger.info("Glossary returned non-dict type: %s", type(data).__name__)
+            continue
         logger.info("Glossary response keys: %s", list(data.keys())[:10])
 
         # Parse glossary entries
@@ -129,6 +200,9 @@ def strategy_index_lem(project: str = "ecut") -> list[dict]:
         if not data:
             continue
 
+        if not isinstance(data, dict):
+            logger.info("Index returned non-dict type: %s", type(data).__name__)
+            continue
         logger.info("Index response keys: %s", list(data.keys())[:10])
 
         # Parse index: {"lemma": {"cf": "...", "gw": "...", "instances": [...]}}
@@ -163,7 +237,8 @@ def strategy_catalogue_cdl(project: str = "ecut") -> list[dict]:
     cat_url = f"{ORACC_BASE}/{project}/json/cat.json"
     logger.info("Trying catalogue URL: %s", cat_url)
     cat_data = fetch_json(cat_url)
-    if not cat_data:
+    if not cat_data or not isinstance(cat_data, dict):
+        logger.info("Catalogue returned non-dict type: %s", type(cat_data).__name__ if cat_data else "None")
         return entries
 
     # Get text IDs from catalogue
@@ -256,14 +331,19 @@ def main():
     existing = load_existing_words(tsv_path)
     logger.info("Loaded %d existing Urartian entries", len(existing))
 
-    # Try all 3 strategies
+    # Try strategies in order (zip is most reliable)
     all_entries: list[dict] = []
 
-    logger.info("=== Strategy 1: Glossary ===")
-    entries = strategy_glossary()
+    logger.info("=== Strategy 0: Zip Glossary ===")
+    entries = strategy_zip_glossary()
     all_entries.extend(entries)
 
     if not entries:
+        logger.info("=== Strategy 1: Glossary ===")
+        entries = strategy_glossary()
+        all_entries.extend(entries)
+
+    if not all_entries:
         logger.info("=== Strategy 2: Index/Lem ===")
         entries = strategy_index_lem()
         all_entries.extend(entries)

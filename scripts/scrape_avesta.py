@@ -100,9 +100,80 @@ def fetch_page(url: str) -> str:
 def find_subpage_links(html: str) -> list[str]:
     """Extract links to letter-specific dictionary pages."""
     links = re.findall(r'href="(avdict[a-z0-9]*\.htm)"', html, re.IGNORECASE)
+    # Also look for other dictionary page patterns
+    links += re.findall(r'href="(av5[a-z]+\.htm)"', html, re.IGNORECASE)
     # Deduplicate and sort
     unique = sorted(set(links))
     return [f"{BASE_URL}{link}" for link in unique if link != "avdict.htm"]
+
+
+def extract_entries_from_single_page(html: str) -> list[dict]:
+    """Extract dictionary entries from the avesta.org single-page dictionary.
+
+    Format: word [root] - count (grammar) pos. English gloss
+    Example: ashava [ashavan] - 102 (N,duNAV,nNA) m. Ashavan, Asha-endowed
+    """
+    entries: list[dict] = []
+
+    # Strip HTML tags but preserve line breaks
+    text = re.sub(r"<br\s*/?>", "\n", html, flags=re.IGNORECASE)
+    text = re.sub(r"</?p[^>]*>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = text.replace("&nbsp;", " ")
+    text = text.replace("&amp;", "&")
+
+    # Pattern: word [root] - count (grammar) pos. English
+    # or: word - count (grammar) pos. English
+    pattern = re.compile(
+        r'^([a-zA-Zāēīōūəąęðθšžŋɣβγñδṣṭḍṇḷṃṁ\u0300-\u036f\-]+)'  # headword
+        r'\s*'
+        r'(?:\[([^\]]+)\]\s*)?'            # optional [root]
+        r'[-–—]\s*'                         # dash separator
+        r'(\d+)\s*'                         # count
+        r'(?:\([^)]*\)\s*)?'               # optional (grammar)
+        r'(?:[mfn]\.\s*)?'                 # optional pos
+        r'(.+?)$',                          # English gloss
+        re.MULTILINE,
+    )
+
+    for m in pattern.finditer(text):
+        headword = m.group(1).strip()
+        root = m.group(2).strip() if m.group(2) else ""
+        gloss = m.group(4).strip()
+
+        # Clean gloss
+        gloss = re.sub(r"\s+", " ", gloss)
+        gloss = re.sub(r"[,;:\s]+$", "", gloss)
+        # Take first meaningful part of gloss (before technical notes)
+        if ". " in gloss:
+            gloss = gloss.split(". ")[0]
+        if len(gloss) > 80:
+            gloss = gloss[:80].rsplit(" ", 1)[0]
+
+        # Use root form if available, otherwise headword
+        word = root if root else headword
+
+        if word and gloss and len(word) >= 2 and len(word) <= 40:
+            entries.append({"word": word, "gloss": gloss})
+
+    # Also try a simpler pattern for entries without counts
+    simple_pattern = re.compile(
+        r'^([a-zA-Zāēīōūəąęðθšžŋɣβγñδṣṭḍṇḷṃṁ\u0300-\u036f\-]{2,30})'
+        r'\s*[-–—:]\s*'
+        r'([A-Za-z][A-Za-z\s,;/\'-]{2,80})',
+        re.MULTILINE,
+    )
+
+    existing_words = {e["word"] for e in entries}
+    for m in simple_pattern.finditer(text):
+        word = m.group(1).strip()
+        gloss = m.group(2).strip()
+        gloss = re.sub(r"[,;:\s]+$", "", gloss)
+        if word and gloss and word not in existing_words:
+            entries.append({"word": word, "gloss": gloss})
+            existing_words.add(word)
+
+    return entries
 
 
 def extract_entries_from_page(html: str) -> list[dict]:
@@ -235,28 +306,41 @@ def main():
     with open(raw_path, "w", encoding="utf-8") as f:
         f.write(index_html)
 
-    # Find subpage links
+    # The dictionary is a single large page — extract entries directly
+    all_entries = extract_entries_from_single_page(index_html)
+    logger.info("Single-page extraction: %d entries", len(all_entries))
+
+    # Also try the multi-strategy parser as fallback
+    if len(all_entries) < 100:
+        logger.info("Trying multi-strategy parser as supplement...")
+        extra = extract_entries_from_page(index_html)
+        existing_words = {e["word"] for e in all_entries}
+        for e in extra:
+            if e["word"] not in existing_words:
+                all_entries.append(e)
+                existing_words.add(e["word"])
+        logger.info("After supplement: %d total entries", len(all_entries))
+
+    # Check for subpages (unlikely, but just in case)
     subpages = find_subpage_links(index_html)
-    logger.info("Found %d subpages", len(subpages))
-
-    # Extract entries from index page
-    all_entries = extract_entries_from_page(index_html)
-    logger.info("Index page: %d entries", len(all_entries))
-
-    # Fetch each subpage
-    for i, url in enumerate(subpages):
-        logger.info("Fetching subpage %d/%d: %s", i + 1, len(subpages), url)
-        html = fetch_page(url)
-        if html:
-            # Save raw for audit
-            page_name = url.split("/")[-1]
-            with open(RAW_DIR / f"avesta_org_{page_name}", "w", encoding="utf-8") as f:
-                f.write(html)
-
-            entries = extract_entries_from_page(html)
-            all_entries.extend(entries)
-            logger.info("  Extracted %d entries", len(entries))
-        time.sleep(2)
+    if subpages:
+        logger.info("Found %d subpages", len(subpages))
+        for i, url in enumerate(subpages):
+            logger.info("Fetching subpage %d/%d: %s", i + 1, len(subpages), url)
+            html = fetch_page(url)
+            if html:
+                page_name = url.split("/")[-1]
+                with open(RAW_DIR / f"avesta_org_{page_name}", "w",
+                          encoding="utf-8") as f:
+                    f.write(html)
+                entries = extract_entries_from_single_page(html)
+                existing_words = {e["word"] for e in all_entries}
+                for e in entries:
+                    if e["word"] not in existing_words:
+                        all_entries.append(e)
+                        existing_words.add(e["word"])
+                logger.info("  Extracted %d entries", len(entries))
+            time.sleep(2)
 
     # Deduplicate
     seen: set[str] = set()

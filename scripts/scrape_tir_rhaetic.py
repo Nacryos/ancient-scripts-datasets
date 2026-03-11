@@ -19,10 +19,16 @@ import logging
 import re
 import sys
 import time
+import ssl
 import urllib.request
 import urllib.error
 import urllib.parse
 from pathlib import Path
+
+# Create unverified SSL context for sites with certificate issues
+_SSL_CTX = ssl.create_default_context()
+_SSL_CTX.check_hostname = False
+_SSL_CTX.verify_mode = ssl.CERT_NONE
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "cognate_pipeline" / "src"))
@@ -49,7 +55,7 @@ def fetch_page(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as resp:
                 return resp.read().decode("utf-8", errors="replace")
         except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             if attempt < 2:
@@ -65,7 +71,7 @@ def fetch_json(url: str) -> dict | None:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as resp:
                 return json.loads(resp.read().decode("utf-8", errors="replace"))
         except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             if attempt < 2:
