@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Scrape Rhaetic word forms from TIR (Thesaurus Inscriptionum Raeticarum).
 
-Source: https://www.univie.ac.at/raetica/
-TIR is a Semantic MediaWiki with 389+ Rhaetic inscriptions from which
-we can extract unique word forms.
+Source: https://tir.univie.ac.at/
+TIR is a Semantic MediaWiki with 155 catalogued words and 389 inscriptions.
+The SMW Ask API at /api.php returns structured JSON.
 
 Iron Rule: All data comes from HTTP requests. No hardcoded lexical content.
 
@@ -17,18 +17,13 @@ import argparse
 import json
 import logging
 import re
+import ssl
 import sys
 import time
-import ssl
 import urllib.request
 import urllib.error
 import urllib.parse
 from pathlib import Path
-
-# Create unverified SSL context for sites with certificate issues
-_SSL_CTX = ssl.create_default_context()
-_SSL_CTX.check_hostname = False
-_SSL_CTX.verify_mode = ssl.CERT_NONE
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "cognate_pipeline" / "src"))
@@ -45,33 +40,21 @@ RAW_DIR = ROOT / "data" / "training" / "raw"
 
 USER_AGENT = "PhaiPhon/1.0 (ancient-scripts-datasets)"
 
-# TIR uses Semantic MediaWiki — we can query via the API
-TIR_BASE = "https://www.univie.ac.at/raetica"
-TIR_API = f"{TIR_BASE}/wiki/api.php"
+# TIR moved to tir.univie.ac.at (redirected from www.univie.ac.at/raetica/)
+TIR_API = "https://tir.univie.ac.at/api.php"
 
-
-def fetch_page(url: str) -> str:
-    """Fetch HTML page with retries."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as resp:
-                return resp.read().decode("utf-8", errors="replace")
-        except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
-            if attempt < 2:
-                logger.warning("Retry %d for %s: %s", attempt + 1, url, exc)
-                time.sleep(5 * (attempt + 1))
-            else:
-                logger.warning("FAILED to fetch %s: %s", url, exc)
-                return ""
+# SSL context — TIR has certificate chain issues
+_SSL_CTX = ssl.create_default_context()
+_SSL_CTX.check_hostname = False
+_SSL_CTX.verify_mode = ssl.CERT_NONE
 
 
 def fetch_json(url: str) -> dict | None:
-    """Fetch JSON from URL."""
+    """Fetch JSON from TIR SMW API."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as resp:
+            with urllib.request.urlopen(req, timeout=60, context=_SSL_CTX) as resp:
                 return json.loads(resp.read().decode("utf-8", errors="replace"))
         except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             if attempt < 2:
@@ -82,183 +65,132 @@ def fetch_json(url: str) -> dict | None:
                 return None
 
 
-def strategy_smw_ask() -> list[dict]:
-    """Strategy 1: Use Semantic MediaWiki ask API to query for word forms.
-
-    TIR categorizes inscriptions with properties like [[Has word::...]].
-    """
+def strategy_smw_words() -> list[dict]:
+    """Fetch all 155 words from Category:Word via SMW Ask API."""
     entries = []
 
-    # Query for pages in the "Word" category or namespace
-    queries = [
-        "[[Category:Word]]|?Has transliteration|?Has meaning|limit=500",
-        "[[Category:Words]]|?Has transliteration|?Has meaning|limit=500",
-        "[[Category:Lexeme]]|?Has transliteration|?Has meaning|limit=500",
-    ]
-
-    for query in queries:
-        url = (
-            f"{TIR_API}?action=ask&query={urllib.parse.quote(query)}&format=json"
-        )
-        logger.info("SMW ask query: %s", url)
-        data = fetch_json(url)
-        if not data:
-            continue
-
-        results = data.get("query", {}).get("results", {})
-        logger.info("  Got %d results", len(results))
-
-        for page_name, page_data in results.items():
-            printouts = page_data.get("printouts", {})
-            translit_list = printouts.get("Has transliteration", [])
-            meaning_list = printouts.get("Has meaning", [])
-
-            word = translit_list[0] if translit_list else page_name
-            gloss = meaning_list[0] if meaning_list else ""
-
-            if isinstance(word, dict):
-                word = word.get("fulltext", str(word))
-            if isinstance(gloss, dict):
-                gloss = gloss.get("fulltext", str(gloss))
-
-            word = str(word).strip()
-            if word:
-                entries.append({"word": word, "gloss": str(gloss).strip()})
-
-        if entries:
-            return entries
-
-    return entries
-
-
-def strategy_category_pages() -> list[dict]:
-    """Strategy 2: Fetch pages from inscription categories and extract word forms."""
-    entries = []
-
-    # Get category members for inscriptions
-    categories = [
-        "Category:Rhaetic_inscriptions",
-        "Category:Inscriptions",
-        "Category:Inscription",
-    ]
-
-    for cat in categories:
-        params = {
-            "action": "query",
-            "list": "categorymembers",
-            "cmtitle": cat,
-            "cmlimit": "500",
-            "format": "json",
-        }
-        qs = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
-        url = f"{TIR_API}?{qs}"
-        logger.info("Fetching category %s...", cat)
-        data = fetch_json(url)
-        if not data:
-            continue
-
-        members = data.get("query", {}).get("categorymembers", [])
-        logger.info("  Category %s: %d members", cat, len(members))
-
-        # Fetch each inscription page to extract words
-        for i, m in enumerate(members[:200]):
-            title = m.get("title", "")
-            if not title:
-                continue
-
-            page_url = f"{TIR_BASE}/wiki/{urllib.parse.quote(title)}"
-            html = fetch_page(page_url)
-            if not html:
-                continue
-
-            # Extract word forms from inscription page
-            # TIR typically has transliterations in specific divs or tables
-            words = extract_words_from_inscription(html)
-            entries.extend(words)
-
-            if (i + 1) % 20 == 0:
-                logger.info("  Processed %d/%d inscriptions, %d words so far",
-                            i + 1, len(members), len(entries))
-                time.sleep(3)
-            else:
-                time.sleep(1.5)
-
-        if entries:
-            break
-
-    return entries
-
-
-def extract_words_from_inscription(html: str) -> list[dict]:
-    """Extract word forms from a TIR inscription page."""
-    words: list[dict] = []
-
-    # Clean HTML
-    text = re.sub(r"<[^>]+>", " ", html)
-    text = re.sub(r"\s+", " ", text)
-
-    # Pattern 1: Transliteration in specific format
-    # TIR uses patterns like: "transliteration: word1 · word2 · word3"
-    translit_match = re.search(
-        r"(?:transliteration|reading|text)[:\s]*([a-zA-Zāēīōūšśṣṭḍṇḷθφχ·\s\-]+?)(?:\n|$|<)",
-        text, re.IGNORECASE,
+    # Query for all words with their properties
+    query = (
+        "[[Category:Word]]"
+        "|?language"
+        "|?type_word"
+        "|?meaning"
+        "|?case"
+        "|?number"
+        "|?lemma"
+        "|?gender"
+        "|limit=500"
     )
-    if translit_match:
-        translit_text = translit_match.group(1)
-        # Split on word separators
-        raw_words = re.split(r"[·\s]+", translit_text)
-        for w in raw_words:
-            w = w.strip().strip("-")
-            if w and len(w) >= 2 and len(w) <= 30:
-                words.append({"word": w, "gloss": ""})
-
-    # Pattern 2: Individual word entries linked to glossary
-    word_links = re.findall(
-        r'(?:word|lexeme|form)[:\s]*<[^>]*>([^<]+)<',
-        html, re.IGNORECASE,
-    )
-    for w in word_links:
-        w = w.strip()
-        if w and len(w) >= 2 and len(w) <= 30:
-            words.append({"word": w, "gloss": ""})
-
-    return words
-
-
-def strategy_allpages() -> list[dict]:
-    """Strategy 3: Use the MediaWiki allpages API to find word-related pages."""
-    entries = []
-
-    # Search for pages that might be word entries
-    params = {
-        "action": "query",
-        "list": "allpages",
-        "aplimit": "500",
-        "format": "json",
-    }
-    qs = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
-    url = f"{TIR_API}?{qs}"
-    logger.info("Fetching all pages...")
+    url = f"{TIR_API}?action=ask&query={urllib.parse.quote(query)}&format=json"
+    logger.info("SMW ask query: %s", url)
     data = fetch_json(url)
     if not data:
         return entries
 
-    pages = data.get("query", {}).get("allpages", [])
-    logger.info("  Total pages: %d", len(pages))
+    results = data.get("query", {}).get("results", {})
+    logger.info("  Got %d word results", len(results))
 
-    # Filter for pages that look like word/inscription entries
-    for p in pages:
-        title = p.get("title", "")
-        # TIR inscription IDs follow patterns like "SZ-1", "NO-12", etc.
-        if re.match(r"^[A-Z]{2,3}-\d+", title):
-            # This is an inscription, skip for now
+    for page_name, page_data in results.items():
+        if not isinstance(page_data, dict):
             continue
-        # Short titles might be word forms
-        if (len(title) <= 20 and title.isascii() and
-                not title.startswith("Category:") and
-                not title.startswith("Template:") and
-                not title.startswith("File:")):
-            entries.append({"word": title, "gloss": ""})
+
+        printouts = page_data.get("printouts", {})
+
+        # Extract word form (page name is the word)
+        word = page_name.strip()
+
+        # Extract meaning
+        meaning_list = printouts.get("meaning", [])
+        meaning = ""
+        if meaning_list:
+            m = meaning_list[0]
+            if isinstance(m, dict):
+                meaning = m.get("fulltext", str(m))
+            else:
+                meaning = str(m)
+        meaning = meaning.strip().strip("'\"")
+
+        # Extract language
+        lang_list = printouts.get("language", [])
+        lang = ""
+        if lang_list:
+            l = lang_list[0]
+            if isinstance(l, dict):
+                lang = l.get("fulltext", str(l))
+            else:
+                lang = str(l)
+
+        # Extract word type
+        type_list = printouts.get("type_word", [])
+        word_type = ""
+        if type_list:
+            t = type_list[0]
+            if isinstance(t, dict):
+                word_type = t.get("fulltext", str(t))
+            else:
+                word_type = str(t)
+
+        # Extract lemma (base form)
+        lemma_list = printouts.get("lemma", [])
+        lemma = ""
+        if lemma_list:
+            lm = lemma_list[0]
+            if isinstance(lm, dict):
+                lemma = lm.get("fulltext", str(lm))
+            else:
+                lemma = str(lm)
+
+        if word and len(word) >= 1:
+            entries.append({
+                "word": word,
+                "gloss": meaning,
+                "language": lang,
+                "word_type": word_type,
+                "lemma": lemma if lemma else word,
+            })
+
+    return entries
+
+
+def strategy_smw_morphemes() -> list[dict]:
+    """Fetch morphemes from Category:Morpheme via SMW Ask API."""
+    entries = []
+
+    query = (
+        "[[Category:Morpheme]]"
+        "|?language"
+        "|?type_morpheme"
+        "|?meaning"
+        "|limit=500"
+    )
+    url = f"{TIR_API}?action=ask&query={urllib.parse.quote(query)}&format=json"
+    logger.info("SMW morpheme query: %s", url)
+    data = fetch_json(url)
+    if not data:
+        return entries
+
+    results = data.get("query", {}).get("results", {})
+    logger.info("  Got %d morpheme results", len(results))
+
+    for page_name, page_data in results.items():
+        if not isinstance(page_data, dict):
+            continue
+
+        printouts = page_data.get("printouts", {})
+        meaning_list = printouts.get("meaning", [])
+        meaning = ""
+        if meaning_list:
+            m = meaning_list[0]
+            meaning = m.get("fulltext", str(m)) if isinstance(m, dict) else str(m)
+
+        if page_name.strip():
+            entries.append({
+                "word": page_name.strip(),
+                "gloss": meaning.strip().strip("'\""),
+                "language": "Raetic",
+                "word_type": "morpheme",
+                "lemma": page_name.strip(),
+            })
 
     return entries
 
@@ -290,43 +222,55 @@ def main():
     existing = load_existing_words(tsv_path)
     logger.info("Loaded %d existing Rhaetic entries", len(existing))
 
-    # Try strategies in order
+    # Fetch words and morphemes
     all_entries: list[dict] = []
 
-    logger.info("=== Strategy 1: SMW Ask ===")
-    entries = strategy_smw_ask()
-    all_entries.extend(entries)
-    logger.info("Strategy 1: %d entries", len(entries))
+    logger.info("=== Strategy 1: SMW Words ===")
+    words = strategy_smw_words()
+    all_entries.extend(words)
+    logger.info("Strategy 1: %d word entries", len(words))
 
-    if not entries:
-        logger.info("=== Strategy 2: Category pages ===")
-        entries = strategy_category_pages()
-        all_entries.extend(entries)
-        logger.info("Strategy 2: %d entries", len(entries))
+    logger.info("=== Strategy 2: SMW Morphemes ===")
+    morphemes = strategy_smw_morphemes()
+    all_entries.extend(morphemes)
+    logger.info("Strategy 2: %d morpheme entries", len(morphemes))
 
-    if not all_entries:
-        logger.info("=== Strategy 3: All pages ===")
-        entries = strategy_allpages()
-        all_entries.extend(entries)
-        logger.info("Strategy 3: %d entries", len(entries))
+    # Save raw JSON for audit trail
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    with open(RAW_DIR / "tir_raetica_raw.json", "w", encoding="utf-8") as f:
+        json.dump(all_entries, f, ensure_ascii=False, indent=2)
+
+    # Filter: only Raetic words (not Etruscan/Celtic intrusions)
+    raetic_entries = []
+    for e in all_entries:
+        lang = e.get("language", "").lower()
+        # Keep entries that are Raetic, unknown language, or empty
+        if lang in ("raetic", "rhaetic", "") or not lang:
+            raetic_entries.append(e)
+        else:
+            logger.debug("Skipping non-Raetic entry: %s (lang=%s)", e["word"], lang)
+
+    logger.info("Raetic-only entries: %d (filtered %d non-Raetic)",
+                len(raetic_entries), len(all_entries) - len(raetic_entries))
 
     # Deduplicate
     seen: set[str] = set()
     new_entries: list[dict] = []
-    for e in all_entries:
-        word = e["word"].strip().lower()
-        if not word or word in seen or word in existing:
+    for e in raetic_entries:
+        word = e["word"].strip()
+        word_lower = word.lower()
+        if not word or word_lower in seen or word in existing:
             continue
         if len(word) > 30:
             continue
-        seen.add(word)
-        new_entries.append({"word": e["word"].strip(), "gloss": e.get("gloss", "")})
+        seen.add(word_lower)
+        new_entries.append(e)
 
     logger.info("Total new unique entries: %d", len(new_entries))
 
     if args.dry_run:
         for e in new_entries[:30]:
-            print(f"  {e['word']:25s} {e['gloss']}")
+            print(f"  {e['word']:25s} {e.get('gloss', ''):30s} {e.get('word_type', '')}")
         return
 
     # Append to TSV
@@ -337,7 +281,7 @@ def main():
         with open(tsv_path, "a", encoding="utf-8") as f:
             for e in new_entries:
                 word = e["word"]
-                gloss = e["gloss"]
+                gloss = e.get("gloss", "")
 
                 try:
                     ipa = transliterate(word, "xrr")
@@ -359,6 +303,8 @@ def main():
                     "word": word,
                     "gloss": gloss,
                     "ipa": ipa,
+                    "word_type": e.get("word_type", ""),
+                    "language": e.get("language", ""),
                     "source": "tir_raetica",
                 })
 

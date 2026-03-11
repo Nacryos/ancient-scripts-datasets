@@ -2,10 +2,8 @@
 """Scrape Palaeolexicon for Lycian, Lydian, and Carian word lists.
 
 Source: https://www.palaeolexicon.com/
-Palaeolexicon is a searchable ancient language database.
-
-Extracts word lists per language with glosses. Deduplicates against
-existing TSV entries and appends new ones.
+Palaeolexicon has a REST API at /api/Search/ that returns JSON with word
+entries browsable by letter. Each language has a numeric ID.
 
 Iron Rule: All data comes from HTTP requests. No hardcoded lexical content.
 
@@ -23,6 +21,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,146 +37,152 @@ LEXICON_DIR = ROOT / "data" / "training" / "lexicons"
 AUDIT_TRAIL_DIR = ROOT / "data" / "training" / "audit_trails"
 RAW_DIR = ROOT / "data" / "training" / "raw"
 
-USER_AGENT = "PhaiPhon/1.0 (ancient-scripts-datasets)"
+# Browser-like User-Agent required (urllib default gets 403)
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
 
-# Palaeolexicon language IDs (from their URL structure)
+# Palaeolexicon REST API base
+API_BASE = "https://www.palaeolexicon.com/api/Search/"
+
+# Language IDs discovered from the API
 LANGUAGE_CONFIGS = {
     "xlc": {
         "name": "Lycian",
-        "search_term": "Lycian",
+        "language_id": 36,
         "iso_for_translit": "xlc",
         "tsv_filename": "xlc.tsv",
     },
     "xld": {
         "name": "Lydian",
-        "search_term": "Lydian",
+        "language_id": 35,
         "iso_for_translit": "xld",
         "tsv_filename": "xld.tsv",
     },
     "xcr": {
         "name": "Carian",
-        "search_term": "Carian",
+        "language_id": 19,
         "iso_for_translit": "xcr",
         "tsv_filename": "xcr.tsv",
     },
 }
 
-# Palaeolexicon uses a word list page per language
-# URL pattern: https://www.palaeolexicon.com/Word/BasicSearch?language=Lycian
-SEARCH_URL = "https://www.palaeolexicon.com/Word/BasicSearch"
 
-
-def fetch_page(url: str) -> str:
-    """Fetch HTML page with retries."""
+def fetch_json(url: str) -> dict | list | None:
+    """Fetch JSON from Palaeolexicon API with retries."""
     req = urllib.request.Request(url, headers={
         "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml",
+        "Accept": "application/json, text/javascript, */*",
+        "Referer": "https://www.palaeolexicon.com/",
     })
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-                return resp.read().decode("utf-8", errors="replace")
+                return json.loads(resp.read().decode("utf-8", errors="replace"))
         except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             if attempt < 2:
                 logger.warning("Retry %d for %s: %s", attempt + 1, url, exc)
                 time.sleep(5 * (attempt + 1))
             else:
                 logger.warning("FAILED to fetch %s: %s", url, exc)
-                return ""
+                return None
 
 
-def extract_words_from_html(html: str) -> list[dict]:
-    """Extract word entries from Palaeolexicon search results HTML.
+def fetch_letter_index(language_id: int) -> list[str]:
+    """Get the list of available letter clusters for a language."""
+    url = f"{API_BASE}?languageId={language_id}&letter=a&pageSize=1&page=1"
+    data = fetch_json(url)
+    if not data or not isinstance(data, dict):
+        return []
 
-    Palaeolexicon uses tables or div-based layouts for word lists.
-    """
-    entries: list[dict] = []
+    letter_index = data.get("LetterIndex", [])
+    if not letter_index:
+        # Fallback: try basic Latin alphabet
+        return list("abcdefghijklmnopqrstuvwxyz")
 
-    # Strategy 1: Table rows with word + meaning columns
-    table_pattern = re.compile(
-        r'<tr[^>]*>\s*<td[^>]*>([^<]+)</td>\s*<td[^>]*>([^<]+)</td>',
-        re.DOTALL,
-    )
-    for m in table_pattern.finditer(html):
-        word = m.group(1).strip()
-        gloss = m.group(2).strip()
-        word = re.sub(r"<[^>]+>", "", word)
-        gloss = re.sub(r"<[^>]+>", "", gloss)
-        if word and gloss and len(word) < 50 and len(gloss) < 200:
-            entries.append({"word": word, "gloss": gloss})
+    clusters = []
+    for item in letter_index:
+        if isinstance(item, dict):
+            cluster = item.get("Cluster", "")
+            if cluster:
+                clusters.append(cluster)
+        elif isinstance(item, str):
+            clusters.append(item)
 
-    # Strategy 2: div-based entries
-    div_pattern = re.compile(
-        r'class="word[^"]*"[^>]*>([^<]+)<.*?'
-        r'class="(?:meaning|translation|gloss)[^"]*"[^>]*>([^<]+)<',
-        re.DOTALL,
-    )
-    for m in div_pattern.finditer(html):
-        word = m.group(1).strip()
-        gloss = m.group(2).strip()
-        if word and gloss:
-            entries.append({"word": word, "gloss": gloss})
+    logger.info("  Letter index: %d clusters", len(clusters))
+    return clusters
 
-    # Strategy 3: Link-based entries (common in Palaeolexicon)
-    link_pattern = re.compile(
-        r'<a[^>]*href="/Word/Show/\d+"[^>]*>([^<]+)</a>\s*'
-        r'[-–—:]?\s*([A-Za-z][A-Za-z\s,;/\'-]{2,80})',
-        re.DOTALL,
-    )
-    for m in link_pattern.finditer(html):
-        word = m.group(1).strip()
-        gloss = m.group(2).strip()
-        gloss = re.sub(r"[,;:\s]+$", "", gloss)
-        if word and gloss:
-            entries.append({"word": word, "gloss": gloss})
+
+def fetch_words_for_letter(language_id: int, letter: str) -> list[dict]:
+    """Fetch all words for a given letter in a language."""
+    entries = []
+    page = 1
+    page_size = 500
+
+    while True:
+        encoded_letter = urllib.parse.quote(letter)
+        url = (
+            f"{API_BASE}?languageId={language_id}"
+            f"&letter={encoded_letter}"
+            f"&pageSize={page_size}&page={page}"
+        )
+        data = fetch_json(url)
+        if not data or not isinstance(data, dict):
+            break
+
+        words = data.get("Words", [])
+        if not words:
+            break
+
+        for w in words:
+            if not isinstance(w, dict):
+                continue
+            word_text = (w.get("WordText") or "").strip()
+            meaning = (w.get("Meaning") or "").strip()
+            translit = (w.get("Transliteration") or "").strip()
+            ipa_val = (w.get("IPA") or "").strip()
+            word_id = w.get("Id", "")
+
+            if word_text and meaning:
+                entries.append({
+                    "word": word_text,
+                    "gloss": meaning,
+                    "transliteration": translit,
+                    "ipa_source": ipa_val,
+                    "word_id": word_id,
+                })
+
+        index_size = data.get("IndexSize", 0)
+        if len(words) < page_size or page * page_size >= index_size:
+            break
+        page += 1
+        time.sleep(1)
 
     return entries
 
 
-def fetch_language_words(language_name: str) -> list[dict]:
-    """Fetch all words for a language from Palaeolexicon."""
+def fetch_language_words(language_id: int, language_name: str) -> list[dict]:
+    """Fetch all words for a language using the letter index."""
     all_entries: list[dict] = []
 
-    # Try the basic search page
-    url = f"{SEARCH_URL}?language={language_name}"
-    logger.info("Fetching %s words from %s", language_name, url)
-    html = fetch_page(url)
+    letters = fetch_letter_index(language_id)
+    if not letters:
+        logger.warning("No letter index for %s (id=%d)", language_name, language_id)
+        return all_entries
 
-    if html:
-        # Save raw HTML
-        RAW_DIR.mkdir(parents=True, exist_ok=True)
-        with open(RAW_DIR / f"palaeolexicon_{language_name}.html", "w",
-                  encoding="utf-8") as f:
-            f.write(html)
-
-        entries = extract_words_from_html(html)
+    for i, letter in enumerate(letters):
+        entries = fetch_words_for_letter(language_id, letter)
         all_entries.extend(entries)
-        logger.info("  Page 1: %d entries", len(entries))
 
-        # Check for pagination links
-        page_links = re.findall(
-            r'href="([^"]*(?:page=\d+|pageIndex=\d+)[^"]*)"',
-            html,
-        )
-        for i, link in enumerate(sorted(set(page_links))):
-            if not link.startswith("http"):
-                link = f"https://www.palaeolexicon.com{link}"
-            logger.info("  Fetching page %d: %s", i + 2, link)
-            page_html = fetch_page(link)
-            if page_html:
-                page_entries = extract_words_from_html(page_html)
-                all_entries.extend(page_entries)
-            time.sleep(2)
+        if (i + 1) % 5 == 0:
+            logger.info("  %s: processed %d/%d letters, %d entries so far",
+                        language_name, i + 1, len(letters), len(all_entries))
 
-    # Also try the language-specific word list page
-    alt_url = f"https://www.palaeolexicon.com/default.aspx?static=true&wl={language_name}"
-    logger.info("Trying alt URL: %s", alt_url)
-    alt_html = fetch_page(alt_url)
-    if alt_html:
-        alt_entries = extract_words_from_html(alt_html)
-        all_entries.extend(alt_entries)
-        logger.info("  Alt page: %d entries", len(alt_entries))
+        time.sleep(1.5)
 
+    logger.info("  %s: total %d entries from %d letters",
+                language_name, len(all_entries), len(letters))
     return all_entries
 
 
@@ -199,8 +204,13 @@ def process_language(iso: str, config: dict, dry_run: bool = False) -> dict:
     existing = load_existing_words(tsv_path)
     logger.info("%s: loaded %d existing entries", iso, len(existing))
 
-    # Fetch from Palaeolexicon
-    all_entries = fetch_language_words(config["search_term"])
+    # Fetch from Palaeolexicon API
+    all_entries = fetch_language_words(config["language_id"], config["name"])
+
+    # Save raw JSON for audit trail
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    with open(RAW_DIR / f"palaeolexicon_{iso}.json", "w", encoding="utf-8") as f:
+        json.dump(all_entries, f, ensure_ascii=False, indent=2)
 
     # Deduplicate
     seen: set[str] = set()
@@ -231,10 +241,17 @@ def process_language(iso: str, config: dict, dry_run: bool = False) -> dict:
                 word = e["word"]
                 gloss = e["gloss"]
 
-                try:
-                    ipa = transliterate(word, config["iso_for_translit"])
-                except Exception:
-                    ipa = word
+                # Prefer source IPA if available, else transliterate
+                ipa = e.get("ipa_source", "")
+                if not ipa or ipa == word:
+                    translit = e.get("transliteration", "")
+                    try:
+                        ipa = transliterate(
+                            translit if translit else word,
+                            config["iso_for_translit"],
+                        )
+                    except Exception:
+                        ipa = translit if translit else word
 
                 try:
                     sca = ipa_to_sound_class(ipa)
@@ -251,6 +268,8 @@ def process_language(iso: str, config: dict, dry_run: bool = False) -> dict:
                     "word": word,
                     "gloss": gloss,
                     "ipa": ipa,
+                    "transliteration": e.get("transliteration", ""),
+                    "word_id": e.get("word_id", ""),
                     "source": "palaeolexicon",
                 })
 
