@@ -131,7 +131,7 @@ LANGUAGE_CONFIGS = {
         "category": "Category:Luwian_lemmas",
         "namespace": 0,
         "wikt_lang_name": "Luwian",
-        "iso_for_translit": "hit",  # Closest Anatolian transliteration map
+        "iso_for_translit": "xlw",  # dedicated Luwian transliteration map
         "tsv_filename": "xlw.tsv",
         "source_label": "wiktionary_cat",
         "use_word_for_ipa": True,  # Don't trust romanization field
@@ -141,7 +141,7 @@ LANGUAGE_CONFIGS = {
         "category": "Category:Hurrian_lemmas",
         "namespace": 0,
         "wikt_lang_name": "Hurrian",
-        "iso_for_translit": "xur",  # Closest Hurro-Urartian map
+        "iso_for_translit": "xhu",  # dedicated Hurrian transliteration map
         "tsv_filename": "xhu.tsv",
         "source_label": "wiktionary_cat",
         "use_word_for_ipa": True,
@@ -151,7 +151,7 @@ LANGUAGE_CONFIGS = {
         "category": "Category:Etruscan_lemmas",
         "namespace": 0,
         "wikt_lang_name": "Etruscan",
-        "iso_for_translit": "xrr",  # Closest (Tyrsenian family)
+        "iso_for_translit": "ett",  # dedicated Etruscan transliteration map
         "tsv_filename": "ett.tsv",
         "source_label": "wiktionary_cat",
         "use_word_for_ipa": True,
@@ -161,7 +161,7 @@ LANGUAGE_CONFIGS = {
         "category": "Category:Tocharian_B_lemmas",
         "namespace": 0,
         "wikt_lang_name": "Tocharian B",
-        "iso_for_translit": "ine",  # IE transliteration
+        "iso_for_translit": "txb",  # Tocharian transliteration
         "tsv_filename": "txb.tsv",
         "source_label": "wiktionary_cat",
         "use_word_for_ipa": True,
@@ -171,7 +171,7 @@ LANGUAGE_CONFIGS = {
         "category": "Category:Tocharian_A_lemmas",
         "namespace": 0,
         "wikt_lang_name": "Tocharian A",
-        "iso_for_translit": "ine",  # IE transliteration
+        "iso_for_translit": "xto",  # Tocharian transliteration
         "tsv_filename": "xto.tsv",
         "source_label": "wiktionary_cat",
         "use_word_for_ipa": True,

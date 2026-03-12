@@ -77,7 +77,7 @@ LANGUAGE_CONFIGS = {
             {"headword_sub": "Luwian", "headword_spec": "Cuneiform Luwian"},
             {"headword_sub": "Luwian", "headword_spec": "Hieroglyphic Luwian"},
         ],
-        "iso_for_translit": "hit",  # closest transliteration map (Anatolian)
+        "iso_for_translit": "xlw",  # dedicated Luwian transliteration map
         "tsv_filename": "xlw.tsv",
     },
     "xhu": {
@@ -85,7 +85,7 @@ LANGUAGE_CONFIGS = {
         "specs": [
             {"headword_sub": "Hurrian", "headword_spec": "Hurrian"},
         ],
-        "iso_for_translit": "xur",  # closest transliteration map (Hurro-Urartian)
+        "iso_for_translit": "xhu",  # dedicated Hurrian transliteration map
         "tsv_filename": "xhu.tsv",
     },
 }

@@ -69,19 +69,19 @@ LANGUAGE_CONFIGS = {
     "xhu": {
         "name": "Hurrian",
         "language_id": 43,
-        "iso_for_translit": "xur",  # Closest: Hurro-Urartian
+        "iso_for_translit": "xhu",  # dedicated Hurrian transliteration map
         "tsv_filename": "xhu.tsv",
     },
     "xlw": {
         "name": "Luwian",
         "language_id": 115,
-        "iso_for_translit": "hit",  # Closest: Anatolian
+        "iso_for_translit": "xlw",  # dedicated Luwian transliteration map
         "tsv_filename": "xlw.tsv",
     },
     "ett": {
         "name": "Etruscan",
         "language_id": 143,
-        "iso_for_translit": "xrr",  # Closest: Tyrsenian
+        "iso_for_translit": "ett",  # dedicated Etruscan transliteration map
         "tsv_filename": "ett.tsv",
     },
 }
