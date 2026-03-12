@@ -41,6 +41,7 @@ ANCIENT_LANGUAGES = [
     "hit", "uga", "phn", "xur", "elx", "xlc", "xld", "xcr",
     "ave", "peo", "ine-pro", "sem-pro", "ccs-pro", "dra-pro",
     "xpg", "xle", "xrr", "cms", "xlw", "xhu", "ett", "txb", "xto",
+    "non", "got", "chu", "akk", "sux", "gmy",
 ]
 
 # Map from TSV filename ISO to transliteration map ISO

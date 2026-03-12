@@ -107,73 +107,109 @@ def find_subpage_links(html: str) -> list[str]:
     return [f"{BASE_URL}{link}" for link in unique if link != "avdict.htm"]
 
 
+def _decode_html_entities(text: str) -> str:
+    """Decode HTML entities to Unicode characters."""
+    import html as html_mod
+    return html_mod.unescape(text)
+
+
 def extract_entries_from_single_page(html: str) -> list[dict]:
     """Extract dictionary entries from the avesta.org single-page dictionary.
 
-    Format: word [root] - count (grammar) pos. English gloss
-    Example: ashava [ashavan] - 102 (N,duNAV,nNA) m. Ashavan, Asha-endowed
+    The dictionary uses <DL COMPACT> definition lists:
+      <DT>headword [root]
+      <DD>count (grammar) pos. English gloss
+
+    Some entries lack a count (just have gloss text after grammar markers).
     """
     entries: list[dict] = []
 
-    # Strip HTML tags but preserve line breaks
-    text = re.sub(r"<br\s*/?>", "\n", html, flags=re.IGNORECASE)
-    text = re.sub(r"</?p[^>]*>", "\n", text, flags=re.IGNORECASE)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = text.replace("&nbsp;", " ")
-    text = text.replace("&amp;", "&")
-
-    # Pattern: word [root] - count (grammar) pos. English
-    # or: word - count (grammar) pos. English
-    pattern = re.compile(
-        r'^([a-zA-Zāēīōūəąęðθšžŋɣβγñδṣṭḍṇḷṃṁ\u0300-\u036f\-]+)'  # headword
-        r'\s*'
-        r'(?:\[([^\]]+)\]\s*)?'            # optional [root]
-        r'[-–—]\s*'                         # dash separator
-        r'(\d+)\s*'                         # count
-        r'(?:\([^)]*\)\s*)?'               # optional (grammar)
-        r'(?:[mfn]\.\s*)?'                 # optional pos
-        r'(.+?)$',                          # English gloss
-        re.MULTILINE,
+    # Strategy 1: Parse <DT>/<DD> pairs directly from HTML
+    # Extract all DT/DD pairs
+    dt_dd_pattern = re.compile(
+        r'<DT>\s*(.*?)\s*(?=<DD>|<DT>|</DL>)'
+        r'(?:<DD>\s*(.*?)\s*(?=<DT>|</DL>|<DD>))?',
+        re.IGNORECASE | re.DOTALL,
     )
 
-    for m in pattern.finditer(text):
-        headword = m.group(1).strip()
-        root = m.group(2).strip() if m.group(2) else ""
-        gloss = m.group(4).strip()
+    for m in dt_dd_pattern.finditer(html):
+        dt_raw = m.group(1) or ""
+        dd_raw = m.group(2) or ""
 
-        # Clean gloss
-        gloss = re.sub(r"\s+", " ", gloss)
-        gloss = re.sub(r"[,;:\s]+$", "", gloss)
-        # Take first meaningful part of gloss (before technical notes)
-        if ". " in gloss:
-            gloss = gloss.split(". ")[0]
+        # Strip inner HTML tags and decode entities
+        dt_text = _decode_html_entities(re.sub(r"<[^>]+>", "", dt_raw)).strip()
+        dd_text = _decode_html_entities(re.sub(r"<[^>]+>", "", dd_raw)).strip()
+
+        if not dt_text:
+            continue
+
+        # Parse headword: "headword [root]" or just "headword"
+        hw_match = re.match(r'^(.+?)(?:\s*\[([^\]]+)\])?\s*$', dt_text)
+        if not hw_match:
+            continue
+
+        headword = hw_match.group(1).strip()
+        root = hw_match.group(2).strip() if hw_match.group(2) else ""
+
+        # Skip section headers, navigation text, and layout explanations
+        skip_words = {"NOTE", "Example", "root of word", "... another form of word"}
+        if headword.startswith("Avestan dictionary") or headword in skip_words:
+            continue
+        if "number of times word occurs" in dd_text:
+            continue
+        # Skip continuation entries (forms like "... aêta")
+        if headword.startswith("..."):
+            continue
+
+        # Parse gloss from DD text
+        # Format: "count (grammar) pos. English gloss (reference)"
+        # or: "(grammar) English gloss"
+        # or: just "English gloss"
+        gloss = dd_text
+
+        # Remove leading count
+        gloss = re.sub(r'^\d+\s*', '', gloss)
+        # Remove grammatical info in parens at start
+        gloss = re.sub(r'^\([^)]*\)\s*', '', gloss)
+        # Remove part-of-speech markers
+        gloss = re.sub(r'^[mfn]\.\s*', '', gloss)
+        # Remove trailing references like (k362) (b55) (Sp A M)
+        gloss = re.sub(r'\s*\([^)]*\)\s*$', '', gloss)
+        # Remove inner references
+        gloss = re.sub(r'\s*\([a-zA-Z]\d+\)', '', gloss)
+        # Clean whitespace
+        gloss = re.sub(r'\s+', ' ', gloss).strip()
+        # Take first meaningful part
+        if '. ' in gloss:
+            gloss = gloss.split('. ')[0]
         if len(gloss) > 80:
-            gloss = gloss[:80].rsplit(" ", 1)[0]
+            gloss = gloss[:80].rsplit(' ', 1)[0]
+        # Remove trailing punctuation
+        gloss = re.sub(r'[,;:\s]+$', '', gloss)
 
-        # Use root form if available, otherwise headword
-        word = root if root else headword
+        # Use root form as primary word (it's the citation form)
+        word = root if root and root != "-" else headword
 
-        if word and gloss and len(word) >= 2 and len(word) <= 40:
-            entries.append({"word": word, "gloss": gloss})
+        # Validate
+        if not word or not gloss or len(word) < 1 or len(word) > 40:
+            continue
+        if len(gloss) < 2:
+            continue
+        # Skip if gloss is just a grammar marker or number
+        if re.match(r'^[\d()\s]+$', gloss):
+            continue
 
-    # Also try a simpler pattern for entries without counts
-    simple_pattern = re.compile(
-        r'^([a-zA-Zāēīōūəąęðθšžŋɣβγñδṣṭḍṇḷṃṁ\u0300-\u036f\-]{2,30})'
-        r'\s*[-–—:]\s*'
-        r'([A-Za-z][A-Za-z\s,;/\'-]{2,80})',
-        re.MULTILINE,
-    )
+        entries.append({"word": word, "gloss": gloss, "headword": headword})
 
-    existing_words = {e["word"] for e in entries}
-    for m in simple_pattern.finditer(text):
-        word = m.group(1).strip()
-        gloss = m.group(2).strip()
-        gloss = re.sub(r"[,;:\s]+$", "", gloss)
-        if word and gloss and word not in existing_words:
-            entries.append({"word": word, "gloss": gloss})
-            existing_words.add(word)
+    # Deduplicate by word
+    seen: set[str] = set()
+    unique: list[dict] = []
+    for e in entries:
+        if e["word"] not in seen:
+            seen.add(e["word"])
+            unique.append(e)
 
-    return entries
+    return unique
 
 
 def extract_entries_from_page(html: str) -> list[dict]:

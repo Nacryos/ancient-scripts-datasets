@@ -774,6 +774,186 @@ TOCHARIAN_MAP: Dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
+# Old Norse (non) — Normalized Old Norse orthography → IPA
+# Based on standard Norse philological transcription (Gordon & Taylor 1956)
+# ---------------------------------------------------------------------------
+OLD_NORSE_MAP: Dict[str, str] = {
+    # Short vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    "ǫ": "ɔ", "ö": "ø", "ø": "ø", "y": "y",
+    "æ": "æ",
+    # Long vowels (acute accent)
+    "á": "aː", "é": "eː", "í": "iː", "ó": "oː", "ú": "uː",
+    "ý": "yː", "ǿ": "øː", "ǽ": "æː",
+    # Consonants
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "v": "v",
+    "w": "w", "z": "ts",
+    # Special consonants
+    "þ": "θ", "ð": "ð",
+    # Digraphs
+    "ng": "ŋɡ", "nk": "ŋk",
+    # Common Latin-script loanword letters
+    "c": "k", "q": "k", "x": "ks",
+}
+
+# ---------------------------------------------------------------------------
+# Gothic (got) — Gothic transliteration → IPA
+# Based on standard Gothicist romanization (Wright 1910, Braune & Heidermanns 2004)
+# ---------------------------------------------------------------------------
+GOTHIC_MAP: Dict[str, str] = {
+    # Short vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Long vowels (macron or digraph convention)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Gothic diphthongs (typically written ai, au, ei, iu)
+    "ai": "ɛ", "au": "ɔ",  # Short before r,h,ƕ = [ɛ],[ɔ]; otherwise diphthong
+    "ei": "iː", "iu": "iu",
+    # Consonants
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
+    "z": "z",
+    # Special Gothic consonants
+    "þ": "θ", "ƕ": "ʍ",  # hw-ligature
+    "q": "kʷ",  # labiovelar
+    "x": "ks",
+    # Gothic alphabet Unicode block (U+10330-10340)
+    "\U00010330": "a",   # 𐌰 ahsa
+    "\U00010331": "b",   # 𐌱 bairkan
+    "\U00010332": "ɡ",   # 𐌲 giba
+    "\U00010333": "d",   # 𐌳 dags
+    "\U00010334": "e",   # 𐌴 aihvus
+    "\U00010335": "kʷ",  # 𐌵 qairthra
+    "\U00010336": "z",   # 𐌶 ezec
+    "\U00010337": "h",   # 𐌷 hagl
+    "\U00010338": "θ",   # 𐌸 thyth
+    "\U00010339": "i",   # 𐌹 eis
+    "\U0001033A": "k",   # 𐌺 kusma
+    "\U0001033B": "l",   # 𐌻 lagus
+    "\U0001033C": "m",   # 𐌼 manna
+    "\U0001033D": "n",   # 𐌽 nauths
+    "\U0001033E": "j",   # 𐌾 jer
+    "\U0001033F": "u",   # 𐌿 urus
+    "\U00010340": "p",   # 𐍀 pairthra
+    "\U00010341": "90",  # 𐍁 ninety (numeral only)
+    "\U00010342": "r",   # 𐍂 raida
+    "\U00010343": "s",   # 𐍃 sauil
+    "\U00010344": "t",   # 𐍄 teiws
+    "\U00010345": "w",   # 𐍅 winja
+    "\U00010346": "f",   # 𐍆 faihu
+    "\U00010347": "ʍ",   # 𐍇 iggws (hwair)
+    "\U00010348": "o",   # 𐍈 othal
+}
+
+# ---------------------------------------------------------------------------
+# Old Church Slavonic (chu) — Early Cyrillic → IPA
+# Based on Lunt (2001) "Old Church Slavonic Grammar"
+# ---------------------------------------------------------------------------
+OCS_MAP: Dict[str, str] = {
+    # Vowels
+    "а": "a", "е": "e", "и": "i", "о": "o", "у": "u",
+    "ы": "ɨ", "ь": "ĭ", "ъ": "ŭ",
+    # Jotated vowels
+    "ꙗ": "ja", "ѥ": "je", "ю": "ju",
+    "я": "ja",  # later form
+    "є": "e",   # variant of е
+    # Nasal vowels
+    "ѧ": "ɛ̃", "ѫ": "ɔ̃",
+    "ꙙ": "jɛ̃", "ꙛ": "jɔ̃",  # jotated nasals
+    # Special vowels
+    "ѣ": "æ",  # yat (jat')
+    "і": "i", "ї": "ji",
+    "ѹ": "u",   # digraph ou
+    # Consonants
+    "б": "b", "в": "v", "г": "ɡ", "д": "d",
+    "ж": "ʒ", "з": "z", "к": "k", "л": "l",
+    "м": "m", "н": "n", "п": "p", "р": "r",
+    "с": "s", "т": "t", "ф": "f", "х": "x",
+    # Palatalized/special
+    "ц": "ts", "ч": "tʃ", "ш": "ʃ", "щ": "ʃt",
+    "ѕ": "dz",  # dzělo
+    "ꙃ": "dz",  # older form
+    # Archaic/Glagolitic letters
+    "ѳ": "θ",  # theta (Greek loanwords)
+    "ѯ": "ks", # ksi
+    "ѱ": "ps", # psi
+    "ѵ": "y",  # izhitsa (from Greek upsilon)
+    # Latin transliteration forms (Wiktionary sometimes uses these)
+    "š": "ʃ", "ž": "ʒ", "č": "tʃ",
+    "ě": "æ",  # yat
+    "ǫ": "ɔ̃", "ę": "ɛ̃",  # nasal vowels in Latin translit
+}
+
+# ---------------------------------------------------------------------------
+# Akkadian (akk) — Standard Assyriological transliteration → IPA
+# Based on Huehnergard (2011) "A Grammar of Akkadian"
+# ---------------------------------------------------------------------------
+AKKADIAN_MAP: Dict[str, str] = {
+    # Vowels (short)
+    "a": "a", "e": "e", "i": "i", "u": "u",
+    # Vowels (long — macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ū": "uː",
+    # Consonants
+    "b": "b", "d": "d", "g": "ɡ", "k": "k",
+    "l": "l", "m": "m", "n": "n", "p": "p",
+    "r": "r", "s": "s", "t": "t", "w": "w",
+    "y": "j", "z": "z",
+    # Emphatic consonants
+    "ṭ": "tˤ", "ṣ": "sˤ", "q": "kˤ",
+    # Pharyngeals and glottals
+    "ḫ": "x", "ʾ": "ʔ", "'": "ʔ",
+    # Sibilants
+    "š": "ʃ",
+}
+
+# ---------------------------------------------------------------------------
+# Sumerian (sux) — Standard Sumerological transliteration → IPA
+# Phonology is partially speculative; follows Jagersma (2010) and Edzard (2003)
+# ---------------------------------------------------------------------------
+SUMERIAN_MAP: Dict[str, str] = {
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "u": "u",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ū": "uː",
+    # Consonants
+    "b": "b", "d": "d", "g": "ɡ", "k": "k",
+    "l": "l", "m": "m", "n": "n", "p": "p",
+    "r": "r", "s": "s", "t": "t", "z": "z",
+    # Special Sumerian consonants
+    "š": "ʃ", "ḫ": "x",
+    "ĝ": "ŋ", "ŋ": "ŋ",  # velar nasal (ĝ or ŋ notation)
+    # Sign index numbers (strip — not phonological)
+    "₁": "", "₂": "", "₃": "", "₄": "", "₅": "",
+    "₆": "", "₇": "", "₈": "", "₉": "", "₀": "",
+}
+
+# ---------------------------------------------------------------------------
+# Mycenaean Greek (gmy) — Linear B transliteration → IPA
+# Based on Ventris & Chadwick (1973) and standard Mycenological conventions
+# Mycenaean is written in syllabary; transliteration values are conventional
+# ---------------------------------------------------------------------------
+MYCENAEAN_MAP: Dict[str, str] = {
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # CV syllables are typically already transliterated to Latin
+    # These handle common standalone forms
+    "h": "h",
+    "j": "j",  # y-glide (from *y)
+    "w": "w",  # w-glide (preserved in Mycenaean, lost in classical Greek)
+    "k": "k", "g": "ɡ",
+    "d": "d", "t": "t",
+    "p": "p", "b": "b",
+    "m": "m", "n": "n",
+    "l": "l", "r": "r",
+    "s": "s", "z": "dz",
+    "q": "kʷ",  # labiovelar (qa, qe, qi, qo = kʷa, kʷe, etc.)
+    # Digraphs
+    "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
+}
+
+# ---------------------------------------------------------------------------
 # Lookup table:  ISO 639-3 code  ->  transliteration map
 # ---------------------------------------------------------------------------
 ALL_MAPS: Dict[str, Dict[str, str]] = {
@@ -800,6 +980,12 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "ett": ETRUSCAN_MAP,        # Etruscan
     "txb": TOCHARIAN_MAP,       # Tocharian B
     "xto": TOCHARIAN_MAP,       # Tocharian A
+    "non": OLD_NORSE_MAP,       # Old Norse
+    "got": GOTHIC_MAP,          # Gothic
+    "chu": OCS_MAP,             # Old Church Slavonic
+    "akk": AKKADIAN_MAP,        # Akkadian
+    "sux": SUMERIAN_MAP,        # Sumerian
+    "gmy": MYCENAEAN_MAP,       # Mycenaean Greek
 }
 
 
