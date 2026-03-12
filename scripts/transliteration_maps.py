@@ -48,18 +48,27 @@ HITTITE_MAP: Dict[str, str] = {
     # Vowels
     "a": "a", "aa": "aː", "e": "e", "ee": "eː",
     "i": "i", "ii": "iː", "u": "u", "uu": "uː",
+    # Long vowels (macron notation — common in modern Hittitological literature)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ū": "uː",
+    # Accented vowels (editorial accent, strip to base vowel)
+    "à": "a", "á": "a", "é": "e", "í": "i", "ú": "u",
     # Stops (lenis)
     "p": "p", "b": "p", "t": "t", "d": "t", "k": "k", "g": "k",
     # Stops (fortis/geminate)
     "pp": "pː", "bb": "pː", "tt": "tː", "dd": "tː", "kk": "kː", "gg": "kː",
     # Fricatives
     "h": "x", "hh": "xː",
+    "ḫ": "x", "ḫḫ": "xː",  # Hittitological ḫ convention (Hoffner & Melchert)
     # Sibilants
     "s": "s", "ss": "sː", "z": "ts", "zz": "tsː",
+    "š": "ʃ", "šš": "ʃː",  # Hittite sibilant š (77+ entries)
+    "ṣ": "sˤ",              # emphatic sibilant (rare)
     # Sonorants
     "l": "l", "ll": "lː", "m": "m", "n": "n", "r": "r",
     # Glides
-    "w": "w", "y": "j",
+    "w": "w", "y": "j", "j": "j",
+    # Plain x (used in some transliteration conventions, e.g. xšap)
+    "x": "x",
 }
 
 # ---------------------------------------------------------------------------
@@ -74,6 +83,44 @@ UGARITIC_MAP: Dict[str, str] = {
     "q": "q", "r": "r", "ś": "ɬ", "t": "t", "ġ": "ɣ", "ṱ": "θˤ",
     # Simple fallbacks
     "'": "ʔ",
+    # Modifier letter right half ring (Wiktionary aleph convention)
+    "ʾ": "ʔ",
+    # IPA glottal stop used directly in some transliterations
+    "ʔ": "ʔ",
+    # Missing consonants
+    "ḫ": "x",   # voiceless velar/uvular fricative
+    "ṣ": "sˤ",  # emphatic (pharyngealized) s
+    # Long vowels (macron notation)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ū": "uː",
+    # Circumflex vowels (Canaanite shift markers — strip to plain vowel)
+    "â": "a", "ê": "e", "î": "i", "ô": "o", "û": "u",
+    # Capital variants (proper nouns)
+    "Ḫ": "x", "Ḥ": "ħ",
+    # Semitic conventions
+    "j": "j",  # Latin j = /j/ in some sources
+    # Ugaritic script characters (U+10380–U+1039F, Tropper 2000)
+    "\U00010380": "ʔ",   # 𐎀 ALPA
+    "\U00010381": "b",    # 𐎁 BETA
+    "\U00010382": "ɡ",    # 𐎂 GAMLA
+    "\U00010384": "d",    # 𐎄 DELTA
+    "\U00010385": "h",    # 𐎅 HO
+    "\U00010388": "ħ",    # 𐎈 HOTA
+    "\U0001038A": "j",    # 𐎊 YOD
+    "\U0001038B": "k",    # 𐎋 KAF
+    "\U0001038C": "ʃ",    # 𐎌 SHIN
+    "\U0001038D": "l",    # 𐎍 LAMDA
+    "\U0001038E": "m",    # 𐎎 MEM
+    "\U00010390": "n",    # 𐎐 NUN
+    "\U00010393": "ʕ",    # 𐎓 AIN
+    "\U00010394": "p",    # 𐎔 PU
+    "\U00010395": "sˤ",   # 𐎕 SADE
+    "\U00010396": "q",    # 𐎖 QOPA
+    "\U00010397": "r",    # 𐎗 RASHA
+    "\U00010398": "θ",    # 𐎘 THANNA
+    "\U00010399": "ɣ",    # 𐎙 GHAIN
+    "\U0001039A": "t",    # 𐎚 TO
+    "\U0001039B": "ʔi",   # 𐎛 I
+    "\U0001039C": "ʔu",   # 𐎜 U
 }
 
 # ---------------------------------------------------------------------------
@@ -92,9 +139,18 @@ PHOENICIAN_MAP: Dict[str, str] = {
 # ---------------------------------------------------------------------------
 URARTIAN_MAP: Dict[str, str] = {
     "a": "a", "e": "e", "i": "i", "u": "u",
+    "ī": "iː",  # long i (rare)
+    "ə": "ə",   # schwa
     "b": "b", "d": "d", "g": "ɡ", "ḫ": "x", "h": "x",
     "k": "k", "l": "l", "m": "m", "n": "n", "p": "p",
     "q": "q", "r": "r", "s": "s", "š": "ʃ", "t": "t", "z": "ts",
+    # Emphatic consonants (Wegner 2007)
+    "ṣ": "tsʼ",  # emphatic sibilant
+    "ṭ": "tʼ",   # emphatic stop
+    # Glides
+    "y": "j", "w": "w",
+    # Glottal stop (modifier letter right half ring)
+    "ʾ": "ʔ",
 }
 
 # ---------------------------------------------------------------------------
@@ -111,13 +167,18 @@ ELAMITE_MAP: Dict[str, str] = {
 # 6. LYCIAN  (Melchert 2004)
 # ---------------------------------------------------------------------------
 LYCIAN_MAP: Dict[str, str] = {
-    "a": "a", "e": "e", "i": "i", "u": "u",
+    "a": "a", "e": "e", "i": "i", "u": "u", "o": "o",
     "ã": "ã", "ẽ": "ẽ",  # nasalized vowels (IPA-valid)
+    "ā": "aː", "ē": "eː",  # long vowels (rare, Wiktionary entries)
     "b": "b", "d": "d", "g": "ɡ", "h": "x",
     "k": "k", "l": "l", "m": "m", "n": "n", "p": "p",
     "q": "kʷ", "r": "r", "s": "s", "t": "t", "w": "w",
     "z": "ts", "θ": "θ", "χ": "kʰ", "ñ": "ɲ",
     "λ": "l̩", "τ": "tʰ",
+    # Additional consonants (Melchert 2004)
+    "x": "x",   # voiceless velar fricative (direct notation)
+    "j": "j",   # palatal glide
+    "c": "k",   # velar (context-dependent)
     # Reconstructed form marker
     "*": "",
 }
@@ -127,13 +188,22 @@ LYCIAN_MAP: Dict[str, str] = {
 # ---------------------------------------------------------------------------
 LYDIAN_MAP: Dict[str, str] = {
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Nasalized vowels (Gusmani 1964 — 121+ entries affected)
+    "ã": "ã", "ẽ": "ẽ", "ũ": "ũ",
     "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
     "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
     "t": "t", "v": "v", "w": "w", "y": "j",
     "š": "ʃ", "ś": "ʃ", "τ": "tʰ", "λ": "lː", "ñ": "ɲ", "q": "kʷ",
     "f": "f",
+    # Additional consonants
+    "c": "ts",  # affricate
+    "h": "h",   # aspirate/laryngeal
+    "z": "z",   # voiced sibilant
+    "x": "x",   # velar fricative (rare)
     # Long vowels (macron notation)
     "ō": "oː", "ē": "eː",
+    # Circumflex vowel
+    "ê": "eː",
     # Reconstructed form marker
     "*": "",
     # Greek nu (appears in some source conventions)
@@ -150,6 +220,16 @@ CARIAN_MAP: Dict[str, str] = {
     "t": "t", "w": "w", "y": "j",
     "š": "ʃ", "ś": "ɕ", "q": "kʷ", "λ": "l̩",
     "τ": "tʰ", "δ": "ð", "χ": "kʰ", "ñ": "ɲ",
+    # Additional phonemes (Adiego 2007)
+    "β": "β",    # bilabial fricative
+    "z": "z",    # voiced sibilant
+    "v": "v",    # labiodental fricative
+    "j": "j",    # palatal glide
+    "f": "f",    # labiodental fricative
+    "ŋ": "ŋ",   # velar nasal
+    "ĺ": "lʲ",  # palatalized l
+    "ỳ": "ỳ",   # y-grave (distinct Carian value)
+    "ý": "ý",   # y-acute (distinct Carian value)
 }
 
 # ---------------------------------------------------------------------------
@@ -254,9 +334,48 @@ OLD_PERSIAN_MAP: Dict[str, str] = {
     "f": "f", "θ": "θ", "s": "s", "š": "ʃ",
     "ç": "θ",  # Kent's sibilant/fricative (conservative: θ)
     "x": "x", "h": "h",
+    "z": "z",  # voiced sibilant (30 entries)
+    "č": "tʃ",  # postalveolar affricate (c-caron notation)
     "m": "m", "n": "n",
     "r": "r", "l": "l",
     "v": "v", "w": "w", "y": "j",
+    # Capital macron vowels (proper noun initials)
+    "Ā": "aː",
+    # Old Persian cuneiform syllabary (U+103A0–U+103C3, Kent 1953)
+    # NOTE: Syllabary signs represent CV syllables; inherent vowels are included.
+    "\U000103A0": "a",    # 𐎠 a
+    "\U000103A1": "i",    # 𐎡 i
+    "\U000103A2": "u",    # 𐎢 u
+    "\U000103A3": "ka",   # 𐎣 ka
+    "\U000103A4": "ku",   # 𐎤 ku
+    "\U000103A5": "ga",   # 𐎥 ga
+    "\U000103A6": "gu",   # 𐎦 gu
+    "\U000103A7": "xa",   # 𐎧 xa
+    "\U000103A8": "tʃa",  # 𐎨 ca
+    "\U000103A9": "dʒa",  # 𐎩 ja
+    "\U000103AA": "dʒi",  # 𐎪 ji
+    "\U000103AB": "ta",   # 𐎫 ta
+    "\U000103AC": "tu",   # 𐎬 tu
+    "\U000103AD": "da",   # 𐎭 da
+    "\U000103AF": "du",   # 𐎯 du
+    "\U000103B0": "θa",   # 𐎰 tha
+    "\U000103B1": "pa",   # 𐎱 pa
+    "\U000103B2": "ba",   # 𐎲 ba
+    "\U000103B3": "fa",   # 𐎳 fa
+    "\U000103B4": "na",   # 𐎴 na
+    "\U000103B5": "nu",   # 𐎵 nu
+    "\U000103B6": "ma",   # 𐎶 ma
+    "\U000103B7": "mi",   # 𐎷 mi
+    "\U000103B9": "ja",   # 𐎹 ya
+    "\U000103BA": "va",   # 𐎺 va
+    "\U000103BC": "ra",   # 𐎼 ra
+    "\U000103BD": "ru",   # 𐎽 ru
+    "\U000103BE": "la",   # 𐎾 la
+    "\U000103BF": "sa",   # 𐎿 sa
+    "\U000103C0": "za",   # 𐏀 za
+    "\U000103C1": "ʃa",   # 𐏁 sha
+    "\U000103C2": "sa",   # 𐏂 ssa
+    "\U000103C3": "ha",   # 𐏃 ha
 }
 
 # ---------------------------------------------------------------------------
@@ -265,11 +384,17 @@ OLD_PERSIAN_MAP: Dict[str, str] = {
 PIE_MAP: Dict[str, str] = {
     # Reconstruction marker (strip asterisk)
     "*": "",
+    # Morpheme boundary & optional-segment markers
+    "-": "", "(": "", ")": "",
+    "⁽": "", "⁾": "",  # superscript parens (g⁽ʷ⁾ notation)
     # Vowels
     "e": "e", "o": "o", "a": "a", "i": "i", "u": "u",
     "ē": "eː", "ō": "oː", "ā": "aː", "ī": "iː", "ū": "uː",
     # Accented vowels (Wiktionary accentological notation — strip accent)
     "é": "e", "ó": "o", "á": "a", "í": "i", "ú": "u",
+    # Accented long vowels (precomposed — Wiktionary notation)
+    "ḗ": "eː",  # U+1E17: e + macron + acute
+    "ṓ": "oː",  # U+1E53: o + macron + acute
     # Schwa
     "ə": "ə",
     # Stops (plain voiceless)
@@ -287,8 +412,14 @@ PIE_MAP: Dict[str, str] = {
     "m": "m", "n": "n", "l": "l", "r": "r",
     # Glides
     "w": "w", "y": "j",
+    # Labialization modifier (stranded after superscript-paren strip)
+    "ʷ": "ʷ",
     # Syllabic sonorants
     "m̥": "m̩", "n̥": "n̩", "l̥": "l̩", "r̥": "r̩",
+    # Accented syllabic sonorants (acute + ring below)
+    "ĺ\u0325": "l̩", "ŕ\u0325": "r̩", "ḿ\u0325": "m̩",
+    # Plain accented sonorants (strip accent)
+    "ĺ": "l", "ŕ": "r", "ḿ": "m",
 }
 
 # ---------------------------------------------------------------------------
@@ -329,6 +460,9 @@ PROTO_KARTVELIAN_MAP: Dict[str, str] = {
     # Vowels
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
     "ē": "eː",  # long e (occasional in Wiktionary Kartvelian entries)
+    # Morpheme boundary
+    "-": "",
+    "(": "", ")": "",
     # Plain stops
     "p": "p", "t": "t", "k": "k", "q": "q",
     "b": "b", "d": "d", "g": "ɡ",
@@ -346,6 +480,9 @@ PROTO_KARTVELIAN_MAP: Dict[str, str] = {
     # Affricates
     "c": "ts", "č": "tʃ", "ċ": "ts",
     "ʒ": "dz", "ǯ": "dʒ",
+    # Klimov sibilant series (subscript-1 variants — 92 occurrences)
+    "s₁": "s", "z₁": "z", "c₁": "ts",
+    "ʒ₁": "dz", "c̣₁": "tsʼ", "ʓ₁": "dz",
     # Fricatives
     "s": "s", "z": "z", "š": "ʃ", "ž": "ʒ",
     "x": "x", "γ": "ɣ", "ɣ": "ɣ", "h": "h",
@@ -354,7 +491,9 @@ PROTO_KARTVELIAN_MAP: Dict[str, str] = {
     # Sonorants
     "m": "m", "n": "n", "l": "l", "r": "r",
     # Glides
-    "w": "w", "y": "j",
+    "w": "w", "y": "j", "j": "j",
+    # Capital L (3 entries: Lad-, Lam-, Luc̣₁-)
+    "L": "l",
 }
 
 # ---------------------------------------------------------------------------
@@ -406,17 +545,25 @@ PHRYGIAN_MAP: Dict[str, str] = {
     # Long vowels (Obrador-Cursach 2020)
     "ō": "oː", "ē": "eː",
     # Accented vowels (strip accent)
-    "é": "e",
+    "é": "e", "ṓ": "oː",
     # Stops
     "b": "b", "d": "d", "g": "ɡ",
     "p": "p", "t": "t", "k": "k",
     # Fricatives / other
-    "s": "s", "v": "w", "w": "w",
+    "s": "s", "z": "z", "v": "w", "w": "w",
     "ϝ": "w",  # Greek digamma = /w/
     "m": "m", "n": "n", "l": "l", "r": "r",
     "y": "j",
     # Aspirated (New Phrygian Greek-script)
     "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
+    # Greek-script Phrygian entries (Brixhe & Lejeune 1984)
+    "α": "a", "β": "b", "γ": "ɡ", "δ": "d", "ε": "e",
+    "ζ": "z", "η": "eː", "θ": "tʰ", "ι": "i", "κ": "k",
+    "λ": "l", "μ": "m", "ν": "n", "ο": "o", "π": "p",
+    "ρ": "r", "σ": "s", "ς": "s", "τ": "t", "υ": "u",
+    "ω": "oː",
+    # Greek accented vowels (strip accent)
+    "έ": "e", "ώ": "oː", "ά": "a", "ί": "i", "ό": "o", "ύ": "u",
 }
 
 # ---------------------------------------------------------------------------
@@ -516,11 +663,13 @@ HURRIAN_MAP: Dict[str, str] = {
 # 21. ETRUSCAN  (Bonfante & Bonfante 2002, Rix 1963)
 # ---------------------------------------------------------------------------
 ETRUSCAN_MAP: Dict[str, str] = {
-    # Vowels (Etruscan lacks /o/)
-    "a": "a", "e": "e", "i": "i", "u": "u",
-    # Stops (voiceless only — Etruscan lacks voiced stops)
+    # Vowels (Etruscan lacks /o/ in native words, but appears in loanwords)
+    "a": "a", "e": "e", "i": "i", "u": "u", "o": "o",
+    # Stops (voiceless only — Etruscan lacks voiced stops in native words)
     "p": "p", "t": "t", "k": "k",
     "c": "k",  # Etruscan c = voiceless velar stop
+    # Voiced stops (from loanwords)
+    "b": "b", "d": "d", "g": "ɡ",
     # Aspirated stops
     "θ": "θ",    # theta = aspirated dental
     "φ": "pʰ",   # phi = aspirated labial
@@ -532,10 +681,17 @@ ETRUSCAN_MAP: Dict[str, str] = {
     "s": "s",
     "ś": "ʃ",    # palatal sibilant
     "š": "s",    # alveolar sibilant variant notation
+    "z": "ts",   # Etruscan z = /ts/ affricate
     # Fricatives
     "f": "f", "h": "h", "v": "v",
     # Sonorants
     "m": "m", "n": "n", "l": "l", "r": "r",
+    # Labiovelar and rare consonants
+    "q": "kʷ",  # labiovelar
+    "x": "ks",  # rare, loanwords
+    "y": "j",   # rare, loanwords
+    # Greek letter leaks (normalize to Latin equivalents)
+    "σ": "s", "ο": "o",
     # Old Italic Unicode characters (U+10300–U+1032F)
     "\U00010300": "a",    # OLD ITALIC LETTER A
     "\U00010301": "b",    # OLD ITALIC LETTER BE
@@ -581,6 +737,8 @@ TOCHARIAN_MAP: Dict[str, str] = {
     "ā": "aː", "ī": "iː", "ū": "uː",
     # Stops
     "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "ɡ",
+    # Retroflex stops (Adams 2013)
+    "ṭ": "ʈ", "ḍ": "ɖ",
     # Affricates (Tocharian c = affricate /ts/)
     "c": "ts",
     # Sibilants
@@ -592,9 +750,15 @@ TOCHARIAN_MAP: Dict[str, str] = {
     "ṃ": "m",    # nasalized, simplified to m in broad transcription
     "ñ": "ɲ",    # palatal nasal
     "ṅ": "ŋ",    # velar nasal
+    "ṇ": "ɳ",    # retroflex nasal
     # Liquids
     "l": "l", "r": "r",
     "ly": "ʎ",   # palatal lateral
+    "ḷ": "ɭ",    # retroflex lateral
+    # Subscript u (Brahmi notation)
+    "ᵤ": "u",    # modifier letter small u
+    # Aspiration
+    "h": "h",
     # Glides
     "w": "w",
     "y": "j",    # standard IPA

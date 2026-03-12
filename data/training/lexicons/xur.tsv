@@ -6,7 +6,7 @@ ag	aɡ	AG	wiktionary	to lead	-
 ar	ar	AR	wiktionary	to give	-
 man	man	MAN	wiktionary	to be	-
 nun	nun	NUN	wiktionary	to come	-
-Arṣiba	artsʼiba	ARTSIBA	wiktionary	eagle	-
+Arṣiba	Artsʼiba	0RTSIBA	wiktionary	eagle	-
 arde	arde	ARDE	wiktionary	town	-
 ašti	aʃti	ASTI	wiktionary	woman	-
 awari	awari	AWARI	wiktionary	field	-
@@ -33,7 +33,7 @@ kuṭ	kutʼ	KUT	wiktionary	to reach	-
 naḫ	nax	NAK	wiktionary	to ascend	-
 qapqar	qapqar	KAPKAR	wiktionary	to besiege	-
 urp	urp	URP	wiktionary	to slaughter	-
-ul-ṭu	ultʼu	ULTU	wiktionary	camel	-
+ul-ṭu	ul-tʼu	ULTU	wiktionary	camel	-
 tarayə	tarajə	TARAYE	wiktionary	great	-
 arə	arə	ARE	wiktionary	granary	-
 badusi	badusi	BADUSI	wiktionary	perfection	-
@@ -186,10 +186,10 @@ URU.TUR	URU.TUR	000000	oracc_ecut	small_city	-
 URUDU	URUDU	00000	oracc_ecut	bronze	-
 UR₄	UR₄	00	oracc_ecut	ground?	-
 U₂.ŠE	U₂.ŠE	00	oracc_ecut	grain	-
-ʾah-	ʾax-	AK	oracc_ecut	assemble	-
-ʾald-	ʾald-	ALD	oracc_ecut	put_under	-
-ʾari	ʾari	ARI	oracc_ecut	silo	-
-ʾaše	ʾaʃe	ASE	oracc_ecut	man	-
+ʾah-	ʔax-	HAK	oracc_ecut	assemble	-
+ʾald-	ʔald-	HALD	oracc_ecut	put_under	-
+ʾari	ʔari	HARI	oracc_ecut	silo	-
+ʾaše	ʔaʃe	HASE	oracc_ecut	man	-
 A.SI	A.SI	000	oracc_ecut	soldier	-
 ab-	ab-	AB	oracc_ecut	ask_for	-
 abilid-	abilid-	ABILID	oracc_ecut	add	-
@@ -201,7 +201,7 @@ AD-usi	AD-usi	00USI	oracc_ecut	fatherly	-
 adanusa	adanusa	ADANUSA	oracc_ecut	(a_kind_of_stone)	-
 adinni	adinni	ADINNI	oracc_ecut	(meaning_unknown)	-
 adiras-	adiras-	ADIRAS	oracc_ecut	be_afraid_of	-
-aduleṣi	aduleṣi	ADULEI	oracc_ecut	(meaning_unknown)	-
+aduleṣi	aduletsʼi	ADULETSI	oracc_ecut	(meaning_unknown)	-
 adunusi	adunusi	ADUNUSI	oracc_ecut	(a_building)	-
 ae	ae	AE	oracc_ecut	(meaning_unknown)	-
 ag-	aɡ-	AG	oracc_ecut	lead	-
@@ -215,7 +215,7 @@ aišt-	aiʃt-	AIST	oracc_ecut	jump	-
 akaie	akaie	AKAIE	oracc_ecut	(meaning_unknown)	-
 al-	al-	AL	oracc_ecut	say	-
 alasašili	alasaʃili	ALASASILI	oracc_ecut	(meaning_unknown)	-
-alaṣi	alaṣi	ALAI	oracc_ecut	(meaning_unknown)	-
+alaṣi	alatsʼi	ALATSI	oracc_ecut	(meaning_unknown)	-
 alau	alau	ALAU	oracc_ecut	lord	-
 Aldi	Aldi	0LDI	oracc_ecut	urartian_national_god_=_haldi	-
 aldini	aldini	ALDINI	oracc_ecut	(meaning_unknown)	-
@@ -239,7 +239,7 @@ aniarduni	aniarduni	ANIARDUNI	oracc_ecut	vigorous?	-
 apti	apti	APTI	oracc_ecut	side	-
 ar-	ar-	AR	oracc_ecut	give	-
 araphini	arapxini	ARAPKINI	oracc_ecut	(meaning_unknown)	-
-arayi	arayi	ARAUI	oracc_ecut	(meaning_unknown)	-
+arayi	araji	ARAYI	oracc_ecut	(meaning_unknown)	-
 ard-	ard-	ARD	oracc_ecut	give	-
 arda	arda	ARDA	oracc_ecut	(meaning_unknown)	-
 ardini	ardini	ARDINI	oracc_ecut	(meaning_unknown)	-
@@ -261,8 +261,8 @@ arudi	arudi	ARUDI	oracc_ecut	(a_profession)	-
 aruše	aruʃe	ARUSE	oracc_ecut	(a_positive_quality)	-
 asuahina	asuaxina	ASUAKINA	oracc_ecut	(meaning_unknown)	-
 asuni	asuni	ASUNI	oracc_ecut	near	-
-aṣuli	aṣuli	AULI	oracc_ecut	(an_official)	-
-aṣuše	aṣuʃe	AUSE	oracc_ecut	prosperity?	-
+aṣuli	atsʼuli	ATSULI	oracc_ecut	(an_official)	-
+aṣuše	atsʼuʃe	ATSUSE	oracc_ecut	prosperity?	-
 aš-	aʃ-	AS	oracc_ecut	leave	-
 ašazie	aʃatsie	ASATSIE	oracc_ecut	(meaning_unknown)	-
 ašd-	aʃd-	ASD	oracc_ecut	incorporate?	-
@@ -272,7 +272,7 @@ ašh-	aʃx-	ASK	oracc_ecut	offer	-
 ašhašt-	aʃxaʃt-	ASKAST	oracc_ecut	sacrifice	-
 ašihusi	aʃixusi	ASIKUSI	oracc_ecut	banquet_hall?	-
 ašini	aʃini	ASINI	oracc_ecut	(meaning_unknown)	-
-aškaṭini	aʃkaṭini	ASKAINI	oracc_ecut	(meaning_unknown)	-
+aškaṭini	aʃkatʼini	ASKATINI	oracc_ecut	(meaning_unknown)	-
 ašt-	aʃt-	AST	oracc_ecut	(meaning_unknown)	-
 aštiuzi	aʃtiutsi	ASTIUTSI	oracc_ecut	(meaning_unknown)	-
 ašul-	aʃul-	ASUL	oracc_ecut	withdraw	-
@@ -284,10 +284,10 @@ ath-	atx-	ATK	oracc_ecut	dig	-
 atibi	atibi	ATIBI	oracc_ecut	ten_thousand?	-
 atqana	atqana	ATKANA	oracc_ecut	sacrifice	-
 atqanad-	atqanad-	ATKANAD	oracc_ecut	offer	-
-aṭ-	aṭ-	A	oracc_ecut	deposit?	-
+aṭ-	atʼ-	AT	oracc_ecut	deposit?	-
 auaraši	auaraʃi	AUARASI	oracc_ecut	(auraši_man	-
 audi	audi	AUDI	oracc_ecut	(meaning_unknown)	-
-aueiṭini	aueiṭini	AUEIINI	oracc_ecut	(a_kind_of_troop?)	-
+aueiṭini	aueitʼini	AUEITINI	oracc_ecut	(a_kind_of_troop?)	-
 auie	auie	AUIE	oracc_ecut	anywhere?	-
 azibi	atsibi	ATSIBI	oracc_ecut	(meaning_unknown)	-
 babani	babani	BABANI	oracc_ecut	mountain	-
@@ -331,11 +331,11 @@ erašini	eraʃini	ERASINI	oracc_ecut	(meaning_unknown)	-
 erili	erili	ERILI	oracc_ecut	king	-
 erilinusi	erilinusi	ERILINUSI	oracc_ecut	royalty	-
 ERIN₂.GIR₃	ERIN₂.GIR₃	0000000	oracc_ecut	footsoldier	-
-erṣid-	erṣid-	ERID	oracc_ecut	settle	-
+erṣid-	ertsʼid-	ERTSID	oracc_ecut	settle	-
 esidini	esidini	ESIDINI	oracc_ecut	(meaning_unknown)	-
-ešiaṣ-	eʃiaṣ-	ESIA	oracc_ecut	decrease?	-
+ešiaṣ-	eʃiatsʼ-	ESIATS	oracc_ecut	decrease?	-
 ešiate	eʃiate	ESIATE	oracc_ecut	(a_category_of_men_or_profession)	-
-ešimeṣi	eʃimeṣi	ESIMEI	oracc_ecut	(a_positive_quality_or_state)	-
+ešimeṣi	eʃimetsʼi	ESIMETSI	oracc_ecut	(a_positive_quality_or_state)	-
 ešinini	eʃinini	ESININI	oracc_ecut	inhabitated	-
 euri	euri	EURI	oracc_ecut	lord	-
 E₂.DIN	E₂.DIN	0000	oracc_ecut	builder	-
@@ -388,8 +388,8 @@ hurulai	xurulai	KURULAI	oracc_ecut	(meaning_unknown)	-
 huš-	xuʃ-	KUS	oracc_ecut	throw	-
 hušarini	xuʃarini	KUSARINI	oracc_ecut	horses?	-
 hut-	xut-	KUT	oracc_ecut	pray	-
-hutumayi	xutumayi	KUTUMAUI	oracc_ecut	matter_of_dispute?	-
-huṭutuhi	xuṭutuxi	KUUTUKI	oracc_ecut	bravery?	-
+hutumayi	xutumaji	KUTUMAYI	oracc_ecut	matter_of_dispute?	-
+huṭutuhi	xutʼutuxi	KUTUTUKI	oracc_ecut	bravery?	-
 ia	ia	IA	oracc_ecut	(meaning_unknown)	-
 iarani	iarani	IARANI	oracc_ecut	cult_dais	-
 ibir-	ibir-	IBIR	oracc_ecut	(meaning_unknown)	-
@@ -397,7 +397,7 @@ ibriu	ibriu	IBRIU	oracc_ecut	(a_functionary)	-
 idani	idani	IDANI	oracc_ecut	(meaning_unknown)	-
 ieše	ieʃe	IESE	oracc_ecut	i	-
 igie	iɡie	IGIE	oracc_ecut	cistern	-
-ikaṣiani	ikaṣiani	IKAIANI	oracc_ecut	(meaning_unknown)	-
+ikaṣiani	ikatsʼiani	IKATSIANI	oracc_ecut	(meaning_unknown)	-
 ikukahi	ikukaxi	IKUKAKI	oracc_ecut	the_same_one	-
 ikukani	ikukani	IKUKANI	oracc_ecut	the_same	-
 ime	ime	IME	oracc_ecut	foundation	-
@@ -427,11 +427,11 @@ iruid-	iruid-	IRUID	oracc_ecut	(meaning_unknown)	-
 is-	is-	IS	oracc_ecut	regard?	-
 isiqi	isiqi	ISIKI	oracc_ecut	(an_object_made_of_bronze)	-
 isiuše	isiuʃe	ISIUSE	oracc_ecut	(meaning_unknown)	-
-iṣinaue	iṣinaue	IINAUE	oracc_ecut	(meaning_unknown)	-
+iṣinaue	itsʼinaue	ITSINAUE	oracc_ecut	(meaning_unknown)	-
 iša	iʃa	ISA	oracc_ecut	that	-
 išahini	iʃaxini	ISAKINI	oracc_ecut	(meaning_unknown)	-
 išerhini	iʃerxini	ISERKINI	oracc_ecut	then	-
-išiaṣi	iʃiaṣi	ISIAI	oracc_ecut	(meaning_unknown)	-
+išiaṣi	iʃiatsʼi	ISIATSI	oracc_ecut	(meaning_unknown)	-
 išpilipri	iʃpilipri	ISPILIPRI	oracc_ecut	(meaning_unknown)	-
 išpui-	iʃpui-	ISPUI	oracc_ecut	control?	-
 išpuiše	iʃpuiʃe	ISPUISE	oracc_ecut	dominion?	-
@@ -471,7 +471,7 @@ kuruhi	kuruxi	KURUKI	oracc_ecut	(a_functionary_title)	-
 kuruni	kuruni	KURUNI	oracc_ecut	back?	-
 kuš-	kuʃ-	KUS	oracc_ecut	create	-
 kušini	kuʃini	KUSINI	oracc_ecut	(meaning_unknown)	-
-kuṭ-	kuṭ-	KU	oracc_ecut	come	-
+kuṭ-	kutʼ-	KUT	oracc_ecut	come	-
 lak-	lak-	LAK	oracc_ecut	alter?	-
 limeie	limeie	LIMEIE	oracc_ecut	(meaning_unknown)	-
 liqiu	liqiu	LIKIU	oracc_ecut	(meaning_unknown)	-
@@ -489,7 +489,7 @@ marda	marda	MARDA	oracc_ecut	(a_profession)	-
 mari	mari	MARI	oracc_ecut	protective_barrier?	-
 mariahi	mariaxi	MARIAKI	oracc_ecut	(meaning_unknown)	-
 marini	marini	MARINI	oracc_ecut	(meaning_unknown)	-
-mariyi	mariyi	MARIUI	oracc_ecut	(a_category_of_men_or_profession)	-
+mariyi	mariji	MARIYI	oracc_ecut	(a_category_of_men_or_profession)	-
 masi	masi	MASI	oracc_ecut	his	-
 maše	maʃe	MASE	oracc_ecut	(meaning_unknown)	-
 meliaini	meliaini	MELIAINI	oracc_ecut	(meaning_unknown)	-
@@ -499,16 +499,16 @@ meruni	meruni	MERUNI	oracc_ecut	(meaning_unknown)	-
 meš-	meʃ-	MES	oracc_ecut	harvest	-
 meše	meʃe	MESE	oracc_ecut	tribute	-
 meši-	meʃi-	MESI	oracc_ecut	libate?	-
-mī	mī	M	oracc_ecut	and?	-
+mī	miː	MI	oracc_ecut	and?	-
 mikuiduše	mikuiduʃe	MIKUIDUSE	oracc_ecut	atonement??	-
-Miliṭialhi	Miliṭialxi	0ILIIALKI	oracc_ecut	of_miliṭia	-
+Miliṭialhi	Militʼialxi	0ILITIALKI	oracc_ecut	of_miliṭia	-
 mirtarš-	mirtarʃ-	MIRTARS	oracc_ecut	administrate?	-
 MUHALDIM	MUHALDIM	00H00000	oracc_ecut	cook	-
 muna	muna	MUNA	oracc_ecut	river	-
 muri	muri	MURI	oracc_ecut	storehouse	-
 murmu	murmu	MURMU	oracc_ecut	(meaning_unknown)	-
 murumuriahininani	murumuriaxininani	MURUMURIAKININANI	oracc_ecut	(meaning_unknown)	-
-muṣi	muṣi	MUI	oracc_ecut	faithful	-
+muṣi	mutsʼi	MUTSI	oracc_ecut	faithful	-
 mušitani	muʃitani	MUSITANI	oracc_ecut	(meaning_unknown)	-
 mušitinani	muʃitinani	MUSITINANI	oracc_ecut	(meaning_unknown)	-
 NAGAR	NAGAR	00000	oracc_ecut	carpenter	-
@@ -540,11 +540,11 @@ panithe	panitxe	PANITKE	oracc_ecut	(meaning_unknown)	-
 par-	par-	PAR	oracc_ecut	carry	-
 pari	pari	PARI	oracc_ecut	to	-
 patari	patari	PATARI	oracc_ecut	city	-
-pī	pī	P	oracc_ecut	under	-
+pī	piː	PI	oracc_ecut	under	-
 pili	pili	PILI	oracc_ecut	canal	-
-piṣad-	piṣad-	PIAD	oracc_ecut	rejoice	-
-piṣu	piṣu	PIU	oracc_ecut	joyous?	-
-piṣuše	piṣuʃe	PIUSE	oracc_ecut	joy	-
+piṣad-	pitsʼad-	PITSAD	oracc_ecut	rejoice	-
+piṣu	pitsʼu	PITSU	oracc_ecut	joyous?	-
+piṣuše	pitsʼuʃe	PITSUSE	oracc_ecut	joy	-
 pit-	pit-	PIT	oracc_ecut	damage	-
 puh-	pux-	PUK	oracc_ecut	(meaning_unknown)	-
 pulaue	pulaue	PULAUE	oracc_ecut	(meaning_unknown)	-
@@ -559,14 +559,14 @@ qudula	qudula	KUDULA	oracc_ecut	foundation?	-
 quldini	quldini	KULDINI	oracc_ecut	deserted	-
 quradiri	quradiri	KURADIRI	oracc_ecut	(meaning_unknown)	-
 qutume	qutume	KUTUME	oracc_ecut	(meaning_unknown)	-
-quṭuhu	quṭuxu	KUUKU	oracc_ecut	(meaning_unknown)	-
+quṭuhu	qutʼuxu	KUTUKU	oracc_ecut	(meaning_unknown)	-
 salmathi	salmatxi	SALMATKI	oracc_ecut	on_the_left_side?	-
 salzi	saltsi	SALTSI	oracc_ecut	bare?	-
 sie	sie	SIE	oracc_ecut	shepherd	-
 sila	sila	SILA	oracc_ecut	wife	-
 silišt-	siliʃt-	SILIST	oracc_ecut	(meaning_unknown)	-
 siluadi	siluadi	SILUADI	oracc_ecut	(meaning_unknown)	-
-sipruyini	sipruyini	SIPRUUINI	oracc_ecut	(meaning_unknown)	-
+sipruyini	siprujini	SIPRUYINI	oracc_ecut	(meaning_unknown)	-
 sirhani	sirxani	SIRKANI	oracc_ecut	(a_building)	-
 siršini	sirʃini	SIRSINI	oracc_ecut	stable	-
 sui-	sui-	SUI	oracc_ecut	(meaning_unknown)	-
@@ -577,14 +577,14 @@ sunue	sunue	SUNUE	oracc_ecut	(meaning_unknown)	-
 supa	supa	SUPA	oracc_ecut	(meaning_unknown	-
 suri	suri	SURI	oracc_ecut	(meaning_unknown)	-
 susi	susi	SUSI	oracc_ecut	(a_temple)	-
-suṭ-	suṭ-	SU	oracc_ecut	(meaning_unknown)	-
-suṭuq-	suṭuq-	SUUK	oracc_ecut	(meaning_unknown)	-
-ṣib-	ṣib-	IB	oracc_ecut	(meaning_unknown)	-
-ṣiburdi	ṣiburdi	IBURDI	oracc_ecut	(meaning_unknown)	-
-ṣipikani	ṣipikani	IPIKANI	oracc_ecut	(a_category_of_men_or_profession)	-
-ṣirabae	ṣirabae	IRABAE	oracc_ecut	unwatered	-
-ṣui	ṣui	UI	oracc_ecut	lake	-
-ṣuiniši	ṣuiniʃi	UINISI	oracc_ecut	lacustrine	-
+suṭ-	sutʼ-	SUT	oracc_ecut	(meaning_unknown)	-
+suṭuq-	sutʼuq-	SUTUK	oracc_ecut	(meaning_unknown)	-
+ṣib-	tsʼib-	TSIB	oracc_ecut	(meaning_unknown)	-
+ṣiburdi	tsʼiburdi	TSIBURDI	oracc_ecut	(meaning_unknown)	-
+ṣipikani	tsʼipikani	TSIPIKANI	oracc_ecut	(a_category_of_men_or_profession)	-
+ṣirabae	tsʼirabae	TSIRABAE	oracc_ecut	unwatered	-
+ṣui	tsʼui	TSUI	oracc_ecut	lake	-
+ṣuiniši	tsʼuiniʃi	TSUINISI	oracc_ecut	lacustrine	-
 ša	ʃa	SA	oracc_ecut	of	-
 ša-	ʃa-	SA	oracc_ecut	(meaning_unknown)	-
 šalari	ʃalari	SALARI	oracc_ecut	(a_profession?	-
@@ -593,7 +593,7 @@ suṭuq-	suṭuq-	SUUK	oracc_ecut	(meaning_unknown)	-
 šat-	ʃat-	SAT	oracc_ecut	grab	-
 šehadi	ʃexadi	SEKADI	oracc_ecut	cow?	-
 šehiri	ʃexiri	SEKIRI	oracc_ecut	alive	-
-šeptusinaṣi	ʃeptusinaṣi	SEPTUSINAI	oracc_ecut	(meaning_unknown)	-
+šeptusinaṣi	ʃeptusinatsʼi	SEPTUSINATSI	oracc_ecut	(meaning_unknown)	-
 šepuia-	ʃepuia-	SEPUIA	oracc_ecut	(meaning_unknown)	-
 šepuiar-	ʃepuiar-	SEPUIAR	oracc_ecut	(meaning_unknown)	-
 šer-	ʃer-	SER	oracc_ecut	write?	-
@@ -634,7 +634,7 @@ talusuni	talusuni	TALUSUNI	oracc_ecut	(meaning_unknown	-
 tamh-	tamx-	TAMK	oracc_ecut	occupy?	-
 tan-	tan-	TAN	oracc_ecut	do	-
 tananini	tananini	TANANINI	oracc_ecut	(meaning_unknown)	-
-tanaṣi	tanaṣi	TANAI	oracc_ecut	artefact?	-
+tanaṣi	tanatsʼi	TANATSI	oracc_ecut	artefact?	-
 taraie	taraie	TARAIE	oracc_ecut	strong	-
 tarainua	tarainua	TARAINUA	oracc_ecut	(meaning_unknown)	-
 taralzani	taraltsani	TARALTSANI	oracc_ecut	(meaning_unknown)	-
@@ -670,12 +670,12 @@ tuaie	tuaie	TUAIE	oracc_ecut	pure	-
 tuišhi	tuiʃxi	TUISKI	oracc_ecut	(meaning_unknown)	-
 tur-	tur-	TUR	oracc_ecut	destroy	-
 tušuhani	tuʃuxani	TUSUKANI	oracc_ecut	(meaning_unknown)	-
-ṭelzuše	ṭeltsuʃe	ELTSUSE	oracc_ecut	offering_prescription	-
-ṭeribišuzi	ṭeribiʃutsi	ERIBISUTSI	oracc_ecut	cult_stele?	-
-ṭirusi	ṭirusi	IRUSI	oracc_ecut	(a_measurement_unit)	-
-ṭubard-	ṭubard-	UBARD	oracc_ecut	authorize?	-
-ṭubarduni	ṭubarduni	UBARDUNI	oracc_ecut	strength?	-
-ṭulurini	ṭulurini	ULURINI	oracc_ecut	(a_building	-
+ṭelzuše	tʼeltsuʃe	TELTSUSE	oracc_ecut	offering_prescription	-
+ṭeribišuzi	tʼeribiʃutsi	TERIBISUTSI	oracc_ecut	cult_stele?	-
+ṭirusi	tʼirusi	TIRUSI	oracc_ecut	(a_measurement_unit)	-
+ṭubard-	tʼubard-	TUBARD	oracc_ecut	authorize?	-
+ṭubarduni	tʼubarduni	TUBARDUNI	oracc_ecut	strength?	-
+ṭulurini	tʼulurini	TULURINI	oracc_ecut	(a_building	-
 uaniše	uaniʃe	UANISE	oracc_ecut	(a_positive_quality)	-
 ubarad-	ubarad-	UBARAD	oracc_ecut	order?	-
 ubardud-	ubardud-	UBARDUD	oracc_ecut	order?	-
@@ -715,12 +715,12 @@ uri	uri	URI	oracc_ecut	hill	-
 urišhi	uriʃxi	URISKI	oracc_ecut	property	-
 urišhusi	uriʃxusi	URISKUSI	oracc_ecut	treasury	-
 urp-	urp-	URP	oracc_ecut	sacrifice	-
-urpuaṣi	urpuaṣi	URPUAI	oracc_ecut	sacrifice	-
+urpuaṣi	urpuatsʼi	URPUATSI	oracc_ecut	sacrifice	-
 urtani	urtani	URTANI	oracc_ecut	plant	-
 urul-	urul-	URUL	oracc_ecut	receive?	-
 ururda	ururda	URURDA	oracc_ecut	a_group_of_people	-
-uṣ-	uṣ-	U	oracc_ecut	(meaning_unknown)	-
-uṣidilatini	uṣidilatini	UIDILATINI	oracc_ecut	(meaning_unknown)	-
+uṣ-	utsʼ-	UTS	oracc_ecut	(meaning_unknown)	-
+uṣidilatini	utsʼidilatini	UTSIDILATINI	oracc_ecut	(meaning_unknown)	-
 uše	uʃe	USE	oracc_ecut	(meaning_unknown)	-
 ušgi	uʃɡi	USGI	oracc_ecut	favor	-
 ušhan-	uʃxan-	USKAN	oracc_ecut	grant	-
@@ -746,4 +746,4 @@ zeldi	tseldi	TSELDI	oracc_ecut	(meaning_unknown)	-
 zilibi	tsilibi	TSILIBI	oracc_ecut	progeny	-
 ZU	ZU	00	oracc_ecut	writing_board	-
 zumagi	tsumaɡi	TSUMAGI	oracc_ecut	(meaning_unknown)	-
-zumaṭini	tsumaṭini	TSUMAINI	oracc_ecut	(meaning_unknown)	-
+zumaṭini	tsumatʼini	TSUMATINI	oracc_ecut	(meaning_unknown)	-
