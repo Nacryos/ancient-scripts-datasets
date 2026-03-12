@@ -843,8 +843,9 @@ GOTHIC_MAP: Dict[str, str] = {
     "\U00010344": "t",   # 𐍄 teiws
     "\U00010345": "w",   # 𐍅 winja
     "\U00010346": "f",   # 𐍆 faihu
-    "\U00010347": "ʍ",   # 𐍇 iggws (hwair)
-    "\U00010348": "o",   # 𐍈 othal
+    "\U00010347": "ŋ",   # 𐍇 iggws (enguz — represents /ŋ/)
+    "\U00010348": "ʍ",   # 𐍈 hwair (voiceless w)
+    "\U00010349": "o",   # 𐍉 othal
 }
 
 # ---------------------------------------------------------------------------
@@ -852,6 +853,7 @@ GOTHIC_MAP: Dict[str, str] = {
 # Based on Lunt (2001) "Old Church Slavonic Grammar"
 # ---------------------------------------------------------------------------
 OCS_MAP: Dict[str, str] = {
+    # === Cyrillic lowercase (primary OCS orthography) ===
     # Vowels
     "а": "a", "е": "e", "и": "i", "о": "o", "у": "u",
     "ы": "ɨ", "ь": "ĭ", "ъ": "ŭ",
@@ -875,12 +877,84 @@ OCS_MAP: Dict[str, str] = {
     "ц": "ts", "ч": "tʃ", "ш": "ʃ", "щ": "ʃt",
     "ѕ": "dz",  # dzělo
     "ꙃ": "dz",  # older form
-    # Archaic/Glagolitic letters
+    # Archaic Cyrillic
     "ѳ": "θ",  # theta (Greek loanwords)
     "ѯ": "ks", # ksi
     "ѱ": "ps", # psi
     "ѵ": "y",  # izhitsa (from Greek upsilon)
-    # Latin transliteration forms (Wiktionary sometimes uses these)
+    # === Cyrillic uppercase (Wiktionary capitalizes some headwords) ===
+    "А": "a", "Б": "b", "В": "v", "Г": "ɡ", "Д": "d",
+    "Е": "e", "Ж": "ʒ", "З": "z", "И": "i", "К": "k",
+    "Л": "l", "М": "m", "Н": "n", "О": "o", "П": "p",
+    "Р": "r", "С": "s", "Т": "t", "У": "u", "Ф": "f",
+    "Х": "x", "Ц": "ts", "Ч": "tʃ", "Ш": "ʃ", "Щ": "ʃt",
+    "Ъ": "ŭ", "Ы": "ɨ", "Ь": "ĭ", "Ю": "ju", "Я": "ja",
+    "Ѣ": "æ", "Ѧ": "ɛ̃", "Ѫ": "ɔ̃", "Ѕ": "dz",
+    "Ѳ": "θ", "Ѵ": "y", "І": "i",
+    # === Glagolitic script (U+2C00-U+2C5F) ===
+    # Many OCS words on Wiktionary use Glagolitic instead of Cyrillic.
+    # Based on standard Glagolitic-Cyrillic equivalence (Lunt 2001).
+    # Lowercase
+    "ⰰ": "a",   # AZU = а
+    "ⰱ": "b",   # BUKY = б
+    "ⰲ": "v",   # VEDE = в
+    "ⰳ": "ɡ",   # GLAGOLI = г
+    "ⰴ": "d",   # DOBRO = д
+    "ⰵ": "e",   # YESTU = е
+    "ⰶ": "ʒ",   # ZHIVETE = ж
+    "ⰷ": "dz",  # DZELO = ꙃ/ѕ
+    "ⰸ": "z",   # ZEMLJA = з
+    "ⰹ": "i",   # IZHE = и
+    "ⰺ": "i",   # INITIAL IZHE = і
+    "ⰻ": "i",   # I = і
+    "ⰼ": "dʒ",  # DJERVI = ꙉ
+    "ⰽ": "k",   # KAKO = к
+    "ⰾ": "l",   # LJUDIJE = л
+    "ⰿ": "m",   # MYSLITE = м
+    "ⱀ": "n",   # NASHI = н
+    "ⱁ": "o",   # ONU = о
+    "ⱂ": "p",   # POKOJI = п
+    "ⱃ": "r",   # RITSI = р
+    "ⱄ": "s",   # SLOVO = с
+    "ⱅ": "t",   # TVRIDO = т
+    "ⱆ": "u",   # UKU = у
+    "ⱇ": "f",   # FRITU = ф
+    "ⱈ": "x",   # HERU = х
+    "ⱉ": "o",   # OTU = ω (variant of о)
+    "ⱊ": "p",   # PE = variant п
+    "ⱋ": "ʃt",  # SHTA = щ
+    "ⱌ": "ts",  # TSI = ц
+    "ⱍ": "tʃ",  # CHRIVI = ч
+    "ⱎ": "ʃ",   # SHA = ш
+    "ⱏ": "ŭ",   # YERU = ъ
+    "ⱐ": "ĭ",   # YERI = ь
+    "ⱑ": "æ",   # YATI = ѣ
+    "ⱒ": "x",   # SPIDERY HA
+    "ⱓ": "ju",  # YU = ю
+    "ⱔ": "ɛ̃",   # SMALL YUS = ѧ
+    "ⱕ": "ɛ̃",   # SMALL YUS WITH TAIL (variant)
+    "ⱖ": "jo",  # YO
+    "ⱗ": "jɛ̃",  # IOTATED SMALL YUS
+    "ⱘ": "ɔ̃",   # BIG YUS = ѫ
+    "ⱙ": "jɔ̃",  # IOTATED BIG YUS
+    "ⱚ": "θ",   # FITA = ѳ
+    "ⱛ": "y",   # IZHITSA = ѵ
+    "ⱜ": "ŭ",   # SHTAPIC (yer variant)
+    "ⱝ": "a",   # TROKUTASTI A (a variant)
+    "ⱞ": "m",   # LATINATE MYSLITE (m variant)
+    "ⱟ": "tʃ",  # CAUDATE CHRIVI (ch variant)
+    # Uppercase Glagolitic (same IPA values)
+    "Ⰰ": "a", "Ⰱ": "b", "Ⰲ": "v", "Ⰳ": "ɡ", "Ⰴ": "d",
+    "Ⰵ": "e", "Ⰶ": "ʒ", "Ⰷ": "dz", "Ⰸ": "z", "Ⰹ": "i",
+    "Ⰺ": "i", "Ⰻ": "i", "Ⰼ": "dʒ", "Ⰽ": "k", "Ⰾ": "l",
+    "Ⰿ": "m", "Ⱀ": "n", "Ⱁ": "o", "Ⱂ": "p", "Ⱃ": "r",
+    "Ⱄ": "s", "Ⱅ": "t", "Ⱆ": "u", "Ⱇ": "f", "Ⱈ": "x",
+    "Ⱉ": "o", "Ⱊ": "p", "Ⱋ": "ʃt", "Ⱌ": "ts", "Ⱍ": "tʃ",
+    "Ⱎ": "ʃ", "Ⱏ": "ŭ", "Ⱐ": "ĭ", "Ⱑ": "æ", "Ⱒ": "x",
+    "Ⱓ": "ju", "Ⱔ": "ɛ̃", "Ⱕ": "ɛ̃", "Ⱖ": "jo", "Ⱗ": "jɛ̃",
+    "Ⱘ": "ɔ̃", "Ⱙ": "jɔ̃", "Ⱚ": "θ", "Ⱛ": "y", "Ⱜ": "ŭ",
+    "Ⱝ": "a", "Ⱞ": "m", "Ⱟ": "tʃ",
+    # === Latin transliteration forms (Wiktionary sometimes uses these) ===
     "š": "ʃ", "ž": "ʒ", "č": "tʃ",
     "ě": "æ",  # yat
     "ǫ": "ɔ̃", "ę": "ɛ̃",  # nasal vowels in Latin translit
@@ -935,20 +1009,59 @@ SUMERIAN_MAP: Dict[str, str] = {
 # Mycenaean is written in syllabary; transliteration values are conventional
 # ---------------------------------------------------------------------------
 MYCENAEAN_MAP: Dict[str, str] = {
+    # === Linear B Syllabary Unicode (U+10000-U+1005D) ===
+    # Direct Unicode → IPA mapping (Ventris & Chadwick 1973)
+    # Pure vowels
+    "𐀀": "a", "𐀁": "e", "𐀂": "i", "𐀃": "o", "𐀄": "u",
+    # d-series
+    "𐀅": "da", "𐀆": "de", "𐀇": "di", "𐀈": "do", "𐀉": "du",
+    # j-series (y-glide)
+    "𐀊": "ja", "𐀋": "je", "𐀍": "jo", "𐀎": "ju",
+    # k-series
+    "𐀏": "ka", "𐀐": "ke", "𐀑": "ki", "𐀒": "ko", "𐀓": "ku",
+    # m-series
+    "𐀔": "ma", "𐀕": "me", "𐀖": "mi", "𐀗": "mo", "𐀘": "mu",
+    # n-series
+    "𐀙": "na", "𐀚": "ne", "𐀛": "ni", "𐀜": "no", "𐀝": "nu",
+    # p-series
+    "𐀞": "pa", "𐀟": "pe", "𐀠": "pi", "𐀡": "po", "𐀢": "pu",
+    # q-series (labiovelars: *kʷ)
+    "𐀣": "kʷa", "𐀤": "kʷe", "𐀥": "kʷi", "𐀦": "kʷo",
+    # r-series (r/l undistinguished in Linear B)
+    "𐀨": "ra", "𐀩": "re", "𐀪": "ri", "𐀫": "ro", "𐀬": "ru",
+    # s-series
+    "𐀭": "sa", "𐀮": "se", "𐀯": "si", "𐀰": "so", "𐀱": "su",
+    # t-series
+    "𐀲": "ta", "𐀳": "te", "𐀴": "ti", "𐀵": "to", "𐀶": "tu",
+    # w-series
+    "𐀷": "wa", "𐀸": "we", "𐀹": "wi", "𐀺": "wo",
+    # z-series (affricate *ts or *dz)
+    "𐀼": "dza", "𐀽": "dze", "𐀿": "dzo",
+    # Special/complex signs
+    "𐁀": "ha",   # a2 (aspirated a)
+    "𐁁": "ai",   # a3
+    "𐁂": "au",   # au diphthong
+    "𐁃": "dwe", "𐁄": "dwo",
+    "𐁅": "nwa",
+    "𐁆": "pʰu",  # pu2 (aspirated pu)
+    "𐁇": "pte",
+    "𐁈": "rja",  # ra2
+    "𐁉": "rai",  # ra3
+    "𐁊": "rjo",  # ro2
+    "𐁋": "tja",  # ta2
+    "𐁌": "twe", "𐁍": "two",
+    # === Latin transliteration forms (scholarly conventions) ===
     # Vowels
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
-    # CV syllables are typically already transliterated to Latin
-    # These handle common standalone forms
     "h": "h",
-    "j": "j",  # y-glide (from *y)
-    "w": "w",  # w-glide (preserved in Mycenaean, lost in classical Greek)
+    "j": "j", "w": "w",
     "k": "k", "g": "ɡ",
     "d": "d", "t": "t",
     "p": "p", "b": "b",
     "m": "m", "n": "n",
     "l": "l", "r": "r",
     "s": "s", "z": "dz",
-    "q": "kʷ",  # labiovelar (qa, qe, qi, qo = kʷa, kʷe, etc.)
+    "q": "kʷ",
     # Digraphs
     "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
 }
