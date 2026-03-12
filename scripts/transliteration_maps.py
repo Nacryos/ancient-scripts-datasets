@@ -61,6 +61,7 @@ HITTITE_MAP: Dict[str, str] = {
     "ḫ": "x", "ḫḫ": "xː",  # Hittitological ḫ convention (Hoffner & Melchert)
     # Sibilants
     "s": "s", "ss": "sː", "z": "ts", "zz": "tsː",
+    # š → ʃ: Conventional. Kloekhorst (2008) argues for [s]; Hoffner & Melchert (2008) use conventional ʃ.
     "š": "ʃ", "šš": "ʃː",  # Hittite sibilant š (77+ entries)
     "ṣ": "sˤ",              # emphatic sibilant (rare)
     # Sonorants
@@ -193,7 +194,7 @@ LYDIAN_MAP: Dict[str, str] = {
     "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
     "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
     "t": "t", "v": "v", "w": "w", "y": "j",
-    "š": "ʃ", "ś": "ʃ", "τ": "tʰ", "λ": "lː", "ñ": "ɲ", "q": "kʷ",
+    "š": "ʃ", "ś": "ɕ", "τ": "tʰ", "λ": "lː", "ñ": "ɲ", "q": "kʷ",
     "f": "f",
     # Additional consonants
     "c": "ts",  # affricate
@@ -228,8 +229,8 @@ CARIAN_MAP: Dict[str, str] = {
     "f": "f",    # labiodental fricative
     "ŋ": "ŋ",   # velar nasal
     "ĺ": "lʲ",  # palatalized l
-    "ỳ": "ỳ",   # y-grave (distinct Carian value)
-    "ý": "ý",   # y-acute (distinct Carian value)
+    "ỳ": "ə",   # y-grave: tentative vocalic value (Adiego 2007)
+    "ý": "e",   # y-acute: tentative vocalic value (Adiego 2007)
 }
 
 # ---------------------------------------------------------------------------
@@ -332,6 +333,7 @@ OLD_PERSIAN_MAP: Dict[str, str] = {
     "p": "p", "b": "b", "t": "t", "d": "d",
     "k": "k", "g": "ɡ", "c": "tʃ", "j": "dʒ",
     "f": "f", "θ": "θ", "s": "s", "š": "ʃ",
+    # ç → θ: Per Kent (1953). Kloekhorst (2008) argues for /ts/.
     "ç": "θ",  # Kent's sibilant/fricative (conservative: θ)
     "x": "x", "h": "h",
     "z": "z",  # voiced sibilant (30 entries)
@@ -357,6 +359,7 @@ OLD_PERSIAN_MAP: Dict[str, str] = {
     "\U000103AB": "ta",   # 𐎫 ta
     "\U000103AC": "tu",   # 𐎬 tu
     "\U000103AD": "da",   # 𐎭 da
+    "\U000103AE": "di",   # 𐎮 di
     "\U000103AF": "du",   # 𐎯 du
     "\U000103B0": "θa",   # 𐎰 tha
     "\U000103B1": "pa",   # 𐎱 pa
@@ -366,8 +369,10 @@ OLD_PERSIAN_MAP: Dict[str, str] = {
     "\U000103B5": "nu",   # 𐎵 nu
     "\U000103B6": "ma",   # 𐎶 ma
     "\U000103B7": "mi",   # 𐎷 mi
+    "\U000103B8": "mu",   # 𐎸 mu
     "\U000103B9": "ja",   # 𐎹 ya
     "\U000103BA": "va",   # 𐎺 va
+    "\U000103BB": "vi",   # 𐎻 vi
     "\U000103BC": "ra",   # 𐎼 ra
     "\U000103BD": "ru",   # 𐎽 ru
     "\U000103BE": "la",   # 𐎾 la
@@ -404,6 +409,7 @@ PIE_MAP: Dict[str, str] = {
     # Stops (voiced aspirate)
     "bʰ": "bʱ", "dʰ": "dʱ", "ǵʰ": "ɡʱ", "gʰ": "ɡʱ", "gʷʰ": "ɡʷʱ",
     # Laryngeals
+    # h₃ → ɣʷ: Leiden school (Beekes 2011). Many scholars leave h₃ phonetically unspecified.
     "h₁": "h", "h₂": "ħ", "h₃": "ɣʷ",
     "H": "h",  # generic laryngeal
     # Fricatives/sibilant
@@ -477,6 +483,7 @@ PROTO_KARTVELIAN_MAP: Dict[str, str] = {
     "k̇": "kʼ", "ṫ": "tʼ", "ṗ": "pʼ", "q̇": "qʼ",
     # Aspirates
     "pʰ": "pʰ", "tʰ": "tʰ", "kʰ": "kʰ", "qʰ": "qʰ",
+    "cʰ": "tsʰ", "čʰ": "tʃʰ",
     # Affricates
     "c": "ts", "č": "tʃ", "ċ": "ts",
     "ʒ": "dz", "ǯ": "dʒ",
@@ -561,6 +568,7 @@ PHRYGIAN_MAP: Dict[str, str] = {
     "ζ": "z", "η": "eː", "θ": "tʰ", "ι": "i", "κ": "k",
     "λ": "l", "μ": "m", "ν": "n", "ο": "o", "π": "p",
     "ρ": "r", "σ": "s", "ς": "s", "τ": "t", "υ": "u",
+    "ξ": "ks", "ψ": "ps", "φ": "pʰ", "χ": "kʰ",
     "ω": "oː",
     # Greek accented vowels (strip accent)
     "έ": "e", "ώ": "oː", "ά": "a", "ί": "i", "ό": "o", "ύ": "u",
@@ -671,7 +679,7 @@ ETRUSCAN_MAP: Dict[str, str] = {
     # Voiced stops (from loanwords)
     "b": "b", "d": "d", "g": "ɡ",
     # Aspirated stops
-    "θ": "θ",    # theta = aspirated dental
+    "θ": "tʰ",   # theta = aspirated dental (Bonfante & Bonfante 2002)
     "φ": "pʰ",   # phi = aspirated labial
     "χ": "kʰ",   # chi = aspirated velar
     "ph": "pʰ",  # alternate digraph notation

@@ -1,253 +1,270 @@
 ISO	Family	Glottocode	Entries	Sources
-rus	balto_slavic	russ1263	411125	wikipron
-por	italic	port1283	201945	wikipron
+rus	balto_slavic	russ1263	412135	northeuralex,wikipron
+por	italic	port1283	202893	northeuralex,wikipron
+fin	uralic	finn1318	159327	northeuralex,wikipron
 zho	sino_tibetan	mand1415	159038	wikipron
-fin	uralic	finn1318	158400	northeuralex,wikipron
-pol	balto_slavic	poli1260	130133	wikipron
+pol	balto_slavic	poli1260	131008	northeuralex,wikipron
 grc	hellenic	anci1242	119462	wikipron
-spa	italic	stan1288	116648	wikipron
-eng	germanic	stan1293	111862	northeuralex,wikipron,wold
+spa	italic	stan1288	117200	northeuralex,wikipron
+eng	germanic	stan1293	112201	northeuralex,wikipron,wold
 yue	sino_tibetan	yuec1235	102881	wikipron
-fra	italic	stan1290	81198	northeuralex,wikipron
-ita	italic	ital1282	80406	northeuralex,wikipron
-vie	austroasiatic	viet1252	71686	wikipron
-lat	italic	lati1261	66316	northeuralex,wikipron
-hun	uralic	hung1274	63280	northeuralex,wikipron
+fra	italic	stan1290	81676	northeuralex,wikipron
+ita	italic	ital1282	81110	northeuralex,wikipron
+vie	austroasiatic	viet1252	73162	wikipron,wold
+lat	italic	lati1261	67332	northeuralex,wikipron
+hun	uralic	hung1274	63649	northeuralex,wikipron
 mkd	balto_slavic	mace1250	62051	wikipron
-deu	germanic	stan1295	49565	northeuralex,wikipron
+deu	germanic	stan1295	50196	northeuralex,wikipron
 hbs	balto_slavic	serb1264	47414	wikipron
-ces	balto_slavic	czec1258	44472	northeuralex,wikipron
-bul	balto_slavic	bulg1262	43334	northeuralex,wikipron
-nld	germanic	dutc1256	42414	northeuralex,wikipron,wold
-ukr	balto_slavic	ukra1253	39517	wikipron
-jpn	japonic	nucl1643	36411	northeuralex,wikipron,wold
-hye	armenian	nucl1235	31737	northeuralex,wikipron
-kor	koreanic	kore1280	26774	northeuralex,wikipron
-hin	indo_iranian	hind1269	26634	northeuralex,wikipron
+ces	balto_slavic	czec1258	44858	northeuralex,wikipron
+bul	balto_slavic	bulg1262	44230	northeuralex,wikipron
+nld	germanic	dutc1256	43054	northeuralex,wikipron,wold
+ukr	balto_slavic	ukra1253	40486	northeuralex,wikipron
+jpn	japonic	nucl1643	37611	northeuralex,wikipron,wold
+hye	armenian	nucl1235	32579	northeuralex,wikipron
+hin	indo_iranian	hind1269	27939	northeuralex,wikipron
+kor	koreanic	kore1280	27705	northeuralex,wikipron
+cym	celtic	wels1247	22646	northeuralex,wikipron
 ang	germanic	olde1238	22094	wikipron
-cym	celtic	wels1247	21820	northeuralex,wikipron
+kat	kartvelian	nucl1302	19387	northeuralex,wikipron
+tha	tai_kadai	thai1261	18585	wikipron,wold
+tgl	austronesian	taga1270	18556	abvd,wikipron
 mlt	semitic	malt1254	18353	wikipron
-kat	kartvelian	nucl1302	18320	northeuralex,wikipron
-tgl	austronesian	taga1270	17909	wikipron
-tha	tai_kadai	thai1261	16689	wikipron
-ell	hellenic	mode1248	16195	northeuralex,wikipron
-gle	celtic	iris1253	15372	northeuralex,wikipron
+ell	hellenic	mode1248	16851	northeuralex,wikipron
+gle	celtic	iris1253	16085	northeuralex,wikipron
 ara	semitic	arab1395	13339	wikipron
 san	indo_iranian	sans1269	12907	wikipron
-isl	germanic	icel1247	10873	northeuralex,wikipron
-ben	indo_iranian	beng1280	10580	northeuralex,wikipron
+isl	germanic	icel1247	11916	northeuralex,wikipron
+ben	indo_iranian	beng1280	11339	northeuralex,wikipron
 enm	germanic	midd1317	10523	wikipron
-eus	isolates	basq1248	9072	northeuralex,wikipron
-mal	dravidian	mala1464	8066	northeuralex,wikipron
+eus	isolates	basq1248	10020	northeuralex,wikipron
+mal	dravidian	mala1464	9005	northeuralex,wikipron
+ron	italic	roma1327	8550	northeuralex,wikipron,wold
+tur	turkic	nucl1301	8212	northeuralex,wikipron
 ido	constructed	idoo1234	7989	wikipron
+tam	dravidian	tami1289	7828	northeuralex,wikipron
 izh	uralic	ingr1248	7561	wikipron
-tur	turkic	nucl1301	7221	wikipron
-tam	dravidian	tami1289	6903	wikipron
-ind	austronesian	indo1316	6873	abvd,wikipron,wold
-bel	balto_slavic	bela1254	6550	northeuralex,wikipron
+bel	balto_slavic	bela1254	7471	northeuralex,wikipron
+ind	austronesian	indo1316	7128	abvd,wikipron,wold
+ady	northwest_caucasian	adyg1241	6839	northeuralex,wikipron
+dan	germanic	dani1285	6570	northeuralex,wikipron
 syc	semitic	clas1252	6319	wikipron
 khm	austroasiatic	cent1989	6302	wikipron
 mya	sino_tibetan	nucl1310	6075	wikipron
-ron	italic	roma1327	6056	wikipron
-ady	northwest_caucasian	adyg1241	6046	northeuralex,wikipron
-dan	germanic	dani1285	5650	northeuralex,wikipron
+slv	balto_slavic	slov1268	5842	northeuralex,wikipron
+swe	germanic	swed1254	5549	northeuralex,wikipron
 bcl	austronesian	cent2004	5356	abvd,wikipron
+sme	uralic	nort2671	5159	northeuralex,wikipron
 glg	italic	gali1258	5015	wikipron
 yor	atlantic_congo	yoru1245	4850	wikipron
-slv	balto_slavic	slov1268	4777	wikipron
 nno	germanic	norw1262	4675	wikipron
-swe	germanic	swed1254	4614	wikipron
 aii	semitic	assy1241	4543	wikipron
 urd	indo_iranian	urdu1245	4493	wikipron
 msa	austronesian	stan1306	4181	wikipron
 lao	tai_kadai	laoo1244	4180	wikipron
-sme	uralic	nort2671	4094	wikipron
+tel	dravidian	telu1262	4173	northeuralex,wikipron
 egy	egyptian	egyp1253	4046	wikipron
+kmr	indo_iranian	nort2641	4020	northeuralex,wikipron
 ltz	germanic	luxe1241	4002	wikipron
+cmn	sino_tibetan	mand1415	3996	northeuralex,wold
+dsb	balto_slavic	lowe1385	3953	wikipron,wold
 epo	constructed	espe1235	3947	wikipron
-dsb	balto_slavic	lowe1385	3807	wikipron,wold
+mnc	tungusic	manc1252	3837	northeuralex,wikipron
+heb	semitic	hebr1245	3824	northeuralex,wikipron
+hau	afroasiatic_chadic	haus1257	3677	wikipron,wold
+lav	balto_slavic	latv1249	3658	northeuralex,wikipron
+slk	balto_slavic	slov1269	3598	northeuralex,wikipron
 yid	germanic	yidd1255	3572	wikipron
 mon	mongolic	mong1331	3442	wikipron
-hau	afroasiatic_chadic	haus1257	3370	wikipron,wold
-tel	dravidian	telu1262	3295	wikipron
+nor	germanic	norw1258	3439	northeuralex,wikipron
+kal	eskimo_aleut	kala1399	3364	northeuralex,wikipron
 ceb	austronesian	cebu1242	3190	abvd,wikipron
 nob	germanic	norw1259	3188	wikipron
 ajp	semitic	sout3123	3124	wikipron
 gla	celtic	scot1245	3121	wikipron
-kmr	indo_iranian	nort2641	3108	northeuralex,wikipron
 bod	sino_tibetan	clas1255	2996	sinotibetan,wikipron
-heb	semitic	hebr1245	2945	northeuralex,wikipron
 asm	indo_iranian	assa1263	2925	wikipron
-cmn	sino_tibetan	mand1415	2850	northeuralex,wold
+sqi	albanian	alba1268	2899	northeuralex,wikipron
+kpv	uralic	komi1268	2822	northeuralex,wikipron
+lit	balto_slavic	lith1251	2774	northeuralex,wikipron
+ket	isolates	kett1243	2765	northeuralex,wold
+kan	dravidian	nucl1305	2743	northeuralex,wikipron
 mar	indo_iranian	mara1378	2681	wikipron
-mnc	tungusic	manc1252	2672	northeuralex,wikipron
-slk	balto_slavic	slov1269	2540	wikipron
+olo	uralic	livv1244	2677	northeuralex,wikipron
+sjd	uralic	kild1236	2655	northeuralex,wikipron,wold
+kaz	turkic	kaza1248	2635	northeuralex,wikipron
+krl	uralic	kare1335	2603	northeuralex,wikipron
+bre	celtic	bret1244	2585	northeuralex,wikipron
+ote	otomanguean	mezt1237	2563	wold
 wln	italic	wall1255	2518	wikipron
-lav	balto_slavic	latv1249	2517	northeuralex,wikipron
-kal	eskimo_aleut	kala1399	2480	northeuralex,wikipron
+haw	austronesian	hawa1245	2511	abvd,wikipron,wold
+bua	mongolic	buri1258	2463	northeuralex,wikipron
 shn	tai_kadai	shan1277	2455	wikipron
-nor	germanic	norw1258	2436	northeuralex,wikipron
+hrv	balto_slavic	croa1245	2436	northeuralex
+txb	tocharian	tokh1243	2386	wiktionary_cat
+liv	uralic	livn1244	2382	northeuralex,wikipron
+smj	uralic	lule1254	2380	northeuralex
+evn	tungusic	even1259	2368	northeuralex,wikipron
+mww	hmong_mien	hmon1333	2321	wikipron,wold
+khk	mongolic	halh1238	2304	northeuralex
+oss	indo_iranian	osse1243	2286	northeuralex
 acw	semitic	hija1235	2252	wikipron
-haw	austronesian	hawa1245	2173	abvd,wikipron,wold
+cat	italic	stan1289	2247	northeuralex,wikipron
+xlw	anatolian	hier1240	2230	ediana,palaeolexicon,wiktionary_cat
+pes	indo_iranian	west2369	2224	northeuralex
+kek	mayan	keqc1242	2188	wold
+arb	semitic	stan1318	2175	northeuralex
+plt	austronesian	meri1243	2164	abvd,wold
 phl	indo_iranian	phal1254	2144	wikipron
 mwo	austronesian		2139	abvd
+pbu	indo_iranian	nort2646	2122	northeuralex
 vot	uralic	voti1245	2117	wikipron
-ote	otomanguean	mezt1237	2078	wold
+dar	northeast_caucasian	darg1241	2111	northeuralex
+mdf	uralic	moks1248	2103	northeuralex,wikipron
+abk	northwest_caucasian	abkh1244	2103	northeuralex,wikipron
+lbe	northeast_caucasian	lakk1252	2096	northeuralex
+sma	uralic	sout2674	2095	northeuralex
+chv	turkic	chuv1255	2094	northeuralex
+smn	uralic	inar1241	2064	northeuralex
+crs	creole	seyc1239	2059	wold
 guj	indo_iranian	guja1252	2058	wikipron
-plt	austronesian	meri1243	2050	abvd,wold
+ekk	uralic	esto1258	2053	northeuralex
+nio	uralic	ngan1291	2047	northeuralex
+bak	turkic	bash1264	2045	northeuralex,wikipron
 sga	celtic	oldi1245	2044	wikipron
 ary	semitic	moro1292	2043	wikipron
+koi	uralic	komi1269	2041	northeuralex,wikipron
+mrj	uralic	west2392	2036	northeuralex
+che	northeast_caucasian	chec1245	2025	northeuralex,wikipron
+azj	turkic	nort2697	2022	northeuralex
 afr	germanic	afri1274	2019	wikipron
+tat	turkic	tata1255	2018	northeuralex
+knc	saharan	cent2050	2017	wold
 klj	turkic	turk1304	2001	wikipron
-sqi	albanian	alba1268	1977	wikipron
+vep	uralic	veps1250	1991	northeuralex
+ckt	chukotko_kamchatkan	chuk1273	1986	northeuralex
+mhr	uralic	east2328	1984	northeuralex
+mns	uralic	mans1258	1984	northeuralex
+udm	uralic	udmu1245	1946	northeuralex
+lez	northeast_caucasian	lezg1247	1938	northeuralex
 fao	germanic	faro1244	1932	wikipron
 nep	indo_iranian	nepa1254	1926	wikipron
 nms	austronesian		1922	abvd
+myv	uralic	erzy1239	1914	northeuralex
+ava	northeast_caucasian	avar1256	1908	northeuralex
+ale	eskimo_aleut	aleu1260	1899	northeuralex,wikipron
 szl	balto_slavic	sile1253	1886	wikipron
-kpv	uralic	komi1268	1865	northeuralex,wikipron
-crs	creole	seyc1239	1844	wold
-kan	dravidian	nucl1305	1830	northeuralex,wikipron
+swh	niger_congo_bantu	swah1253	1840	wold
+uzn	turkic	nort2690	1818	northeuralex
+niv	isolates	gily1242	1791	northeuralex,wikipron
 got	germanic	goth1244	1785	wikipron
-ket	isolates	kett1243	1779	northeuralex,wold
+gld	tungusic	nana1257	1774	northeuralex
+sel	uralic	selk1253	1772	northeuralex
 est	uralic	esto1258	1770	wikipron
-kek	mayan	keqc1242	1764	wold
+ddo	northeast_caucasian	tsez1241	1740	northeuralex
 zul	atlantic_congo	zulu1248	1738	wikipron
-bre	celtic	bret1244	1688	northeuralex,wikipron
+kca	uralic	khan1273	1726	northeuralex
+bsk	isolates	buru1296	1704	northeuralex
+ine-pro	indo_european	indo1319	1704	wiktionary,wiktionary_cat
+enf	uralic	fore1255	1676	northeuralex
+tbc	austronesian	taki1248	1670	abvd,wold
 jav	austronesian	java1254	1665	abvd,wikipron
-mww	hmong_mien	hmon1333	1657	wikipron,wold
 hrx	germanic	huns1238	1653	wikipron
-swh	niger_congo_bantu	swah1253	1610	wold
+ess	eskimo_aleut	cent2127	1628	northeuralex
+ykg	yukaghir	nort2745	1625	northeuralex
+rif	afroasiatic_berber	tari1263	1610	wold
+yaq	uto_aztecan	yaqu1251	1587	wold
 aar	afroasiatic_cushitic	afar1241	1582	wikipron
-lit	balto_slavic	lith1251	1574	northeuralex,wikipron
-krl	uralic	kare1335	1531	northeuralex,wikipron
+kap	northeast_caucasian	bezh1248	1563	wold
 omb	austronesian		1528	abvd
-rif	afroasiatic_berber	tari1263	1525	wold
 div	indo_iranian	dhiv1236	1524	wikipron
 bar	germanic	bava1246	1516	wikipron
 tay	austronesian	atay1247	1507	abvd
+dru	austronesian		1505	abvd
 ivv	austronesian		1496	abvd
 bzg	austronesian		1486	abvd
-olo	uralic	livv1244	1477	northeuralex,wikipron
-dru	austronesian		1469	abvd
+ain	isolates	ainu1240	1468	northeuralex
+tzz	unknown		1452	wold
 hat	creole	hait1244	1449	wikipron
-kaz	turkic	kaza1248	1439	northeuralex,wikipron
-tbc	austronesian	taki1248	1437	abvd,wold
-liv	uralic	livn1244	1424	northeuralex,wikipron
 uig	turkic	uigh1240	1418	wikipron
-knc	saharan	cent2050	1414	wold
 zha	tai_kadai	zhua1236	1399	wikipron
+arn	araucanian	mapu1245	1392	wold
 upv	austronesian		1387	abvd
 ljp	austronesian		1373	abvd
-yaq	uto_aztecan	yaqu1251	1369	wold
-mah	austronesian	rata1243	1349	abvd,wikipron
-kap	northeast_caucasian	bezh1248	1333	wold
+qvi	quechuan	imba1240	1370	wold
+xal	mongolic	kalm1243	1351	northeuralex,wikipron
+mah	austronesian	rata1243	1350	abvd,wikipron
+nmm	sino_tibetan	mana1288	1317	wold
+aqc	northeast_caucasian	arch1244	1316	wold
+srm	unknown		1316	wold
 uby	northwest_caucasian	ubyk1235	1314	wikipron
-bua	mongolic	buri1258	1292	northeuralex,wikipron
-arn	araucanian	mapu1245	1267	wold
+mzh	matacoan	wich1264	1307	wold
+jup	naduhup	hupp1235	1280	wold
+car	cariban	gali1262	1268	wold
 pus	indo_iranian	sout2649	1252	wikipron
-evn	tungusic	even1259	1244	northeuralex,wikipron
+yrk	uralic	tund1250	1248	northeuralex,wikipron
 pan	indo_iranian	panj1256	1241	wikipron
-hrv	balto_slavic	croa1245	1220	northeuralex
-cat	italic	stan1289	1213	northeuralex,wikipron
-smj	uralic	lule1254	1192	northeuralex
+orh	tungusic	oroq1238	1206	wold
+itl	chukotko_kamchatkan	itel1242	1206	northeuralex
+irk	afroasiatic_cushitic	iraq1241	1200	wold
 apb	austronesian		1188	abvd
-tzz	unknown		1188	wold
 bdl	austronesian		1184	abvd
-car	cariban	gali1262	1182	wold
 mll	austronesian		1180	abvd
-mzh	matacoan	wich1264	1179	wold
 arc	semitic	offi1241	1167	wikipron
+sah	turkic	yaku1245	1155	northeuralex,wikipron
 scn	italic	sici1248	1154	wikipron
-khk	mongolic	halh1238	1152	northeuralex
 kik	atlantic_congo	kiku1240	1147	wikipron
-oss	indo_iranian	osse1243	1143	northeuralex
 sco	germanic	scot1243	1142	wikipron
-koi	uralic	komi1269	1132	northeuralex,wikipron
-mdf	uralic	moks1248	1124	northeuralex,wikipron
-orh	tungusic	oroq1238	1122	wold
-abk	northwest_caucasian	abkh1244	1121	northeuralex,wikipron
-irk	afroasiatic_cushitic	iraq1241	1112	wold
-pes	indo_iranian	west2369	1112	northeuralex
-che	northeast_caucasian	chec1245	1104	northeuralex,wikipron
-aqc	northeast_caucasian	arch1244	1101	wold
-arb	semitic	stan1318	1087	northeuralex
-bak	turkic	bash1264	1086	northeuralex,wikipron
-srm	unknown		1082	wold
+sms	uralic	skol1241	1141	northeuralex,wikipron
+pyu	austronesian		1108	abvd
+xlc	anatolian	lyci1241	1098	ediana,palaeolexicon,wiktionary
+gue	pama_nyungan	guri1247	1084	wold
 mnw	austroasiatic	monn1252	1079	wikipron
-qvi	quechuan	imba1240	1075	wold
+sux	unknown		1067	kaikki
 orv	balto_slavic	oldr1238	1064	wikipron
 fry	germanic	west2354	1060	wikipron
-ekk	uralic	esto1258	1057	northeuralex
-pbu	indo_iranian	nort2646	1057	northeuralex
-dar	northeast_caucasian	darg1241	1055	northeuralex
-smn	uralic	inar1241	1053	northeuralex
-pyu	austronesian		1050	abvd
-sma	uralic	sout2674	1050	northeuralex
-lbe	northeast_caucasian	lakk1252	1048	northeuralex
-chv	turkic	chuv1255	1042	northeuralex
-nio	uralic	ngan1291	1023	northeuralex
-mrj	uralic	west2392	1018	northeuralex
-azj	turkic	nort2697	1017	northeuralex
+gwd	afroasiatic_cushitic	gaww1239	1044	wold
 tmb	austronesian		1014	abvd
 ast	italic	astu1245	1010	wikipron
-tat	turkic	tata1255	1009	northeuralex
-ale	eskimo_aleut	aleu1260	1008	northeuralex,wikipron
 ilo	austronesian	ilok1237	1008	abvd,wikipron
-vep	uralic	veps1250	1004	northeuralex
-ckt	chukotko_kamchatkan	chuk1273	993	northeuralex
-mhr	uralic	east2328	992	northeuralex
-mns	uralic	mans1258	992	northeuralex
 brj	austronesian		988	abvd
-jup	naduhup	hupp1235	979	wold
+yux	yukaghir	sout2750	985	northeuralex,wikipron
 pam	austronesian	kapa1256	979	abvd,wikipron
-udm	uralic	udmu1245	973	northeuralex
-gwd	afroasiatic_cushitic	gaww1239	971	wold
-lez	northeast_caucasian	lezg1247	969	northeuralex
-niv	isolates	gily1242	963	northeuralex,wikipron
-nmm	sino_tibetan	mana1288	962	wold
-uzn	turkic	nort2690	960	northeuralex
-myv	uralic	erzy1239	957	northeuralex
-ava	northeast_caucasian	avar1256	954	northeuralex
+cwg	austroasiatic	ceqw1242	976	wold
+bnn	austronesian		939	abvd
 lim	germanic	limb1263	935	wikipron
 fro	italic	oldf1239	929	wikipron
 nwi	austronesian		928	abvd
 kge	austronesian		901	abvd
-bnn	austronesian		900	abvd
 ppu	austronesian		888	abvd
-gld	tungusic	nana1257	887	northeuralex
 fos	austronesian		886	abvd
-sel	uralic	selk1253	886	northeuralex
 xho	atlantic_congo	xhos1239	875	wikipron
-llp	austronesian		874	abvd
-ddo	northeast_caucasian	tsez1241	868	northeuralex
+llp	austronesian		875	abvd
 ahb	austronesian		867	abvd
 pms	italic	pied1254	866	wikipron
-bsk	isolates	buru1296	863	northeuralex
-kca	uralic	khan1273	863	northeuralex
 kbd	northwest_caucasian	kaba1278	858	wikipron
-ain	isolates	ainu1240	857	northeuralex
-cwg	austroasiatic	ceqw1242	854	wold
 nci	uto_aztecan	clas1258	854	wikipron
 lmu	austronesian		845	abvd
-gue	pama_nyungan	guri1247	841	wold
-baa	austronesian		839	abvd
-enf	uralic	fore1255	838	northeuralex
+baa	austronesian		840	abvd
 nya	atlantic_congo	nyan1308	824	wikipron
 cop	afroasiatic_egyptian	copt1239	820	wikipron
 csb	balto_slavic	kash1274	817	wikipron
-ess	eskimo_aleut	cent2127	814	northeuralex
 lij	italic	ligu1248	814	wikipron
 klv	austronesian		813	abvd
-ykg	yukaghir	nort2745	812	northeuralex
+urk	austronesian		813	abvd,wikipron
 stq	germanic	sate1242	797	wikipron
 mqs	unknown		793	wikipron
 aul	austronesian		790	abvd
+ckv	austronesian		787	abvd
 iba	austronesian	iban1264	763	abvd,wikipron
-lml	austronesian		757	abvd
+lml	austronesian		761	abvd
+ett	tyrsenian	etru1241	753	palaeolexicon,wikipron,wiktionary_cat
+xur	hurro_urartian	urar1245	748	oracc_ecut,wiktionary
 mwi	austronesian		743	abvd
-ckv	austronesian		742	abvd
 sns	austronesian		740	abvd
+uun	austronesian		740	abvd
 jje	koreanic	jeju1234	739	wikipron
+ave	indo_iranian	aves1237	737	wiktionary,wiktionary_cat
 lww	austronesian		735	abvd
 xbr	austronesian		735	abvd
 mwv	austronesian		722	abvd
@@ -257,13 +274,13 @@ vnm	austronesian		702	abvd
 ban	austronesian	bali1278	696	abvd,wikipron
 tgk	indo_iranian	taji1245	696	wikipron
 tzm	afroasiatic_berber	cent1933	694	wikipron
+xld	anatolian	lydi1241	693	ediana,palaeolexicon,wiktionary
 hil	austronesian	hili1240	692	abvd,wikipron
 srd	italic	sard1257	689	wikipron
-uun	austronesian		684	abvd
-mlx	austronesian		681	abvd
+trv	austronesian		687	abvd
+mlx	austronesian		682	abvd
 pwn	austronesian	paiw1248	678	abvd
-trv	austronesian		676	abvd
-eno	austronesian		662	abvd
+eno	austronesian		669	abvd
 guw	atlantic_congo	gunn1249	657	wikipron
 zsm	austronesian	stan1306	644	abvd
 ami	austronesian	amis1246	643	abvd
@@ -272,22 +289,21 @@ tlr	austronesian		618	abvd
 mxd	austronesian		617	abvd
 osp	italic	olds1249	614	wikipron
 lbw	austronesian		611	abvd
-itl	chukotko_kamchatkan	itel1242	603	northeuralex
 mrs	austronesian		603	abvd
 akk	semitic	akka1240	601	wikipron
+atk	austronesian		597	abvd
 kaw	austronesian	kawi1241	592	wikipron
 cal	austronesian		589	abvd
 okm	koreanic	midd1372	587	wikipron
 chk	austronesian	chuu1238	585	abvd
 vrt	austronesian		583	abvd
-atk	austronesian		579	abvd
 oci	italic	occi1239	579	wikipron
 tnl	austronesian		577	abvd
 nij	austronesian		567	abvd
-urk	austronesian		565	wikipron
 kir	turkic	kirg1245	562	wikipron
 pma	austronesian		561	abvd
 itv	austronesian		557	abvd
+tsu	austronesian		555	abvd
 fas	indo_iranian	west2369	554	wikipron
 ane	austronesian		551	abvd
 lzl	austronesian		551	abvd
@@ -300,8 +316,8 @@ woe	austronesian		543	abvd
 yly	austronesian		543	abvd
 nmb	austronesian		542	abvd
 fax	italic	fala1242	538	wikipron
+xcr	anatolian	cari1275	532	ediana,palaeolexicon,wikipedia,wiktionary
 cir	austronesian		529	abvd
-tsu	austronesian		529	abvd
 tah	austronesian		527	abvd
 kas	indo_iranian	kash1277	524	wikipron
 jaz	austronesian		521	abvd
@@ -311,14 +327,17 @@ bnk	austronesian		517	abvd
 kxd	austronesian	brun1242	517	abvd,wikipron
 gri	austronesian		516	abvd
 kld	unknown		515	wikipron
+ccs-pro	kartvelian	kart1248	504	wiktionary,wiktionary_cat
 snc	austronesian		502	abvd
 khb	tai_kadai	luuu1242	499	wikipron
 dix	austronesian		497	abvd
 mvt	austronesian		495	abvd
 pag	austronesian	pang1290	492	abvd,wikipron
 tyv	turkic	tuvi1240	492	wikipron
+lbk	austronesian		490	abvd
 nak	austronesian		488	abvd
 lmo	italic	lomb1257	486	wikipron
+peo	indo_iranian	oldp1254	486	wiktionary,wiktionary_cat
 mrb	austronesian		481	abvd
 fut	austronesian		480	abvd
 bpa	austronesian		478	abvd
@@ -326,23 +345,25 @@ abl	austronesian		477	abvd
 bxa	austronesian		473	abvd
 cos	italic	cors1242	473	wikipron
 mrn	austronesian		472	abvd
+tkl	austronesian	toke1240	471	abvd,wikipron
+sov	austronesian		468	abvd
+xto	tocharian	tokh1242	467	wiktionary_cat
 gsw	germanic	swis1247	466	wikipron
 rar	austronesian	raro1241	464	abvd
 loc	austronesian		463	abvd
 pgk	austronesian		462	abvd
-pse	austronesian		457	abvd
-lbk	austronesian		456	abvd
+pse	austronesian		460	abvd
 xsy	austronesian		454	abvd
 akg	austronesian		451	abvd
 onu	austronesian		450	abvd
 vao	austronesian		449	abvd
+tao	austronesian		445	abvd
 ltg	balto_slavic	east1454	443	wikipron
 faf	austronesian		439	abvd
+sxr	austronesian		438	abvd
 hnn	austronesian		436	abvd
-sov	austronesian		435	abvd
 mrq	austronesian		434	abvd
 nsn	austronesian		434	abvd
-sxr	austronesian		434	abvd
 tvk	austronesian		432	abvd
 llu	austronesian		430	abvd
 xmz	austronesian		425	abvd
@@ -354,16 +375,16 @@ mek	austronesian		418	abvd
 ibl	austronesian		417	abvd
 lpa	austronesian		417	abvd
 ski	austronesian		417	abvd
-agw	austronesian		415	abvd
+agw	austronesian		416	abvd
 lrz	austronesian		415	abvd
 nem	austronesian		415	abvd
-tao	austronesian		414	abvd
 bgt	austronesian		413	abvd
 new	sino_tibetan	newa1246	413	wikipron
 bku	austronesian		410	abvd
 btr	austronesian		408	abvd
 nup	atlantic_congo	nupe1254	408	wikipron
 aut	austronesian		406	abvd
+dra-pro	dravidian	drav1251	406	wiktionary,wiktionary_cat
 sgd	austronesian		403	abvd
 sww	austronesian		402	abvd
 lgr	austronesian		399	abvd
@@ -376,18 +397,20 @@ dob	austronesian		390	abvd
 ghn	austronesian		390	abvd
 vol	constructed	vola1234	388	wikipron
 kod	austronesian		387	abvd
+sem-pro	afroasiatic_semitic	semi1276	386	wiktionary,wiktionary_cat
 sax	austronesian		385	abvd
 tqp	austronesian		385	abvd
 tvl	austronesian		385	abvd
 lgk	austronesian		384	abvd
+plw	austronesian		384	abvd
 mri	austronesian	maor1246	383	abvd
 ske	austronesian		383	abvd
 zlm	austronesian	mala1479	383	abvd
 aze	turkic	nort2697	382	wikipron
 hvn	austronesian		382	abvd
 txn	austronesian		382	abvd
+bty	austronesian		379	abvd
 amh	semitic	amha1245	378	wikipron
-bty	austronesian		378	abvd
 irh	austronesian		378	abvd
 mlv	austronesian		378	abvd
 psw	austronesian		378	abvd
@@ -400,10 +423,12 @@ mwh	austronesian		374	abvd
 mxe	austronesian		374	abvd
 erg	austronesian		372	abvd
 mnv	austronesian		372	abvd
+uga	semitic	ugar1238	371	wiktionary,wiktionary_cat
 lga	austronesian		370	abvd
 bnf	austronesian		366	abvd
 mfb	austronesian		366	abvd
 mtt	austronesian		365	abvd
+xnb	austronesian		364	abvd
 aek	austronesian		363	abvd
 mte	austronesian		363	abvd
 pri	austronesian		363	abvd
@@ -420,7 +445,6 @@ mrl	austronesian		358	abvd
 xks	austronesian		358	abvd
 hsb	balto_slavic	uppe1395	356	wikipron
 nmy	unknown		356	wikipron
-plw	austronesian		355	abvd
 bhw	austronesian		354	abvd
 kvr	austronesian		354	abvd
 leu	austronesian		354	abvd
@@ -433,10 +457,10 @@ myw	austronesian		351	abvd
 piz	austronesian		351	abvd
 tkw	austronesian		351	abvd
 cnk	sino_tibetan	khum1248	350	wikipron
-xnb	austronesian		350	abvd
 mnb	austronesian		349	abvd
 ues	austronesian		349	abvd
 war	austronesian		349	abvd
+ton	austronesian	tong1325	349	abvd,wikipron
 rap	austronesian	rapa1244	348	abvd
 vrs	austronesian		348	abvd
 bbn	atlantic_congo		346	abvd,wikipron
@@ -460,8 +484,6 @@ uvl	austronesian		331	abvd
 tsr	austronesian		330	abvd
 nnd	austronesian		328	abvd
 sgb	austronesian		328	abvd
-tkl	austronesian	toke1240	328	wikipron
-xal	mongolic	kalm1243	328	wikipron
 met	austronesian		327	abvd
 axx	austronesian		326	abvd
 lif	sino_tibetan	limb1266	326	sinotibetan,wikipron
@@ -470,7 +492,6 @@ duf	austronesian		324	abvd
 lsi	unknown		324	wikipron
 woc	austronesian		324	abvd
 msn	austronesian		323	abvd
-sjd	uralic	kild1236	322	wikipron
 ina	constructed	inte1239	321	wikipron
 erk	austronesian		318	abvd
 mga	celtic	midd1360	317	wikipron
@@ -486,6 +507,7 @@ sml	austronesian		312	abvd
 blp	austronesian		311	abvd
 nav	na_dene	nava1243	311	wikipron
 nfl	austronesian		310	abvd
+pop	austronesian		309	abvd
 skg	austronesian		308	abvd
 mpr	austronesian		307	abvd
 pox	balto_slavic	pola1255	307	wikipron
@@ -496,7 +518,7 @@ lzz	kartvelian	lazz1240	305	wikipron
 nhg	uto_aztecan	tete1251	305	wikipron
 ilu	austronesian		304	abvd
 kdk	austronesian		304	abvd
-pop	austronesian		303	abvd
+elx	isolates	elam1244	301	wiktionary
 abd	austronesian		300	abvd
 mqz	austronesian		300	abvd
 nal	austronesian		300	abvd
@@ -536,12 +558,16 @@ btw	austronesian		273	abvd
 ssv	austronesian		272	abvd
 qxs	sino_tibetan	mawo1239	269	sinotibetan
 txs	austronesian		269	abvd
+klr	sino_tibetan	khal1275	269	sinotibetan
 bca	sino_tibetan	jian1238	268	sinotibetan
 mpx	austronesian		268	abvd
+xht	unknown		268	kassian2010,kassian2010_basic,seed
 lcm	austronesian		267	abvd
 wls	austronesian		267	abvd
 rgn	italic	roma1328	266	wikipron
+hit	anatolian	hitt1242	266	wiktionary
 tnp	austronesian		265	abvd
+tva	austronesian		265	abvd
 lek	austronesian		264	abvd
 ppl	uto_aztecan	pipi1250	264	wikipron
 ilk	austronesian		263	abvd
@@ -549,9 +575,9 @@ duu	sino_tibetan	drun1238	262	sinotibetan
 kpg	austronesian		262	abvd
 pmt	austronesian		262	abvd
 sas	austronesian		262	abvd
-tva	austronesian		262	abvd
 nxq	sino_tibetan	naxi1245	261	sinotibetan
 ssg	austronesian		260	abvd
+xhu	hurro_urartian	hurr1240	260	palaeolexicon,wiktionary_cat
 gvs	austronesian		259	abvd
 jya	sino_tibetan	japh1234	259	sinotibetan
 kac	sino_tibetan	jinp1238	259	sinotibetan
@@ -564,7 +590,7 @@ mqn	austronesian		256	abvd
 dng	sino_tibetan	dung1259	255	wikipron
 wrp	austronesian		255	abvd
 yap	austronesian		255	abvd
-pmi	sino_tibetan	nort2743	254	sinotibetan
+pmi	sino_tibetan	nort2743	255	sinotibetan
 wmh	austronesian		254	abvd
 lbq	austronesian		253	abvd
 lwl	unknown		253	wikipron
@@ -576,6 +602,7 @@ ray	austronesian		251	abvd
 yog	austronesian		251	abvd
 mox	austronesian		250	abvd
 pwg	austronesian		250	abvd
+cgc	austronesian		250	abvd
 nke	austronesian		249	abvd
 nrg	austronesian		249	abvd
 osx	germanic	olds1250	249	wikipron
@@ -612,18 +639,16 @@ agn	austronesian		237	abvd
 akb	austronesian		237	abvd
 kxa	austronesian		237	abvd
 ppk	austronesian		237	abvd
+akl	austronesian		237	abvd
 kse	austronesian		236	abvd
 mhs	austronesian		236	abvd
-akl	austronesian		235	abvd
 gay	austronesian		235	abvd
 jra	austronesian		235	abvd
 wad	austronesian		235	abvd
 sbb	austronesian		234	abvd
 atd	austronesian		233	abvd
 gzn	austronesian		233	abvd
-klr	sino_tibetan	khal1275	233	sinotibetan
 swp	austronesian		233	abvd
-yrk	uralic	tund1250	233	wikipron
 bnq	austronesian		232	abvd
 bpr	austronesian		232	abvd
 rej	austronesian		232	abvd
@@ -631,18 +656,18 @@ rug	austronesian		232	abvd
 sne	austronesian		232	abvd
 bbc	austronesian		231	abvd
 bto	austronesian		231	abvd
-cgc	austronesian		231	abvd
 vmg	austronesian		231	abvd
 duo	austronesian		230	abvd
 klx	austronesian		230	abvd
 tft	unknown		229	wikipron
 tih	austronesian		229	abvd
+grk-pro	unknown		229	wiktionary
 otd	austronesian		228	abvd
 vlp	austronesian		228	abvd
 yka	austronesian		228	abvd
+krj	austronesian		228	abvd
 dtp	austronesian		227	abvd
 kmk	austronesian		227	abvd
-krj	austronesian		227	abvd
 kwh	austronesian		227	abvd
 mqy	austronesian		227	abvd
 kvc	austronesian		226	abvd
@@ -694,7 +719,7 @@ dum	germanic	midd1318	215	wikipron
 kzs	austronesian		215	abvd
 kzt	austronesian		215	abvd
 pau	austronesian		215	abvd
-bhq	austronesian		214	abvd
+bhq	austronesian		215	abvd
 ill	austronesian		214	abvd
 knb	austronesian		214	abvd
 mrw	austronesian		214	abvd
@@ -717,7 +742,7 @@ ibg	austronesian		211	abvd
 lgb	austronesian		211	abvd
 mln	austronesian		211	abvd
 xsi	austronesian		211	abvd
-beg	austronesian		210	abvd
+beg	austronesian		211	abvd
 grn	tupian	para1311	210	wikipron
 jax	austronesian		210	abvd
 ksx	austronesian		210	abvd
@@ -734,10 +759,9 @@ bny	austronesian		208	abvd
 glv	celtic	manx1243	208	wikipron
 kvv	austronesian		208	abvd
 lmg	austronesian		208	abvd
-ett	tyrsenian	etru1241	207	wikipron
 max	austronesian		207	abvd
-sah	turkic	yaku1245	207	wikipron
 wiv	austronesian		207	abvd
+mta	austronesian		207	abvd
 akt	austronesian		206	abvd
 kei	austronesian		206	abvd
 los	austronesian		206	abvd
@@ -768,6 +792,7 @@ bdd	austronesian		202	abvd
 pss	austronesian		202	abvd
 rro	austronesian		202	abvd
 ssq	austronesian		202	abvd
+uge	austronesian		202	abvd
 bch	austronesian		201	abvd
 brr	austronesian		201	abvd
 nap	italic	neap1235	201	wikipron
@@ -776,7 +801,7 @@ nxa	austronesian		201	abvd
 sge	austronesian		201	abvd
 sob	austronesian		201	abvd
 tgi	austronesian		201	abvd
-uge	austronesian		201	abvd
+hao	austronesian		201	abvd
 abs	austronesian		200	abvd
 arz	semitic	egyp1253	200	wikipron
 att	austronesian		200	abvd
@@ -787,7 +812,6 @@ kwd	austronesian		200	abvd
 kzp	austronesian		200	abvd
 rog	austronesian		200	abvd
 uve	austronesian		200	abvd
-yux	yukaghir	sout2750	200	wikipron
 huq	austronesian		199	abvd
 mvd	austronesian		199	abvd
 sgz	austronesian		199	abvd
@@ -795,16 +819,16 @@ zza	indo_iranian	diml1238	199	wikipron
 bna	austronesian		198	abvd
 ple	austronesian		198	abvd
 tte	austronesian		198	abvd
-cje	austronesian		197	abvd
+cje	austronesian		198	abvd
+kji	austronesian		198	abvd
 mbh	austronesian		197	abvd
 wow	austronesian		197	abvd
 bnp	austronesian		196	abvd
-hao	austronesian		196	abvd
 kzu	austronesian		196	abvd
 ttu	austronesian		196	abvd
+clu	austronesian		196	abvd
 ges	austronesian		195	abvd
 gga	austronesian		195	abvd
-kji	austronesian		195	abvd
 slu	austronesian		195	abvd
 sol	austronesian		195	abvd
 srn	creole	sran1240	195	wikipron
@@ -820,6 +844,7 @@ cjm	austronesian		193	abvd
 dww	austronesian		193	abvd
 sso	austronesian		193	abvd
 tpf	austronesian		193	abvd
+gad	austronesian		193	abvd
 hrc	austronesian		192	abvd
 hul	austronesian		192	abvd
 ngr	austronesian		192	abvd
@@ -840,11 +865,9 @@ lbx	austronesian		189	abvd
 mjk	austronesian		189	abvd
 ota	turkic	otto1234	189	wikipron
 wah	austronesian		189	abvd
-clu	austronesian		188	abvd
 hoa	austronesian		188	abvd
 kbt	austronesian		188	abvd
 lbv	austronesian		188	abvd
-mta	austronesian		188	abvd
 roe	austronesian		188	abvd
 amk	austronesian		187	abvd
 mgl	austronesian		187	abvd
@@ -852,6 +875,7 @@ ora	austronesian		187	abvd
 pdo	austronesian		187	abvd
 tnx	austronesian		187	abvd
 tuc	austronesian		187	abvd
+xrr	tyrsenian	raet1238	187	tir_raetica,wiktionary
 bnr	austronesian		186	abvd
 ggt	austronesian		186	abvd
 ksg	austronesian		186	abvd
@@ -859,8 +883,8 @@ mzq	austronesian		186	abvd
 nrf	italic	guer1238	186	wikipron
 tbj	austronesian		186	abvd
 tgc	austronesian		186	abvd
+skz	austronesian		186	abvd
 and	austronesian		185	abvd
-skz	austronesian		185	abvd
 bxf	austronesian		184	abvd
 gmb	austronesian		184	abvd
 mgm	austronesian		184	abvd
@@ -878,19 +902,19 @@ mbi	austronesian		182	abvd
 mmn	austronesian		182	abvd
 slr	turkic	sala1264	182	wikipron
 syb	austronesian		182	abvd
+utp	austronesian		182	abvd
 aot	austronesian	atay1247	181	wikipron
 kix	unknown		181	wikipron
 kqe	austronesian		181	abvd
 ncn	austronesian		181	abvd
-utp	austronesian		181	abvd
-gad	austronesian		180	abvd
+lib	austronesian		181	abvd
 isd	austronesian		180	abvd
 kml	austronesian		180	abvd
-lib	austronesian		180	abvd
 mbd	austronesian		180	abvd
 sia	unknown		180	wikipron
 tgt	austronesian		180	abvd
 zgr	austronesian		180	abvd
+phn	semitic	phoe1239	180	wiktionary
 bya	austronesian		179	abvd
 gei	austronesian		179	abvd
 itb	austronesian		179	abvd
@@ -955,7 +979,6 @@ lrv	austronesian		166	abvd
 aui	austronesian		165	abvd
 avb	austronesian		165	abvd
 lht	austronesian		165	abvd
-ton	austronesian	tong1325	165	wikipron
 krf	austronesian		164	abvd
 mai	indo_iranian	mait1250	164	wikipron
 pdc	germanic	penn1240	164	wikipron
@@ -1097,7 +1120,7 @@ nxe	austronesian		92	abvd
 nuw	austronesian		86	abvd
 nmw	austronesian		83	abvd
 bhv	austronesian		81	abvd
-sms	uralic	skol1241	78	wikipron
+xpg	paleo_balkan	phry1239	79	wiktionary
 pns	austronesian		76	abvd
 llx	austronesian		73	abvd
 goo	austronesian		72	abvd
@@ -1108,4 +1131,6 @@ mxr	austronesian		54	abvd
 whk	austronesian		54	abvd
 bvy	austronesian		48	abvd
 iff	austronesian		46	abvd
-bzh	austronesian		38	abvd
+cms	anatolian	cimm1244	45	wiktionary
+bzh	austronesian		41	abvd
+xle	anatolian	leps1239	30	wiktionary
