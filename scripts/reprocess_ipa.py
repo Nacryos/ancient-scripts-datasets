@@ -42,6 +42,8 @@ ANCIENT_LANGUAGES = [
     "ave", "peo", "ine-pro", "sem-pro", "ccs-pro", "dra-pro",
     "xpg", "xle", "xrr", "cms", "xlw", "xhu", "ett", "txb", "xto",
     "non", "got", "chu", "akk", "sux", "gmy",
+    # Tier 2
+    "cop", "pli", "xcl", "ang", "gez", "hbo", "xht",
 ]
 
 # Map from TSV filename ISO to transliteration map ISO

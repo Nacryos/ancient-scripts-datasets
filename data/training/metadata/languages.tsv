@@ -39,6 +39,7 @@ san	indo_iranian	sans1269	12907	wikipron
 isl	germanic	icel1247	11916	northeuralex,wikipron
 ben	indo_iranian	beng1280	11339	northeuralex,wikipron
 enm	germanic	midd1317	10523	wikipron
+cop	afroasiatic_egyptian	copt1239	10107	kellia_coptic,wikipron
 eus	isolates	basq1248	10020	northeuralex,wikipron
 mal	dravidian	mala1464	9005	northeuralex,wikipron
 ron	italic	roma1327	8550	northeuralex,wikipron,wold
@@ -251,7 +252,6 @@ nci	uto_aztecan	clas1258	854	wikipron
 lmu	austronesian		845	abvd
 baa	austronesian		840	abvd
 nya	atlantic_congo	nyan1308	824	wikipron
-cop	afroasiatic_egyptian	copt1239	820	wikipron
 csb	balto_slavic	kash1274	817	wikipron
 lij	italic	ligu1248	814	wikipron
 klv	austronesian		813	abvd
@@ -554,12 +554,12 @@ bgi	austronesian		285	abvd
 emi	austronesian		283	abvd
 sin	indo_iranian	sinh1246	282	wikipron
 stn	austronesian		281	abvd
+hit	anatolian	hitt1242	281	pleiades,wiktionary,wiktionary_propn
 abx	austronesian		279	abvd
 akr	austronesian		278	abvd
 cha	austronesian	cham1312	275	abvd
 wuv	austronesian		274	abvd
 btw	austronesian		273	abvd
-hit	anatolian	hitt1242	273	pleiades,wiktionary
 ssv	austronesian		272	abvd
 qxs	sino_tibetan	mawo1239	269	sinotibetan
 txs	austronesian		269	abvd

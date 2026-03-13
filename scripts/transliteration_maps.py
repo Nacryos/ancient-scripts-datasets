@@ -33,6 +33,19 @@ Sources
                     Rix (1963), *Das etruskische Cognomen*
 - Tocharian A/B:    Krause & Thomas (1960), *Tocharisches Elementarbuch*;
                     Adams (2013), *A Dictionary of Tocharian B*; Peyrot (2008)
+- Coptic:           Layton (2000), *A Coptic Grammar*; Loprieno (1995);
+                    Sahidic dialect standard pronunciation
+- Pali (IAST):      Geiger (1943), *Pali Literature and Language*;
+                    Oberlies (2001), *Pali: A Grammar of the Language of the
+                    Theravada Tipitaka*
+- Old Armenian:     Meillet (1913), *Altarmenisches Elementarbuch*;
+                    Schmitt (1981), *Grammatik des Klassisch-Armenischen*
+- Old English:      Hogg (1992), *A Grammar of Old English, Vol. 1: Phonology*;
+                    Campbell (1959), *Old English Grammar*
+- Ge'ez (Ethiopic): Dillmann (1857/1907), *Ethiopic Grammar*; Tropper (2002);
+                    Gragg (1997) in *The Semitic Languages*
+- Biblical Hebrew:  Blau (2010), *Phonology and Morphology of Biblical Hebrew*;
+                    Khan (2020), *The Tiberian Pronunciation Tradition*
 """
 
 from __future__ import annotations
@@ -1066,6 +1079,370 @@ MYCENAEAN_MAP: Dict[str, str] = {
     "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
 }
 
+
+# ---------------------------------------------------------------------------
+# COPTIC  (Layton 2000; Loprieno 1995 — Sahidic pronunciation)
+# ---------------------------------------------------------------------------
+# Coptic script descends from Greek + 6 Demotic letters.
+# Sahidic dialect is the standard for scholarly IPA.
+# Unicode block: U+2C80-U+2CFF (Coptic), plus some shared Greek letters.
+COPTIC_MAP: Dict[str, str] = {
+    # Coptic letters (lowercase U+2C80+)
+    "ⲁ": "a",    # alfa
+    "ⲃ": "β",    # vida (fricative in Sahidic)
+    "ⲅ": "ɣ",    # gamma (fricative in Sahidic)
+    "ⲇ": "d",    # dalda
+    "ⲉ": "e",    # ei
+    "ⲋ": "s",    # sou (stigma, rare)
+    "ⲍ": "z",    # zeta
+    "ⲏ": "eː",   # eta (long e)
+    "ⲑ": "tʰ",   # theta
+    "ⲓ": "i",    # iauda
+    "ⲕ": "k",    # kappa
+    "ⲗ": "l",    # lauda
+    "ⲙ": "m",    # me
+    "ⲛ": "n",    # ne
+    "ⲝ": "ks",   # ksi
+    "ⲟ": "o",    # o
+    "ⲡ": "p",    # pi
+    "ⲣ": "r",    # ro
+    "ⲥ": "s",    # sima
+    "ⲧ": "t",    # tau
+    "ⲩ": "u",    # he (upsilon)
+    "ⲫ": "pʰ",   # phi
+    "ⲭ": "kʰ",   # khi
+    "ⲯ": "ps",   # psi
+    "ⲱ": "oː",   # omega (long o)
+    # 6 Demotic-origin letters
+    "ϣ": "ʃ",    # shai
+    "ϥ": "f",    # fai
+    "ϧ": "x",    # khai (Bohairic only, voiceless velar fricative)
+    "ϩ": "h",    # hori
+    "ϫ": "tʃ",   # janja (affricate)
+    "ϭ": "tʃʰ",  # cima (aspirated affricate, Sahidic)
+    "ⳉ": "tʃ",   # akhmimic djandja (variant)
+    # Coptic uppercase (U+2C80-U+2CAE in even positions)
+    "Ⲁ": "a", "Ⲃ": "β", "Ⲅ": "ɣ", "Ⲇ": "d", "Ⲉ": "e",
+    "Ⲋ": "s", "Ⲍ": "z", "Ⲏ": "eː", "Ⲑ": "tʰ", "Ⲓ": "i",
+    "Ⲕ": "k", "Ⲗ": "l", "Ⲙ": "m", "Ⲛ": "n", "Ⲝ": "ks",
+    "Ⲟ": "o", "Ⲡ": "p", "Ⲣ": "r", "Ⲥ": "s", "Ⲧ": "t",
+    "Ⲩ": "u", "Ⲫ": "pʰ", "Ⲭ": "kʰ", "Ⲯ": "ps", "Ⲱ": "oː",
+    "Ϣ": "ʃ", "Ϥ": "f", "Ϧ": "x", "Ϩ": "h", "Ϫ": "tʃ", "Ϭ": "tʃʰ",
+    # Supralinear stroke (syllabic marker, ignore)
+    "\u0304": "",  # combining macron (sometimes used)
+    # Greek letters that appear in Coptic texts
+    "α": "a", "β": "β", "γ": "ɣ", "δ": "d", "ε": "e",
+    "ζ": "z", "η": "eː", "θ": "tʰ", "ι": "i", "κ": "k",
+    "λ": "l", "μ": "m", "ν": "n", "ξ": "ks", "ο": "o",
+    "π": "p", "ρ": "r", "σ": "s", "ς": "s", "τ": "t",
+    "υ": "u", "φ": "pʰ", "χ": "kʰ", "ψ": "ps", "ω": "oː",
+}
+
+
+# ---------------------------------------------------------------------------
+# PALI (IAST)  (Geiger 1943; Oberlies 2001)
+# ---------------------------------------------------------------------------
+# Wiktionary Pali entries use Latin IAST romanization with diacritics.
+# IAST is essentially phonemic, so the map converts diacritics to IPA.
+PALI_MAP: Dict[str, str] = {
+    # Short vowels
+    "a": "a", "i": "i", "u": "u", "e": "e", "o": "o",
+    # Long vowels (macron)
+    "ā": "aː", "ī": "iː", "ū": "uː",
+    # Velar nasals
+    "ṅ": "ŋ",
+    # Palatals
+    "c": "tʃ", "ch": "tʃʰ", "j": "dʒ", "jh": "dʒʰ", "ñ": "ɲ",
+    # Retroflexes (underdots)
+    "ṭ": "ʈ", "ṭh": "ʈʰ", "ḍ": "ɖ", "ḍh": "ɖʰ", "ṇ": "ɳ",
+    # Dentals
+    "t": "t", "th": "tʰ", "d": "d", "dh": "dʰ", "n": "n",
+    # Labials
+    "p": "p", "ph": "pʰ", "b": "b", "bh": "bʰ", "m": "m",
+    # Semivowels
+    "y": "j", "r": "r", "l": "l", "v": "ʋ",
+    # Sibilants and aspirate
+    "s": "s", "h": "h",
+    # Retroflex sibilant (rare in Pali but appears)
+    "ṣ": "ʂ",
+    # Palatal sibilant
+    "ś": "ɕ",
+    # Anusvara (nasalisation)
+    "ṃ": "ŋ",
+    # Visarga (rare)
+    "ḥ": "h",
+    # Niggahita (synonym of anusvara)
+    "ṁ": "ŋ",
+    # Double consonants pass through (gemination preserved in transliteration)
+    "k": "k", "kh": "kʰ", "g": "ɡ", "gh": "ɡʰ",
+}
+
+
+# ---------------------------------------------------------------------------
+# CLASSICAL / OLD ARMENIAN  (Meillet 1913; Schmitt 1981)
+# ---------------------------------------------------------------------------
+# Classical Armenian pronunciation (5th century CE).
+# 36 original Mesropian letters + 2 later additions.
+# Unicode block: U+0530-U+058F.
+OLD_ARMENIAN_MAP: Dict[str, str] = {
+    # Uppercase Armenian (U+0531-U+0556)
+    "Ա": "a",    # ayb
+    "Բ": "b",    # ben
+    "Գ": "ɡ",    # gim
+    "Դ": "d",    # da
+    "Ե": "e",    # ech
+    "Զ": "z",    # za
+    "Է": "eː",   # e (originally long e)
+    "Ը": "ə",    # et (schwa)
+    "Թ": "tʰ",   # to
+    "Ժ": "ʒ",    # zhe
+    "Ի": "i",    # ini
+    "Լ": "l",    # liwn
+    "Խ": "x",    # xeh
+    "Ծ": "ts",   # ca
+    "Կ": "k",    # ken
+    "Հ": "h",    # ho
+    "Ձ": "dz",   # ja
+    "Ղ": "ɫ",    # ghad (velarized lateral)
+    "Ճ": "tʃ",   # cheh
+    "Մ": "m",    # men
+    "Յ": "j",    # yi
+    "Ն": "n",    # now
+    "Շ": "ʃ",    # sha
+    "Ո": "o",    # vo (word-initial = vo, elsewhere = o)
+    "Չ": "tʃʰ",  # cha
+    "Պ": "p",    # peh
+    "Ջ": "dʒ",   # jheh
+    "Ռ": "r",    # ra (trilled r)
+    "Ս": "s",    # seh
+    "Վ": "v",    # vew
+    "Տ": "t",    # tiwn
+    "Ր": "ɾ",    # reh (tap r)
+    "Ց": "tsʰ",  # co
+    "Ւ": "w",    # hiwn (originally w, later v)
+    "Փ": "pʰ",   # piwr
+    "Ք": "kʰ",   # keh
+    "Օ": "oː",   # o (later addition, long o)
+    "Ֆ": "f",    # feh (later addition)
+    # Lowercase Armenian (U+0561-U+0587)
+    "ա": "a",    # ayb
+    "բ": "b",    # ben
+    "գ": "ɡ",    # gim
+    "դ": "d",    # da
+    "ե": "e",    # ech
+    "զ": "z",    # za
+    "է": "eː",   # e
+    "ը": "ə",    # et
+    "թ": "tʰ",   # to
+    "ժ": "ʒ",    # zhe
+    "ի": "i",    # ini
+    "լ": "l",    # liwn
+    "խ": "x",    # xeh
+    "ծ": "ts",   # ca
+    "կ": "k",    # ken
+    "հ": "h",    # ho
+    "ձ": "dz",   # ja
+    "ղ": "ɫ",    # ghad
+    "ճ": "tʃ",   # cheh
+    "մ": "m",    # men
+    "յ": "j",    # yi
+    "ն": "n",    # now
+    "շ": "ʃ",    # sha
+    "ո": "o",    # vo
+    "չ": "tʃʰ",  # cha
+    "պ": "p",    # peh
+    "ջ": "dʒ",   # jheh
+    "ռ": "r",    # ra
+    "\u057D": "s",    # seh  ս
+    "\u057E": "v",    # vew  վ
+    "\u057F": "t",    # tiwn  տ
+    "\u0580": "ɾ",    # reh  ր
+    "\u0581": "tsʰ",  # co  ց
+    "\u0582": "w",    # yiwn  ւ
+    "\u0583": "pʰ",   # piwr  փ
+    "\u0584": "kʰ",   # keh  ք
+    "\u0585": "oː",   # oh  օ
+    "\u0586": "f",    # feh  ֆ
+    # Ligature
+    "\u0587": "ev",   # ech-yiwn ligature  և
+}
+
+
+# ---------------------------------------------------------------------------
+# OLD ENGLISH  (Hogg 1992; Campbell 1959)
+# ---------------------------------------------------------------------------
+# Old English used Latin alphabet + insular letters (ð, þ, ƿ, æ).
+# Long vowels marked with macron in modern editions.
+OLD_ENGLISH_MAP: Dict[str, str] = {
+    # Special Old English characters
+    "æ": "æ", "ǣ": "æː",       # ash (short/long)
+    "Æ": "æ", "Ǣ": "æː",
+    "ð": "ð", "Ð": "ð",         # eth (dental fricative)
+    "þ": "θ", "Þ": "θ",         # thorn (dental fricative)
+    "ƿ": "w", "Ƿ": "w",         # wynn
+    # Long vowels (macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ȳ": "yː",
+    # Short vowels
+    "a": "ɑ", "e": "e", "i": "i", "o": "o", "u": "u", "y": "y",
+    # Consonants (mostly transparent)
+    "b": "b", "c": "k",          # c = /k/ (before back V) or /tʃ/ (before front V) — default /k/
+    "d": "d", "f": "f",          # f = /f/ or /v/ (allophonic)
+    "g": "ɡ",                    # g = /ɡ/ or /ɣ/ or /j/ (allophonic)
+    "h": "h",                    # h = /h/ or /x/ or /ç/ (allophonic)
+    "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t",
+    "w": "w", "x": "ks", "z": "z",
+    # Digraphs (common in OE)
+    "sc": "ʃ",                   # sc = /ʃ/ in most environments
+    "cg": "dʒ",                  # cg = /dʒ/
+    # Uppercase (same values)
+    "A": "ɑ", "B": "b", "C": "k", "D": "d", "E": "e", "F": "f",
+    "G": "ɡ", "H": "h", "I": "i", "K": "k", "L": "l", "M": "m",
+    "N": "n", "O": "o", "P": "p", "R": "r", "S": "s", "T": "t",
+    "U": "u", "W": "w", "X": "ks", "Y": "y", "Z": "z",
+    "Ā": "aː", "Ē": "eː", "Ī": "iː", "Ō": "oː", "Ū": "uː",
+    "Ȳ": "yː",
+}
+
+
+# ---------------------------------------------------------------------------
+# GE'EZ / ETHIOPIC  (Dillmann 1907; Tropper 2002; Gragg 1997)
+# ---------------------------------------------------------------------------
+# Ethiopic is an abugida: each character = consonant + vowel order.
+# 7 vowel orders per consonant: ä(default), u, i, a, e, ə/ɨ, o
+# Unicode block: U+1200-U+137F.
+GEEZ_MAP: Dict[str, str] = {
+    # h-series (ሀ hoy)
+    "ሀ": "ha", "ሁ": "hu", "ሂ": "hi", "ሃ": "haː", "ሄ": "he", "ህ": "hɨ", "ሆ": "ho",
+    # l-series (ለ lawi)
+    "ለ": "la", "ሉ": "lu", "ሊ": "li", "ላ": "laː", "ሌ": "le", "ል": "lɨ", "ሎ": "lo",
+    # ḥ-series (ሐ ḥawt)  — pharyngeal
+    "ሐ": "ħa", "ሑ": "ħu", "ሒ": "ħi", "ሓ": "ħaː", "ሔ": "ħe", "ሕ": "ħɨ", "ሖ": "ħo",
+    # m-series (መ may)
+    "መ": "ma", "ሙ": "mu", "ሚ": "mi", "ማ": "maː", "ሜ": "me", "ም": "mɨ", "ሞ": "mo",
+    # ś-series (ሠ śawt) — voiceless palatal (merged with s in Ge'ez)
+    "ሠ": "sa", "ሡ": "su", "ሢ": "si", "ሣ": "saː", "ሤ": "se", "ሥ": "sɨ", "ሦ": "so",
+    # r-series (ረ rəʾs)
+    "ረ": "ra", "ሩ": "ru", "ሪ": "ri", "ራ": "raː", "ሬ": "re", "ር": "rɨ", "ሮ": "ro",
+    # s-series (ሰ sat)
+    "ሰ": "sa", "ሱ": "su", "ሲ": "si", "ሳ": "saː", "ሴ": "se", "ስ": "sɨ", "ሶ": "so",
+    # q-series (ቀ qaf)  — velar ejective
+    "ቀ": "kʼa", "ቁ": "kʼu", "ቂ": "kʼi", "ቃ": "kʼaː", "ቄ": "kʼe", "ቅ": "kʼɨ", "ቆ": "kʼo",
+    # b-series (በ bet)
+    "በ": "ba", "ቡ": "bu", "ቢ": "bi", "ባ": "baː", "ቤ": "be", "ብ": "bɨ", "ቦ": "bo",
+    # t-series (ተ taw)
+    "ተ": "ta", "ቱ": "tu", "ቲ": "ti", "ታ": "taː", "ቴ": "te", "ት": "tɨ", "ቶ": "to",
+    # ḫ-series (ኀ ḫarm) — velar fricative (merged with h in some traditions)
+    "ኀ": "xa", "ኁ": "xu", "ኂ": "xi", "ኃ": "xaː", "ኄ": "xe", "ኅ": "xɨ", "ኆ": "xo",
+    # n-series (ነ nahas)
+    "ነ": "na", "ኑ": "nu", "ኒ": "ni", "ና": "naː", "ኔ": "ne", "ን": "nɨ", "ኖ": "no",
+    # ʾ-series (አ ʾalf) — glottal stop
+    "አ": "ʔa", "ኡ": "ʔu", "ኢ": "ʔi", "ኣ": "ʔaː", "ኤ": "ʔe", "እ": "ʔɨ", "ኦ": "ʔo",
+    # k-series (ከ kaf)
+    "ከ": "ka", "ኩ": "ku", "ኪ": "ki", "ካ": "kaː", "ኬ": "ke", "ክ": "kɨ", "ኮ": "ko",
+    # w-series (ወ wawe)
+    "ወ": "wa", "ዉ": "wu", "ዊ": "wi", "ዋ": "waː", "ዌ": "we", "ው": "wɨ", "ዎ": "wo",
+    # ʿ-series (ዐ ʿayn) — pharyngeal
+    "ዐ": "ʕa", "ዑ": "ʕu", "ዒ": "ʕi", "ዓ": "ʕaː", "ዔ": "ʕe", "ዕ": "ʕɨ", "ዖ": "ʕo",
+    # z-series (ዘ zay)
+    "ዘ": "za", "ዙ": "zu", "ዚ": "zi", "ዛ": "zaː", "ዜ": "ze", "ዝ": "zɨ", "ዞ": "zo",
+    # ž-series (ዠ žə)  — voiced palatal fricative
+    "ዠ": "ʒa", "ዡ": "ʒu", "ዢ": "ʒi", "ዣ": "ʒaː", "ዤ": "ʒe", "ዥ": "ʒɨ", "ዦ": "ʒo",
+    # y-series (የ yaman)
+    "የ": "ja", "ዩ": "ju", "ዪ": "ji", "ያ": "jaː", "ዬ": "je", "ይ": "jɨ", "ዮ": "jo",
+    # d-series (ደ dənt)
+    "ደ": "da", "ዱ": "du", "ዲ": "di", "ዳ": "daː", "ዴ": "de", "ድ": "dɨ", "ዶ": "do",
+    # ǧ-series (ጀ ǧə)  — voiced palatal affricate
+    "ጀ": "dʒa", "ጁ": "dʒu", "ጂ": "dʒi", "ጃ": "dʒaː", "ጄ": "dʒe", "ጅ": "dʒɨ", "ጆ": "dʒo",
+    # g-series (ገ gaml)
+    "ገ": "ɡa", "ጉ": "ɡu", "ጊ": "ɡi", "ጋ": "ɡaː", "ጌ": "ɡe", "ግ": "ɡɨ", "ጎ": "ɡo",
+    # ṭ-series (ጠ ṭayt) — ejective
+    "ጠ": "tʼa", "ጡ": "tʼu", "ጢ": "tʼi", "ጣ": "tʼaː", "ጤ": "tʼe", "ጥ": "tʼɨ", "ጦ": "tʼo",
+    # č-series (ጨ čə)  — ejective affricate
+    "ጨ": "tʃʼa", "ጩ": "tʃʼu", "ጪ": "tʃʼi", "ጫ": "tʃʼaː", "ጬ": "tʃʼe", "ጭ": "tʃʼɨ", "ጮ": "tʃʼo",
+    # p-series (ጰ pa — rare, mainly loanwords)
+    "ጰ": "pa", "ጱ": "pu", "ጲ": "pi", "ጳ": "paː", "ጴ": "pe", "ጵ": "pɨ", "ጶ": "po",
+    # ṣ-series (ጸ ṣaday) — ejective
+    "ጸ": "sʼa", "ጹ": "sʼu", "ጺ": "sʼi", "ጻ": "sʼaː", "ጼ": "sʼe", "ጽ": "sʼɨ", "ጾ": "sʼo",
+    # ṣ'-series (ፀ ṣ'appa — alternate ejective s, merged)
+    "ፀ": "sʼa", "ፁ": "sʼu", "ፂ": "sʼi", "ፃ": "sʼaː", "ፄ": "sʼe", "ፅ": "sʼɨ", "ፆ": "sʼo",
+    # f-series (ፈ af)
+    "ፈ": "fa", "ፉ": "fu", "ፊ": "fi", "ፋ": "faː", "ፌ": "fe", "ፍ": "fɨ", "ፎ": "fo",
+    # p'-series (ፐ psa — mainly modern, some classical loanwords)
+    "ፐ": "pa", "ፑ": "pu", "ፒ": "pi", "ፓ": "paː", "ፔ": "pe", "ፕ": "pɨ", "ፖ": "po",
+}
+
+
+# ---------------------------------------------------------------------------
+# BIBLICAL HEBREW  (Blau 2010; Khan 2020 — Tiberian pronunciation)
+# ---------------------------------------------------------------------------
+# Hebrew consonants (22 letters) + niqqud vowel points + dagesh.
+# Tiberian vocalization is the standard scholarly system.
+# Unicode: consonants U+05D0-U+05EA, points U+05B0-U+05BD.
+BIBLICAL_HEBREW_MAP: Dict[str, str] = {
+    # Consonants
+    "א": "ʔ",    # alef
+    "ב": "v",    # bet (default spirant; with dagesh = b)
+    "ג": "ɣ",    # gimel (default spirant; with dagesh = ɡ)
+    "ד": "ð",    # dalet (default spirant; with dagesh = d)
+    "ה": "h",    # he
+    "ו": "w",    # vav
+    "ז": "z",    # zayin
+    "ח": "ħ",    # het (pharyngeal)
+    "ט": "tˤ",   # tet (emphatic)
+    "י": "j",    # yod
+    "כ": "x",    # kaf (default spirant; with dagesh = k)
+    "ך": "x",    # final kaf
+    "ל": "l",    # lamed
+    "מ": "m",    # mem
+    "ם": "m",    # final mem
+    "נ": "n",    # nun
+    "ן": "n",    # final nun
+    "ס": "s",    # samekh
+    "ע": "ʕ",    # ayin (pharyngeal)
+    "פ": "f",    # pe (default spirant; with dagesh = p)
+    "ף": "f",    # final pe
+    "צ": "sˤ",   # tsadi (emphatic)
+    "ץ": "sˤ",   # final tsadi
+    "ק": "q",    # qof
+    "ר": "r",    # resh
+    "ש": "ʃ",    # shin (default; with shin dot = ʃ, with sin dot = s)
+    "ת": "θ",    # tav (default spirant; with dagesh = t)
+    # Niqqud vowel points
+    "\u05B0": "ə",    # shva (schwa)
+    "\u05B1": "ɛ̆",    # hataf segol
+    "\u05B2": "ă",    # hataf patah
+    "\u05B3": "ɔ̆",    # hataf qamats
+    "\u05B4": "i",    # hiriq
+    "\u05B5": "eː",   # tsere
+    "\u05B6": "ɛ",    # segol
+    "\u05B7": "a",    # patah
+    "\u05B8": "ɔː",   # qamats (long a or o depending on context)
+    "\u05B9": "oː",   # holam
+    "\u05BA": "oː",   # holam haser (for vav)
+    "\u05BB": "u",    # qubuts
+    # Dagesh (gemination/plosive marker — we can't fully resolve b/v etc.
+    # without context, but we mark its presence)
+    "\u05BC": "",      # dagesh (absorbed into consonant reading)
+    # Shin/sin dots
+    "\u05C1": "",      # shin dot (ש + dot = ʃ, already default)
+    "\u05C2": "",      # sin dot  (ש + dot = s; can't resolve without combining)
+    # Maqaf (hyphen)
+    "\u05BE": "-",     # maqaf
+    # Sof pasuq (verse separator)
+    "\u05C3": "",      # sof pasuq
+    # Meteg
+    "\u05BD": "",      # meteg (secondary stress marker)
+    # Rafe (mark indicating spirant, no dagesh)
+    "\u05BF": "",      # rafe
+    # Vav with holam (common combination)
+    "וֹ": "oː",       # vav + holam = long o
+    # Vav with shuruk
+    "וּ": "uː",       # vav + dagesh = shuruk (long u)
+}
+
+
 # ---------------------------------------------------------------------------
 # Lookup table:  ISO 639-3 code  ->  transliteration map
 # ---------------------------------------------------------------------------
@@ -1099,6 +1476,14 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "akk": AKKADIAN_MAP,        # Akkadian
     "sux": SUMERIAN_MAP,        # Sumerian
     "gmy": MYCENAEAN_MAP,       # Mycenaean Greek
+    # Tier 2 languages
+    "cop": COPTIC_MAP,          # Coptic
+    "pli": PALI_MAP,            # Pali
+    "xcl": OLD_ARMENIAN_MAP,    # Classical Armenian
+    "ang": OLD_ENGLISH_MAP,     # Old English
+    "gez": GEEZ_MAP,            # Ge'ez
+    "hbo": BIBLICAL_HEBREW_MAP, # Biblical Hebrew
+    "xht": HITTITE_MAP,        # Hattic (uses same cuneiformist conventions as Hittite)
 }
 
 
