@@ -1983,8 +1983,7 @@ abacc	abacc	ABAKK	edil	-	-
 ábachtach	aːbaxtax	ABAKTAK	edil	-	-
 abacóite	abacoːite	ABAKOITE	edil	-	-
 abae	abai	ABAI	edil	-	-
-1 abaid	1 abaid	ABAID	edil	-	-
-2 abaid	2 abaid	ABAID	edil	-	-
+abaid	abaid	ABAID	edil	-	-
 abaide	abaide	ABAIDE	edil	-	-
 abaidi	abaidi	ABAIDI	edil	-	-
 abaig	abaig	ABAIG	edil	-	-
@@ -2130,7 +2129,6 @@ acfacht	acfaxt	AKPAKT	edil	-	-
 acfuinn	acfuinn	AKPUINN	edil	-	-
 ach	ax	AK	edil	-	-
 achad	axad	AKAD	edil	-	-
-1 achain	1 axain	AKAIN	edil	-	-
 achain	axain	AKAIN	edil	-	-
 achaire	axaire	AKAIRE	edil	-	-
 achar	axar	AKAR	edil	-	-
@@ -2182,7 +2180,6 @@ acuitigidir	acuitigidir	AKUITIGIDIR	edil	-	-
 Acurón	Acuroːn	0KURON	edil	-	-
 ad-	ad-	AD	edil	-	-
 ad	ad	AD	edil	-	-
-2 ad	2 ad	AD	edil	-	-
 ád	aːd	AD	edil	-	-
 adabair	adabair	ADABAIR	edil	-	-
 adád	adaːd	ADAD	edil	-	-
@@ -2195,15 +2192,13 @@ adáilgen	adaːilgen	ADAILGEN	edil	-	-
 adailgne	adailgne	ADAILGNE	edil	-	-
 ad-aim	ad-aim	ADAIM	edil	-	-
 adaint	adaint	ADAINT	edil	-	-
-1 adair	1 adair	ADAIR	edil	-	-
-2 adair	2 adair	ADAIR	edil	-	-
+adair	adair	ADAIR	edil	-	-
 adaircech	adaircex	ADAIRKEK	edil	-	-
 adaircín	adairciːn	ADAIRKIN	edil	-	-
 adairt	adairt	ADAIRT	edil	-	-
 ad-ais	ad-ais	ADAIS	edil	-	-
 ad-aittreba	ad-aittreba	ADAITTREBA	edil	-	-
 adal	adal	ADAL	edil	-	-
-2 adall	2 adall	ADALL	edil	-	-
 adaltair	adaltair	ADALTAIR	edil	-	-
 adaltrach	adaltrax	ADALTRAK	edil	-	-
 adaltrannach	adaltrannax	ADALTRANNAK	edil	-	-
@@ -2229,7 +2224,6 @@ adannugud	adannugud	ADANNUGUD	edil	-	-
 adanora	adanora	ADANORA	edil	-	-
 adantaib	adantaib	ADANTAIB	edil	-	-
 adar	adar	ADAR	edil	-	-
-2 adar	2 adar	ADAR	edil	-	-
 adarbetar	adarbetar	ADARBETAR	edil	-	-
 adarcach	adarcax	ADARKAK	edil	-	-
 adarcán	adarcaːn	ADARKAN	edil	-	-
@@ -2607,7 +2601,6 @@ Agustus	Agustus	0GUSTUS	edil	-	-
 ahæ	ahæ	AHA	edil	-	-
 ahé	aheː	AHE	edil	-	-
 ahel	ahel	AHEL	edil	-	-
-4 aí	4 aiː	AI	edil	-	-
 aial	aial	AIAL	edil	-	-
 aib	aib	AIB	edil	-	-
 aibbgetus	aibbgetus	AIBBGETUS	edil	-	-
@@ -2659,7 +2652,6 @@ aicclid	aicclid	AIKKLID	edil	-	-
 aicdech	aicdex	AIKDEK	edil	-	-
 aicdid	aicdid	AIKDID	edil	-	-
 aice	aice	AIKE	edil	-	-
-2 aice	2 aice	AIKE	edil	-	-
 aiced	aiced	AIKED	edil	-	-
 aicén	aiceːn	AIKEN	edil	-	-
 aicenn	aicenn	AIKENN	edil	-	-
@@ -2777,19 +2769,15 @@ aidnech	aidnex	AIDNEK	edil	-	-
 aieór	aieoːr	AIEOR	edil	-	-
 aier	aier	AIER	edil	-	-
 aife	aife	AIPE	edil	-	-
-2 aife	2 aife	AIPE	edil	-	-
 aífe	aiːfe	AIPE	edil	-	-
 aifrend	aifrend	AIPREND	edil	-	-
 aifrisi	aifrisi	AIPRISI	edil	-	-
-3 aig	3 aig	AIG	edil	-	-
 aígarda	aiːgarda	AIGARDA	edil	-	-
 aigde	aigde	AIGDE	edil	-	-
 aige	aige	AIGE	edil	-	-
-2 aige	2 aige	AIGE	edil	-	-
 áige	aːige	AIGE	edil	-	-
 aíge	aiːge	AIGE	edil	-	-
 aiged	aiged	AIGED	edil	-	-
-2 aiged	2 aiged	AIGED	edil	-	-
 aigéd	aigeːd	AIGED	edil	-	-
 aigéidecht	aigeːidext	AIGEIDEKT	edil	-	-
 aigéidide	aigeːidide	AIGEIDIDE	edil	-	-
@@ -2819,7 +2807,6 @@ aigrettacht	aigrettaxt	AIGRETTAKT	edil	-	-
 áigthi	aːigθi	AIGTI	edil	-	-
 áigthide	aːigθide	AIGTIDE	edil	-	-
 áigthine	aːigθine	AIGTINE	edil	-	-
-5 ail	5 ail	AIL	edil	-	-
 áil	aːil	AIL	edil	-	-
 aíl	aiːl	AIL	edil	-	-
 ailad	ailad	AILAD	edil	-	-
@@ -2841,7 +2828,6 @@ ailcned	ailcned	AILKNED	edil	-	-
 áilde	aːilde	AILDE	edil	-	-
 áile	aːile	AILE	edil	-	-
 ailech	ailex	AILEK	edil	-	-
-3 ailech	3 ailex	AILEK	edil	-	-
 aílech	aiːlex	AILEK	edil	-	-
 aílechar	aiːlexar	AILEKAR	edil	-	-
 áiled	aːiled	AILED	edil	-	-
@@ -2881,10 +2867,8 @@ ailitherdae	ailiθerdai	AILITERDAI	edil	-	-
 ailithir	ailiθir	AILITIR	edil	-	-
 ailithre	ailiθre	AILITRE	edil	-	-
 ailithrech	ailiθrex	AILITREK	edil	-	-
-2 ailithrech	2 ailiθrex	AILITREK	edil	-	-
 ailithrigid	ailiθrigid	AILITRIGID	edil	-	-
 ailiugud	ailiugud	AILIUGUD	edil	-	-
-4 aill	4 aill	AILL	edil	-	-
 áill	aːill	AILL	edil	-	-
 aillde	aillde	AILLDE	edil	-	-
 aille	aille	AILLE	edil	-	-
@@ -2916,7 +2900,6 @@ ailse	ailse	AILSE	edil	-	-
 áilsedaid	aːilsedaid	AILSEDAID	edil	-	-
 ailsine	ailsine	AILSINE	edil	-	-
 ailt	ailt	AILT	edil	-	-
-5 ailt	5 ailt	AILT	edil	-	-
 áilt	aːilt	AILT	edil	-	-
 áilte	aːilte	AILTE	edil	-	-
 ailtech	ailtex	AILTEK	edil	-	-
@@ -3186,10 +3169,8 @@ ainfrecarthach	ainfrecarθax	AINPREKARTAK	edil	-	-
 aing	aing	AING	edil	-	-
 aingcél	aingceːl	AINGKEL	edil	-	-
 aingces	aingces	AINGKES	edil	-	-
-1 ainge	1 ainge	AINGE	edil	-	-
 ainge	ainge	AINGE	edil	-	-
 aingech	aingex	AINGEK	edil	-	-
-3 aingel	3 aingel	AINGEL	edil	-	-
 aingelacda	aingelacda	AINGELAKDA	edil	-	-
 aingelda	aingelda	AINGELDA	edil	-	-
 aingenelach	aingenelax	AINGENELAK	edil	-	-
@@ -3276,7 +3257,6 @@ ainmían	ainmiːan	AINMIAN	edil	-	-
 ainmíanach	ainmiːanax	AINMIANAK	edil	-	-
 ainmid	ainmid	AINMID	edil	-	-
 ainmide	ainmide	AINMIDE	edil	-	-
-3 ainmide	3 ainmide	AINMIDE	edil	-	-
 ainmidech	ainmidex	AINMIDEK	edil	-	-
 ainmíl	ainmiːl	AINMIL	edil	-	-
 ainmín	ainmiːn	AINMIN	edil	-	-
@@ -3667,7 +3647,6 @@ airdubad	airdubad	AIRDUBAD	edil	-	-
 airduibe	airduibe	AIRDUIBE	edil	-	-
 airduine	airduine	AIRDUINE	edil	-	-
 airdún	airduːn	AIRDUN	edil	-	-
-6 aire	6 aire	AIRE	edil	-	-
 aíre	aiːre	AIRE	edil	-	-
 airec	airec	AIREK	edil	-	-
 airecairthe	airecairθe	AIREKAIRTE	edil	-	-
@@ -3705,8 +3684,6 @@ airem	airem	AIREM	edil	-	-
 airenach	airenax	AIRENAK	edil	-	-
 airenn	airenn	AIRENN	edil	-	-
 airer	airer	AIRER	edil	-	-
-4 airer	4 airer	AIRER	edil	-	-
-5 airer	5 airer	AIRER	edil	-	-
 airerach	airerax	AIRERAK	edil	-	-
 aireras	aireras	AIRERAS	edil	-	-
 airerda	airerda	AIRERDA	edil	-	-
@@ -3845,7 +3822,6 @@ airichill	airixill	AIRIKILL	edil	-	-
 airichlichid	airixlixid	AIRIKLIKID	edil	-	-
 airichlid	airixlid	AIRIKLID	edil	-	-
 airide	airide	AIRIDE	edil	-	-
-4 airide	4 airide	AIRIDE	edil	-	-
 áiride	aːiride	AIRIDE	edil	-	-
 airidech	airidex	AIRIDEK	edil	-	-
 airidecht	airidext	AIRIDEKT	edil	-	-
@@ -3928,7 +3904,6 @@ airláthrid	airlaːθrid	AIRLATRID	edil	-	-
 airlatu	airlatu	AIRLATU	edil	-	-
 airlatus	airlatus	AIRLATUS	edil	-	-
 airle	airle	AIRLE	edil	-	-
-3 airle	3 airle	AIRLE	edil	-	-
 airleba	airleba	AIRLEBA	edil	-	-
 airlech	airlex	AIRLEK	edil	-	-
 airlechas	airlexas	AIRLEKAS	edil	-	-
@@ -4018,7 +3993,6 @@ airmitech	airmitex	AIRMITEK	edil	-	-
 airmith	airmiθ	AIRMIT	edil	-	-
 áirmithi	aːirmiθi	AIRMITI	edil	-	-
 airmitiu	airmitiu	AIRMITIU	edil	-	-
-2 airmitiu	2 airmitiu	AIRMITIU	edil	-	-
 airmitiugad	airmitiugad	AIRMITIUGAD	edil	-	-
 airmitnech	airmitnex	AIRMITNEK	edil	-	-
 airmitnige	airmitnige	AIRMITNIGE	edil	-	-
@@ -4198,7 +4172,6 @@ airunsur	airunsur	AIRUNSUR	edil	-	-
 airuras	airuras	AIRURAS	edil	-	-
 airussa	airussa	AIRUSSA	edil	-	-
 ais	ais	AIS	edil	-	-
-2 ais	2 ais	AIS	edil	-	-
 áis	aːis	AIS	edil	-	-
 aisc	aisc	AISK	edil	-	-
 aiscech	aiscex	AISKEK	edil	-	-
@@ -4290,13 +4263,11 @@ aithchecht	aiθxext	AITKEKT	edil	-	-
 aithchéile	aiθxeːile	AITKEILE	edil	-	-
 aithchen	aiθxen	AITKEN	edil	-	-
 aithchennach	aiθxennax	AITKENNAK	edil	-	-
-2 aithchennach	2 aiθxennax	AITKENNAK	edil	-	-
 aithchennaigid	aiθxennaigid	AITKENNAIGID	edil	-	-
 áithcheó	aːiθxeoː	AITKEO	edil	-	-
 áithcheódach	aːiθxeoːdax	AITKEODAK	edil	-	-
 áithcheóid	aːiθxeoːid	AITKEOID	edil	-	-
 aithches	aiθxes	AITKES	edil	-	-
-2 aithches	2 aiθxes	AITKES	edil	-	-
 aithchest	aiθxest	AITKEST	edil	-	-
 aithchet	aiθxet	AITKET	edil	-	-
 aithchetul	aiθxetul	AITKETUL	edil	-	-
@@ -4318,7 +4289,6 @@ aithdíbergach	aiθdiːbergax	AITDIBERGAK	edil	-	-
 aithdílsigid	aiθdiːlsigid	AITDILSIGID	edil	-	-
 aithdliged	aiθdliged	AITDLIGED	edil	-	-
 aithe	aiθe	AITE	edil	-	-
-2 aithe	2 aiθe	AITE	edil	-	-
 áithe	aːiθe	AITE	edil	-	-
 aithech	aiθex	AITEK	edil	-	-
 aithechán	aiθexaːn	AITEKAN	edil	-	-
@@ -4460,7 +4430,6 @@ aithminiugud	aiθminiugud	AITMINIUGUD	edil	-	-
 aithmínlech	aiθmiːnlex	AITMINLEK	edil	-	-
 aithmire	aiθmire	AITMIRE	edil	-	-
 aithne	aiθne	AITNE	edil	-	-
-3 aithne	3 aiθne	AITNE	edil	-	-
 aithnech	aiθnex	AITNEK	edil	-	-
 aithneimnech	aiθneimnex	AITNEIMNEK	edil	-	-
 aithnem	aiθnem	AITNEM	edil	-	-
@@ -4548,9 +4517,7 @@ aiusa	aiusa	AIUSA	edil	-	-
 aixis	aixis	AIKIS	edil	-	-
 al	al	AL	edil	-	-
 ál	aːl	AL	edil	-	-
-1 ala	1 ala	ALA	edil	-	-
 ala	ala	ALA	edil	-	-
-4 ala	4 ala	ALA	edil	-	-
 alabard	alabard	ALABARD	edil	-	-
 alabrug	alabrug	ALABRUG	edil	-	-
 alacht	alaxt	ALAKT	edil	-	-
@@ -4601,7 +4568,6 @@ allaboss	allaboss	ALLABOSS	edil	-	-
 allabrig	allabrig	ALLABRIG	edil	-	-
 allachú	allaxuː	ALLAKU	edil	-	-
 allad	allad	ALLAD	edil	-	-
-2 allad	2 allad	ALLAD	edil	-	-
 alladon	alladon	ALLADON	edil	-	-
 allaige	allaige	ALLAIGE	edil	-	-
 allaing	allaing	ALLAING	edil	-	-
@@ -4706,7 +4672,6 @@ altram	altram	ALTRAM	edil	-	-
 altramaid	altramaid	ALTRAMAID	edil	-	-
 altrannas	altrannas	ALTRANNAS	edil	-	-
 altugad	altugad	ALTUGAD	edil	-	-
-2 am	2 am	AM	edil	-	-
 am-	am-	AM	edil	-	-
 ám	aːm	AM	edil	-	-
 ama	ama	AMA	edil	-	-
@@ -4731,8 +4696,7 @@ amaisc	amaisc	AMAISK	edil	-	-
 amaithes	amaiθes	AMAITES	edil	-	-
 amal	amal	AMAL	edil	-	-
 amalán	amalaːn	AMALAN	edil	-	-
-1 amall	1 amall	AMALL	edil	-	-
-2 amall	2 amall	AMALL	edil	-	-
+amall	amall	AMALL	edil	-	-
 amantrach	amantrax	AMANTRAK	edil	-	-
 amantur	amantur	AMANTUR	edil	-	-
 amaoil	amaoil	AMAOIL	edil	-	-
@@ -4741,7 +4705,6 @@ amarach	amarax	AMARAK	edil	-	-
 amárach	amaːrax	AMARAK	edil	-	-
 amaras	amaras	AMARAS	edil	-	-
 amarc	amarc	AMARK	edil	-	-
-1 amarcach	1 amarcax	AMARKAK	edil	-	-
 amarcach	amarcax	AMARKAK	edil	-	-
 amarcaid	amarcaid	AMARKAID	edil	-	-
 amarcholl	amarxoll	AMARKOLL	edil	-	-
@@ -4791,7 +4754,6 @@ amgné	amgneː	AMGNE	edil	-	-
 amgoisti	amgoisti	AMGOISTI	edil	-	-
 amirissech	amirissex	AMIRISSEK	edil	-	-
 amla	amla	AMLA	edil	-	-
-2 amla	2 amla	AMLA	edil	-	-
 amlabar	amlabar	AMLABAR	edil	-	-
 amlabra	amlabra	AMLABRA	edil	-	-
 amlach	amlax	AMLAK	edil	-	-
@@ -4851,7 +4813,6 @@ amránach	amraːnax	AMRANAK	edil	-	-
 amras	amras	AMRAS	edil	-	-
 amrasaid	amrasaid	AMRASAID	edil	-	-
 amrath	amraθ	AMRAT	edil	-	-
-2 amrath	2 amraθ	AMRAT	edil	-	-
 amrathmar	amraθmar	AMRATMAR	edil	-	-
 amreg	amreg	AMREG	edil	-	-
 amrí	amriː	AMRI	edil	-	-
@@ -4877,7 +4838,6 @@ amulach	amulax	AMULAK	edil	-	-
 amulintig	amulintig	AMULINTIG	edil	-	-
 amus	amus	AMUS	edil	-	-
 an	an	AN	edil	-	-
-3 an	3 an	AN	edil	-	-
 an-	an-	AN	edil	-	-
 ana	ana	ANA	edil	-	-
 Ana	Ana	0NA	edil	-	-
@@ -4903,7 +4863,6 @@ anádmar	anaːdmar	ANADMAR	edil	-	-
 anadnaid	anadnaid	ANADNAID	edil	-	-
 anae	anai	ANAI	edil	-	-
 anáe	anaːe	ANAE	edil	-	-
-2 anáe	2 anaːe	ANAE	edil	-	-
 anáeb	anaːeb	ANAEB	edil	-	-
 anáebda	anaːebda	ANAEBDA	edil	-	-
 anáebdacht	anaːebdaxt	ANAEBDAKT	edil	-	-
@@ -4989,7 +4948,6 @@ anarrachtas	anarraxtas	ANARRAKTAS	edil	-	-
 anarsaid	anarsaid	ANARSAID	edil	-	-
 anarsaidecht	anarsaidext	ANARSAIDEKT	edil	-	-
 anart	anart	ANART	edil	-	-
-2 anart	2 anart	ANART	edil	-	-
 anartach	anartax	ANARTAK	edil	-	-
 anaslach	anaslax	ANASLAK	edil	-	-
 anassaib	anassaib	ANASSAIB	edil	-	-
@@ -5038,7 +4996,6 @@ anbruith	anbruiθ	ANBRUIT	edil	-	-
 anbsaid	anbsaid	ANBSAID	edil	-	-
 anbsaide	anbsaide	ANBSAIDE	edil	-	-
 anbúain	anbuːain	ANBUAIN	edil	-	-
-2 anbúain	2 anbuːain	ANBUAIN	edil	-	-
 anbúaine	anbuːaine	ANBUAINE	edil	-	-
 anbúainech	anbuːainex	ANBUAINEK	edil	-	-
 anbúained	anbuːained	ANBUAINED	edil	-	-
@@ -5117,7 +5074,6 @@ andod	andod	ANDOD	edil	-	-
 andoe	andoi	ANDOI	edil	-	-
 andóin	andoːin	ANDOIN	edil	-	-
 andóit	andoːit	ANDOIT	edil	-	-
-2 andóit	2 andoːit	ANDOIT	edil	-	-
 andóitech	andoːitex	ANDOITEK	edil	-	-
 andomain	andomain	ANDOMAIN	edil	-	-
 andord	andord	ANDORD	edil	-	-
@@ -5323,7 +5279,6 @@ annstró	annstroː	ANNSTRO	edil	-	-
 annud	annud	ANNUD	edil	-	-
 anobair	anobair	ANOBAIR	edil	-	-
 anocht	anoxt	ANOKT	edil	-	-
-2 anocht	2 anoxt	ANOKT	edil	-	-
 anóentu	anoːentu	ANOENTU	edil	-	-
 anóg	anoːg	ANOG	edil	-	-
 anogaig	anogaig	ANOGAIG	edil	-	-
@@ -5477,7 +5432,6 @@ aquil	aquil	AKUIL	edil	-	-
 ar	ar	AR	edil	-	-
 ar-	ar-	AR	edil	-	-
 ár	aːr	AR	edil	-	-
-4 ara	4 ara	ARA	edil	-	-
 arabárach	arabaːrax	ARABARAK	edil	-	-
 arabarma	arabarma	ARABARMA	edil	-	-
 Arabdae	Arabdai	0RABDAI	edil	-	-
@@ -5485,7 +5439,6 @@ arabu	arabu	ARABU	edil	-	-
 aracae	aracai	ARAKAI	edil	-	-
 aracar	aracar	ARAKAR	edil	-	-
 arach	arax	ARAK	edil	-	-
-2 arach	2 arax	ARAK	edil	-	-
 árach	aːrax	ARAK	edil	-	-
 arachair	araxair	ARAKAIR	edil	-	-
 ara-chrin	ara-xrin	ARAKRIN	edil	-	-
@@ -5539,7 +5492,6 @@ ar-brissi	ar-brissi	ARBRISSI	edil	-	-
 ar-brúi	ar-bruːi	ARBRUI	edil	-	-
 arbu	arbu	ARBU	edil	-	-
 arc	arc	ARK	edil	-	-
-3 arc	3 arc	ARK	edil	-	-
 árc	aːrc	ARK	edil	-	-
 arcachán	arcaxaːn	ARKAKAN	edil	-	-
 ar-cain	ar-cain	ARKAIN	edil	-	-
@@ -5719,7 +5671,6 @@ armacc	armacc	ARMAKK	edil	-	-
 armach	armax	ARMAK	edil	-	-
 armacht	armaxt	ARMAKT	edil	-	-
 armaid	armaid	ARMAID	edil	-	-
-2 armaid	2 armaid	ARMAID	edil	-	-
 armáil	armaːil	ARMAIL	edil	-	-
 Armairc Letha	Armairc Leθa	0RMAIRK0ETA	edil	-	-
 armáir	armaːir	ARMAIR	edil	-	-
@@ -5926,7 +5877,6 @@ as-congair	as-congair	ASKONGAIR	edil	-	-
 as-cren	as-cren	ASKREN	edil	-	-
 ascú	ascuː	ASKU	edil	-	-
 ascur	ascur	ASKUR	edil	-	-
-2 ascur	2 ascur	ASKUR	edil	-	-
 ascurda	ascurda	ASKURDA	edil	-	-
 as-dingaib	as-dingaib	ASDINGAIB	edil	-	-
 as-dloing	as-dloing	ASDLOING	edil	-	-
@@ -5988,7 +5938,6 @@ asroither	asroiθer	ASROITER	edil	-	-
 asrolaigecht	asrolaigext	ASROLAIGEKT	edil	-	-
 asrous	asrous	ASROUS	edil	-	-
 assa	assa	ASSA	edil	-	-
-2 assa	2 assa	ASSA	edil	-	-
 assafiud	assafiud	ASSAPIUD	edil	-	-
 assaid	assaid	ASSAID	edil	-	-
 assaigid	assaigid	ASSAIGID	edil	-	-
@@ -6095,7 +6044,6 @@ ath	aθ	AT	edil	-	-
 atha	aθa	ATA	edil	-	-
 athaba	aθaba	ATABA	edil	-	-
 athach	aθax	ATAK	edil	-	-
-5 athach	5 aθax	ATAK	edil	-	-
 áthach	aːθax	ATAK	edil	-	-
 athachda	aθaxda	ATAKDA	edil	-	-
 athad	aθad	ATAD	edil	-	-
@@ -6453,7 +6401,6 @@ auen	auen	AUEN	edil	-	-
 Auestar	Auestar	0UESTAR	edil	-	-
 augg	augg	AUGG	edil	-	-
 augaire	augaire	AUGAIRE	edil	-	-
-2 augaire	2 augaire	AUGAIRE	edil	-	-
 augestar	augestar	AUGESTAR	edil	-	-
 augra	augra	AUGRA	edil	-	-
 augrach	augrax	AUGRAK	edil	-	-
@@ -6520,8 +6467,6 @@ autsad	autsad	AUTSAD	edil	-	-
 axal	axal	AKAL	edil	-	-
 -b-	-b-	B	edil	-	-
 ba	ba	BA	edil	-	-
-3 ba	3 ba	BA	edil	-	-
-4 ba	4 ba	BA	edil	-	-
 bá	baː	BA	edil	-	-
 -bá	-baː	BA	edil	-	-
 -babair	-babair	BABAIR	edil	-	-
@@ -6594,7 +6539,6 @@ báes	baːes	BAES	edil	-	-
 báesach	baːesax	BAESAK	edil	-	-
 báesrad	baːesrad	BAESRAD	edil	-	-
 báeth	baːeθ	BAET	edil	-	-
-2 báeth	2 baːeθ	BAET	edil	-	-
 báethaid	baːeθaid	BAETAID	edil	-	-
 báethán	baːeθaːn	BAETAN	edil	-	-
 báethánach	baːeθaːnax	BAETANAK	edil	-	-
@@ -6614,9 +6558,7 @@ bágaid	baːgaid	BAGAID	edil	-	-
 bagairt	bagairt	BAGAIRT	edil	-	-
 bágda	baːgda	BAGDA	edil	-	-
 bagrach	bagrax	BAGRAK	edil	-	-
-1 baí	1 baiː	BAI	edil	-	-
 baí	baiː	BAI	edil	-	-
-4 baí	4 baiː	BAI	edil	-	-
 baicet	baicet	BAIKET	edil	-	-
 baïd	baïd	BAD	edil	-	-
 báid	baːid	BAID	edil	-	-
@@ -6631,7 +6573,6 @@ baigin	baigin	BAIGIN	edil	-	-
 baiginet	baiginet	BAIGINET	edil	-	-
 baíglenn	baiːglenn	BAIGLENN	edil	-	-
 baígliu	baiːgliu	BAIGLIU	edil	-	-
-1 bail	1 bail	BAIL	edil	-	-
 bail	bail	BAIL	edil	-	-
 bailbe	bailbe	BAILBE	edil	-	-
 bailce	bailce	BAILKE	edil	-	-
@@ -6666,8 +6607,7 @@ bainsemail	bainsemail	BAINSEMAIL	edil	-	-
 bainsiugud	bainsiugud	BAINSIUGUD	edil	-	-
 baintrebthach	baintrebθax	BAINTREBTAK	edil	-	-
 baintrebthachas	baintrebθaxas	BAINTREBTAKAS	edil	-	-
-1 bair	1 bair	BAIR	edil	-	-
-2 bair	2 bair	BAIR	edil	-	-
+bair	bair	BAIR	edil	-	-
 baircne	baircne	BAIRKNE	edil	-	-
 bairdne	bairdne	BAIRDNE	edil	-	-
 bairdsech	bairdsex	BAIRDSEK	edil	-	-
@@ -6682,7 +6622,6 @@ bairgenéne	bairgeneːne	BAIRGENENE	edil	-	-
 bairille	bairille	BAIRILLE	edil	-	-
 bairn	bairn	BAIRN	edil	-	-
 bairnd	bairnd	BAIRND	edil	-	-
-1 bairne	1 bairne	BAIRNE	edil	-	-
 bairne	bairne	BAIRNE	edil	-	-
 bairnech	bairnex	BAIRNEK	edil	-	-
 bairred	bairred	BAIRRED	edil	-	-
@@ -6701,7 +6640,6 @@ baísech	baiːsex	BAISEK	edil	-	-
 baiseóc	baiseoːc	BAISEOK	edil	-	-
 báisín	baːisiːn	BAISIN	edil	-	-
 baislec	baislec	BAISLEK	edil	-	-
-2 baislec	2 baislec	BAISLEK	edil	-	-
 baslec	baslec	BASLEK	edil	-	-
 baiste	baiste	BAISTE	edil	-	-
 baistech	baistex	BAISTEK	edil	-	-
@@ -6720,8 +6658,6 @@ báitte	baːitte	BAITTE	edil	-	-
 bal	bal	BAL	edil	-	-
 bala	bala	BALA	edil	-	-
 balach	balax	BALAK	edil	-	-
-2 balach	2 balax	BALAK	edil	-	-
-3 balach	3 balax	BALAK	edil	-	-
 balad	balad	BALAD	edil	-	-
 balamail	balamail	BALAMAIL	edil	-	-
 balamlacht	balamlaxt	BALAMLAKT	edil	-	-
@@ -6777,13 +6713,11 @@ bandernach	bandernax	BANDERNAK	edil	-	-
 bandtaig	bandtaig	BANDTAIG	edil	-	-
 bánḟat	baːn∅at	BANAT	edil	-	-
 bang	bang	BANG	edil	-	-
-2 bang	2 bang	BANG	edil	-	-
 banganacht	banganaxt	BANGANAKT	edil	-	-
 banganaig	banganaig	BANGANAIG	edil	-	-
 bangcéd	bangceːd	BANGKED	edil	-	-
 bann	bann	BANN	edil	-	-
 banna	banna	BANNA	edil	-	-
-4 banna	4 banna	BANNA	edil	-	-
 bannach	bannax	BANNAK	edil	-	-
 bannachán	bannaxaːn	BANNAKAN	edil	-	-
 bannae	bannai	BANNAI	edil	-	-
@@ -6932,7 +6866,6 @@ becht	bext	BEKT	edil	-	-
 -becht	-bext	BEKT	edil	-	-
 bechta	bexta	BEKTA	edil	-	-
 bechtach	bextax	BEKTAK	edil	-	-
-2 bechtach	2 bextax	BEKTAK	edil	-	-
 bechtaide	bextaide	BEKTAIDE	edil	-	-
 bechtaigid	bextaigid	BEKTAIGID	edil	-	-
 becugad	becugad	BEKUGAD	edil	-	-
@@ -7094,7 +7027,6 @@ bernán	bernaːn	BERNAN	edil	-	-
 bernas	bernas	BERNAS	edil	-	-
 Beroig	Beroig	0EROIG	edil	-	-
 berrach	berrax	BERRAK	edil	-	-
-2 berrach	2 berrax	BERRAK	edil	-	-
 berrad	berrad	BERRAD	edil	-	-
 berraid	berraid	BERRAID	edil	-	-
 berraide	berraide	BERRAIDE	edil	-	-
@@ -7127,7 +7059,6 @@ bésach	beːsax	BESAK	edil	-	-
 bésad	beːsad	BESAD	edil	-	-
 bésaid	beːsaid	BESAID	edil	-	-
 besan	besan	BESAN	edil	-	-
-2 besan	2 besan	BESAN	edil	-	-
 bésgnae	beːsgnai	BESGNAI	edil	-	-
 bésmúinid	beːsmuːinid	BESMUINID	edil	-	-
 bésmúnad	beːsmuːnad	BESMUNAD	edil	-	-
@@ -7149,7 +7080,6 @@ bethadach	beθadax	BETADAK	edil	-	-
 bethaigid	beθaigid	BETAIGID	edil	-	-
 bethal	beθal	BETAL	edil	-	-
 bethamain	beθamain	BETAMAIN	edil	-	-
-2 bethamain	2 beθamain	BETAMAIN	edil	-	-
 bethamnacht	beθamnaxt	BETAMNAKT	edil	-	-
 bethamnas	beθamnas	BETAMNAS	edil	-	-
 bethan	beθan	BETAN	edil	-	-
@@ -7169,7 +7099,6 @@ betlim	betlim	BETLIM	edil	-	-
 betroisgenn	betroisgenn	BETROISGENN	edil	-	-
 beus	beus	BEUS	edil	-	-
 bi	bi	BI	edil	-	-
-3 bi	3 bi	BI	edil	-	-
 biach	biax	BIAK	edil	-	-
 bíadad	biːadad	BIADAD	edil	-	-
 bíadaid	biːadaid	BIADAID	edil	-	-
@@ -7210,7 +7139,6 @@ bibdu	bibdu	BIBDU	edil	-	-
 bibe	bibe	BIBE	edil	-	-
 bibla	bibla	BIBLA	edil	-	-
 bibsach	bibsax	BIBSAK	edil	-	-
-2 bibsach	2 bibsax	BIBSAK	edil	-	-
 bibsat	bibsat	BIBSAT	edil	-	-
 bibsugad	bibsugad	BIBSUGAD	edil	-	-
 bicáire	bicaːire	BIKAIRE	edil	-	-
@@ -7241,7 +7169,6 @@ biletus	biletus	BILETUS	edil	-	-
 bilga	bilga	BILGA	edil	-	-
 bill	bill	BILL	edil	-	-
 bille	bille	BILLE	edil	-	-
-2 bille	2 bille	BILLE	edil	-	-
 billech	billex	BILLEK	edil	-	-
 billéd	billeːd	BILLED	edil	-	-
 billeócach	billeoːcax	BILLEOKAK	edil	-	-
@@ -7250,7 +7177,6 @@ billian	billian	BILLIAN	edil	-	-
 billín	billiːn	BILLIN	edil	-	-
 billóc	billoːc	BILLOK	edil	-	-
 bin	bin	BIN	edil	-	-
-2 bin	2 bin	BIN	edil	-	-
 bín	biːn	BIN	edil	-	-
 bináir	binaːir	BINAIR	edil	-	-
 binbe	binbe	BINBE	edil	-	-
@@ -7270,7 +7196,6 @@ binn-	binn-	BINN	edil	-	-
 binnán	binnaːn	BINNAN	edil	-	-
 binne	binne	BINNE	edil	-	-
 binnech	binnex	BINNEK	edil	-	-
-2 binnech	2 binnex	BINNEK	edil	-	-
 binnigid	binnigid	BINNIGID	edil	-	-
 binnius	binnius	BINNIUS	edil	-	-
 binse	binse	BINSE	edil	-	-
@@ -7481,7 +7406,6 @@ bloa	bloa	BLOA	edil	-	-
 bloach	bloax	BLOAK	edil	-	-
 bloc	bloc	BLOK	edil	-	-
 blod	blod	BLOD	edil	-	-
-2 blod	2 blod	BLOD	edil	-	-
 blodad	blodad	BLODAD	edil	-	-
 blodas	blodas	BLODAS	edil	-	-
 blog	blog	BLOG	edil	-	-
@@ -7500,8 +7424,6 @@ blooic	blooic	BLOOIK	edil	-	-
 blór	bloːr	BLOR	edil	-	-
 blóraid	bloːraid	BLORAID	edil	-	-
 blosc	blosc	BLOSK	edil	-	-
-3 blosc	3 blosc	BLOSK	edil	-	-
-4 blosc	4 blosc	BLOSK	edil	-	-
 bloscach	bloscax	BLOSKAK	edil	-	-
 bloscad	bloscad	BLOSKAD	edil	-	-
 bloscaid	bloscaid	BLOSKAID	edil	-	-
@@ -7749,7 +7671,6 @@ bradóg	bradoːg	BRADOG	edil	-	-
 bráe	braːe	BRAE	edil	-	-
 bráel	braːel	BRAEL	edil	-	-
 bráen	braːen	BRAEN	edil	-	-
-2 bráen	2 braːen	BRAEN	edil	-	-
 bráenach	braːenax	BRAENAK	edil	-	-
 bráenaid	braːenaid	BRAENAID	edil	-	-
 bráenán	braːenaːn	BRAENAN	edil	-	-
@@ -7810,7 +7731,6 @@ braitsi	braitsi	BRAITSI	edil	-	-
 braittech	braittex	BRAITTEK	edil	-	-
 bramaid	bramaid	BRAMAID	edil	-	-
 bramánta	bramaːnta	BRAMANTA	edil	-	-
-3 bran	3 bran	BRAN	edil	-	-
 brán	braːn	BRAN	edil	-	-
 branairecht	branairext	BRANAIREKT	edil	-	-
 branamail	branamail	BRANAMAIL	edil	-	-
@@ -7821,7 +7741,6 @@ branda	branda	BRANDA	edil	-	-
 brandaigecht	brandaigext	BRANDAIGEKT	edil	-	-
 brandub	brandub	BRANDUB	edil	-	-
 brann	brann	BRANN	edil	-	-
-4 brann	4 brann	BRANN	edil	-	-
 brannam	brannam	BRANNAM	edil	-	-
 branndán	branndaːn	BRANNDAN	edil	-	-
 brannrad	brannrad	BRANNRAD	edil	-	-
@@ -7829,7 +7748,6 @@ braracht	braraxt	BRARAKT	edil	-	-
 bras	bras	BRAS	edil	-	-
 brás	braːs	BRAS	edil	-	-
 brasach	brasax	BRASAK	edil	-	-
-2 brasach	2 brasax	BRASAK	edil	-	-
 brásáil	braːsaːil	BRASAIL	edil	-	-
 brasairecht	brasairext	BRASAIREKT	edil	-	-
 brásálaid	braːsaːlaid	BRASALAID	edil	-	-
@@ -7922,7 +7840,6 @@ Brega	Brega	0REGA	edil	-	-
 Bregach	Bregax	0REGAK	edil	-	-
 bregas	bregas	BREGAS	edil	-	-
 bregda	bregda	BREGDA	edil	-	-
-2 bregda	2 bregda	BREGDA	edil	-	-
 bregdacht	bregdaxt	BREGDAKT	edil	-	-
 breglas	breglas	BREGLAS	edil	-	-
 bregrad	bregrad	BREGRAD	edil	-	-
@@ -7995,7 +7912,6 @@ brestaide	brestaide	BRESTAIDE	edil	-	-
 brestaigid	brestaigid	BRESTAIGID	edil	-	-
 Bresual	Bresual	0RESUAL	edil	-	-
 brét	breːt	BRET	edil	-	-
-2 brét	2 breːt	BRET	edil	-	-
 Breta	Breta	0RETA	edil	-	-
 brétach	breːtax	BRETAK	edil	-	-
 brétaid	breːtaid	BRETAID	edil	-	-
@@ -8143,7 +8059,6 @@ bróen	broːen	BROEN	edil	-	-
 bróenrad	broːenrad	BROENRAD	edil	-	-
 brog	brog	BROG	edil	-	-
 broga	broga	BROGA	edil	-	-
-2 broga	2 broga	BROGA	edil	-	-
 brogach	brogax	BROGAK	edil	-	-
 brogad	brogad	BROGAD	edil	-	-
 brogaid	brogaid	BROGAID	edil	-	-
@@ -8238,7 +8153,6 @@ brothchán	broθxaːn	BROTKAN	edil	-	-
 brothgal	broθgal	BROTGAL	edil	-	-
 brothlach	broθlax	BROTLAK	edil	-	-
 brothlucht	broθluxt	BROTLUKT	edil	-	-
-1 brothrach	1 broθrax	BROTRAK	edil	-	-
 brothrach	broθrax	BROTRAK	edil	-	-
 brothrachán	broθraxaːn	BROTRAKAN	edil	-	-
 brothscoa	broθscoa	BROTSKOA	edil	-	-
@@ -8248,7 +8162,6 @@ brotlom	brotlom	BROTLOM	edil	-	-
 brottae	brottai	BROTTAI	edil	-	-
 brotursach	brotursax	BROTURSAK	edil	-	-
 brú	bruː	BRU	edil	-	-
-4 brú	4 bruː	BRU	edil	-	-
 bruach	bruax	BRUAK	edil	-	-
 brúach	bruːax	BRUAK	edil	-	-
 brúachach	bruːaxax	BRUAKAK	edil	-	-
@@ -8289,7 +8202,6 @@ brugas	brugas	BRUGAS	edil	-	-
 brugridither	brugridiθer	BRUGRIDITER	edil	-	-
 brugthaid	brugθaid	BRUGTAID	edil	-	-
 bruguinech	bruguinex	BRUGUINEK	edil	-	-
-1 bruiche	1 bruixe	BRUIKE	edil	-	-
 bruiche	bruixe	BRUIKE	edil	-	-
 brúichnech	bruːixnex	BRUIKNEK	edil	-	-
 bruichrech	bruixrex	BRUIKREK	edil	-	-
@@ -8369,7 +8281,6 @@ bruthsguad	bruθsguad	BRUTSGUAD	edil	-	-
 brutus	brutus	BRUTUS	edil	-	-
 bruüd	bruüd	BRUD	edil	-	-
 bu	bu	BU	edil	-	-
-2 bú	2 buː	BU	edil	-	-
 buabae	buabai	BUABAI	edil	-	-
 búaball	buːaball	BUABALL	edil	-	-
 búaballach	buːaballax	BUABALLAK	edil	-	-
@@ -8406,7 +8317,6 @@ búaibnech	buːaibnex	BUAIBNEK	edil	-	-
 búaibthech	buːaibθex	BUAIBTEK	edil	-	-
 búaic	buːaic	BUAIK	edil	-	-
 búaid	buːaid	BUAID	edil	-	-
-2 búaid	2 buːaid	BUAID	edil	-	-
 búaidertha	buːaiderθa	BUAIDERTA	edil	-	-
 búaidir	buːaidir	BUAIDIR	edil	-	-
 búaidirt	buːaidirt	BUAIDIRT	edil	-	-
@@ -8418,13 +8328,11 @@ búaidrid	buːaidrid	BUAIDRID	edil	-	-
 búaidris	buːaidris	BUAIDRIS	edil	-	-
 búaifnech	buːaifnex	BUAIPNEK	edil	-	-
 búaignech	buːaignex	BUAIGNEK	edil	-	-
-2 búaignech	2 buːaignex	BUAIGNEK	edil	-	-
 búaignige	buːaignige	BUAIGNIGE	edil	-	-
 búaile	buːaile	BUAILE	edil	-	-
 búalenn	buːalenn	BUALENN	edil	-	-
 búailid	buːailid	BUAILID	edil	-	-
 búailte	buːailte	BUAILTE	edil	-	-
-1 búailtech	1 buːailtex	BUAILTEK	edil	-	-
 búailtech	buːailtex	BUAILTEK	edil	-	-
 búailtechas	buːailtexas	BUAILTEKAS	edil	-	-
 búailteóir	buːailteoːir	BUAILTEOIR	edil	-	-
@@ -8466,7 +8374,6 @@ búarainn	buːarainn	BUARAINN	edil	-	-
 Búarannach	Buːarannax	0UARANNAK	edil	-	-
 -buaroite	-buaroite	BUAROITE	edil	-	-
 búas	buːas	BUAS	edil	-	-
-1 búasach	1 buːasax	BUASAK	edil	-	-
 búasach	buːasax	BUASAK	edil	-	-
 búasamail	buːasamail	BUASAMAIL	edil	-	-
 buasamain	buasamain	BUASAMAIN	edil	-	-
@@ -8587,7 +8494,6 @@ buisél	buiseːl	BUISEL	edil	-	-
 buite	buite	BUITE	edil	-	-
 buitelach	buitelax	BUITELAK	edil	-	-
 buitell	buitell	BUITELL	edil	-	-
-2 buith	2 buiθ	BUIT	edil	-	-
 buithi	buiθi	BUITI	edil	-	-
 búithig	buːiθig	BUITIG	edil	-	-
 buitilér	buitileːr	BUITILER	edil	-	-
@@ -8595,7 +8501,6 @@ bulbing	bulbing	BULBING	edil	-	-
 bulch	bulx	BULK	edil	-	-
 bulchre	bulxre	BULKRE	edil	-	-
 bulla	bulla	BULLA	edil	-	-
-3 bulla	3 bulla	BULLA	edil	-	-
 bulóg	buloːg	BULOG	edil	-	-
 bulta	bulta	BULTA	edil	-	-
 bunad	bunad	BUNAD	edil	-	-
@@ -8784,7 +8689,6 @@ cagaid	cagaid	KAGAID	edil	-	-
 caí	caiː	KAI	edil	-	-
 caibde	caibde	KAIBDE	edil	-	-
 caibdel	caibdel	KAIBDEL	edil	-	-
-2 caibdel	2 caibdel	KAIBDEL	edil	-	-
 caibellan	caibellan	KAIBELLAN	edil	-	-
 caibden	caibden	KAIBDEN	edil	-	-
 caibidil	caibidil	KAIBIDIL	edil	-	-
@@ -8823,7 +8727,6 @@ caidribid	caidribid	KAIDRIBID	edil	-	-
 caíemail	caiːemail	KAIEMAIL	edil	-	-
 caíid	caiːid	KAIID	edil	-	-
 cail	cail	KAIL	edil	-	-
-2 cail	2 cail	KAIL	edil	-	-
 cáil	caːil	KAIL	edil	-	-
 cailbe	cailbe	KAILBE	edil	-	-
 cailc	cailc	KAILK	edil	-	-
@@ -8888,7 +8791,6 @@ cáimnaig	caːimnaig	KAIMNAIG	edil	-	-
 caimper	caimper	KAIMPER	edil	-	-
 caímthecht	caiːmθext	KAIMTEKT	edil	-	-
 cain	cain	KAIN	edil	-	-
-3 cain	3 cain	KAIN	edil	-	-
 caínbarrach	caiːnbarrax	KAINBARRAK	edil	-	-
 caince	caince	KAINKE	edil	-	-
 caincech	caincex	KAINKEK	edil	-	-
@@ -9034,7 +8936,6 @@ cairrecán	cairrecaːn	KAIRREKAN	edil	-	-
 cairréine	cairreːine	KAIRREINE	edil	-	-
 cairrḟiad	cairr∅iad	KAIRRIAD	edil	-	-
 cairt	cairt	KAIRT	edil	-	-
-3 cairt	3 cairt	KAIRT	edil	-	-
 cairthech	cairθex	KAIRTEK	edil	-	-
 cairthechus	cairθexus	KAIRTEKUS	edil	-	-
 cairthenall	cairθenall	KAIRTENALL	edil	-	-
@@ -9098,7 +8999,6 @@ caitte	caitte	KAITTE	edil	-	-
 caittín	caittiːn	KAITTIN	edil	-	-
 cal	cal	KAL	edil	-	-
 cál	caːl	KAL	edil	-	-
-2 cál	2 caːl	KAL	edil	-	-
 calach	calax	KALAK	edil	-	-
 calactiaa	calactiaa	KALAKTIAA	edil	-	-
 calad	calad	KALAD	edil	-	-
@@ -9121,10 +9021,8 @@ cáldae	caːldai	KALDAI	edil	-	-
 Caldaide	Caldaide	0ALDAIDE	edil	-	-
 caldigud	caldigud	KALDIGUD	edil	-	-
 calg	calg	KALG	edil	-	-
-2 calg	2 calg	KALG	edil	-	-
 calgas	calgas	KALGAS	edil	-	-
 call	call	KALL	edil	-	-
-2 call	2 call	KALL	edil	-	-
 calla	calla	KALLA	edil	-	-
 Callacda	Callacda	0ALLAKDA	edil	-	-
 calladóir	calladoːir	KALLADOIR	edil	-	-
@@ -9250,7 +9148,6 @@ caolrach	caolrax	KAOLRAK	edil	-	-
 cápa	caːpa	KAPA	edil	-	-
 capail	capail	KAPAIL	edil	-	-
 capall	capall	KAPALL	edil	-	-
-2 capall	2 capall	KAPALL	edil	-	-
 capar	capar	KAPAR	edil	-	-
 capat	capat	KAPAT	edil	-	-
 capcainn	capcainn	KAPKAINN	edil	-	-
@@ -9303,7 +9200,6 @@ carnán	carnaːn	KARNAN	edil	-	-
 carnánach	carnaːnax	KARNANAK	edil	-	-
 carnfadach	carnfadax	KARNPADAK	edil	-	-
 carr	carr	KARR	edil	-	-
-3 carr	3 carr	KARR	edil	-	-
 carra	carra	KARRA	edil	-	-
 carrac	carrac	KARRAK	edil	-	-
 carracán	carracaːn	KARRAKAN	edil	-	-
@@ -9337,7 +9233,6 @@ cartóit	cartoːit	KARTOIT	edil	-	-
 cartún	cartuːn	KARTUN	edil	-	-
 carui	carui	KARUI	edil	-	-
 cas	cas	KAS	edil	-	-
-2 cas	2 cas	KAS	edil	-	-
 cás	caːs	KAS	edil	-	-
 casach	casax	KASAK	edil	-	-
 casachtach	casaxtax	KASAKTAK	edil	-	-
@@ -9375,7 +9270,6 @@ castóit	castoːit	KASTOIT	edil	-	-
 casúr	casuːr	KASUR	edil	-	-
 cat	cat	KAT	edil	-	-
 cata	cata	KATA	edil	-	-
-1 catach	1 catax	KATAK	edil	-	-
 catach	catax	KATAK	edil	-	-
 cataigid	cataigid	KATAIGID	edil	-	-
 catair	catair	KATAIR	edil	-	-
@@ -9384,10 +9278,8 @@ catán	cataːn	KATAN	edil	-	-
 catar	catar	KATAR	edil	-	-
 catat	catat	KATAT	edil	-	-
 catecht	catext	KATEKT	edil	-	-
-3 cath	3 caθ	KAT	edil	-	-
 cathad	caθad	KATAD	edil	-	-
 cáthad	caːθad	KATAD	edil	-	-
-1 cathaig	1 caθaig	KATAIG	edil	-	-
 cathaig	caθaig	KATAIG	edil	-	-
 cathaige	caθaige	KATAIGE	edil	-	-
 cathaigecht	caθaigext	KATAIGEKT	edil	-	-
@@ -9527,7 +9419,6 @@ céirse	ceːirse	KEIRSE	edil	-	-
 céirsech	ceːirsex	KEIRSEK	edil	-	-
 ceirt	ceirt	KEIRT	edil	-	-
 ceirte	ceirte	KEIRTE	edil	-	-
-1 ceirtech	1 ceirtex	KEIRTEK	edil	-	-
 ceirtech	ceirtex	KEIRTEK	edil	-	-
 ceirtín	ceirtiːn	KEIRTIN	edil	-	-
 ceirtle	ceirtle	KEIRTLE	edil	-	-
@@ -9585,10 +9476,8 @@ célmainigid	ceːlmainigid	KELMAINIGID	edil	-	-
 célmanaigtheóir	ceːlmanaigθeoːir	KELMANAIGTEOIR	edil	-	-
 célmar	ceːlmar	KELMAR	edil	-	-
 celt	celt	KELT	edil	-	-
-2 celt	2 celt	KELT	edil	-	-
 celtach	celtax	KELTAK	edil	-	-
 celtair	celtair	KELTAIR	edil	-	-
-3 celtair	3 celtair	KELTAIR	edil	-	-
 celtbaidi	celtbaidi	KELTBAIDI	edil	-	-
 Celtiberdai	Celtiberdai	0ELTIBERDAI	edil	-	-
 celumten	celumten	KELUMTEN	edil	-	-
@@ -9732,9 +9621,6 @@ cept	cept	KEPT	edil	-	-
 cepimus	cepimus	KEPIMUS	edil	-	-
 cer	cer	KER	edil	-	-
 cera	cera	KERA	edil	-	-
-2 cera	2 cera	KERA	edil	-	-
-3 cera	3 cera	KERA	edil	-	-
-4 cera	4 cera	KERA	edil	-	-
 ceraiste	ceraiste	KERAISTE	edil	-	-
 ceram	ceram	KERAM	edil	-	-
 cerannus	cerannus	KERANNUS	edil	-	-
@@ -9761,7 +9647,6 @@ cermnaid	cermnaid	KERMNAID	edil	-	-
 cermnas	cermnas	KERMNAS	edil	-	-
 cerna	cerna	KERNA	edil	-	-
 cernach	cernax	KERNAK	edil	-	-
-3 cernach	3 cernax	KERNAK	edil	-	-
 cernaigid	cernaigid	KERNAIGID	edil	-	-
 cernalach	cernalax	KERNALAK	edil	-	-
 cerndae	cerndai	KERNDAI	edil	-	-
@@ -9772,8 +9657,6 @@ cerrbaccán	cerrbaccaːn	KERRBAKKAN	edil	-	-
 cerrbach	cerrbax	KERRBAK	edil	-	-
 cerrbachas	cerrbaxas	KERRBAKAS	edil	-	-
 certach	certax	KERTAK	edil	-	-
-2 certach	2 certax	KERTAK	edil	-	-
-3 certach	3 certax	KERTAK	edil	-	-
 certaid	certaid	KERTAID	edil	-	-
 certaige	certaige	KERTAIGE	edil	-	-
 certaigid	certaigid	KERTAIGID	edil	-	-
@@ -9828,8 +9711,6 @@ cesnugud	cesnugud	KESNUGUD	edil	-	-
 cestrad	cestrad	KESTRAD	edil	-	-
 céstugud	ceːstugud	KESTUGUD	edil	-	-
 céstúnach	ceːstuːnax	KESTUNAK	edil	-	-
-2 cet	2 cet	KET	edil	-	-
-3 cét	3 ceːt	KET	edil	-	-
 cét-	ceːt-	KET	edil	-	-
 ceta-	ceta-	KETA	edil	-	-
 ceta-bí	ceta-biː	KETABI	edil	-	-
@@ -9915,7 +9796,6 @@ ceul	ceul	KEUL	edil	-	-
 chamois	xamois	KAMOIS	edil	-	-
 cerup	cerup	KERUP	edil	-	-
 chom	xom	KOM	edil	-	-
-5 cía	5 ciːa	KIA	edil	-	-
 cíab	ciːab	KIAB	edil	-	-
 cíabach	ciːabax	KIABAK	edil	-	-
 Cíabair	Ciːabair	0IABAIR	edil	-	-
@@ -10087,7 +9967,6 @@ cinntegal	cinntegal	KINNTEGAL	edil	-	-
 cinntigid	cinntigid	KINNTIGID	edil	-	-
 cinomi	cinomi	KINOMI	edil	-	-
 cint	cint	KINT	edil	-	-
-2 cint	2 cint	KINT	edil	-	-
 cinta	cinta	KINTA	edil	-	-
 cintach	cintax	KINTAK	edil	-	-
 cintaige	cintaige	KINTAIGE	edil	-	-
@@ -10168,7 +10047,6 @@ cistenach	cistenax	KISTENAK	edil	-	-
 cistigid	cistigid	KISTIGID	edil	-	-
 císucán	ciːsucaːn	KISUKAN	edil	-	-
 císugud	ciːsugud	KISUGUD	edil	-	-
-3 cit	3 cit	KIT	edil	-	-
 cita-	cita-	KITA	edil	-	-
 citén	citeːn	KITEN	edil	-	-
 cith	ciθ	KIT	edil	-	-
@@ -10276,6 +10154,7 @@ clannaigid	clannaigid	KLANNAIGID	edil	-	-
 clanntae	clanntai	KLANNTAI	edil	-	-
 clannugud	clannugud	KLANNUGUD	edil	-	-
 clap	clap	KLAP	edil	-	-
+? clap	? clap	KLAP	edil	-	-
 clapach	clapax	KLAPAK	edil	-	-
 clapar	clapar	KLAPAR	edil	-	-
 clárach	claːrax	KLARAK	edil	-	-
@@ -10284,7 +10163,6 @@ clárainech	claːrainex	KLARAINEK	edil	-	-
 clárdae	claːrdai	KLARDAI	edil	-	-
 clas	clas	KLAS	edil	-	-
 clasach	clasax	KLASAK	edil	-	-
-2 clasach	2 clasax	KLASAK	edil	-	-
 clasaid	clasaid	KLASAID	edil	-	-
 clasaige	clasaige	KLASAIGE	edil	-	-
 clasaigid	clasaigid	KLASAIGID	edil	-	-
@@ -10349,7 +10227,6 @@ clesrad	clesrad	KLESRAD	edil	-	-
 clestae	clestai	KLESTAI	edil	-	-
 cleth	cleθ	KLET	edil	-	-
 clethach	cleθax	KLETAK	edil	-	-
-2 clethach	2 cleθax	KLETAK	edil	-	-
 clethaire	cleθaire	KLETAIRE	edil	-	-
 clethángadánach	cleθaːngadaːnax	KLETANGADANAK	edil	-	-
 clethar	cleθar	KLETAR	edil	-	-
@@ -10412,7 +10289,6 @@ clithmarán	cliθmaraːn	KLITMARAN	edil	-	-
 clithra	cliθra	KLITRA	edil	-	-
 clithugud	cliθugud	KLITUGUD	edil	-	-
 clíu	cliːu	KLIU	edil	-	-
-2 clíu	2 cliːu	KLIU	edil	-	-
 cliú	cliuː	KLIU	edil	-	-
 clius	clius	KLIUS	edil	-	-
 cló	cloː	KLO	edil	-	-
@@ -10437,7 +10313,6 @@ clochaid	cloxaid	KLOKAID	edil	-	-
 clochamail	cloxamail	KLOKAMAIL	edil	-	-
 clochán	cloxaːn	KLOKAN	edil	-	-
 clochar	cloxar	KLOKAR	edil	-	-
-2 clochar	2 cloxar	KLOKAR	edil	-	-
 clochda	cloxda	KLOKDA	edil	-	-
 clochrad	cloxrad	KLOKRAD	edil	-	-
 clochrán	cloxraːn	KLOKRAN	edil	-	-
@@ -10446,7 +10321,6 @@ clód	cloːd	KLOD	edil	-	-
 clódadóir	cloːdadoːir	KLODADOIR	edil	-	-
 clodaire	clodaire	KLODAIRE	edil	-	-
 clóe	cloːe	KLOE	edil	-	-
-2 clóe	2 cloːe	KLOE	edil	-	-
 cloech	cloix	KLOIK	edil	-	-
 cloethech	cloiθex	KLOITEK	edil	-	-
 clogcás	clogcaːs	KLOGKAS	edil	-	-
@@ -10486,8 +10360,6 @@ clothaigid	cloθaigid	KLOTAIGID	edil	-	-
 clothbad	cloθbad	KLOTBAD	edil	-	-
 clothgae	cloθgai	KLOTGAI	edil	-	-
 clothnae	cloθnai	KLOTNAI	edil	-	-
-1 clothra	1 cloθra	KLOTRA	edil	-	-
-2 clothra	2 cloθra	KLOTRA	edil	-	-
 clothra	cloθra	KLOTRA	edil	-	-
 clous	clous	KLOUS	edil	-	-
 cloustra	cloustra	KLOUSTRA	edil	-	-
@@ -10543,7 +10415,6 @@ cluipit	cluipit	KLUIPIT	edil	-	-
 clúit	cluːit	KLUIT	edil	-	-
 clúitech	cluːitex	KLUITEK	edil	-	-
 cluited	cluited	KLUITED	edil	-	-
-1 cluith	1 cluiθ	KLUIT	edil	-	-
 cluith	cluiθ	KLUIT	edil	-	-
 cluithcheóir	cluiθxeoːir	KLUITKEOIR	edil	-	-
 cluithe	cluiθe	KLUITE	edil	-	-
@@ -10706,7 +10577,6 @@ cobthai	cobθai	KOBTAI	edil	-	-
 cobthach	cobθax	KOBTAK	edil	-	-
 cobur	cobur	KOBUR	edil	-	-
 coca	coca	KOKA	edil	-	-
-2 coca	2 coca	KOKA	edil	-	-
 cocad	cocad	KOKAD	edil	-	-
 cocai	cocai	KOKAI	edil	-	-
 cocaid	cocaid	KOKAID	edil	-	-
@@ -10949,7 +10819,6 @@ coilltech	coilltex	KOILLTEK	edil	-	-
 coillténach	coillteːnax	KOILLTENAK	edil	-	-
 coillti	coillti	KOILLTI	edil	-	-
 coim	coim	KOIM	edil	-	-
-2 coim	2 coim	KOIM	edil	-	-
 coimainche	coimainxe	KOIMAINKE	edil	-	-
 coimbéimnech	coimbeːimnex	KOIMBEIMNEK	edil	-	-
 coimbeóaigid	coimbeoːaigid	KOIMBEOAIGID	edil	-	-
@@ -11197,7 +11066,6 @@ coirechad	coirexad	KOIREKAD	edil	-	-
 coirél	coireːl	KOIREL	edil	-	-
 coirén	coireːn	KOIREN	edil	-	-
 coirid	coirid	KOIRID	edil	-	-
-2 coirid	2 coirid	KOIRID	edil	-	-
 cóirigid	coːirigid	KOIRIGID	edil	-	-
 coirin	coirin	KOIRIN	edil	-	-
 coirm	coirm	KOIRM	edil	-	-
@@ -11278,11 +11146,9 @@ colainn	colainn	KOLAINN	edil	-	-
 coláision	colaːision	KOLAISION	edil	-	-
 coláiste	colaːiste	KOLAISTE	edil	-	-
 colamnach	colamnax	KOLAMNAK	edil	-	-
-2 colamnach	2 colamnax	KOLAMNAK	edil	-	-
 colann	colann	KOLANN	edil	-	-
 colar	colar	KOLAR	edil	-	-
 colb	colb	KOLB	edil	-	-
-2 colb	2 colb	KOLB	edil	-	-
 colba	colba	KOLBA	edil	-	-
 colbaigecht	colbaigext	KOLBAIGEKT	edil	-	-
 colcach	colcax	KOLKAK	edil	-	-
@@ -11326,12 +11192,11 @@ colomnaib	colomnaib	KOLOMNAIB	edil	-	-
 colpa	colpa	KOLPA	edil	-	-
 colpdae	colpdai	KOLPDAI	edil	-	-
 colpach	colpax	KOLPAK	edil	-	-
-2 colpthach	2 colpθax	KOLPTAK	edil	-	-
+colpthach	colpθax	KOLPTAK	edil	-	-
 colpthae	colpθai	KOLPTAI	edil	-	-
 colt	colt	KOLT	edil	-	-
 coltach	coltax	KOLTAK	edil	-	-
 coltar	coltar	KOLTAR	edil	-	-
-1 coltra	1 coltra	KOLTRA	edil	-	-
 coltra	coltra	KOLTRA	edil	-	-
 colubir	colubir	KOLUBIR	edil	-	-
 colud	colud	KOLUD	edil	-	-
@@ -11459,8 +11324,7 @@ comairnec-	comairnec-	KOMAIRNEK	edil	-	-
 comairser	comairser	KOMAIRSER	edil	-	-
 comairsi	comairsi	KOMAIRSI	edil	-	-
 comairt	comairt	KOMAIRT	edil	-	-
-1 comais	1 comais	KOMAIS	edil	-	-
-2 comais	2 comais	KOMAIS	edil	-	-
+comais	comais	KOMAIS	edil	-	-
 comaisec	comaisec	KOMAISEK	edil	-	-
 comaisndís	comaisndiːs	KOMAISNDIS	edil	-	-
 comaisnéitech	comaisneːitex	KOMAISNEITEK	edil	-	-
@@ -11484,7 +11348,6 @@ comaitirecht	comaitirext	KOMAITIREKT	edil	-	-
 comaititiu	comaititiu	KOMAITITIU	edil	-	-
 comaittrebthach	comaittrebθax	KOMAITTREBTAK	edil	-	-
 comal	comal	KOMAL	edil	-	-
-3 comal	3 comal	KOMAL	edil	-	-
 comálaind	comaːlaind	KOMALAIND	edil	-	-
 comall	comall	KOMALL	edil	-	-
 comallach	comallax	KOMALLAK	edil	-	-
@@ -11494,7 +11357,6 @@ comalnad	comalnad	KOMALNAD	edil	-	-
 comalnaithir	comalnaiθir	KOMALNAITIR	edil	-	-
 comalne	comalne	KOMALNE	edil	-	-
 comalt	comalt	KOMALT	edil	-	-
-2 comalt	2 comalt	KOMALT	edil	-	-
 comalta	comalta	KOMALTA	edil	-	-
 comaltach	comaltax	KOMALTAK	edil	-	-
 comaltar	comaltar	KOMALTAR	edil	-	-
@@ -11554,8 +11416,7 @@ combágach	combaːgax	KOMBAGAK	edil	-	-
 combagar	combagar	KOMBAGAR	edil	-	-
 combagataig	combagataig	KOMBAGATAIG	edil	-	-
 combáid	combaːid	KOMBAID	edil	-	-
-1 combail	1 combail	KOMBAIL	edil	-	-
-2 combail	2 combail	KOMBAIL	edil	-	-
+combail	combail	KOMBAIL	edil	-	-
 combáitech	combaːitex	KOMBAITEK	edil	-	-
 comball	comball	KOMBALL	edil	-	-
 combar	combar	KOMBAR	edil	-	-
@@ -11620,8 +11481,7 @@ combunad	combunad	KOMBUNAD	edil	-	-
 comburbech	comburbex	KOMBURBEK	edil	-	-
 comcadluig	comcadluig	KOMKADLUIG	edil	-	-
 comcaisiu	comcaisiu	KOMKAISIU	edil	-	-
-1 comcenn	1 comcenn	KOMKENN	edil	-	-
-2 comcenn	2 comcenn	KOMKENN	edil	-	-
+comcenn	comcenn	KOMKENN	edil	-	-
 comcesa	comcesa	KOMKESA	edil	-	-
 comchablach	comxablax	KOMKABLAK	edil	-	-
 comchabraid	comxabraid	KOMKABRAID	edil	-	-
@@ -12063,7 +11923,6 @@ comgleith	comgleiθ	KOMGLEIT	edil	-	-
 comglenn	comglenn	KOMGLENN	edil	-	-
 comgleo	comgleo	KOMGLEO	edil	-	-
 comglinne	comglinne	KOMGLINNE	edil	-	-
-2 comglinne	2 comglinne	KOMGLINNE	edil	-	-
 comglóraigid	comgloːraigid	KOMGLORAIGID	edil	-	-
 comglúair	comgluːair	KOMGLUAIR	edil	-	-
 comglúaisid	comgluːaisid	KOMGLUAISID	edil	-	-
@@ -12150,7 +12009,6 @@ comlabairt	comlabairt	KOMLABAIRT	edil	-	-
 comlabrae	comlabrai	KOMLABRAI	edil	-	-
 comlabridi	comlabridi	KOMLABRIDI	edil	-	-
 comlabur	comlabur	KOMLABUR	edil	-	-
-2 comlabur	2 comlabur	KOMLABUR	edil	-	-
 comlach	comlax	KOMLAK	edil	-	-
 comlachtaid	comlaxtaid	KOMLAKTAID	edil	-	-
 comlada	comlada	KOMLADA	edil	-	-
@@ -12395,7 +12253,6 @@ comráichnech	comraːixnex	KOMRAIKNEK	edil	-	-
 comraicid	comraicid	KOMRAIKID	edil	-	-
 comraicthe	comraicθe	KOMRAIKTE	edil	-	-
 comraid	comraid	KOMRAID	edil	-	-
-2 comraid	2 comraid	KOMRAID	edil	-	-
 comráidid	comraːidid	KOMRAIDID	edil	-	-
 comraignech	comraignex	KOMRAIGNEK	edil	-	-
 comraigthech	comraigθex	KOMRAIGTEK	edil	-	-
@@ -12709,14 +12566,12 @@ con-	con-	KON	edil	-	-
 cona	cona	KONA	edil	-	-
 conblach	conblax	KONBLAK	edil	-	-
 conach	conax	KONAK	edil	-	-
-2 conach	2 conax	KONAK	edil	-	-
 conách	conaːx	KONAK	edil	-	-
 conachlann	conaxlann	KONAKLANN	edil	-	-
 conaclach	conaclax	KONAKLAK	edil	-	-
 conacna	conacna	KONAKNA	edil	-	-
 conadmairt	conadmairt	KONADMAIRT	edil	-	-
 con-aicci	con-aicci	KONAIKKI	edil	-	-
-1 conaid	1 conaid	KONAID	edil	-	-
 conaid	conaid	KONAID	edil	-	-
 conaig	conaig	KONAIG	edil	-	-
 con-ail	con-ail	KONAIL	edil	-	-
@@ -13140,7 +12995,6 @@ copur	copur	KOPUR	edil	-	-
 cór	coːr	KOR	edil	-	-
 cora	cora	KORA	edil	-	-
 corach	corax	KORAK	edil	-	-
-2 corach	2 corax	KORAK	edil	-	-
 córach	coːrax	KORAK	edil	-	-
 corachus	coraxus	KORAKUS	edil	-	-
 coradacht	coradaxt	KORADAKT	edil	-	-
@@ -13334,7 +13188,6 @@ cosnumaige	cosnumaige	KOSNUMAIGE	edil	-	-
 cosrife	cosrife	KOSRIPE	edil	-	-
 cossid	cossid	KOSSID	edil	-	-
 costa	costa	KOSTA	edil	-	-
-2 costa	2 costa	KOSTA	edil	-	-
 cósta	coːsta	KOSTA	edil	-	-
 costad	costad	KOSTAD	edil	-	-
 costaid	costaid	KOSTAID	edil	-	-
@@ -13354,7 +13207,6 @@ cotad	cotad	KOTAD	edil	-	-
 cotadud	cotadud	KOTADUD	edil	-	-
 cota-failgi	cota-failgi	KOTAPAILGI	edil	-	-
 cotaid	cotaid	KOTAID	edil	-	-
-1 cotaige	1 cotaige	KOTAIGE	edil	-	-
 cotaige	cotaige	KOTAIGE	edil	-	-
 cotaimsigther	cotaimsigθer	KOTAIMSIGTER	edil	-	-
 cotal	cotal	KOTAL	edil	-	-
@@ -13448,8 +13300,7 @@ craitem	craitem	KRAITEM	edil	-	-
 craíthed	craiːθed	KRAITED	edil	-	-
 craithid	craiθid	KRAITID	edil	-	-
 craitid	craitid	KRAITID	edil	-	-
-1 cran	1 cran	KRAN	edil	-	-
-2 cran	2 cran	KRAN	edil	-	-
+cran	cran	KRAN	edil	-	-
 cranda	cranda	KRANDA	edil	-	-
 crandach	crandax	KRANDAK	edil	-	-
 crandasc	crandasc	KRANDASK	edil	-	-
@@ -13491,7 +13342,6 @@ creccaid	creccaid	KREKKAID	edil	-	-
 creccaire	creccaire	KREKKAIRE	edil	-	-
 creccóir	creccoːir	KREKKOIR	edil	-	-
 crech	crex	KREK	edil	-	-
-2 crech	2 crex	KREK	edil	-	-
 crechach	crexax	KREKAK	edil	-	-
 crechad	crexad	KREKAD	edil	-	-
 crechaid	crexaid	KREKAID	edil	-	-
@@ -13714,7 +13564,6 @@ cróaid	croːaid	KROAID	edil	-	-
 croaigecht	croaigext	KROAIGEKT	edil	-	-
 cróaigid	croːaigid	KROAIGID	edil	-	-
 croainn	croainn	KROAINN	edil	-	-
-1 croän	1 croän	KRON	edil	-	-
 croän	croän	KRON	edil	-	-
 crob	crob	KROB	edil	-	-
 crobail	crobail	KROBAIL	edil	-	-
@@ -13932,7 +13781,6 @@ crupus	crupus	KRUPUS	edil	-	-
 crusta	crusta	KRUSTA	edil	-	-
 crustamail	crustamail	KRUSTAMAIL	edil	-	-
 crutaire	crutaire	KRUTAIRE	edil	-	-
-2 cruth	2 cruθ	KRUT	edil	-	-
 cruthach	cruθax	KRUTAK	edil	-	-
 cruthacht	cruθaxt	KRUTAKT	edil	-	-
 cruthad	cruθad	KRUTAD	edil	-	-
@@ -13982,10 +13830,9 @@ cúal	cuːal	KUAL	edil	-	-
 cúalach	cuːalax	KUALAK	edil	-	-
 cúallacht	cuːallaxt	KUALLAKT	edil	-	-
 Cúalṅge	Cuːalṅge	0UALGE	edil	-	-
-3 cúan	3 cuːan	KUAN	edil	-	-
 cúanach	cuːanax	KUANAK	edil	-	-
 cúanart	cuːanart	KUANART	edil	-	-
-2 cúanairt	2 cuːanairt	KUANAIRT	edil	-	-
+cúanairt	cuːanairt	KUANAIRT	edil	-	-
 cúanartach	cuːanartax	KUANARTAK	edil	-	-
 cúanéne	cuːaneːne	KUANENE	edil	-	-
 cúanlocht	cuːanloxt	KUANLOKT	edil	-	-
@@ -14012,7 +13859,6 @@ cúartugad	cuːartugad	KUARTUGAD	edil	-	-
 cúas	cuːas	KUAS	edil	-	-
 cúasach	cuːasax	KUASAK	edil	-	-
 cúasachtach	cuːasaxtax	KUASAKTAK	edil	-	-
-2 cúasachtach	2 cuːasaxtax	KUASAKTAK	edil	-	-
 cuasal	cuasal	KUASAL	edil	-	-
 cúasal	cuːasal	KUASAL	edil	-	-
 cúasamail	cuːasamail	KUASAMAIL	edil	-	-
@@ -14080,7 +13926,6 @@ cuganta	cuganta	KUGANTA	edil	-	-
 cuglonnas	cuglonnas	KUGLONNAS	edil	-	-
 cuguin	cuguin	KUGUIN	edil	-	-
 cuib	cuib	KUIB	edil	-	-
-2 cuib	2 cuib	KUIB	edil	-	-
 cuibde	cuibde	KUIBDE	edil	-	-
 cuibdech	cuibdex	KUIBDEK	edil	-	-
 cuibdecht	cuibdext	KUIBDEKT	edil	-	-
@@ -14155,8 +14000,6 @@ cuillte	cuillte	KUILLTE	edil	-	-
 cuilmen	cuilmen	KUILMEN	edil	-	-
 cuilne	cuilne	KUILNE	edil	-	-
 cuilt	cuilt	KUILT	edil	-	-
-1 cuim	1 cuim	KUIM	edil	-	-
-2 cuim	2 cuim	KUIM	edil	-	-
 cuim	cuim	KUIM	edil	-	-
 cuimbir	cuimbir	KUIMBIR	edil	-	-
 cuimbre	cuimbre	KUIMBRE	edil	-	-
@@ -14183,7 +14026,6 @@ cuimme	cuimme	KUIMME	edil	-	-
 cuimmilt	cuimmilt	KUIMMILT	edil	-	-
 cuimmscin	cuimmscin	KUIMMSKIN	edil	-	-
 cuimne	cuimne	KUIMNE	edil	-	-
-2 cuimne	2 cuimne	KUIMNE	edil	-	-
 cuimnech	cuimnex	KUIMNEK	edil	-	-
 cuimnechad	cuimnexad	KUIMNEKAD	edil	-	-
 cuimneng	cuimneng	KUIMNENG	edil	-	-
@@ -14244,7 +14086,6 @@ cuinneán	cuinneaːn	KUINNEAN	edil	-	-
 cúinnech	cuːinnex	KUINNEK	edil	-	-
 cuinneóc	cuinneoːc	KUINNEOK	edil	-	-
 cuinnid	cuinnid	KUINNID	edil	-	-
-3 cuinnid	3 cuinnid	KUINNID	edil	-	-
 cuinnisem	cuinnisem	KUINNISEM	edil	-	-
 cuinsiu	cuinsiu	KUINSIU	edil	-	-
 cuinsel	cuinsel	KUINSEL	edil	-	-
@@ -14272,7 +14113,6 @@ cúiríalta	cuːiriːalta	KUIRIALTA	edil	-	-
 cúiríaltacht	cuːiriːaltaxt	KUIRIALTAKT	edil	-	-
 cúiríaltas	cuːiriːaltas	KUIRIALTAS	edil	-	-
 cuirid	cuirid	KUIRID	edil	-	-
-2 cuirid	2 cuirid	KUIRID	edil	-	-
 cuirigthe	cuirigθe	KUIRIGTE	edil	-	-
 cuiríne	cuiriːne	KUIRINE	edil	-	-
 cuirir	cuirir	KUIRIR	edil	-	-
@@ -14307,7 +14147,6 @@ cúirtisige	cuːirtisige	KUIRTISIGE	edil	-	-
 cúirtiugad	cuːirtiugad	KUIRTIUGAD	edil	-	-
 cuis	cuis	KUIS	edil	-	-
 cúis	cuːis	KUIS	edil	-	-
-2 cúis	2 cuːis	KUIS	edil	-	-
 cuiscle	cuiscle	KUISKLE	edil	-	-
 cúisech	cuːisex	KUISEK	edil	-	-
 cuisian	cuisian	KUISIAN	edil	-	-
@@ -14553,7 +14392,6 @@ cupus	cupus	KUPUS	edil	-	-
 cur	cur	KUR	edil	-	-
 cúra	cuːra	KURA	edil	-	-
 curach	curax	KURAK	edil	-	-
-2 curach	2 curax	KURAK	edil	-	-
 curachán	curaxaːn	KURAKAN	edil	-	-
 cúrad	cuːrad	KURAD	edil	-	-
 cúraid	cuːraid	KURAID	edil	-	-
@@ -15604,7 +15442,6 @@ déig	deːig	DEIG	edil	-	-
 Deigerne	Deigerne	0EIGERNE	edil	-	-
 déighin	deːiɣin	DEIGIN	edil	-	-
 deil	deil	DEIL	edil	-	-
-4 deil	4 deil	DEIL	edil	-	-
 deilech	deilex	DEILEK	edil	-	-
 deilechad	deilexad	DEILEKAD	edil	-	-
 Deiled	Deiled	0EILED	edil	-	-
@@ -15791,7 +15628,6 @@ delifón	delifoːn	DELIPON	edil	-	-
 deligud	deligud	DELIGUD	edil	-	-
 délínech	deːliːnex	DELINEK	edil	-	-
 Delinis	Delinis	0ELINIS	edil	-	-
-1 dell	1 dell	DELL	edil	-	-
 dell	dell	DELL	edil	-	-
 della	della	DELLA	edil	-	-
 Della	Della	0ELLA	edil	-	-
@@ -15944,7 +15780,6 @@ Deran	Deran	0ERAN	edil	-	-
 derann	derann	DERANN	edil	-	-
 Derb-	Derb-	0ERB	edil	-	-
 derba	derba	DERBA	edil	-	-
-3 derba	3 derba	DERBA	edil	-	-
 derbad	derbad	DERBAD	edil	-	-
 derbága	derbaːga	DERBAGA	edil	-	-
 derbaid	derbaid	DERBAID	edil	-	-
@@ -16157,7 +15992,6 @@ desred	desred	DESRED	edil	-	-
 deṡruith	dehruiθ	DEHRUIT	edil	-	-
 desruith	desruiθ	DESRUIT	edil	-	-
 deṡruithid	dehruiθid	DEHRUITID	edil	-	-
-1 dessa	1 dessa	DESSA	edil	-	-
 dessa	dessa	DESSA	edil	-	-
 dessaigid	dessaigid	DESSAIGID	edil	-	-
 Dessatán	Dessataːn	0ESSATAN	edil	-	-
@@ -16236,7 +16070,6 @@ díachti	diːaxti	DIAKTI	edil	-	-
 díachtid	diːaxtid	DIAKTID	edil	-	-
 díachuirt	diːaxuirt	DIAKUIRT	edil	-	-
 díad	diːad	DIAD	edil	-	-
-5 díad	5 diːad	DIAD	edil	-	-
 díadacht	diːadaxt	DIADAKT	edil	-	-
 díadae	diːadai	DIADAI	edil	-	-
 díadaire	diːadaire	DIADAIRE	edil	-	-
@@ -16498,7 +16331,6 @@ díchra	diːxra	DIKRA	edil	-	-
 díchrach	diːxrax	DIKRAK	edil	-	-
 díchracht	diːxraxt	DIKRAKT	edil	-	-
 díchraid	diːxraid	DIKRAID	edil	-	-
-2 díchraid	2 diːxraid	DIKRAID	edil	-	-
 díchraigid	diːxraigid	DIKRAIGID	edil	-	-
 díchratu	diːxratu	DIKRATU	edil	-	-
 díchrechnaigid	diːxrexnaigid	DIKREKNAIGID	edil	-	-
@@ -16653,7 +16485,6 @@ díglaim	diːglaim	DIGLAIM	edil	-	-
 díglaimid	diːglaimid	DIGLAIMID	edil	-	-
 díglas	diːglas	DIGLAS	edil	-	-
 dígle	diːgle	DIGLE	edil	-	-
-2 dígle	2 diːgle	DIGLE	edil	-	-
 dígléod	diːgleːod	DIGLEOD	edil	-	-
 dígmaig	diːgmaig	DIGMAIG	edil	-	-
 digna	digna	DIGNA	edil	-	-
@@ -16734,9 +16565,7 @@ dílgidetu	diːlgidetu	DILGIDETU	edil	-	-
 dílgud	diːlgud	DILGUD	edil	-	-
 dílgudach	diːlgudax	DILGUDAK	edil	-	-
 dilicán	dilicaːn	DILIKAN	edil	-	-
-1 dilid	1 dilid	DILID	edil	-	-
-2 dilid	2 dilid	DILID	edil	-	-
-3 dilid	3 dilid	DILID	edil	-	-
+dilid	dilid	DILID	edil	-	-
 díligid	diːligid	DILIGID	edil	-	-
 dilim	dilim	DILIM	edil	-	-
 dílith	diːliθ	DILIT	edil	-	-
@@ -16751,7 +16580,6 @@ díllechtaide	diːllextaide	DILLEKTAIDE	edil	-	-
 dílledach	diːlledax	DILLEDAK	edil	-	-
 dílledche	diːlledxe	DILLEDKE	edil	-	-
 díllig	diːllig	DILLIG	edil	-	-
-2 díllig	2 diːllig	DILLIG	edil	-	-
 díllithi	diːlliθi	DILLITI	edil	-	-
 dilliud	dilliud	DILLIUD	edil	-	-
 dílmain	diːlmain	DILMAIN	edil	-	-
@@ -17197,7 +17025,6 @@ díthrachta	diːθraxta	DITRAKTA	edil	-	-
 díthrachtaid	diːθraxtaid	DITRAKTAID	edil	-	-
 dithramacht	diθramaxt	DITRAMAKT	edil	-	-
 díthre	diːθre	DITRE	edil	-	-
-3 díthre	3 diːθre	DITRE	edil	-	-
 díthreb	diːθreb	DITREB	edil	-	-
 díthrecht	diːθrext	DITREKT	edil	-	-
 díthrom	diːθrom	DITROM	edil	-	-
@@ -17337,8 +17164,6 @@ dlocht	dloxt	DLOKT	edil	-	-
 dlochta	dloxta	DLOKTA	edil	-	-
 dlochtad	dloxtad	DLOKTAD	edil	-	-
 dlochtán	dloxtaːn	DLOKTAN	edil	-	-
-2 dlochtán	2 dloxtaːn	DLOKTAN	edil	-	-
-4 dlochtán	4 dloxtaːn	DLOKTAN	edil	-	-
 dlochtánach	dloxtaːnax	DLOKTANAK	edil	-	-
 dloim	dloim	DLOIM	edil	-	-
 dlom	dlom	DLOM	edil	-	-
@@ -17354,7 +17179,6 @@ dluí	dluiː	DLUI	edil	-	-
 dluig	dluig	DLUIG	edil	-	-
 dluige	dluige	DLUIGE	edil	-	-
 dluigid	dluigid	DLUIGID	edil	-	-
-2 dluigid	2 dluigid	DLUIGID	edil	-	-
 dluigisige	dluigisige	DLUIGISIGE	edil	-	-
 dluing	dluing	DLUING	edil	-	-
 dluisénda	dluiseːnda	DLUISENDA	edil	-	-
@@ -17658,7 +17482,6 @@ dochríchnaigthe	doxriːxnaigθe	DOKRIKNAIGTE	edil	-	-
 dochríchnaigthech	doxriːxnaigθex	DOKRIKNAIGTEK	edil	-	-
 docht	doxt	DOKT	edil	-	-
 dochta	doxta	DOKTA	edil	-	-
-1 dochtaid	1 doxtaid	DOKTAID	edil	-	-
 dochtaid	doxtaid	DOKTAID	edil	-	-
 dochtar	doxtar	DOKTAR	edil	-	-
 dochtúir	doxtuːir	DOKTUIR	edil	-	-
@@ -17775,7 +17598,6 @@ dodulta	dodulta	DODULTA	edil	-	-
 do-dúrig	do-duːrig	DODURIG	edil	-	-
 do-duthracair	do-duθracair	DODUTRAKAIR	edil	-	-
 doé	doeː	DOE	edil	-	-
-4 doé	4 doeː	DOE	edil	-	-
 Doé	Doeː	0OE	edil	-	-
 do-ecaib	do-ecaib	DOEKAIB	edil	-	-
 do-éccai	do-eːccai	DOEKKAI	edil	-	-
@@ -17790,7 +17612,6 @@ do-edbair	do-edbair	DOEDBAIR	edil	-	-
 Doedgus	Doidgus	0OIDGUS	edil	-	-
 doéiligthe	doeːiligθe	DOEILIGTE	edil	-	-
 do-eim	do-eim	DOEIM	edil	-	-
-2 do-eim	2 do-eim	DOEIM	edil	-	-
 do-eipen	do-eipen	DOEIPEN	edil	-	-
 doeis	doiis	DOIIS	edil	-	-
 doeit	doiit	DOIIT	edil	-	-
@@ -17805,7 +17626,7 @@ Doélgus	Doeːlgus	0OELGUS	edil	-	-
 do-ella	do-ella	DOELLA	edil	-	-
 doellach	doillax	DOILLAK	edil	-	-
 do-ellaig	do-ellaig	DOELLAIG	edil	-	-
-2 do-ellaing	2 do-ellaing	DOELLAING	edil	-	-
+do-ellaing	do-ellaing	DOELLAING	edil	-	-
 doélrad	doeːlrad	DOELRAD	edil	-	-
 doélta	doeːlta	DOELTA	edil	-	-
 doemchuimgestar	doimxuimgestar	DOIMKUIMGESTAR	edil	-	-
@@ -17831,7 +17652,6 @@ do-erchomraici	do-erxomraici	DOERKOMRAIKI	edil	-	-
 doercrasait	doircrasait	DOIRKRASAIT	edil	-	-
 do-erdechtim	do-erdextim	DOERDEKTIM	edil	-	-
 do-érig	do-eːrig	DOERIG	edil	-	-
-3 do-érig	3 do-eːrig	DOERIG	edil	-	-
 do-érlaiset	do-eːrlaiset	DOERLAISET	edil	-	-
 do-érni	do-eːrni	DOERNI	edil	-	-
 doerráidech	doirraːidex	DOIRRAIDEK	edil	-	-
@@ -18019,7 +17839,7 @@ do-gúisi	do-guːisi	DOGUISI	edil	-	-
 doguth	doguθ	DOGUT	edil	-	-
 doí	doiː	DOI	edil	-	-
 do-íarmórat	do-iːarmoːrat	DOIARMORAT	edil	-	-
-1 doib-	1 doib-	DOIB	edil	-	-
+doib-	doib-	DOIB	edil	-	-
 doib	doib	DOIB	edil	-	-
 dóib	doːib	DOIB	edil	-	-
 Doibecci	Doibecci	0OIBEKKI	edil	-	-
@@ -18337,7 +18157,6 @@ domíad	domiːad	DOMIAD	edil	-	-
 domíadach	domiːadax	DOMIADAK	edil	-	-
 domíadaigid	domiːadaigid	DOMIADAIGID	edil	-	-
 do-midethar	do-mideθar	DOMIDETAR	edil	-	-
-2 do-midethar	2 do-mideθar	DOMIDETAR	edil	-	-
 domilis	domilis	DOMILIS	edil	-	-
 domim	domim	DOMIM	edil	-	-
 Domit	Domit	0OMIT	edil	-	-
@@ -18430,7 +18249,6 @@ Donnachac	Donnaxac	0ONNAKAK	edil	-	-
 Donnachán	Donnaxaːn	0ONNAKAN	edil	-	-
 donnad	donnad	DONNAD	edil	-	-
 donnaid	donnaid	DONNAID	edil	-	-
-2 donnaid	2 donnaid	DONNAID	edil	-	-
 donnaige	donnaige	DONNAIGE	edil	-	-
 Donnaile	Donnaile	0ONNAILE	edil	-	-
 donnain	donnain	DONNAIN	edil	-	-
@@ -18445,7 +18263,6 @@ Donngass	Donngass	0ONNGASS	edil	-	-
 Donngus	Donngus	0ONNGUS	edil	-	-
 donnoa	donnoa	DONNOA	edil	-	-
 dono	dono	DONO	edil	-	-
-2 dono	2 dono	DONO	edil	-	-
 do-nochta	do-noxta	DONOKTA	edil	-	-
 donogad	donogad	DONOGAD	edil	-	-
 Donola	Donola	0ONOLA	edil	-	-
@@ -18713,9 +18530,7 @@ dothúarascbála	doθuːarascbaːla	DOTUARASKBALA	edil	-	-
 dothuicse	doθuicse	DOTUIKSE	edil	-	-
 dotla	dotla	DOTLA	edil	-	-
 do-tlen	do-tlen	DOTLEN	edil	-	-
-2 do-tlen	2 do-tlen	DOTLEN	edil	-	-
 do-tluchethar	do-tluxeθar	DOTLUKETAR	edil	-	-
-1 do-toing	1 do-toing	DOTOING	edil	-	-
 do-toing	do-toing	DOTOING	edil	-	-
 dotoruidib	dotoruidib	DOTORUIDIB	edil	-	-
 dotresed	dotresed	DOTRESED	edil	-	-
@@ -18778,7 +18593,6 @@ Drec	Drec	0REK	edil	-	-
 drecan	drecan	DREKAN	edil	-	-
 drecgaid	drecgaid	DREKGAID	edil	-	-
 drech	drex	DREK	edil	-	-
-3 drech	3 drex	DREK	edil	-	-
 drechach	drexax	DREKAK	edil	-	-
 drechda	drexda	DREKDA	edil	-	-
 drecheng	drexeng	DREKENG	edil	-	-
@@ -18926,7 +18740,6 @@ Drochíne	Droxiːne	0ROKINE	edil	-	-
 drochlaige	droxlaige	DROKLAIGE	edil	-	-
 drochol	droxol	DROKOL	edil	-	-
 drocht	droxt	DROKT	edil	-	-
-3 drocht	3 droxt	DROKT	edil	-	-
 drochta	droxta	DROKTA	edil	-	-
 Drochtach	Droxtax	0ROKTAK	edil	-	-
 drochtech	droxtex	DROKTEK	edil	-	-
@@ -19260,8 +19073,7 @@ duilne	duilne	DUILNE	edil	-	-
 duilnedche	duilnedxe	DUILNEDKE	edil	-	-
 dúiltetu	duːiltetu	DUILTETU	edil	-	-
 Duilu	Duilu	0UILU	edil	-	-
-1 duim	1 duim	DUIM	edil	-	-
-2 duim	2 duim	DUIM	edil	-	-
+duim	duim	DUIM	edil	-	-
 Duimle	Duimle	0UIMLE	edil	-	-
 duimrecht	duimrext	DUIMREKT	edil	-	-
 Duinailead	Duinailead	0UINAILEAD	edil	-	-
@@ -19290,7 +19102,6 @@ duinorcun	duinorcun	DUINORKUN	edil	-	-
 Duinsech	Duinsex	0UINSEK	edil	-	-
 dúintech	duːintex	DUINTEK	edil	-	-
 duir	duir	DUIR	edil	-	-
-2 duir	2 duir	DUIR	edil	-	-
 duirb	duirb	DUIRB	edil	-	-
 duirc	duirc	DUIRK	edil	-	-
 dúire	duːire	DUIRE	edil	-	-
@@ -19342,7 +19153,6 @@ dulta	dulta	DULTA	edil	-	-
 dultapa	dultapa	DULTAPA	edil	-	-
 dulus	dulus	DULUS	edil	-	-
 duma	duma	DUMA	edil	-	-
-2 duma	2 duma	DUMA	edil	-	-
 dumach	dumax	DUMAK	edil	-	-
 dumaigidir	dumaigidir	DUMAIGIDIR	edil	-	-
 dumaigthid	dumaigθid	DUMAIGTID	edil	-	-
@@ -19381,7 +19191,6 @@ duon	duon	DUON	edil	-	-
 dupall	dupall	DUPALL	edil	-	-
 dúpla	duːpla	DUPLA	edil	-	-
 dúr	duːr	DUR	edil	-	-
-2 dúr	2 duːr	DUR	edil	-	-
 dúra	duːra	DURA	edil	-	-
 Durach	Durax	0URAK	edil	-	-
 dúracht	duːraxt	DURAKT	edil	-	-
@@ -19627,7 +19436,6 @@ echrais	exrais	EKRAIS	edil	-	-
 echrann	exrann	EKRANN	edil	-	-
 echt	ext	EKT	edil	-	-
 echta	exta	EKTA	edil	-	-
-1 échtach	1 eːxtax	EKTAK	edil	-	-
 échtach	eːxtax	EKTAK	edil	-	-
 échtaid	eːxtaid	EKTAID	edil	-	-
 echtaigid	extaigid	EKTAIGID	edil	-	-
@@ -19644,7 +19452,6 @@ echtlann	extlann	EKTLANN	edil	-	-
 echtra	extra	EKTRA	edil	-	-
 echtrach?	extrax?	EKTRAK	edil	-	-
 echtragad	extragad	EKTRAGAD	edil	-	-
-1 echtraid	1 extraid	EKTRAID	edil	-	-
 echtraid	extraid	EKTRAID	edil	-	-
 echtraithe	extraiθe	EKTRAITE	edil	-	-
 echtranda	extranda	EKTRANDA	edil	-	-
@@ -20003,7 +19810,6 @@ ellachte	ellaxte	ELLAKTE	edil	-	-
 ellad	ellad	ELLAD	edil	-	-
 ellaid	ellaid	ELLAID	edil	-	-
 ellam	ellam	ELLAM	edil	-	-
-3 ellam	3 ellam	ELLAM	edil	-	-
 Elland	Elland	0LLAND	edil	-	-
 ellén ?	elleːn ?	ELLEN	edil	-	-
 ellenn	ellenn	ELLENN	edil	-	-
@@ -20061,7 +19867,6 @@ en	en	EN	edil	-	-
 én-	eːn-	EN	edil	-	-
 Én	eːn	EN	edil	-	-
 ena	ena	ENA	edil	-	-
-2 ena	2 ena	ENA	edil	-	-
 enach	enax	ENAK	edil	-	-
 énach	eːnax	ENAK	edil	-	-
 enadbul	enadbul	ENADBUL	edil	-	-
@@ -20094,7 +19899,6 @@ eneclann	eneclann	ENEKLANN	edil	-	-
 enēne	enēne	ENNE	edil	-	-
 enfaitiu ?	enfaitiu ?	ENPAITIU	edil	-	-
 eng	eng	ENG	edil	-	-
-5 eng	5 eng	ENG	edil	-	-
 engach ?	engax ?	ENGAK	edil	-	-
 engaid	engaid	ENGAID	edil	-	-
 engaige	engaige	ENGAIGE	edil	-	-
@@ -20130,13 +19934,11 @@ enncae	enncai	ENNKAI	edil	-	-
 enncus	enncus	ENNKUS	edil	-	-
 enod ?	enod ?	ENOD	edil	-	-
 enuda	enuda	ENUDA	edil	-	-
-5 eó	5 eoː	EO	edil	-	-
 eóbail ?	eoːbail ?	EOBAIL	edil	-	-
 eobarr	eobarr	EOBARR	edil	-	-
 eobrat	eobrat	EOBRAT	edil	-	-
 eóchain	eoːxain	EOKAIN	edil	-	-
 eochair	eoxair	EOKAIR	edil	-	-
-4 eochair	4 eoxair	EOKAIR	edil	-	-
 eochra	eoxra	EOKRA	edil	-	-
 eochraid	eoxraid	EOKRAID	edil	-	-
 eoc[h]raide ?	eoc[h]raide ?	EOKHRAIDE	edil	-	-
@@ -20144,7 +19946,6 @@ eochróracht	eoxroːraxt	EOKRORAKT	edil	-	-
 eoda	eoda	EODA	edil	-	-
 Eófrait	Eoːfrait	0OPRAIT	edil	-	-
 eograinde	eograinde	EOGRAINDE	edil	-	-
-2 eól	2 eoːl	EOL	edil	-	-
 éola	eːola	EOLA	edil	-	-
 éolach	eːolax	EOLAK	edil	-	-
 eólaige	eoːlaige	EOLAIGE	edil	-	-
@@ -20323,8 +20124,6 @@ ertach	ertax	ERTAK	edil	-	-
 erthogae	erθogai	ERTOGAI	edil	-	-
 erus	erus	ERUS	edil	-	-
 es	es	ES	edil	-	-
-9 es	9 es	ES	edil	-	-
-10 es	10 es	ES	edil	-	-
 esach	esax	ESAK	edil	-	-
 esad	esad	ESAD	edil	-	-
 esáin	esaːin	ESAIN	edil	-	-
@@ -20470,9 +20269,7 @@ esmuinterda	esmuinterda	ESMUINTERDA	edil	-	-
 esna	esna	ESNA	edil	-	-
 esnach	esnax	ESNAK	edil	-	-
 esnach ?	esnax ?	ESNAK	edil	-	-
-3 esnach	3 esnax	ESNAK	edil	-	-
 esnad	esnad	ESNAD	edil	-	-
-2 esnad	2 esnad	ESNAD	edil	-	-
 esnadach	esnadax	ESNADAK	edil	-	-
 esnádud	esnaːdud	ESNADUD	edil	-	-
 esnaid	esnaid	ESNAID	edil	-	-
@@ -20626,7 +20423,6 @@ etargánaide	etargaːnaide	ETARGANAIDE	edil	-	-
 etarglas	etarglas	ETARGLAS	edil	-	-
 etargna	etargna	ETARGNA	edil	-	-
 etargnad	etargnad	ETARGNAD	edil	-	-
-2 etargnad	2 etargnad	ETARGNAD	edil	-	-
 etargnaid	etargnaid	ETARGNAID	edil	-	-
 etargnaigidir	etargnaigidir	ETARGNAIGIDIR	edil	-	-
 etargnaigthe	etargnaigθe	ETARGNAIGTE	edil	-	-
@@ -20721,7 +20517,6 @@ eterdethbrigud	eterdeθbrigud	ETERDETBRIGUD	edil	-	-
 eterdibe	eterdibe	ETERDIBE	edil	-	-
 eter-diben	eter-diben	ETERDIBEN	edil	-	-
 eterdibid	eterdibid	ETERDIBID	edil	-	-
-1 etere	1 etere	ETERE	edil	-	-
 etere	etere	ETERE	edil	-	-
 eter-glé	eter-gleː	ETERGLE	edil	-	-
 etergleimm	etergleimm	ETERGLEIMM	edil	-	-
@@ -20739,11 +20534,9 @@ etgo	etgo	ETGO	edil	-	-
 étgudach	eːtgudax	ETGUDAK	edil	-	-
 ethach	eθax	ETAK	edil	-	-
 ethad ?	eθad ?	ETAD	edil	-	-
-2 ethad ?	2 eθad ?	ETAD	edil	-	-
 ethad	eθad	ETAD	edil	-	-
 ethaid	eθaid	ETAID	edil	-	-
 ethait	eθait	ETAIT	edil	-	-
-1 etham	1 eθam	ETAM	edil	-	-
 etham	eθam	ETAM	edil	-	-
 ethamain	eθamain	ETAMAIN	edil	-	-
 ethar	eθar	ETAR	edil	-	-
@@ -20770,7 +20563,6 @@ etilid	etilid	ETILID	edil	-	-
 etim	etim	ETIM	edil	-	-
 etir	etir	ETIR	edil	-	-
 étir	eːtir	ETIR	edil	-	-
-2 étir	2 eːtir	ETIR	edil	-	-
 etirbás	etirbaːs	ETIRBAS	edil	-	-
 etiuchta ?	etiuxta ?	ETIUKTA	edil	-	-
 étiug	eːtiug	ETIUG	edil	-	-
@@ -20779,7 +20571,6 @@ etla	etla	ETLA	edil	-	-
 étlachtach	eːtlaxtax	ETLAKTAK	edil	-	-
 etlaide	etlaide	ETLAIDE	edil	-	-
 étláith	eːtlaːiθ	ETLAIT	edil	-	-
-2 étláith	2 eːtlaːiθ	ETLAIT	edil	-	-
 etmanugud	etmanugud	ETMANUGUD	edil	-	-
 étmar	eːtmar	ETMAR	edil	-	-
 etne	etne	ETNE	edil	-	-
@@ -20978,6 +20769,7 @@ faílenn	faiːlenn	PAILENN	edil	-	-
 faílennán	faiːlennaːn	PAILENNAN	edil	-	-
 faileóc	faileoːc	PAILEOK	edil	-	-
 failgech	failgex	PAILGEK	edil	-	-
+? failgech	? failgex	PAILGEK	edil	-	-
 fáilgid	faːilgid	PAILGID	edil	-	-
 fáilid	faːilid	PAILID	edil	-	-
 faílid	faiːlid	PAILID	edil	-	-
@@ -21065,7 +20857,6 @@ faísitnigid	faiːsitnigid	PAISITNIGID	edil	-	-
 faísitnigud	faiːsitnigud	PAISITNIGUD	edil	-	-
 faísmedach	faiːsmedax	PAISMEDAK	edil	-	-
 faísmid	faiːsmid	PAISMID	edil	-	-
-2 faísmid	2 faiːsmid	PAISMID	edil	-	-
 faísmigid	faiːsmigid	PAISMIGID	edil	-	-
 faisnéidid	faisneːidid	PAISNEIDID	edil	-	-
 faisnéis	faisneːis	PAISNEIS	edil	-	-
@@ -21140,7 +20931,6 @@ fallscad	fallscad	PALLSKAD	edil	-	-
 fallsugad	fallsugad	PALLSUGAD	edil	-	-
 fallugud	fallugud	PALLUGUD	edil	-	-
 falmaire	falmaire	PALMAIRE	edil	-	-
-3 falmaire	3 falmaire	PALMAIRE	edil	-	-
 falmóir	falmoːir	PALMOIR	edil	-	-
 falmugad	falmugad	PALMUGAD	edil	-	-
 falscuchud	falscuxud	PALSKUKUD	edil	-	-
@@ -21343,7 +21133,6 @@ feiste	feiste	PEISTE	edil	-	-
 feisted	feisted	PEISTED	edil	-	-
 feisteóir	feisteoːir	PEISTEOIR	edil	-	-
 feit	feit	PEIT	edil	-	-
-1 feith	1 feiθ	PEIT	edil	-	-
 feith	feiθ	PEIT	edil	-	-
 féith	feːiθ	PEIT	edil	-	-
 féithech	feːiθex	PEITEK	edil	-	-
@@ -21496,7 +21285,6 @@ ferannus	ferannus	PERANNUS	edil	-	-
 feranntas	feranntas	PERANNTAS	edil	-	-
 feras	feras	PERAS	edil	-	-
 ferb	ferb	PERB	edil	-	-
-1 ferbach	1 ferbax	PERBAK	edil	-	-
 ferbach	ferbax	PERBAK	edil	-	-
 ferbán	ferbaːn	PERBAN	edil	-	-
 ferbóc	ferboːc	PERBOK	edil	-	-
@@ -21642,7 +21430,6 @@ fíabrasamail	fiːabrasamail	PIABRASAMAIL	edil	-	-
 fíabrasta	fiːabrasta	PIABRASTA	edil	-	-
 fíacail	fiːacail	PIAKAIL	edil	-	-
 fíach	fiːax	PIAK	edil	-	-
-2 fíach	2 fiːax	PIAK	edil	-	-
 fíachach	fiːaxax	PIAKAK	edil	-	-
 fíachaid	fiːaxaid	PIAKAID	edil	-	-
 fíachaige	fiːaxaige	PIAKAIGE	edil	-	-
@@ -21849,7 +21636,6 @@ findrop	findrop	PINDROP	edil	-	-
 findruine	findruine	PINDRUINE	edil	-	-
 findruinigthe	findruinigθe	PINDRUINIGTE	edil	-	-
 findtan ?	findtan ?	PINDTAN	edil	-	-
-2 fine	2 fine	PINE	edil	-	-
 finech	finex	PINEK	edil	-	-
 finechar	finexar	PINEKAR	edil	-	-
 finechaire	finexaire	PINEKAIRE	edil	-	-
@@ -21867,7 +21653,6 @@ fínime	fiːnime	PINIME	edil	-	-
 fínit	fiːnit	PINIT	edil	-	-
 fínmaire	fiːnmaire	PINMAIRE	edil	-	-
 fínmar	fiːnmar	PINMAR	edil	-	-
-4 finn	4 finn	PINN	edil	-	-
 finn—	finn—	PINN	edil	-	-
 finna	finna	PINNA	edil	-	-
 finnach	finnax	PINNAK	edil	-	-
@@ -21878,7 +21663,6 @@ finnalta	finnalta	PINNALTA	edil	-	-
 finnche	finnxe	PINNKE	edil	-	-
 finnchor	finnxor	PINNKOR	edil	-	-
 finne	finne	PINNE	edil	-	-
-2 finne	2 finne	PINNE	edil	-	-
 fínné	fiːnneː	PINNE	edil	-	-
 finnell	finnell	PINNELL	edil	-	-
 finnemail	finnemail	PINNEMAIL	edil	-	-
@@ -22421,7 +22205,6 @@ fogíalna	fogiːalna	POGIALNA	edil	-	-
 fogitled	fogitled	POGITLED	edil	-	-
 fogla	fogla	POGLA	edil	-	-
 foglach	foglax	POGLAK	edil	-	-
-2 foglach	2 foglax	POGLAK	edil	-	-
 fogladach	fogladax	POGLADAK	edil	-	-
 foglaid	foglaid	POGLAID	edil	-	-
 foglaige	foglaige	POGLAIGE	edil	-	-
@@ -22700,7 +22483,6 @@ fola	fola	POLA	edil	-	-
 folabra	folabra	POLABRA	edil	-	-
 fo-labrathar	fo-labraθar	POLABRATAR	edil	-	-
 folach	folax	POLAK	edil	-	-
-3 folach	3 folax	POLAK	edil	-	-
 folacht	folaxt	POLAKT	edil	-	-
 folachta ?	folaxta ?	POLAKTA	edil	-	-
 folachtas	folaxtas	POLAKTAS	edil	-	-
@@ -22718,7 +22500,6 @@ foláirid	folaːirid	POLAIRID	edil	-	-
 folam	folam	POLAM	edil	-	-
 folama	folama	POLAMA	edil	-	-
 folámach	folaːmax	POLAMAK	edil	-	-
-2 folámach	2 folaːmax	POLAMAK	edil	-	-
 folamail	folamail	POLAMAIL	edil	-	-
 fo-lamas-	fo-lamas-	POLAMAS	edil	-	-
 fo-lámathar	fo-laːmaθar	POLAMATAR	edil	-	-
@@ -22918,7 +22699,6 @@ foraigecht	foraigext	PORAIGEKT	edil	-	-
 foraigsi	foraigsi	PORAIGSI	edil	-	-
 for-ail	for-ail	PORAIL	edil	-	-
 foráil	foraːil	PORAIL	edil	-	-
-1 foraim	1 foraim	PORAIM	edil	-	-
 foraim	foraim	PORAIM	edil	-	-
 foraime	foraime	PORAIME	edil	-	-
 forainm	forainm	PORAINM	edil	-	-
@@ -22964,7 +22744,6 @@ forbad	forbad	PORBAD	edil	-	-
 forbáes	forbaːes	PORBAES	edil	-	-
 forbáeth	forbaːeθ	PORBAET	edil	-	-
 forbaid	forbaid	PORBAID	edil	-	-
-3 forbaid	3 forbaid	PORBAID	edil	-	-
 forbaide	forbaide	PORBAIDE	edil	-	-
 for-báidi	for-baːidi	PORBAIDI	edil	-	-
 forbaigh	forbaiɣ	PORBAIG	edil	-	-
@@ -23400,7 +23179,6 @@ formúichdetu	formuːixdetu	PORMUIKDETU	edil	-	-
 for-muinethar	for-muineθar	PORMUINETAR	edil	-	-
 formullach	formullax	PORMULLAK	edil	-	-
 fornaide	fornaide	PORNAIDE	edil	-	-
-2 fornaide	2 fornaide	PORNAIDE	edil	-	-
 fornaidm	fornaidm	PORNAIDM	edil	-	-
 fornaidmid	fornaidmid	PORNAIDMID	edil	-	-
 fornairt	fornairt	PORNAIRT	edil	-	-
@@ -23716,7 +23494,6 @@ fót	foːt	POT	edil	-	-
 fo-tá	fo-taː	POTA	edil	-	-
 fo-tabair	fo-tabair	POTABAIR	edil	-	-
 fotach	fotax	POTAK	edil	-	-
-2 fotach	2 fotax	POTAK	edil	-	-
 fotaigid	fotaigid	POTAIGID	edil	-	-
 fotail	fotail	POTAIL	edil	-	-
 fo-tairci	fo-tairci	POTAIRKI	edil	-	-
@@ -23733,9 +23510,7 @@ fo-tét	fo-teːt	POTET	edil	-	-
 foth	foθ	POT	edil	-	-
 foth ?	foθ ?	POT	edil	-	-
 fotha	foθa	POTA	edil	-	-
-1 fothach	1 foθax	POTAK	edil	-	-
 fothach	foθax	POTAK	edil	-	-
-4 fothach	4 foθax	POTAK	edil	-	-
 fothacht ?	foθaxt ?	POTAKT	edil	-	-
 fothad	foθad	POTAD	edil	-	-
 fothaide	foθaide	POTAIDE	edil	-	-
@@ -23898,7 +23673,6 @@ fris-airi	fris-airi	PRISAIRI	edil	-	-
 fris-áraig	fris-aːraig	PRISARAIG	edil	-	-
 fris-beir	fris-beir	PRISBEIR	edil	-	-
 fris-ben	fris-ben	PRISBEN	edil	-	-
-2 fris-ben	2 fris-ben	PRISBEN	edil	-	-
 fris-brudi	fris-brudi	PRISBRUDI	edil	-	-
 friscarad ?	friscarad ?	PRISKARAD	edil	-	-
 fris-cathaigedar	fris-caθaigedar	PRISKATAIGEDAR	edil	-	-
@@ -24047,7 +23821,6 @@ frithgnamacht	friθgnamaxt	PRITGNAMAKT	edil	-	-
 frithgonach	friθgonax	PRITGONAK	edil	-	-
 frithgrind ?	friθgrind ?	PRITGRIND	edil	-	-
 frithguin	friθguin	PRITGUIN	edil	-	-
-1 frithid	1 friθid	PRITID	edil	-	-
 frithid	friθid	PRITID	edil	-	-
 frithigid	friθigid	PRITIGID	edil	-	-
 frithilgech	friθilgex	PRITILGEK	edil	-	-
@@ -24189,7 +23962,6 @@ fúaithne	fuːaiθne	PUAITNE	edil	-	-
 fúaitrid	fuːaitrid	PUAITRID	edil	-	-
 fúaitriud	fuːaitriud	PUAITRIUD	edil	-	-
 fúal	fuːal	PUAL	edil	-	-
-2 fúal	2 fuːal	PUAL	edil	-	-
 fúalad ?	fuːalad ?	PUALAD	edil	-	-
 fúalán	fuːalaːn	PUALAN	edil	-	-
 fúalang	fuːalang	PUALANG	edil	-	-
@@ -24201,7 +23973,6 @@ fúalrach	fuːalrax	PUALRAK	edil	-	-
 fúalrad ?	fuːalrad ?	PUALRAD	edil	-	-
 fúalraigthe ?	fuːalraigθe ?	PUALRAIGTE	edil	-	-
 fúam	fuːam	PUAM	edil	-	-
-2 fúam	2 fuːam	PUAM	edil	-	-
 fúamaige	fuːamaige	PUAMAIGE	edil	-	-
 fúaman	fuːaman	PUAMAN	edil	-	-
 fúamann	fuːamann	PUAMANN	edil	-	-
@@ -24270,8 +24041,7 @@ fúatlach	fuːatlax	PUATLAK	edil	-	-
 fúatlán ?	fuːatlaːn ?	PUATLAN	edil	-	-
 fúatne	fuːatne	PUATNE	edil	-	-
 fúatnge	fuːatnge	PUATNGE	edil	-	-
-1 fuba	1 fuba	PUBA	edil	-	-
-2 fuba	2 fuba	PUBA	edil	-	-
+fuba	fuba	PUBA	edil	-	-
 fúbad ?	fuːbad ?	PUBAD	edil	-	-
 fubaid	fubaid	PUBAID	edil	-	-
 fubaide ?	fubaide ?	PUBAIDE	edil	-	-
@@ -24302,7 +24072,6 @@ fuich	fuix	PUIK	edil	-	-
 fuiche	fuixe	PUIKE	edil	-	-
 fuichecht	fuixext	PUIKEKT	edil	-	-
 fuid	fuid	PUID	edil	-	-
-3 fuid	3 fuid	PUID	edil	-	-
 fuidbe	fuidbe	PUIDBE	edil	-	-
 fuidbech	fuidbex	PUIDBEK	edil	-	-
 fuidbechta	fuidbexta	PUIDBEKTA	edil	-	-
@@ -24323,7 +24092,6 @@ fuiglech	fuiglex	PUIGLEK	edil	-	-
 fuiglecht	fuiglext	PUIGLEKT	edil	-	-
 fuigled	fuigled	PUIGLED	edil	-	-
 fuigleóir	fuigleoːir	PUIGLEOIR	edil	-	-
-1 fuiglid	1 fuiglid	PUIGLID	edil	-	-
 fuiglid	fuiglid	PUIGLID	edil	-	-
 fuiglidi	fuiglidi	PUIGLIDI	edil	-	-
 fuigset	fuigset	PUIGSET	edil	-	-
@@ -24445,7 +24213,6 @@ fuismid	fuismid	PUISMID	edil	-	-
 fuismiud	fuismiud	PUISMIUD	edil	-	-
 fuit	fuit	PUIT	edil	-	-
 fuit ?	fuit ?	PUIT	edil	-	-
-4 fuit	4 fuit	PUIT	edil	-	-
 fuither ?	fuiθer ?	PUITER	edil	-	-
 fuithir	fuiθir	PUITIR	edil	-	-
 fuithirbe	fuiθirbe	PUITIRBE	edil	-	-
@@ -24482,7 +24249,6 @@ funech	funex	PUNEK	edil	-	-
 fungaire	fungaire	PUNGAIRE	edil	-	-
 funnsa	funnsa	PUNNSA	edil	-	-
 fúr	fuːr	PUR	edil	-	-
-3 fúr	3 fuːr	PUR	edil	-	-
 furachair	furaxair	PURAKAIR	edil	-	-
 fúrad	fuːrad	PURAD	edil	-	-
 furáil	furaːil	PURAIL	edil	-	-
@@ -24538,6 +24304,7 @@ gabáiltech	gabaːiltex	GABAILTEK	edil	-	-
 gabair	gabair	GABAIR	edil	-	-
 gábait	gaːbait	GABAIT	edil	-	-
 gabal	gabal	GABAL	edil	-	-
+? gabal	? gabal	GABAL	edil	-	-
 gabálach	gabaːlax	GABALAK	edil	-	-
 gabálaid	gabaːlaid	GABALAID	edil	-	-
 gabálta	gabaːlta	GABALTA	edil	-	-
@@ -24674,7 +24441,6 @@ gainnech	gainnex	GAINNEK	edil	-	-
 gáinned	gaːinned	GAINNED	edil	-	-
 gáir	gaːir	GAIR	edil	-	-
 gair	gair	GAIR	edil	-	-
-3 gair	3 gair	GAIR	edil	-	-
 gairb	gairb	GAIRB	edil	-	-
 gairbe	gairbe	GAIRBE	edil	-	-
 gairbsin	gairbsin	GAIRBSIN	edil	-	-
@@ -24735,7 +24501,6 @@ gaiste	gaiste	GAISTE	edil	-	-
 gaíthe	gaiːθe	GAITE	edil	-	-
 gaithlenn	gaiθlenn	GAITLENN	edil	-	-
 gaithlennach	gaiθlennax	GAITLENNAK	edil	-	-
-2 gal	2 gal	GAL	edil	-	-
 gala	gala	GALA	edil	-	-
 galach	galax	GALAK	edil	-	-
 galacobur	galacobur	GALAKOBUR	edil	-	-
@@ -24765,11 +24530,7 @@ galingan	galingan	GALINGAN	edil	-	-
 galiud	galiud	GALIUD	edil	-	-
 Gall	Gall	0ALL	edil	-	-
 gall	gall	GALL	edil	-	-
-3 gall	3 gall	GALL	edil	-	-
-4 gall	4 gall	GALL	edil	-	-
-5 gall	5 gall	GALL	edil	-	-
 galla	galla	GALLA	edil	-	-
-2 galla	2 galla	GALLA	edil	-	-
 Gallachda	Gallaxda	0ALLAKDA	edil	-	-
 gallacht	gallaxt	GALLAKT	edil	-	-
 galladagda	galladagda	GALLADAGDA	edil	-	-
@@ -24820,7 +24581,6 @@ gaoin	gaoin	GAOIN	edil	-	-
 gaoine	gaoine	GAOINE	edil	-	-
 gaol	gaol	GAOL	edil	-	-
 gar	gar	GAR	edil	-	-
-2 gar	2 gar	GAR	edil	-	-
 gárad	gaːrad	GARAD	edil	-	-
 garad	garad	GARAD	edil	-	-
 Garad	Garad	0ARAD	edil	-	-
@@ -24830,7 +24590,6 @@ garand	garand	GARAND	edil	-	-
 garasún	garasuːn	GARASUN	edil	-	-
 garb	garb	GARB	edil	-	-
 garbad	garbad	GARBAD	edil	-	-
-2 garbad	2 garbad	GARBAD	edil	-	-
 garbaid	garbaid	GARBAID	edil	-	-
 garbaigid	garbaigid	GARBAIGID	edil	-	-
 garbán	garbaːn	GARBAN	edil	-	-
@@ -24878,7 +24637,6 @@ garta	garta	GARTA	edil	-	-
 gartach	gartax	GARTAK	edil	-	-
 gartadh	gartaɣ	GARTAG	edil	-	-
 gartaid	gartaid	GARTAID	edil	-	-
-1 gartha	1 garθa	GARTA	edil	-	-
 gartha	garθa	GARTA	edil	-	-
 gárthach	gaːrθax	GARTAK	edil	-	-
 gartius	gartius	GARTIUS	edil	-	-
@@ -24964,7 +24722,6 @@ géimnech	geːimnex	GEIMNEK	edil	-	-
 geimnén	geimneːn	GEIMNEN	edil	-	-
 geimrigid	geimrigid	GEIMRIGID	edil	-	-
 geimus	geimus	GEIMUS	edil	-	-
-2 gein	2 gein	GEIN	edil	-	-
 geind	geind	GEIND	edil	-	-
 geinddae	geinddai	GEINDDAI	edil	-	-
 geine	geine	GEINE	edil	-	-
@@ -24979,7 +24736,6 @@ geinte	geinte	GEINTE	edil	-	-
 Geintene	Geintene	0EINTENE	edil	-	-
 geinti	geinti	GEINTI	edil	-	-
 geir	geir	GEIR	edil	-	-
-2 geir	2 geir	GEIR	edil	-	-
 géire	geːire	GEIRE	edil	-	-
 geirfiath	geirfiaθ	GEIRPIAT	edil	-	-
 geirig	geirig	GEIRIG	edil	-	-
@@ -24994,7 +24750,6 @@ géisemail	geːisemail	GEISEMAIL	edil	-	-
 geisen	geisen	GEISEN	edil	-	-
 géisid	geːisid	GEISID	edil	-	-
 géith	geːiθ	GEIT	edil	-	-
-2 gel	2 gel	GEL	edil	-	-
 gelach	gelax	GELAK	edil	-	-
 gelaid	gelaid	GELAID	edil	-	-
 gelaigid	gelaigid	GELAIGID	edil	-	-
@@ -25066,7 +24821,7 @@ genam	genam	GENAM	edil	-	-
 genamail	genamail	GENAMAIL	edil	-	-
 genamlacht	genamlaxt	GENAMLAKT	edil	-	-
 Genand	Genand	0ENAND	edil	-	-
-2 genand	2 genand	GENAND	edil	-	-
+genand	genand	GENAND	edil	-	-
 genas	genas	GENAS	edil	-	-
 genbda	genbda	GENBDA	edil	-	-
 genc	genc	GENK	edil	-	-
@@ -25193,7 +24948,6 @@ gesta	gesta	GESTA	edil	-	-
 gestal	gestal	GESTAL	edil	-	-
 gestlach	gestlax	GESTLAK	edil	-	-
 geta	geta	GETA	edil	-	-
-2 geta	2 geta	GETA	edil	-	-
 getal	getal	GETAL	edil	-	-
 gia	gia	GIA	edil	-	-
 gíabur	giːabur	GIABUR	edil	-	-
@@ -25382,7 +25136,6 @@ glaodamail	glaodamail	GLAODAMAIL	edil	-	-
 glár	glaːr	GLAR	edil	-	-
 glasa	glasa	GLASA	edil	-	-
 glasach	glasax	GLASAK	edil	-	-
-2 glasach	2 glasax	GLASAK	edil	-	-
 glasaid	glasaid	GLASAID	edil	-	-
 glasaigid	glasaigid	GLASAIGID	edil	-	-
 glasaigne	glasaigne	GLASAIGNE	edil	-	-
@@ -25471,20 +25224,16 @@ gligar	gligar	GLIGAR	edil	-	-
 Gligernat	Gligernat	0LIGERNAT	edil	-	-
 glimnach	glimnax	GLIMNAK	edil	-	-
 glinne	glinne	GLINNE	edil	-	-
-2 glinne	2 glinne	GLINNE	edil	-	-
-3 glinne	3 glinne	GLINNE	edil	-	-
 glinneadh	glinneaɣ	GLINNEAG	edil	-	-
 glinnid	glinnid	GLINNID	edil	-	-
 glinnide	glinnide	GLINNIDE	edil	-	-
 glinnigid	glinnigid	GLINNIGID	edil	-	-
 glith	gliθ	GLIT	edil	-	-
 gliú	gliuː	GLIU	edil	-	-
-2 gliú	2 gliuː	GLIU	edil	-	-
 glíus	gliːus	GLIUS	edil	-	-
 gló	gloː	GLO	edil	-	-
 glocan	glocan	GLOKAN	edil	-	-
 glóed	gloːed	GLOED	edil	-	-
-2 glóed	2 gloːed	GLOED	edil	-	-
 gloídid	gloiːdid	GLOIDID	edil	-	-
 gloimm	gloimm	GLOIMM	edil	-	-
 gloimthech	gloimθex	GLOIMTEK	edil	-	-
@@ -25568,8 +25317,7 @@ gneide	gneide	GNEIDE	edil	-	-
 gneiugud	gneiugud	GNEIUGUD	edil	-	-
 gnéthach	gneːθax	GNETAK	edil	-	-
 gnéthech	gneːθex	GNETEK	edil	-	-
-1 gní	1 gniː	GNI	edil	-	-
-2 gní	2 gniː	GNI	edil	-	-
+gní	gniː	GNI	edil	-	-
 gnía	gniːa	GNIA	edil	-	-
 gníd	gniːd	GNID	edil	-	-
 gníid	gniːid	GNIID	edil	-	-
@@ -25731,7 +25479,6 @@ gontach	gontax	GONTAK	edil	-	-
 goor	goor	GOOR	edil	-	-
 gop	gop	GOP	edil	-	-
 gor	gor	GOR	edil	-	-
-4 gor	4 gor	GOR	edil	-	-
 gora	gora	GORA	edil	-	-
 gorad	gorad	GORAD	edil	-	-
 gorán	goraːn	GORAN	edil	-	-
@@ -25755,8 +25502,6 @@ Gormlaith	Gormlaiθ	0ORMLAIT	edil	-	-
 gorn	gorn	GORN	edil	-	-
 Gorniad	Gorniad	0ORNIAD	edil	-	-
 gort	gort	GORT	edil	-	-
-3 gort	3 gort	GORT	edil	-	-
-4 gort	4 gort	GORT	edil	-	-
 gorta	gorta	GORTA	edil	-	-
 gortach	gortax	GORTAK	edil	-	-
 gortadh	gortaɣ	GORTAG	edil	-	-
@@ -25769,7 +25514,6 @@ goss	goss	GOSS	edil	-	-
 gossarda	gossarda	GOSSARDA	edil	-	-
 gósta	goːsta	GOSTA	edil	-	-
 got	got	GOT	edil	-	-
-2 got	2 got	GOT	edil	-	-
 gót	goːt	GOT	edil	-	-
 Gotán	Gotaːn	0OTAN	edil	-	-
 goth	goθ	GOT	edil	-	-
@@ -25796,7 +25540,6 @@ grádmaire	graːdmaire	GRADMAIRE	edil	-	-
 grádmar	graːdmar	GRADMAR	edil	-	-
 grádugud	graːdugud	GRADUGUD	edil	-	-
 graf	graf	GRAP	edil	-	-
-2 graf	2 graf	GRAP	edil	-	-
 grafadh	grafaɣ	GRAPAG	edil	-	-
 grafaid	grafaid	GRAPAID	edil	-	-
 grafáil	grafaːil	GRAPAIL	edil	-	-
@@ -25816,7 +25559,6 @@ graigech	graigex	GRAIGEK	edil	-	-
 graigechda	graigexda	GRAIGEKDA	edil	-	-
 graimm	graimm	GRAIMM	edil	-	-
 gráin	graːin	GRAIN	edil	-	-
-2 gráin	2 graːin	GRAIN	edil	-	-
 grainc	grainc	GRAINK	edil	-	-
 graincemail	graincemail	GRAINKEMAIL	edil	-	-
 Gráinde	Graːinde	0RAINDE	edil	-	-
@@ -25908,7 +25650,6 @@ grenaid	grenaid	GRENAID	edil	-	-
 grénán	greːnaːn	GRENAN	edil	-	-
 grenchas	grenxas	GRENKAS	edil	-	-
 grend	grend	GREND	edil	-	-
-3 grend	3 grend	GREND	edil	-	-
 grendach	grendax	GRENDAK	edil	-	-
 grendaigid	grendaigid	GRENDAIGID	edil	-	-
 grendmar	grendmar	GRENDMAR	edil	-	-
@@ -25976,13 +25717,11 @@ grísad	griːsad	GRISAD	edil	-	-
 grísaid	griːsaid	GRISAID	edil	-	-
 grísaigid	griːsaigid	GRISAIGID	edil	-	-
 grith	griθ	GRIT	edil	-	-
-4 grith	4 griθ	GRIT	edil	-	-
 grithaigidir	griθaigidir	GRITAIGIDIR	edil	-	-
 grithnugud	griθnugud	GRITNUGUD	edil	-	-
 grithugud	griθugud	GRITUGUD	edil	-	-
 griuan	griuan	GRIUAN	edil	-	-
 gríuin	griːuin	GRIUIN	edil	-	-
-2 gríuin	2 griːuin	GRIUIN	edil	-	-
 groc	groc	GROK	edil	-	-
 gróesda	groːesda	GROESDA	edil	-	-
 Grogin	Grogin	0ROGIN	edil	-	-
@@ -26010,7 +25749,6 @@ gruamnach	gruamnax	GRUAMNAK	edil	-	-
 Gruasailt	Gruasailt	0RUASAILT	edil	-	-
 gruc	gruc	GRUK	edil	-	-
 grúc	gruːc	GRUK	edil	-	-
-2 grúc	2 gruːc	GRUK	edil	-	-
 Grucán	Grucaːn	0RUKAN	edil	-	-
 grúcán	gruːcaːn	GRUKAN	edil	-	-
 grúcánach	gruːcaːnax	GRUKANAK	edil	-	-
@@ -26022,7 +25760,6 @@ grúm	gruːm	GRUM	edil	-	-
 grunda	grunda	GRUNDA	edil	-	-
 grus	grus	GRUS	edil	-	-
 grús	gruːs	GRUS	edil	-	-
-2 grús	2 gruːs	GRUS	edil	-	-
 gruth	gruθ	GRUT	edil	-	-
 gruthrach	gruθrax	GRUTRAK	edil	-	-
 Gruthriche	Gruθrixe	0RUTRIKE	edil	-	-
@@ -26064,8 +25801,7 @@ Guban	Guban	0UBAN	edil	-	-
 Gubbi	Gubbi	0UBBI	edil	-	-
 gubthach	gubθax	GUBTAK	edil	-	-
 gudamnach	gudamnax	GUDAMNAK	edil	-	-
-1 gudb	1 gudb	GUDB	edil	-	-
-2 gudb	2 gudb	GUDB	edil	-	-
+gudb	gudb	GUDB	edil	-	-
 gudemain	gudemain	GUDEMAIN	edil	-	-
 Gugasg	Gugasg	0UGASG	edil	-	-
 guib	guib	GUIB	edil	-	-
@@ -26125,14 +25861,12 @@ gúre	guːre	GURE	edil	-	-
 gurgón	gurgoːn	GURGON	edil	-	-
 gurmaille	gurmaille	GURMAILLE	edil	-	-
 gus	gus	GUS	edil	-	-
-2 gus	2 gus	GUS	edil	-	-
 gusdan	gusdan	GUSDAN	edil	-	-
 gusmar	gusmar	GUSMAR	edil	-	-
 Gussán	Gussaːn	0USSAN	edil	-	-
 gustal	gustal	GUSTAL	edil	-	-
 gustalach	gustalax	GUSTALAK	edil	-	-
 gúta	guːta	GUTA	edil	-	-
-2 gúta	2 guːta	GUTA	edil	-	-
 guthach	guθax	GUTAK	edil	-	-
 guthaige	guθaige	GUTAIGE	edil	-	-
 guthaigthe	guθaigθe	GUTAIGTE	edil	-	-
@@ -26201,7 +25935,6 @@ Ian	Ian	0AN	edil	-	-
 ían	iːan	IAN	edil	-	-
 íanach	iːanax	IANAK	edil	-	-
 Ianáir	Ianaːir	0ANAIR	edil	-	-
-3 íar	3 iːar	IAR	edil	-	-
 íara:	iːara:	IARA	edil	-	-
 íaráidh?:	iːaraːiɣ?:	IARAIG	edil	-	-
 iaraindig	iaraindig	IARAINDIG	edil	-	-
@@ -26291,10 +26024,9 @@ iarlacht	iarlaxt	IARLAKT	edil	-	-
 íarmindéidenach	iːarmindeːidenax	IARMINDEIDENAK	edil	-	-
 íarmi-suidigedar	iːarmi-suidigedar	IARMISUIDIGEDAR	edil	-	-
 íarmi-suthigedar	iːarmi-suθigedar	IARMISUTIGEDAR	edil	-	-
-1 íarmo	1 iːarmo	IARMO	edil	-	-
 íarmo	iːarmo	IARMO	edil	-	-
 íarmo-	iːarmo-	IARMO	edil	-	-
-2 íarmó:	2 iːarmoː:	IARMO	edil	-	-
+íarmó:	iːarmoː:	IARMO	edil	-	-
 íarmobí	iːarmobiː	IARMOBI	edil	-	-
 íarmogait?:	iːarmogait?:	IARMOGAIT	edil	-	-
 íarmóracht	iːarmoːraxt	IARMORAKT	edil	-	-
@@ -26307,7 +26039,6 @@ iarlacht	iarlaxt	IARLAKT	edil	-	-
 Íarmuma	iːarmuma	IARMUMA	edil	-	-
 íarnabárach	iːarnabaːrax	IARNABARAK	edil	-	-
 íarnach	iːarnax	IARNAK	edil	-	-
-2 íarnach	2 iːarnax	IARNAK	edil	-	-
 íarnachad	iːarnaxad	IARNAKAD	edil	-	-
 íarnaid	iːarnaid	IARNAID	edil	-	-
 íarnaide	iːarnaide	IARNAIDE	edil	-	-
@@ -26371,7 +26102,6 @@ iarlacht	iarlaxt	IARLAKT	edil	-	-
 íascrad	iːascrad	IASKRAD	edil	-	-
 íat	iːat	IAT	edil	-	-
 íath	iːaθ	IAT	edil	-	-
-3 íath	3 iːaθ	IAT	edil	-	-
 íathach	iːaθax	IATAK	edil	-	-
 íathacht ?:	iːaθaxt ?:	IATAKT	edil	-	-
 íathar	iːaθar	IATAR	edil	-	-
@@ -26393,8 +26123,7 @@ ibne	ibne	IBNE	edil	-	-
 íbnes	iːbnes	IBNES	edil	-	-
 iboire	iboire	IBOIRE	edil	-	-
 ibrach	ibrax	IBRAK	edil	-	-
-2 ibrach:	2 ibrax:	IBRAK	edil	-	-
-3 ibrach:	3 ibrax:	IBRAK	edil	-	-
+ibrach:	ibrax:	IBRAK	edil	-	-
 ibraide	ibraide	IBRAIDE	edil	-	-
 ibránach	ibraːnax	IBRANAK	edil	-	-
 ibróracht	ibroːraxt	IBRORAKT	edil	-	-
@@ -26407,7 +26136,6 @@ ic	ic	IK	edil	-	-
 ích	iːx	IK	edil	-	-
 ichmus ? :	ixmus ? :	IKMUS	edil	-	-
 icht	ixt	IKT	edil	-	-
-3 icht	3 ixt	IKT	edil	-	-
 Icht	Ixt	0KT	edil	-	-
 ichtach	ixtax	IKTAK	edil	-	-
 íchtar	iːxtar	IKTAR	edil	-	-
@@ -26416,7 +26144,7 @@ ichtach	ixtax	IKTAK	edil	-	-
 ichtmar	ixtmar	IKTMAR	edil	-	-
 id	id	ID	edil	-	-
 íd	iːd	ID	edil	-	-
-2 íd ?:	2 iːd ?:	ID	edil	-	-
+íd ?:	iːd ?:	ID	edil	-	-
 ida	ida	IDA	edil	-	-
 idacht	idaxt	IDAKT	edil	-	-
 idad	idad	IDAD	edil	-	-
@@ -26811,7 +26539,7 @@ imgonach	imgonax	IMGONAK	edil	-	-
 imgonaid	imgonaid	IMGONAID	edil	-	-
 imgress	imgress	IMGRESS	edil	-	-
 imguin	imguin	IMGUIN	edil	-	-
-imguin:	imguin:	IMGUIN	edil	-	-
+? imguin:	? imguin:	IMGUIN	edil	-	-
 imirt	imirt	IMIRT	edil	-	-
 imlabrad	imlabrad	IMLABRAD	edil	-	-
 imlaíd	imlaiːd	IMLAID	edil	-	-
@@ -27494,8 +27222,8 @@ indall	indall	INDALL	edil	-	-
 ind-anich	ind-anix	INDANIK	edil	-	-
 indar	indar	INDAR	edil	-	-
 indarba	indarba	INDARBA	edil	-	-
-1 indarbach	1 indarbax	INDARBAK	edil	-	-
-2 in[d]arbach :	2 in[d]arbax :	INDARBAK	edil	-	-
+indarbach	indarbax	INDARBAK	edil	-	-
+in[d]arbach :	in[d]arbax :	INDARBAK	edil	-	-
 indarbad	indarbad	INDARBAD	edil	-	-
 indarbaid	indarbaid	INDARBAID	edil	-	-
 indarbair :	indarbair :	INDARBAIR	edil	-	-
@@ -27683,7 +27411,7 @@ indraicthi	indraicθi	INDRAIKTI	edil	-	-
 indraide	indraide	INDRAIDE	edil	-	-
 indráithne	indraːiθne	INDRAITNE	edil	-	-
 indrech	indrex	INDREK	edil	-	-
-2 indrech :	2 indrex :	INDREK	edil	-	-
+indrech :	indrex :	INDREK	edil	-	-
 indrecht	indrext	INDREKT	edil	-	-
 indrechtán	indrextaːn	INDREKTAN	edil	-	-
 indred	indred	INDRED	edil	-	-
@@ -27809,7 +27537,6 @@ ingenid	ingenid	INGENID	edil	-	-
 inger	inger	INGER	edil	-	-
 ingerta	ingerta	INGERTA	edil	-	-
 ingille	ingille	INGILLE	edil	-	-
-1 ingir	1 ingir	INGIR	edil	-	-
 ingir	ingir	INGIR	edil	-	-
 inglaine	inglaine	INGLAINE	edil	-	-
 inglan	inglan	INGLAN	edil	-	-
@@ -27845,7 +27572,7 @@ ingraimmthid	ingraimmθid	INGRAIMMTID	edil	-	-
 ingrecus	ingrecus	INGREKUS	edil	-	-
 ingrege	ingrege	INGREGE	edil	-	-
 ingreimm	ingreimm	INGREIMM	edil	-	-
-2 ingreimm :	2 ingreimm :	INGREIMM	edil	-	-
+ingreimm :	ingreimm :	INGREIMM	edil	-	-
 ingreimmid	ingreimmid	INGREIMMID	edil	-	-
 in-greinn	in-greinn	INGREINN	edil	-	-
 ingremmach	ingremmax	INGREMMAK	edil	-	-
@@ -27928,7 +27655,7 @@ inminde	inminde	INMINDE	edil	-	-
 inmuilg	inmuilg	INMUILG	edil	-	-
 inmuilled	inmuilled	INMUILLED	edil	-	-
 inmuillid	inmuillid	INMUILLID	edil	-	-
-2 inmuillid ? :	2 inmuillid ? :	INMUILLID	edil	-	-
+inmuillid ? :	inmuillid ? :	INMUILLID	edil	-	-
 inn	inn	INN	edil	-	-
 innaid	innaid	INNAID	edil	-	-
 innair :	innair :	INNAIR	edil	-	-
@@ -28283,8 +28010,6 @@ Iubaide	Iubaide	0UBAIDE	edil	-	-
 iubaile	iubaile	IUBAILE	edil	-	-
 iubal	iubal	IUBAL	edil	-	-
 iubar	iubar	IUBAR	edil	-	-
-2 iubar	2 iubar	IUBAR	edil	-	-
-3 iubar	3 iubar	IUBAR	edil	-	-
 Iubdae	Iubdai	0UBDAI	edil	-	-
 iubrán	iubraːn	IUBRAN	edil	-	-
 iubu	iubu	IUBU	edil	-	-
@@ -28301,7 +28026,6 @@ Iúdaid	Iuːdaid	0UDAID	edil	-	-
 iudail	iudail	IUDAIL	edil	-	-
 Iúdei	Iuːdei	0UDEI	edil	-	-
 iúdic	iuːdic	IUDIK	edil	-	-
-2 iúdic	2 iuːdic	IUDIK	edil	-	-
 iúdicecht	iuːdicext	IUDIKEKT	edil	-	-
 Iúdide	Iuːdide	0UDIDE	edil	-	-
 iúdigte	iuːdigte	IUDIGTE	edil	-	-
@@ -28353,7 +28077,6 @@ lacad	lacad	LAKAD	edil	-	-
 lacaid	lacaid	LAKAID	edil	-	-
 lacatus	lacatus	LAKATUS	edil	-	-
 lach	lax	LAK	edil	-	-
-2 lach	2 lax	LAK	edil	-	-
 Lachlainn	Laxlainn	0AKLAINN	edil	-	-
 lachnach	laxnax	LAKNAK	edil	-	-
 lachtach	laxtax	LAKTAK	edil	-	-
@@ -28370,7 +28093,6 @@ lacthach	lacθax	LAKTAK	edil	-	-
 lacurán	lacuraːn	LAKURAN	edil	-	-
 lad	lad	LAD	edil	-	-
 lád	laːd	LAD	edil	-	-
-2 lád	2 laːd	LAD	edil	-	-
 ladach	ladax	LADAK	edil	-	-
 ládáil	laːdaːil	LADAIL	edil	-	-
 ladairg	ladairg	LADAIRG	edil	-	-
@@ -28474,7 +28196,6 @@ laime	laime	LAIME	edil	-	-
 laimidéir	laimideːir	LAIMIDEIR	edil	-	-
 laimnid	laimnid	LAIMNID	edil	-	-
 laimnide	laimnide	LAIMNIDE	edil	-	-
-2 laimnide	2 laimnide	LAIMNIDE	edil	-	-
 laimnige	laimnige	LAIMNIGE	edil	-	-
 láimsigid	laːimsigid	LAIMSIGID	edil	-	-
 laimsion	laimsion	LAIMSION	edil	-	-
@@ -28613,7 +28334,6 @@ langánach	langaːnax	LANGANAK	edil	-	-
 lánmar	laːnmar	LANMAR	edil	-	-
 lánmona	laːnmona	LANMONA	edil	-	-
 lann	lann	LANN	edil	-	-
-4 lann	4 lann	LANN	edil	-	-
 lannach	lannax	LANNAK	edil	-	-
 lannóir	lannoːir	LANNOIR	edil	-	-
 lannsa	lannsa	LANNSA	edil	-	-
@@ -28647,7 +28367,6 @@ lasar	lasar	LASAR	edil	-	-
 lasardacht	lasardaxt	LASARDAKT	edil	-	-
 lasardae	lasardai	LASARDAI	edil	-	-
 lasc	lasc	LASK	edil	-	-
-2 lasc	2 lasc	LASK	edil	-	-
 lascad	lascad	LASKAD	edil	-	-
 lascaid	lascaid	LASKAID	edil	-	-
 lascaine	lascaine	LASKAINE	edil	-	-
@@ -28758,7 +28477,6 @@ ledíach	lediːax	LEDIAK	edil	-	-
 ledmagtach	ledmagtax	LEDMAGTAK	edil	-	-
 ledrán	ledraːn	LEDRAN	edil	-	-
 ledurthe	ledurθe	LEDURTE	edil	-	-
-1 lee	1 lee	LEE	edil	-	-
 lee	lee	LEE	edil	-	-
 leg-	leg-	LEG	edil	-	-
 légad	leːgad	LEGAD	edil	-	-
@@ -28828,7 +28546,6 @@ léirecht	leːirext	LEIREKT	edil	-	-
 léirid	leːirid	LEIRID	edil	-	-
 léirigid	leːirigid	LEIRIGID	edil	-	-
 leis	leis	LEIS	edil	-	-
-2 leis	2 leis	LEIS	edil	-	-
 leisce	leisce	LEISKE	edil	-	-
 leiscemail	leiscemail	LEISKEMAIL	edil	-	-
 léit	leːit	LEIT	edil	-	-
@@ -28839,8 +28556,6 @@ léitenach	leːitenax	LEITENAK	edil	-	-
 leithbe	leiθbe	LEITBE	edil	-	-
 léithe	leːiθe	LEITE	edil	-	-
 leithech	leiθex	LEITEK	edil	-	-
-2 leithech	2 leiθex	LEITEK	edil	-	-
-4 leithech	4 leiθex	LEITEK	edil	-	-
 leithed	leiθed	LEITED	edil	-	-
 leitheirlach	leiθeirlax	LEITEIRLAK	edil	-	-
 leithéit	leiθeːit	LEITEIT	edil	-	-
@@ -28880,7 +28595,6 @@ lemad	lemad	LEMAD	edil	-	-
 lemán	lemaːn	LEMAN	edil	-	-
 lémann	leːmann	LEMANN	edil	-	-
 lemlacht	lemlaxt	LEMLAKT	edil	-	-
-1 lemna	1 lemna	LEMNA	edil	-	-
 lemna	lemna	LEMNA	edil	-	-
 lemnach	lemnax	LEMNAK	edil	-	-
 lemnacht	lemnaxt	LEMNAKT	edil	-	-
@@ -28914,7 +28628,6 @@ lenmaide	lenmaide	LENMAIDE	edil	-	-
 lenmaintech	lenmaintex	LENMAINTEK	edil	-	-
 lenmanach	lenmanax	LENMANAK	edil	-	-
 lenmus	lenmus	LENMUS	edil	-	-
-2 lenn	2 lenn	LENN	edil	-	-
 lennach	lennax	LENNAK	edil	-	-
 lennaide	lennaide	LENNAIDE	edil	-	-
 lennán	lennaːn	LENNAN	edil	-	-
@@ -28929,7 +28642,6 @@ lentach	lentax	LENTAK	edil	-	-
 léntacha	leːntaxa	LENTAKA	edil	-	-
 lentóir	lentoːir	LENTOIR	edil	-	-
 leo	leo	LEO	edil	-	-
-4 leo	4 leo	LEO	edil	-	-
 leó	leoː	LEO	edil	-	-
 léo	leːo	LEO	edil	-	-
 léoaid	leːoaid	LEOAID	edil	-	-
@@ -28960,7 +28672,6 @@ lepa	lepa	LEPA	edil	-	-
 lepaid	lepaid	LEPAID	edil	-	-
 lepp	lepp	LEPP	edil	-	-
 lepthach	lepθax	LEPTAK	edil	-	-
-2 lepthach	2 lepθax	LEPTAK	edil	-	-
 lepachas	lepaxas	LEPAKAS	edil	-	-
 lepthanas	lepθanas	LEPTANAS	edil	-	-
 lepthugud	lepθugud	LEPTUGUD	edil	-	-
@@ -28989,7 +28700,6 @@ lésán	leːsaːn	LESAN	edil	-	-
 lésbaire	leːsbaire	LESBAIRE	edil	-	-
 lesc	lesc	LESK	edil	-	-
 lescach	lescax	LESKAK	edil	-	-
-2 lescach	2 lescax	LESKAK	edil	-	-
 lescae	lescai	LESKAI	edil	-	-
 lescaid	lescaid	LESKAID	edil	-	-
 leschorach	lesxorax	LESKORAK	edil	-	-
@@ -28998,7 +28708,6 @@ lesgailte	lesgailte	LESGAILTE	edil	-	-
 lesgailtech	lesgailtex	LESGAILTEK	edil	-	-
 léspairt	leːspairt	LESPAIRT	edil	-	-
 lesrach	lesrax	LESRAK	edil	-	-
-2 lesrach	2 lesrax	LESRAK	edil	-	-
 lessad	lessad	LESSAD	edil	-	-
 lestar	lestar	LESTAR	edil	-	-
 lestrach	lestrax	LESTRAK	edil	-	-
@@ -29061,8 +28770,6 @@ lex-	lex-	LEK	edil	-	-
 léx	leːx	LEK	edil	-	-
 léxaidecht	leːxaidext	LEKAIDEKT	edil	-	-
 léxaire	leːxaire	LEKAIRE	edil	-	-
-4 lí	4 liː	LI	edil	-	-
-5 lí	5 liː	LI	edil	-	-
 lía	liːa	LIA	edil	-	-
 líac	liːac	LIAK	edil	-	-
 líacán	liːacaːn	LIAKAN	edil	-	-
@@ -29080,7 +28787,6 @@ líagán	liːagaːn	LIAGAN	edil	-	-
 líagánach	liːagaːnax	LIAGANAK	edil	-	-
 líagdelg	liːagdelg	LIAGDELG	edil	-	-
 líagmaire	liːagmaire	LIAGMAIRE	edil	-	-
-2 líaig	2 liːaig	LIAIG	edil	-	-
 líairne	liːairne	LIAIRNE	edil	-	-
 líamad	liːamad	LIAMAD	edil	-	-
 líamain	liːamain	LIAMAIN	edil	-	-
@@ -29145,7 +28851,6 @@ lígda	liːgda	LIGDA	edil	-	-
 lígdach	liːgdax	LIGDAK	edil	-	-
 lígdatu	liːgdatu	LIGDATU	edil	-	-
 ligeoc	ligeoc	LIGEOK	edil	-	-
-2 ligid	2 ligid	LIGID	edil	-	-
 lígid	liːgid	LIGID	edil	-	-
 Ligir	Ligir	0IGIR	edil	-	-
 ligitera	ligitera	LIGITERA	edil	-	-
@@ -29153,7 +28858,6 @@ lígmar	liːgmar	LIGMAR	edil	-	-
 lignit	lignit	LIGNIT	edil	-	-
 Ligorda	Ligorda	0IGORDA	edil	-	-
 lígrad	liːgrad	LIGRAD	edil	-	-
-2 lígrad	2 liːgrad	LIGRAD	edil	-	-
 lígtha	liːgθa	LIGTA	edil	-	-
 Liguist	Liguist	0IGUIST	edil	-	-
 ligur	ligur	LIGUR	edil	-	-
@@ -29303,8 +29007,6 @@ liúntas	liuːntas	LIUNTAS	edil	-	-
 lius	lius	LIUS	edil	-	-
 liús	liuːs	LIUS	edil	-	-
 ló	loː	LO	edil	-	-
-3 ló	3 loː	LO	edil	-	-
-4 ló	4 loː	LO	edil	-	-
 lóa	loːa	LOA	edil	-	-
 löan	löan	LAN	edil	-	-
 loar	loar	LOAR	edil	-	-
@@ -29347,10 +29049,7 @@ locda	locda	LOKDA	edil	-	-
 locdacht	locdaxt	LOKDAKT	edil	-	-
 locdatu	locdatu	LOKDATU	edil	-	-
 locḟiach	loc∅iax	LOKIAK	edil	-	-
-3 loch	3 lox	LOK	edil	-	-
-4 loch	4 lox	LOK	edil	-	-
 lóch	loːx	LOK	edil	-	-
-3 lóch	3 loːx	LOK	edil	-	-
 lochach	loxax	LOKAK	edil	-	-
 lochad	loxad	LOKAD	edil	-	-
 lochaid	loxaid	LOKAID	edil	-	-
@@ -29374,8 +29073,6 @@ lóchrann	loːxrann	LOKRANN	edil	-	-
 lóchrannamail	loːxrannamail	LOKRANNAMAIL	edil	-	-
 lóchrannda	loːxrannda	LOKRANNDA	edil	-	-
 locht	loxt	LOKT	edil	-	-
-2 locht	2 loxt	LOKT	edil	-	-
-3 locht	3 loxt	LOKT	edil	-	-
 lochta	loxta	LOKTA	edil	-	-
 lochtach	loxtax	LOKTAK	edil	-	-
 lochtaigid	loxtaigid	LOKTAIGID	edil	-	-
@@ -29403,7 +29100,6 @@ lóes	loːes	LOES	edil	-	-
 lóetanán	loːetanaːn	LOETANAN	edil	-	-
 lofta	lofta	LOPTA	edil	-	-
 log	log	LOG	edil	-	-
-3 log	3 log	LOG	edil	-	-
 lógacht	loːgaxt	LOGAKT	edil	-	-
 logad	logad	LOGAD	edil	-	-
 logaid	logaid	LOGAID	edil	-	-
@@ -29439,7 +29135,6 @@ loilig	loilig	LOILIG	edil	-	-
 lóimínech	loːimiːnex	LOIMINEK	edil	-	-
 loimm	loimm	LOIMM	edil	-	-
 loimthenech	loimθenex	LOIMTENEK	edil	-	-
-2 loing	2 loing	LOING	edil	-	-
 loingén	loingeːn	LOINGEN	edil	-	-
 loinges	loinges	LOINGES	edil	-	-
 loingid	loingid	LOINGID	edil	-	-
@@ -29523,6 +29218,7 @@ lomnochtán	lomnoxtaːn	LOMNOKTAN	edil	-	-
 lompaire	lompaire	LOMPAIRE	edil	-	-
 lompuisnech	lompuisnex	LOMPUISNEK	edil	-	-
 lomrad	lomrad	LOMRAD	edil	-	-
+? lon	? lon	LON	edil	-	-
 lón	loːn	LON	edil	-	-
 lonach	lonax	LONAK	edil	-	-
 -lonad ?	-lonad ?	LONAD	edil	-	-
@@ -29532,7 +29228,6 @@ lonaigid	lonaigid	LONAIGID	edil	-	-
 lonán	lonaːn	LONAN	edil	-	-
 lonchor?	lonxor?	LONKOR	edil	-	-
 longach	longax	LONGAK	edil	-	-
-2 longach	2 longax	LONGAK	edil	-	-
 longaid	longaid	LONGAID	edil	-	-
 longair	longair	LONGAIR	edil	-	-
 longaire	longaire	LONGAIRE	edil	-	-
@@ -29550,7 +29245,6 @@ longphort	longfort	LONGPORT	edil	-	-
 longphortach	longfortax	LONGPORTAK	edil	-	-
 longud	longud	LONGUD	edil	-	-
 lonn	lonn	LONN	edil	-	-
-2 lonn	2 lonn	LONN	edil	-	-
 lonnach	lonnax	LONNAK	edil	-	-
 lonnaid	lonnaid	LONNAID	edil	-	-
 lonnaidi	lonnaidi	LONNAIDI	edil	-	-
@@ -29570,7 +29264,6 @@ lorcán	lorcaːn	LORKAN	edil	-	-
 lórda	loːrda	LORDA	edil	-	-
 lórdatu	loːrdatu	LORDATU	edil	-	-
 lorg	lorg	LORG	edil	-	-
-3 lorg	3 lorg	LORG	edil	-	-
 lorgach	lorgax	LORGAK	edil	-	-
 lorgad	lorgad	LORGAD	edil	-	-
 lorgaid	lorgaid	LORGAID	edil	-	-
@@ -29585,7 +29278,6 @@ lornán	lornaːn	LORNAN	edil	-	-
 lórtnaigidir	loːrtnaigidir	LORTNAIGIDIR	edil	-	-
 lórtu	loːrtu	LORTU	edil	-	-
 los	los	LOS	edil	-	-
-3 los	3 los	LOS	edil	-	-
 losaid	losaid	LOSAID	edil	-	-
 losain	losain	LOSAIN	edil	-	-
 losat	losat	LOSAT	edil	-	-
@@ -29603,15 +29295,11 @@ lot	lot	LOT	edil	-	-
 lota	lota	LOTA	edil	-	-
 lotaire	lotaire	LOTAIRE	edil	-	-
 lotán	lotaːn	LOTAN	edil	-	-
-3 loth	3 loθ	LOT	edil	-	-
 lóth	loːθ	LOT	edil	-	-
-2 lóth	2 loːθ	LOT	edil	-	-
-3 lóth	3 loːθ	LOT	edil	-	-
 -lotha	-loθa	LOTA	edil	-	-
 lothach	loθax	LOTAK	edil	-	-
 lothaid	loθaid	LOTAID	edil	-	-
 lothar	loθar	LOTAR	edil	-	-
-2 lothar	2 loθar	LOTAR	edil	-	-
 lóthar	loːθar	LOTAR	edil	-	-
 Lothlainn	Loθlainn	0OTLAINN	edil	-	-
 lothommar	loθommar	LOTOMMAR	edil	-	-
@@ -29625,7 +29313,6 @@ loure	loure	LOURE	edil	-	-
 lourtu	lourtu	LOURTU	edil	-	-
 lú	luː	LU	edil	-	-
 lúa	luːa	LUA	edil	-	-
-4 lúa	4 luːa	LUA	edil	-	-
 lúabainde	luːabainde	LUABAINDE	edil	-	-
 lúabu	luːabu	LUABU	edil	-	-
 luach	luax	LUAK	edil	-	-
@@ -29638,7 +29325,6 @@ lúachat	luːaxat	LUAKAT	edil	-	-
 lúachda	luːaxda	LUAKDA	edil	-	-
 lúachmar	luːaxmar	LUAKMAR	edil	-	-
 lúachrach	luːaxrax	LUAKRAK	edil	-	-
-2 lúachrach	2 luːaxrax	LUAKRAK	edil	-	-
 lúachrad	luːaxrad	LUAKRAD	edil	-	-
 lúad	luːad	LUAD	edil	-	-
 lúadaid	luːadaid	LUADAID	edil	-	-
@@ -29661,7 +29347,6 @@ lúaid	luːaid	LUAID	edil	-	-
 lúaide	luːaide	LUAIDE	edil	-	-
 lúaidemail	luːaidemail	LUAIDEMAIL	edil	-	-
 lúaidid	luːaidid	LUAIDID	edil	-	-
-2 lúaidid	2 luːaidid	LUAIDID	edil	-	-
 lúaidil	luːaidil	LUAIDIL	edil	-	-
 lúaidlech	luːaidlex	LUAIDLEK	edil	-	-
 lúaidrén	luːaidreːn	LUAIDREN	edil	-	-
@@ -29747,7 +29432,6 @@ lubrach	lubrax	LUBRAK	edil	-	-
 lubrad	lubrad	LUBRAD	edil	-	-
 lúbtha	luːbθa	LUBTA	edil	-	-
 luc	luc	LUK	edil	-	-
-2 luc	2 luc	LUK	edil	-	-
 lucad	lucad	LUKAD	edil	-	-
 lucair	lucair	LUKAIR	edil	-	-
 lucaist	lucaist	LUKAIST	edil	-	-
@@ -29819,14 +29503,12 @@ luibnech	luibnex	LUIBNEK	edil	-	-
 luibre	luibre	LUIBRE	edil	-	-
 luibrech	luibrex	LUIBREK	edil	-	-
 luibred	luibred	LUIBRED	edil	-	-
-2 luid	2 luid	LUID	edil	-	-
 luïd	luïd	LUD	edil	-	-
 luidithi	luidiθi	LUIDITI	edil	-	-
 luidrig	luidrig	LUIDRIG	edil	-	-
 luifenach	luifenax	LUIPENAK	edil	-	-
 luigdech	luigdex	LUIGDEK	edil	-	-
 luige	luige	LUIGE	edil	-	-
-3 luige	3 luige	LUIGE	edil	-	-
 luigech	luigex	LUIGEK	edil	-	-
 luigechán	luigexaːn	LUIGEKAN	edil	-	-
 luiged	luiged	LUIGED	edil	-	-
@@ -29837,7 +29519,6 @@ luigtheimne	luigθeimne	LUIGTEIMNE	edil	-	-
 luim	luim	LUIM	edil	-	-
 luime	luime	LUIME	edil	-	-
 luimgad	luimgad	LUIMGAD	edil	-	-
-1 luimne	1 luimne	LUIMNE	edil	-	-
 luimne	luimne	LUIMNE	edil	-	-
 luimnech	luimnex	LUIMNEK	edil	-	-
 Luimnech	Luimnex	0UIMNEK	edil	-	-
@@ -29854,8 +29535,7 @@ luing	luing	LUING	edil	-	-
 luinge	luinge	LUINGE	edil	-	-
 luingín	luingiːn	LUINGIN	edil	-	-
 luingit	luingit	LUINGIT	edil	-	-
-1 luinn	1 luinn	LUINN	edil	-	-
-2 luinn	2 luinn	LUINN	edil	-	-
+luinn	luinn	LUINN	edil	-	-
 luinne	luinne	LUINNE	edil	-	-
 luinnech	luinnex	LUINNEK	edil	-	-
 luinniuc	luinniuc	LUINNIUK	edil	-	-
@@ -29932,7 +29612,6 @@ lurg	lurg	LURG	edil	-	-
 lurga	lurga	LURGA	edil	-	-
 lurganda	lurganda	LURGANDA	edil	-	-
 lurgu	lurgu	LURGU	edil	-	-
-2 lurgu	2 lurgu	LURGU	edil	-	-
 luric	luric	LURIK	edil	-	-
 lus	lus	LUS	edil	-	-
 lús	luːs	LUS	edil	-	-
@@ -29946,7 +29625,6 @@ Lusifer	Lusifer	0USIPER	edil	-	-
 lusna	lusna	LUSNA	edil	-	-
 lusrachán	lusraxaːn	LUSRAKAN	edil	-	-
 lusrad	lusrad	LUSRAD	edil	-	-
-2 lusrad	2 lusrad	LUSRAD	edil	-	-
 lústa	luːsta	LUSTA	edil	-	-
 lustoic	lustoic	LUSTOIK	edil	-	-
 lústrach	luːstrax	LUSTRAK	edil	-	-
@@ -30028,7 +29706,6 @@ macloc	macloc	MAKLOK	edil	-	-
 macnas	macnas	MAKNAS	edil	-	-
 macnasach	macnasax	MAKNASAK	edil	-	-
 macrad	macrad	MAKRAD	edil	-	-
-2 macrad	2 macrad	MAKRAD	edil	-	-
 macradán	macradaːn	MAKRADAN	edil	-	-
 macrae	macrai	MAKRAI	edil	-	-
 macrall	macrall	MAKRALL	edil	-	-
@@ -31088,7 +30765,6 @@ mog	mog	MOG	edil	-	-
 moga	moga	MOGA	edil	-	-
 mogad	mogad	MOGAD	edil	-	-
 mogaid	mogaid	MOGAID	edil	-	-
-2 mogaid	2 mogaid	MOGAID	edil	-	-
 mogaigid	mogaigid	MOGAIGID	edil	-	-
 mogal	mogal	MOGAL	edil	-	-
 mogda	mogda	MOGDA	edil	-	-
@@ -31393,7 +31069,6 @@ muiriucht	muiriuxt	MUIRIUKT	edil	-	-
 muirlan?	muirlan?	MUIRLAN	edil	-	-
 muirmóru	muirmoːru	MUIRMORU	edil	-	-
 muirn	muirn	MUIRN	edil	-	-
-2 muirn	2 muirn	MUIRN	edil	-	-
 muirnech	muirnex	MUIRNEK	edil	-	-
 muirnige	muirnige	MUIRNIGE	edil	-	-
 muirnín	muirniːn	MUIRNIN	edil	-	-
@@ -31431,7 +31106,6 @@ munodar	munodar	MUNODAR	edil	-	-
 munol	munol	MUNOL	edil	-	-
 munta?	munta?	MUNTA	edil	-	-
 múnta	muːnta	MUNTA	edil	-	-
-4 múr	4 muːr	MUR	edil	-	-
 murach	murax	MURAK	edil	-	-
 múrach	muːrax	MURAK	edil	-	-
 muracht	muraxt	MURAKT	edil	-	-
@@ -31574,7 +31248,6 @@ nefnigid	nefnigid	NEPNIGID	edil	-	-
 neift	neift	NEIPT	edil	-	-
 neim	neim	NEIM	edil	-	-
 néim	neːim	NEIM	edil	-	-
-2 néim	2 neːim	NEIM	edil	-	-
 néime	neːime	NEIME	edil	-	-
 neimed	neimed	NEIMED	edil	-	-
 néimed	neːimed	NEIMED	edil	-	-
@@ -31634,7 +31307,6 @@ nemtsos	nemtsos	NEMTSOS	edil	-	-
 nemuide	nemuide	NEMUIDE	edil	-	-
 nemur	nemur	NEMUR	edil	-	-
 nen	nen	NEN	edil	-	-
-1 nena	1 nena	NENA	edil	-	-
 nena	nena	NENA	edil	-	-
 nenadmin	nenadmin	NENADMIN	edil	-	-
 nenaid	nenaid	NENAID	edil	-	-
@@ -31669,7 +31341,6 @@ netid	netid	NETID	edil	-	-
 neuturáldae	neuturaːldai	NEUTURALDAI	edil	-	-
 neuturdae	neuturdai	NEUTURDAI	edil	-	-
 ní	niː	NI	edil	-	-
-5 ní	5 niː	NI	edil	-	-
 -ni	-ni	NI	edil	-	-
 níab	niːab	NIAB	edil	-	-
 níabach	niːabax	NIABAK	edil	-	-
@@ -31721,8 +31392,6 @@ noch	nox	NOK	edil	-	-
 nocha n-	noxa n-	NOKAN	edil	-	-
 nócha	noːxa	NOKA	edil	-	-
 nocho n-	noxo n-	NOKON	edil	-	-
-3 nocht	3 noxt	NOKT	edil	-	-
-4 nocht	4 noxt	NOKT	edil	-	-
 nochta	noxta	NOKTA	edil	-	-
 nochtach	noxtax	NOKTAK	edil	-	-
 nochtaid	noxtaid	NOKTAID	edil	-	-
@@ -31806,7 +31475,6 @@ nóud	noːud	NOUD	edil	-	-
 nouice	nouice	NOUIKE	edil	-	-
 nouimber	nouimber	NOUIMBER	edil	-	-
 nú	nuː	NU	edil	-	-
-2 nú	2 nuː	NU	edil	-	-
 núa	nuːa	NUA	edil	-	-
 nuachalla	nuaxalla	NUAKALLA	edil	-	-
 núachar	nuːaxar	NUAKAR	edil	-	-
@@ -31952,7 +31620,6 @@ octimber	octimber	OKTIMBER	edil	-	-
 ocuben	ocuben	OKUBEN	edil	-	-
 ocul	ocul	OKUL	edil	-	-
 od	od	OD	edil	-	-
-2 od	2 od	OD	edil	-	-
 ód	oːd	OD	edil	-	-
 odaig	odaig	ODAIG	edil	-	-
 odbach	odbax	ODBAK	edil	-	-
@@ -32100,7 +31767,6 @@ oigir	oigir	OIGIR	edil	-	-
 oigred	oigred	OIGRED	edil	-	-
 óigthid	oːigθid	OIGTID	edil	-	-
 oil	oil	OIL	edil	-	-
-4 oil	4 oil	OIL	edil	-	-
 óil	oːil	OIL	edil	-	-
 oilb	oilb	OILB	edil	-	-
 oilbéim	oilbeːim	OILBEIM	edil	-	-
@@ -32276,7 +31942,6 @@ omthach?	omθax?	OMTAK	edil	-	-
 omthand	omθand	OMTAND	edil	-	-
 omun	omun	OMUN	edil	-	-
 on	on	ON	edil	-	-
-2 on	2 on	ON	edil	-	-
 ón	oːn	ON	edil	-	-
 onagri	onagri	ONAGRI	edil	-	-
 onán	onaːn	ONAN	edil	-	-
@@ -32293,7 +31958,6 @@ ondat	ondat	ONDAT	edil	-	-
 onfais	onfais	ONPAIS	edil	-	-
 onfaisech	onfaisex	ONPAISEK	edil	-	-
 ong	ong	ONG	edil	-	-
-3 ong	3 ong	ONG	edil	-	-
 onga	onga	ONGA	edil	-	-
 ongad	ongad	ONGAD	edil	-	-
 ongaid	ongaid	ONGAID	edil	-	-
@@ -32330,7 +31994,6 @@ opthach	opθax	OPTAK	edil	-	-
 opuing	opuing	OPUING	edil	-	-
 opunn	opunn	OPUNN	edil	-	-
 or	or	OR	edil	-	-
-5 or	5 or	OR	edil	-	-
 or-	or-	OR	edil	-	-
 -or-	-or-	OR	edil	-	-
 ór	oːr	OR	edil	-	-
@@ -32351,7 +32014,6 @@ orbaind	orbaind	ORBAIND	edil	-	-
 *orbam	*orbam	SORBAM	edil	-	-
 orbemandae	orbemandai	ORBEMANDAI	edil	-	-
 Orbuaid	Orbuaid	0RBUAID	edil	-	-
-4 orc	4 orc	ORK	edil	-	-
 orca	orca	ORKA	edil	-	-
 orcaid	orcaid	ORKAID	edil	-	-
 orcán	orcaːn	ORKAN	edil	-	-
@@ -32378,8 +32040,6 @@ ordamail	ordamail	ORDAMAIL	edil	-	-
 ordan	ordan	ORDAN	edil	-	-
 ordanás	ordanaːs	ORDANAS	edil	-	-
 ordlach	ordlax	ORDLAK	edil	-	-
-2 ordlach	2 ordlax	ORDLAK	edil	-	-
-3 ordlach	3 ordlax	ORDLAK	edil	-	-
 ordnasc	ordnasc	ORDNASK	edil	-	-
 ordne	ordne	ORDNE	edil	-	-
 ordnige	ordnige	ORDNIGE	edil	-	-
@@ -32527,7 +32187,6 @@ pairilis	pairilis	PAIRILIS	edil	-	-
 Pairisínech	Pairisiːnex	0AIRISINEK	edil	-	-
 pairitair	pairitair	PAIRITAIR	edil	-	-
 pairt	pairt	PAIRT	edil	-	-
-2 pairt	2 pairt	PAIRT	edil	-	-
 pairtecal	pairtecal	PAIRTEKAL	edil	-	-
 pairtech	pairtex	PAIRTEK	edil	-	-
 pairtid	pairtid	PAIRTID	edil	-	-
@@ -33021,8 +32680,7 @@ rabairnech	rabairnex	RABAIRNEK	edil	-	-
 rabán	rabaːn	RABAN	edil	-	-
 rabarta	rabarta	RABARTA	edil	-	-
 rabrad	rabrad	RABRAD	edil	-	-
-1 rac	1 rac	RAK	edil	-	-
-2 rac	2 rac	RAK	edil	-	-
+rac	rac	RAK	edil	-	-
 ráca	raːca	RAKA	edil	-	-
 racaid	racaid	RAKAID	edil	-	-
 racairecht	racairext	RAKAIREKT	edil	-	-
@@ -33109,7 +32767,6 @@ rámda	raːmda	RAMDA	edil	-	-
 ramruth	ramruθ	RAMRUT	edil	-	-
 rámtéan	raːmteːan	RAMTEAN	edil	-	-
 rán	raːn	RAN	edil	-	-
-2 rán	2 raːn	RAN	edil	-	-
 rána	raːna	RANA	edil	-	-
 ranc	ranc	RANK	edil	-	-
 rand	rand	RAND	edil	-	-
@@ -33150,7 +32807,6 @@ ráthaigecht	raːθaigext	RATAIGEKT	edil	-	-
 ráthaiges	raːθaiges	RATAIGES	edil	-	-
 rathaigid	raθaigid	RATAIGID	edil	-	-
 ráthaigid	raːθaigid	RATAIGID	edil	-	-
-2 ráthaigid	2 raːθaigid	RATAIGID	edil	-	-
 ráthaigthe	raːθaigθe	RATAIGTE	edil	-	-
 rathamail	raθamail	RATAMAIL	edil	-	-
 rathar	raθar	RATAR	edil	-	-
@@ -33225,7 +32881,6 @@ reglaim	reglaim	REGLAIM	edil	-	-
 regtad	regtad	REGTAD	edil	-	-
 réib	reːib	REIB	edil	-	-
 reic	reic	REIK	edil	-	-
-1 reich	1 reix	REIK	edil	-	-
 reich	reix	REIK	edil	-	-
 reiclés	reicleːs	REIKLES	edil	-	-
 reiclésach	reicleːsax	REIKLESAK	edil	-	-
@@ -33393,7 +33048,6 @@ rengmar	rengmar	RENGMAR	edil	-	-
 renn	renn	RENN	edil	-	-
 rennach	rennax	RENNAK	edil	-	-
 reo	reo	REO	edil	-	-
-3 reo	3 reo	REO	edil	-	-
 reód	reoːd	REOD	edil	-	-
 reódaid	reoːdaid	REODAID	edil	-	-
 reóta	reoːta	REOTA	edil	-	-
@@ -33460,11 +33114,9 @@ ríachtanach	riːaxtanax	RIAKTANAK	edil	-	-
 ríachtanas	riːaxtanas	RIAKTANAS	edil	-	-
 ríachtanasach	riːaxtanasax	RIAKTANASAK	edil	-	-
 ríad	riːad	RIAD	edil	-	-
-2 ríad	2 riːad	RIAD	edil	-	-
 ríadaigid	riːadaigid	RIADAIGID	edil	-	-
 ríadair	riːadair	RIADAIR	edil	-	-
 ríag	riːag	RIAG	edil	-	-
-2 ríag	2 riːag	RIAG	edil	-	-
 ríagad	riːagad	RIAGAD	edil	-	-
 ríagaid	riːagaid	RIAGAID	edil	-	-
 ríagail	riːagail	RIAGAIL	edil	-	-
@@ -33590,7 +33242,6 @@ rindrosc	rindrosc	RINDROSK	edil	-	-
 ringid	ringid	RINGID	edil	-	-
 rinnach	rinnax	RINNAK	edil	-	-
 rinne	rinne	RINNE	edil	-	-
-2 rinne	2 rinne	RINNE	edil	-	-
 rinnta	rinnta	RINNTA	edil	-	-
 rinntach	rinntax	RINNTAK	edil	-	-
 rinntanach	rinntanax	RINNTANAK	edil	-	-
@@ -33598,7 +33249,6 @@ rintach	rintax	RINTAK	edil	-	-
 rintriuchta	rintriuxta	RINTRIUKTA	edil	-	-
 rír	riːr	RIR	edil	-	-
 ris	ris	RIS	edil	-	-
-2 ris	2 ris	RIS	edil	-	-
 riside	riside	RISIDE	edil	-	-
 rith	riθ	RIT	edil	-	-
 rithar	riθar	RITAR	edil	-	-
@@ -33698,7 +33348,6 @@ roibtine	roibtine	ROIBTINE	edil	-	-
 ro-icc	ro-icc	ROIKK	edil	-	-
 roichid	roixid	ROIKID	edil	-	-
 roichnech	roixnex	ROIKNEK	edil	-	-
-1 roid	1 roid	ROID	edil	-	-
 roid	roid	ROID	edil	-	-
 roída	roiːda	ROIDA	edil	-	-
 roíden	roiːden	ROIDEN	edil	-	-
@@ -33837,8 +33486,6 @@ rúainne	ruːainne	RUAINNE	edil	-	-
 rúainnech	ruːainnex	RUAINNEK	edil	-	-
 rúaisne	ruːaisne	RUAISNE	edil	-	-
 rúam	ruːam	RUAM	edil	-	-
-2 rúam	2 ruːam	RUAM	edil	-	-
-3 rúam	3 ruːam	RUAM	edil	-	-
 rúamach	ruːamax	RUAMAK	edil	-	-
 rúamaid	ruːamaid	RUAMAID	edil	-	-
 rúaman	ruːaman	RUAMAN	edil	-	-
@@ -33865,7 +33512,6 @@ rúatharach	ruːaθarax	RUATARAK	edil	-	-
 rúatharaigid	ruːaθaraigid	RUATARAIGID	edil	-	-
 rúb	ruːb	RUB	edil	-	-
 ruba	ruba	RUBA	edil	-	-
-3 ruba	3 ruba	RUBA	edil	-	-
 rubach	rubax	RUBAK	edil	-	-
 rubad	rubad	RUBAD	edil	-	-
 rubaid	rubaid	RUBAID	edil	-	-
@@ -33878,9 +33524,7 @@ ruccae	ruccai	RUKKAI	edil	-	-
 ruchall	ruxall	RUKALL	edil	-	-
 ruchsaidhe	ruxsaiɣe	RUKSAIGE	edil	-	-
 rucht	ruxt	RUKT	edil	-	-
-3 rucht	3 ruxt	RUKT	edil	-	-
 ruchtach	ruxtax	RUKTAK	edil	-	-
-2 ruchtach	2 ruxtax	RUKTAK	edil	-	-
 ruchtaid	ruxtaid	RUKTAID	edil	-	-
 ruchtgal	ruxtgal	RUKTGAL	edil	-	-
 ruchtlad	ruxtlad	RUKTLAD	edil	-	-
@@ -33899,7 +33543,6 @@ rug-	rug-	RUG	edil	-	-
 rugaire	rugaire	RUGAIRE	edil	-	-
 ruí	ruiː	RUI	edil	-	-
 ruib	ruib	RUIB	edil	-	-
-3 ruib	3 ruib	RUIB	edil	-	-
 ruibe	ruibe	RUIBE	edil	-	-
 ruibech	ruibex	RUIBEK	edil	-	-
 ruibechtain	ruibextain	RUIBEKTAIN	edil	-	-
@@ -33917,7 +33560,6 @@ rúïd	ruːïd	RUD	edil	-	-
 ruidbe	ruidbe	RUIDBE	edil	-	-
 ruidbech	ruidbex	RUIDBEK	edil	-	-
 ruide	ruide	RUIDE	edil	-	-
-2 ruide	2 ruide	RUIDE	edil	-	-
 ruided	ruided	RUIDED	edil	-	-
 ruidél	ruideːl	RUIDEL	edil	-	-
 ruidid	ruidid	RUIDID	edil	-	-
@@ -33940,7 +33582,6 @@ ruirechas	ruirexas	RUIREKAS	edil	-	-
 ruiri	ruiri	RUIRI	edil	-	-
 ruiriud	ruiriud	RUIRIUD	edil	-	-
 ruirthech	ruirθex	RUIRTEK	edil	-	-
-2 ruirthech	2 ruirθex	RUIRTEK	edil	-	-
 ruirthecht	ruirθext	RUIRTEKT	edil	-	-
 ruise	ruise	RUISE	edil	-	-
 ruiseda	ruiseda	RUISEDA	edil	-	-
@@ -33995,7 +33636,6 @@ russi	russi	RUSSI	edil	-	-
 rústac	ruːstac	RUSTAK	edil	-	-
 rúta	ruːta	RUTA	edil	-	-
 ruth	ruθ	RUT	edil	-	-
-3 ruth	3 ruθ	RUT	edil	-	-
 ruthach	ruθax	RUTAK	edil	-	-
 ruud	ruud	RUUD	edil	-	-
 sa	sa	SA	edil	-	-
@@ -34048,7 +33688,6 @@ sádud	saːdud	SADUD	edil	-	-
 Saduirnn	Saduirnn	0ADUIRNN	edil	-	-
 saeb	saib	SAIB	edil	-	-
 saebad	saibad	SAIBAD	edil	-	-
-1 saebaid	1 saibaid	SAIBAID	edil	-	-
 saebaid	saibaid	SAIBAID	edil	-	-
 saebaigid	saibaigid	SAIBAIGID	edil	-	-
 saebaigtheóir	saibaigθeoːir	SAIBAIGTEOIR	edil	-	-
@@ -34253,8 +33892,6 @@ saltarnach	saltarnax	SALTARNAK	edil	-	-
 saltrach	saltrax	SALTRAK	edil	-	-
 saltrad	saltrad	SALTRAD	edil	-	-
 saltraid	saltraid	SALTRAID	edil	-	-
-2 sam	2 sam	SAM	edil	-	-
-3 sam	3 sam	SAM	edil	-	-
 sam-	sam-	SAM	edil	-	-
 sám	saːm	SAM	edil	-	-
 sámach	saːmax	SAMAK	edil	-	-
@@ -34305,7 +33942,7 @@ sámud	saːmud	SAMUD	edil	-	-
 samugad	samugad	SAMUGAD	edil	-	-
 sámugud	saːmugud	SAMUGUD	edil	-	-
 San	San	0AN	edil	-	-
-2 san	2 san	SAN	edil	-	-
+san	san	SAN	edil	-	-
 sana	sana	SANA	edil	-	-
 sanais	sanais	SANAIS	edil	-	-
 sanas	sanas	SANAS	edil	-	-
@@ -34407,7 +34044,6 @@ scáinid	scaːinid	SKAINID	edil	-	-
 scaipech	scaipex	SKAIPEK	edil	-	-
 scaipid	scaipid	SKAIPID	edil	-	-
 scairb	scairb	SKAIRB	edil	-	-
-2 scairb	2 scairb	SKAIRB	edil	-	-
 scairbide	scairbide	SKAIRBIDE	edil	-	-
 scairbidecht	scairbidext	SKAIRBIDEKT	edil	-	-
 scairt	scairt	SKAIRT	edil	-	-
@@ -34535,14 +34171,11 @@ scénmar	sceːnmar	SKENMAR	edil	-	-
 scenmda	scenmda	SKENMDA	edil	-	-
 scenmdacht	scenmdaxt	SKENMDAKT	edil	-	-
 sceo	sceo	SKEO	edil	-	-
-3 sceo	3 sceo	SKEO	edil	-	-
-4 sceo	4 sceo	SKEO	edil	-	-
 sceód	sceoːd	SKEOD	edil	-	-
 sceódaid	sceoːdaid	SKEODAID	edil	-	-
 sceola	sceola	SKEOLA	edil	-	-
 sceolang	sceolang	SKEOLANG	edil	-	-
 sceota	sceota	SKEOTA	edil	-	-
-2 sceota	2 sceota	SKEOTA	edil	-	-
 scéraid	sceːraid	SKERAID	edil	-	-
 scerda	scerda	SKERDA	edil	-	-
 scertán	scertaːn	SKERTAN	edil	-	-
@@ -34803,7 +34436,7 @@ sebortir	sebortir	SEBORTIR	edil	-	-
 sebrach	sebrax	SEBRAK	edil	-	-
 sebtaib?	sebtaib?	SEBTAIB	edil	-	-
 sec?	sec?	SEK	edil	-	-
-2 sec	2 sec	SEK	edil	-	-
+sec	sec	SEK	edil	-	-
 seca	seca	SEKA	edil	-	-
 secaide	secaide	SEKAIDE	edil	-	-
 secaigi?	secaigi?	SEKAIGI	edil	-	-
@@ -34819,7 +34452,6 @@ secdacht	secdaxt	SEKDAKT	edil	-	-
 secdae	secdai	SEKDAI	edil	-	-
 secdaigi?	secdaigi?	SEKDAIGI	edil	-	-
 sech?	sex?	SEK	edil	-	-
-6 sech	6 sex	SEK	edil	-	-
 sechabía	sexabiːa	SEKABIA	edil	-	-
 sechad	sexad	SEKAD	edil	-	-
 sechamle?	sexamle?	SEKAMLE	edil	-	-
@@ -34859,10 +34491,8 @@ sechránach	sexraːnax	SEKRANAK	edil	-	-
 sechránaigid	sexraːnaigid	SEKRANAIGID	edil	-	-
 sechránda	sexraːnda	SEKRANDA	edil	-	-
 sechránugud	sexraːnugud	SEKRANUGUD	edil	-	-
-3 secht	3 sext	SEKT	edil	-	-
 *sech-tá	*sex-taː	SSEKTA	edil	-	-
 sechtach	sextax	SEKTAK	edil	-	-
-2 sechtach	2 sextax	SEKTAK	edil	-	-
 sechtae	sextai	SEKTAI	edil	-	-
 sechtaid	sextaid	SEKTAID	edil	-	-
 sechtaide	sextaide	SEKTAIDE	edil	-	-
@@ -34882,7 +34512,6 @@ sechtmoga	sextmoga	SEKTMOGA	edil	-	-
 sechtmogtach	sextmogtax	SEKTMOGTAK	edil	-	-
 sechtmonáil	sextmonaːil	SEKTMONAIL	edil	-	-
 sechtugud	sextugud	SEKTUGUD	edil	-	-
-2 sechtugud	2 sextugud	SEKTUGUD	edil	-	-
 séclae	seːclai	SEKLAI	edil	-	-
 secnach	secnax	SEKNAK	edil	-	-
 secnap	secnap	SEKNAP	edil	-	-
@@ -34954,7 +34583,6 @@ seict	seict	SEIKT	edil	-	-
 séidid	seːidid	SEIDID	edil	-	-
 seidimin	seidimin	SEIDIMIN	edil	-	-
 séig	seːig	SEIG	edil	-	-
-2 séig	2 seːig	SEIG	edil	-	-
 séigéne	seːigeːne	SEIGENE	edil	-	-
 seigléir	seigleːir	SEIGLEIR	edil	-	-
 seil	seil	SEIL	edil	-	-
@@ -35292,7 +34920,6 @@ serthonn	serθonn	SERTONN	edil	-	-
 ses?	ses?	SES	edil	-	-
 sesc	sesc	SESK	edil	-	-
 sesca	sesca	SESKA	edil	-	-
-2 sesca	2 sesca	SESKA	edil	-	-
 sescach	sescax	SESKAK	edil	-	-
 sescad	sescad	SESKAD	edil	-	-
 sescaid	sescaid	SESKAID	edil	-	-
@@ -35335,8 +34962,7 @@ sésúr	seːsuːr	SESUR	edil	-	-
 sét	seːt	SET	edil	-	-
 seta	seta	SETA	edil	-	-
 sétach	seːtax	SETAK	edil	-	-
-1 sétaige	1 seːtaige	SETAIGE	edil	-	-
-2 sétaige	2 seːtaige	SETAIGE	edil	-	-
+sétaige	seːtaige	SETAIGE	edil	-	-
 sétaigid	seːtaigid	SETAIGID	edil	-	-
 setán	setaːn	SETAN	edil	-	-
 sethad	seθad	SETAD	edil	-	-
@@ -35446,7 +35072,6 @@ sidbither	sidbiθer	SIDBITER	edil	-	-
 sídchaire	siːdxaire	SIDKAIRE	edil	-	-
 sídchairecht	siːdxairext	SIDKAIREKT	edil	-	-
 sided	sided	SIDED	edil	-	-
-2 sided	2 sided	SIDED	edil	-	-
 sideic	sideic	SIDEIK	edil	-	-
 sidéin	sideːin	SIDEIN	edil	-	-
 sidemnaig	sidemnaig	SIDEMNAIG	edil	-	-
@@ -35515,7 +35140,7 @@ sillanach	sillanax	SILLANAK	edil	-	-
 silled	silled	SILLED	edil	-	-
 sillid	sillid	SILLID	edil	-	-
 sillite	sillite	SILLITE	edil	-	-
-2 silliud	2 silliud	SILLIUD	edil	-	-
+silliud	silliud	SILLIUD	edil	-	-
 sílne	siːlne	SILNE	edil	-	-
 siloin	siloin	SILOIN	edil	-	-
 sílrad	siːlrad	SILRAD	edil	-	-
@@ -35528,7 +35153,6 @@ siltech	siltex	SILTEK	edil	-	-
 siltin	siltin	SILTIN	edil	-	-
 síltóir	siːltoːir	SILTOIR	edil	-	-
 sim	sim	SIM	edil	-	-
-2 sim	2 sim	SIM	edil	-	-
 sima	sima	SIMA	edil	-	-
 simbail	simbail	SIMBAIL	edil	-	-
 simide	simide	SIMIDE	edil	-	-
@@ -35733,7 +35357,6 @@ siurtánaid	siurtaːnaid	SIURTANAID	edil	-	-
 siút	siuːt	SIUT	edil	-	-
 sla?	sla?	SLA	edil	-	-
 slab	slab	SLAB	edil	-	-
-2 slab	2 slab	SLAB	edil	-	-
 slabar	slabar	SLABAR	edil	-	-
 slabir	slabir	SLABIR	edil	-	-
 slabrad	slabrad	SLABRAD	edil	-	-
@@ -36000,7 +35623,6 @@ smittach	smittax	SMITTAK	edil	-	-
 smiur	smiur	SMIUR	edil	-	-
 smól	smoːl	SMOL	edil	-	-
 smólach	smoːlax	SMOLAK	edil	-	-
-3 smólach	3 smoːlax	SMOLAK	edil	-	-
 smot	smot	SMOT	edil	-	-
 smotach	smotax	SMOTAK	edil	-	-
 smotán	smotaːn	SMOTAN	edil	-	-
@@ -36029,8 +35651,7 @@ smút	smuːt	SMUT	edil	-	-
 smutach	smutax	SMUTAK	edil	-	-
 smútgur	smuːtgur	SMUTGUR	edil	-	-
 sná	snaː	SNA	edil	-	-
-1 snac	1 snac	SNAK	edil	-	-
-2 snac	2 snac	SNAK	edil	-	-
+snac	snac	SNAK	edil	-	-
 snacach	snacax	SNAKAK	edil	-	-
 snádadán	snaːdadaːn	SNADADAN	edil	-	-
 snadmach	snadmax	SNADMAK	edil	-	-
@@ -36063,7 +35684,6 @@ snámaid	snaːmaid	SNAMAID	edil	-	-
 snámaige	snaːmaige	SNAMAIGE	edil	-	-
 snámrad	snaːmrad	SNAMRAD	edil	-	-
 snas	snas	SNAS	edil	-	-
-2 snas	2 snas	SNAS	edil	-	-
 snasaid	snasaid	SNASAID	edil	-	-
 snasta	snasta	SNASTA	edil	-	-
 snáth	snaːθ	SNAT	edil	-	-
@@ -36182,7 +35802,6 @@ sodach	sodax	SODAK	edil	-	-
 sódach	soːdax	SODAK	edil	-	-
 sodachas	sodaxas	SODAKAS	edil	-	-
 sodain	sodain	SODAIN	edil	-	-
-2 sodain	2 sodain	SODAIN	edil	-	-
 sodáin	sodaːin	SODAIN	edil	-	-
 sodaing	sodaing	SODAING	edil	-	-
 sódamail	soːdamail	SODAMAIL	edil	-	-
@@ -36347,7 +35966,6 @@ somnathe	somnaθe	SOMNATE	edil	-	-
 somnid	somnid	SOMNID	edil	-	-
 sompla	sompla	SOMPLA	edil	-	-
 son	son	SON	edil	-	-
-3 son	3 son	SON	edil	-	-
 són	soːn	SON	edil	-	-
 sonacht	sonaxt	SONAKT	edil	-	-
 sonad	sonad	SONAD	edil	-	-
@@ -36391,7 +36009,6 @@ sorchaide	sorxaide	SORKAIDE	edil	-	-
 sorchaigidir	sorxaigidir	SORKAIGIDIR	edil	-	-
 sordach	sordax	SORDAK	edil	-	-
 sordán	sordaːn	SORDAN	edil	-	-
-2 sordán	2 sordaːn	SORDAN	edil	-	-
 sordlach	sordlax	SORDLAK	edil	-	-
 soréid	soreːid	SOREID	edil	-	-
 sórt	soːrt	SORT	edil	-	-
@@ -36528,7 +36145,6 @@ spledachus	spledaxus	SPLEDAKUS	edil	-	-
 spledaigid	spledaigid	SPLEDAIGID	edil	-	-
 splín	spliːn	SPLIN	edil	-	-
 splínach	spliːnax	SPLINAK	edil	-	-
-2 splínach	2 spliːnax	SPLINAK	edil	-	-
 splingc	splingc	SPLINGK	edil	-	-
 splínide	spliːnide	SPLINIDE	edil	-	-
 splínuigthe	spliːnuigθe	SPLINUIGTE	edil	-	-
@@ -36701,7 +36317,7 @@ sroigled	sroigled	SROIGLED	edil	-	-
 sroiglid	sroiglid	SROIGLID	edil	-	-
 sroigligid	sroigligid	SROIGLIGID	edil	-	-
 sról	sroːl	SROL	edil	-	-
-2 sróll	2 sroːll	SROLL	edil	-	-
+sróll	sroːll	SROLL	edil	-	-
 sróllamail	sroːllamail	SROLLAMAIL	edil	-	-
 sróldae	sroːldai	SROLDAI	edil	-	-
 srón	sroːn	SRON	edil	-	-
@@ -36732,7 +36348,6 @@ sruthaire	sruθaire	SRUTAIRE	edil	-	-
 sruthán	sruθaːn	SRUTAN	edil	-	-
 sruthlad	sruθlad	SRUTLAD	edil	-	-
 stá	staː	STA	edil	-	-
-2 stá	2 staː	STA	edil	-	-
 staadoirib	staadoirib	STAADOIRIB	edil	-	-
 stáb	staːb	STAB	edil	-	-
 staball	staball	STABALL	edil	-	-
@@ -37045,8 +36660,7 @@ suibsi	suibsi	SUIBSI	edil	-	-
 suicín	suiciːn	SUIKIN	edil	-	-
 suidbech	suidbex	SUIDBEK	edil	-	-
 suide	suide	SUIDE	edil	-	-
-1 suidech	1 suidex	SUIDEK	edil	-	-
-2 suidech	2 suidex	SUIDEK	edil	-	-
+suidech	suidex	SUIDEK	edil	-	-
 suidechán	suidexaːn	SUIDEKAN	edil	-	-
 suidem	suidem	SUIDEM	edil	-	-
 suidemail	suidemail	SUIDEMAIL	edil	-	-
@@ -37077,7 +36691,6 @@ suillig	suillig	SUILLIG	edil	-	-
 suilmer	suilmer	SUILMER	edil	-	-
 suiltech	suiltex	SUILTEK	edil	-	-
 suim	suim	SUIM	edil	-	-
-2 suim	2 suim	SUIM	edil	-	-
 suimedaib	suimedaib	SUIMEDAIB	edil	-	-
 suimmi	suimmi	SUIMMI	edil	-	-
 suimsoga	suimsoga	SUIMSOGA	edil	-	-
@@ -37094,7 +36707,6 @@ suipér	suipeːr	SUIPER	edil	-	-
 suir	suir	SUIR	edil	-	-
 suirded	suirded	SUIRDED	edil	-	-
 suire	suire	SUIRE	edil	-	-
-2 suire	2 suire	SUIRE	edil	-	-
 suíre	suiːre	SUIRE	edil	-	-
 suirge	suirge	SUIRGE	edil	-	-
 suirgech	suirgex	SUIRGEK	edil	-	-
@@ -37215,8 +36827,7 @@ tacaid	tacaid	TAKAID	edil	-	-
 tacair	tacair	TAKAIR	edil	-	-
 tacairt	tacairt	TAKAIRT	edil	-	-
 tacar	tacar	TAKAR	edil	-	-
-1 tacarta	1 tacarta	TAKARTA	edil	-	-
-2 tacarta	2 tacarta	TAKARTA	edil	-	-
+tacarta	tacarta	TAKARTA	edil	-	-
 tacarthach	tacarθax	TAKARTAK	edil	-	-
 tacarthóir	tacarθoːir	TAKARTOIR	edil	-	-
 taccad	taccad	TAKKAD	edil	-	-
@@ -37276,7 +36887,6 @@ tadmeisitach	tadmeisitax	TADMEISITAK	edil	-	-
 tádrainn	taːdrainn	TADRAINN	edil	-	-
 tadruim	tadruim	TADRUIM	edil	-	-
 tae	tai	TAI	edil	-	-
-3 tae	3 tai	TAI	edil	-	-
 taeb	taib	TAIB	edil	-	-
 taebach	taibax	TAIBAK	edil	-	-
 taebad	taibad	TAIBAD	edil	-	-
@@ -37327,7 +36937,6 @@ tagail	tagail	TAGAIL	edil	-	-
 taglach	taglax	TAGLAK	edil	-	-
 tagraim	tagraim	TAGRAIM	edil	-	-
 tai	tai	TAI	edil	-	-
-2 tai	2 tai	TAI	edil	-	-
 taí	taiː	TAI	edil	-	-
 táibern	taːibern	TAIBERN	edil	-	-
 taibgeóir	taibgeoːir	TAIBGEOIR	edil	-	-
@@ -37371,7 +36980,6 @@ taidbsine	taidbsine	TAIDBSINE	edil	-	-
 taidbsiu	taidbsiu	TAIDBSIU	edil	-	-
 taidchrecc	taidxrecc	TAIDKREKK	edil	-	-
 táide	taːide	TAIDE	edil	-	-
-2 táide	2 taːide	TAIDE	edil	-	-
 taíde	taiːde	TAIDE	edil	-	-
 taíden	taiːden	TAIDEN	edil	-	-
 taídenach	taiːdenax	TAIDENAK	edil	-	-
@@ -37385,7 +36993,6 @@ taídiu	taiːdiu	TAIDIU	edil	-	-
 taidiúir	taidiuːir	TAIDIUIR	edil	-	-
 taidiúire	taidiuːire	TAIDIUIRE	edil	-	-
 taídle	taiːdle	TAIDLE	edil	-	-
-1 taidlech	1 taidlex	TAIDLEK	edil	-	-
 taidlech	taidlex	TAIDLEK	edil	-	-
 taídlech	taiːdlex	TAIDLEK	edil	-	-
 taídlenach	taiːdlenax	TAIDLENAK	edil	-	-
@@ -37404,7 +37011,6 @@ taigdid	taigdid	TAIGDID	edil	-	-
 taiged	taiged	TAIGED	edil	-	-
 taigerad	taigerad	TAIGERAD	edil	-	-
 taigid	taigid	TAIGID	edil	-	-
-2 taigid	2 taigid	TAIGID	edil	-	-
 tail	tail	TAIL	edil	-	-
 tailc	tailc	TAILK	edil	-	-
 tailce	tailce	TAILKE	edil	-	-
@@ -37420,7 +37026,6 @@ tailm	tailm	TAILM	edil	-	-
 tailmire	tailmire	TAILMIRE	edil	-	-
 taim	taim	TAIM	edil	-	-
 táim	taːim	TAIM	edil	-	-
-2 táim	2 taːim	TAIM	edil	-	-
 táime	taːime	TAIME	edil	-	-
 táimech	taːimex	TAIMEK	edil	-	-
 taimen	taimen	TAIMEN	edil	-	-
@@ -37444,7 +37049,6 @@ taipe	taipe	TAIPE	edil	-	-
 táiplis	taːiplis	TAIPLIS	edil	-	-
 tair—	tair—	TAIR	edil	-	-
 tair	tair	TAIR	edil	-	-
-3 tair	3 tair	TAIR	edil	-	-
 táir	taːir	TAIR	edil	-	-
 tairbe	tairbe	TAIRBE	edil	-	-
 tairbech	tairbex	TAIRBEK	edil	-	-
@@ -37479,7 +37083,6 @@ táircide	taːircide	TAIRKIDE	edil	-	-
 táircidi	taːircidi	TAIRKIDI	edil	-	-
 taircsech	taircsex	TAIRKSEK	edil	-	-
 taircsenach	taircsenax	TAIRKSENAK	edil	-	-
-2 taircsenach	2 taircsenax	TAIRKSENAK	edil	-	-
 taircsiu	taircsiu	TAIRKSIU	edil	-	-
 taircthe	taircθe	TAIRKTE	edil	-	-
 taircthech	taircθex	TAIRKTEK	edil	-	-
@@ -37666,10 +37269,7 @@ taithcheód	taiθxeoːd	TAITKEOD	edil	-	-
 taithchrecc	taiθxrecc	TAITKREKK	edil	-	-
 taithchrentaid	taiθxrentaid	TAITKRENTAID	edil	-	-
 taithchríthid	taiθxriːθid	TAITKRITID	edil	-	-
-1 taithe	1 taiθe	TAITE	edil	-	-
-2 taithe	2 taiθe	TAITE	edil	-	-
-3 taithe	3 taiθe	TAITE	edil	-	-
-4 taithe	4 taiθe	TAITE	edil	-	-
+taithe	taiθe	TAITE	edil	-	-
 táithech	taːiθex	TAITEK	edil	-	-
 taithellach	taiθellax	TAITELLAK	edil	-	-
 taithem	taiθem	TAITEM	edil	-	-
@@ -37731,8 +37331,6 @@ tallaid	tallaid	TALLAID	edil	-	-
 tallain	tallain	TALLAIN	edil	-	-
 tallamuin	tallamuin	TALLAMUIN	edil	-	-
 tallann	tallann	TALLANN	edil	-	-
-5 tallann	5 tallann	TALLANN	edil	-	-
-6 tallann	6 tallann	TALLANN	edil	-	-
 talliama	talliama	TALLIAMA	edil	-	-
 tallód	talloːd	TALLOD	edil	-	-
 talmacht	talmaxt	TALMAKT	edil	-	-
@@ -37849,7 +37447,6 @@ tarclam	tarclam	TARKLAM	edil	-	-
 tarclamaid	tarclamaid	TARKLAMAID	edil	-	-
 tarcoba	tarcoba	TARKOBA	edil	-	-
 tarcon	tarcon	TARKON	edil	-	-
-2 tarcon	2 tarcon	TARKON	edil	-	-
 tárcud	taːrcud	TARKUD	edil	-	-
 tárcudach	taːrcudax	TARKUDAK	edil	-	-
 tardarc	tardarc	TARDARK	edil	-	-
@@ -37954,11 +37551,9 @@ tatalcdaid	tatalcdaid	TATALKDAID	edil	-	-
 tatas	tatas	TATAS	edil	-	-
 tath	taθ	TAT	edil	-	-
 táth	taːθ	TAT	edil	-	-
-4 táth	4 taːθ	TAT	edil	-	-
 tathag	taθag	TATAG	edil	-	-
 tathagach	taθagax	TATAGAK	edil	-	-
 táthaid	taːθaid	TATAID	edil	-	-
-2 táthaid	2 taːθaid	TATAID	edil	-	-
 tathaige	taθaige	TATAIGE	edil	-	-
 táthaigid	taːθaigid	TATAIGID	edil	-	-
 táthaigidir	taːθaigidir	TATAIGIDIR	edil	-	-
@@ -38020,7 +37615,6 @@ téchnaige	teːxnaige	TEKNAIGE	edil	-	-
 techt	text	TEKT	edil	-	-
 técht	teːxt	TEKT	edil	-	-
 techta	texta	TEKTA	edil	-	-
-2 techta	2 texta	TEKTA	edil	-	-
 techtach	textax	TEKTAK	edil	-	-
 techtad	textad	TEKTAD	edil	-	-
 techtaid	textaid	TEKTAID	edil	-	-
@@ -38160,7 +37754,6 @@ teipthech	teipθex	TEIPTEK	edil	-	-
 teirce	teirce	TEIRKE	edil	-	-
 teirmin	teirmin	TEIRMIN	edil	-	-
 teirt	teirt	TEIRT	edil	-	-
-3 teirt	3 teirt	TEIRT	edil	-	-
 téis	teːis	TEIS	edil	-	-
 teisbeirt	teisbeirt	TEISBEIRT	edil	-	-
 teisc	teisc	TEISK	edil	-	-
@@ -38243,7 +37836,6 @@ teöir	teöir	TEIR	edil	-	-
 teóir	teoːir	TEOIR	edil	-	-
 teoiricecht	teoiricext	TEOIRIKEKT	edil	-	-
 teol	teol	TEOL	edil	-	-
-2 teol	2 teol	TEOL	edil	-	-
 teolaid	teolaid	TEOLAID	edil	-	-
 teólaide	teoːlaide	TEOLAIDE	edil	-	-
 teóra	teoːra	TEORA	edil	-	-
@@ -38253,7 +37845,6 @@ tepersiu	tepersiu	TEPERSIU	edil	-	-
 tepor	tepor	TEPOR	edil	-	-
 terad	terad	TERAD	edil	-	-
 terba	terba	TERBA	edil	-	-
-2 terba	2 terba	TERBA	edil	-	-
 terbaid	terbaid	TERBAID	edil	-	-
 terbaig	terbaig	TERBAIG	edil	-	-
 terbert	terbert	TERBERT	edil	-	-
@@ -38298,7 +37889,6 @@ terthogu	terθogu	TERTOGU	edil	-	-
 terthriall	terθriall	TERTRIALL	edil	-	-
 teruairse	teruairse	TERUAIRSE	edil	-	-
 terus	terus	TERUS	edil	-	-
-1 tes	1 tes	TES	edil	-	-
 tes	tes	TES	edil	-	-
 tesargain	tesargain	TESARGAIN	edil	-	-
 tesbach	tesbax	TESBAK	edil	-	-
@@ -38336,7 +37926,6 @@ testas	testas	TESTAS	edil	-	-
 testimin	testimin	TESTIMIN	edil	-	-
 testiu	testiu	TESTIU	edil	-	-
 testmolta	testmolta	TESTMOLTA	edil	-	-
-5 tét	5 teːt	TET	edil	-	-
 tét-	teːt-	TET	edil	-	-
 tétach	teːtax	TETAK	edil	-	-
 tetacht	tetaxt	TETAKT	edil	-	-
@@ -38527,7 +38116,6 @@ timthirid	timθirid	TIMTIRID	edil	-	-
 timthirthid	timθirθid	TIMTIRTID	edil	-	-
 timthugae	timθugai	TIMTUGAI	edil	-	-
 tin	tin	TIN	edil	-	-
-2 tin	2 tin	TIN	edil	-	-
 tinach	tinax	TINAK	edil	-	-
 tinad	tinad	TINAD	edil	-	-
 tinaid	tinaid	TINAID	edil	-	-
@@ -38633,7 +38221,6 @@ tírda	tiːrda	TIRDA	edil	-	-
 Tírda	Tiːrda	0IRDA	edil	-	-
 tírdacht	tiːrdaxt	TIRDAKT	edil	-	-
 tírech	tiːrex	TIREK	edil	-	-
-2 tírech	2 tiːrex	TIREK	edil	-	-
 tíride	tiːride	TIRIDE	edil	-	-
 tirgnam	tirgnam	TIRGNAM	edil	-	-
 tirgorad	tirgorad	TIRGORAD	edil	-	-
@@ -38813,7 +38400,6 @@ togairid	togairid	TOGAIRID	edil	-	-
 togairle	togairle	TOGAIRLE	edil	-	-
 togairmid	togairmid	TOGAIRMID	edil	-	-
 togairt	togairt	TOGAIRT	edil	-	-
-2 togairt	2 togairt	TOGAIRT	edil	-	-
 togait	togait	TOGAIT	edil	-	-
 togall	togall	TOGALL	edil	-	-
 togán	togaːn	TOGAN	edil	-	-
@@ -38845,7 +38431,7 @@ toice	toice	TOIKE	edil	-	-
 toicech	toicex	TOIKEK	edil	-	-
 toicemail	toicemail	TOIKEMAIL	edil	-	-
 toich	toix	TOIK	edil	-	-
-1 toiche ?	1 toixe ?	TOIKE	edil	-	-
+toiche ?	toixe ?	TOIKE	edil	-	-
 toiche	toixe	TOIKE	edil	-	-
 tóichestal	toːixestal	TOIKESTAL	edil	-	-
 toichid	toixid	TOIKID	edil	-	-
@@ -38880,9 +38466,7 @@ toimtiu	toimtiu	TOIMTIU	edil	-	-
 toimtnigid	toimtnigid	TOIMTNIGID	edil	-	-
 toin	toin	TOIN	edil	-	-
 tóin	toːin	TOIN	edil	-	-
-1 toinge	1 toinge	TOINGE	edil	-	-
-2 toinge	2 toinge	TOINGE	edil	-	-
-3 toinge	3 toinge	TOINGE	edil	-	-
+toinge	toinge	TOINGE	edil	-	-
 toíniud	toiːniud	TOINIUD	edil	-	-
 toinmi	toinmi	TOINMI	edil	-	-
 toinnem	toinnem	TOINNEM	edil	-	-
@@ -38958,21 +38542,18 @@ tóitighe	toːitiɣe	TOITIGE	edil	-	-
 toitmithi	toitmiθi	TOITMITI	edil	-	-
 tóitrid	toːitrid	TOITRID	edil	-	-
 tóla	toːla	TOLA	edil	-	-
-1 tolach	1 tolax	TOLAK	edil	-	-
 tolach	tolax	TOLAK	edil	-	-
 tólach	toːlax	TOLAK	edil	-	-
 tolad	tolad	TOLAD	edil	-	-
 tolam	tolam	TOLAM	edil	-	-
 tolchaire	tolxaire	TOLKAIRE	edil	-	-
 tolegad	tolegad	TOLEGAD	edil	-	-
-3 tolg	3 tolg	TOLG	edil	-	-
 tolgach	tolgax	TOLGAK	edil	-	-
 tolgad	tolgad	TOLGAD	edil	-	-
 tolgaid	tolgaid	TOLGAID	edil	-	-
 tolgán	tolgaːn	TOLGAN	edil	-	-
 tolgánach	tolgaːnax	TOLGANAK	edil	-	-
 tolgánta	tolgaːnta	TOLGANTA	edil	-	-
-1 tolgda	1 tolgda	TOLGDA	edil	-	-
 tolgda	tolgda	TOLGDA	edil	-	-
 toll	toll	TOLL	edil	-	-
 tollad	tollad	TOLLAD	edil	-	-
@@ -39019,10 +38600,7 @@ tonaidm	tonaidm	TONAIDM	edil	-	-
 tonaigid	tonaigid	TONAIGID	edil	-	-
 tond	tond	TOND	edil	-	-
 tongaid	tongaid	TONGAID	edil	-	-
-2 tonn	2 tonn	TONN	edil	-	-
 tonnach	tonnax	TONNAK	edil	-	-
-3 tonnach	3 tonnax	TONNAK	edil	-	-
-4 tonnach	4 tonnax	TONNAK	edil	-	-
 tonnad	tonnad	TONNAD	edil	-	-
 tonnaid	tonnaid	TONNAID	edil	-	-
 tonnaigid	tonnaigid	TONNAIGID	edil	-	-
@@ -39131,7 +38709,6 @@ tostanach	tostanax	TOSTANAK	edil	-	-
 toṡúgad	tohuːgad	TOHUGAD	edil	-	-
 tot	tot	TOT	edil	-	-
 toth	toθ	TOT	edil	-	-
-2 toth	2 toθ	TOT	edil	-	-
 tothacht	toθaxt	TOTAKT	edil	-	-
 tothachtach	toθaxtax	TOTAKTAK	edil	-	-
 tothchaire	toθxaire	TOTKAIRE	edil	-	-
@@ -39150,9 +38727,7 @@ trabda	trabda	TRABDA	edil	-	-
 Tracdae	Tracdai	0RAKDAI	edil	-	-
 trachlad	traxlad	TRAKLAD	edil	-	-
 trácht	traːxt	TRAKT	edil	-	-
-6 trácht	6 traːxt	TRAKT	edil	-	-
 tráchtach	traːxtax	TRAKTAK	edil	-	-
-2 tráchtach	2 traːxtax	TRAKTAK	edil	-	-
 tráchtad	traːxtad	TRAKTAD	edil	-	-
 tráchtaid	traːxtaid	TRAKTAID	edil	-	-
 tráchtaide	traːxtaide	TRAKTAIDE	edil	-	-
@@ -39289,7 +38864,6 @@ tréda	treːda	TREDA	edil	-	-
 tredabus	tredabus	TREDABUS	edil	-	-
 trédacht	treːdaxt	TREDAKT	edil	-	-
 tredan	tredan	TREDAN	edil	-	-
-2 tredan	2 tredan	TREDAN	edil	-	-
 trédatu	treːdatu	TREDATU	edil	-	-
 tredelbdae	tredelbdai	TREDELBDAI	edil	-	-
 trédenosta	treːdenosta	TREDENOSTA	edil	-	-
@@ -39322,8 +38896,7 @@ trefhuilngid	tre∅uilngid	TREUILNGID	edil	-	-
 trefne	trefne	TREPNE	edil	-	-
 treftech	treftex	TREPTEK	edil	-	-
 treg	treg	TREG	edil	-	-
-1 trega	1 trega	TREGA	edil	-	-
-2 trega	2 trega	TREGA	edil	-	-
+trega	trega	TREGA	edil	-	-
 tregabail	tregabail	TREGABAIL	edil	-	-
 tregaigi	tregaigi	TREGAIGI	edil	-	-
 tregat	tregat	TREGAT	edil	-	-
@@ -39477,7 +39050,6 @@ tríanach	triːanax	TRIANAK	edil	-	-
 trí-aon	triː-aon	TRIAON	edil	-	-
 trí-aonta	triː-aonta	TRIAONTA	edil	-	-
 tríar	triːar	TRIAR	edil	-	-
-1 trías	1 triːas	TRIAS	edil	-	-
 trías	triːas	TRIAS	edil	-	-
 tríasanduile	triːasanduile	TRIASANDUILE	edil	-	-
 tríath	triːaθ	TRIAT	edil	-	-
@@ -39603,7 +39175,6 @@ troitech	troitex	TROITEK	edil	-	-
 troithlide	troiθlide	TROITLIDE	edil	-	-
 troll	troll	TROLL	edil	-	-
 trolmaib	trolmaib	TROLMAIB	edil	-	-
-4 trom	4 trom	TROM	edil	-	-
 tromaidecht	tromaidext	TROMAIDEKT	edil	-	-
 tromaigid	tromaigid	TROMAIGID	edil	-	-
 tromchride	tromxride	TROMKRIDE	edil	-	-
@@ -39764,9 +39335,6 @@ túamda	tuːamda	TUAMDA	edil	-	-
 túar	tuːar	TUAR	edil	-	-
 túara	tuːara	TUARA	edil	-	-
 túarad	tuːarad	TUARAD	edil	-	-
-3 túarad	3 tuːarad	TUARAD	edil	-	-
-4 túarad	4 tuːarad	TUARAD	edil	-	-
-5 túarad	5 tuːarad	TUARAD	edil	-	-
 túaradlia	tuːaradlia	TUARADLIA	edil	-	-
 túare	tuːare	TUARE	edil	-	-
 túaraid	tuːaraid	TUARAID	edil	-	-
@@ -39798,7 +39366,6 @@ túath-	tuːaθ-	TUAT	edil	-	-
 túathach	tuːaθax	TUATAK	edil	-	-
 túathaid	tuːaθaid	TUATAID	edil	-	-
 túathait	tuːaθait	TUATAIT	edil	-	-
-2 túathait	2 tuːaθait	TUATAIT	edil	-	-
 túathamail	tuːaθamail	TUATAMAIL	edil	-	-
 túathamlacht	tuːaθamlaxt	TUATAMLAKT	edil	-	-
 túathannach	tuːaθannax	TUATANNAK	edil	-	-
@@ -39817,7 +39384,6 @@ tubaist	tubaist	TUBAIST	edil	-	-
 tubaisech	tubaisex	TUBAISEK	edil	-	-
 tubron	tubron	TUBRON	edil	-	-
 tuc	tuc	TUK	edil	-	-
-2 tuc	2 tuc	TUK	edil	-	-
 tucáil	tucaːil	TUKAIL	edil	-	-
 tucait	tucait	TUKAIT	edil	-	-
 tucbáil	tucbaːil	TUKBAIL	edil	-	-
@@ -39844,7 +39410,6 @@ tuicsech	tuicsex	TUIKSEK	edil	-	-
 tuicsinugud	tuicsinugud	TUIKSINUGUD	edil	-	-
 tuicthechtai	tuicθextai	TUIKTEKTAI	edil	-	-
 tuid	tuid	TUID	edil	-	-
-2 tuid	2 tuid	TUID	edil	-	-
 tuidbigid	tuidbigid	TUIDBIGID	edil	-	-
 tuidchisse	tuidxisse	TUIDKISSE	edil	-	-
 tuiddine	tuiddine	TUIDDINE	edil	-	-
@@ -39915,8 +39480,6 @@ tuinsid	tuinsid	TUINSID	edil	-	-
 tuinside	tuinside	TUINSIDE	edil	-	-
 tuintemla	tuintemla	TUINTEMLA	edil	-	-
 tuir	tuir	TUIR	edil	-	-
-2 tuir	2 tuir	TUIR	edil	-	-
-3 tuir	3 tuir	TUIR	edil	-	-
 tuirbech	tuirbex	TUIRBEK	edil	-	-
 tuirbit	tuirbit	TUIRBIT	edil	-	-
 Tuircínech	Tuirciːnex	0UIRKINEK	edil	-	-
@@ -39924,7 +39487,6 @@ tuire	tuire	TUIRE	edil	-	-
 tuiredach	tuiredax	TUIREDAK	edil	-	-
 tuirem	tuirem	TUIREM	edil	-	-
 tuirenn	tuirenn	TUIRENN	edil	-	-
-4 tuirenn	4 tuirenn	TUIRENN	edil	-	-
 tuireóg	tuireoːg	TUIREOG	edil	-	-
 tuiresg	tuiresg	TUIRESG	edil	-	-
 tuirid	tuirid	TUIRID	edil	-	-
@@ -39933,7 +39495,6 @@ tuirig	tuirig	TUIRIG	edil	-	-
 tuirigin	tuirigin	TUIRIGIN	edil	-	-
 túirling	tuːirling	TUIRLING	edil	-	-
 tuirmech	tuirmex	TUIRMEK	edil	-	-
-1 tuirn	1 tuirn	TUIRN	edil	-	-
 tuirn	tuirn	TUIRN	edil	-	-
 tuirpill	tuirpill	TUIRPILL	edil	-	-
 tuirse	tuirse	TUIRSE	edil	-	-
@@ -40004,12 +39565,10 @@ tunscanad	tunscanad	TUNSKANAD	edil	-	-
 tur-	tur-	TUR	edil	-	-
 tur	tur	TUR	edil	-	-
 túr	tuːr	TUR	edil	-	-
-4 túr	4 tuːr	TUR	edil	-	-
 tura	tura	TURA	edil	-	-
 turach	turax	TURAK	edil	-	-
 túrach	tuːrax	TURAK	edil	-	-
 turad	turad	TURAD	edil	-	-
-2 turad	2 turad	TURAD	edil	-	-
 turaigid	turaigid	TURAIGID	edil	-	-
 turba	turba	TURBA	edil	-	-
 turbadach	turbadax	TURBADAK	edil	-	-
@@ -40068,9 +39627,7 @@ turthait	turθait	TURTAIT	edil	-	-
 turthochmarc	turθoxmarc	TURTOKMARK	edil	-	-
 turtli	turtli	TURTLI	edil	-	-
 turtugud	turtugud	TURTUGUD	edil	-	-
-2 turtugud	2 turtugud	TURTUGUD	edil	-	-
 turtur	turtur	TURTUR	edil	-	-
-2 turtur	2 turtur	TURTUR	edil	-	-
 turuind	turuind	TURUIND	edil	-	-
 turus	turus	TURUS	edil	-	-
 tús	tuːs	TUS	edil	-	-
@@ -40109,14 +39666,12 @@ tuur	tuur	TUUR	edil	-	-
 úachtlan	uːaxtlan	UAKTLAN	edil	-	-
 úachtlanaide	uːaxtlanaide	UAKTLANAIDE	edil	-	-
 úad	uːad	UAD	edil	-	-
-3 úad	3 uːad	UAD	edil	-	-
 úadabar	uːadabar	UADABAR	edil	-	-
 úadaib	uːadaib	UADAIB	edil	-	-
 úad-airberthach	uːad-airberθax	UADAIRBERTAK	edil	-	-
 húaderet	huːaderet	HUADERET	edil	-	-
 úadfíalichthe	uːadfiːalixθe	UADPIALIKTE	edil	-	-
 úag	uːag	UAG	edil	-	-
-3 úag	3 uːag	UAG	edil	-	-
 úagba	uːagba	UAGBA	edil	-	-
 úagdae	uːagdai	UAGDAI	edil	-	-
 úage	uːage	UAGE	edil	-	-
@@ -40205,7 +39760,6 @@ ualabard	ualabard	UALABARD	edil	-	-
 úalfartach	uːalfartax	UALPARTAK	edil	-	-
 úalib	uːalib	UALIB	edil	-	-
 úall	uːall	UALL	edil	-	-
-2 úall	2 uːall	UALL	edil	-	-
 úallach	uːallax	UALLAK	edil	-	-
 úallachas	uːallaxas	UALLAKAS	edil	-	-
 úallaid	uːallaid	UALLAID	edil	-	-
@@ -40635,8 +40189,6 @@ uptha	upθa	UPTA	edil	-	-
 ur-	ur-	UR	edil	-	-
 ur	ur	UR	edil	-	-
 úr	uːr	UR	edil	-	-
-7 úr	7 uːr	UR	edil	-	-
-8 úr	8 uːr	UR	edil	-	-
 úrach	uːrax	URAK	edil	-	-
 úrachad	uːraxad	URAKAD	edil	-	-
 urad	urad	URAD	edil	-	-

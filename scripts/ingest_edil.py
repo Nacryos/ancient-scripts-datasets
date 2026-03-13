@@ -135,10 +135,10 @@ def extract_headwords(xml_path: Path) -> list[dict]:
 
         word = orth.text.strip()
 
-        # Remove numeric prefixes like "1 ", "2 "
-        word = re.sub(r"^\d+\s+", "", word)
         # Remove leading ? (uncertain entries)
         word = re.sub(r"^\?\s*", "", word)
+        # Remove numeric prefixes like "1 ", "2 "
+        word = re.sub(r"^\d+\s+", "", word)
         # Remove parenthetical optional letters like "(h)"
         word = re.sub(r"\([^)]+\)", "", word)
         # NFC normalize
