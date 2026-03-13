@@ -22,11 +22,11 @@ nld	germanic	dutc1256	43054	northeuralex,wikipron,wold
 ukr	balto_slavic	ukra1253	40486	northeuralex,wikipron
 jpn	japonic	nucl1643	37611	northeuralex,wikipron,wold
 hye	armenian	nucl1235	32579	northeuralex,wikipron
+ang	germanic	olde1238	31319	wikipron,wiktionary_cat
 hin	indo_iranian	hind1269	27939	northeuralex,wikipron
 kor	koreanic	kore1280	27705	northeuralex,wikipron
 akk	semitic	akka1240	24341	oracc_neo,oracc_qpn,pleiades,wikipron,wiktionary_cat
 cym	celtic	wels1247	22646	northeuralex,wikipron
-ang	germanic	olde1238	22094	wikipron
 sux	unknown		19518	kaikki,oracc_neo,oracc_qpn,pleiades,wiktionary_cat
 kat	kartvelian	nucl1302	19387	northeuralex,wikipron
 tha	tai_kadai	thai1261	18585	wikipron,wold
@@ -36,10 +36,11 @@ ell	hellenic	mode1248	16851	northeuralex,wikipron
 gle	celtic	iris1253	16085	northeuralex,wikipron
 ara	semitic	arab1395	13339	wikipron
 san	indo_iranian	sans1269	12907	wikipron
+hbo	unknown		12182	wiktionary_cat
 isl	germanic	icel1247	11916	northeuralex,wikipron
 ben	indo_iranian	beng1280	11339	northeuralex,wikipron
+cop	afroasiatic_egyptian	copt1239	11180	kellia_coptic,wikipron,wiktionary_cat
 enm	germanic	midd1317	10523	wikipron
-cop	afroasiatic_egyptian	copt1239	10107	kellia_coptic,wikipron
 eus	isolates	basq1248	10020	northeuralex,wikipron
 mal	dravidian	mala1464	9005	northeuralex,wikipron
 ron	italic	roma1327	8550	northeuralex,wikipron,wold
@@ -53,6 +54,7 @@ ady	northwest_caucasian	adyg1241	6839	northeuralex,wikipron
 dan	germanic	dani1285	6570	northeuralex,wikipron
 syc	semitic	clas1252	6319	wikipron
 khm	austroasiatic	cent1989	6302	wikipron
+xcl	unknown		6277	wiktionary_cat
 mya	sino_tibetan	nucl1310	6075	wikipron
 slv	balto_slavic	slov1268	5842	northeuralex,wikipron
 swe	germanic	swed1254	5549	northeuralex,wikipron
@@ -92,6 +94,7 @@ bod	sino_tibetan	clas1255	2996	sinotibetan,wikipron
 asm	indo_iranian	assa1263	2925	wikipron
 sqi	albanian	alba1268	2899	northeuralex,wikipron
 kpv	uralic	komi1268	2822	northeuralex,wikipron
+pli	unknown		2792	wiktionary_cat
 lit	balto_slavic	lith1251	2774	northeuralex,wikipron
 ket	isolates	kett1243	2765	northeuralex,wold
 kan	dravidian	nucl1305	2743	northeuralex,wikipron
@@ -333,6 +336,7 @@ ccs-pro	kartvelian	kart1248	504	wiktionary,wiktionary_cat
 snc	austronesian		502	abvd
 khb	tai_kadai	luuu1242	499	wikipron
 dix	austronesian		497	abvd
+gez	unknown		496	wiktionary_cat
 mvt	austronesian		495	abvd
 pag	austronesian	pang1290	492	abvd,wikipron
 tyv	turkic	tuvi1240	492	wikipron
@@ -564,9 +568,9 @@ ssv	austronesian		272	abvd
 qxs	sino_tibetan	mawo1239	269	sinotibetan
 txs	austronesian		269	abvd
 klr	sino_tibetan	khal1275	269	sinotibetan
+xht	unknown		269	kassian2010,kassian2010_basic,seed,wiktionary_cat
 bca	sino_tibetan	jian1238	268	sinotibetan
 mpx	austronesian		268	abvd
-xht	unknown		268	kassian2010,kassian2010_basic,seed
 lcm	austronesian		267	abvd
 wls	austronesian		267	abvd
 rgn	italic	roma1328	266	wikipron
