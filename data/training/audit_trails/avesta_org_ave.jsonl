@@ -1,35 +1,1189 @@
-{"word": "NOTE", "gloss": "layout is", "ipa": "NOTE", "source": "avesta.org"}
-{"word": "Example", "gloss": "baodh", "ipa": "Example", "source": "avesta.org"}
-{"word": "ahura", "gloss": "mazda", "ipa": "ahura", "source": "avesta.org"}
-{"word": "aiwi", "gloss": "druxt", "ipa": "aiwi", "source": "avesta.org"}
-{"word": "apa", "gloss": "dvarata", "ipa": "apa", "source": "avesta.org"}
-{"word": "ash", "gloss": "varec", "ipa": "ash", "source": "avesta.org"}
-{"word": "aurvat", "gloss": "aspa", "ipa": "aurvat", "source": "avesta.org"}
-{"word": "swift", "gloss": "horsed", "ipa": "swift", "source": "avesta.org"}
-{"word": "ava", "gloss": "baraiti", "ipa": "ava", "source": "avesta.org"}
-{"word": "avi", "gloss": "mithrish", "ipa": "avi", "source": "avesta.org"}
-{"word": "cathru", "gloss": "cashmem", "ipa": "tʃathru", "source": "avesta.org"}
-{"word": "cinvat", "gloss": "peret", "ipa": "tʃinvat", "source": "avesta.org"}
-{"word": "darshi", "gloss": "draosh", "ipa": "darshi", "source": "avesta.org"}
-{"word": "eresh", "gloss": "vac", "ipa": "eresh", "source": "avesta.org"}
-{"word": "fra", "gloss": "stu", "ipa": "fra", "source": "avesta.org"}
-{"word": "hacat", "gloss": "puthr", "ipa": "hatʃat", "source": "avesta.org"}
-{"word": "hadha", "gloss": "aiwy", "ipa": "hadha", "source": "avesta.org"}
-{"word": "hazangra", "gloss": "gaoshem", "ipa": "hazanɡra", "source": "avesta.org"}
-{"word": "well", "gloss": "shapen; beautifully formed", "ipa": "well", "source": "avesta.org"}
-{"word": "kerefsh", "gloss": "hvar", "ipa": "kerefsh", "source": "avesta.org"}
-{"word": "mat", "gloss": "afsman", "ipa": "mat", "source": "avesta.org"}
-{"word": "naire", "gloss": "man", "ipa": "naire", "source": "avesta.org"}
-{"word": "para", "gloss": "baraiti", "ipa": "para", "source": "avesta.org"}
-{"word": "pouru", "gloss": "mahrkahe", "ipa": "pouru", "source": "avesta.org"}
-{"word": "tanu", "gloss": "perethan", "ipa": "tanu", "source": "avesta.org"}
-{"word": "thri", "gloss": "ayarem", "ipa": "thri", "source": "avesta.org"}
-{"word": "upa", "gloss": "bara", "ipa": "upa", "source": "avesta.org"}
-{"word": "ushi", "gloss": "darenahe", "ipa": "ushi", "source": "avesta.org"}
-{"word": "vohu", "gloss": "gaonahe", "ipa": "vohu", "source": "avesta.org"}
-{"word": "vouru", "gloss": "gaoyaoite", "ipa": "vouru", "source": "avesta.org"}
-{"word": "either", "gloss": "or", "ipa": "either", "source": "avesta.org"}
-{"word": "zairi", "gloss": "gaosha", "ipa": "zairi", "source": "avesta.org"}
-{"word": "green", "gloss": "eared; golden-eared", "ipa": "ɡreen", "source": "avesta.org"}
-{"word": "AVESTA", "gloss": "Concise dictionary", "ipa": "AVESTA", "source": "avesta.org"}
-{"word": "Atmanepada", "gloss": "middle\nB", "ipa": "Atmanepada", "source": "avesta.org"}
+{"word": "baodha", "gloss": "perfume", "ipa": "baodha", "source": "avesta.org"}
+{"word": "a-", "gloss": "this", "ipa": "a-", "source": "avesta.org"}
+{"word": "ad", "gloss": "to eat; to say", "ipa": "ad", "source": "avesta.org"}
+{"word": "adha", "gloss": "then, thereupon, thus, now, so", "ipa": "adha", "source": "avesta.org"}
+{"word": "adhairi", "gloss": "under, below", "ipa": "adhairi", "source": "avesta.org"}
+{"word": "adhaoyamna", "gloss": "undeceivable; one who is not deceived", "ipa": "adhaojamna", "source": "avesta.org"}
+{"word": "a-dâ", "gloss": "does not give (Sp A M)", "ipa": "a-dâ", "source": "avesta.org"}
+{"word": "adhât", "gloss": "thereupon, afterwards; from that place; thence; there, in that place", "ipa": "adhât", "source": "avesta.org"}
+{"word": "adhwan", "gloss": "way, path, course; space", "ipa": "adhwan", "source": "avesta.org"}
+{"word": "aem", "gloss": "these", "ipa": "aem", "source": "avesta.org"}
+{"word": "i", "gloss": "to go; to come", "ipa": "i", "source": "avesta.org"}
+{"word": "aêm", "gloss": "this, that; egg", "ipa": "aêm", "source": "avesta.org"}
+{"word": "aêsma", "gloss": "firewood, fuel", "ipa": "aêsma", "source": "avesta.org"}
+{"word": "aêta", "gloss": "this, that", "ipa": "aêta", "source": "avesta.org"}
+{"word": "aêshma", "gloss": "cruelty, fury, wrath", "ipa": "aêshma", "source": "avesta.org"}
+{"word": "aêtadha", "gloss": "there, in that place; then", "ipa": "aêtadha", "source": "avesta.org"}
+{"word": "aêtahmâyush", "gloss": "there; then", "ipa": "aêtahmâjush", "source": "avesta.org"}
+{"word": "aêtavañt", "gloss": "much, this much", "ipa": "aêtavañt", "source": "avesta.org"}
+{"word": "aêva", "gloss": "one, only, alone; in this manner, thus", "ipa": "aêva", "source": "avesta.org"}
+{"word": "aêvô-dâta", "gloss": "only created", "ipa": "aêvô-dâta", "source": "avesta.org"}
+{"word": "afrasånghâ", "gloss": "an instructor, a preacher", "ipa": "afrasånɡhâ", "source": "avesta.org"}
+{"word": "afsmana", "gloss": "verse-line (Kr80), verse; merit", "ipa": "afsmana", "source": "avesta.org"}
+{"word": "akha", "gloss": "bad, evil", "ipa": "akha", "source": "avesta.org"}
+{"word": "ah", "gloss": "to be", "ipa": "ah", "source": "avesta.org"}
+{"word": "ahãxshtakhna", "gloss": "innumerable times", "ipa": "ahãxshtakhna", "source": "avesta.org"}
+{"word": "ahe", "gloss": "this; that", "ipa": "ahe", "source": "avesta.org"}
+{"word": "azem", "gloss": "us, our", "ipa": "azem", "source": "avesta.org"}
+{"word": "ahmi-a", "gloss": "therein", "ipa": "ahmi-a", "source": "avesta.org"}
+{"word": "ahu", "gloss": "lord", "ipa": "ahu", "source": "avesta.org"}
+{"word": "anghu", "gloss": "(both) lives", "ipa": "anɡhu", "source": "avesta.org"}
+{"word": "ahuna", "gloss": "the Ahunwar prayer", "ipa": "ahuna", "source": "avesta.org"}
+{"word": "ahunavaiñt", "gloss": "Ahunavaiti Gatha; 1st Gatha", "ipa": "ahunavaiñt", "source": "avesta.org"}
+{"word": "ahura-mazda", "gloss": "Ahura Mazda, God", "ipa": "ahura-mazda", "source": "avesta.org"}
+{"word": "ahura-tkaêsha", "gloss": "following the doctrines of Ahura", "ipa": "ahura-tkaêsha", "source": "avesta.org"}
+{"word": "ahuradhâta", "gloss": "made or created by Ahura; given by Ahura", "ipa": "ahuradhâta", "source": "avesta.org"}
+{"word": "ahurânî", "gloss": "Ahuranis [ladies] (Hum), Wives of Ahura (ts); epithet of Anahita and water", "ipa": "ahurânî", "source": "avesta.org"}
+{"word": "aibi-gaya", "gloss": "Aibigaya, watching over life (lit.)", "ipa": "aibi-ɡaja", "source": "avesta.org"}
+{"word": "anya, ainya", "gloss": "different, other", "ipa": "anja, ainja", "source": "avesta.org"}
+{"word": "aipi", "gloss": "also, too; (prep", "ipa": "aipi", "source": "avesta.org"}
+{"word": "airima", "gloss": "seclusion, quiet; quietly", "ipa": "airima", "source": "avesta.org"}
+{"word": "airyama", "gloss": "companionship, guest", "ipa": "airjama", "source": "avesta.org"}
+{"word": "airyaman", "gloss": "Airyaman, name of a Yazad; a prayer, Y54; a serviter; community", "ipa": "airjaman", "source": "avesta.org"}
+{"word": "airya", "gloss": "of noble birth, respectable (lit.), Aryan, Iranian", "ipa": "airja", "source": "avesta.org"}
+{"word": "airyana", "gloss": "Aryan, Iranian", "ipa": "airjana", "source": "avesta.org"}
+{"word": "aiti", "gloss": "back", "ipa": "aiti", "source": "avesta.org"}
+{"word": "aiti-shê", "gloss": "[aiti + shê]", "ipa": "aiti-shê", "source": "avesta.org"}
+{"word": "aithyajangha", "gloss": "imperishable, incorruptible", "ipa": "aithjadʒanɡha", "source": "avesta.org"}
+{"word": "aiwi", "gloss": "to, unto, over, direction, high up, above, near; exceedingly, very; around", "ipa": "aiwi", "source": "avesta.org"}
+{"word": "aiwi-druxta", "gloss": "falsehood, defrauding, deceit", "ipa": "aiwi-druxta", "source": "avesta.org"}
+{"word": "aiwi-druj", "gloss": "to be false, to break a contract or agreement, to deceive", "ipa": "aiwi-drudʒ", "source": "avesta.org"}
+{"word": "aiwi-vanyangh", "gloss": "more smiting or triumphant", "ipa": "aiwi-vanjanɡh", "source": "avesta.org"}
+{"word": "aiwi-srûthrema", "gloss": "Aiwisruthrem (gah), period of day from sunset to midnight", "ipa": "aiwi-srûthrema", "source": "avesta.org"}
+{"word": "aiwithûra", "gloss": "victorious (AHM), powerful, triumphant", "ipa": "aiwithûra", "source": "avesta.org"}
+{"word": "aiwyâsti", "gloss": "(the act of) travelling", "ipa": "aiwjâsti", "source": "avesta.org"}
+{"word": "aiwi-xshi", "gloss": "supervise (Kr), oversee, watch over, rule", "ipa": "aiwi-xshi", "source": "avesta.org"}
+{"word": "aiwyånghayåñti", "gloss": "(they shall) gird around", "ipa": "aiwjånɡhajåñti", "source": "avesta.org"}
+{"word": "ajyamna", "gloss": "unending (TS), inexhaustible (Mal) unfailing (Darm); imperishable (M)", "ipa": "adʒjamna", "source": "avesta.org"}
+{"word": "akarana", "gloss": "boundless", "ipa": "akarana", "source": "avesta.org"}
+{"word": "ama", "gloss": "strength; Strength; courage; Courage (k), Power of Attack", "ipa": "ama", "source": "avesta.org"}
+{"word": "amavañt", "gloss": "strong, vigorous, courageous", "ipa": "amavañt", "source": "avesta.org"}
+{"word": "ameretât", "gloss": "immortality; also, one of the Amesha Spentas", "ipa": "ameretât", "source": "avesta.org"}
+{"word": "amesha", "gloss": "immortal", "ipa": "amesha", "source": "avesta.org"}
+{"word": "amyazdavan", "gloss": "not offering Myazda or oblation in sacred service", "ipa": "amjazdavan", "source": "avesta.org"}
+{"word": "anaêsha", "gloss": "powerless, lacking in vigour", "ipa": "anaêsha", "source": "avesta.org"}
+{"word": "anakhra", "gloss": "endless, boundless", "ipa": "anakhra", "source": "avesta.org"}
+{"word": "anaiwishti", "gloss": "failing to study, not studying", "ipa": "anaiwishti", "source": "avesta.org"}
+{"word": "anaiwyâsta", "gloss": "ungirded, not girded up the loins (lit.), not put on the kusti; inexperienced", "ipa": "anaiwjâsta", "source": "avesta.org"}
+{"word": "anashavan", "gloss": "not honest-holy-truth-speaking", "ipa": "anashavan", "source": "avesta.org"}
+{"word": "anâhita", "gloss": "immaculate, undefiled, void of impurity, (pure); epithet of Aredvi Sura", "ipa": "anâhita", "source": "avesta.org"}
+{"word": "aem?", "gloss": "with these", "ipa": "aem?", "source": "avesta.org"}
+{"word": "anâpa", "gloss": "without water", "ipa": "anâpa", "source": "avesta.org"}
+{"word": "anâperetha", "gloss": "inexpiable; that admits of no atonement", "ipa": "anâperetha", "source": "avesta.org"}
+{"word": "anu", "gloss": "along, after (jar), according to, being in suitable proportion", "ipa": "anu", "source": "avesta.org"}
+{"word": "anumaiti", "gloss": "thinking in conformity with", "ipa": "anumaiti", "source": "avesta.org"}
+{"word": "anumaya", "gloss": "small cattle, a sheep, a goat", "ipa": "anumaja", "source": "avesta.org"}
+{"word": "an-usangt", "gloss": "unwilling", "ipa": "an-usanɡt", "source": "avesta.org"}
+{"word": "anuxti", "gloss": "speaking in conformity with", "ipa": "anuxti", "source": "avesta.org"}
+{"word": "anya", "gloss": "another, else (jar), other - in general (anya ..", "ipa": "anja", "source": "avesta.org"}
+{"word": "anghuya", "gloss": "life force (Mal), energy (Hum), vital power; heart, conscience", "ipa": "anɡhuja", "source": "avesta.org"}
+{"word": "angra", "gloss": "hostile, evil, bad", "ipa": "anɡra", "source": "avesta.org"}
+{"word": "añgushta", "gloss": "toe", "ipa": "añɡushta", "source": "avesta.org"}
+{"word": "añtara", "gloss": "inside", "ipa": "añtara", "source": "avesta.org"}
+{"word": "añtare", "gloss": "interior (adv", "ipa": "añtare", "source": "avesta.org"}
+{"word": "añtare-mâh", "gloss": "the day before the new moon; the new moon (Sg), the days after the new moon", "ipa": "añtare-mâh", "source": "avesta.org"}
+{"word": "anghå", "gloss": "this, those", "ipa": "anɡhå", "source": "avesta.org"}
+{"word": "aoj-", "gloss": "speak, say", "ipa": "aodʒ-", "source": "avesta.org"}
+{"word": "aojangh", "gloss": "strength, power; strong", "ipa": "aodʒanɡh", "source": "avesta.org"}
+{"word": "aojishtô [aojishta]]", "gloss": "the strongest", "ipa": "aodʒishtô [aodʒishta]]", "source": "avesta.org"}
+{"word": "aoj", "gloss": ", Aor", "ipa": "aodʒ", "source": "avesta.org"}
+{"word": "apa", "gloss": "away, forth", "ipa": "apa", "source": "avesta.org"}
+{"word": "apa-dvar", "gloss": "to run away", "ipa": "apa-dvar", "source": "avesta.org"}
+{"word": "apa-nas", "gloss": "to vanish, to perish", "ipa": "apa-nas", "source": "avesta.org"}
+{"word": "a-pairithwa", "gloss": "may not be traversed", "ipa": "a-pairithwa", "source": "avesta.org"}
+{"word": "apaiti-zañta", "gloss": "not having been acknowledged (ahm192); unwelcomed, not honored", "ipa": "apaiti-zañta", "source": "avesta.org"}
+{"word": "apanashtahe", "gloss": "annihilating, driving away", "ipa": "apanashtahe", "source": "avesta.org"}
+{"word": "apanôtema", "gloss": "highest degree, foremost", "ipa": "apanôtema", "source": "avesta.org"}
+{"word": "apara", "gloss": "(used adverbally) further, posterior, later, lower, inferior; later on, back", "ipa": "apara", "source": "avesta.org"}
+{"word": "aparadâtâ", "gloss": "not betrothed/engaged", "ipa": "aparadâtâ", "source": "avesta.org"}
+{"word": "apaya", "gloss": "to cause to reach, to overtake (AHM 232), afterwards, later (on), future; to", "ipa": "apaja", "source": "avesta.org"}
+{"word": "apayeiti", "gloss": "inf", "ipa": "apajeiti", "source": "avesta.org"}
+{"word": "apa-ýuj", "gloss": "to disjoin, to separate (lit.); to leave off; to lay aside", "ipa": "apa-ýudʒ", "source": "avesta.org"}
+{"word": "apâxtara", "gloss": "northern, backwards, behind", "ipa": "apâxtara", "source": "avesta.org"}
+{"word": "aperenâyuka", "gloss": "a child, youth, boy", "ipa": "aperenâjuka", "source": "avesta.org"}
+{"word": "apêmem [apema]]", "gloss": "adj", "ipa": "apêmem [apema]]", "source": "avesta.org"}
+{"word": "apô", "gloss": "[ap](G,plNA) water; [-]", "ipa": "apô", "source": "avesta.org"}
+{"word": "ar-", "gloss": "go, move, come", "ipa": "ar-", "source": "avesta.org"}
+{"word": "a-ratufrî", "gloss": "he is not accepted", "ipa": "a-ratufrî", "source": "avesta.org"}
+{"word": "aredra", "gloss": "sincere one (Kr27), generous (JAR)", "ipa": "aredra", "source": "avesta.org"}
+{"word": "aredvî", "gloss": "name of a well-known Iranian river; f", "ipa": "aredvî", "source": "avesta.org"}
+{"word": "aredha", "gloss": "half (lit.), side, direction; not grown", "ipa": "aredha", "source": "avesta.org"}
+{"word": "arej", "gloss": "to be worth, to become worthy- deserving; to be considered respectable", "ipa": "aredʒ", "source": "avesta.org"}
+{"word": "arejangh", "gloss": "value, price", "ipa": "aredʒanɡh", "source": "avesta.org"}
+{"word": "arema", "gloss": "the arm", "ipa": "arema", "source": "avesta.org"}
+{"word": "armaêshadh", "gloss": "sitting in a retired or sequestered place", "ipa": "armaêshadh", "source": "avesta.org"}
+{"word": "arshtât", "gloss": "justice; Ashtad Yazad, Yazad presiding over justice", "ipa": "arshtât", "source": "avesta.org"}
+{"word": "arshuxdha", "gloss": "correctly spoken, correctly uttered", "ipa": "arshuxdha", "source": "avesta.org"}
+{"word": "arshan", "gloss": "male (animal); brave, valiant", "ipa": "arshan", "source": "avesta.org"}
+{"word": "asangh", "gloss": "place, space", "ipa": "asanɡh", "source": "avesta.org"}
+{"word": "ascu", "gloss": "calf (of the leg)", "ipa": "astʃu", "source": "avesta.org"}
+{"word": "ash-vareshangh", "gloss": "most glorious (Dar.), criminal (Har.), most brilliant, most crafty", "ipa": "ash-vareshanɡh", "source": "avesta.org"}
+{"word": "ashtan", "gloss": "eight", "ipa": "ashtan", "source": "avesta.org"}
+{"word": "ashta", "gloss": "a missile, a lance; an arrow, a dart", "ipa": "ashta", "source": "avesta.org"}
+{"word": "ashtema", "gloss": "eighth", "ipa": "ashtema", "source": "avesta.org"}
+{"word": "ashtrâ", "gloss": "a whip", "ipa": "ashtrâ", "source": "avesta.org"}
+{"word": "ash-hvarenangh", "gloss": "most glorious", "ipa": "ash-hvarenanɡh", "source": "avesta.org"}
+{"word": "asha", "gloss": "Asha, truth, righteousness, world order, eternal law, fitness", "ipa": "asha", "source": "avesta.org"}
+{"word": "asha-cithra", "gloss": "containing the seed or principle of Asha", "ipa": "asha-tʃithra", "source": "avesta.org"}
+{"word": "ashavan", "gloss": "Ashavan", "ipa": "ashavan", "source": "avesta.org"}
+{"word": "ashaonî", "gloss": "Ashavan", "ipa": "ashaonî", "source": "avesta.org"}
+{"word": "ashavazangh", "gloss": "giving strength of Asha; bringing Asha (M.), pure born, pure by birth", "ipa": "ashavazanɡh", "source": "avesta.org"}
+{"word": "asha-hvâthra", "gloss": "shining with Asha", "ipa": "asha-hvâthra", "source": "avesta.org"}
+{"word": "ashâishta", "gloss": "feeling the sorest grief", "ipa": "ashâishta", "source": "avesta.org"}
+{"word": "ashemaokha", "gloss": "one who violates Asha; a heretic, a misinterpreter; the Demon who destroys Asha", "ipa": "ashemaokha", "source": "avesta.org"}
+{"word": "ashi", "gloss": "reward (Hum), lot, part, the Yazad Ashi (reward personified): blessing; also", "ipa": "ashi", "source": "avesta.org"}
+{"word": "ashivañt", "gloss": "apportioner, awarder (ahm194), possessing, giving rewards", "ipa": "ashivañt", "source": "avesta.org"}
+{"word": "ashan", "gloss": "the sky, the firmament", "ipa": "ashan", "source": "avesta.org"}
+{"word": "ashô-stûiti", "gloss": "prayer of Asha (lit.); an allusion to the well-known prayer, Ashem vohu", "ipa": "ashô-stûiti", "source": "avesta.org"}
+{"word": "ashya", "gloss": "epithet of Sraosha, (lit.) companion of Ashi (Malandra), accompanied by rewards", "ipa": "ashja", "source": "avesta.org"}
+{"word": "asma, asman", "gloss": "the sky, the firmament", "ipa": "asma, asman", "source": "avesta.org"}
+{"word": "asna", "gloss": "near, from near", "ipa": "asna", "source": "avesta.org"}
+{"word": "azan", "gloss": "day", "ipa": "azan", "source": "avesta.org"}
+{"word": "asnya", "gloss": "of the day, daily (lit.), the Gah", "ipa": "asnja", "source": "avesta.org"}
+{"word": "asrâvayat-gâthâ", "gloss": "not chanting the Gathas", "ipa": "asrâvajat-ɡâthâ", "source": "avesta.org"}
+{"word": "asrâvañt", "gloss": "not chanting", "ipa": "asrâvañt", "source": "avesta.org"}
+{"word": "asti, asta", "gloss": "the body", "ipa": "asti, asta", "source": "avesta.org"}
+{"word": "astâtô-ratu", "gloss": "(a damsel) not under the protection of a guardian or chief of the family", "ipa": "astâtô-ratu", "source": "avesta.org"}
+{"word": "[-]", "gloss": "bones", "ipa": "[-]", "source": "avesta.org"}
+{"word": "asta", "gloss": "sent or despatched (lit.), a messenger; (G) of the body", "ipa": "asta", "source": "avesta.org"}
+{"word": "astvañt", "gloss": "material (t102, AHM), having bones (lit.), corporeal, physical, bodily", "ipa": "astvañt", "source": "avesta.org"}
+{"word": "-, aem", "gloss": "then, but, and", "ipa": "-, aem", "source": "avesta.org"}
+{"word": "a-tbish", "gloss": "not offended, not angered", "ipa": "a-tbish", "source": "avesta.org"}
+{"word": "atcit", "gloss": "[at + cit]", "ipa": "attʃit", "source": "avesta.org"}
+{"word": "atha", "gloss": "so, thus", "ipa": "atha", "source": "avesta.org"}
+{"word": "âthravan", "gloss": "member of the priestly caste (Hum 4), priest; [athauruna]", "ipa": "âthravan", "source": "avesta.org"}
+{"word": "athra", "gloss": "there", "ipa": "athra", "source": "avesta.org"}
+{"word": "aurusha", "gloss": "white", "ipa": "aurusha", "source": "avesta.org"}
+{"word": "aurva", "gloss": "adj", "ipa": "aurva", "source": "avesta.org"}
+{"word": "aurvañt", "gloss": "quick, swift; a steed, horse, racer, warrior; Mount Alvand", "ipa": "aurvañt", "source": "avesta.org"}
+{"word": "aurvat-aspa", "gloss": "swift-horsed", "ipa": "aurvat-aspa", "source": "avesta.org"}
+{"word": "aurvatha", "gloss": "lawless (ahm170), enemy", "ipa": "aurvatha", "source": "avesta.org"}
+{"word": "ava", "gloss": "direction; this, that", "ipa": "ava", "source": "avesta.org"}
+{"word": "ava-", "gloss": "off, away; near; towards, below, far; downwards, below", "ipa": "ava-", "source": "avesta.org"}
+{"word": "ava-bar", "gloss": "to carry to; to bring down, to bring to", "ipa": "ava-bar", "source": "avesta.org"}
+{"word": "ava-stâ", "gloss": "to stand near or by", "ipa": "ava-stâ", "source": "avesta.org"}
+{"word": "ava-jan", "gloss": "to smite; to kill", "ipa": "ava-dʒan", "source": "avesta.org"}
+{"word": "ava-kan", "gloss": "to dig", "ipa": "ava-kan", "source": "avesta.org"}
+{"word": "avadha", "gloss": "there", "ipa": "avadha", "source": "avesta.org"}
+{"word": "ava-jan 2", "gloss": "to bite", "ipa": "ava-dʒan 2", "source": "avesta.org"}
+{"word": "avangh", "gloss": "assistance, help", "ipa": "avanɡh", "source": "avesta.org"}
+{"word": "avañt", "gloss": "that, such", "ipa": "avañt", "source": "avesta.org"}
+{"word": "avaretâ", "gloss": "a thing of value; goods", "ipa": "avaretâ", "source": "avesta.org"}
+{"word": "avasô-xshathra", "gloss": "not ruling according to one's will", "ipa": "avasô-xshathra", "source": "avesta.org"}
+{"word": "avatha", "gloss": "so, thus, consequently", "ipa": "avatha", "source": "avesta.org"}
+{"word": "avathât", "gloss": "also, in this manner", "ipa": "avathât", "source": "avesta.org"}
+{"word": "avavañt", "gloss": "so much, such", "ipa": "avavañt", "source": "avesta.org"}
+{"word": "av", "gloss": "to go, to come", "ipa": "av", "source": "avesta.org"}
+{"word": "avi", "gloss": "to, unto, towards", "ipa": "avi", "source": "avesta.org"}
+{"word": "avi-", "gloss": "near, towards, by; contrary to", "ipa": "avi-", "source": "avesta.org"}
+{"word": "avi-mithri", "gloss": "Anti-Mithra (AHM), a foe of Mithra; a violator of a solemn contract", "ipa": "avi-mithri", "source": "avesta.org"}
+{"word": "avañh", "gloss": "assistance, support, protection", "ipa": "avañh", "source": "avesta.org"}
+{"word": "avô-hvarena", "gloss": "a drinking fountain; a water spring", "ipa": "avô-hvarena", "source": "avesta.org"}
+{"word": "axti", "gloss": "pain (Herb.), harm (HZI), sickness", "ipa": "axti", "source": "avesta.org"}
+{"word": "ahvareta", "gloss": "not perishing (lit.), not decreasing, ungraspable", "ipa": "ahvareta", "source": "avesta.org"}
+{"word": "ahvâthra", "gloss": "unhappy, void of comfort, void of comfort (Hum)", "ipa": "ahvâthra", "source": "avesta.org"}
+{"word": "ayanghaêna", "gloss": "made of iron; iron", "ipa": "ajanɡhaêna", "source": "avesta.org"}
+{"word": "ayaozhdi", "gloss": "defilement, pollution, impurity, uncleanness", "ipa": "ajaozhdi", "source": "avesta.org"}
+{"word": "ayara", "gloss": "relating to a day (lit.); division of a day", "ipa": "ajara", "source": "avesta.org"}
+{"word": "ayar-", "gloss": "day", "ipa": "ajar-", "source": "avesta.org"}
+{"word": "ayâthrema", "gloss": "ayathrem, 4th Gahambar", "ipa": "ajâthrema", "source": "avesta.org"}
+{"word": "ayare", "gloss": "; also, [î] (3/3) to go; to come", "ipa": "ajare", "source": "avesta.org"}
+{"word": "az", "gloss": "to set free, to deliver", "ipa": "az", "source": "avesta.org"}
+{"word": "azâta", "gloss": "unborn", "ipa": "azâta", "source": "avesta.org"}
+{"word": "azhi", "gloss": "a snake, a dragon", "ipa": "azhi", "source": "avesta.org"}
+{"word": "â", "gloss": "at, to, near, by, up, towards", "ipa": "â", "source": "avesta.org"}
+{"word": "â-manangha", "gloss": "intellectual power; with great ardour, eagerly; plan, intention; eager", "ipa": "â-mananɡha", "source": "avesta.org"}
+{"word": "â-tat", "gloss": "[â + tat]", "ipa": "â-tat", "source": "avesta.org"}
+{"word": "âat", "gloss": "then, thereupon", "ipa": "âat", "source": "avesta.org"}
+{"word": "âat ýat", "gloss": "when", "ipa": "âat ýat", "source": "avesta.org"}
+{"word": "âca", "gloss": "there (one way)", "ipa": "âtʃa", "source": "avesta.org"}
+{"word": "âca-nô jamyât", "gloss": "may he join us for (AHM)", "ipa": "âtʃa-nô dʒamjât", "source": "avesta.org"}
+{"word": "âfañt", "gloss": "rich in waters (Mal); full of waters (Bailey xxi, b330); time (AHM172, t125", "ipa": "âfañt", "source": "avesta.org"}
+{"word": "âfriti, â-frî", "gloss": "benediction, blessing; curse", "ipa": "âfriti, â-frî", "source": "avesta.org"}
+{"word": "â-frî", "gloss": "I wish (Masl, Hum), I bless (Dh), I desire (Kr)", "ipa": "â-frî", "source": "avesta.org"}
+{"word": "âhiti", "gloss": "defiled, filthiness, impurity, uncleanness", "ipa": "âhiti", "source": "avesta.org"}
+{"word": "âhûiri, âhûirya", "gloss": "adj", "ipa": "âhûiri, âhûirja", "source": "avesta.org"}
+{"word": "âi", "gloss": "O!", "ipa": "âi", "source": "avesta.org"}
+{"word": "âiti", "gloss": "near, by, to; (adv.) by, near", "ipa": "âiti", "source": "avesta.org"}
+{"word": "â-jas", "gloss": "reaches, to reach", "ipa": "â-dʒas", "source": "avesta.org"}
+{"word": "â-mrû", "gloss": "to wish, to desire; to shall on for help", "ipa": "â-mrû", "source": "avesta.org"}
+{"word": "âpereti", "gloss": "atonement, expiation", "ipa": "âpereti", "source": "avesta.org"}
+{"word": "ârmaiti", "gloss": "Armaiti, one of the Amesha Spentas; Devotion (Hum, Mal, TS), right-mindedness", "ipa": "ârmaiti", "source": "avesta.org"}
+{"word": "âsna", "gloss": "sturdy (Kr), noble (ahm158); natural, innate", "ipa": "âsna", "source": "avesta.org"}
+{"word": "â-stâr-", "gloss": "to make guilty", "ipa": "â-stâr-", "source": "avesta.org"}
+{"word": "â-stâ", "gloss": "to stand", "ipa": "â-stâ", "source": "avesta.org"}
+{"word": "âh, åñh", "gloss": "to rest, to continue; to sit steadily", "ipa": "âh, åñh", "source": "avesta.org"}
+{"word": "â-star", "gloss": "to fix to, to attach (as a crime)", "ipa": "â-star", "source": "avesta.org"}
+{"word": "âsyangh", "gloss": "faster", "ipa": "âsjanɡh", "source": "avesta.org"}
+{"word": "âtar", "gloss": "fire; Yazad presiding over fire", "ipa": "âtar", "source": "avesta.org"}
+{"word": "âtre-saoka", "gloss": "fire brand", "ipa": "âtre-saoka", "source": "avesta.org"}
+{"word": "âthritya", "gloss": "three times", "ipa": "âthritja", "source": "avesta.org"}
+{"word": "âthwyâni", "gloss": "of the family of Athwyan, belonging to Athwya", "ipa": "âthwjâni", "source": "avesta.org"}
+{"word": "âvaêdhayamahî", "gloss": "I dedicate", "ipa": "âvaêdhajamahî", "source": "avesta.org"}
+{"word": "âxshti", "gloss": "truce (Kr), friendship, amity, peace", "ipa": "âxshti", "source": "avesta.org"}
+{"word": "âyapta", "gloss": "boons (Kr13), riches, gifts of grace, blessings", "ipa": "âjapta", "source": "avesta.org"}
+{"word": "â-ýas", "gloss": "to wish, to desire, to demand", "ipa": "â-ýas", "source": "avesta.org"}
+{"word": "zan-2", "gloss": "understanding, explanation (j3", "ipa": "zan-2", "source": "avesta.org"}
+{"word": "âzâta", "gloss": "of noble lineage, nobly born", "ipa": "âzâta", "source": "avesta.org"}
+{"word": "âzûiti", "gloss": "plenty (HZI), fatness (lit.); prosperity", "ipa": "âzûiti", "source": "avesta.org"}
+{"word": "baêshaza", "gloss": "a remedy, a restorative, medicine, physician, healer; n", "ipa": "baêshaza", "source": "avesta.org"}
+{"word": "baêshazya", "gloss": "healing, health-giving, healthy", "ipa": "baêshazja", "source": "avesta.org"}
+{"word": "baêvare", "gloss": "ten thousand", "ipa": "baêvare", "source": "avesta.org"}
+{"word": "baêvare-cashman", "gloss": "10,000 eyes", "ipa": "baêvare-tʃashman", "source": "avesta.org"}
+{"word": "baêvare-spasana", "gloss": "10,000 spies", "ipa": "baêvare-spasana", "source": "avesta.org"}
+{"word": "baêvarekhna", "gloss": "10,000 times", "ipa": "baêvarekhna", "source": "avesta.org"}
+{"word": "bakha-2", "gloss": "a portion, a piece, a gift, a present, a boon, bit", "ipa": "bakha-2", "source": "avesta.org"}
+{"word": "bakha-1", "gloss": "Deity, God, divine power, lit", "ipa": "bakha-1", "source": "avesta.org"}
+{"word": "bakhô-baxta", "gloss": "bestowed by God", "ipa": "bakhô-baxta", "source": "avesta.org"}
+{"word": "baodhangh", "gloss": "consciousness, perception", "ipa": "baodhanɡh", "source": "avesta.org"}
+{"word": "baodhô-varshta", "gloss": "wilfully done (crime), deliberate", "ipa": "baodhô-varshta", "source": "avesta.org"}
+{"word": "baoidhi", "gloss": "perfume", "ipa": "baoidhi", "source": "avesta.org"}
+{"word": "bar-3?", "gloss": "(impersonal v.) to be windy, to blow furiously", "ipa": "bar-3?", "source": "avesta.org"}
+{"word": "baresman", "gloss": "Baresma, originally twigs of the pomegranate tree used in religious ceremonies", "ipa": "baresman", "source": "avesta.org"}
+{"word": "baresmanya", "gloss": "pertaining to the Baresma; of the Baresma", "ipa": "baresmanja", "source": "avesta.org"}
+{"word": "bareshnu", "gloss": "top, height, the uppermost part", "ipa": "bareshnu", "source": "avesta.org"}
+{"word": "barethri", "gloss": "mother, (female that bears children) in the womb", "ipa": "barethri", "source": "avesta.org"}
+{"word": "barezangh", "gloss": "height; a mountain", "ipa": "barezanɡh", "source": "avesta.org"}
+{"word": "barezâ", "gloss": "height; a mountain", "ipa": "barezâ", "source": "avesta.org"}
+{"word": "barez", "gloss": "high, exalted", "ipa": "barez", "source": "avesta.org"}
+{"word": "barezishta", "gloss": "highest, most exalted", "ipa": "barezishta", "source": "avesta.org"}
+{"word": "basta", "gloss": "bound, tied, a prisoner", "ipa": "basta", "source": "avesta.org"}
+{"word": "bû", "gloss": "cl.1 (they) appear / to be, to become", "ipa": "bû", "source": "avesta.org"}
+{"word": "baxsh", "gloss": "to bestow, to give, to distribute, to remit, to forgive", "ipa": "baxsh", "source": "avesta.org"}
+{"word": "bâ", "gloss": "definitely, certainly, indeed", "ipa": "bâ", "source": "avesta.org"}
+{"word": "bâga", "gloss": "good fortune; share (Monna 131), wealth", "ipa": "bâɡa", "source": "avesta.org"}
+{"word": "bâmya", "gloss": "splendid (Kr, AHM), shining, radiant", "ipa": "bâmja", "source": "avesta.org"}
+{"word": "bâzû", "gloss": "limb, arm, foreleg", "ipa": "bâzû", "source": "avesta.org"}
+{"word": "bereja", "gloss": "blessing, benediction; desire; wish; (religious) custom", "ipa": "beredʒa", "source": "avesta.org"}
+{"word": "berejya", "gloss": "Yazad that fulfils one's desires; or promotes growth of corn", "ipa": "beredʒja", "source": "avesta.org"}
+{"word": "berexdha", "gloss": "esteemed (Hum2 200), dear, welcome; exalted, agreeable, beloved, that may be", "ipa": "berexdha", "source": "avesta.org"}
+{"word": "barez-1", "gloss": "to grow, to grow high, to be exalted; tall (Kr), high", "ipa": "barez-1", "source": "avesta.org"}
+{"word": "berezañt", "gloss": "high, great, lofty", "ipa": "berezañt", "source": "avesta.org"}
+{"word": "berez", "gloss": "high, great, lofty; [bereza]", "ipa": "berez", "source": "avesta.org"}
+{"word": "bish", "gloss": "twice; double; remedy", "ipa": "bish", "source": "avesta.org"}
+{"word": "bishâmrûta", "gloss": "(holy words) that are to be recited twice", "ipa": "bishâmrûta", "source": "avesta.org"}
+{"word": "bishaz", "gloss": "to heal someone", "ipa": "bishaz", "source": "avesta.org"}
+{"word": "bitya", "gloss": "second", "ipa": "bitja", "source": "avesta.org"}
+{"word": "bûshyãsta", "gloss": "the Demon of procrastination, Sloth", "ipa": "bûshjãsta", "source": "avesta.org"}
+{"word": "-ca", "gloss": "and", "ipa": "-tʃa", "source": "avesta.org"}
+{"word": "caêcasta", "gloss": "name of a lake", "ipa": "tʃaêtʃasta", "source": "avesta.org"}
+{"word": "caretu-drâjangh", "gloss": "long as a riding- ground / racetrack", "ipa": "tʃaretu-drâdʒanɡh", "source": "avesta.org"}
+{"word": "cashman", "gloss": "eye", "ipa": "tʃashman", "source": "avesta.org"}
+{"word": "cathru", "gloss": "four see also cathware", "ipa": "tʃathru", "source": "avesta.org"}
+{"word": "cathru-cashma", "gloss": "four-eyed; a dog with four eyes, i.e., a dog which has two spots above the eyes", "ipa": "tʃathru-tʃashma", "source": "avesta.org"}
+{"word": "cathru-gaosha", "gloss": "four-cornered (lit.); four gated; or, having four high roads", "ipa": "tʃathru-ɡaosha", "source": "avesta.org"}
+{"word": "cathrushâmrûta", "gloss": "(words) that are to be recited four times", "ipa": "tʃathrushâmrûta", "source": "avesta.org"}
+{"word": "cathrusha", "gloss": "four sides", "ipa": "tʃathrusha", "source": "avesta.org"}
+{"word": "cathware", "gloss": "four", "ipa": "tʃathware", "source": "avesta.org"}
+{"word": "ci", "gloss": "to atone for; to punish", "ipa": "tʃi", "source": "avesta.org"}
+{"word": "cit", "gloss": "to think; to be informed, to know, to regard", "ipa": "tʃit", "source": "avesta.org"}
+{"word": "para-cit", "gloss": "to acknowledge, to regard, to think", "ipa": "para-tʃit", "source": "avesta.org"}
+{"word": "cinman", "gloss": "love, affection", "ipa": "tʃinman", "source": "avesta.org"}
+{"word": "cinvañt", "gloss": "Chinwad (bridge); inflicting punishment upon; or, gathering, culling", "ipa": "tʃinvañt", "source": "avesta.org"}
+{"word": "cinvat-peretu", "gloss": "Chinwad bridge, the bridge from Earth to Heaven, where the virtuous pass over", "ipa": "tʃinvat-peretu", "source": "avesta.org"}
+{"word": "cistâ", "gloss": "insight (Hum2 199), knowledge, wisdom (orig.); the Yazad that presides over", "ipa": "tʃistâ", "source": "avesta.org"}
+{"word": "-cit", "gloss": "even", "ipa": "-tʃit", "source": "avesta.org"}
+{"word": "cithâ", "gloss": "atonement, penalty; punishment", "ipa": "tʃithâ", "source": "avesta.org"}
+{"word": "cithi", "gloss": "punishment, atonement", "ipa": "tʃithi", "source": "avesta.org"}
+{"word": "cithra", "gloss": "1: (as adj.) visible form (manifestus), evident, open; publish; 2: (as", "ipa": "tʃithra", "source": "avesta.org"}
+{"word": "cvañt", "gloss": "how much?", "ipa": "tʃvañt", "source": "avesta.org"}
+{"word": "dadhvañh", "gloss": "creator, maker; tenth month; 15th day of each month", "ipa": "dadhvañh", "source": "avesta.org"}
+{"word": "daênâ", "gloss": "religion (StdAv - Hum2 199), religious view (GAv - Hum), faith, attitude", "ipa": "daênâ", "source": "avesta.org"}
+{"word": "daêva", "gloss": "Daeva, god, false god, devil", "ipa": "daêva", "source": "avesta.org"}
+{"word": "daêvayasna", "gloss": "worshipper of the Daevas", "ipa": "daêvajasna", "source": "avesta.org"}
+{"word": "daêvayâz", "gloss": "worshipper of the Daevas", "ipa": "daêvajâz", "source": "avesta.org"}
+{"word": "daêvî", "gloss": "female Daeva", "ipa": "daêvî", "source": "avesta.org"}
+{"word": "dahâka", "gloss": "stinging (lit.), (Azhi) Dahaka, mythical tyrant", "ipa": "dahâka", "source": "avesta.org"}
+{"word": "dahma", "gloss": "good, pious; trained", "ipa": "dahma", "source": "avesta.org"}
+{"word": "dah'yu", "gloss": "country; people; land, region", "ipa": "dah'ju", "source": "avesta.org"}
+{"word": "dainghu", "gloss": "country (AHM), land", "ipa": "dainɡhu", "source": "avesta.org"}
+{"word": "dainghu-frâdhana", "gloss": "furthering the country", "ipa": "dainɡhu-frâdhana", "source": "avesta.org"}
+{"word": "dainghu-paiti", "gloss": "head of the country or province", "ipa": "dainɡhu-paiti", "source": "avesta.org"}
+{"word": "dar-", "gloss": "to hold/keep, + vi: cause to cross (vn); to tear", "ipa": "dar-", "source": "avesta.org"}
+{"word": "darekha", "gloss": "long", "ipa": "darekha", "source": "avesta.org"}
+{"word": "darekhô-gava", "gloss": "long handed (lit.); lazy", "ipa": "darekhô-ɡava", "source": "avesta.org"}
+{"word": "darethra", "gloss": "holding fast (lit.), supporting", "ipa": "darethra", "source": "avesta.org"}
+{"word": "darshi-dru", "gloss": "with bold club (Kr), with mighty club (HZI)", "ipa": "darshi-dru", "source": "avesta.org"}
+{"word": "dasan", "gloss": "ten; (nA) goods", "ipa": "dasan", "source": "avesta.org"}
+{"word": "dasvare", "gloss": "comfort, happy state", "ipa": "dasvare", "source": "avesta.org"}
+{"word": "dashina", "gloss": "right", "ipa": "dashina", "source": "avesta.org"}
+{"word": "dâ-2", "gloss": "; [dâ-1]", "ipa": "dâ-2", "source": "avesta.org"}
+{"word": "du", "gloss": "to speak", "ipa": "du", "source": "avesta.org"}
+{"word": "daxma", "gloss": "grave; place where dead bodies are deposited", "ipa": "daxma", "source": "avesta.org"}
+{"word": "daxshta", "gloss": "a brand (lit.), mark, characteristic; implement; evident", "ipa": "daxshta", "source": "avesta.org"}
+{"word": "dazda", "gloss": "gifts", "ipa": "dazda", "source": "avesta.org"}
+{"word": "dâ-1", "gloss": "to give, to offer", "ipa": "dâ-1", "source": "avesta.org"}
+{"word": "dâ-3", "gloss": "to know, to think", "ipa": "dâ-3", "source": "avesta.org"}
+{"word": "dâ-4", "gloss": "to shut", "ipa": "dâ-4", "source": "avesta.org"}
+{"word": "dâ-5", "gloss": "wise, prudent", "ipa": "dâ-5", "source": "avesta.org"}
+{"word": "dâh'yuma", "gloss": "pertaining to the country or region; Yazad of the country", "ipa": "dâh'juma", "source": "avesta.org"}
+{"word": "dâiti", "gloss": "giving, bestowing", "ipa": "dâiti", "source": "avesta.org"}
+{"word": "dâitya", "gloss": "legitimate, appropriate, proper, legal; name of a river", "ipa": "dâitja", "source": "avesta.org"}
+{"word": "[dâiti]", "gloss": "stopping", "ipa": "[dâiti]", "source": "avesta.org"}
+{"word": "dâityô-gâtu", "gloss": "belonging to someone, located in rightful place", "ipa": "dâitjô-ɡâtu", "source": "avesta.org"}
+{"word": "dâmi", "gloss": "Creation; Creator (ahm168); creative, of the creator", "ipa": "dâmi", "source": "avesta.org"}
+{"word": "dar", "gloss": "to hold, to support", "ipa": "dar", "source": "avesta.org"}
+{"word": "dâtar", "gloss": "giver, creator, creator; maker; n", "ipa": "dâtar", "source": "avesta.org"}
+{"word": "[dâta]", "gloss": "given, dedicated; made, created, appointed, decree, justice, law, rule", "ipa": "[dâta]", "source": "avesta.org"}
+{"word": "dâthra", "gloss": "gift", "ipa": "dâthra", "source": "avesta.org"}
+{"word": "dâthri", "gloss": "giver, benefactress", "ipa": "dâthri", "source": "avesta.org"}
+{"word": "dãmi", "gloss": "? m", "ipa": "dãmi", "source": "avesta.org"}
+{"word": "dãstvâ", "gloss": "knowledge", "ipa": "dãstvâ", "source": "avesta.org"}
+{"word": "demâna", "gloss": "a house", "ipa": "demâna", "source": "avesta.org"}
+{"word": "dis", "gloss": "point, show, teach", "ipa": "dis", "source": "avesta.org"}
+{"word": "dishti", "gloss": "finger", "ipa": "dishti", "source": "avesta.org"}
+{"word": "diwzha", "gloss": "fraud, hypocrisy, deceit", "ipa": "diwzha", "source": "avesta.org"}
+{"word": "dî-", "gloss": "to see; to think; to show, cl", "ipa": "dî-", "source": "avesta.org"}
+{"word": "dôithra", "gloss": "eye", "ipa": "dôithra", "source": "avesta.org"}
+{"word": "draona", "gloss": "food (Herb.), food offering (JAR), sacred cake", "ipa": "draona", "source": "avesta.org"}
+{"word": "drâjangh", "gloss": "length, duration", "ipa": "drâdʒanɡh", "source": "avesta.org"}
+{"word": "dregvañt", "gloss": "wicked (Kr), irreligious or evil, possessing druj", "ipa": "dreɡvañt", "source": "avesta.org"}
+{"word": "dreñj", "gloss": "to utter in a low voice (whisper) or mentally", "ipa": "dreñdʒ", "source": "avesta.org"}
+{"word": "drikhu", "gloss": "pious (Kr80), poor or needy person", "ipa": "drikhu", "source": "avesta.org"}
+{"word": "druj", "gloss": "deceit, lie; deceiver, lier; \"druj\", demoness", "ipa": "drudʒ", "source": "avesta.org"}
+{"word": "drvatât", "gloss": "soundness, health", "ipa": "drvatât", "source": "avesta.org"}
+{"word": "drvâspâ", "gloss": "Drvaspa, a fem", "ipa": "drvâspâ", "source": "avesta.org"}
+{"word": "duxdhar", "gloss": "daughter", "ipa": "duxdhar", "source": "avesta.org"}
+{"word": "dush-mainyu", "gloss": "evil thinking (lit.), an enemy", "ipa": "dush-mainju", "source": "avesta.org"}
+{"word": "dushmata", "gloss": "an evil thought", "ipa": "dushmata", "source": "avesta.org"}
+{"word": "duzhdâ", "gloss": "malignant (Kr), evil-knowing", "ipa": "duzhdâ", "source": "avesta.org"}
+{"word": "duzhûxta", "gloss": "ill-spoken; an evil word", "ipa": "duzhûxta", "source": "avesta.org"}
+{"word": "duzhvacangh", "gloss": "evil speech; evil- speaking", "ipa": "duzhvatʃanɡh", "source": "avesta.org"}
+{"word": "duzhvarshta", "gloss": "ill-done; evil deed", "ipa": "duzhvarshta", "source": "avesta.org"}
+{"word": "dûraêpâra", "gloss": "far for crossing or passing over (lit.), (this earth) whose ends lie far", "ipa": "dûraêpâra", "source": "avesta.org"}
+{"word": "dûraosha", "gloss": "removing pain, killer of pain (G", "ipa": "dûraosha", "source": "avesta.org"}
+{"word": "dûra", "gloss": "far away (j731,4); from afar", "ipa": "dûra", "source": "avesta.org"}
+{"word": "dva", "gloss": "two", "ipa": "dva", "source": "avesta.org"}
+{"word": "dvara", "gloss": "door", "ipa": "dvara", "source": "avesta.org"}
+{"word": "dvãs", "gloss": "to run, to rush on, cl", "ipa": "dvãs", "source": "avesta.org"}
+{"word": "ar", "gloss": "to go; to get, to acquire; to grant", "ipa": "ar", "source": "avesta.org"}
+{"word": "eresh", "gloss": "true, just, moral, righteous (indeclinable); truthfulness", "ipa": "eresh", "source": "avesta.org"}
+{"word": "eresh-vacangh", "gloss": "truthful speaker", "ipa": "eresh-vatʃanɡh", "source": "avesta.org"}
+{"word": "erethê", "gloss": "righteousness, truthfulness; also, the Yazad presiding over", "ipa": "erethê", "source": "avesta.org"}
+{"word": "erezata", "gloss": "A) silver", "ipa": "erezata", "source": "avesta.org"}
+{"word": "erezu", "gloss": "straight, straightforward", "ipa": "erezu", "source": "avesta.org"}
+{"word": "everezika", "gloss": "not working; lazy; powerless; disabled; inactive; incapable; useless", "ipa": "everezika", "source": "avesta.org"}
+{"word": "ferashôtema", "gloss": "most promotive", "ipa": "ferashôtema", "source": "avesta.org"}
+{"word": "ferâ vê râhî", "gloss": "I dedicate to you", "ipa": "ferâ vê râhî", "source": "avesta.org"}
+{"word": "fra-", "gloss": "forth", "ipa": "fra-", "source": "avesta.org"}
+{"word": "e", "gloss": "to praise, to glorify", "ipa": "e", "source": "avesta.org"}
+{"word": "fra-bar", "gloss": "to carry, to bring, to use; to make use of", "ipa": "fra-bar", "source": "avesta.org"}
+{"word": "frabda", "gloss": "foot, instep", "ipa": "frabda", "source": "avesta.org"}
+{"word": "fraca", "gloss": "excessively", "ipa": "fratʃa", "source": "avesta.org"}
+{"word": "[fra + ca]", "gloss": "and forth", "ipa": "[fra + tʃa]", "source": "avesta.org"}
+{"word": "fradatha", "gloss": "growth, increase, prosperity", "ipa": "fradatha", "source": "avesta.org"}
+{"word": "fra-dâ", "gloss": "to give; to propagate; (3/1) to create, to appoint, to establish", "ipa": "fra-dâ", "source": "avesta.org"}
+{"word": "fraêshta", "gloss": "foremost; first; most; mostly", "ipa": "fraêshta", "source": "avesta.org"}
+{"word": "fra-ish", "gloss": "we urge", "ipa": "fra-ish", "source": "avesta.org"}
+{"word": "fragâthra", "gloss": "chanting, reciting; chant, recitation", "ipa": "fraɡâthra", "source": "avesta.org"}
+{"word": "fra-jas", "gloss": "to go forward; to come near; to give birth to; accoucher", "ipa": "fra-dʒas", "source": "avesta.org"}
+{"word": "fra-kar", "gloss": "to draw circles or furrows around", "ipa": "fra-kar", "source": "avesta.org"}
+{"word": "framarethra", "gloss": "reciting, recalling mentally, remembrance", "ipa": "framarethra", "source": "avesta.org"}
+{"word": "fra-marez", "gloss": "to clear away, to cleanse", "ipa": "fra-marez", "source": "avesta.org"}
+{"word": "fra-mrû", "gloss": "to speak, to speak loudly, to declare; to prefer", "ipa": "fra-mrû", "source": "avesta.org"}
+{"word": "frangrasyan", "gloss": "Franrasyan, King of Turan", "ipa": "franɡrasjan", "source": "avesta.org"}
+{"word": "fra-hvar", "gloss": "to eat, to drink", "ipa": "fra-hvar", "source": "avesta.org"}
+{"word": "fraoret", "gloss": "avowedly, making a profession of faith (ahm166); believingly, willingly", "ipa": "fraoret", "source": "avesta.org"}
+{"word": "fraourvaêshtrima", "gloss": "which closes summer, the furtherer", "ipa": "fraourvaêshtrima", "source": "avesta.org"}
+{"word": "frapitu", "gloss": "in abundance", "ipa": "frapitu", "source": "avesta.org"}
+{"word": "frasasti", "gloss": "praise, glorification (Dhabhar) [perhaps prayer, since fraseto ask]; precept", "ipa": "frasasti", "source": "avesta.org"}
+{"word": "fra-snâ", "gloss": "I will cleanse or purify", "ipa": "fra-snâ", "source": "avesta.org"}
+{"word": "frasraothra", "gloss": "singing, intoning", "ipa": "frasraothra", "source": "avesta.org"}
+{"word": "fra-sru", "gloss": "to recite", "ipa": "fra-sru", "source": "avesta.org"}
+{"word": "fra-star", "gloss": "to spread forth (the baresma); to bind up, to tie; (pres.(?) part", "ipa": "fra-star", "source": "avesta.org"}
+{"word": "frastareta", "gloss": "(the baresma) spread", "ipa": "frastareta", "source": "avesta.org"}
+{"word": "fra-stu", "gloss": "to praise, to glorify", "ipa": "fra-stu", "source": "avesta.org"}
+{"word": "frasha", "gloss": "forward; fresh, new", "ipa": "frasha", "source": "avesta.org"}
+{"word": "frashô-caretar", "gloss": "one who promotes (the renovation of the world)", "ipa": "frashô-tʃaretar", "source": "avesta.org"}
+{"word": "fra-tac", "gloss": "to flow onward", "ipa": "fra-tatʃ", "source": "avesta.org"}
+{"word": "fratema", "gloss": "superl: foremost, uppermost, top; highest; leader/head", "ipa": "fratema", "source": "avesta.org"}
+{"word": "fra-tares", "gloss": "to tremble", "ipa": "fra-tares", "source": "avesta.org"}
+{"word": "fra-vac", "gloss": "we declare, we proclaim", "ipa": "fra-vatʃ", "source": "avesta.org"}
+{"word": "fra-var", "gloss": "I profess", "ipa": "fra-var", "source": "avesta.org"}
+{"word": "fra-varez", "gloss": "to abstain from", "ipa": "fra-varez", "source": "avesta.org"}
+{"word": "fra-vaxsh", "gloss": "I shall speak out, I shall proclaim; to grow up", "ipa": "fra-vaxsh", "source": "avesta.org"}
+{"word": "fra-vaz", "gloss": "to go", "ipa": "fra-vaz", "source": "avesta.org"}
+{"word": "fravâka", "gloss": "word, admonition, advice; n", "ipa": "fravâka", "source": "avesta.org"}
+{"word": "fraxshan", "gloss": "growth", "ipa": "fraxshan", "source": "avesta.org"}
+{"word": "fraxshnin", "gloss": "foreknowing (ahm166); growth", "ipa": "fraxshnin", "source": "avesta.org"}
+{"word": "frâ", "gloss": "to go, to move, to walk about; cl", "ipa": "frâ", "source": "avesta.org"}
+{"word": "frazâ-baodha", "gloss": "fainting, swooning", "ipa": "frazâ-baodha", "source": "avesta.org"}
+{"word": "frâ-mrû", "gloss": "to instruct", "ipa": "frâ-mrû", "source": "avesta.org"}
+{"word": "frâdat-fshu", "gloss": "(a Yazad) giving relief to beasts", "ipa": "frâdat-fshu", "source": "avesta.org"}
+{"word": "frâdat-gaêtha", "gloss": "furthering the world, making the world prosperous", "ipa": "frâdat-ɡaêtha", "source": "avesta.org"}
+{"word": "frâdat-vîra", "gloss": "rendering men prosperous and happy, name of a Yazad", "ipa": "frâdat-vîra", "source": "avesta.org"}
+{"word": "frâdat-vîspãm-hujyâiti", "gloss": "rendering all the necessities of life thriving; the Yazad presiding over the", "ipa": "frâdat-vîspãm-hudʒjâiti", "source": "avesta.org"}
+{"word": "frâdh", "gloss": "increase, promote, to render prosperous", "ipa": "frâdh", "source": "avesta.org"}
+{"word": "fra-kareñt", "gloss": "to counter-create; glowing", "ipa": "fra-kareñt", "source": "avesta.org"}
+{"word": "frâshmi", "gloss": "glowing", "ipa": "frâshmi", "source": "avesta.org"}
+{"word": "frâshmô-dâiti", "gloss": "the time after sunset, 1st quarter of night", "ipa": "frâshmô-dâiti", "source": "avesta.org"}
+{"word": "fra-ash", "gloss": "pres", "ipa": "fra-ash", "source": "avesta.org"}
+{"word": "fra-thwares", "gloss": "to create", "ipa": "fra-thwares", "source": "avesta.org"}
+{"word": "frâyashti", "gloss": "invocation, praise", "ipa": "frâjashti", "source": "avesta.org"}
+{"word": "fra-ýaz", "gloss": "to worship (AHM), to praise highly, to invoke, to shall upon", "ipa": "fra-ýaz", "source": "avesta.org"}
+{"word": "frâyô-humata", "gloss": "whose good thoughts exceed (his evil ones) (Kr43), rich in good thoughts", "ipa": "frâjô-humata", "source": "avesta.org"}
+{"word": "frâyô-huxta", "gloss": "whose good words exceed (his evil ones) (Kr43), rich in good words", "ipa": "frâjô-huxta", "source": "avesta.org"}
+{"word": "frâyô-hvarshta", "gloss": "whose good deeds exceed (his evil ones) (Kr43), rich in good deeds", "ipa": "frâjô-hvarshta", "source": "avesta.org"}
+{"word": "frêna", "gloss": "abundance, a large quantity; (but see ahm177:) (I) \"because of\"; \"full of\"", "ipa": "frêna", "source": "avesta.org"}
+{"word": "frênî", "gloss": "Freni, eldest daughter of Zarathushtra", "ipa": "frênî", "source": "avesta.org"}
+{"word": "fritha", "gloss": "beloved, affectionate", "ipa": "fritha", "source": "avesta.org"}
+{"word": "frô", "gloss": "much, properly; well; forward", "ipa": "frô", "source": "avesta.org"}
+{"word": "frî", "gloss": "prayer, benediction", "ipa": "frî", "source": "avesta.org"}
+{"word": "[frya]", "gloss": "dear (Kr), beloved, affectionate; a friend, a well-wisher", "ipa": "[frja]", "source": "avesta.org"}
+{"word": "fshtâna", "gloss": "knob, nipple", "ipa": "fshtâna", "source": "avesta.org"}
+{"word": "fshuyañt", "gloss": "rendering prosperous; thrifty; epithet of vastrya", "ipa": "fshujañt", "source": "avesta.org"}
+{"word": "gadhwâ", "gloss": "a bitch; female dog", "ipa": "ɡadhwâ", "source": "avesta.org"}
+{"word": "gaya", "gloss": "life", "ipa": "ɡaja", "source": "avesta.org"}
+{"word": "gaêthâ", "gloss": "possessions (Herb.), worldly creatures (Kr), being, living creature, herd; world", "ipa": "ɡaêthâ", "source": "avesta.org"}
+{"word": "gaêthya", "gloss": "earthly, mundane", "ipa": "ɡaêthja", "source": "avesta.org"}
+{"word": "gaocithra", "gloss": "(the moon) that keeps in it the seed of the cattle", "ipa": "ɡaotʃithra", "source": "avesta.org"}
+{"word": "gaomavañt", "gloss": "containing flesh (vn), rich in flocks or herds; provided with milk", "ipa": "ɡaomavañt", "source": "avesta.org"}
+{"word": "gaona", "gloss": "color (JAR); gain, benefit, riches, increase; sort", "ipa": "ɡaona", "source": "avesta.org"}
+{"word": "gaosha", "gloss": "ear", "ipa": "ɡaosha", "source": "avesta.org"}
+{"word": "gaoshô-srûta", "gloss": "heard, listened to", "ipa": "ɡaoshô-srûta", "source": "avesta.org"}
+{"word": "gaoyaoiti", "gloss": "pasture, field; a distance of 4 miles", "ipa": "ɡaojaoiti", "source": "avesta.org"}
+{"word": "gar", "gloss": "gravity, respect, invocation; [garangh]", "ipa": "ɡar", "source": "avesta.org"}
+{"word": "garô-nmâna", "gloss": "house of song (lit.), the highest heaven", "ipa": "ɡarô-nmâna", "source": "avesta.org"}
+{"word": "gao, gâu", "gloss": "cow, bull, ox; settlement", "ipa": "ɡao, ɡâu", "source": "avesta.org"}
+{"word": "gâma", "gloss": "step?", "ipa": "ɡâma", "source": "avesta.org"}
+{"word": "gâtu", "gloss": "way, road (Kr12); place (jAR)", "ipa": "ɡâtu", "source": "avesta.org"}
+{"word": "gâthâ", "gloss": "'strophic form, hymn of a certain strophic form, group of hymns of the same", "ipa": "ɡâthâ", "source": "avesta.org"}
+{"word": "garedh", "gloss": "to hold (orig); to accept, to welcome; to take up, to undertake", "ipa": "ɡaredh", "source": "avesta.org"}
+{"word": "gram", "gloss": "enraged (AHM), angered (jAR), to growl in rage", "ipa": "ɡram", "source": "avesta.org"}
+{"word": "ghenâ", "gloss": "and of women", "ipa": "ɡhenâ", "source": "avesta.org"}
+{"word": "ghzhar", "gloss": "to flow; to milk", "ipa": "ɡhzhar", "source": "avesta.org"}
+{"word": "hac", "gloss": "to follow, to accompany; cl", "ipa": "hatʃ", "source": "avesta.org"}
+{"word": "haca", "gloss": "from", "ipa": "hatʃa", "source": "avesta.org"}
+{"word": "hacat-paêmainya", "gloss": "obtaining milk (lit.); rich in milk", "ipa": "hatʃat-paêmainja", "source": "avesta.org"}
+{"word": "hacat-puthra", "gloss": "rich in children, blessed with children", "ipa": "hatʃat-puthra", "source": "avesta.org"}
+{"word": "hacâ", "gloss": "from, out of", "ipa": "hatʃâ", "source": "avesta.org"}
+{"word": "hadha", "gloss": "with; always; during", "ipa": "hadha", "source": "avesta.org"}
+{"word": "hadha-aiwyånghanem", "gloss": "with the Aiwyaonghana (= kusti or sacred thread)", "ipa": "hadha-aiwjånɡhanem", "source": "avesta.org"}
+{"word": "hadha-cithâ", "gloss": "with the punishment or penalty", "ipa": "hadha-tʃithâ", "source": "avesta.org"}
+{"word": "hadha-zaothra", "gloss": "accompanied with the zaothra", "ipa": "hadha-zaothra", "source": "avesta.org"}
+{"word": "hadha-zaothrô-barâi", "gloss": "(he/she) offers libations", "ipa": "hadha-zaothrô-barâi", "source": "avesta.org"}
+{"word": "hadhânaêpatavañt", "gloss": "with the Hadhanaepata", "ipa": "hadhânaêpatavañt", "source": "avesta.org"}
+{"word": "hadhânaêpatâ", "gloss": "a sweet smelling wood; pomegranate tree (trad.); evergreen (lit).", "ipa": "hadhânaêpatâ", "source": "avesta.org"}
+{"word": "haêm", "gloss": "character, habit", "ipa": "haêm", "source": "avesta.org"}
+{"word": "haênâ", "gloss": "an army; enemy (AHM187), hostile army", "ipa": "haênâ", "source": "avesta.org"}
+{"word": "hañt", "gloss": "being, existing, living, real, evident", "ipa": "hañt", "source": "avesta.org"}
+{"word": "haithya", "gloss": "real (vn, ahm190); (adv.) really, evidently, openly", "ipa": "haithja", "source": "avesta.org"}
+{"word": "haithyâvarshta", "gloss": "one who practices virtuous deeds; (Hum2 189: [haithyâvarez-]", "ipa": "haithjâvarshta", "source": "avesta.org"}
+{"word": "hakat", "gloss": "forthwith; immediately, at once", "ipa": "hakat", "source": "avesta.org"}
+{"word": "hakeret", "gloss": "once, sometimes", "ipa": "hakeret", "source": "avesta.org"}
+{"word": "hama", "gloss": "summer; (plN) all, whole, even, same, similar", "ipa": "hama", "source": "avesta.org"}
+{"word": "hamaêstar", "gloss": "opponent, combatant", "ipa": "hamaêstar", "source": "avesta.org"}
+{"word": "hamaspathmaêdaya", "gloss": "Hamaspathmaidyem, All Souls Observance", "ipa": "hamaspathmaêdaja", "source": "avesta.org"}
+{"word": "hamatha", "gloss": "alike, similar, exactly; always", "ipa": "hamatha", "source": "avesta.org"}
+{"word": "ham-eretha", "gloss": "enemies; foes", "ipa": "ham-eretha", "source": "avesta.org"}
+{"word": "hamisti", "gloss": "encountering, confrontation, fighting against", "ipa": "hamisti", "source": "avesta.org"}
+{"word": "hañdareza", "gloss": "coining or mixing together, uniting", "ipa": "hañdareza", "source": "avesta.org"}
+{"word": "hañdâtâ", "gloss": "arranged; canonical", "ipa": "hañdâtâ", "source": "avesta.org"}
+{"word": "hañcamana", "gloss": "meeting", "ipa": "hañtʃamana", "source": "avesta.org"}
+{"word": "kañ-kar", "gloss": "to complete (H", "ipa": "kañ-kar", "source": "avesta.org"}
+{"word": "hava", "gloss": "one's own", "ipa": "hava", "source": "avesta.org"}
+{"word": "haomavañt", "gloss": "accompanied with the Haoma", "ipa": "haomavañt", "source": "avesta.org"}
+{"word": "haomayô", "gloss": "probably corrupt, read \"haoma ýô gava\" with haoma (that is mixed with) milk", "ipa": "haomajô", "source": "avesta.org"}
+{"word": "haomya", "gloss": "relating to the Haoma; of the Haoma", "ipa": "haomja", "source": "avesta.org"}
+{"word": "haosravangh", "gloss": "a proper name", "ipa": "haosravanɡh", "source": "avesta.org"}
+{"word": "haosravangha", "gloss": "glory; fair fame, good renoun; a lake; a proper name", "ipa": "haosravanɡha", "source": "avesta.org"}
+{"word": "haoshyangha", "gloss": "proper name", "ipa": "haoshjanɡha", "source": "avesta.org"}
+{"word": "havya", "gloss": "left (vs", "ipa": "havja", "source": "avesta.org"}
+{"word": "haptan", "gloss": "seven", "ipa": "haptan", "source": "avesta.org"}
+{"word": "haptanghâiti", "gloss": "'the seven chapters'", "ipa": "haptanɡhâiti", "source": "avesta.org"}
+{"word": "haptatha", "gloss": "seventh", "ipa": "haptatha", "source": "avesta.org"}
+{"word": "haptâiti", "gloss": "seventy", "ipa": "haptâiti", "source": "avesta.org"}
+{"word": "haraitî", "gloss": "a mountain, Mount Alborz", "ipa": "haraitî", "source": "avesta.org"}
+{"word": "harâ", "gloss": "Hara, name of legendary mountains", "ipa": "harâ", "source": "avesta.org"}
+{"word": "harethra", "gloss": "nourishment, food, support", "ipa": "harethra", "source": "avesta.org"}
+{"word": "hathra", "gloss": "together, together with, at the same time; (adv", "ipa": "hathra", "source": "avesta.org"}
+{"word": "haurva", "gloss": "all, entire, complete", "ipa": "haurva", "source": "avesta.org"}
+{"word": "haurvatât, haurvat", "gloss": "wholeness, fullness, completeness; abundance; health, comfort, ease; 6th Amesha", "ipa": "haurvatât, haurvat", "source": "avesta.org"}
+{"word": "haxan, haxi", "gloss": "a friend, a companion; (du) two friends", "ipa": "haxan, haxi", "source": "avesta.org"}
+{"word": "haxa", "gloss": "sole of the foot", "ipa": "haxa", "source": "avesta.org"}
+{"word": "haxman", "gloss": "friendship; companionship", "ipa": "haxman", "source": "avesta.org"}
+{"word": "upa ... haxshôit", "gloss": "to issue, to spring, to proceed", "ipa": "upa ... haxshôit", "source": "avesta.org"}
+{"word": "hazangra-gaosha", "gloss": "1000 ears", "ipa": "hazanɡra-ɡaosha", "source": "avesta.org"}
+{"word": "hazangrakhna", "gloss": "1000 times", "ipa": "hazanɡrakhna", "source": "avesta.org"}
+{"word": "hâirishî", "gloss": "a female", "ipa": "hâirishî", "source": "avesta.org"}
+{"word": "haiti", "gloss": "a chapter", "ipa": "haiti", "source": "avesta.org"}
+{"word": "hama, hâma", "gloss": "all, whole; same", "ipa": "hama, hâma", "source": "avesta.org"}
+{"word": "hâthra", "gloss": "a measure of distance or time of travel", "ipa": "hâthra", "source": "avesta.org"}
+{"word": "hâthrô-masangh", "gloss": "one hathra long", "ipa": "hâthrô-masanɡh", "source": "avesta.org"}
+{"word": "hâu", "gloss": "he, she; this, that; (a rare form, used in the SgN both masc and fem); there", "ipa": "hâu", "source": "avesta.org"}
+{"word": "hâvana", "gloss": "mortar", "ipa": "hâvana", "source": "avesta.org"}
+{"word": "hâvani", "gloss": "Hawan, the morning watch; morning", "ipa": "hâvani", "source": "avesta.org"}
+{"word": "hâvôya", "gloss": "left (vs", "ipa": "hâvôja", "source": "avesta.org"}
+{"word": "hañ", "gloss": "with, together with", "ipa": "hañ", "source": "avesta.org"}
+{"word": "hãm-bû", "gloss": "to go together, to meet together", "ipa": "hãm-bû", "source": "avesta.org"}
+{"word": "hãm-raêthwa", "gloss": "to be polluted by direct defilement", "ipa": "hãm-raêthwa", "source": "avesta.org"}
+{"word": "hiñdu", "gloss": "Indus river", "ipa": "hiñdu", "source": "avesta.org"}
+{"word": "stâ", "gloss": "to rise, to stand (AHM)", "ipa": "stâ", "source": "avesta.org"}
+{"word": "hita", "gloss": "teams (Kr), bound (lit.)", "ipa": "hita", "source": "avesta.org"}
+{"word": "hizvâ", "gloss": "tongue", "ipa": "hizvâ", "source": "avesta.org"}
+{"word": "hubaoidhitema", "gloss": "sweetest of odor", "ipa": "hubaoidhitema", "source": "avesta.org"}
+{"word": "hudhångh", "gloss": "benign (Kr), munificent (Hum 8); 1: belonging to the good creation; 2", "ipa": "hudhånɡh", "source": "avesta.org"}
+{"word": "hufrâyashta", "gloss": "well-praised; well- invoked", "ipa": "hufrâjashta", "source": "avesta.org"}
+{"word": "hukairya", "gloss": "from Mount Hukar", "ipa": "hukairja", "source": "avesta.org"}
+{"word": "hukereta", "gloss": "well-made, well shaped", "ipa": "hukereta", "source": "avesta.org"}
+{"word": "humanangh", "gloss": "of good thoughts; well-minded", "ipa": "humananɡh", "source": "avesta.org"}
+{"word": "humata", "gloss": "good thought, well-thought", "ipa": "humata", "source": "avesta.org"}
+{"word": "humaya", "gloss": "possessed of good \"mâyâ\" (HZI); a good ordinance; a wise code of laws", "ipa": "humaja", "source": "avesta.org"}
+{"word": "hav", "gloss": "express (the haoma)", "ipa": "hav", "source": "avesta.org"}
+{"word": "huraodha", "gloss": "fair of form (Kr, JAR), of lovely form (HZI), beautiful, good looking", "ipa": "huraodha", "source": "avesta.org"}
+{"word": "hushiti", "gloss": "good abode", "ipa": "hushiti", "source": "avesta.org"}
+{"word": "hushka", "gloss": "dry", "ipa": "hushka", "source": "avesta.org"}
+{"word": "hutashta", "gloss": "well-shapen; beautifully formed", "ipa": "hutashta", "source": "avesta.org"}
+{"word": "huxshathra", "gloss": "of good reign (Kr), a good king, a virtuous ruler", "ipa": "huxshathra", "source": "avesta.org"}
+{"word": "huyashta", "gloss": "well adored, well praised, well offered", "ipa": "hujashta", "source": "avesta.org"}
+{"word": "hvar", "gloss": "Sun; [hû]", "ipa": "hvar", "source": "avesta.org"}
+{"word": "hûxta", "gloss": "good word", "ipa": "hûxta", "source": "avesta.org"}
+{"word": "hva", "gloss": "(poss", "ipa": "hva", "source": "avesta.org"}
+{"word": "hvare-xshaêta", "gloss": "radiant sun (HZI), bright-sun", "ipa": "hvare-xshaêta", "source": "avesta.org"}
+{"word": "hvarshta", "gloss": "a good deed; a moral action; well done", "ipa": "hvarshta", "source": "avesta.org"}
+{"word": "hvâpah", "gloss": "artistic, skilled skillful; artist (GAv) (Hum2 150); well-working (Bha.)", "ipa": "hvâpah", "source": "avesta.org"}
+{"word": "hvãthwa", "gloss": "provided with good retinue; otherwise: watching over the subjects", "ipa": "hvãthwa", "source": "avesta.org"}
+{"word": "hyat", "gloss": "'that which'; (also used as a participle, which following different meanings:)", "ipa": "hjat", "source": "avesta.org"}
+{"word": "idha", "gloss": "here; now", "ipa": "idha", "source": "avesta.org"}
+{"word": ", aêm", "gloss": "this", "ipa": ", aêm", "source": "avesta.org"}
+{"word": "irith", "gloss": "dead, expired", "ipa": "irith", "source": "avesta.org"}
+{"word": "irish", "gloss": "to wound; to destroy or kill by wounding; cl", "ipa": "irish", "source": "avesta.org"}
+{"word": "irith-", "gloss": "to pass away, to die (jAR, vn); to ooze out, to flow; cl", "ipa": "irith-", "source": "avesta.org"}
+{"word": "is", "gloss": "to wish, to desire; cl", "ipa": "is", "source": "avesta.org"}
+{"word": "isa", "gloss": "to seek, look for", "ipa": "isa", "source": "avesta.org"}
+{"word": "ishta", "gloss": "worshipped (Kr), wished for, desired, beloved", "ipa": "ishta", "source": "avesta.org"}
+{"word": "ish", "gloss": "urge, cl", "ipa": "ish", "source": "avesta.org"}
+{"word": "ishare", "gloss": "soon, immediately, directly", "ipa": "ishare", "source": "avesta.org"}
+{"word": "ishya", "gloss": "agreeable, welcome", "ipa": "ishja", "source": "avesta.org"}
+{"word": "ishûidyâmahî", "gloss": "we are indebted", "ipa": "ishûidjâmahî", "source": "avesta.org"}
+{"word": "itha", "gloss": "so, thus, in this manner", "ipa": "itha", "source": "avesta.org"}
+{"word": "ithra", "gloss": "in this place; here, there", "ipa": "ithra", "source": "avesta.org"}
+{"word": "izha", "gloss": "abundance, milk-libation; used metaphorically as the name of a mythical person", "ipa": "izha", "source": "avesta.org"}
+{"word": "î", "gloss": "to go, walk", "ipa": "î", "source": "avesta.org"}
+{"word": "îsh", "gloss": "this, that", "ipa": "îsh", "source": "avesta.org"}
+{"word": "îshti", "gloss": "possessions", "ipa": "îshti", "source": "avesta.org"}
+{"word": "îzhâ", "gloss": "milk offerings (Kr); sacrifice / Sacrifice; wish, desire; abundance", "ipa": "îzhâ", "source": "avesta.org"}
+{"word": "jafra", "gloss": "deep", "ipa": "dʒafra", "source": "avesta.org"}
+{"word": "jahi", "gloss": "a rake, a libertine, one who leads a licentious life a prostitute", "ipa": "dʒahi", "source": "avesta.org"}
+{"word": "jahika", "gloss": "a licentious or immoral man or woman", "ipa": "dʒahika", "source": "avesta.org"}
+{"word": "jan", "gloss": "smite thou", "ipa": "dʒan", "source": "avesta.org"}
+{"word": "jad", "gloss": "ask, pray, demand", "ipa": "dʒad", "source": "avesta.org"}
+{"word": "jam", "gloss": "to go; to come; to reach, to happen; rt", "ipa": "dʒam", "source": "avesta.org"}
+{"word": "[â-jam]", "gloss": "to come to; to approach", "ipa": "[â-dʒam]", "source": "avesta.org"}
+{"word": "janat, ni janât", "gloss": "to crush down, to destroy", "ipa": "dʒanat, ni dʒanât", "source": "avesta.org"}
+{"word": "jas", "gloss": "to go; to come; to reach; to happen; another form of \"jam\" q.v.; cl", "ipa": "dʒas", "source": "avesta.org"}
+{"word": "jâmâspa", "gloss": "Jamaspa", "ipa": "dʒâmâspa", "source": "avesta.org"}
+{"word": "jãfnu", "gloss": "depth", "ipa": "dʒãfnu", "source": "avesta.org"}
+{"word": "jim", "gloss": "to go, to come, to happen; to acquire", "ipa": "dʒim", "source": "avesta.org"}
+{"word": "jivya", "gloss": "living (lit.); fresh milk", "ipa": "dʒivja", "source": "avesta.org"}
+{"word": "juya", "gloss": "living", "ipa": "dʒuja", "source": "avesta.org"}
+{"word": "jvañt", "gloss": "living, existing; cl", "ipa": "dʒvañt", "source": "avesta.org"}
+{"word": "kadha", "gloss": "where? when?", "ipa": "kadha", "source": "avesta.org"}
+{"word": "kanyâ", "gloss": "a virgin, a maiden", "ipa": "kanjâ", "source": "avesta.org"}
+{"word": "kainin", "gloss": "a virgin, a maiden", "ipa": "kainin", "source": "avesta.org"}
+{"word": "-kairya", "gloss": "-working; industrious, active, skill", "ipa": "-kairja", "source": "avesta.org"}
+{"word": "kaiti", "gloss": "love, affection, friendship", "ipa": "kaiti", "source": "avesta.org"}
+{"word": "kam", "gloss": "to love, to be in love with, to wish", "ipa": "kam", "source": "avesta.org"}
+{"word": "kameredha", "gloss": "evil head (Kr), the head (of bad beings); the brainless head, skull, cranium", "ipa": "kameredha", "source": "avesta.org"}
+{"word": "kavan, kavi", "gloss": "kavi", "ipa": "kavan, kavi", "source": "avesta.org"}
+{"word": "-kara", "gloss": "-working; -producing; -energetic", "ipa": "-kara", "source": "avesta.org"}
+{"word": "karapan", "gloss": "karpan; mumbler", "ipa": "karapan", "source": "avesta.org"}
+{"word": "karana", "gloss": "side, flank, corner, boundary, end", "ipa": "karana", "source": "avesta.org"}
+{"word": "karshvare", "gloss": "a region, a country, continent, (AHM:) clime", "ipa": "karshvare", "source": "avesta.org"}
+{"word": "kasha", "gloss": "the armpit", "ipa": "kasha", "source": "avesta.org"}
+{"word": "katâra", "gloss": "which", "ipa": "katâra", "source": "avesta.org"}
+{"word": "katha", "gloss": "how? how much? when?", "ipa": "katha", "source": "avesta.org"}
+{"word": "kavan, kavi, kavaya", "gloss": "ancient Persian dynasty, Kayanian; name of illustrious person; hymn-monger", "ipa": "kavan, kavi, kavaja", "source": "avesta.org"}
+{"word": "kâ", "gloss": "to love, to like; [ka]", "ipa": "kâ", "source": "avesta.org"}
+{"word": "kâcit", "gloss": "kâ", "ipa": "kâtʃit", "source": "avesta.org"}
+{"word": "kar-2", "gloss": "to sow, to cultivate", "ipa": "kar-2", "source": "avesta.org"}
+{"word": "kehrp", "gloss": "form, shape; body, flesh, corpse", "ipa": "kehrp", "source": "avesta.org"}
+{"word": "kerefsh-hvar", "gloss": "corpse-eating", "ipa": "kerefsh-hvar", "source": "avesta.org"}
+{"word": "kereñt", "gloss": "to shut or open, operate", "ipa": "kereñt", "source": "avesta.org"}
+{"word": "kêm-nâ", "gloss": "kem", "ipa": "kêm-nâ", "source": "avesta.org"}
+{"word": "kutha", "gloss": "how? when?", "ipa": "kutha", "source": "avesta.org"}
+{"word": "kuthra", "gloss": "where, whither? how? (Cf", "ipa": "kuthra", "source": "avesta.org"}
+{"word": "kva", "gloss": "where? which? how?", "ipa": "kva", "source": "avesta.org"}
+{"word": "madhema", "gloss": "middlemost", "ipa": "madhema", "source": "avesta.org"}
+{"word": "madha", "gloss": "remedy, intoxication, drug", "ipa": "madha", "source": "avesta.org"}
+{"word": "maêsman", "gloss": "urine", "ipa": "maêsman", "source": "avesta.org"}
+{"word": "maêthana", "gloss": "station, dwelling (t27, t87), abode, residence", "ipa": "maêthana", "source": "avesta.org"}
+{"word": "makha", "gloss": "a pit; hole", "ipa": "makha", "source": "avesta.org"}
+{"word": "mahrka", "gloss": "death", "ipa": "mahrka", "source": "avesta.org"}
+{"word": "ma", "gloss": "my", "ipa": "ma", "source": "avesta.org"}
+{"word": "maidhya", "gloss": "middle, half", "ipa": "maidhja", "source": "avesta.org"}
+{"word": "maidhyâiryâi", "gloss": "Maidyarem, mid-year observance", "ipa": "maidhjâirjâi", "source": "avesta.org"}
+{"word": "maidhyôishema", "gloss": "Maidyoshahem, mid-summer observance", "ipa": "maidhjôishema", "source": "avesta.org"}
+{"word": "maidhyôizaremaya", "gloss": "Maidyozarem, mid-spring observance", "ipa": "maidhjôizaremaja", "source": "avesta.org"}
+{"word": "mainyava", "gloss": "celestial, supernatural (ahm170), spiritual", "ipa": "mainjava", "source": "avesta.org"}
+{"word": "mainyavaså [mainyava", "gloss": "+ vasangh, mainyavasangh]", "ipa": "mainjavaså [mainjava", "source": "avesta.org"}
+{"word": "mainyu", "gloss": "spirit, spiritual, invisible", "ipa": "mainju", "source": "avesta.org"}
+{"word": "mairya", "gloss": "words merged: 1) mairyâ", "ipa": "mairja", "source": "avesta.org"}
+{"word": "manahya", "gloss": "spiritual", "ipa": "manahja", "source": "avesta.org"}
+{"word": "manangh", "gloss": "thought (Hum, AHM), mind, thinking, thoughts, purpose (Boyce)", "ipa": "mananɡh", "source": "avesta.org"}
+{"word": "mar-", "gloss": "to die", "ipa": "mar-", "source": "avesta.org"}
+{"word": "marethra", "gloss": "remembrance, study, recollection", "ipa": "marethra", "source": "avesta.org"}
+{"word": "mareza", "gloss": "to touch, to limit, to arrive at a certain limit; to clean (lit.); to make, to", "ipa": "mareza", "source": "avesta.org"}
+{"word": "masan", "gloss": "greatness", "ipa": "masan", "source": "avesta.org"}
+{"word": "mas", "gloss": "large, great, extensive; [masangh]", "ipa": "mas", "source": "avesta.org"}
+{"word": "masti", "gloss": "greatness, excellence, wisdom", "ipa": "masti", "source": "avesta.org"}
+{"word": "masya", "gloss": "fish", "ipa": "masja", "source": "avesta.org"}
+{"word": "mashya", "gloss": "mortal, man", "ipa": "mashja", "source": "avesta.org"}
+{"word": "mat", "gloss": "with (j735, k391); [azem]", "ipa": "mat", "source": "avesta.org"}
+{"word": "mat-afsmana", "gloss": "with its measured verses", "ipa": "mat-afsmana", "source": "avesta.org"}
+{"word": "mat-âzaiñti", "gloss": "with their commentary", "ipa": "mat-âzaiñti", "source": "avesta.org"}
+{"word": "mat-vacastashti", "gloss": "with its stanzas", "ipa": "mat-vatʃastashti", "source": "avesta.org"}
+{"word": "mazdâ", "gloss": "Mazda", "ipa": "mazdâ", "source": "avesta.org"}
+{"word": "mazdadhâta", "gloss": "Mazda-made", "ipa": "mazdadhâta", "source": "avesta.org"}
+{"word": "mazdayasna", "gloss": "a Mazda-worshipper", "ipa": "mazdajasna", "source": "avesta.org"}
+{"word": "mazdô-frasâsta", "gloss": "taught by Mazda", "ipa": "mazdô-frasâsta", "source": "avesta.org"}
+{"word": "mazishta", "gloss": "greatest", "ipa": "mazishta", "source": "avesta.org"}
+{"word": "mâ", "gloss": "!; (negative particle/prohibitive) never (do this)!, not; [azem]", "ipa": "mâ", "source": "avesta.org"}
+{"word": "mâh", "gloss": "moon, month (k403 gives base form as [mångh]", "ipa": "mâh", "source": "avesta.org"}
+{"word": "mâhya", "gloss": "monthly", "ipa": "mâhja", "source": "avesta.org"}
+{"word": "mâzainya", "gloss": "monstrous (Kr85), (the demons) of Mazana", "ipa": "mâzainja", "source": "avesta.org"}
+{"word": "mâzdayasni", "gloss": "Mazda-worshipper", "ipa": "mâzdajasni", "source": "avesta.org"}
+{"word": "man-", "gloss": "to resemble; to compare; as denom, base of \"man\", (part", "ipa": "man-", "source": "avesta.org"}
+{"word": "mãthra", "gloss": "& n: manthra, Sacred Word", "ipa": "mãthra", "source": "avesta.org"}
+{"word": "merekha", "gloss": "a bird", "ipa": "merekha", "source": "avesta.org"}
+{"word": "mareñc", "gloss": "to smite, to kill; to destroy", "ipa": "mareñtʃ", "source": "avesta.org"}
+{"word": "mar", "gloss": "to die, to expire (compare ameretât", "ipa": "mar", "source": "avesta.org"}
+{"word": "merethwañg", "gloss": "remembering, thinking of", "ipa": "merethwañɡ", "source": "avesta.org"}
+{"word": "mith", "gloss": "is opposed, antagonistic, hostile (ahm192); to dwell, to abide, to meet, to", "ipa": "mith", "source": "avesta.org"}
+{"word": "mithra", "gloss": "Mithra; a contract, promise, agreement, friendship, commitment; 7th month of", "ipa": "mithra", "source": "avesta.org"}
+{"word": "mithrô-druc", "gloss": "who is false to the treaty", "ipa": "mithrô-drutʃ", "source": "avesta.org"}
+{"word": "mizhda", "gloss": "reward, compensation", "ipa": "mizhda", "source": "avesta.org"}
+{"word": "moshu", "gloss": "hastily (quickly, soon)", "ipa": "moshu", "source": "avesta.org"}
+{"word": "môi", "gloss": "not, never; [azem]", "ipa": "môi", "source": "avesta.org"}
+{"word": "mrû-", "gloss": "to speak, to say", "ipa": "mrû-", "source": "avesta.org"}
+{"word": "frâ- mrû", "gloss": "to instruct", "ipa": "frâ- mrû", "source": "avesta.org"}
+{"word": "myazda", "gloss": "sacred offering, sacred food", "ipa": "mjazda", "source": "avesta.org"}
+{"word": "myazdavan", "gloss": "offering Myazda", "ipa": "mjazdavan", "source": "avesta.org"}
+{"word": "nabânazdishta", "gloss": "next of kin", "ipa": "nabânazdishta", "source": "avesta.org"}
+{"word": "naêci", "gloss": "no one, none; nothing", "ipa": "naêtʃi", "source": "avesta.org"}
+{"word": "naêma", "gloss": "half; part; n", "ipa": "naêma", "source": "avesta.org"}
+{"word": "napat", "gloss": "(Apam) Napat, name of a Yazad", "ipa": "napat", "source": "avesta.org"}
+{"word": "naire-manangh", "gloss": "brave, manly", "ipa": "naire-mananɡh", "source": "avesta.org"}
+{"word": "nairya", "gloss": "brave, manly", "ipa": "nairja", "source": "avesta.org"}
+{"word": "nairyô-sangha", "gloss": "name of a Yazad; name of a sacred fire; of manly utterance", "ipa": "nairjô-sanɡha", "source": "avesta.org"}
+{"word": "nap", "gloss": "green, humid", "ipa": "nap", "source": "avesta.org"}
+{"word": "nar-", "gloss": "a man, a male", "ipa": "nar-", "source": "avesta.org"}
+{"word": "narava", "gloss": "valiant (lit.); Narava family", "ipa": "narava", "source": "avesta.org"}
+{"word": "nas-", "gloss": "to perish (vn), to disappear, to vanish", "ipa": "nas-", "source": "avesta.org"}
+{"word": "nava", "gloss": "afresh (t96, b1044), new, fresh; (indecl", "ipa": "nava", "source": "avesta.org"}
+{"word": "navaiti", "gloss": "ninety", "ipa": "navaiti", "source": "avesta.org"}
+{"word": "navasa", "gloss": "nine times", "ipa": "navasa", "source": "avesta.org"}
+{"word": "navât", "gloss": "no, not", "ipa": "navât", "source": "avesta.org"}
+{"word": "naxturu", "gloss": "nocturnal", "ipa": "naxturu", "source": "avesta.org"}
+{"word": "nazdishta", "gloss": "nearest", "ipa": "nazdishta", "source": "avesta.org"}
+{"word": "nâirikâ", "gloss": "woman", "ipa": "nâirikâ", "source": "avesta.org"}
+{"word": "nâirî", "gloss": "woman", "ipa": "nâirî", "source": "avesta.org"}
+{"word": "nãman", "gloss": "name", "ipa": "nãman", "source": "avesta.org"}
+{"word": "nas-2", "gloss": "to reach, attain", "ipa": "nas-2", "source": "avesta.org"}
+{"word": "nâvaya", "gloss": "channeled, navigable", "ipa": "nâvaja", "source": "avesta.org"}
+{"word": "nemah'ya-", "gloss": "to worship", "ipa": "nemah'ja-", "source": "avesta.org"}
+{"word": "nemangh, nema, nemanghvañt", "gloss": "veneration, reverence (AHM, Monna), prayer (Kr) (respect?); (N) reverent; duty", "ipa": "nemanɡh, nema, nemanɡhvañt", "source": "avesta.org"}
+{"word": "nemangh", "gloss": "reverence to; (A) duty", "ipa": "nemanɡh", "source": "avesta.org"}
+{"word": "narefs", "gloss": "to decrease; cl", "ipa": "narefs", "source": "avesta.org"}
+{"word": "ni-", "gloss": "down; into, backward", "ipa": "ni-", "source": "avesta.org"}
+{"word": "ni-dâ", "gloss": "to put down, deposit", "ipa": "ni-dâ", "source": "avesta.org"}
+{"word": "ni-darez", "gloss": "act", "ipa": "ni-darez", "source": "avesta.org"}
+{"word": "ni-jan", "gloss": "to crush down, to destroy", "ipa": "ni-dʒan", "source": "avesta.org"}
+{"word": "ni-kan", "gloss": "to bury", "ipa": "ni-kan", "source": "avesta.org"}
+{"word": "ni-mrû", "gloss": "to speak submissively; to declare; to address; wail", "ipa": "ni-mrû", "source": "avesta.org"}
+{"word": "ni-sri", "gloss": "to give over; to deliver", "ipa": "ni-sri", "source": "avesta.org"}
+{"word": "ni-had", "gloss": "to sit down", "ipa": "ni-had", "source": "avesta.org"}
+{"word": "nitema", "gloss": "lowest, smallest", "ipa": "nitema", "source": "avesta.org"}
+{"word": "ni-vid", "gloss": ") to cause to know; to announce, to declare", "ipa": "ni-vid", "source": "avesta.org"}
+{"word": "ni-var", "gloss": "to be concealed, to hide", "ipa": "ni-var", "source": "avesta.org"}
+{"word": "ni-zbâ", "gloss": "to invoke, to praise", "ipa": "ni-zbâ", "source": "avesta.org"}
+{"word": "nizh-bar", "gloss": "to remove, take out", "ipa": "nizh-bar", "source": "avesta.org"}
+{"word": "nizh-bereta", "gloss": "removed, taken out", "ipa": "nizh-bereta", "source": "avesta.org"}
+{"word": "nîsh-nas", "gloss": "to chase out (Hum); [nas] to attain (y44.13)", "ipa": "nîsh-nas", "source": "avesta.org"}
+{"word": "nmâna", "gloss": "house, home (mn", "ipa": "nmâna", "source": "avesta.org"}
+{"word": "nmânô-paiti", "gloss": "householder (Herb.), master of the house, head of the house", "ipa": "nmânô-paiti", "source": "avesta.org"}
+{"word": "nmânya", "gloss": "belonging to the house; of the house; Nmanya, guardian angel of the house or", "ipa": "nmânja", "source": "avesta.org"}
+{"word": "nôit", "gloss": "not", "ipa": "nôit", "source": "avesta.org"}
+{"word": "nû", "gloss": "now", "ipa": "nû", "source": "avesta.org"}
+{"word": "nura, nûra", "gloss": "now", "ipa": "nura, nûra", "source": "avesta.org"}
+{"word": "nyåñca, ni-añc", "gloss": "one who throws down, a destroyer; disabled; fallen", "ipa": "njåñtʃa, ni-añtʃ", "source": "avesta.org"}
+{"word": "paêman", "gloss": "milk", "ipa": "paêman", "source": "avesta.org"}
+{"word": "pairi-jas", "gloss": "to approach", "ipa": "pairi-dʒas", "source": "avesta.org"}
+{"word": "pairi-tac", "gloss": "to run about or near", "ipa": "pairi-tatʃ", "source": "avesta.org"}
+{"word": "pairi-ýaozhdâ", "gloss": "to cleanse or purify thoroughly", "ipa": "pairi-ýaozhdâ", "source": "avesta.org"}
+{"word": "pairikâ", "gloss": "a fairy; witch; meteor, shooting star; she devil", "ipa": "pairikâ", "source": "avesta.org"}
+{"word": "pairish-hâvani", "gloss": "round about Hawan", "ipa": "pairish-hâvani", "source": "avesta.org"}
+{"word": "pairithna", "gloss": "the (normal) course of life, the \"going around\" (lit.); battle; dispute, fight", "ipa": "pairithna", "source": "avesta.org"}
+{"word": "paiti-vac", "gloss": "to reply, to answer", "ipa": "paiti-vatʃ", "source": "avesta.org"}
+{"word": "paiti-bar", "gloss": "to bring back", "ipa": "paiti-bar", "source": "avesta.org"}
+{"word": "paiti-du", "gloss": "to answer (of evil beings)", "ipa": "paiti-du", "source": "avesta.org"}
+{"word": "paiti-dîti", "gloss": "look, gaze, beholding", "ipa": "paiti-dîti", "source": "avesta.org"}
+{"word": "paiti-hic", "gloss": "to sprinkle; to cleanse", "ipa": "paiti-hitʃ", "source": "avesta.org"}
+{"word": "paiti-irista", "gloss": "deceased; dead; defiled by the dead", "ipa": "paiti-irista", "source": "avesta.org"}
+{"word": "paiti-jaiti", "gloss": "smiting down; defeating", "ipa": "paiti-dʒaiti", "source": "avesta.org"}
+{"word": "paiti-jas", "gloss": "to return (Kr40); to go against; to reach; to meet face to face; to touch", "ipa": "paiti-dʒas", "source": "avesta.org"}
+{"word": "paiti-perene", "gloss": "to fight against", "ipa": "paiti-perene", "source": "avesta.org"}
+{"word": "paiti-raêthwayeiti", "gloss": "(the Druj Nasus) defiles (a person) indirectly", "ipa": "paiti-raêthwajeiti", "source": "avesta.org"}
+{"word": "paiti-sanghâmi", "gloss": "(I) exorcise (?)", "ipa": "paiti-sanɡhâmi", "source": "avesta.org"}
+{"word": "paiti-zañta", "gloss": "made welcome, honored", "ipa": "paiti-zañta", "source": "avesta.org"}
+{"word": "paiti 2", "gloss": "every, each; different", "ipa": "paiti 2", "source": "avesta.org"}
+{"word": "-, paitisha", "gloss": "towards, to", "ipa": "-, paitisha", "source": "avesta.org"}
+{"word": "paitishata", "gloss": "\"be zealous\"", "ipa": "paitishata", "source": "avesta.org"}
+{"word": "paitish-hahya", "gloss": "Paitishahem, 3rd Gahambar", "ipa": "paitish-hahja", "source": "avesta.org"}
+{"word": "paitishtâiti", "gloss": "to oppose", "ipa": "paitishtâiti", "source": "avesta.org"}
+{"word": "paiti-îsh", "gloss": "looking with an evil eye upon; envying", "ipa": "paiti-îsh", "source": "avesta.org"}
+{"word": "paityâra", "gloss": "counter-worker; counter- fiend; going against; counter-action; striking; harm", "ipa": "paitjâra", "source": "avesta.org"}
+{"word": "pañcan", "gloss": "five", "ipa": "pañtʃan", "source": "avesta.org"}
+{"word": "pañca-dasa", "gloss": "15th; [pañca-dasan]", "ipa": "pañtʃa-dasa", "source": "avesta.org"}
+{"word": "pañcasakhna", "gloss": "50 times", "ipa": "pañtʃasakhna", "source": "avesta.org"}
+{"word": "pañcâsata", "gloss": "fifty", "ipa": "pañtʃâsata", "source": "avesta.org"}
+{"word": "pathan", "gloss": "a path; way", "ipa": "pathan", "source": "avesta.org"}
+{"word": "paoiri", "gloss": "foremost; many", "ipa": "paoiri", "source": "avesta.org"}
+{"word": "paoirya", "gloss": "first", "ipa": "paoirja", "source": "avesta.org"}
+{"word": "paoiryô-tkaêsha", "gloss": "first teacher, ancient sage, early disciples of Zarathushtra; alternately, a", "ipa": "paoirjô-tkaêsha", "source": "avesta.org"}
+{"word": "paourva", "gloss": "before; first, at first; full, entire", "ipa": "paourva", "source": "avesta.org"}
+{"word": "paourvô-apâxtara", "gloss": "first + northern", "ipa": "paourvô-apâxtara", "source": "avesta.org"}
+{"word": "para", "gloss": "before, from; (adv.) forth, away, beforehand, previously", "ipa": "para", "source": "avesta.org"}
+{"word": "para-", "gloss": "far from, away, out, different from", "ipa": "para-", "source": "avesta.org"}
+{"word": "para-bar", "gloss": "to carry, to give", "ipa": "para-bar", "source": "avesta.org"}
+{"word": "para-dâ", "gloss": "to give away, to donate", "ipa": "para-dâ", "source": "avesta.org"}
+{"word": "para-haoma", "gloss": "parahaoma, haoma juice", "ipa": "para-haoma", "source": "avesta.org"}
+{"word": "para-irista", "gloss": "death, dying", "ipa": "para-irista", "source": "avesta.org"}
+{"word": "para-irith", "gloss": "to die; cl", "ipa": "para-irith", "source": "avesta.org"}
+{"word": "paracit", "gloss": "even before", "ipa": "paratʃit", "source": "avesta.org"}
+{"word": "paradâta", "gloss": "delivered over (lit.), betrothed (damsel)", "ipa": "paradâta", "source": "avesta.org"}
+{"word": "paradhâta", "gloss": "of the Peshdadian dynasty", "ipa": "paradhâta", "source": "avesta.org"}
+{"word": "par", "gloss": "to go, to cross, fill", "ipa": "par", "source": "avesta.org"}
+{"word": "para-i", "gloss": "to go; to cross; to run away", "ipa": "para-i", "source": "avesta.org"}
+{"word": "parena", "gloss": "a wing", "ipa": "parena", "source": "avesta.org"}
+{"word": "pares", "gloss": "to ask, to question; cl", "ipa": "pares", "source": "avesta.org"}
+{"word": "parô", "gloss": "before; more, greater, higher; 'somewhere between the temporal sense of", "ipa": "parô", "source": "avesta.org"}
+{"word": "parô-asna", "gloss": "the (world) beyond; the other world; remote", "ipa": "parô-asna", "source": "avesta.org"}
+{"word": "parshta", "gloss": "asked; [paresh] (fut", "ipa": "parshta", "source": "avesta.org"}
+{"word": "pasca", "gloss": "after, afterwards", "ipa": "pastʃa", "source": "avesta.org"}
+{"word": "pascaêta", "gloss": "then, afterwards, since", "ipa": "pastʃaêta", "source": "avesta.org"}
+{"word": "pascaêta ... ýat", "gloss": ": after ..", "ipa": "pastʃaêta ... ýat", "source": "avesta.org"}
+{"word": "paskât", "gloss": "behind, afterwards", "ipa": "paskât", "source": "avesta.org"}
+{"word": "pasne", "gloss": "behind", "ipa": "pasne", "source": "avesta.org"}
+{"word": "pat", "gloss": "to fall; cl", "ipa": "pat", "source": "avesta.org"}
+{"word": "patita", "gloss": "fallen; criminal, sinful", "ipa": "patita", "source": "avesta.org"}
+{"word": "pathana", "gloss": "wide, spacious", "ipa": "pathana", "source": "avesta.org"}
+{"word": "paurva", "gloss": "first, foremost, pre-eminent", "ipa": "paurva", "source": "avesta.org"}
+{"word": "payangh", "gloss": "epithet of Madhyozarema Gahambar, \"milk- giving\" (lit.)", "ipa": "pajanɡh", "source": "avesta.org"}
+{"word": "pâdha", "gloss": "foot", "ipa": "pâdha", "source": "avesta.org"}
+{"word": "pâ", "gloss": "to protect, to defend; to shelter; cl", "ipa": "pâ", "source": "avesta.org"}
+{"word": "pâyu", "gloss": "protector", "ipa": "pâju", "source": "avesta.org"}
+{"word": "perena", "gloss": "full of, filled with", "ipa": "perena", "source": "avesta.org"}
+{"word": "perenya", "gloss": "full of; replenished with", "ipa": "perenja", "source": "avesta.org"}
+{"word": "perenô-mångha", "gloss": "the full moon, the days after the full moon", "ipa": "perenô-månɡha", "source": "avesta.org"}
+{"word": "peresu", "gloss": "a rib", "ipa": "peresu", "source": "avesta.org"}
+{"word": "peretu", "gloss": "bridge (see also cinvat-peretu)", "ipa": "peretu", "source": "avesta.org"}
+{"word": "peshanâ", "gloss": "to fight; struggle", "ipa": "peshanâ", "source": "avesta.org"}
+{"word": "pesh", "gloss": "to fight against", "ipa": "pesh", "source": "avesta.org"}
+{"word": "peshô-tanu", "gloss": "worthy of death; sinful, criminal", "ipa": "peshô-tanu", "source": "avesta.org"}
+{"word": "pitar, patar, ptar", "gloss": "father", "ipa": "pitar, patar, ptar", "source": "avesta.org"}
+{"word": "pivati", "gloss": "putrefaction, pollution (= paviti", "ipa": "pivati", "source": "avesta.org"}
+{"word": "pouru", "gloss": "much, many, full, abundant", "ipa": "pouru", "source": "avesta.org"}
+{"word": "pouru-baêshaza", "gloss": "full of healing", "ipa": "pouru-baêshaza", "source": "avesta.org"}
+{"word": "pouru-mahrka", "gloss": "full of death; full of plague or pestilence", "ipa": "pouru-mahrka", "source": "avesta.org"}
+{"word": "pouru-saredha", "gloss": "manifold (jAR), of many kinds or species", "ipa": "pouru-saredha", "source": "avesta.org"}
+{"word": "pouru-spaxshti", "gloss": "much watchfulness (Drvaspa)", "ipa": "pouru-spaxshti", "source": "avesta.org"}
+{"word": "pouru-hvâthra", "gloss": "with sufficient comfort or ease, with fullness of welfare", "ipa": "pouru-hvâthra", "source": "avesta.org"}
+{"word": "pourudhâxshtayana", "gloss": "a family name", "ipa": "pourudhâxshtajana", "source": "avesta.org"}
+{"word": "pourva", "gloss": "first", "ipa": "pourva", "source": "avesta.org"}
+{"word": "pourushaspa", "gloss": "Pourushaspa, father of Z.", "ipa": "pourushaspa", "source": "avesta.org"}
+{"word": "pourvya", "gloss": "first", "ipa": "pourvja", "source": "avesta.org"}
+{"word": "puthra", "gloss": "son, child", "ipa": "puthra", "source": "avesta.org"}
+{"word": "puxdha", "gloss": "fifth", "ipa": "puxdha", "source": "avesta.org"}
+{"word": "raê", "gloss": "wealth, wealthy (Hum2 135, Bailey 10); splendor", "ipa": "raê", "source": "avesta.org"}
+{"word": "raêsh", "gloss": "to suffer damage (Herb.); cl", "ipa": "raêsh", "source": "avesta.org"}
+{"word": "raêthwa", "gloss": "mixes", "ipa": "raêthwa", "source": "avesta.org"}
+{"word": "raêvañt", "gloss": "bright; rich; wealth-bestowing; name of a mountain", "ipa": "raêvañt", "source": "avesta.org"}
+{"word": "rafedhra", "gloss": "pleasure, coy, delight", "ipa": "rafedhra", "source": "avesta.org"}
+{"word": "ranghâ", "gloss": "name of a river", "ipa": "ranɡhâ", "source": "avesta.org"}
+{"word": "raocah", "gloss": "luminous (Kr), light; daylight; shining", "ipa": "raotʃah", "source": "avesta.org"}
+{"word": "ravan", "gloss": "valley, dale, vale", "ipa": "ravan", "source": "avesta.org"}
+{"word": "raoxshna", "gloss": "radiant (Kr), shining, (bright?)", "ipa": "raoxshna", "source": "avesta.org"}
+{"word": "rapithwina", "gloss": "Rapithwin, period from noon to mid-afternoon; a Yazad presiding over", "ipa": "rapithwina", "source": "avesta.org"}
+{"word": "rasãstât", "gloss": "truthfulness, righteousness, justice, equity; Rasastat, a Yazad presiding over", "ipa": "rasãstât", "source": "avesta.org"}
+{"word": "rasman", "gloss": "the lines or files of the army", "ipa": "rasman", "source": "avesta.org"}
+{"word": "rashnu", "gloss": "Rashnu, a Yazad presiding over truthfulness ã justice", "ipa": "rashnu", "source": "avesta.org"}
+{"word": "ratu", "gloss": "judge (Kr, Hum2 224), master, one who is in authority (Herb.); judgment (Hum2", "ipa": "ratu", "source": "avesta.org"}
+{"word": "ratu-frî", "gloss": "satisfy the Ratu (lit.), is accepted", "ipa": "ratu-frî", "source": "avesta.org"}
+{"word": "ratufriti", "gloss": "well-timed prayer, prayer offered at the proper time", "ipa": "ratufriti", "source": "avesta.org"}
+{"word": "ratunaya", "gloss": "subordinate to the Ratu (lit.), a disciple", "ipa": "ratunaja", "source": "avesta.org"}
+{"word": "ratha", "gloss": "chariot", "ipa": "ratha", "source": "avesta.org"}
+{"word": "rathaêshtar", "gloss": "warrior, charioteer", "ipa": "rathaêshtar", "source": "avesta.org"}
+{"word": "rathwya", "gloss": "timely, opportune, lawful, proper", "ipa": "rathwja", "source": "avesta.org"}
+{"word": "razishta", "gloss": "straightest; most righteous, superl", "ipa": "razishta", "source": "avesta.org"}
+{"word": "fra-râ", "gloss": "to give; See ferâ vê râhî I dedicate to you", "ipa": "fra-râ", "source": "avesta.org"}
+{"word": "râman hvâstra", "gloss": "peace (lit.), Yazad of the atmosphere; peace possessing good pasture (HZI) see", "ipa": "râman hvâstra", "source": "avesta.org"}
+{"word": "ram", "gloss": "will pacify; cl", "ipa": "ram", "source": "avesta.org"}
+{"word": "râna", "gloss": "thigh", "ipa": "râna", "source": "avesta.org"}
+{"word": "râiti", "gloss": "gift; generous giving, offering", "ipa": "râiti", "source": "avesta.org"}
+{"word": "râta", "gloss": "gift; Yazad presiding over charity [yt2.7], generous (lit.); a friend [yt10.45]", "ipa": "râta", "source": "avesta.org"}
+{"word": "revi", "gloss": "light (not heavy); nimble, agile", "ipa": "revi", "source": "avesta.org"}
+{"word": "sac", "gloss": "to pass", "ipa": "satʃ", "source": "avesta.org"}
+{"word": "sad", "gloss": "to leave off, to defer; to appear, to seem; to arrive, to come, to turn about", "ipa": "sad", "source": "avesta.org"}
+{"word": "sairi", "gloss": "filth, =[sâiri]; (k522 has [sara], Geld: [sairî] (L) authority, headship)", "ipa": "sairi", "source": "avesta.org"}
+{"word": "sangh", "gloss": "to say, to speak", "ipa": "sanɡh", "source": "avesta.org"}
+{"word": "saocañt", "gloss": "burning, blazing", "ipa": "saotʃañt", "source": "avesta.org"}
+{"word": "saoka", "gloss": "good things (?) (Bailey 23); profit, good; happiness; welfare; a Yazad", "ipa": "saoka", "source": "avesta.org"}
+{"word": "saoshyañt", "gloss": "'benefactor, strengthener, savious, redeemer' [lit", "ipa": "saoshjañt", "source": "avesta.org"}
+{"word": "saredha", "gloss": "1: solar year, rainy season, a year; 2: sort, kind, species", "ipa": "saredha", "source": "avesta.org"}
+{"word": "satakhna", "gloss": "a hundredfold", "ipa": "satakhna", "source": "avesta.org"}
+{"word": "savangh", "gloss": "prosperity (Bailey 11, k523), benefit", "ipa": "savanɡh", "source": "avesta.org"}
+{"word": "sâdra", "gloss": "affliction, distress, pain; misery; woe", "ipa": "sâdra", "source": "avesta.org"}
+{"word": "sâma", "gloss": "dark, black", "ipa": "sâma", "source": "avesta.org"}
+{"word": "sâstar", "gloss": "tyrant (Hum2 175, k525); ruler", "ipa": "sâstar", "source": "avesta.org"}
+{"word": "sâtar", "gloss": "tyrant", "ipa": "sâtar", "source": "avesta.org"}
+{"word": "sâvanghi", "gloss": "Savanghi, name of a Yazad", "ipa": "sâvanɡhi", "source": "avesta.org"}
+{"word": "sãcatca", "gloss": ", implying 'any')", "ipa": "sãtʃattʃa", "source": "avesta.org"}
+{"word": "sraosha", "gloss": "the Yazad Sraosha; obedience, (recompense for) obedience (Hum), hearkening", "ipa": "sraosha", "source": "avesta.org"}
+{"word": "sevishta", "gloss": "strongest (AHM), very strong (Kr), super", "ipa": "sevishta", "source": "avesta.org"}
+{"word": "skarena", "gloss": "circular, round", "ipa": "skarena", "source": "avesta.org"}
+{"word": "snatha", "gloss": "to strike (Kr95), lit", "ipa": "snatha", "source": "avesta.org"}
+{"word": "snâ, us-snâ", "gloss": "to bathe", "ipa": "snâ, us-snâ", "source": "avesta.org"}
+{"word": "spaêta", "gloss": "white", "ipa": "spaêta", "source": "avesta.org"}
+{"word": "spanyangh", "gloss": "more wise/discreet; more bountiful", "ipa": "spanjanɡh", "source": "avesta.org"}
+{"word": "spâ", "gloss": "to cast off (vn), to throw; to throw away; to take away", "ipa": "spâ", "source": "avesta.org"}
+{"word": "spâdhem", "gloss": "an army", "ipa": "spâdhem", "source": "avesta.org"}
+{"word": "speñta", "gloss": "prosperous (Hum2 172); holy, beneficent (HZI 196), bountiful; prosperity", "ipa": "speñta", "source": "avesta.org"}
+{"word": "speñtâ-mainyu", "gloss": "Holy Spirit, Beneficent Spirit", "ipa": "speñtâ-mainju", "source": "avesta.org"}
+{"word": "speñtô-mainyava", "gloss": "Holy Spirit, Beneficent Spirit", "ipa": "speñtô-mainjava", "source": "avesta.org"}
+{"word": "spênishta", "gloss": "most holy, most beneficent; superlative of speñta", "ipa": "spênishta", "source": "avesta.org"}
+{"word": "spitama", "gloss": "(family name of Z.) Spitama", "ipa": "spitama", "source": "avesta.org"}
+{"word": "sraêshta", "gloss": "finest, fairest, most beautiful", "ipa": "sraêshta", "source": "avesta.org"}
+{"word": "sraoni", "gloss": "the hips; buttocks; thighs", "ipa": "sraoni", "source": "avesta.org"}
+{"word": "sraoshô-caranâ", "gloss": "a whip used in religious castigation", "ipa": "sraoshô-tʃaranâ", "source": "avesta.org"}
+{"word": "sraothra", "gloss": "chanting, singing", "ipa": "sraothra", "source": "avesta.org"}
+{"word": "srava", "gloss": "a word, n", "ipa": "srava", "source": "avesta.org"}
+{"word": "srayan", "gloss": "fairness; elegance; beauty", "ipa": "srajan", "source": "avesta.org"}
+{"word": "sru", "gloss": "to hear, to listen to; cl", "ipa": "sru", "source": "avesta.org"}
+{"word": "srîra", "gloss": "fair, fine, beautiful", "ipa": "srîra", "source": "avesta.org"}
+{"word": "sru-", "gloss": "to hear, to listen to; hearken", "ipa": "sru-", "source": "avesta.org"}
+{"word": "srûta", "gloss": "well-heard (lit.), famed", "ipa": "srûta", "source": "avesta.org"}
+{"word": "staora", "gloss": "a beast, a draft animal; (mn: steer)", "ipa": "staora", "source": "avesta.org"}
+{"word": "staorô-maza", "gloss": "(a contract) of the value of a beast", "ipa": "staorô-maza", "source": "avesta.org"}
+{"word": "stu", "gloss": "; [-]", "ipa": "stu", "source": "avesta.org"}
+{"word": "star, stara", "gloss": "star", "ipa": "star, stara", "source": "avesta.org"}
+{"word": "stâtô-ratu", "gloss": "(a damsel) under the protection of a guardian", "ipa": "stâtô-ratu", "source": "avesta.org"}
+{"word": "sti, asti", "gloss": "creation, existence, world", "ipa": "sti, asti", "source": "avesta.org"}
+{"word": "stu-", "gloss": "to praise, to laud, to extol; cl", "ipa": "stu-", "source": "avesta.org"}
+{"word": "stût", "gloss": "praise", "ipa": "stût", "source": "avesta.org"}
+{"word": "supti", "gloss": "shoulder", "ipa": "supti", "source": "avesta.org"}
+{"word": "surunvañt", "gloss": "audible (lit.); following oral tradition, traditional; noted", "ipa": "surunvañt", "source": "avesta.org"}
+{"word": "suxra", "gloss": "red, shining", "ipa": "suxra", "source": "avesta.org"}
+{"word": "sûka", "gloss": "luster; eye-sight", "ipa": "sûka", "source": "avesta.org"}
+{"word": "sûra", "gloss": ") powerful (Kr), mighty; brave, strong; also, a weapon, spear", "ipa": "sûra", "source": "avesta.org"}
+{"word": "shâishta", "gloss": "happiest, most joyful", "ipa": "shâishta", "source": "avesta.org"}
+{"word": "shôithra", "gloss": "dwelling place, homestead; a field (orig.); a city", "ipa": "shôithra", "source": "avesta.org"}
+{"word": "shyaothana", "gloss": "an act, a deed, an action; work", "ipa": "shjaothana", "source": "avesta.org"}
+{"word": "shyaothnâvareza", "gloss": "doing deeds (vn), committing an action", "ipa": "shjaothnâvareza", "source": "avesta.org"}
+{"word": "xshi", "gloss": "to dwell, to reside; cl", "ipa": "xshi", "source": "avesta.org"}
+{"word": "tadha", "gloss": "this is, there, in that place, at that time, then", "ipa": "tadha", "source": "avesta.org"}
+{"word": "tafnu", "gloss": "heat, fever", "ipa": "tafnu", "source": "avesta.org"}
+{"word": "tanu-perethana", "gloss": "(one) whose body is forfeit (Herb.), sinful, guilty; lit, to fill the body with", "ipa": "tanu-perethana", "source": "avesta.org"}
+{"word": "tanu-mãthra", "gloss": "having manthra for body", "ipa": "tanu-mãthra", "source": "avesta.org"}
+{"word": "taoxman", "gloss": "seed", "ipa": "taoxman", "source": "avesta.org"}
+{"word": "taradhâta", "gloss": "superior", "ipa": "taradhâta", "source": "avesta.org"}
+{"word": "tarô", "gloss": "outside, at the door; (prep", "ipa": "tarô", "source": "avesta.org"}
+{"word": "tarô-pithwa", "gloss": "having insufficient food, lacking food (Herb.)", "ipa": "tarô-pithwa", "source": "avesta.org"}
+{"word": "tarôidîti", "gloss": "disregard, contempt, scorn", "ipa": "tarôidîti", "source": "avesta.org"}
+{"word": "tares", "gloss": "to fear; flee", "ipa": "tares", "source": "avesta.org"}
+{"word": "tash", "gloss": "to create, fashion, chisel, model; cl", "ipa": "tash", "source": "avesta.org"}
+{"word": "taurv", "gloss": "(he) overcomes", "ipa": "taurv", "source": "avesta.org"}
+{"word": "tûm", "gloss": "of thee", "ipa": "tûm", "source": "avesta.org"}
+{"word": "taxma", "gloss": "brave", "ipa": "taxma", "source": "avesta.org"}
+{"word": "tap", "gloss": "to grow hot, to be heated, to shine", "ipa": "tap", "source": "avesta.org"}
+{"word": "tâyu", "gloss": "thief", "ipa": "tâju", "source": "avesta.org"}
+{"word": "tevîshi", "gloss": "strength, vigor", "ipa": "tevîshi", "source": "avesta.org"}
+{"word": "thri", "gloss": "three", "ipa": "thri", "source": "avesta.org"}
+{"word": "tishtrya", "gloss": "Tishtrya, Yazad of the star Sirius", "ipa": "tishtrja", "source": "avesta.org"}
+{"word": "tûirya", "gloss": "fourth; uncle, nephew (sp", "ipa": "tûirja", "source": "avesta.org"}
+{"word": "tûra", "gloss": "Turanian", "ipa": "tûra", "source": "avesta.org"}
+{"word": "tbaêshangh", "gloss": "harm, injury, evil, spite, hatred", "ipa": "tbaêshanɡh", "source": "avesta.org"}
+{"word": "tbish", "gloss": "to torment, to harbor revenge, to bear hatred, to break down, to vanquish; hate", "ipa": "tbish", "source": "avesta.org"}
+{"word": "tbaêshavañt", "gloss": "bearing spite, tormenting, harboring revenge (k229, b815); hating", "ipa": "tbaêshavañt", "source": "avesta.org"}
+{"word": "tkaêsha", "gloss": "doctrine, religious law; followers of the law or doctrines of religion", "ipa": "tkaêsha", "source": "avesta.org"}
+{"word": "thraêtaona", "gloss": "Thraetaona, mythical hero", "ipa": "thraêtaona", "source": "avesta.org"}
+{"word": "thrush", "gloss": "to prosper, to be protected, nourished", "ipa": "thrush", "source": "avesta.org"}
+{"word": "thrâthra", "gloss": "protection, nourishment", "ipa": "thrâthra", "source": "avesta.org"}
+{"word": "thrâ", "gloss": "to thrive, to nourish, to make prosperous", "ipa": "thrâ", "source": "avesta.org"}
+{"word": "thri-ayar", "gloss": "3 days", "ipa": "thri-ajar", "source": "avesta.org"}
+{"word": "thri-xshapar", "gloss": "3 nights; 3 nights including daytime", "ipa": "thri-xshapar", "source": "avesta.org"}
+{"word": "thri-gâya", "gloss": "3 paces", "ipa": "thri-ɡâja", "source": "avesta.org"}
+{"word": "thrisata-gâya", "gloss": "thirty paces", "ipa": "thrisata-ɡâja", "source": "avesta.org"}
+{"word": "thrisata", "gloss": "thirty", "ipa": "thrisata", "source": "avesta.org"}
+{"word": "thrish", "gloss": "thrice", "ipa": "thrish", "source": "avesta.org"}
+{"word": "thrishâmrûta", "gloss": "(words) that are to be recited three times", "ipa": "thrishâmrûta", "source": "avesta.org"}
+{"word": "thrishva", "gloss": "a third", "ipa": "thrishva", "source": "avesta.org"}
+{"word": "thritya", "gloss": "third", "ipa": "thritja", "source": "avesta.org"}
+{"word": "thritî", "gloss": "2nd daughter of Z.", "ipa": "thritî", "source": "avesta.org"}
+{"word": "thri-zafan", "gloss": "three-mouthed", "ipa": "thri-zafan", "source": "avesta.org"}
+{"word": "thwa", "gloss": "you, thy, 'tuus', your", "ipa": "thwa", "source": "avesta.org"}
+{"word": "thwarshta", "gloss": "cut, appointed (time)", "ipa": "thwarshta", "source": "avesta.org"}
+{"word": "thwâsha", "gloss": "firmament (sky); one who hurries (orig.)", "ipa": "thwâsha", "source": "avesta.org"}
+{"word": "thvâvañt", "gloss": "like thee", "ipa": "thvâvañt", "source": "avesta.org"}
+{"word": "thwares", "gloss": "to cut off, to destroy; cl", "ipa": "thwares", "source": "avesta.org"}
+{"word": "thweresatô", "gloss": "\"they who fashion\"", "ipa": "thweresatô", "source": "avesta.org"}
+{"word": "vap", "gloss": "to weave (orig.), to sing", "ipa": "vap", "source": "avesta.org"}
+{"word": "ukhra", "gloss": "mighty (jAR); strong, powerful; firm, steady", "ipa": "ukhra", "source": "avesta.org"}
+{"word": "uiti", "gloss": "thus, in this manner", "ipa": "uiti", "source": "avesta.org"}
+{"word": "uityaojina", "gloss": "so saying, thus speaking", "ipa": "uitjaodʒina", "source": "avesta.org"}
+{"word": "upa", "gloss": "upon, on; near, towards, by, up to; (adj.) high, much", "ipa": "upa", "source": "avesta.org"}
+{"word": "upa-", "gloss": "towards, by, near; on, upon; in, into", "ipa": "upa-", "source": "avesta.org"}
+{"word": "upa-bar", "gloss": "to bring, to carry", "ipa": "upa-bar", "source": "avesta.org"}
+{"word": "upa-dvãs", "gloss": "to rush on, to fall upon", "ipa": "upa-dvãs", "source": "avesta.org"}
+{"word": "upa-maiti", "gloss": "abode, residence", "ipa": "upa-maiti", "source": "avesta.org"}
+{"word": "upa-mãn", "gloss": "to wait, to stay", "ipa": "upa-mãn", "source": "avesta.org"}
+{"word": "upa-tbish", "gloss": "provoked (AHM); to be offended or dissatisfied", "ipa": "upa-tbish", "source": "avesta.org"}
+{"word": "upamana", "gloss": "likeness (ahm166), also, a Yazad, symbol of wisdom (lit.)", "ipa": "upamana", "source": "avesta.org"}
+{"word": "dâmôish upamanô", "gloss": "\"the Likeness of Ahura's creature\"", "ipa": "dâmôish upamanô", "source": "avesta.org"}
+{"word": "upa-hac", "gloss": "to adhere with strong attachment; to cling, to follow, to attend", "ipa": "upa-hatʃ", "source": "avesta.org"}
+{"word": "upa-harez", "gloss": "to throw, to sprinkle, to pour", "ipa": "upa-harez", "source": "avesta.org"}
+{"word": "uparatât", "gloss": "superiority (Kr), exalted dignity, ascendancy, also, name of a Yazad", "ipa": "uparatât", "source": "avesta.org"}
+{"word": "upara", "gloss": "higher; later, next", "ipa": "upara", "source": "avesta.org"}
+{"word": "uparô-kairya", "gloss": "working on high; working energetically", "ipa": "uparô-kairja", "source": "avesta.org"}
+{"word": "upastâ", "gloss": "assistance, support", "ipa": "upastâ", "source": "avesta.org"}
+{"word": "upayanâ", "gloss": "tradition (Kr); teaching, instruction; tradition, old custom", "ipa": "upajanâ", "source": "avesta.org"}
+{"word": "upa-i", "gloss": "to come near, approach", "ipa": "upa-i", "source": "avesta.org"}
+{"word": "upâpa", "gloss": "aquatic", "ipa": "upâpa", "source": "avesta.org"}
+{"word": "upâzana", "gloss": "leading astray; driving away; stroke or stripe", "ipa": "upâzana", "source": "avesta.org"}
+{"word": "upa-az", "gloss": "to drive away or back", "ipa": "upa-az", "source": "avesta.org"}
+{"word": "upama, upema", "gloss": "highest, uppermost; last", "ipa": "upama, upema", "source": "avesta.org"}
+{"word": "urvan", "gloss": "soul", "ipa": "urvan", "source": "avesta.org"}
+{"word": "urutha", "gloss": "growth, increase", "ipa": "urutha", "source": "avesta.org"}
+{"word": "urvarâ", "gloss": "tree, plant", "ipa": "urvarâ", "source": "avesta.org"}
+{"word": "urvaitya", "gloss": "vow, verbal promise (ahm184, k105); treaty", "ipa": "urvaitja", "source": "avesta.org"}
+{"word": "urvatha", "gloss": "friendly; a friend", "ipa": "urvatha", "source": "avesta.org"}
+{"word": "urvâsnâ", "gloss": "incense", "ipa": "urvâsnâ", "source": "avesta.org"}
+{"word": "us", "gloss": "up, forth, out (jAR), elevated, high, above, much, exceeding", "ipa": "us", "source": "avesta.org"}
+{"word": "us-", "gloss": "above, elevated, loudly, much; out, outside, beyond; except, without", "ipa": "us-", "source": "avesta.org"}
+{"word": "us-stâ", "gloss": "to stand up, to rise, to get up", "ipa": "us-stâ", "source": "avesta.org"}
+{"word": "ustâna-zasta", "gloss": "with outstretched hands", "ipa": "ustâna-zasta", "source": "avesta.org"}
+{"word": "ustema", "gloss": "outermost highest; ultimate; last + cît = even", "ipa": "ustema", "source": "avesta.org"}
+{"word": "ushta", "gloss": "fortunate (? - Bailey 85) healthy; vigorous; hail!; prosperity, good fortune", "ipa": "ushta", "source": "avesta.org"}
+{"word": "ushtâna", "gloss": "life, vital principle", "ipa": "ushtâna", "source": "avesta.org"}
+{"word": "ushtatât", "gloss": "good luck", "ipa": "ushtatât", "source": "avesta.org"}
+{"word": "ushtavaitî", "gloss": "name of the 2nd Gatha", "ipa": "ushtavaitî", "source": "avesta.org"}
+{"word": "ushtra", "gloss": "camel", "ipa": "ushtra", "source": "avesta.org"}
+{"word": "ushahina", "gloss": "Ushahin (Gah), time between Midnight & dawn", "ipa": "ushahina", "source": "avesta.org"}
+{"word": "ushangh", "gloss": "dawn", "ipa": "ushanɡh", "source": "avesta.org"}
+{"word": "ushi", "gloss": "intelligence, understanding; mind", "ipa": "ushi", "source": "avesta.org"}
+{"word": "ushi-darena", "gloss": "name of a mountain", "ipa": "ushi-darena", "source": "avesta.org"}
+{"word": "ushi-darethra", "gloss": "holding in mind", "ipa": "ushi-darethra", "source": "avesta.org"}
+{"word": "uta", "gloss": "also, and, moreover", "ipa": "uta", "source": "avesta.org"}
+{"word": "uta ... uta", "gloss": "as well as", "ipa": "uta ... uta", "source": "avesta.org"}
+{"word": "uta-", "gloss": "much, great", "ipa": "uta-", "source": "avesta.org"}
+{"word": "uta-hê", "gloss": "uta + hê", "ipa": "uta-hê", "source": "avesta.org"}
+{"word": "utayûiti", "gloss": "strength, power, might", "ipa": "utajûiti", "source": "avesta.org"}
+{"word": "uxdha", "gloss": "word, spoken, uttered (lit.); fit for reciting prayer; praise-worthy", "ipa": "uxdha", "source": "avesta.org"}
+{"word": "vaxsh", "gloss": "sprinkles (t133, b1338); to grow, to wax", "ipa": "vaxsh", "source": "avesta.org"}
+{"word": "uzayeirina", "gloss": "Uzerin, late afternoon", "ipa": "uzajeirina", "source": "avesta.org"}
+{"word": "uz-dâ", "gloss": "to set up, to build", "ipa": "uz-dâ", "source": "avesta.org"}
+{"word": "uz-ir", "gloss": "to rise, to rise up", "ipa": "uz-ir", "source": "avesta.org"}
+{"word": "uz-vaxsh", "gloss": "to grow up", "ipa": "uz-vaxsh", "source": "avesta.org"}
+{"word": "uzvareza", "gloss": "reversing what has been done (lit.) expiation, atonement", "ipa": "uzvareza", "source": "avesta.org"}
+{"word": "uz-varez", "gloss": "to reverse what has been done; to undo; to atone for", "ipa": "uz-varez", "source": "avesta.org"}
+{"word": "ûiti", "gloss": "so, consequently, thus, in this manner", "ipa": "ûiti", "source": "avesta.org"}
+{"word": "ûtha", "gloss": "grease, matter excreted from a dead body", "ipa": "ûtha", "source": "avesta.org"}
+{"word": "ûthô-tâs", "gloss": "flowing of grease or excreted matter", "ipa": "ûthô-tâs", "source": "avesta.org"}
+{"word": "vac", "gloss": "to speak, to say; cl", "ipa": "vatʃ", "source": "avesta.org"}
+{"word": "vâc", "gloss": "word, phrase", "ipa": "vâtʃ", "source": "avesta.org"}
+{"word": "vadare", "gloss": "an instrument for smiting; a blow", "ipa": "vadare", "source": "avesta.org"}
+{"word": "vaêd, vid (k)", "gloss": "to know", "ipa": "vaêd, vid (k)", "source": "avesta.org"}
+{"word": "vaêdha", "gloss": "knowledge, information", "ipa": "vaêdha", "source": "avesta.org"}
+{"word": "vaêdhya", "gloss": "knowledge, learning", "ipa": "vaêdhja", "source": "avesta.org"}
+{"word": "vaêjangh", "gloss": "seed, germ", "ipa": "vaêdʒanɡh", "source": "avesta.org"}
+{"word": "vaêthâ", "gloss": "knowledge", "ipa": "vaêthâ", "source": "avesta.org"}
+{"word": "vakhdhana", "gloss": "the head (of a sensible person)", "ipa": "vakhdhana", "source": "avesta.org"}
+{"word": "vahishta", "gloss": "best", "ipa": "vahishta", "source": "avesta.org"}
+{"word": "vahishtôishti", "gloss": "fifth Gatha; best wish (lit.)", "ipa": "vahishtôishti", "source": "avesta.org"}
+{"word": "vahmasca []", "gloss": "prayer (AHM), adoration (glorification, invocation)", "ipa": "vahmastʃa []", "source": "avesta.org"}
+{"word": "vahmya", "gloss": "worthy of adoration /prayer", "ipa": "vahmja", "source": "avesta.org"}
+{"word": "vanghu", "gloss": "better", "ipa": "vanɡhu", "source": "avesta.org"}
+{"word": "vairi", "gloss": "lake", "ipa": "vairi", "source": "avesta.org"}
+{"word": "vairya", "gloss": "agreeable, desirable; wish; will; self-commanding, autocratic; Khshathra", "ipa": "vairja", "source": "avesta.org"}
+{"word": "vairya-2", "gloss": "a river, a lake", "ipa": "vairja-2", "source": "avesta.org"}
+{"word": "van", "gloss": "to win, triumph, to overcome", "ipa": "van", "source": "avesta.org"}
+{"word": "vanañt", "gloss": "vanhvuisher (Kr & mn), conqueror (HZI); vanant, a star Yazad", "ipa": "vanañt", "source": "avesta.org"}
+{"word": "vangh", "gloss": "to reside, to dwell", "ipa": "vanɡh", "source": "avesta.org"}
+{"word": "vanghan", "gloss": "goodness, excellence, virtue", "ipa": "vanɡhan", "source": "avesta.org"}
+{"word": "vanghudhâ", "gloss": "sensible, having good sense; discreet", "ipa": "vanɡhudhâ", "source": "avesta.org"}
+{"word": "vañta", "gloss": "love, affection, friendship", "ipa": "vañta", "source": "avesta.org"}
+{"word": "varâza", "gloss": "boar, wild pig", "ipa": "varâza", "source": "avesta.org"}
+{"word": "varecanghvañt", "gloss": "prodigious", "ipa": "varetʃanɡhvañt", "source": "avesta.org"}
+{"word": "varedat-gaêtha", "gloss": "promotes the world", "ipa": "varedat-ɡaêtha", "source": "avesta.org"}
+{"word": "varedatha", "gloss": "promote (Kr), increase, growth", "ipa": "varedatha", "source": "avesta.org"}
+{"word": "var", "gloss": "enclosure, a sheltered place", "ipa": "var", "source": "avesta.org"}
+{"word": "varena", "gloss": "a geographic region, Gilan; belief", "ipa": "varena", "source": "avesta.org"}
+{"word": "varenya", "gloss": "(friends) of Gilan", "ipa": "varenja", "source": "avesta.org"}
+{"word": "varesa", "gloss": "hair; ritual sieve made of hair", "ipa": "varesa", "source": "avesta.org"}
+{"word": "varez-", "gloss": "perform (AHM), work, act, fulfill", "ipa": "varez-", "source": "avesta.org"}
+{"word": "varangh", "gloss": "a gift; the var Nirang or ordeal", "ipa": "varanɡh", "source": "avesta.org"}
+{"word": "varshta", "gloss": "done; a deed", "ipa": "varshta", "source": "avesta.org"}
+{"word": "varshni-harshta", "gloss": "spender of the seed of males; of the rutting season", "ipa": "varshni-harshta", "source": "avesta.org"}
+{"word": "vas", "gloss": "to wish, desire", "ipa": "vas", "source": "avesta.org"}
+{"word": "vasê-xshayañt", "gloss": "ruling at one's will", "ipa": "vasê-xshajañt", "source": "avesta.org"}
+{"word": "vasna", "gloss": "wish, desire", "ipa": "vasna", "source": "avesta.org"}
+{"word": "vasô", "gloss": "wish, desire?", "ipa": "vasô", "source": "avesta.org"}
+{"word": "vasô-xshathra", "gloss": "ruling at one's will", "ipa": "vasô-xshathra", "source": "avesta.org"}
+{"word": "vaxsh-", "gloss": "to grow, to wax; to sprinkle; [vac](N) word, voishe", "ipa": "vaxsh-", "source": "avesta.org"}
+{"word": "vaxsha", "gloss": "growth, increase", "ipa": "vaxsha", "source": "avesta.org"}
+{"word": "[vaxsha]", "gloss": "prosperity", "ipa": "[vaxsha]", "source": "avesta.org"}
+{"word": "vaxshatha", "gloss": "growth, increase", "ipa": "vaxshatha", "source": "avesta.org"}
+{"word": "vaya", "gloss": "air; atmosphere; vayu, a Yazad presiding over the atmosphere", "ipa": "vaja", "source": "avesta.org"}
+{"word": "vaz", "gloss": "to guide; to fly", "ipa": "vaz", "source": "avesta.org"}
+{"word": "vazdvare", "gloss": "toughness (Kr), comfort, happiness", "ipa": "vazdvare", "source": "avesta.org"}
+{"word": "vazra", "gloss": "club, mace", "ipa": "vazra", "source": "avesta.org"}
+{"word": "vâ", "gloss": "or", "ipa": "vâ", "source": "avesta.org"}
+{"word": "vâ ... vâ", "gloss": "either ..", "ipa": "vâ ... vâ", "source": "avesta.org"}
+{"word": "= vac", "gloss": "word, phrase", "ipa": "= vatʃ", "source": "avesta.org"}
+{"word": "vârethrakhni", "gloss": "victorious; smiting the enemy (lit.)", "ipa": "vârethrakhni", "source": "avesta.org"}
+{"word": "vâstar", "gloss": "protector (mn", "ipa": "vâstar", "source": "avesta.org"}
+{"word": "vâstra", "gloss": "pasture; field", "ipa": "vâstra", "source": "avesta.org"}
+{"word": "vâstri?", "gloss": "owner or keeper of a field(?)", "ipa": "vâstri?", "source": "avesta.org"}
+{"word": "vâstrya", "gloss": "farmer; n", "ipa": "vâstrja", "source": "avesta.org"}
+{"word": "vâsha", "gloss": "carriage, vehicle, wagon, chariot", "ipa": "vâsha", "source": "avesta.org"}
+{"word": "vâta", "gloss": "wind; vata, name of a Yazad", "ipa": "vâta", "source": "avesta.org"}
+{"word": "vãthwâ", "gloss": "herd, flock, multitude (of men), (group); increase", "ipa": "vãthwâ", "source": "avesta.org"}
+{"word": "vehrka", "gloss": "wolf", "ipa": "vehrka", "source": "avesta.org"}
+{"word": "verethra", "gloss": "victory; strength of victory; (alternately) repel, resist", "ipa": "verethra", "source": "avesta.org"}
+{"word": "verethrakhna", "gloss": "victoriousness (ahm158); m", "ipa": "verethrakhna", "source": "avesta.org"}
+{"word": "verethrajan", "gloss": "victorious, smiting or killing the enemy", "ipa": "verethradʒan", "source": "avesta.org"}
+{"word": "verezyanghva", "gloss": "working (lit.), effective", "ipa": "verezjanɡhva", "source": "avesta.org"}
+{"word": "vid-", "gloss": "to know", "ipa": "vid-", "source": "avesta.org"}
+{"word": "viñdan", "gloss": "(one) who receives", "ipa": "viñdan", "source": "avesta.org"}
+{"word": "vid-2", "gloss": "find, obtain", "ipa": "vid-2", "source": "avesta.org"}
+{"word": "vish", "gloss": "poison (y9.11), to sprinkle, to moisten; (adv.) afar, at a distance", "ipa": "vish", "source": "avesta.org"}
+{"word": "vî", "gloss": "away from, apart, separate from; different from, exclusive of; contrary to", "ipa": "vî", "source": "avesta.org"}
+{"word": "vîdaêva", "gloss": "rejecting the Daevas (Kr), against the Daevas", "ipa": "vîdaêva", "source": "avesta.org"}
+{"word": "vîdhvangh", "gloss": "knowing", "ipa": "vîdhvanɡh", "source": "avesta.org"}
+{"word": "vî-dar", "gloss": "to arrange, sort out (ahm183, k247) to cause to cross (vn); to sustain, to", "ipa": "vî-dar", "source": "avesta.org"}
+{"word": "vîdhâtu", "gloss": "Vidhatu, demon of death", "ipa": "vîdhâtu", "source": "avesta.org"}
+{"word": "vî-khzhar", "gloss": "overflowing", "ipa": "vî-khzhar", "source": "avesta.org"}
+{"word": "vîkeret-ushtânem", "gloss": "(a blow) that separates the soul from the body", "ipa": "vîkeret-ushtânem", "source": "avesta.org"}
+{"word": "vî-nas", "gloss": "to disappear, to utterly destroy", "ipa": "vî-nas", "source": "avesta.org"}
+{"word": "vîra", "gloss": "man; when contrasted with cattle, means slave (ahm182)", "ipa": "vîra", "source": "avesta.org"}
+{"word": "vîrô-maza", "gloss": ")) (a contract) of the value of man; a man- contract; a hostage", "ipa": "vîrô-maza", "source": "avesta.org"}
+{"word": "vîrô-vãthwa", "gloss": "(women) with their troops of heros; (women) who have many sons (M.)", "ipa": "vîrô-vãthwa", "source": "avesta.org"}
+{"word": "vîs-1", "gloss": "to be, to become; to come; to pierce, to enter, to touch; to agree, accept", "ipa": "vîs-1", "source": "avesta.org"}
+{"word": "vîs-2", "gloss": "settlement (Kr), clan (ahm), village", "ipa": "vîs-2", "source": "avesta.org"}
+{"word": "vîsaiti", "gloss": "twenty; [vîs] 7 (pres", "ipa": "vîsaiti", "source": "avesta.org"}
+{"word": "vîsya", "gloss": "guardian angel of the village", "ipa": "vîsja", "source": "avesta.org"}
+{"word": "vîspa", "gloss": "all (pl); everything (sg); whole, entire", "ipa": "vîspa", "source": "avesta.org"}
+{"word": "vîspem â ahmât", "gloss": "so long as, until", "ipa": "vîspem â ahmât", "source": "avesta.org"}
+{"word": "vîspaiti", "gloss": "head of the clan (ahm), the master of a street or borough", "ipa": "vîspaiti", "source": "avesta.org"}
+{"word": "vîspô- vîdhvangh", "gloss": "all-knowing", "ipa": "vîspô- vîdhvanɡh", "source": "avesta.org"}
+{"word": "vîspô-hvâthra", "gloss": "all blissful", "ipa": "vîspô-hvâthra", "source": "avesta.org"}
+{"word": "vî-srasc", "gloss": "to sprinkle over", "ipa": "vî-srastʃ", "source": "avesta.org"}
+{"word": "vîshtâspa", "gloss": "Vishtaspa", "ipa": "vîshtâspa", "source": "avesta.org"}
+{"word": "vîshaptatha", "gloss": "the day of the full moon", "ipa": "vîshaptatha", "source": "avesta.org"}
+{"word": "vîvanghana", "gloss": "Vivanghant, father of King Jamsheed", "ipa": "vîvanɡhana", "source": "avesta.org"}
+{"word": ", vanghu", "gloss": "good", "ipa": ", vanɡhu", "source": "avesta.org"}
+{"word": "vohu-gaona", "gloss": "black, blood-colored (lit.) (t145, b1482) [perfume, incense, benzoin", "ipa": "vohu-ɡaona", "source": "avesta.org"}
+{"word": "vohu-kereti", "gloss": "an incense or perfume; aloe-wood", "ipa": "vohu-kereti", "source": "avesta.org"}
+{"word": "vohuni", "gloss": "blood, menses", "ipa": "vohuni", "source": "avesta.org"}
+{"word": "vohu-xshathra", "gloss": "Vohukhshathra, name of 4th Gatha", "ipa": "vohu-xshathra", "source": "avesta.org"}
+{"word": "vouru", "gloss": "wide, extensive", "ipa": "vouru", "source": "avesta.org"}
+{"word": "vouru-dôithra", "gloss": "with eyes of love, high-minded, of large eyes (lit.)", "ipa": "vouru-dôithra", "source": "avesta.org"}
+{"word": "vouru-gaoyaoiti", "gloss": "(lord) having wide pastures", "ipa": "vouru-ɡaojaoiti", "source": "avesta.org"}
+{"word": "vouru-kasha", "gloss": "(jAR: m.) Caspian Sea (lit", "ipa": "vouru-kasha", "source": "avesta.org"}
+{"word": "vyãxman", "gloss": "\"ceremonial meeting (for the verbal contest)\" (Kr82 following ?Kuiper)", "ipa": "vjãxman", "source": "avesta.org"}
+{"word": "vyâxana", "gloss": "eloquent (Kr); challenging (ahm166); well-known, noted", "ipa": "vjâxana", "source": "avesta.org"}
+{"word": "xâ", "gloss": "source; a spring (of water), fountain", "ipa": "xâ", "source": "avesta.org"}
+{"word": "xrafstra", "gloss": "miscreant (Kr), fierce (Insl.), noxious creatures (varmints)", "ipa": "xrafstra", "source": "avesta.org"}
+{"word": "xratu", "gloss": "wisdom", "ipa": "xratu", "source": "avesta.org"}
+{"word": "xshtva", "gloss": "sixth", "ipa": "xshtva", "source": "avesta.org"}
+{"word": "xshaêta", "gloss": "radiant, shining; majestic", "ipa": "xshaêta", "source": "avesta.org"}
+{"word": "xshapan", "gloss": "night", "ipa": "xshapan", "source": "avesta.org"}
+{"word": "xshathra", "gloss": "power (ahm), dominion, kingdom, rule; a ruler; Khshathra, an Amesha Spenta; 6th", "ipa": "xshathra", "source": "avesta.org"}
+{"word": "xshathrî", "gloss": "woman of authority", "ipa": "xshathrî", "source": "avesta.org"}
+{"word": "xshathrya", "gloss": "majestic (Kr47), imperial (HZI 42), kingly", "ipa": "xshathrja", "source": "avesta.org"}
+{"word": "xshmâvañt", "gloss": "like you", "ipa": "xshmâvañt", "source": "avesta.org"}
+{"word": "xshnaoma", "gloss": "coy, satisfaction", "ipa": "xshnaoma", "source": "avesta.org"}
+{"word": "xshnaothra", "gloss": "propitiation; satisfaction", "ipa": "xshnaothra", "source": "avesta.org"}
+{"word": "xshnu", "gloss": "to be pleased or propitiated", "ipa": "xshnu", "source": "avesta.org"}
+{"word": "xshnûman", "gloss": "propitiation", "ipa": "xshnûman", "source": "avesta.org"}
+{"word": "xshnûta", "gloss": "well-pleased, satisfied, satiated", "ipa": "xshnûta", "source": "avesta.org"}
+{"word": "xshôithnî", "gloss": "brilliant, shining, bright", "ipa": "xshôithnî", "source": "avesta.org"}
+{"word": "xshudra", "gloss": "semen, seed", "ipa": "xshudra", "source": "avesta.org"}
+{"word": "xshvash", "gloss": "six", "ipa": "xshvash", "source": "avesta.org"}
+{"word": "xshvashti", "gloss": "sixty", "ipa": "xshvashti", "source": "avesta.org"}
+{"word": "hvadhâta", "gloss": "self-governed (Kr), taking one's course according to one system", "ipa": "hvadhâta", "source": "avesta.org"}
+{"word": "hvafna", "gloss": "sleep", "ipa": "hvafna", "source": "avesta.org"}
+{"word": "hvaniratha", "gloss": "Khaniratha, one of the 7 Keshvars (regions, continents) of the earth", "ipa": "hvaniratha", "source": "avesta.org"}
+{"word": "hvanvañt", "gloss": "shining, bright; name of a person; name of a mountain", "ipa": "hvanvañt", "source": "avesta.org"}
+{"word": "hvara", "gloss": "a sore, a wound", "ipa": "hvara", "source": "avesta.org"}
+{"word": "hvarenangh", "gloss": "khwarrah (often untransl.), divine grace or fortune (HZII p", "ipa": "hvarenanɡh", "source": "avesta.org"}
+{"word": "hvarenanghvañt", "gloss": "khwarrah-endowed", "ipa": "hvarenanɡhvañt", "source": "avesta.org"}
+{"word": "hvatô", "gloss": "himself; herself; thyself", "ipa": "hvatô", "source": "avesta.org"}
+{"word": "hvâpara", "gloss": "self-sufficient", "ipa": "hvâpara", "source": "avesta.org"}
+{"word": "hvâthra", "gloss": "happiness (Kr), comfort (Hum), ease (Bailey), blessedness (Boyce TS), felicity", "ipa": "hvâthra", "source": "avesta.org"}
+{"word": "ýa", "gloss": "who, which", "ipa": "ýa", "source": "avesta.org"}
+{"word": "ýadâ", "gloss": "when, at the time that; here, in this world", "ipa": "ýadâ", "source": "avesta.org"}
+{"word": "ýadhôit", "gloss": "whence; than", "ipa": "ýadhôit", "source": "avesta.org"}
+{"word": "ýaona", "gloss": "atmosphere; perseverence; continuance; (adv.) fixedly, perseveringly", "ipa": "ýaona", "source": "avesta.org"}
+{"word": "ýaoxshtivañt", "gloss": "skillful, powerful; sensible, perceptive (yaoxshti - sense, perception)", "ipa": "ýaoxshtivañt", "source": "avesta.org"}
+{"word": "ýaozhdâ", "gloss": "to purify, to cleanse; [ýaozhdâ-2] purification; \"more precisely this appears", "ipa": "ýaozhdâ", "source": "avesta.org"}
+{"word": "ýaozhdâthra", "gloss": "purification; purifier", "ipa": "ýaozhdâthra", "source": "avesta.org"}
+{"word": "ýaozhdâthrya", "gloss": "purifier", "ipa": "ýaozhdâthrja", "source": "avesta.org"}
+{"word": "ýaozhdâ-2", "gloss": "purity", "ipa": "ýaozhdâ-2", "source": "avesta.org"}
+{"word": "ýasna", "gloss": "worship, sacrifice; prayer", "ipa": "ýasna", "source": "avesta.org"}
+{"word": "ýasnya", "gloss": "worthy of worship", "ipa": "ýasnja", "source": "avesta.org"}
+{"word": "ýasô-beretâbyô", "gloss": "with worthily-offered (zaothras) (Kr), (zaothras) brought for Yasna", "ipa": "ýasô-beretâbjô", "source": "avesta.org"}
+{"word": "ya", "gloss": "who, which; that, (conj.) when; as", "ipa": "ja", "source": "avesta.org"}
+{"word": "ýatha", "gloss": "as; when; that; than; ýatha ..", "ipa": "ýatha", "source": "avesta.org"}
+{"word": "ýathana", "gloss": "as, just like, so that", "ipa": "ýathana", "source": "avesta.org"}
+{"word": "ýathra", "gloss": "where", "ipa": "ýathra", "source": "avesta.org"}
+{"word": "ýava", "gloss": "duration, period, time of life; always; any time; (plN) m", "ipa": "ýava", "source": "avesta.org"}
+{"word": "ýavaêtât", "gloss": "forever", "ipa": "ýavaêtât", "source": "avesta.org"}
+{"word": "ýavata", "gloss": "as long as", "ipa": "ýavata", "source": "avesta.org"}
+{"word": "ýavat", "gloss": "as much as; when; as long as", "ipa": "ýavat", "source": "avesta.org"}
+{"word": "ýat", "gloss": "to hasten, to accelerate; to have power, to be able", "ipa": "ýat", "source": "avesta.org"}
+{"word": "yaz (ýaz)", "gloss": "celebrate (Humbach), worship, honor, venerate (Dhalla), revere", "ipa": "jaz (ýaz)", "source": "avesta.org"}
+{"word": "ýazata", "gloss": "Yazad, angel; [ýaz] (impf", "ipa": "ýazata", "source": "avesta.org"}
+{"word": "ýaz", "gloss": "I will worship", "ipa": "ýaz", "source": "avesta.org"}
+{"word": "ýâirya", "gloss": "season; seasonal; Gahambar", "ipa": "ýâirja", "source": "avesta.org"}
+{"word": "ýâna", "gloss": "favor, gift", "ipa": "ýâna", "source": "avesta.org"}
+{"word": "ýâre", "gloss": "year", "ipa": "ýâre", "source": "avesta.org"}
+{"word": "ýâre-drâcangh", "gloss": "the duration of one year", "ipa": "ýâre-drâtʃanɡh", "source": "avesta.org"}
+{"word": "ýâ-5", "gloss": "to beseech, to beg; cl", "ipa": "ýâ-5", "source": "avesta.org"}
+{"word": "ýâtu", "gloss": "(jAR: m.) devil; wizard (HZI), sorcerer", "ipa": "ýâtu", "source": "avesta.org"}
+{"word": "ýâta", "gloss": "conduct; actions, deeds", "ipa": "ýâta", "source": "avesta.org"}
+{"word": "ýâtumañt", "gloss": "sorcerer", "ipa": "ýâtumañt", "source": "avesta.org"}
+{"word": "ýå-nô", "gloss": "who ..", "ipa": "ýå-nô", "source": "avesta.org"}
+{"word": "ýeshti", "gloss": "worship, adoration, Yasna", "ipa": "ýeshti", "source": "avesta.org"}
+{"word": "ýezi", "gloss": "if", "ipa": "ýezi", "source": "avesta.org"}
+{"word": "ýima", "gloss": "Yima, King Jamsheed", "ipa": "ýima", "source": "avesta.org"}
+{"word": "ýavan", "gloss": "youth, young man", "ipa": "ýavan", "source": "avesta.org"}
+{"word": "ýûiti", "gloss": "connection, touch, contact", "ipa": "ýûiti", "source": "avesta.org"}
+{"word": "zaênangh", "gloss": "wakefulness, vigilance; (N) vigilantly", "ipa": "zaênanɡh", "source": "avesta.org"}
+{"word": "zairi-gaosha", "gloss": "green-eared; golden-eared", "ipa": "zairi-ɡaosha", "source": "avesta.org"}
+{"word": "zairita", "gloss": "golden (Kr87); green", "ipa": "zairita", "source": "avesta.org"}
+{"word": "zañga", "gloss": "bone of the leg; ankle-bone (D.)", "ipa": "zañɡa", "source": "avesta.org"}
+{"word": "zañtu", "gloss": "tribal area (Kr), district (k199, Herb.); tribe", "ipa": "zañtu", "source": "avesta.org"}
+{"word": "zañtuma", "gloss": "pertaining to the town; exercising authority over the town; also, m", "ipa": "zañtuma", "source": "avesta.org"}
+{"word": "zaosha", "gloss": "wish, agreement", "ipa": "zaosha", "source": "avesta.org"}
+{"word": "zaotar", "gloss": "priest, officiating priest; driver (of an ox)", "ipa": "zaotar", "source": "avesta.org"}
+{"word": "zaothra", "gloss": "libation (Mal, Hum, G), offering (Kr)", "ipa": "zaothra", "source": "avesta.org"}
+{"word": "zaothrô-bara", "gloss": "carrying or bringing offerings", "ipa": "zaothrô-bara", "source": "avesta.org"}
+{"word": "zaranaêna", "gloss": "golden, of gold", "ipa": "zaranaêna", "source": "avesta.org"}
+{"word": "zaranya", "gloss": "golden, of gold; gold", "ipa": "zaranja", "source": "avesta.org"}
+{"word": "zaranyô-aiwidhâna", "gloss": "with a golden caparison (saddle blanket)", "ipa": "zaranjô-aiwidhâna", "source": "avesta.org"}
+{"word": "zarathushtra", "gloss": "Zarathushtra", "ipa": "zarathushtra", "source": "avesta.org"}
+{"word": "zarathushtri", "gloss": "Zoroastrian", "ipa": "zarathushtri", "source": "avesta.org"}
+{"word": "zarathushtrô-fraoxta", "gloss": "proclaimed by Z.", "ipa": "zarathushtrô-fraoxta", "source": "avesta.org"}
+{"word": "zarathushtrôtema", "gloss": "highest chief priest, spiritual head of the community", "ipa": "zarathushtrôtema", "source": "avesta.org"}
+{"word": "zavare", "gloss": "strength, vigor", "ipa": "zavare", "source": "avesta.org"}
+{"word": "zâiri", "gloss": "green, yellow", "ipa": "zâiri", "source": "avesta.org"}
+{"word": "zâta", "gloss": "born, brought into existence", "ipa": "zâta", "source": "avesta.org"}
+{"word": "zâvare", "gloss": "speed (Kr91), swiftness (Hum)", "ipa": "zâvare", "source": "avesta.org"}
+{"word": "zam, zem", "gloss": "earth", "ipa": "zam, zem", "source": "avesta.org"}
+{"word": "zãtha + -ca", "gloss": "& in birth; rising; creation", "ipa": "zãtha + -tʃa", "source": "avesta.org"}
+{"word": "zbâ, zbi", "gloss": "to invoke, to shall", "ipa": "zbâ, zbi", "source": "avesta.org"}
+{"word": "zî", "gloss": "for, indeed, because", "ipa": "zî", "source": "avesta.org"}
+{"word": "zrayangh", "gloss": "the sea", "ipa": "zrajanɡh", "source": "avesta.org"}
+{"word": "zrvan, zrvâna", "gloss": "time", "ipa": "zrvan, zrvâna", "source": "avesta.org"}
+{"word": "zhnu", "gloss": "knee", "ipa": "zhnu", "source": "avesta.org"}

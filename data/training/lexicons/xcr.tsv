@@ -34,7 +34,7 @@ gissa	ɡissa	GISSA	wikipedia	stone	-
 koon	koon	KOON	wikipedia	sheep	-
 soua	soua	SOUA	wikipedia	tomb	-
 sb	sb	SB	wikipedia	and	-
-ýbt	ýbt	BT	wikipedia	he_offered	-
+ýbt	ebt	EBT	wikipedia	he_offered	-
 pisñ	pisɲ	PISN	wikipedia	they_gave_(?)	-
 k̂tmñoś	k̂tmɲoɕ	KTMNOS	wikipedia	proper_name	-
 kbdwn	kbdwn	KBDWN	wikipedia	proper_name	-
@@ -88,14 +88,14 @@ biδślemsa	biðɕlemsa	BIDSLEMSA	palaeolexicon	?	-
 boreś	boreɕ	BORES	palaeolexicon	?	-
 bsis	bsis	BSIS	palaeolexicon	?	-
 bziom	bziom	BSIOM	palaeolexicon	personal_name	-
-bỳś	bỳɕ	BS	palaeolexicon	?	-
+bỳś	bəɕ	BES	palaeolexicon	?	-
 dbikrm	ðbikrm	DBIKRM	palaeolexicon	personal_name	-
 dbiks	ðbiks	DBIKS	palaeolexicon	personal_name	-
 dmošbqs	dmoʃbkʷs	DMOSBKS	palaeolexicon	personal_name	-
 dquq	dkʷukʷ	DKUK	palaeolexicon	personal_name	-
-dtỳbr	ðtɥbr	DTWBR	palaeolexicon	personal_name	-
+dtỳbr	dtəbr	DTEBR	palaeolexicon	personal_name	-
 dymδa	djmða	DYMDA	palaeolexicon	?	-
-dỳbr	ðɥbr	DWBR	palaeolexicon	personal_name	-
+dỳbr	dəbr	DEBR	palaeolexicon	personal_name	-
 emsγlpn	emsγlpn	EMSLPN	palaeolexicon	?	-
 esa-	esa	ESA	palaeolexicon	with	-
 esak²δowš	esak²ðowʃ	ESAKDOWS	palaeolexicon	the_king	-
@@ -120,7 +120,7 @@ isorś	isorɕ	ISORS	palaeolexicon	personal_name	-
 iturowś	iturowɕ	ITUROWS	palaeolexicon	personal_name	-
 iβreλ-	iβrel̩-	IBREL	palaeolexicon	personal_name	-
 iβrsiś	iβrsiɕ	IBRSIS	palaeolexicon	personal_name	-
-iỳkrś	iỳkrɕ	IKRS	palaeolexicon	personal_name	-
+iỳkrś	iəkrɕ	IEKRS	palaeolexicon	personal_name	-
 jzpe	jzpe	YSPE	palaeolexicon	personal_name	-
 k̂arnos	karnos	KARNOS	palaeolexicon	personal_name	-
 k̂arrś	k̂arrɕ	KARRS	palaeolexicon	personal_name	-
@@ -132,8 +132,8 @@ k̂lbiksś	k̂lbiksɕ	KLBIKSS	palaeolexicon	personal_name	-
 k̂toi-	k̂toi	KTOI	palaeolexicon	personal_name	-
 k̂yrapaiś	k̂jrapaiɕ	KYRAPAIS	palaeolexicon	personal_name	-
 k̂λmuδ	k̂l̩muð	KLMUD	palaeolexicon	epithet?	-
-kśatỳbr	kɕatỳbr	KSATBR	palaeolexicon	personal_name	-
-kaτtỳriś	katʰtỳriɕ	KATTRIS	palaeolexicon	personal_name	-
+kśatỳbr	kɕatəbr	KSATEBR	palaeolexicon	personal_name	-
+kaτtỳriś	katʰtəriɕ	KATTERIS	palaeolexicon	personal_name	-
 kb-	kb	KB	palaeolexicon	river	-
 kbdmuś	kbdmuɕ	KBDMUS	palaeolexicon	personal_name	-
 kbdynś	kbdjnɕ	KBDYNS	palaeolexicon	ethnonym	-
@@ -165,7 +165,7 @@ lrTñ	lrTɲ	LR0N	palaeolexicon	?	-
 ltariś	ltariɕ	LTARIS	palaeolexicon	personal_name	-
 lysiklas	ljsiklas	LYSIKLAS	palaeolexicon	personal_name	-
 lysikratas	ljsikratas	LYSIKRATAS	palaeolexicon	personal_name	-
-lỳk̂s-	lɥk̂s	LWKS	palaeolexicon	personal_name	-
+lỳk̂s-	lək̂s-	LEKS	palaeolexicon	personal_name	-
 malś	malɕ	MALS	palaeolexicon	personal_name	-
 mane	mane	MANE	palaeolexicon	personal_name	-
 manon	manon	MANON	palaeolexicon	?	-
@@ -175,7 +175,7 @@ mareus	mareus	MAREUS	palaeolexicon	personal_name	-
 mañšqaraTśrλ	maɲʃkʷaraTɕrl̩	MANSKARA0SRL	palaeolexicon	?	-
 mdayn	mdajn	MDAYN	palaeolexicon	ethnonym	-
 merś	merɕ	MERS	palaeolexicon	personal_name	-
-meỳqak	meỳkʷak	MEKAK	palaeolexicon	?	-
+meỳqak	meəkʷak	MEEKAK	palaeolexicon	?	-
 mik̂śś	mik̂ɕɕ	MIKSS	palaeolexicon	personal_name	-
 mmnk̂al	mmnkal	MMNKAL	palaeolexicon	?	-
 mnn-, mu-	mnn, mu	MNNMU	palaeolexicon	might	-
@@ -285,8 +285,8 @@ quq-	kʷukʷ-	KUK	palaeolexicon	personal_name	-
 qurboś	kʷurboɕ	KURBOS	palaeolexicon	personal_name	-
 qurboš	kʷurboʃ	KURBOS	palaeolexicon	personal_name	-
 qutbe	kʷutbe	KUTBE	palaeolexicon	personal_name	-
-qỳblsiś	kʷỳblsiɕ	KBLSIS	palaeolexicon	ethnonym	-
-qỳriś	kʷỳriɕ	KRIS	palaeolexicon	personal_name	-
+qỳblsiś	kʷəblsiɕ	KEBLSIS	palaeolexicon	ethnonym	-
+qỳriś	kʷəriɕ	KERIS	palaeolexicon	personal_name	-
 rtim	rtim	RTIM	palaeolexicon	personal_name	-
 sarniš	sarniʃ	SARNIS	palaeolexicon	representatives	-
 sarniš mdoτ	sarniʃ mdotʰ	SARNISMDOT	palaeolexicon	representatives_of_the_foreigners	-
@@ -294,8 +294,8 @@ saλpde	sal̩pde	SALPDE	palaeolexicon	?	-
 semwś	semwɕ	SEMWS	palaeolexicon	personal_name	-
 seqqejewsk	sekʷkʷejewsk	SEKKEYEWSK	palaeolexicon	?	-
 siral	siral	SIRAL	palaeolexicon	?	-
-slaỳś	slaỳɕ	SLAS	palaeolexicon	personal_name	-
-smδỳbrs	smðỳbrs	SMDBRS	palaeolexicon	personal_name	-
+slaỳś	slaəɕ	SLAES	palaeolexicon	personal_name	-
+smδỳbrs	smðəbrs	SMDEBRS	palaeolexicon	personal_name	-
 somneś	somneɕ	SOMNES	palaeolexicon	personal_name	-
 souan	souan	SOUAN	palaeolexicon	tomb	-
 sursiabk	sursiabk	SURSIABK	palaeolexicon	?	-
@@ -374,7 +374,7 @@ qmoλ	kʷmol̩	KMOL	ediana	priest	-
 *kwar	*kwar	SKWAR	ediana	(unknown)	-
 †lmnlia	†lmnlia	LMNLIA	ediana	-	-
 nu?	nu?	NU	ediana	(unknown)	-
-ýasδś	ýasðɕ	ASDS	ediana	(unknown)	-
+ýasδś	easðɕ	EASDS	ediana	(unknown)	-
 *qutbe	*kʷutbe	SKUTBE	ediana	(unknown)	-
 qtblo	kʷtblo	KTBLO	ediana	alive	-
 *qtblem	*kʷtblem	SKTBLEM	ediana	invigorating_?	-
@@ -383,7 +383,7 @@ ork	ork	ORK	ediana	a_type_of_vessel	-
 pntmun	pntmun	PNTMUN	ediana	prophet_of_amun_or_personal_name	-
 wnuti	wnuti	WNUTI	ediana	hour-observer	-
 orša(n)	orʃa(n)	ORSAN	ediana	lion_?	-
-psý	psý	PS	ediana	(a_substantive)	-
+psý	pse	PSE	ediana	(a_substantive)	-
 *walwa-	*walwa-	SWALWA	ediana	lion	-
 trqδimr	trkʷðimr	TRKDIMR	ediana	(unknown)	-
 γίσσα	γίσσα		ediana	stone	-
@@ -409,14 +409,12 @@ qanor	kʷanor	KANOR	ediana	(unknown)	-
 qrds	kʷrds	KRDS	ediana	belonging_to_the_city	-
 qrdsoλ	kʷrdsol̩	KRDSOL	ediana	pertaining_to_urban	-
 γrds ?	γrds ?	RDS	ediana	not_pertaining_to_the_city_?	-
-tý	tý	T	ediana	(an_adjective)	-
+tý	te	TE	ediana	(an_adjective)	-
 tbeś	tbeɕ	TBES	ediana	(a_substantive_?_a_personal_name_?)	-
-owdown? &gt; wdwn	owdown? &ɡt; wdwn	OWDOWNGTWDWN	ediana	(a_substantive_?)	-
 †polo	†polo	POLO	ediana	(unknown)	-
 †moruos	†moruos	MORUOS	ediana	(unknown)	-
 †akymyδu	†akjmjðu	AKYMYDU	ediana	(unknown)	-
 *iβreλ	*iβrel̩	SIBREL	ediana	pertaining_to_the_open_country	-
-*iβrsi &gt; *iβarsi / *iβrs / *βrsi	*iβrsi &ɡt; *iβarsi / *iβrs / *βrsi	SIBRSIGTSIBARSISIBRSSBRSI	ediana	pertaining_to_the_open_country	-
 *qdrel	*kʷdrel	SKDREL	ediana	the_swift_one	-
 *qdarĺou	*kʷdarlʲou	SKDARLOU	ediana	the_one_who_has_the_status_of_a_servant	-
 *ak̑tmskm (?)	*ak̑tmskm (?)	SAKTMSKM	ediana	descendant_?	-
@@ -429,7 +427,7 @@ pun-/pn-/pñ-	pun-/pn-/pɲ-	PUNPNPN	ediana	all	-
 †=n / ñ	†=n / ɲ	NN	ediana	(3rd_person_enclitic_pronoun)	-
 *ynem	*jnem	SYNEM	ediana	loving	-
 βάνδα	βάνðα	BD	ediana	victory	-
-bý	bý	B	ediana	(an_adjective)	-
+bý	be	BE	ediana	(an_adjective)	-
 sδrual	sðrual	SDRUAL	ediana	(a_type_of_public_magistrate	-
 *kalbi-	*kalbi-	SKALBI	ediana	deep	-
 tum	tum	TUM	ediana	the_egyptian_god_atum	-
@@ -446,7 +444,6 @@ ankβu	ankβu	ANKBU	ediana	(unknown)	-
 sarl	sarl	SARL	ediana	(a_substantive)	-
 †ślem	†ɕlem	SLEM	ediana	(unknown)	-
 †=š	†=ʃ	S	ediana	(unknown)	-
-im(n)- &gt;? mn-	im(n)- &ɡt;? mn-	IMNGTMN	ediana	to_give	-
 *uqsi	*ukʷsi	SUKSI	ediana	(unknown)	-
 *uksi	*uksi	SUKSI	ediana	belonging_to_uks	-
 *u/wks	*u/wks	SUWKS	ediana	(unknown)	-
@@ -476,7 +473,6 @@ no-	no-	NO	ediana	to_bring_?	-
 *tarb-	*tarb-	STARB	ediana	wood	-
 *tĺk̑at(a)r	*tlʲk̑at(a)r	STLKATAR	ediana	(a_substantive_?)	-
 †=t	†=t	T	ediana	(a_particle)	-
-śjas &gt; śas	ɕjas &ɡt; ɕas	SYASGTSAS	ediana	funerary_monument	-
 mw/udon	mw/udon	MWUDON	ediana	mercenary_?	-
 *arliš / *arĺiš	*arliʃ / *arlʲiʃ	SARLISSARLIS	ediana	(unknown)	-
 *tub-	*tub-	STUB	ediana	to_strike__(?)	-
@@ -488,7 +484,6 @@ alo(s)	alo(s)	ALOS	ediana	(an_adjective_?)	-
 †urmλo	†urml̩o	URMLO	ediana	-	-
 uro?	uro?	URO	ediana	big	-
 *urt	*urt	SURT	ediana	big	-
-*urom &gt; *u/wrm	*urom &ɡt; *u/wrm	SUROMGTSUWRM	ediana	pertaining_to_the_great_one_/_the_one_who_is_makin	-
 bi	bi	BI	ediana	(a_particle)	-
 eri	eri	ERI	ediana	companion	-
 †irow	†irow	IROW	ediana	-	-
@@ -508,7 +503,7 @@ sδi(a)	sði(a)	SDIA	ediana	grave_(?)	-
 *q(u)t-	*kʷ(u)t-	SKUT	ediana	to_live	-
 *šar / *šr	*ʃar / *ʃr	SSARSSR	ediana	up	-
 mdoτ2(u)	mdotʰ2(u)	MDOTU	ediana	foreigner_(?)	-
-*ýbr	*ýbr	SBR	ediana	granted_vel_sim._??	-
+*ýbr	*ebr	SEBR	ediana	granted_vel_sim._??	-
 *ybrs	*jbrs	SYBRS	ediana	belonging_to_the_granted_one_??	-
 *kbo-	*kbo-	SKBO	ediana	river_(?)	-
 k̑i	k̑i	KI	ediana	1._relative_pronoun_or_particle	-
@@ -516,13 +511,13 @@ k̑i	k̑i	KI	ediana	1._relative_pronoun_or_particle	-
 armo	armo	ARMO	ediana	month	-
 mso / *msn-, msñ-	mso / *msn-, msɲ-	MSOSMSNMSN	ediana	god	-
 *mara-	*mara-	SMARA	ediana	law_(?)	-
-†m=, †mý=, †=m	†m=, †mý=, †=m	MMM	ediana	-	-
+†m=, †mý=, †=m	†m=, †me=, †=m	MMEM	ediana	-	-
 †ñmaiλ	†ɲmail̩	NMAIL	ediana	establish	-
 *pi-	*pi-	SPI	ediana	to_give	-
 si-	si-	SI	ediana	to_lie	-
 †sat	†sat	SAT	ediana	-	-
 Trquδ > Trqδ	Trkʷuð > Trkʷð	0RKUD0RKD	ediana	storm-god	-
-ýb-	ýb-	B	ediana	to_dedicate	-
+ýb-	eb-	EB	ediana	to_dedicate	-
 uso	uso	USO	ediana	year	-
 *krua	*krua	SKRUA	ediana	donation_?	-
 *quq	*kʷukʷ	SKUK	ediana	grandfather	-
