@@ -47,6 +47,13 @@ CATEGORIES = {
     "urj-pro": ("Proto-Uralic_lemmas", 118),
     "nci": ("Classical_Nahuatl_lemmas", 0),
     "sga": ("Old_Irish_lemmas", 0),
+    # Phase 7 additions
+    "pal": ("Middle_Persian_lemmas", 0),
+    "bnt-pro": ("Proto-Bantu_lemmas", 118),
+    "sit-pro": ("Proto-Sino-Tibetan_lemmas", 118),
+    "xtg": ("Gaulish_lemmas", 0),
+    "sog": ("Sogdian_lemmas", 0),
+    "ojp": ("Old_Japanese_lemmas", 0),
 }
 
 

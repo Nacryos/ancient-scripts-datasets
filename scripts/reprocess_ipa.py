@@ -46,8 +46,9 @@ ANCIENT_LANGUAGES = [
     "cop", "pli", "xcl", "ang", "gez", "hbo", "xht",
     # Tier 3
     "osc", "xum", "xve", "sga", "xeb", "nci",
+    "ojp", "pal", "sog", "xtg",
     # Proto-languages
-    "gem-pro", "cel-pro", "urj-pro",
+    "gem-pro", "cel-pro", "urj-pro", "bnt-pro", "sit-pro",
 ]
 
 # Map from TSV filename ISO to transliteration map ISO

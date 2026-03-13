@@ -111,6 +111,37 @@ TIER2_CONFIGS = {
         "category": "Old_Irish_lemmas",
         "namespace": 0,
     },
+    # Phase 7 additions
+    "pal": {
+        "name": "Middle Persian",
+        "category": "Middle_Persian_lemmas",
+        "namespace": 0,
+    },
+    "bnt-pro": {
+        "name": "Proto-Bantu",
+        "category": "Proto-Bantu_lemmas",
+        "namespace": 118,
+    },
+    "sit-pro": {
+        "name": "Proto-Sino-Tibetan",
+        "category": "Proto-Sino-Tibetan_lemmas",
+        "namespace": 118,
+    },
+    "xtg": {
+        "name": "Gaulish",
+        "category": "Gaulish_lemmas",
+        "namespace": 0,
+    },
+    "sog": {
+        "name": "Sogdian",
+        "category": "Sogdian_lemmas",
+        "namespace": 0,
+    },
+    "ojp": {
+        "name": "Old Japanese",
+        "category": "Old_Japanese_lemmas",
+        "namespace": 0,
+    },
 }
 
 

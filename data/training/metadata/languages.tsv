@@ -61,6 +61,7 @@ mya	sino_tibetan	nucl1310	6075	wikipron
 slv	balto_slavic	slov1268	5842	northeuralex,wikipron
 swe	germanic	swed1254	5549	northeuralex,wikipron
 gem-pro	unknown		5399	wiktionary_cat
+ojp	unknown		5393	oncoj,wiktionary_cat
 bcl	austronesian	cent2004	5356	abvd,wikipron
 sme	uralic	nort2671	5159	northeuralex,wikipron
 glg	italic	gali1258	5015	wikipron
@@ -362,6 +363,7 @@ tkl	austronesian	toke1240	471	abvd,wikipron
 sov	austronesian		468	abvd
 xto	tocharian	tokh1242	467	wiktionary_cat
 uga	semitic	ugar1238	467	oracc_neo,wiktionary,wiktionary_cat
+bnt-pro	unknown		467	wiktionary_cat
 gsw	germanic	swis1247	466	wikipron
 rar	austronesian	raro1241	464	abvd
 loc	austronesian		463	abvd
@@ -458,6 +460,7 @@ aji	austronesian		358	abvd
 cia	austronesian		358	abvd
 mrl	austronesian		358	abvd
 xks	austronesian		358	abvd
+sit-pro	unknown		358	wiktionary_cat
 hsb	balto_slavic	uppe1395	356	wikipron
 nmy	unknown		356	wikipron
 bhw	austronesian		354	abvd
@@ -572,6 +575,7 @@ cha	austronesian	cham1312	275	abvd
 wuv	austronesian		274	abvd
 btw	austronesian		273	abvd
 ssv	austronesian		272	abvd
+xtg	unknown		271	diacl,wiktionary_cat
 qxs	sino_tibetan	mawo1239	269	sinotibetan
 txs	austronesian		269	abvd
 klr	sino_tibetan	khal1275	269	sinotibetan
@@ -637,6 +641,7 @@ rad	austronesian		242	abvd
 tiy	austronesian		242	abvd
 tkp	austronesian		242	abvd
 urv	austronesian		242	abvd
+pal	unknown		242	wiktionary_cat
 bhp	austronesian		241	abvd
 obr	sino_tibetan	oldb1235	241	sinotibetan
 tji	sino_tibetan	nort2726	241	sinotibetan
@@ -851,6 +856,7 @@ dor	austronesian		194	abvd
 ebk	austronesian		194	abvd
 loj	austronesian		194	abvd
 twu	austronesian		194	abvd
+sog	unknown		194	iecor,wiktionary_cat
 bdq	unknown		193	wikipron
 bvc	austronesian		193	abvd
 cjm	austronesian		193	abvd

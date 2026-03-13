@@ -1610,6 +1610,124 @@ PROTO_URALIC_MAP: Dict[str, str] = {
 }
 
 # ---------------------------------------------------------------------------
+# OLD_JAPANESE_MAP — Old Japanese (ONCOJ romanization → IPA)
+# Source: Frellesvig (2010), *A History of the Japanese Language*;
+#         ONCOJ transliteration conventions (Frellesvig & Whitman)
+# Notes: ONCOJ uses 'p' for OJ bilabial (later > h/f in Modern Japanese)
+# ---------------------------------------------------------------------------
+OLD_JAPANESE_MAP: Dict[str, str] = {
+    # ONCOJ conventions → IPA
+    "py": "pʲ", "ky": "kʲ", "sy": "ɕ", "ty": "tɕ", "ny": "ɲ",
+    "my": "mʲ", "ry": "ɾʲ",
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "s": "s", "z": "z", "m": "m", "n": "n", "r": "ɾ",
+    "w": "w", "y": "j",
+    # Long vowels (ONCOJ sometimes marks with macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Standard vowels (identity)
+    "a": "a", "i": "i", "u": "u", "e": "e", "o": "o",
+}
+
+# ---------------------------------------------------------------------------
+# MIDDLE_PERSIAN_MAP — Middle Persian / Pahlavi (MacKenzie romanization → IPA)
+# Source: MacKenzie (1971), *A Concise Pahlavi Dictionary*;
+#         Skjærvø (2009), *Middle Persian*
+# ---------------------------------------------------------------------------
+MIDDLE_PERSIAN_MAP: Dict[str, str] = {
+    # Digraphs first
+    "sh": "ʃ", "zh": "ʒ", "ch": "tʃ", "xw": "xʷ",
+    # Vowels with macron (long)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Special consonants
+    "x": "x", "γ": "ɣ", "ǰ": "dʒ", "č": "tʃ", "š": "ʃ", "ž": "ʒ",
+    "ẏ": "j", "ẇ": "w", "ṯ": "θ", "δ": "ð",
+    "ʾ": "ʔ",
+    # Standard (identity-like)
+    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "j": "dʒ", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
+}
+
+# ---------------------------------------------------------------------------
+# SOGDIAN_MAP — Sogdian (Iranist romanization → IPA)
+# Source: Gharib (1995); Sims-Williams (2000)
+# ---------------------------------------------------------------------------
+SOGDIAN_MAP: Dict[str, str] = {
+    # Digraphs
+    "sh": "ʃ", "zh": "ʒ", "ch": "tʃ",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Special consonants
+    "γ": "ɣ", "δ": "ð", "θ": "θ", "β": "β",
+    "x": "x", "č": "tʃ", "š": "ʃ", "ž": "ʒ",
+    "ṯ": "θ", "ʾ": "ʔ",
+    "ny": "ɲ", "ng": "ŋ",
+    # Standard
+    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "j": "dʒ", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
+}
+
+# ---------------------------------------------------------------------------
+# GAULISH_MAP — Gaulish (scholarly romanization → IPA)
+# Source: Delamarre (2003), *Dictionnaire de la langue gauloise*;
+#         Stifter (2006), *Sengoidelc: Old Irish for Beginners*
+# ---------------------------------------------------------------------------
+GAULISH_MAP: Dict[str, str] = {
+    # Digraphs
+    "ou": "oː", "ei": "eː", "uu": "w",
+    # Special
+    "χ": "x", "ð": "ð", "θ": "θ",
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Standard
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    "x": "x",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_BANTU_MAP — Proto-Bantu (BLR notation → IPA)
+# Source: Bastin et al. (2002), BLR3; Meeussen (1967)
+# ---------------------------------------------------------------------------
+PROTO_BANTU_MAP: Dict[str, str] = {
+    # Prenasalized
+    "mb": "mb", "nd": "nd", "ng": "ŋɡ", "nj": "ɲdʒ",
+    "mp": "mp", "nt": "nt", "nk": "ŋk",
+    # Digraphs
+    "ny": "ɲ", "nc": "ntʃ",
+    # Special
+    "c": "tʃ", "j": "dʒ",
+    # Tone-marked vowels (macron = long)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Vowels with tilde (nasalized)
+    "ĩ": "ĩ", "ũ": "ũ",
+    # Standard
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "t": "t", "w": "w", "y": "j",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_SINO_TIBETAN_MAP — Proto-Sino-Tibetan (comparative notation → IPA)
+# Source: Matisoff (2003), *Handbook of Proto-Tibeto-Burman*;
+#         Sagart (2004)
+# ---------------------------------------------------------------------------
+PROTO_SINO_TIBETAN_MAP: Dict[str, str] = {
+    # Digraphs / clusters
+    "ts": "ts", "dz": "dz", "ng": "ŋ", "ny": "ɲ",
+    "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
+    # Special
+    "ʔ": "ʔ", "ŋ": "ŋ", "ɲ": "ɲ",
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Standard
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    "h": "h",
+}
+
+# ---------------------------------------------------------------------------
 # Lookup table:  ISO 639-3 code  ->  transliteration map
 # ---------------------------------------------------------------------------
 ALL_MAPS: Dict[str, Dict[str, str]] = {
@@ -1660,6 +1778,13 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "gem-pro": PROTO_GERMANIC_MAP,  # Proto-Germanic
     "cel-pro": PROTO_CELTIC_MAP,    # Proto-Celtic
     "urj-pro": PROTO_URALIC_MAP,    # Proto-Uralic
+    # Phase 7 additions
+    "ojp": OLD_JAPANESE_MAP,        # Old Japanese
+    "pal": MIDDLE_PERSIAN_MAP,      # Middle Persian
+    "sog": SOGDIAN_MAP,             # Sogdian
+    "xtg": GAULISH_MAP,             # Gaulish
+    "bnt-pro": PROTO_BANTU_MAP,     # Proto-Bantu
+    "sit-pro": PROTO_SINO_TIBETAN_MAP,  # Proto-Sino-Tibetan
 }
 
 
