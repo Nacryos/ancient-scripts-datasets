@@ -32,21 +32,21 @@ logger = logging.getLogger(__name__)
 API_URL = "https://en.wiktionary.org/w/api.php"
 USER_AGENT = "PhaiPhon/1.0 (ancient-scripts-datasets; academic research)"
 
-# All Tier 2 categories
+# All categories: (category_name, namespace)
 CATEGORIES = {
-    "cop": "Coptic_lemmas",
-    "pli": "Pali_lemmas",
-    "xcl": "Old_Armenian_lemmas",
-    "ang": "Old_English_lemmas",
-    "gez": "Ge%27ez_lemmas",
-    "hbo": "Hebrew_lemmas",
-    "xht": "Hattic_lemmas",
+    "cop": ("Coptic_lemmas", 0),
+    "pli": ("Pali_lemmas", 0),
+    "xcl": ("Old_Armenian_lemmas", 0),
+    "ang": ("Old_English_lemmas", 0),
+    "gez": ("Ge%27ez_lemmas", 0),
+    "hbo": ("Hebrew_lemmas", 0),
+    "xht": ("Hattic_lemmas", 0),
     # Tier 3 + Proto-languages
-    "gem-pro": "Proto-Germanic_lemmas",
-    "cel-pro": "Proto-Celtic_lemmas",
-    "urj-pro": "Proto-Uralic_lemmas",
-    "nci": "Classical_Nahuatl_lemmas",
-    "sga": "Old_Irish_lemmas",
+    "gem-pro": ("Proto-Germanic_lemmas", 118),
+    "cel-pro": ("Proto-Celtic_lemmas", 118),
+    "urj-pro": ("Proto-Uralic_lemmas", 118),
+    "nci": ("Classical_Nahuatl_lemmas", 0),
+    "sga": ("Old_Irish_lemmas", 0),
 }
 
 
@@ -82,12 +82,12 @@ def fetch_one_page(url: str) -> tuple[str, int]:
     return body, retry_after
 
 
-def fetch_category(iso: str, category: str) -> list[str]:
+def fetch_category(iso: str, category: str, namespace: int = 0) -> list[str]:
     """Fetch all members of a Wiktionary category, respecting rate limits."""
     members = []
     base = (
         f"action=query&list=categorymembers&cmtitle=Category:{category}"
-        f"&cmtype=page&cmnamespace=0&cmlimit=500&format=json"
+        f"&cmtype=page&cmnamespace={namespace}&cmlimit=500&format=json"
     )
     extra = ""
     page = 0
@@ -147,7 +147,8 @@ def main():
     else:
         cats = CATEGORIES
 
-    for iso, category in cats.items():
+    for iso, cat_info in cats.items():
+        category, namespace = cat_info
         raw_path = RAW_DIR / f"wiktionary_category_{iso}.json"
         if raw_path.exists():
             with open(raw_path, "r", encoding="utf-8") as f:
@@ -155,8 +156,8 @@ def main():
             logger.info("%s: Already cached (%d members). Skipping.", iso, len(existing.get("members", [])))
             continue
 
-        logger.info("%s: Fetching %s...", iso, category)
-        members = fetch_category(iso, category)
+        logger.info("%s: Fetching %s (ns=%d)...", iso, category, namespace)
+        members = fetch_category(iso, category, namespace)
         logger.info("%s: Got %d members", iso, len(members))
 
         if members:
