@@ -60,6 +60,21 @@ CATEGORIES = {
     "itc-pro": ("Proto-Italic_lemmas", 118),
     "jpx-pro": ("Proto-Japonic_lemmas", 118),
     "ira-pro": ("Proto-Iranian_lemmas", 118),
+    # Phase 8 P1 proto-languages
+    "alg-pro": ("Proto-Algonquian_lemmas", 118),
+    "sqj-pro": ("Proto-Albanian_lemmas", 118),
+    "aav-pro": ("Proto-Austroasiatic_lemmas", 118),
+    "poz-pol-pro": ("Proto-Polynesian_lemmas", 118),
+    "tai-pro": ("Proto-Tai_lemmas", 118),
+    "xto-pro": ("Proto-Tocharian_lemmas", 118),
+    "poz-oce-pro": ("Proto-Oceanic_lemmas", 118),
+    "xgn-pro": ("Proto-Mongolic_lemmas", 118),
+    # Phase 8 additional ancient languages
+    "obm": ("Moabite_lemmas", 0),
+    # Batch 3: P2 proto-languages + Iberian
+    "myn-pro": ("Proto-Mayan_lemmas", 118),
+    "afa-pro": ("Proto-Afroasiatic_lemmas", 118),
+    "xib": ("Iberian_lemmas", 0),
 }
 
 

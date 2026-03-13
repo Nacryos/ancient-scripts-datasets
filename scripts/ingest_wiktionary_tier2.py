@@ -173,6 +173,69 @@ TIER2_CONFIGS = {
         "category": "Celtiberian_lemmas",
         "namespace": 0,
     },
+    # Phase 8 P1 proto-languages
+    "alg-pro": {
+        "name": "Proto-Algonquian",
+        "category": "Proto-Algonquian_lemmas",
+        "namespace": 118,
+    },
+    "sqj-pro": {
+        "name": "Proto-Albanian",
+        "category": "Proto-Albanian_lemmas",
+        "namespace": 118,
+    },
+    "aav-pro": {
+        "name": "Proto-Austroasiatic",
+        "category": "Proto-Austroasiatic_lemmas",
+        "namespace": 118,
+    },
+    "poz-pol-pro": {
+        "name": "Proto-Polynesian",
+        "category": "Proto-Polynesian_lemmas",
+        "namespace": 118,
+    },
+    "tai-pro": {
+        "name": "Proto-Tai",
+        "category": "Proto-Tai_lemmas",
+        "namespace": 118,
+    },
+    "xto-pro": {
+        "name": "Proto-Tocharian",
+        "category": "Proto-Tocharian_lemmas",
+        "namespace": 118,
+    },
+    "poz-oce-pro": {
+        "name": "Proto-Oceanic",
+        "category": "Proto-Oceanic_lemmas",
+        "namespace": 118,
+    },
+    "xgn-pro": {
+        "name": "Proto-Mongolic",
+        "category": "Proto-Mongolic_lemmas",
+        "namespace": 118,
+    },
+    # Phase 8 additional ancient languages
+    "obm": {
+        "name": "Moabite",
+        "category": "Moabite_lemmas",
+        "namespace": 0,
+    },
+    # Batch 3: P2 proto-languages + Iberian
+    "myn-pro": {
+        "name": "Proto-Mayan",
+        "category": "Proto-Mayan_lemmas",
+        "namespace": 118,
+    },
+    "afa-pro": {
+        "name": "Proto-Afroasiatic",
+        "category": "Proto-Afroasiatic_lemmas",
+        "namespace": 118,
+    },
+    "xib": {
+        "name": "Iberian",
+        "category": "Iberian_lemmas",
+        "namespace": 0,
+    },
 }
 
 

@@ -52,6 +52,16 @@ ANCIENT_LANGUAGES = [
     "sla-pro", "trk-pro", "itc-pro", "jpx-pro", "ira-pro",
     "xce",
     "xsa",
+    # Phase 8 P1 proto-languages
+    "alg-pro", "sqj-pro", "aav-pro", "poz-pol-pro",
+    "tai-pro", "xto-pro", "poz-oce-pro", "xgn-pro",
+    # Phase 8 additional ancient languages
+    "obm",
+    "xmr",
+    # Batch 3: P2 proto-languages + Iberian
+    "myn-pro",
+    "afa-pro",
+    "xib",
 ]
 
 # Map from TSV filename ISO to transliteration map ISO

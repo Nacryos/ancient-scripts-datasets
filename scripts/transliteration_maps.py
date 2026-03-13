@@ -46,6 +46,12 @@ Sources
                     Gragg (1997) in *The Semitic Languages*
 - Biblical Hebrew:  Blau (2010), *Phonology and Morphology of Biblical Hebrew*;
                     Khan (2020), *The Tiberian Pronunciation Tradition*
+- Proto-Mayan:      Kaufman & Justeson (2003), *Preliminary Mayan Etymological
+                    Dictionary*; Campbell & Kaufman (1985)
+- Proto-Afroasiatic: Ehret (1995), *Reconstructing Proto-Afroasiatic*;
+                    Militarev & Stolbova (2007)
+- Iberian:          Untermann (1990), *Monumenta Linguarum Hispanicarum*;
+                    de Hoz (2011)
 """
 
 from __future__ import annotations
@@ -146,6 +152,39 @@ PHOENICIAN_MAP: Dict[str, str] = {
     "k": "k", "l": "l", "m": "m", "n": "n", "s": "s",
     "ʿ": "ʕ", "p": "p", "ṣ": "sˤ", "q": "q", "r": "r",
     "š": "ʃ", "t": "t",
+}
+
+# ---------------------------------------------------------------------------
+# 3b. MOABITE  (Donner & Röllig KAI 181; same NW Semitic abjad as Phoenician)
+# Wiktionary entries use Phoenician Unicode script (U+10900-U+10915),
+# so we map from those codepoints directly to IPA.
+# ---------------------------------------------------------------------------
+MOABITE_MAP: Dict[str, str] = {
+    # Phoenician Unicode script codepoints -> IPA
+    "\U00010900": "ʔ",    # ALF   (aleph)
+    "\U00010901": "b",    # BET
+    "\U00010902": "ɡ",    # GAML  (gimel)
+    "\U00010903": "d",    # DELT  (daleth)
+    "\U00010904": "h",    # HE
+    "\U00010905": "w",    # WAU
+    "\U00010906": "z",    # ZAIN
+    "\U00010907": "ħ",    # HET   (heth)
+    "\U00010908": "tˤ",   # TET   (teth — emphatic t)
+    "\U00010909": "j",    # YOD
+    "\U0001090A": "k",    # KAF
+    "\U0001090B": "l",    # LAMD
+    "\U0001090C": "m",    # MEM
+    "\U0001090D": "n",    # NUN
+    "\U0001090E": "s",    # SEMK  (samekh)
+    "\U0001090F": "ʕ",    # AIN   (ayin)
+    "\U00010910": "p",    # PE
+    "\U00010911": "sˤ",   # SADE  (tsade — emphatic s)
+    "\U00010912": "q",    # QOF
+    "\U00010913": "r",    # ROSH  (resh)
+    "\U00010914": "ʃ",    # SHIN
+    "\U00010915": "t",    # TAU
+    # Also include Latin transliteration fallbacks (same as PHOENICIAN_MAP)
+    **PHOENICIAN_MAP,
 }
 
 # ---------------------------------------------------------------------------
@@ -2006,6 +2045,422 @@ ANCIENT_SOUTH_ARABIAN_MAP: Dict[str, str] = {
 }
 
 # ---------------------------------------------------------------------------
+# PROTO_ALGONQUIAN_MAP — Proto-Algonquian (comparative notation → IPA)
+# Source: Goddard (1994), "The West-to-East Cline in Algonquian Dialectology"
+#         in *Handbook of North American Indians* vol. 17;
+#         Bloomfield (1946), "Algonquian" in *LSNA*
+# Wiktionary Reconstruction pages use standard Algonquianist notation.
+# ---------------------------------------------------------------------------
+PROTO_ALGONQUIAN_MAP: Dict[str, str] = {
+    # Affricates and fricatives (digraphs first)
+    "čh": "tʃʰ", "th": "tʰ", "kh": "kʰ", "ph": "pʰ",
+    "šk": "ʃk",
+    # Caron consonants
+    "č": "tʃ", "š": "ʃ",
+    # Length marker
+    "·": "ː", "ː": "ː",
+    # Long vowels (macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː",
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Glottal stop
+    "ʔ": "ʔ",
+    # Theta
+    "θ": "θ",
+    # Standard consonants
+    "p": "p", "t": "t", "k": "k", "m": "m", "n": "n",
+    "s": "s", "h": "h", "w": "w", "y": "j", "l": "l",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_ALBANIAN_MAP — Proto-Albanian (comparative notation → IPA)
+# Source: Orel (1998), *Albanian Etymological Dictionary*;
+#         Demiraj (1997), *Albanische Etymologien*;
+#         Topalli (2017), *A Grammar of Albanian*
+# Wiktionary reconstructions largely use IPA-like notation.
+# ---------------------------------------------------------------------------
+PROTO_ALBANIAN_MAP: Dict[str, str] = {
+    # Digraphs / affricates
+    "ts": "ts", "dz": "dz",
+    # Long vowels (macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Accented long vowels (macron + acute)
+    "ṓ": "oː",
+    # Acute accent (stress markers — strip to plain)
+    "á": "a", "é": "e",
+    # Interdentals / fricatives
+    "ð": "ð", "θ": "θ",
+    # Palatalized sibilants
+    "ś": "ɕ", "ź": "ʑ",
+    # Caron sibilants
+    "č": "tʃ", "š": "ʃ", "ž": "ʒ",
+    # Dark / velarized l
+    "ɫ": "ɫ",
+    # Schwa
+    "ë": "ə",
+    # Close central rounded vowel
+    "ʉ": "ʉ",
+    # Palatal nasal
+    "ɲ": "ɲ", "ñ": "ɲ",
+    # Palatal lateral
+    "ʎ": "ʎ",
+    # Already IPA passthrough
+    "ʃ": "ʃ", "ʒ": "ʒ",
+    "tʃ": "tʃ", "dʒ": "dʒ",
+    # Superscript modifiers (aspiration, etc.)
+    "ʰ": "ʰ", "ˢ": "",
+    # Standard consonants
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "v": "v",
+    "w": "w", "z": "z",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    "y": "y",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_AUSTROASIATIC_MAP — Proto-Austroasiatic (comparative notation → IPA)
+# Source: Shorto (2006), *A Mon-Khmer Comparative Dictionary*;
+#         Diffloth (2005), "Proto-Austroasiatic Creaky Voice";
+#         Sidwell (2015), "The Austroasiatic Urheimat"
+# Most Wiktionary entries already use IPA-like forms.
+# ---------------------------------------------------------------------------
+PROTO_AUSTROASIATIC_MAP: Dict[str, str] = {
+    # Palatal stops and nasal (multi-char first)
+    "ɟ": "ɟ", "ɲ": "ɲ",
+    # Implosives
+    "ɓ": "ɓ", "ɗ": "ɗ",
+    # Retroflex
+    "ɖ": "ɖ", "ʈ": "ʈ", "ɳ": "ɳ",
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Glottal
+    "ʔ": "ʔ",
+    # Fricatives
+    "ç": "ç",
+    # Long vowels
+    "aː": "aː", "eː": "eː", "iː": "iː", "oː": "oː", "uː": "uː",
+    "ɔː": "ɔː", "ɛː": "ɛː",
+    # Open/mid vowels
+    "ɔ": "ɔ", "ɛ": "ɛ", "ə": "ə", "ɨ": "ɨ",
+    # Standard consonants
+    "b": "b", "c": "c", "d": "d", "g": "g", "h": "h",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_POLYNESIAN_MAP — Proto-Polynesian (comparative notation → IPA)
+# Source: Biggs & Clark (2006), *POLLEX: Polynesian Lexicon* database;
+#         Greenhill & Clark (2011), "POLLEX-Online";
+#         Pawley (1966), *Polynesian Languages: A Subgrouping Based on
+#         Shared Innovations in Morphology*
+# Proto-Polynesian uses a very small phoneme inventory; mostly IPA passthrough.
+# ---------------------------------------------------------------------------
+PROTO_POLYNESIAN_MAP: Dict[str, str] = {
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Glottal stop
+    "ʔ": "ʔ",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Standard consonants (small inventory)
+    "f": "f", "h": "h", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t",
+    "w": "w", "q": "q",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_TAI_MAP — Proto-Tai (comparative notation → IPA)
+# Source: Li (1977), *A Handbook of Comparative Tai*;
+#         Pittayaporn (2009), *The Phonology of Proto-Tai*;
+#         Norquest (2015), *A Phonological Reconstruction of Proto-Hlai*
+# Wiktionary uses standard Tai comparativist notation with tone letters.
+# ---------------------------------------------------------------------------
+PROTO_TAI_MAP: Dict[str, str] = {
+    # Digraphs / clusters (must come before single-char entries)
+    "pʰ": "pʰ", "tʰ": "tʰ", "kʰ": "kʰ",
+    "kʷ": "kʷ", "kʰʷ": "kʰʷ",
+    "ŋʷ": "ŋʷ",
+    "hw": "xw",
+    # Implosives
+    "ɓ": "ɓ", "ɗ": "ɗ",
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Palatal stop / fricative
+    "ɟ": "ɟ", "ɕ": "ɕ", "ɲ": "ɲ",
+    # IPA g variant
+    "ɡ": "g",
+    # Velar/uvular fricatives
+    "ɣ": "ɣ", "χ": "χ",
+    # Close-mid back unrounded vowel
+    "ɤ": "ɤ",
+    # Velar approximant
+    "ɰ": "ɰ",
+    # Glottal stop (modifier form)
+    "ʔ": "ʔ", "ˀ": "ʔ",
+    # Schwa
+    "ə": "ə",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ɯː": "ɯː", "ɛː": "ɛː", "ɔː": "ɔː",
+    # Mid/open vowels
+    "ɯ": "ɯ", "ɛ": "ɛ", "ɔ": "ɔ",
+    # Superscript tone letters (strip for IPA — tone classes A-D)
+    "ᴬ": "", "ᴮ": "", "ᴰ": "",
+    "ꟲ": "",  # U+A7F2 modifier letter C (tone C)
+    # Aspiration superscript
+    "ʰ": "ʰ",
+    # Length
+    "ː": "ː",
+    # Combining diacritics (voiceless/voiced ring below — passthrough)
+    "\u0325": "\u0325", "\u0329": "\u0329", "\u032C": "\u032C",
+    # Standard consonants
+    "b": "b", "c": "c", "d": "d", "f": "f", "g": "g",
+    "h": "h", "j": "j", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t",
+    "v": "v", "w": "w", "x": "x", "z": "z", "q": "q",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_TOCHARIAN_MAP — Proto-Tocharian (comparative notation → IPA)
+# Source: Adams (2013), *A Dictionary of Tocharian B* (2nd ed.);
+#         Winter (1992), "Tocharian" in *IELDD*;
+#         Ringe (1996), *On the Chronology of Sound Changes in Tocharian*
+# Shares base conventions with Tocharian A/B but with proto-specific forms.
+# ---------------------------------------------------------------------------
+PROTO_TOCHARIAN_MAP: Dict[str, str] = {
+    # Palatalized clusters (digraphs first)
+    "ts": "ts", "dz": "dz",
+    "śc": "ɕtɕ",
+    # Long vowels (macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Palatal sibilant and affricate
+    "ś": "ɕ", "ź": "ʑ",
+    "c": "tɕ", "j": "j",
+    # Retroflex
+    "ṣ": "ʂ",
+    # Schwas and special vowels
+    "ä": "ə", "ə": "ə",
+    # Velar fricative
+    "x": "x",
+    # Labiovelars
+    "kʷ": "kʷ",
+    # Standard consonants
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l",
+    "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
+    "t": "t", "w": "w", "y": "j",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_OCEANIC_MAP — Proto-Oceanic (comparative notation → IPA)
+# Source: Ross, Pawley & Osmond (1998–2016), *The Lexicon of Proto Oceanic*
+#         vols. 1–5; Blust (2009), *The Austronesian Languages*;
+#         Lynch, Ross & Crowley (2002), *The Oceanic Languages*
+# Proto-Oceanic uses a relatively small consonant inventory.
+# ---------------------------------------------------------------------------
+PROTO_OCEANIC_MAP: Dict[str, str] = {
+    # Digraphs
+    "dr": "dr", "pw": "pʷ", "bw": "bʷ", "mw": "mʷ",
+    "ñ": "ɲ", "nj": "ɲ",
+    # Special consonants
+    "ŋ": "ŋ",
+    "q": "q",
+    "R": "r",   # *R = uvular or retroflex trill in some notations
+    "ʀ": "ʀ",   # IPA uvular trill (used in some Oceanic entries)
+    "j": "dʒ",
+    # Labialization superscript
+    "ʷ": "ʷ",
+    # Long vowels (if marked)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Standard consonants
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l",
+    "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
+    "t": "t", "w": "w", "y": "j",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_MONGOLIC_MAP — Proto-Mongolic (comparative notation → IPA)
+# Source: Nugteren (2011), *Mongolic Phonology and the Qinghai-Gansu
+#         Languages*; Janhunen (2003), "Proto-Mongolic" in *The Mongolic
+#         Languages*; Svantesson et al. (2005), *The Phonology of Mongolian*
+# Wiktionary uses standard Mongolist reconstruction notation.
+# ---------------------------------------------------------------------------
+PROTO_MONGOLIC_MAP: Dict[str, str] = {
+    # Affricates / fricatives (multi-char first)
+    "čh": "tʃʰ",
+    "č": "tʃ", "š": "ʃ", "ǰ": "dʒ",
+    # Velar/uvular fricatives
+    "γ": "ɣ", "x": "x",
+    # Front rounded vowels
+    "ü": "y", "ö": "ø",
+    # Back unrounded high vowel (Mongolist notation)
+    "ï": "ɯ",
+    # Long vowels (macron or doubled)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ǖ": "yː", "ȫ": "øː",
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Standard consonants
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
+    "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
+    "t": "t", "w": "w", "y": "j", "h": "h", "q": "q",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# MEROITIC_MAP — Meroitic (scholarly transliteration -> IPA)
+# Source: Rilly (2007), *La langue du royaume de Meroe*;
+#         Griffith (1911), *Meroitic Inscriptions*;
+#         Rilly & de Voogt (2012), *The Meroitic Language and Writing System*
+# The Meroitic script has 23 signs.  All phonetic values are established.
+# Scholarly transliteration follows Griffith as refined by Rilly.
+# ---------------------------------------------------------------------------
+MEROITIC_MAP: Dict[str, str] = {
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Stops
+    "b": "b", "p": "p", "d": "d", "t": "t", "k": "k", "q": "q",
+    # Nasals
+    "m": "m", "n": "n", "\u00f1": "\u0272", "\u014b": "\u014b",
+    # Liquids
+    "l": "l", "r": "r",
+    # Fricatives
+    "s": "s", "\u0161": "\u0283", "\u1e2b": "x", "h": "h",
+    # Semivowels
+    "w": "w", "y": "j",
+    # Word divider (Meroitic uses : as word separator)
+    ":": "",
+    # Alternate scholarly notations
+    "\u1e96": "x",  # h-line-below  (alternate for velar fricative)
+    "\u015b": "s",   # s-acute (alternate sibilant notation)
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_MAYAN_MAP — Proto-Mayan (Wiktionary notation -> IPA)
+# Source: Kaufman & Justeson (2003), *Preliminary Mayan Etymological Dictionary*;
+#         Campbell & Kaufman (1985)
+# Wiktionary uses b' for implosive, k' t' tz' ch' for ejectives.
+# The glottal-stop ʼ (U+02BC) marks ejectives in Wiktionary notation.
+# ---------------------------------------------------------------------------
+PROTO_MAYAN_MAP: Dict[str, str] = {
+    # Vowels — Mayan has 5 vowels with length contrast
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Palatalized stops — ty-cluster (Kaufman notation for palatal)
+    "tyʼ": "tʲʼ", "ty'": "tʲʼ",   # palatal ejective
+    "ty": "tʲ",                      # plain palatal stop
+    # Ejective affricates (multi-char, must precede simplex)
+    "tzʼ": "tsʼ", "tz'": "tsʼ",
+    "chʼ": "tʃʼ", "ch'": "tʃʼ",
+    # Plain affricates
+    "tz": "ts",
+    "ch": "tʃ",
+    # Ejective stops
+    "bʼ": "ɓ", "b'": "ɓ",        # implosive
+    "kʼ": "kʼ", "k'": "kʼ",      # velar ejective
+    "tʼ": "tʼ", "t'": "tʼ",      # alveolar ejective
+    "qʼ": "qʼ", "q'": "qʼ",      # uvular ejective
+    # Fricatives
+    "x": "ʃ",                      # Mayan x = postalveolar
+    "j": "x",                      # Mayan j = velar fricative
+    "s": "s", "h": "h",
+    # Capital H — Kaufman (2003) uses H for a distinct laryngeal/pharyngeal
+    "H": "h",
+    # Stops
+    "p": "p", "b": "b", "t": "t", "k": "k", "q": "q",
+    # Nasals
+    "m": "m", "n": "n", "nh": "ŋ",
+    # Liquids
+    "l": "l", "r": "r",
+    # Glides
+    "w": "w", "y": "j",
+    # Glottal stop
+    "ʼ": "ʔ", "'": "ʔ", "ʔ": "ʔ",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_AFROASIATIC_MAP — Proto-Afroasiatic (scholarly notation -> IPA)
+# Source: Ehret (1995), *Reconstructing Proto-Afroasiatic*;
+#         Militarev & Stolbova (2007)
+# Wiktionary PAA entries use a mix of IPA and Afroasiaticist notation.
+# Many characters are already IPA; this map handles the scholarly extras.
+# ---------------------------------------------------------------------------
+PROTO_AFROASIATIC_MAP: Dict[str, str] = {
+    # Emphatic/pharyngealized consonants
+    "ṣ": "sˤ", "ṭ": "tˤ", "ḍ": "dˤ", "ẓ": "zˤ",
+    "ḳ": "qʼ",             # common Afroasiaticist notation for uvular ejective
+    "c̣": "tsʼ",            # ejective affricate
+    # Pharyngeals and laryngeals
+    "ḥ": "ħ",              # voiceless pharyngeal
+    "ḫ": "x",              # velar fricative
+    "ʿ": "ʕ", "ʕ": "ʕ",   # voiced pharyngeal
+    "ʾ": "ʔ", "ʔ": "ʔ",   # glottal stop
+    # Sibilants and fricatives
+    "š": "ʃ",              # voiceless postalveolar
+    "ġ": "ɣ",              # voiced velar fricative
+    "ɣ": "ɣ",              # already IPA
+    # Affricates
+    "č": "tʃ",             # voiceless postalveolar affricate
+    "ǯ": "dʒ",             # voiced postalveolar affricate
+    "ǰ": "dʒ",             # alternate notation
+    "c": "ts",              # plain voiceless alveolar affricate (Ehret notation)
+    # Vowels — double-vowel length (Ehret 1995 uses doubled vowels)
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    # Vowels — PAA uses circumflex for length, caron for short, etc.
+    "â": "aː", "ê": "eː", "î": "iː", "ô": "oː", "û": "uː",
+    "ǎ": "a", "ě": "e", "ǐ": "i", "ǒ": "o", "ǔ": "u",
+    "ă": "a",               # breve = extra-short
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ü": "y",               # front rounded
+    # Labiovelars
+    "gʷ": "ɡʷ", "kʷ": "kʷ", "ɣʷ": "ɣʷ",
+    # Pass-through IPA consonants
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h", "k": "k",
+    "l": "l", "m": "m", "n": "n", "p": "p", "r": "r",
+    "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
+    "ʒ": "ʒ", "ŋ": "ŋ",
+    # Vowels (plain)
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Capital H used in Ehret for voiceless pharyngeal
+    "H": "ħ",
+}
+
+# ---------------------------------------------------------------------------
+# IBERIAN_MAP — Iberian (scholarly transliteration -> IPA)
+# Source: Untermann (1990), *Monumenta Linguarum Hispanicarum*;
+#         de Hoz (2011), *Historia linguistica de la peninsula iberica*
+# The Iberian script is a semi-syllabary.  Scholarly transliteration is
+# largely phonemic Latin-letter notation.  Most letters pass through.
+# Special characters: ŕ (voiceless r), ś (palatal/postalveolar sibilant).
+# ---------------------------------------------------------------------------
+IBERIAN_MAP: Dict[str, str] = {
+    # Special Iberian sibilants
+    "ś": "ʃ",              # palatal/postalveolar sibilant
+    "ŕ": "r̥",              # voiceless rhotic (distinct from r)
+    # Standard consonants
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
+    "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
+    "t": "t", "w": "w",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
 # Lookup table:  ISO 639-3 code  ->  transliteration map
 # ---------------------------------------------------------------------------
 ALL_MAPS: Dict[str, Dict[str, str]] = {
@@ -2073,6 +2528,22 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "ira-pro": PROTO_IRANIAN_MAP,      # Proto-Iranian
     "xce": CELTIBERIAN_MAP,            # Celtiberian
     "xsa": ANCIENT_SOUTH_ARABIAN_MAP,  # Ancient South Arabian
+    # Phase 8 P1 proto-languages
+    "alg-pro": PROTO_ALGONQUIAN_MAP,       # Proto-Algonquian
+    "sqj-pro": PROTO_ALBANIAN_MAP,         # Proto-Albanian
+    "aav-pro": PROTO_AUSTROASIATIC_MAP,    # Proto-Austroasiatic
+    "poz-pol-pro": PROTO_POLYNESIAN_MAP,   # Proto-Polynesian
+    "tai-pro": PROTO_TAI_MAP,              # Proto-Tai
+    "xto-pro": PROTO_TOCHARIAN_MAP,        # Proto-Tocharian
+    "poz-oce-pro": PROTO_OCEANIC_MAP,      # Proto-Oceanic
+    "xgn-pro": PROTO_MONGOLIC_MAP,         # Proto-Mongolic
+    # Phase 8 additional ancient languages
+    "obm": MOABITE_MAP,                   # Moabite
+    "xmr": MEROITIC_MAP,                  # Meroitic
+    # Batch 3: P2 proto-languages + Iberian
+    "myn-pro": PROTO_MAYAN_MAP,              # Proto-Mayan
+    "afa-pro": PROTO_AFROASIATIC_MAP,        # Proto-Afroasiatic
+    "xib": IBERIAN_MAP,                      # Iberian
 }
 
 
