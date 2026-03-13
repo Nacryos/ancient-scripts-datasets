@@ -142,6 +142,37 @@ TIER2_CONFIGS = {
         "category": "Old_Japanese_lemmas",
         "namespace": 0,
     },
+    # Phase 8 P0 additions
+    "sla-pro": {
+        "name": "Proto-Slavic",
+        "category": "Proto-Slavic_lemmas",
+        "namespace": 118,
+    },
+    "trk-pro": {
+        "name": "Proto-Turkic",
+        "category": "Proto-Turkic_lemmas",
+        "namespace": 118,
+    },
+    "itc-pro": {
+        "name": "Proto-Italic",
+        "category": "Proto-Italic_lemmas",
+        "namespace": 118,
+    },
+    "jpx-pro": {
+        "name": "Proto-Japonic",
+        "category": "Proto-Japonic_lemmas",
+        "namespace": 118,
+    },
+    "ira-pro": {
+        "name": "Proto-Iranian",
+        "category": "Proto-Iranian_lemmas",
+        "namespace": 118,
+    },
+    "xce": {
+        "name": "Celtiberian",
+        "category": "Celtiberian_lemmas",
+        "namespace": 0,
+    },
 }
 
 

@@ -1497,6 +1497,39 @@ VENETIC_MAP: Dict[str, str] = {
 }
 
 # ---------------------------------------------------------------------------
+# FALISCAN_MAP — Faliscan (epigraphic Latin-alphabet notation → IPA)
+# Source: Bakkum (2009) The Latin Dialect of the Ager Faliscus;
+#         Joseph & Wallace (1991) Is Faliscan a local Latin patois?;
+#         Giacomelli (1963) La lingua falisca.
+# Faliscan is closely related to Latin; its phonology is nearly identical.
+# CEIPoM Token_clean forms are already in a Latin-based transliteration.
+# Key Faliscan features: f from PIE *dh/*bh (shared with Latin),
+# retention of medial -f- where Latin has -b-; <c>/<k> both = /k/.
+# ---------------------------------------------------------------------------
+FALISCAN_MAP: Dict[str, str] = {
+    # Doubled vowels for length (epigraphic convention)
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    # Digraphs
+    "qu": "kʷ",   # labiovelar (as in Latin)
+    "ph": "pʰ",   # rare aspirated (from Greek loanwords)
+    "th": "tʰ",   # rare aspirated (from Greek loanwords)
+    "ch": "kʰ",   # rare aspirated (from Greek loanwords)
+    # <x> = [ks] cluster (as in Latin)
+    "x": "ks",
+    # <k> and <c> both represent /k/ in Faliscan
+    "k": "k",
+    "c": "k",
+    # Standalone <q> (rare, before non-u vowels) = /k/
+    "q": "k",
+    # <v> as consonantal = /w/ (epigraphic variant)
+    "v": "w",
+    # <y> as semivowel
+    "y": "j",
+    # All other Latin letters (a,b,d,e,f,g,h,i,l,m,n,o,p,r,s,t,u) pass through
+    # as IPA-compatible values.
+}
+
+# ---------------------------------------------------------------------------
 # OLD_IRISH_MAP — Old Irish (eDIL orthography → IPA approximation)
 # Source: Thurneysen (1946) A Grammar of Old Irish, Stifter (2006)
 # Old Irish orthography is complex — lenited consonants marked by
@@ -1687,6 +1720,52 @@ GAULISH_MAP: Dict[str, str] = {
 }
 
 # ---------------------------------------------------------------------------
+# LEPONTIC_MAP — Lepontic (Lugano alphabet transliteration → IPA)
+# Source: Lejeune (1971), *Lepontica*; Stifter (2020), Lexicon Leponticum
+#         documentation; Salomon (2020) in *Palaeohispanica*
+# The Lugano alphabet is a North Italic variant. Scholarly transliterations
+# follow standard conventions for Cisalpine Celtic epigraphy.
+# Phoneme inventory from https://lexlep.univie.ac.at/wiki/Phonemes
+# ---------------------------------------------------------------------------
+LEPONTIC_MAP: Dict[str, str] = {
+    # Geminates / long consonants (must precede singles for greedy match)
+    "pp": "pː", "bb": "bː", "tt": "tː", "dd": "dː",
+    "kk": "kː", "gg": "gː",
+    "mm": "mː", "nn": "nː", "ll": "lː", "rr": "rː",
+    # Affricate
+    "ts": "ts",
+    # Diphthongs (greedy longest-match)
+    "āi̯": "aːi̯", "ai̯": "ai̯", "ei̯": "ei̯", "oi̯": "oi̯",
+    "au̯": "au̯", "ou̯": "ou̯", "ūi̯": "uːi̯",
+    # Long vowels (macron)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Fricatives
+    "φ": "ɸ",    # bilabial fricative (Lepontic phi)
+    "χ": "x",    # velar fricative
+    "θ": "θ",    # dental fricative (rare)
+    # Sibilants
+    "ś": "ʃ",    # san/sade — palatal sibilant
+    "s": "s",
+    "z": "ts",   # often represents affricate in Cisalpine Celtic
+    # Glides
+    "i̯": "j",    # palatal glide (U+0069 U+032F)
+    "u̯": "w",    # labial glide (U+0075 U+032F)
+    # Stops
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "q": "kʷ",   # labiovelar (rare, archaic)
+    # Sonorants
+    "m": "m", "n": "n", "l": "l", "r": "r",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Glide letters (plain)
+    "v": "w",     # sometimes used for /w/
+    "w": "w",
+    # Other
+    "x": "ks",    # rare, cluster
+    "h": "h",     # aspiration marker (rare)
+}
+
+# ---------------------------------------------------------------------------
 # PROTO_BANTU_MAP — Proto-Bantu (BLR notation → IPA)
 # Source: Bastin et al. (2002), BLR3; Meeussen (1967)
 # ---------------------------------------------------------------------------
@@ -1725,6 +1804,205 @@ PROTO_SINO_TIBETAN_MAP: Dict[str, str] = {
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
     "h": "h",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_SLAVIC_MAP — Proto-Slavic (Wiktionary comparative notation → IPA)
+# Source: Shevelov (1964), *A Prehistory of Slavic*;
+#         Derksen (2008), *Etymological Dictionary of the Slavic Inherited Lexicon*;
+#         Kortlandt (2009), *Balto-Slavic Accentuation*
+# Wiktionary uses standard Slavicist notation with special diacritics.
+# ---------------------------------------------------------------------------
+PROTO_SLAVIC_MAP: Dict[str, str] = {
+    # Jers (reduced vowels)
+    "ъ": "ŭ", "ь": "ĭ",
+    # Jat and nasal vowels
+    "ě": "æː", "ę": "ẽ", "ǫ": "õ",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ȳ": "ɨː",
+    # Front rounded vowel / high central
+    "y": "ɨ",
+    # Palatalized consonants (caron forms — standard Slavicist notation)
+    "č": "tʃ", "š": "ʃ", "ž": "ʒ",
+    "šč": "ʃtʃ",
+    "ť": "tʲ", "ď": "dʲ", "ň": "nʲ", "ř": "r̝", "ś": "sʲ",
+    "ľ": "lʲ", "ŕ": "rʲ", "ń": "nʲ",
+    "tj": "tʲ", "dj": "dʲ",
+    # Affricates
+    "c": "ts",
+    # Standard consonants (identity)
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "v": "v",
+    "z": "z", "x": "x", "j": "j",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_TURKIC_MAP — Proto-Turkic (comparative notation → IPA)
+# Source: Starostin, Dybo, Mudrak (2003), *Etymological Dictionary of the Altaic
+#         Languages*; Róna-Tas & Berta (2011), *West Old Turkic*;
+#         Clauson (1972), *An Etymological Dictionary of Pre-13th-Century Turkish*
+# Wiktionary uses standard Turcological notation.
+# ---------------------------------------------------------------------------
+PROTO_TURKIC_MAP: Dict[str, str] = {
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ǖ": "yː", "ȫ": "øː",
+    # Front rounded vowels
+    "ü": "y", "ö": "ø",
+    # Back unrounded high vowel
+    "ï": "ɯ", "ı": "ɯ",
+    # Consonants
+    "č": "tʃ", "š": "ʃ", "ñ": "ɲ", "ŋ": "ŋ",
+    "ĺ": "lʲ", "ŕ": "rʲ", "ń": "nʲ",
+    "ṭ": "t", "ḍ": "d",
+    # Dot-below vowel variants
+    "ẹ": "ɛ", "ọ": "ɔ",
+    # Velar fricative
+    "x": "x",
+    # Standard
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "y": "j", "z": "z",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_ITALIC_MAP — Proto-Italic (comparative notation → IPA)
+# Source: de Vaan (2008), *Etymological Dictionary of Latin and the other
+#         Italic Languages*; Weiss (2020), *Outline of the Historical and
+#         Comparative Grammar of Latin*
+# ---------------------------------------------------------------------------
+PROTO_ITALIC_MAP: Dict[str, str] = {
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Labiovelars
+    "kʷ": "kʷ", "gʷ": "gʷ",
+    # Aspirates (from PIE)
+    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "gʰ", "gʷʰ": "gʷʰ",
+    # Fricatives
+    "θ": "θ", "ð": "ð", "β": "β",
+    "f": "f",
+    # Already-IPA characters that appear in Wiktionary notation
+    "ɣ": "ɣ", "ə": "ə",
+    # Standard
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
+    "j": "j", "h": "h", "z": "z",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_JAPONIC_MAP — Proto-Japonic (comparative notation → IPA)
+# Source: Vovin (2020), *A Descriptive and Comparative Grammar of Western
+#         Old Japanese*; Whitman (2012) in *The Languages of Japan and Korea*;
+#         Pellard (2013), *Proto-Japonic*
+# Wiktionary uses standard Japonicist comparative notation.
+# ---------------------------------------------------------------------------
+PROTO_JAPONIC_MAP: Dict[str, str] = {
+    # Palatalized consonants (digraphs first)
+    "py": "pʲ", "ky": "kʲ", "ty": "tʲ", "ny": "ɲ",
+    "my": "mʲ", "ry": "ɾʲ", "sy": "ɕ",
+    # Standard consonants
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "s": "s", "z": "z", "m": "m", "n": "n", "r": "ɾ",
+    "w": "w", "y": "j", "h": "h",
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    # Reconstruction-specific markers
+    "ə": "ə",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_IRANIAN_MAP — Proto-Iranian (comparative notation → IPA)
+# Source: Cheung (2007), *Etymological Dictionary of the Iranian Verb*;
+#         Kümmel (2007), *Konsonantenwandel*;
+#         Schmitt (1989), *Compendium Linguarum Iranicarum*
+# ---------------------------------------------------------------------------
+PROTO_IRANIAN_MAP: Dict[str, str] = {
+    # Digraphs
+    "ts": "ts", "dz": "dz",
+    # Long vowels (precomposed macron forms)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Accented vowels (stress markers in Cheung's notation — strip to plain)
+    "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u",
+    "Á": "a", "É": "e", "Í": "i", "Ó": "o", "Ú": "u",
+    # Fricatives and affricates
+    "č": "tʃ", "ǰ": "dʒ", "š": "ʃ", "ž": "ʒ",
+    "θ": "θ", "ð": "ð",
+    "x": "x", "xʷ": "xʷ", "γ": "ɣ",
+    # Aspirates
+    "ph": "pʰ", "th": "tʰ", "kh": "kʰ",
+    # Laryngeal (Cheung's uppercase H notation)
+    "H": "h",
+    # Affricate c = /ts/ in Iranian reconstruction
+    "c": "ts",
+    # Palatal glide (Iranological y = /j/)
+    "y": "j",
+    # Palatalized/syllabic consonants
+    "ŕ": "rʲ", "r̥": "r̩",
+    # Uppercase passthrough (occasional in reconstructions)
+    "B": "b", "C": "ts", "W": "w",
+    # Standard consonants
+    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "z": "z",
+    # Vowels
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+}
+
+# ---------------------------------------------------------------------------
+# CELTIBERIAN_MAP — Celtiberian (scholarly transliteration -> IPA)
+# Source: Jordan (2019), *Celtiberian*; de Hoz (2005);
+#         Wodtko (2000), *Woerterbuch der keltiberischen Inschriften*
+# Semi-syllabary transliteration conventions; Celtic language close to
+# Gaulish and Lepontic.
+# ---------------------------------------------------------------------------
+CELTIBERIAN_MAP: Dict[str, str] = {
+    # Long vowels (sometimes marked)
+    "a\u0304": "a\u02D0", "e\u0304": "e\u02D0", "i\u0304": "i\u02D0",
+    "o\u0304": "o\u02D0", "u\u0304": "u\u02D0",
+    # Consonant clusters / special
+    "\u0155": "r\u0325", "\u015B": "\u0255",
+    "k\u02B7": "k\u02B7",  # labiovelar (when explicitly marked with superscript w)
+    # Digraphs
+    "rs": "rs", "st": "st",
+    # Standard Celtic consonants
+    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
+    "z": "z",
+}
+
+# ---------------------------------------------------------------------------
+# ANCIENT_SOUTH_ARABIAN_MAP — Ancient South Arabian (scholarly transliteration -> IPA)
+# Source: Beeston (1984), *Sabaic Grammar*; Stein (2003), *Untersuchungen zur
+#         Phonologie und Morphologie des Sabaeischen*; Nebes & Stein (2004)
+# The ASA consonant inventory is close to Proto-Semitic. Three sibilant
+# series (s1, s2, s3) reflect the tripartite Semitic sibilant system.
+# ---------------------------------------------------------------------------
+ANCIENT_SOUTH_ARABIAN_MAP: Dict[str, str] = {
+    # Emphatics
+    "\u1e63": "s\u02e4", "\u1e0d": "d\u02e4", "\u1e6d": "t\u02e4", "\u1e93": "\u00f0\u02e4",
+    # Pharyngeals and laryngeals
+    "\u1e25": "\u0127", "\u1e2b": "x", "\u0121": "\u0263",
+    "\u02bf": "\u0295", "\u02be": "\u0294",
+    # Interdentals
+    "\u1e0f": "\u00f0", "\u1e6f": "\u03b8",
+    # Sibilants (s1=s, s2=lateral fricative, s3=ts — varies by transcription system)
+    "s\u00b9": "s", "s\u00b2": "\u026c", "s\u00b3": "ts",
+    "\u015b": "\u026c",  # alternative notation for s2
+    # Standard consonants
+    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "k": "k", "l": "l", "m": "m", "n": "n",
+    "q": "q", "r": "r", "s": "s", "t": "t",
+    "w": "w", "y": "j", "z": "z",
+    # Vowels (when marked — ASA is consonantal abjad)
+    "a": "a", "i": "i", "u": "u",
+    "\u0101": "a\u02d0", "\u012b": "i\u02d0", "\u016b": "u\u02d0",
 }
 
 # ---------------------------------------------------------------------------
@@ -1772,6 +2050,7 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "osc": OSCAN_MAP,           # Oscan
     "xum": UMBRIAN_MAP,         # Umbrian
     "xve": VENETIC_MAP,         # Venetic
+    "xfa": FALISCAN_MAP,        # Faliscan
     "sga": OLD_IRISH_MAP,       # Old Irish
     "xeb": EBLAITE_MAP,         # Eblaite
     "nci": CLASSICAL_NAHUATL_MAP,  # Classical Nahuatl
@@ -1783,8 +2062,17 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "pal": MIDDLE_PERSIAN_MAP,      # Middle Persian
     "sog": SOGDIAN_MAP,             # Sogdian
     "xtg": GAULISH_MAP,             # Gaulish
+    "xlp": LEPONTIC_MAP,            # Lepontic
     "bnt-pro": PROTO_BANTU_MAP,     # Proto-Bantu
     "sit-pro": PROTO_SINO_TIBETAN_MAP,  # Proto-Sino-Tibetan
+    # Phase 8 P0 proto-languages
+    "sla-pro": PROTO_SLAVIC_MAP,       # Proto-Slavic
+    "trk-pro": PROTO_TURKIC_MAP,       # Proto-Turkic
+    "itc-pro": PROTO_ITALIC_MAP,       # Proto-Italic
+    "jpx-pro": PROTO_JAPONIC_MAP,      # Proto-Japonic
+    "ira-pro": PROTO_IRANIAN_MAP,      # Proto-Iranian
+    "xce": CELTIBERIAN_MAP,            # Celtiberian
+    "xsa": ANCIENT_SOUTH_ARABIAN_MAP,  # Ancient South Arabian
 }
 
 

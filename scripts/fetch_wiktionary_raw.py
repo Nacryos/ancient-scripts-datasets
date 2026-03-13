@@ -54,6 +54,12 @@ CATEGORIES = {
     "xtg": ("Gaulish_lemmas", 0),
     "sog": ("Sogdian_lemmas", 0),
     "ojp": ("Old_Japanese_lemmas", 0),
+    # Phase 8 P0 additions
+    "sla-pro": ("Proto-Slavic_lemmas", 118),
+    "trk-pro": ("Proto-Turkic_lemmas", 118),
+    "itc-pro": ("Proto-Italic_lemmas", 118),
+    "jpx-pro": ("Proto-Japonic_lemmas", 118),
+    "ira-pro": ("Proto-Iranian_lemmas", 118),
 }
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ingest Oscan, Umbrian, and Venetic word data from CEIPoM.
+"""Ingest Oscan, Umbrian, Venetic, and Faliscan word data from CEIPoM.
 
 Source: Corpus of the Epigraphy of the Italian Peninsula in the 1st Millennium BCE
 URL: https://github.com/ReubenJPitts/Corpus-of-the-Epigraphy-of-the-Italian-Peninsula-in-the-1st-Millennium-BCE
@@ -9,6 +9,9 @@ Citation: Pitts (2022), DOI: 10.5281/zenodo.6475427
 CEIPoM provides analysis.csv (UTF-16) with linguistic annotations and
 tokens.csv (UTF-16) with attested word forms. For Oscan/Umbrian, the
 Standard_aligned field gives standardized phonological forms.
+
+Faliscan is classified under Language=Latin with Language_variety=Faliscan
+in texts.csv; extraction requires a join via Text_ID through texts.csv.
 
 Iron Rule: Data comes from downloaded CSV files. No hardcoded word lists.
 
@@ -54,6 +57,13 @@ LANGUAGE_MAP = {
     "osc": "Oscan",
     "xum": "Umbrian",
     "xve": "Venetic",
+    "xfa": "Faliscan",
+}
+
+# Languages identified via Language_variety in texts.csv rather than
+# Language in analysis.csv (because CEIPoM classifies them under a parent).
+VARIETY_LANGUAGES = {
+    "xfa": "Faliscan",  # classified as Language=Latin, Language_variety=Faliscan
 }
 
 
@@ -62,7 +72,7 @@ def download_if_needed():
     import urllib.request
 
     CEIPOM_DIR.mkdir(parents=True, exist_ok=True)
-    for fname in ("analysis.csv", "tokens.csv"):
+    for fname in ("analysis.csv", "tokens.csv", "texts.csv"):
         local = CEIPOM_DIR / fname
         if local.exists():
             logger.info("Using cached: %s (%d bytes)", local, local.stat().st_size)
@@ -79,31 +89,22 @@ def download_if_needed():
         logger.info("Downloaded %d bytes", len(data))
 
 
+def _read_csv(path: Path):
+    """Read a CEIPoM CSV, trying UTF-16 then UTF-8."""
+    for enc in ("utf-16", "utf-8-sig", "utf-8"):
+        try:
+            with open(path, "r", encoding=enc) as f:
+                return list(csv.DictReader(f))
+        except (UnicodeDecodeError, UnicodeError):
+            continue
+    raise RuntimeError(f"Cannot read {path}")
+
+
 def load_ceipom_data():
-    """Load analysis and token data from CEIPoM CSVs."""
-    analysis_path = CEIPOM_DIR / "analysis.csv"
-    tokens_path = CEIPOM_DIR / "tokens.csv"
-
-    # Try UTF-16 first (CEIPoM standard), fall back to UTF-8
-    for enc in ("utf-16", "utf-8-sig", "utf-8"):
-        try:
-            with open(analysis_path, "r", encoding=enc) as f:
-                analysis_rows = list(csv.DictReader(f))
-            break
-        except (UnicodeDecodeError, UnicodeError):
-            continue
-    else:
-        raise RuntimeError(f"Cannot read {analysis_path}")
-
-    for enc in ("utf-16", "utf-8-sig", "utf-8"):
-        try:
-            with open(tokens_path, "r", encoding=enc) as f:
-                token_rows = list(csv.DictReader(f))
-            break
-        except (UnicodeDecodeError, UnicodeError):
-            continue
-    else:
-        raise RuntimeError(f"Cannot read {tokens_path}")
+    """Load analysis, token, and text data from CEIPoM CSVs."""
+    analysis_rows = _read_csv(CEIPOM_DIR / "analysis.csv")
+    token_rows = _read_csv(CEIPOM_DIR / "tokens.csv")
+    text_rows = _read_csv(CEIPOM_DIR / "texts.csv")
 
     # Build Token_ID -> analysis mapping
     tok_to_analysis = {}
@@ -112,18 +113,45 @@ def load_ceipom_data():
         if tid not in tok_to_analysis:
             tok_to_analysis[tid] = row
 
-    return token_rows, tok_to_analysis
+    # Build Text_ID -> Language_variety mapping (for Faliscan etc.)
+    text_variety = {}
+    for row in text_rows:
+        variety = row.get("Language_variety", "").strip()
+        if variety:
+            text_variety[row["Text_ID"]] = variety
+
+    return token_rows, tok_to_analysis, text_variety
 
 
-def extract_words(token_rows, tok_to_analysis, lang_name: str, iso: str):
-    """Extract unique word forms for a language."""
+def extract_words(token_rows, tok_to_analysis, lang_name: str, iso: str,
+                   text_variety=None):
+    """Extract unique word forms for a language.
+
+    For most languages, filtering uses analysis.csv Language field.
+    For variety languages (e.g. Faliscan), filtering uses texts.csv
+    Language_variety via the *text_variety* dict, keyed by Text_ID.
+    """
     words = {}  # word_form -> {meaning, pos, standard}
+
+    # Determine whether to use variety-based filtering
+    variety_name = VARIETY_LANGUAGES.get(iso)
+    use_variety = variety_name is not None and text_variety is not None
 
     for tok in token_rows:
         tid = tok["Token_ID"]
-        a = tok_to_analysis.get(tid)
-        if not a or a["Language"] != lang_name:
-            continue
+        text_id = tok["Text_ID"]
+
+        if use_variety:
+            # Filter by Language_variety in texts.csv
+            if text_variety.get(text_id) != variety_name:
+                continue
+        else:
+            # Filter by Language in analysis.csv
+            a = tok_to_analysis.get(tid)
+            if not a or a["Language"] != lang_name:
+                continue
+
+        a = tok_to_analysis.get(tid, {})
 
         word = tok.get("Token_clean", "").strip()
         if not word or word == "-":
@@ -176,7 +204,7 @@ def main():
     parser = argparse.ArgumentParser(description="Ingest CEIPoM Italic languages")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--language", "-l",
-                        help="Specific ISO code (osc, xum, xve)")
+                        help="Specific ISO code (osc, xum, xve, xfa)")
     args = parser.parse_args()
 
     logging.basicConfig(
@@ -188,8 +216,9 @@ def main():
     download_if_needed()
 
     logger.info("Loading CEIPoM data...")
-    token_rows, tok_to_analysis = load_ceipom_data()
-    logger.info("Loaded %d tokens, %d analyses", len(token_rows), len(tok_to_analysis))
+    token_rows, tok_to_analysis, text_variety = load_ceipom_data()
+    logger.info("Loaded %d tokens, %d analyses, %d text varieties",
+                len(token_rows), len(tok_to_analysis), len(text_variety))
 
     if args.language:
         if args.language not in LANGUAGE_MAP:
@@ -207,7 +236,8 @@ def main():
         logger.info("%s (%s): %d existing entries", iso, lang_name, len(existing))
 
         # Extract words
-        words = extract_words(token_rows, tok_to_analysis, lang_name, iso)
+        words = extract_words(token_rows, tok_to_analysis, lang_name, iso,
+                              text_variety=text_variety)
         logger.info("%s: %d unique word forms from CEIPoM", iso, len(words))
 
         # Process new entries
@@ -220,9 +250,15 @@ def main():
                 skipped += 1
                 continue
 
-            # For Oscan/Umbrian, prefer Standard_aligned for transliteration
-            # For Venetic (no Standard_aligned), use Token_clean
-            source_form = info["standard"] if info["standard"] else word
+            # For Oscan/Umbrian, prefer Standard_aligned for transliteration.
+            # For Faliscan, always use Token_clean: Standard_aligned maps to
+            # Latin equivalents (e.g. "de-dit" for Faliscan "porded"), which
+            # would corrupt the Faliscan phonology.
+            # For Venetic (no Standard_aligned), also use Token_clean.
+            if iso in VARIETY_LANGUAGES:
+                source_form = word  # always Token_clean for variety langs
+            else:
+                source_form = info["standard"] if info["standard"] else word
 
             try:
                 ipa = transliterate(source_form, iso)
