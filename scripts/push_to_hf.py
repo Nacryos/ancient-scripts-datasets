@@ -15,7 +15,7 @@ from pathlib import Path
 from huggingface_hub import HfApi
 
 ROOT = Path(__file__).resolve().parent.parent
-REPO_ID = "PhaistosLabs/ancient-scripts-datasets"
+REPO_ID = "Nacryos/ancient-scripts-datasets"
 
 # Phase 6-8 lexicons (ancient + proto languages)
 LEXICON_ISOS = [
