@@ -1595,14 +1595,41 @@ OLD_IRISH_MAP: Dict[str, str] = {
 }
 
 # ---------------------------------------------------------------------------
-# EBLAITE_MAP — Eblaite (cuneiform transcription → IPA)
-# Source: Krebernik (1983), Fronzaroli (2003)
-# Eblaite uses same cuneiform transcription conventions as Akkadian.
+# EBLAITE_MAP — Eblaite (cuneiform syllabic transcription → IPA)
+# Source: Krebernik (1982, 1983), Fronzaroli (2003), Bonechi & Veldhuis (DCCLT)
+# Eblaite (~2400 BCE, Tell Mardikh/Ebla) uses the same Old Akkadian cuneiform
+# syllabary as contemporary Akkadian. Transcription follows standard Assyriology
+# conventions (ORACC/ATF format): V, CV, VC, CVC syllables separated by hyphens.
+# Subscript digits (₂₃₄₅) indicate sign variant readings — same phoneme value.
+# Hyphens separate syllables (orthographic boundary, not phonemic).
+#
+# Key Eblaite-specific phonology (Krebernik 1982):
+#   ṣ = [sˤ]  (emphatic sibilant, pharyngealized)
+#   ṭ = [tˤ]  (emphatic dental, pharyngealized)
+#   q = [kˤ]  (emphatic uvular/pharyngealized stop)
+#   š = [ʃ]   (Assyriology convention; Eblaite merges PIE *s and *ś)
+#   ḫ = [x]   (voiceless velar fricative, e.g. bur-ha-sum 'flea')
+#   ʾ = [ʔ]   (glottal stop, e.g. ʾa₅-ma-zu-um 'hunger')
+#
+# The ingest_dcclt_ebla.py script strips hyphens and subscript digits from
+# forms BEFORE/AFTER calling transliterate(), so this map only needs to handle
+# the base character-level Assyriology → IPA conversion.
 # ---------------------------------------------------------------------------
 EBLAITE_MAP: Dict[str, str] = {
-    # Use Akkadian map — same cuneiform conventions
+    # Inherit all Akkadian phoneme mappings (identical syllabary conventions)
     **AKKADIAN_MAP,
-    # Override/additions specific to Eblaite if needed
+    # ORACC Eblaite uses plain 'h' as ASCII simplification of 'ḫ' (velar fricative)
+    # Cuneiform signs HA, HI, HU map to ḫ in standard Assyriology (Krebernik 1982)
+    "h": "x",
+    # Subscript sign-variant digits → empty (same phoneme value, different sign)
+    "₀": "", "₁": "", "₂": "", "₃": "", "₄": "",
+    "₅": "", "₆": "", "₇": "", "₈": "", "₉": "",
+    # Hyphen (syllable separator) → empty (syllable boundaries not phonemic)
+    "-": "",
+    # Glottal stop — alternative transcription conventions in Eblaite sources
+    "ʔ": "ʔ",   # already IPA
+    # Vowel length marker (rare in Eblaite transcription)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ū": "uː",
 }
 
 # ---------------------------------------------------------------------------
