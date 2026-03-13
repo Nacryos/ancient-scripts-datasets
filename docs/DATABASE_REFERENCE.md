@@ -1,6 +1,6 @@
 # Ancient Scripts Datasets — Master Database Reference
 
-> **Last updated:** 2026-03-12 | **Commit:** `f9573d6` | **Total entries:** 3,453,000+ across 1,154 languages
+> **Last updated:** 2026-03-13 | **Commit:** `3e3fdf1` | **Total entries:** 3,466,000+ across 1,178 languages
 
 This document is the single source of truth for understanding, modifying, and extending this database. It is designed for both human researchers and AI agents.
 
@@ -32,7 +32,7 @@ This document is the single source of truth for understanding, modifying, and ex
 
 | Location | Path / URL | What |
 |----------|-----------|------|
-| **HuggingFace dataset** | `https://huggingface.co/datasets/Nacryos/ancient-scripts-datasets` | **PRIMARY cloud copy.** All lexicons, cognate pairs, metadata, sources, scripts, docs. Push here after any data change. |
+| **HuggingFace dataset** | `https://huggingface.co/datasets/PhaistosLabs/ancient-scripts-datasets` | **PRIMARY cloud copy.** All lexicons, cognate pairs, metadata, sources, scripts, docs. Push here after any data change. |
 | **HuggingFace local clone** | `C:\Users\alvin\hf-ancient-scripts\` | Local clone of HuggingFace repo. Use `huggingface_hub` API or `git push` to sync. |
 | **GitHub repo** | `https://github.com/Nacryos/ancient-scripts-datasets.git` | Scripts, docs, pipeline code. Lexicon data is gitignored but committed via force-add for some ancient langs. |
 | **Local working copy** | `C:\Users\alvin\ancient-scripts-datasets\` | Full repo + generated data + CLDF sources |
@@ -75,7 +75,7 @@ This document is the single source of truth for understanding, modifying, and ex
    api.upload_file(
        path_or_fileobj="data/training/lexicons/ave.tsv",
        path_in_repo="data/training/lexicons/ave.tsv",
-       repo_id="Nacryos/ancient-scripts-datasets",
+       repo_id="PhaistosLabs/ancient-scripts-datasets",
        repo_type="dataset",
        commit_message="fix: reprocess Avestan IPA with expanded transliteration map"
    )
@@ -121,9 +121,9 @@ ancient-scripts-datasets/
 ```
 
 **Scale:**
-- 1,136 languages (23 ancient/reconstructed + 1,113 modern)
-- 3,313,723 total lexical entries
-- 17,567 ancient language entries (23 languages)
+- 1,178 languages (68 ancient/reconstructed + 1,113 modern — 3 overlap)
+- 3,466,000+ total lexical entries
+- 170,756 ancient language entries (68 languages)
 - 3,296,156 modern language entries (1,113 languages)
 
 ---
@@ -211,8 +211,39 @@ Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
 | 43 | Proto-Uralic | urj-pro | Uralic | 585 | 50.3% | wiktionary_cat (585) | Broad phonemic (Sammallahti 1988) |
 | 44 | Proto-Bantu | bnt-pro | Niger-Congo | 467 | 54.0% | wiktionary_cat (467) | Broad phonemic (BLR notation) |
 | 45 | Proto-Sino-Tibetan | sit-pro | Sino-Tibetan | 358 | 100.0% | wiktionary_cat (358) | Already IPA (Wiktionary provides IPA) |
+| | | | | | | | |
+| **--- Phase 8 Batch 1 (Proto-Languages + Italic/Celtic) ---** | | | | | | | |
+| 46 | Proto-Slavic | sla-pro | Balto-Slavic | 5,068 | 18.4% | wiktionary_cat (5,068) | Broad phonemic (reconstructed) |
+| 47 | Proto-Turkic | trk-pro | Turkic | 1,027 | 27.8% | wiktionary_cat (1,027) | Broad phonemic (reconstructed) |
+| 48 | Proto-Italic | itc-pro | Italic | 739 | 46.7% | wiktionary_cat (739) | Broad phonemic (reconstructed) |
+| 49 | Faliscan | xfa | Italic | 566 | 67.1% | ceipom (566) | Partial (CEIPoM Standard_aligned) |
+| 50 | Proto-Japonic | jpx-pro | Japonic | 426 | 70.2% | wiktionary_cat (426) | Partial (mixed notation) |
+| 51 | Lepontic | xlp | Celtic | 421 | 27.6% | lexlep (421) | Broad phonemic (Lexicon Leponticum) |
+| 52 | Proto-Iranian | ira-pro | Indo-Iranian | 366 | 4.6% | wiktionary_cat (366) | Broad phonemic (reconstructed) |
+| 53 | Ancient South Arabian | xsa | Semitic | 127 | 25.2% | wiktionary (127) | Broad phonemic (Musnad abjad) |
+| 54 | Celtiberian | xce | Celtic | 11 | 100.0% | wiktionary_cat (11) | Minimal (very small corpus) |
+| | | | | | | | |
+| **--- Phase 8 Batch 2 (Proto-Languages + Ancient) ---** | | | | | | | |
+| 55 | Meroitic | xmr | Nilo-Saharan | 1,978 | 39.8% | meroitic-corpus (1,978) | Broad phonemic (Rilly 2007) |
+| 56 | Proto-Algonquian | alg-pro | Algic | 258 | 28.7% | wiktionary_cat (258) | Broad phonemic (reconstructed) |
+| 57 | Proto-Albanian | sqj-pro | Albanian | 210 | 43.8% | wiktionary_cat (210) | Broad phonemic (reconstructed) |
+| 58 | Proto-Austroasiatic | aav-pro | Austroasiatic | 180 | 100.0% | wiktionary_cat (180) | Already IPA (Wiktionary provides IPA) |
+| 59 | Proto-Polynesian | poz-pol-pro | Austronesian | 157 | 100.0% | wiktionary_cat (157) | Already IPA (Wiktionary provides IPA) |
+| 60 | Proto-Tai | tai-pro | Kra-Dai | 148 | 0.7% | wiktionary_cat (148) | Broad phonemic (Li 1977) |
+| 61 | Proto-Tocharian | xto-pro | Tocharian | 138 | 22.5% | wiktionary_cat (138) | Broad phonemic (reconstructed) |
+| 62 | Proto-Mongolic | xgn-pro | Mongolic | 126 | 41.3% | wiktionary_cat (126) | Broad phonemic (reconstructed) |
+| 63 | Proto-Oceanic | poz-oce-pro | Austronesian | 114 | 92.1% | wiktionary_cat (114) | Minimal (transparent orthography) |
+| 64 | Moabite | obm | Semitic | 31 | 0.0% | wiktionary_cat (31) | Broad phonemic (Canaanite abjad) |
+| | | | | | | | |
+| **--- Phase 8 Batch 3 (Proto-Languages + Iberian) ---** | | | | | | | |
+| 65 | Proto-Mayan | myn-pro | Mayan | 65 | 20.0% | wiktionary_cat (65) | Broad phonemic (Kaufman 2003) |
+| 66 | Proto-Afroasiatic | afa-pro | Afroasiatic | 48 | 54.2% | wiktionary_cat (48) | Broad phonemic (Ehret 1995) |
+| 67 | Iberian | xib | Isolate | 39 | 74.4% | wiktionary_cat (39) | Partial (undeciphered script) |
+| | | | | | | | |
+| **--- Phase 8 Eblaite ---** | | | | | | | |
+| 68 | Eblaite | xeb | Semitic | 667 | 0.3% | dcclt-ebla (667) | Broad phonemic (Krebernik 1982) |
 
-**Total ancient + classical: 157,846 entries across 45 languages | Overall identity rate: ~30%**
+**Total ancient + classical: 170,756 entries across 68 languages | Overall identity rate: ~30%**
 
 ### Understanding Identity Rate
 
@@ -284,6 +315,9 @@ Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
 | `oncoj` | ONCOJ (Oxford-NINJAL OJ Corpus) | XML | `github.com/ONCOJ/data` (CC BY 4.0) | ojp |
 | `diacl` | DiACL (Diachronic Atlas of Comp Ling) | CLDF | `github.com/lexibank/diacl` (CC BY 4.0) | xtg |
 | `iecor` | IE-CoR (IE Cognate Relationships) | CLDF | `github.com/lexibank/iecor` (CC BY 4.0) | sog |
+| `lexlep` | Lexicon Leponticum (Zurich) | Web/CSV | `lexlep.univie.ac.at` | xlp |
+| `meroitic-corpus` | Meroitic Language Corpus (GitHub) | JSON/CSV | `github.com/MeroiticLanguage/Meroitic-Corpus` | xmr |
+| `dcclt-ebla` | DCCLT/Ebla (ORACC) | JSON ZIP | `oracc.museum.upenn.edu/dcclt-ebla/` (CC0) | xeb |
 
 ---
 
@@ -342,7 +376,7 @@ else:
 
 Each ancient language has a `Dict[str, str]` mapping scholarly transliteration conventions to broad IPA. The `transliterate()` function applies these via **greedy longest-match**: keys sorted by descending length, first match consumed at each position.
 
-### Map Registry (updated 2026-03-12 — 180+ new rules across 13 original maps + 15 new maps in Phases 6-7)
+### Map Registry (updated 2026-03-13 — 180+ new rules across 13 original maps + 15 new maps in Phases 6-7 + 24 new maps in Phase 8)
 
 | ISO | Language | Keys | Academic Reference |
 |-----|----------|------|--------------------|
@@ -393,6 +427,31 @@ Each ancient language has a `Dict[str, str]` mapping scholarly transliteration c
 | `urj-pro` | Proto-Uralic | 12 | Sammallahti (1988), Janhunen (1981) |
 | `bnt-pro` | Proto-Bantu | 20 | Bastin et al. (2002), Meeussen (1967) |
 | `sit-pro` | Proto-Sino-Tibetan | 18 | Matisoff (2003), Sagart (2004) |
+| | | | |
+| **--- Phase 8 Maps ---** | | | |
+| `sla-pro` | Proto-Slavic | 25+ | Shevelov (1964), Holzer (2007) |
+| `trk-pro` | Proto-Turkic | 20+ | Clauson (1972), Róna-Tas (1991) |
+| `itc-pro` | Proto-Italic | 15+ | Meiser (1998), Bakkum (2009) |
+| `jpx-pro` | Proto-Japonic | 15+ | Vovin (2005), Frellesvig (2010) |
+| `ira-pro` | Proto-Iranian | 20+ | Cheung (2007), Lubotsky (2001) |
+| `xfa` | Faliscan | 12 | CEIPoM Standard_aligned conventions |
+| `xlp` | Lepontic | 25 | Lexicon Leponticum (Stifter et al.) |
+| `xce` | Celtiberian | 15+ | De Bernardo Stempel (1999) |
+| `xsa` | Ancient South Arabian | 30+ | Stein (2003), Beeston (1984) |
+| `alg-pro` | Proto-Algonquian | 15+ | Bloomfield (1946), Goddard (1994) |
+| `sqj-pro` | Proto-Albanian | 15+ | Orel (1998), Demiraj (1997) |
+| `aav-pro` | Proto-Austroasiatic | 10+ | Shorto (2006), Sidwell (2015) |
+| `poz-pol-pro` | Proto-Polynesian | 10+ | Biggs (1978), Pawley (1966) |
+| `tai-pro` | Proto-Tai | 20+ | Li (1977), Pittayaporn (2009) |
+| `xto-pro` | Proto-Tocharian | 15+ | Adams (2013), Peyrot (2008) |
+| `poz-oce-pro` | Proto-Oceanic | 10+ | Ross et al. (1998, 2003, 2008) |
+| `xgn-pro` | Proto-Mongolic | 15+ | Poppe (1955), Nugteren (2011) |
+| `xmr` | Meroitic | 30+ | Rilly (2007), Griffith (1911) |
+| `obm` | Moabite | 22 | Canaanite abjad (shares Phoenician map base) |
+| `myn-pro` | Proto-Mayan | 20+ | Kaufman (2003), Campbell & Kaufman (1985) |
+| `afa-pro` | Proto-Afroasiatic | 15+ | Ehret (1995), Orel & Stolbova (1995) |
+| `xib` | Iberian | 25+ | De Hoz (2010), Untermann (1990) |
+| `xeb` | Eblaite | 20+ | Krebernik (1982), Fronzaroli (2003) |
 
 ### NFC Normalization
 
@@ -513,6 +572,15 @@ EXTERNAL SOURCES
 | `fix_abvd_ipa.py` | G2P for Austronesian | ABVD languages |
 | `normalize_lexicons.py` | NFC + dedup + SCA recompute | All |
 | `assemble_lexicons.py` | Generate metadata | All |
+| `ingest_wiktionary_tier2.py` | Wiktionary category ingestion (Tier 2+) | Phase 6-8 Wiktionary languages |
+| `fetch_wiktionary_raw.py` | Fetch raw Wiktionary category JSON | Phase 6-8 Wiktionary languages |
+| `ingest_dcclt_ebla.py` | ORACC DCCLT/Ebla extraction | xeb |
+| `ingest_meroitic.py` | Meroitic Language Corpus | xmr |
+| `ingest_lexlep.py` | Lexicon Leponticum extraction | xlp |
+| `ingest_ceipom_italic.py` | CEIPoM italic epigraphy | osc, xum, xve, xfa |
+| `update_metadata.py` | Update languages.tsv from disk | All |
+| `validate_all.py` | Comprehensive TSV validation | All |
+| `push_to_hf.py` | Push files to HuggingFace | All Phase 6-8 |
 
 ---
 
@@ -592,7 +660,7 @@ from huggingface_hub import HfApi
 api = HfApi()
 for f in ['data/training/lexicons/{iso}.tsv', 'scripts/scrape_new_source.py']:
     api.upload_file(path_or_fileobj=f, path_in_repo=f,
-                    repo_id='Nacryos/ancient-scripts-datasets', repo_type='dataset',
+                    repo_id='PhaistosLabs/ancient-scripts-datasets', repo_type='dataset',
                     commit_message='Add {N} entries to {Language} from {Source}')
 "
 ```
@@ -894,7 +962,6 @@ for iso in [...]:
 | Egyptian | 0 | 3,000+ | TLA (Thesaurus Linguae Aegyptiae) |
 | Sanskrit | (modern only) | 50,000+ | Monier-Williams, DCS |
 | Linear B | 0 | 500+ | DAMOS, Wingspread |
-| Hattic | 0 | 100+ | Klinger (1996) |
 | Luvian Hieroglyphic | (mixed with xlw) | 500+ | Hawkins (2000) |
 
 ---
