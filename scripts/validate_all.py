@@ -223,15 +223,25 @@ def validate_file(tsv_path: Path, metadata: dict[str, int], verbose: bool) -> Fi
     # Try matching by ISO code (stem) against metadata
     actual_count = len(rows)
     matched_iso: str | None = None
-    for iso, expected_count in metadata.items():
-        if iso.lower() == stem.lower() or stem.lower().startswith(iso.lower()):
-            matched_iso = iso
-            if actual_count != expected_count:
-                result.error(
-                    f"Entry count mismatch: TSV has {actual_count} rows, "
-                    f"metadata ({iso}) says {expected_count}"
-                )
-            break
+    # Prefer exact match first, then prefix match
+    if stem in metadata:
+        matched_iso = stem
+        expected_count = metadata[stem]
+        if actual_count != expected_count:
+            result.error(
+                f"Entry count mismatch: TSV has {actual_count} rows, "
+                f"metadata ({stem}) says {expected_count}"
+            )
+    else:
+        for iso, expected_count in metadata.items():
+            if iso.lower() == stem.lower() or stem.lower().startswith(iso.lower()):
+                matched_iso = iso
+                if actual_count != expected_count:
+                    result.error(
+                        f"Entry count mismatch: TSV has {actual_count} rows, "
+                        f"metadata ({iso}) says {expected_count}"
+                    )
+                break
     # Also try matching by filename without extension
     if matched_iso is None and stem in metadata:
         expected_count = metadata[stem]

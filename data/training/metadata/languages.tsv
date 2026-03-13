@@ -64,6 +64,7 @@ gem-pro	unknown		5399	wiktionary_cat
 ojp	unknown		5393	oncoj,wiktionary_cat
 bcl	austronesian	cent2004	5356	abvd,wikipron
 sme	uralic	nort2671	5159	northeuralex,wikipron
+sla-pro	balto_slavic		5068	wiktionary_cat
 glg	italic	gali1258	5015	wikipron
 yor	atlantic_congo	yoru1245	4850	wikipron
 nno	germanic	norw1262	4675	wikipron
@@ -159,6 +160,7 @@ vep	uralic	veps1250	1991	northeuralex
 ckt	chukotko_kamchatkan	chuk1273	1986	northeuralex
 mhr	uralic	east2328	1984	northeuralex
 mns	uralic	mans1258	1984	northeuralex
+xmr	nilo_saharan	mero1241	1978	meroitic-corpus:corpus,meroitic-corpus:lobban,meroitic-corpus:millet,meroitic-corpus:rilly
 udm	uralic	udmu1245	1946	northeuralex
 lez	northeast_caucasian	lezg1247	1938	northeuralex
 fao	germanic	faro1244	1932	wikipron
@@ -239,6 +241,7 @@ mnw	austroasiatic	monn1252	1079	wikipron
 orv	balto_slavic	oldr1238	1064	wikipron
 fry	germanic	west2354	1060	wikipron
 gwd	afroasiatic_cushitic	gaww1239	1044	wold
+trk-pro	turkic		1027	wiktionary_cat
 tmb	austronesian		1014	abvd
 ast	italic	astu1245	1010	wikipron
 ilo	austronesian	ilok1237	1008	abvd,wikipron
@@ -277,6 +280,7 @@ mwi	austronesian		743	abvd
 sns	austronesian		740	abvd
 uun	austronesian		740	abvd
 jje	koreanic	jeju1234	739	wikipron
+itc-pro	italic		739	wiktionary_cat
 lww	austronesian		735	abvd
 xbr	austronesian		735	abvd
 mwv	austronesian		722	abvd
@@ -294,6 +298,7 @@ trv	austronesian		687	abvd
 mlx	austronesian		682	abvd
 pwn	austronesian	paiw1248	678	abvd
 eno	austronesian		669	abvd
+xeb	afroasiatic_semitic	ebla1241	667	dcclt-ebla
 guw	atlantic_congo	gunn1249	657	wikipron
 zsm	austronesian	stan1306	644	abvd
 ami	austronesian	amis1246	643	abvd
@@ -313,6 +318,7 @@ vrt	austronesian		583	abvd
 oci	italic	occi1239	579	wikipron
 tnl	austronesian		577	abvd
 nij	austronesian		567	abvd
+xfa	italic	fali1291	566	ceipom
 kir	turkic	kirg1245	562	wikipron
 pma	austronesian		561	abvd
 itv	austronesian		557	abvd
@@ -383,10 +389,12 @@ nsn	austronesian		434	abvd
 tvk	austronesian		432	abvd
 llu	austronesian		430	abvd
 gmy	unknown		426	wiktionary_cat
+jpx-pro	japonic		426	wiktionary_cat
 xmz	austronesian		425	abvd
 alu	austronesian		424	abvd
 mrm	austronesian		421	abvd
 wsi	austronesian		421	abvd
+xlp	celtic	lepo1240	421	lexlep
 cam	austronesian		420	abvd
 mek	austronesian		418	abvd
 ibl	austronesian		417	abvd
@@ -444,6 +452,7 @@ mnv	austronesian		372	abvd
 lga	austronesian		370	abvd
 bnf	austronesian		366	abvd
 mfb	austronesian		366	abvd
+ira-pro	indo_iranian		366	wiktionary_cat
 mtt	austronesian		365	abvd
 xnb	austronesian		364	abvd
 aek	austronesian		363	abvd
@@ -602,6 +611,7 @@ kac	sino_tibetan	jinp1238	259	sinotibetan
 tbl	austronesian		259	abvd
 kij	austronesian		258	abvd
 mrv	austronesian		258	abvd
+alg-pro	algic		258	wiktionary_cat
 msb	austronesian		257	abvd
 byq	austronesian		256	abvd
 mqn	austronesian		256	abvd
@@ -768,6 +778,7 @@ mee	austronesian		210	abvd
 nds	germanic	lowg1239	210	wikipron
 rol	austronesian		210	abvd
 zbw	austronesian		210	abvd
+sqj-pro	albanian		210	wiktionary_cat
 bkd	austronesian		209	abvd
 jae	austronesian		209	abvd
 sda	austronesian		209	abvd
@@ -934,6 +945,7 @@ sia	unknown		180	wikipron
 tgt	austronesian		180	abvd
 zgr	austronesian		180	abvd
 phn	semitic	phoe1239	180	wiktionary
+aav-pro	austroasiatic		180	wiktionary_cat
 bya	austronesian		179	abvd
 gei	austronesian		179	abvd
 itb	austronesian		179	abvd
@@ -1017,6 +1029,7 @@ bdg	austronesian		159	abvd
 mxm	austronesian		159	abvd
 mkm	austronesian		158	abvd
 tgp	austronesian		158	abvd
+poz-pol-pro	austronesian		157	wiktionary_cat
 frt	austronesian		156	abvd
 lbb	austronesian		155	abvd
 mkv	austronesian		155	abvd
@@ -1038,6 +1051,7 @@ pqm	unknown		150	wikipron
 tgn	austronesian		150	abvd
 tmi	austronesian		150	abvd
 mnl	austronesian		149	abvd
+tai-pro	kra_dai		148	wiktionary_cat
 mrk	austronesian		148	abvd
 apw	na_dene	west2615	147	wikipron
 end	austronesian		147	abvd
@@ -1059,6 +1073,7 @@ abp	austronesian		139	abvd
 aok	austronesian		139	abvd
 smk	austronesian		139	abvd
 blx	austronesian		138	abvd
+xto-pro	tocharian		138	wiktionary_cat
 srs	unknown		137	wikipron
 xay	austronesian		137	abvd
 xkq	austronesian		137	abvd
@@ -1076,7 +1091,9 @@ bno	austronesian		129	abvd
 ewe	atlantic_congo	ewee1241	128	wikipron
 kyu	sino_tibetan	kaya1325	128	wikipron
 rmm	austronesian		127	abvd
+xsa	afroasiatic_semitic	olda1245	127	wiktionary:inm,wiktionary:sem-srb,wiktionary:xqt,wiktionary:xsa
 ddw	austronesian		126	abvd
+xgn-pro	mongolic		126	wiktionary_cat
 sce	unknown		125	wikipron
 pjt	pama_nyungan	pitj1243	124	wikipron
 abc	austronesian		123	abvd
@@ -1106,6 +1123,7 @@ vme	austronesian		115	abvd
 ptr	austronesian		114	abvd
 vbb	austronesian		114	abvd
 vnp	austronesian		114	abvd
+poz-oce-pro	austronesian		114	wiktionary_cat
 wbk	unknown		112	wikipron
 alm	austronesian		111	abvd
 kcl	austronesian		110	abvd
@@ -1144,12 +1162,17 @@ pns	austronesian		76	abvd
 llx	austronesian		73	abvd
 goo	austronesian		72	abvd
 ktk	austronesian		71	abvd
+myn-pro	mayan		65	wiktionary_cat
 kwk	wakashan	kwak1269	57	wikipron
 kys	austronesian		55	abvd
 mxr	austronesian		54	abvd
 whk	austronesian		54	abvd
 bvy	austronesian		48	abvd
+afa-pro	afroasiatic		48	wiktionary_cat
 iff	austronesian		46	abvd
 cms	anatolian	cimm1244	45	wiktionary
 bzh	austronesian		41	abvd
+xib	isolates	iber1248	39	wiktionary_cat
+obm	afroasiatic_semitic	moab1234	31	wiktionary_cat
 xle	anatolian	leps1239	30	wiktionary
+xce	celtic	celt1248	11	wiktionary_cat
