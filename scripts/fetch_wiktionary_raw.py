@@ -41,6 +41,12 @@ CATEGORIES = {
     "gez": "Ge%27ez_lemmas",
     "hbo": "Hebrew_lemmas",
     "xht": "Hattic_lemmas",
+    # Tier 3 + Proto-languages
+    "gem-pro": "Proto-Germanic_lemmas",
+    "cel-pro": "Proto-Celtic_lemmas",
+    "urj-pro": "Proto-Uralic_lemmas",
+    "nci": "Classical_Nahuatl_lemmas",
+    "sga": "Old_Irish_lemmas",
 }
 
 

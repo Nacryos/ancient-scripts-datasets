@@ -1444,6 +1444,172 @@ BIBLICAL_HEBREW_MAP: Dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
+# OSCAN_MAP — Oscan (CEIPoM Standard_aligned notation → IPA)
+# Source: CEIPoM (Pitts 2022), Buck (1904) A Grammar of Oscan and Umbrian
+# The Standard_aligned field uses doubled vowels for length.
+# Consonants are largely IPA-compatible.
+# ---------------------------------------------------------------------------
+OSCAN_MAP: Dict[str, str] = {
+    # Long vowels (doubled notation → IPA length mark)
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    # Semivowels
+    "y": "j",
+    # Labiovelar (kw sequence)
+    "kw": "kʷ",
+    # Aspirated labial
+    "ph": "pʰ",
+    # f remains f in Oscan
+    # All other Latin letters pass through unchanged (a,b,d,e,f,g,h,i,k,l,m,n,o,p,r,s,t,u,v,w,z)
+}
+
+# ---------------------------------------------------------------------------
+# UMBRIAN_MAP — Umbrian (CEIPoM Standard_aligned notation → IPA)
+# Source: CEIPoM (Pitts 2022), Buck (1904), Bakkum (2009)
+# Same conventions as Oscan.
+# ---------------------------------------------------------------------------
+UMBRIAN_MAP: Dict[str, str] = {
+    # Long vowels
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    # Semivowels
+    "y": "j",
+    # Labiovelar
+    "kw": "kʷ",
+    # Voiceless aspirates
+    "ph": "pʰ",
+    "th": "tʰ",
+    "kh": "kʰ",
+    # ç (palatalized sibilant in some analyses) — pass through if present
+}
+
+# ---------------------------------------------------------------------------
+# VENETIC_MAP — Venetic (Latin transliteration → IPA)
+# Source: Lejeune (1974) Manuel de la langue vénète
+# Venetic forms from CEIPoM Token_clean are already in Latin transcription.
+# ---------------------------------------------------------------------------
+VENETIC_MAP: Dict[str, str] = {
+    # Long vowels (if marked with doubling)
+    "aa": "aː", "ee": "eː", "ii": "iː", "oo": "oː", "uu": "uː",
+    # Semivowels
+    "j": "j",
+    # x = [ks]
+    "x": "ks",
+    # All other Latin letters pass through
+}
+
+# ---------------------------------------------------------------------------
+# OLD_IRISH_MAP — Old Irish (eDIL orthography → IPA approximation)
+# Source: Thurneysen (1946) A Grammar of Old Irish, Stifter (2006)
+# Old Irish orthography is complex — lenited consonants marked by
+# dot above (ḃ,ċ,ḋ,ḟ,ġ,ṁ,ṗ,ṡ,ṫ) or h-digraphs.
+# This map handles the most common correspondences.
+# ---------------------------------------------------------------------------
+OLD_IRISH_MAP: Dict[str, str] = {
+    # Lenited consonants (dot above notation from eDIL)
+    "ḃ": "v", "ċ": "x", "ḋ": "ð", "ḟ": "∅", "ġ": "ɣ",
+    "ṁ": "ṽ", "ṗ": "f", "ṡ": "h", "ṫ": "θ",
+    # Uppercase lenited
+    "Ḃ": "v", "Ċ": "x", "Ḋ": "ð", "Ḟ": "∅", "Ġ": "ɣ",
+    "Ṁ": "ṽ", "Ṗ": "f", "Ṡ": "h", "Ṫ": "θ",
+    # Long vowels (acute accent = length in Old Irish)
+    "á": "aː", "é": "eː", "í": "iː", "ó": "oː", "ú": "uː",
+    "Á": "aː", "É": "eː", "Í": "iː", "Ó": "oː", "Ú": "uː",
+    # Common digraphs
+    "ch": "x", "th": "θ", "ph": "f",
+    "bh": "v", "dh": "ɣ", "gh": "ɣ", "mh": "v",
+    "sh": "h", "fh": "∅",
+    # ae/oe diphthongs
+    "ae": "ai", "oe": "oi",
+    # Lowercase passthrough for basic letters
+}
+
+# ---------------------------------------------------------------------------
+# EBLAITE_MAP — Eblaite (cuneiform transcription → IPA)
+# Source: Krebernik (1983), Fronzaroli (2003)
+# Eblaite uses same cuneiform transcription conventions as Akkadian.
+# ---------------------------------------------------------------------------
+EBLAITE_MAP: Dict[str, str] = {
+    # Use Akkadian map — same cuneiform conventions
+    **AKKADIAN_MAP,
+    # Override/additions specific to Eblaite if needed
+}
+
+# ---------------------------------------------------------------------------
+# CLASSICAL_NAHUATL_MAP — Classical Nahuatl (colonial orthography → IPA)
+# Source: Andrews (2003) Introduction to Classical Nahuatl,
+#         Launey (2011) An Introduction to Classical Nahuatl
+# Colonial orthography uses digraphs: tl, tz, ch, hu, qu
+# ---------------------------------------------------------------------------
+CLASSICAL_NAHUATL_MAP: Dict[str, str] = {
+    # Affricates and special consonants (longest first)
+    "tl": "t͡ɬ", "tz": "t͡s", "ch": "t͡ʃ",
+    # Labiovelar before vowel
+    "hu": "w", "uh": "w",
+    # qu before e/i = [k], cu/uc = [kʷ]
+    "qu": "k", "cu": "kʷ",
+    # x = [ʃ]
+    "x": "ʃ",
+    # Long vowels (macron notation — some sources use these)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː",
+    # z = [s] in Nahuatl
+    "z": "s",
+    # c before e/i = [s], c before a/o = [k] — handled by context, default to k
+    "c": "k",
+    # ll = [l] (not lateral affricate)
+    "ll": "l",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_GERMANIC_MAP — Proto-Germanic (Wiktionary notation → IPA)
+# Source: Ringe (2006) From Proto-Indo-European to Proto-Germanic
+# Wiktionary uses standard comparative notation with some IPA chars.
+# ---------------------------------------------------------------------------
+PROTO_GERMANIC_MAP: Dict[str, str] = {
+    # Long vowels (macrons)
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "ǣ": "æː",
+    # Nasalized vowels
+    "ą": "ã", "ę": "ẽ", "į": "ĩ", "ǫ": "õ", "ų": "ũ",
+    # Consonants
+    "þ": "θ", "ð": "ð",
+    "hw": "xʷ",
+    # Already IPA-like: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_CELTIC_MAP — Proto-Celtic (comparative notation → IPA)
+# Source: Matasović (2009) Etymological Dictionary of Proto-Celtic
+# ---------------------------------------------------------------------------
+PROTO_CELTIC_MAP: Dict[str, str] = {
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Labiovelar
+    "kʷ": "kʷ", "gʷ": "gʷ",
+    # Aspirated (from PIE)
+    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "gʰ",
+    # Laryngeals sometimes preserved in notation
+    "x": "x",
+}
+
+# ---------------------------------------------------------------------------
+# PROTO_URALIC_MAP — Proto-Uralic (comparative notation → IPA)
+# Source: Sammallahti (1988), Janhunen (1981)
+# ---------------------------------------------------------------------------
+PROTO_URALIC_MAP: Dict[str, str] = {
+    # Long vowels
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    # Front vowels
+    "ä": "æ", "ö": "ø", "ü": "y",
+    # Palatalized consonants
+    "ś": "ɕ", "ć": "tɕ",
+    "ń": "ɲ", "ĺ": "ʎ",
+    # Sibilants
+    "š": "ʃ", "č": "tʃ",
+    # Velar nasal
+    "ŋ": "ŋ",
+    # Already IPA-like: k, p, t, s, m, n, l, r, w, j
+}
+
+# ---------------------------------------------------------------------------
 # Lookup table:  ISO 639-3 code  ->  transliteration map
 # ---------------------------------------------------------------------------
 ALL_MAPS: Dict[str, Dict[str, str]] = {
@@ -1484,6 +1650,16 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "gez": GEEZ_MAP,            # Ge'ez
     "hbo": BIBLICAL_HEBREW_MAP, # Biblical Hebrew
     "xht": HITTITE_MAP,        # Hattic (uses same cuneiformist conventions as Hittite)
+    # Tier 3 languages
+    "osc": OSCAN_MAP,           # Oscan
+    "xum": UMBRIAN_MAP,         # Umbrian
+    "xve": VENETIC_MAP,         # Venetic
+    "sga": OLD_IRISH_MAP,       # Old Irish
+    "xeb": EBLAITE_MAP,         # Eblaite
+    "nci": CLASSICAL_NAHUATL_MAP,  # Classical Nahuatl
+    "gem-pro": PROTO_GERMANIC_MAP,  # Proto-Germanic
+    "cel-pro": PROTO_CELTIC_MAP,    # Proto-Celtic
+    "urj-pro": PROTO_URALIC_MAP,    # Proto-Uralic
 }
 
 

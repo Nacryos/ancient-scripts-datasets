@@ -19,6 +19,7 @@ hbs	balto_slavic	serb1264	47414	wikipron
 ces	balto_slavic	czec1258	44858	northeuralex,wikipron
 bul	balto_slavic	bulg1262	44230	northeuralex,wikipron
 nld	germanic	dutc1256	43054	northeuralex,wikipron,wold
+sga	celtic	oldi1245	40757	edil,wikipron
 ukr	balto_slavic	ukra1253	40486	northeuralex,wikipron
 jpn	japonic	nucl1643	37611	northeuralex,wikipron,wold
 hye	armenian	nucl1235	32579	northeuralex,wikipron
@@ -38,6 +39,7 @@ ara	semitic	arab1395	13339	wikipron
 san	indo_iranian	sans1269	12907	wikipron
 hbo	unknown		12182	wiktionary_cat
 isl	germanic	icel1247	11916	northeuralex,wikipron
+map	unknown		11624	acd
 ben	indo_iranian	beng1280	11339	northeuralex,wikipron
 cop	afroasiatic_egyptian	copt1239	11180	kellia_coptic,wikipron,wiktionary_cat
 enm	germanic	midd1317	10523	wikipron
@@ -127,6 +129,7 @@ plt	austronesian	meri1243	2164	abvd,wold
 phl	indo_iranian	phal1254	2144	wikipron
 mwo	austronesian		2139	abvd
 pbu	indo_iranian	nort2646	2122	northeuralex
+osc	unknown		2122	ceipom
 vot	uralic	voti1245	2117	wikipron
 dar	northeast_caucasian	darg1241	2111	northeuralex
 mdf	uralic	moks1248	2103	northeuralex,wikipron
@@ -140,7 +143,6 @@ guj	indo_iranian	guja1252	2058	wikipron
 ekk	uralic	esto1258	2053	northeuralex
 nio	uralic	ngan1291	2047	northeuralex
 bak	turkic	bash1264	2045	northeuralex,wikipron
-sga	celtic	oldi1245	2044	wikipron
 ary	semitic	moro1292	2043	wikipron
 koi	uralic	komi1269	2041	northeuralex,wikipron
 mrj	uralic	west2392	2036	northeuralex
@@ -179,6 +181,7 @@ enf	uralic	fore1255	1676	northeuralex
 tbc	austronesian	taki1248	1670	abvd,wold
 jav	austronesian	java1254	1665	abvd,wikipron
 hrx	germanic	huns1238	1653	wikipron
+xum	unknown		1631	ceipom
 ess	eskimo_aleut	cent2127	1628	northeuralex
 ykg	yukaghir	nort2745	1625	northeuralex
 rif	afroasiatic_berber	tari1263	1610	wold
@@ -274,6 +277,7 @@ jje	koreanic	jeju1234	739	wikipron
 lww	austronesian		735	abvd
 xbr	austronesian		735	abvd
 mwv	austronesian		722	abvd
+xve	unknown		721	ceipom
 afb	semitic	gulf1241	719	wikipron
 aty	austronesian		708	abvd
 vnm	austronesian		702	abvd

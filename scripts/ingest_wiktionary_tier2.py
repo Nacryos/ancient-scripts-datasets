@@ -85,6 +85,32 @@ TIER2_CONFIGS = {
         "category": "Hattic_lemmas",
         "namespace": 0,
     },
+    # Tier 3 + Proto-languages
+    "gem-pro": {
+        "name": "Proto-Germanic",
+        "category": "Proto-Germanic_lemmas",
+        "namespace": 118,  # Reconstruction namespace
+    },
+    "cel-pro": {
+        "name": "Proto-Celtic",
+        "category": "Proto-Celtic_lemmas",
+        "namespace": 118,
+    },
+    "urj-pro": {
+        "name": "Proto-Uralic",
+        "category": "Proto-Uralic_lemmas",
+        "namespace": 118,
+    },
+    "nci": {
+        "name": "Classical Nahuatl",
+        "category": "Classical_Nahuatl_lemmas",
+        "namespace": 0,
+    },
+    "sga": {
+        "name": "Old Irish",
+        "category": "Old_Irish_lemmas",
+        "namespace": 0,
+    },
 }
 
 
