@@ -1,6 +1,6 @@
 # Ancient Scripts Datasets — Master Database Reference
 
-> **Last updated:** 2026-03-12 | **Commit:** `f215906` | **Total entries:** 3,313,723 across 1,136 languages
+> **Last updated:** 2026-03-12 | **Commit:** `f9573d6` | **Total entries:** 3,453,000+ across 1,154 languages
 
 This document is the single source of truth for understanding, modifying, and extending this database. It is designed for both human researchers and AI agents.
 
@@ -183,8 +183,36 @@ Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
 | 21 | Phrygian | xpg | Indo-European | 79 | 36.7% | wiktionary (79) | Partial (small corpus, Greek-script support) |
 | 22 | Messapic | cms | Indo-European | 45 | 88.9% | wiktionary (45) | Minimal (Greek-alphabet, mostly identity) |
 | 23 | Lemnian | xle | Tyrsenian | 30 | 53.3% | wiktionary (30) | Minimal (very small corpus) |
+| | | | | | | | |
+| **--- Tier 2 (Phase 6) ---** | | | | | | | |
+| 24 | Old English | ang | Germanic | 31,319 | 10.5% | wiktionary_cat (31,319) | Broad phonemic (Hogg 1992) |
+| 25 | Biblical Hebrew | hbo | Semitic | 12,182 | 0.1% | wiktionary_cat (12,182) | Broad phonemic (Blau 2010) |
+| 26 | Coptic | cop | Egyptian | 11,180 | 0.1% | wiktionary_cat (7,987), kellia (3,193) | Broad phonemic (Layton 2000) |
+| 27 | Old Armenian | xcl | Indo-European | 6,277 | 0.0% | wiktionary_cat (6,277) | Broad phonemic (Meillet 1913) |
+| 28 | Pali | pli | Indo-Aryan | 2,792 | 19.1% | wiktionary_cat (2,792) | Broad phonemic (Geiger 1943) |
+| 29 | Ge'ez | gez | Semitic | 496 | 0.0% | wiktionary_cat (496) | Broad phonemic (Dillmann 1857) |
+| 30 | Hattic | xht | Isolate | 269 | 37.9% | wiktionary_cat (269) | Partial (cuneiformist conventions) |
+| | | | | | | | |
+| **--- Tier 3 (Phase 7) ---** | | | | | | | |
+| 31 | Old Irish | sga | Celtic | 41,300 | 39.4% | edil (40,309), wiktionary_cat (991) | Broad phonemic (Thurneysen) |
+| 32 | Old Japanese | ojp | Japonic | 5,393 | 59.7% | oncoj (4,974), wiktionary_cat (419) | Broad phonemic (Frellesvig 2010) |
+| 33 | Classical Nahuatl | nci | Uto-Aztecan | 3,873 | 5.7% | wiktionary_cat (3,873) | Broad phonemic |
+| 34 | Oscan | osc | Italic | 2,122 | 15.1% | ceipom (2,122) | Broad phonemic (CEIPoM Standard_aligned) |
+| 35 | Umbrian | xum | Italic | 1,631 | 3.7% | ceipom (1,631) | Broad phonemic (CEIPoM Standard_aligned) |
+| 36 | Venetic | xve | Italic | 721 | 86.5% | ceipom (721) | Minimal (Latin transliteration) |
+| 37 | Gaulish | xtg | Celtic | 271 | 92.3% | diacl (183), wiktionary_cat (88) | Minimal (Latin transliteration) |
+| 38 | Middle Persian | pal | Indo-Iranian | 242 | 62.8% | wiktionary_cat (242) | Broad phonemic (MacKenzie 1971) |
+| 39 | Sogdian | sog | Indo-Iranian | 194 | 37.1% | iecor (161), wiktionary_cat (33) | Broad phonemic (Gharib 1995) |
+| | | | | | | | |
+| **--- Proto-Languages (Phase 7) ---** | | | | | | | |
+| 40 | Proto-Austronesian | map | Austronesian | 11,624 | 41.1% | acd (11,624) | Broad phonemic (Blust notation) |
+| 41 | Proto-Germanic | gem-pro | Germanic | 5,399 | 32.9% | wiktionary_cat (5,399) | Broad phonemic (reconstructed) |
+| 42 | Proto-Celtic | cel-pro | Celtic | 1,584 | 68.3% | wiktionary_cat (1,584) | Partial (mixed Latin/IPA) |
+| 43 | Proto-Uralic | urj-pro | Uralic | 585 | 50.3% | wiktionary_cat (585) | Broad phonemic (Sammallahti 1988) |
+| 44 | Proto-Bantu | bnt-pro | Niger-Congo | 467 | 54.0% | wiktionary_cat (467) | Broad phonemic (BLR notation) |
+| 45 | Proto-Sino-Tibetan | sit-pro | Sino-Tibetan | 358 | 100.0% | wiktionary_cat (358) | Already IPA (Wiktionary provides IPA) |
 
-**Total ancient: 17,567 entries | Overall identity rate: ~25%**
+**Total ancient + classical: 157,846 entries across 45 languages | Overall identity rate: ~30%**
 
 ### Understanding Identity Rate
 
@@ -249,6 +277,13 @@ Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
 | `wikipedia` | Wikipedia vocabulary tables | Web scrape | `en.wikipedia.org` | xur (supplement) |
 | `avesta_org` | Avesta.org Avestan Dictionary | Web scrape | `avesta.org/avdict/avdict.htm` | ave |
 | `kaikki` | Kaikki Wiktionary Dump | JSON dump | `kaikki.org` | Various |
+| `kellia` | Kellia Coptic Lexicon | XML | `data.copticscriptorium.org` | cop |
+| `ceipom` | CEIPoM (Italian Epigraphy) | CSV | `zenodo.org` (CC BY-SA 4.0) | osc, xum, xve |
+| `edil` | eDIL (Electronic Dict of Irish Lang) | XML | `github.com/e-dil/dil` | sga |
+| `acd` | ACD (Austronesian Comparative Dict) | CLDF | `github.com/lexibank/acd` (CC BY 4.0) | map |
+| `oncoj` | ONCOJ (Oxford-NINJAL OJ Corpus) | XML | `github.com/ONCOJ/data` (CC BY 4.0) | ojp |
+| `diacl` | DiACL (Diachronic Atlas of Comp Ling) | CLDF | `github.com/lexibank/diacl` (CC BY 4.0) | xtg |
+| `iecor` | IE-CoR (IE Cognate Relationships) | CLDF | `github.com/lexibank/iecor` (CC BY 4.0) | sog |
 
 ---
 
@@ -307,7 +342,7 @@ else:
 
 Each ancient language has a `Dict[str, str]` mapping scholarly transliteration conventions to broad IPA. The `transliterate()` function applies these via **greedy longest-match**: keys sorted by descending length, first match consumed at each position.
 
-### Map Registry (updated 2026-03-12 — 180+ new rules added across 13 maps)
+### Map Registry (updated 2026-03-12 — 180+ new rules across 13 original maps + 15 new maps in Phases 6-7)
 
 | ISO | Language | Keys | Academic Reference |
 |-----|----------|------|--------------------|
@@ -333,6 +368,31 @@ Each ancient language has a `Dict[str, str]` mapping scholarly transliteration c
 | `xhu` | Hurrian | 31 | Wegner (2007), Wilhelm (2008) |
 | `ett` | Etruscan | 61 | Bonfante & Bonfante (2002), Rix (1963) + Old Italic Unicode — added z, o, d, g, b, q, σ→s |
 | `txb`/`xto` | Tocharian A/B | 35 | Krause & Thomas (1960), Adams (2013), Peyrot (2008) — added retroflex series (ṭ, ḍ, ṇ, ḷ) |
+| | | | |
+| **--- Phase 6: Tier 2 Maps ---** | | | |
+| `cop` | Coptic | 40+ | Layton (2000), Loprieno (1995) — Sahidic dialect |
+| `pli` | Pali (IAST) | 30+ | Geiger (1943), Oberlies (2001) |
+| `xcl` | Old Armenian | 40+ | Meillet (1913), Schmitt (1981) |
+| `ang` | Old English | 30+ | Hogg (1992), Campbell (1959) |
+| `gez` | Ge'ez (Ethiopic) | 50+ | Dillmann (1857), Tropper (2002) |
+| `hbo` | Biblical Hebrew | 40+ | Blau (2010), Khan (2020) |
+| | | | |
+| **--- Phase 7: Tier 3 + Proto Maps ---** | | | |
+| `osc` | Oscan | 12 | CEIPoM Standard_aligned conventions |
+| `xum` | Umbrian | 12 | CEIPoM Standard_aligned conventions |
+| `xve` | Venetic | 6 | CEIPoM Token_clean conventions |
+| `sga` | Old Irish | 25 | Thurneysen (1946), Stifter (2006) — lenition + macron vowels |
+| `xeb` | Eblaite | 20 | Standard Semitist notation |
+| `nci` | Classical Nahuatl | 15 | Andrews (2003), Launey (2011) |
+| `ojp` | Old Japanese | 20 | Frellesvig (2010), ONCOJ conventions |
+| `pal` | Middle Persian | 25 | MacKenzie (1971), Skjærvø (2009) |
+| `sog` | Sogdian | 25 | Gharib (1995), Sims-Williams (2000) |
+| `xtg` | Gaulish | 15 | Delamarre (2003) |
+| `gem-pro` | Proto-Germanic | 20 | Ringe (2006), Kroonen (2013) |
+| `cel-pro` | Proto-Celtic | 15 | Matasović (2009) |
+| `urj-pro` | Proto-Uralic | 12 | Sammallahti (1988), Janhunen (1981) |
+| `bnt-pro` | Proto-Bantu | 20 | Bastin et al. (2002), Meeussen (1967) |
+| `sit-pro` | Proto-Sino-Tibetan | 18 | Matisoff (2003), Sagart (2004) |
 
 ### NFC Normalization
 
@@ -348,6 +408,11 @@ TSV filenames use hyphenated codes but `ALL_MAPS` uses short codes:
 | `sem-pro` | `sem` |
 | `ccs-pro` | `ccs` |
 | `dra-pro` | `dra` |
+| `gem-pro` | `gem-pro` |
+| `cel-pro` | `cel-pro` |
+| `urj-pro` | `urj-pro` |
+| `bnt-pro` | `bnt-pro` |
+| `sit-pro` | `sit-pro` |
 
 ### Adding a New Map
 
