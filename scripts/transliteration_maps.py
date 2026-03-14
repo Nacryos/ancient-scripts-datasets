@@ -1564,8 +1564,8 @@ FALISCAN_MAP: Dict[str, str] = {
     "v": "w",
     # <y> as semivowel
     "y": "j",
-    # All other Latin letters (a,b,d,e,f,g,h,i,l,m,n,o,p,r,s,t,u) pass through
-    # as IPA-compatible values.
+    # Explicit g → IPA ɡ (U+0261) — prevents ASCII g passthrough
+    "g": "ɡ",
 }
 
 # ---------------------------------------------------------------------------
@@ -1671,7 +1671,8 @@ PROTO_GERMANIC_MAP: Dict[str, str] = {
     # Consonants
     "þ": "θ", "ð": "ð",
     "hw": "xʷ",
-    # Already IPA-like: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+    # Explicit g → IPA ɡ (U+0261) — prevents ASCII g passthrough
+    "g": "ɡ",
 }
 
 # ---------------------------------------------------------------------------
@@ -1682,11 +1683,13 @@ PROTO_CELTIC_MAP: Dict[str, str] = {
     # Long vowels
     "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
     # Labiovelar
-    "kʷ": "kʷ", "gʷ": "gʷ",
+    "kʷ": "kʷ", "gʷ": "ɡʷ",
     # Aspirated (from PIE)
-    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "gʰ",
+    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "ɡʰ",
     # Laryngeals sometimes preserved in notation
     "x": "x",
+    # Standard consonants (g passthrough fix)
+    "g": "ɡ",
 }
 
 # ---------------------------------------------------------------------------
@@ -1718,7 +1721,7 @@ OLD_JAPANESE_MAP: Dict[str, str] = {
     # ONCOJ conventions → IPA
     "py": "pʲ", "ky": "kʲ", "sy": "ɕ", "ty": "tɕ", "ny": "ɲ",
     "my": "mʲ", "ry": "ɾʲ",
-    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "ɡ",
     "s": "s", "z": "z", "m": "m", "n": "n", "r": "ɾ",
     "w": "w", "y": "j",
     # Long vowels (ONCOJ sometimes marks with macron)
@@ -1742,7 +1745,7 @@ MIDDLE_PERSIAN_MAP: Dict[str, str] = {
     "ẏ": "j", "ẇ": "w", "ṯ": "θ", "δ": "ð",
     "ʾ": "ʔ",
     # Standard (identity-like)
-    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
     "j": "dʒ", "k": "k", "l": "l", "m": "m", "n": "n",
     "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
 }
@@ -1762,7 +1765,7 @@ SOGDIAN_MAP: Dict[str, str] = {
     "ṯ": "θ", "ʾ": "ʔ",
     "ny": "ɲ", "ng": "ŋ",
     # Standard
-    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
     "j": "dʒ", "k": "k", "l": "l", "m": "m", "n": "n",
     "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
 }
@@ -1779,7 +1782,7 @@ GAULISH_MAP: Dict[str, str] = {
     "χ": "x", "ð": "ð", "θ": "θ",
     "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
     # Standard
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
     "x": "x",
@@ -1796,7 +1799,7 @@ GAULISH_MAP: Dict[str, str] = {
 LEPONTIC_MAP: Dict[str, str] = {
     # Geminates / long consonants (must precede singles for greedy match)
     "pp": "pː", "bb": "bː", "tt": "tː", "dd": "dː",
-    "kk": "kː", "gg": "gː",
+    "kk": "kː", "gg": "ɡː",
     "mm": "mː", "nn": "nː", "ll": "lː", "rr": "rː",
     # Affricate
     "ts": "ts",
@@ -1817,7 +1820,7 @@ LEPONTIC_MAP: Dict[str, str] = {
     "i̯": "j",    # palatal glide (U+0069 U+032F)
     "u̯": "w",    # labial glide (U+0075 U+032F)
     # Stops
-    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "ɡ",
     "q": "kʷ",   # labiovelar (rare, archaic)
     # Sonorants
     "m": "m", "n": "n", "l": "l", "r": "r",
@@ -1866,7 +1869,7 @@ PROTO_SINO_TIBETAN_MAP: Dict[str, str] = {
     "ʔ": "ʔ", "ŋ": "ŋ", "ɲ": "ɲ",
     "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
     # Standard
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "y": "j", "z": "z",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
     "h": "h",
@@ -1898,7 +1901,7 @@ PROTO_SLAVIC_MAP: Dict[str, str] = {
     # Affricates
     "c": "ts",
     # Standard consonants (identity)
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "v": "v",
     "z": "z", "x": "x", "j": "j",
     # Vowels
@@ -1929,7 +1932,7 @@ PROTO_TURKIC_MAP: Dict[str, str] = {
     # Velar fricative
     "x": "x",
     # Standard
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "y": "j", "z": "z",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
 }
@@ -1944,16 +1947,16 @@ PROTO_ITALIC_MAP: Dict[str, str] = {
     # Long vowels
     "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
     # Labiovelars
-    "kʷ": "kʷ", "gʷ": "gʷ",
+    "kʷ": "kʷ", "gʷ": "ɡʷ",
     # Aspirates (from PIE)
-    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "gʰ", "gʷʰ": "gʷʰ",
+    "bʰ": "bʰ", "dʰ": "dʰ", "gʰ": "ɡʰ", "gʷʰ": "ɡʷʰ",
     # Fricatives
     "θ": "θ", "ð": "ð", "β": "β",
     "f": "f",
     # Already-IPA characters that appear in Wiktionary notation
     "ɣ": "ɣ", "ə": "ə",
     # Standard
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
     "j": "j", "h": "h", "z": "z",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
@@ -1971,7 +1974,7 @@ PROTO_JAPONIC_MAP: Dict[str, str] = {
     "py": "pʲ", "ky": "kʲ", "ty": "tʲ", "ny": "ɲ",
     "my": "mʲ", "ry": "ɾʲ", "sy": "ɕ",
     # Standard consonants
-    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g",
+    "p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "ɡ",
     "s": "s", "z": "z", "m": "m", "n": "n", "r": "ɾ",
     "w": "w", "y": "j", "h": "h",
     # Long vowels
@@ -2013,7 +2016,7 @@ PROTO_IRANIAN_MAP: Dict[str, str] = {
     # Uppercase passthrough (occasional in reconstructions)
     "B": "b", "C": "ts", "W": "w",
     # Standard consonants
-    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
     "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
     "p": "p", "r": "r", "s": "s", "t": "t", "w": "w", "z": "z",
     # Vowels
@@ -2037,7 +2040,7 @@ CELTIBERIAN_MAP: Dict[str, str] = {
     # Digraphs
     "rs": "rs", "st": "st",
     # Standard Celtic consonants
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l", "m": "m",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
     "z": "z",
@@ -2062,7 +2065,7 @@ ANCIENT_SOUTH_ARABIAN_MAP: Dict[str, str] = {
     "s\u00b9": "s", "s\u00b2": "\u026c", "s\u00b3": "ts",
     "\u015b": "\u026c",  # alternative notation for s2
     # Standard consonants
-    "b": "b", "d": "d", "f": "f", "g": "g", "h": "h",
+    "b": "b", "d": "d", "f": "f", "g": "ɡ", "h": "h",
     "k": "k", "l": "l", "m": "m", "n": "n",
     "q": "q", "r": "r", "s": "s", "t": "t",
     "w": "w", "y": "j", "z": "z",
@@ -2174,7 +2177,7 @@ PROTO_AUSTROASIATIC_MAP: Dict[str, str] = {
     # Open/mid vowels
     "ɔ": "ɔ", "ɛ": "ɛ", "ə": "ə", "ɨ": "ɨ",
     # Standard consonants
-    "b": "b", "c": "c", "d": "d", "g": "g", "h": "h",
+    "b": "b", "c": "c", "d": "d", "g": "ɡ", "h": "h",
     "j": "j", "k": "k", "l": "l", "m": "m", "n": "n",
     "p": "p", "r": "r", "s": "s", "t": "t", "w": "w",
     # Vowels
@@ -2199,7 +2202,7 @@ PROTO_POLYNESIAN_MAP: Dict[str, str] = {
     # Standard consonants (small inventory)
     "f": "f", "h": "h", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t",
-    "w": "w", "q": "q",
+    "w": "w", "q": "ʔ",
     # Vowels
     "a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
 }
@@ -2223,16 +2226,15 @@ PROTO_TAI_MAP: Dict[str, str] = {
     "ŋ": "ŋ",
     # Palatal stop / fricative
     "ɟ": "ɟ", "ɕ": "ɕ", "ɲ": "ɲ",
-    # IPA g variant
-    "ɡ": "g",
+    # Glottal stop
+    "ʔ": "ʔ", "ˀ": "ʔ",
     # Velar/uvular fricatives
     "ɣ": "ɣ", "χ": "χ",
     # Close-mid back unrounded vowel
     "ɤ": "ɤ",
     # Velar approximant
     "ɰ": "ɰ",
-    # Glottal stop (modifier form)
-    "ʔ": "ʔ", "ˀ": "ʔ",
+    # Glottal stop (modifier form — already handled above)
     # Schwa
     "ə": "ə",
     # Long vowels
@@ -2250,7 +2252,7 @@ PROTO_TAI_MAP: Dict[str, str] = {
     # Combining diacritics (voiceless/voiced ring below — passthrough)
     "\u0325": "\u0325", "\u0329": "\u0329", "\u032C": "\u032C",
     # Standard consonants
-    "b": "b", "c": "c", "d": "d", "f": "f", "g": "g",
+    "b": "b", "c": "c", "d": "d", "f": "f", "g": "ɡ",
     "h": "h", "j": "j", "k": "k", "l": "l", "m": "m",
     "n": "n", "p": "p", "r": "r", "s": "s", "t": "t",
     "v": "v", "w": "w", "x": "x", "z": "z", "q": "q",
@@ -2276,6 +2278,10 @@ PROTO_TOCHARIAN_MAP: Dict[str, str] = {
     "c": "tɕ", "j": "j",
     # Retroflex
     "ṣ": "ʂ",
+    # Missing diacritics (Adams 2013, Winter 1992)
+    "ñ": "ɲ", "ć": "tɕ", "ë": "ə",
+    # Accented vowels (strip accent to plain vowel)
+    "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u",
     # Schwas and special vowels
     "ä": "ə", "ə": "ə",
     # Velar fricative
@@ -2283,7 +2289,7 @@ PROTO_TOCHARIAN_MAP: Dict[str, str] = {
     # Labiovelars
     "kʷ": "kʷ",
     # Standard consonants
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
     "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
     "t": "t", "w": "w", "y": "j",
     # Vowels
@@ -2303,7 +2309,7 @@ PROTO_OCEANIC_MAP: Dict[str, str] = {
     "ñ": "ɲ", "nj": "ɲ",
     # Special consonants
     "ŋ": "ŋ",
-    "q": "q",
+    "q": "ʔ",
     "R": "r",   # *R = uvular or retroflex trill in some notations
     "ʀ": "ʀ",   # IPA uvular trill (used in some Oceanic entries)
     "j": "dʒ",
@@ -2312,7 +2318,7 @@ PROTO_OCEANIC_MAP: Dict[str, str] = {
     # Long vowels (if marked)
     "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
     # Standard consonants
-    "b": "b", "d": "d", "g": "g", "k": "k", "l": "l",
+    "b": "b", "d": "d", "g": "ɡ", "k": "k", "l": "l",
     "m": "m", "n": "n", "p": "p", "r": "r", "s": "s",
     "t": "t", "w": "w", "y": "j",
     # Vowels
@@ -2370,6 +2376,8 @@ MEROITIC_MAP: Dict[str, str] = {
     "s": "s", "\u0161": "\u0283", "\u1e2b": "x", "h": "h",
     # Semivowels
     "w": "w", "y": "j",
+    # Explicit g → IPA ɡ (U+0261) — guard against ASCII g in source data
+    "g": "ɡ",
     # Word divider (Meroitic uses : as word separator)
     ":": "",
     # Alternate scholarly notations
