@@ -125,6 +125,30 @@ ancient-scripts-datasets/
 - 3,466,000+ total lexical entries
 - 170,756 ancient language entries (68 languages)
 - 3,296,156 modern language entries (1,113 languages)
+- 21,547,916 cognate/borrowing/similarity pairs
+
+### Cognate Pairs (v2)
+
+Three TSV files in `data/training/cognate_pairs/`, 14-column schema:
+
+```
+Lang_A  Word_A  IPA_A  Lang_B  Word_B  IPA_B  Concept_ID  Relationship  Score  Source  Relation_Detail  Donor_Language  Confidence  Source_Record_ID
+```
+
+| File | Rows | Description |
+|------|------|-------------|
+| `cognate_pairs_inherited.tsv` | 21,298,208 | Expert-classified cognates + concept-aligned pairs (score ≥ 0.5) |
+| `cognate_pairs_borrowing.tsv` | 17,924 | Verified donor→recipient borrowings from WOLD BorrowingTable |
+| `cognate_pairs_similarity.tsv` | 231,784 | Phonetically similar pairs (0.3 ≤ score < 0.5), no overlap with inherited |
+
+**Sources:**
+- ABVD CognateTable (21.6M expert cognate pairs, 1,682 Austronesian languages)
+- IE-CoR CognateTable (412K Indo-European cognate pairs)
+- Sino-Tibetan CognateTable (4.2K pairs, borrowings filtered)
+- WOLD BorrowingTable (17.9K verified donor-recipient pairs)
+- Internal concept-aligned pairs (233K) + similarity pairs (254K)
+
+**Deduplication:** Priority ordering expert_cognate > borrowing > concept_aligned > similarity_only. Cross-file dedup ensures no language-concept combo appears in both inherited and similarity files. See `docs/prd/PRD_COGNATE_PAIRS_V2.md` for full specification.
 
 ---
 

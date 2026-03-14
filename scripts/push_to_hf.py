@@ -64,10 +64,33 @@ def collect_files() -> list[str]:
         if (ROOT / s).exists():
             files.append(s)
 
+    # Cognate pairs
+    for cp in [
+        "data/training/cognate_pairs/cognate_pairs_inherited.tsv",
+        "data/training/cognate_pairs/cognate_pairs_borrowing.tsv",
+        "data/training/cognate_pairs/cognate_pairs_similarity.tsv",
+    ]:
+        if (ROOT / cp).exists():
+            files.append(cp)
+
+    # Cognate pair extraction scripts
+    for s in [
+        "scripts/extract_abvd_cognates_v2.py",
+        "scripts/extract_wold_borrowings_v2.py",
+        "scripts/extract_iecor_cognates.py",
+        "scripts/extract_sinotibetan_cognates_v2.py",
+        "scripts/rebuild_concept_aligned_pairs.py",
+        "scripts/merge_cognate_pairs.py",
+        "scripts/cleanup_phase8_audit.py",
+    ]:
+        if (ROOT / s).exists():
+            files.append(s)
+
     # Docs
     for d in [
         "docs/DATABASE_REFERENCE.md",
         "docs/prd/PRD_DATABASE_RECTIFICATION.md",
+        "docs/prd/PRD_COGNATE_PAIRS_V2.md",
     ]:
         if (ROOT / d).exists():
             files.append(d)
@@ -108,7 +131,7 @@ def main():
             repo_id=REPO_ID,
             repo_type="dataset",
             operations=operations,
-            commit_message="Phase 8: Add 24 new ancient/proto-language lexicons (12,911 entries) + scripts",
+            commit_message="Add cognate pairs v2 (21.5M pairs) + Phase 8 audit fixes",
         )
         print(f"Done: {len(operations)} files uploaded to {REPO_ID}")
     except Exception as e:
