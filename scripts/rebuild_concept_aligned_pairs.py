@@ -106,6 +106,10 @@ def main():
             word, ipa, sca, source, concept_id, cog_set = parts[:6]
             if not sca or sca == "-" or not concept_id or concept_id == "-":
                 continue
+            # Fix Sino-Tibetan lexicons where Word column contains concept
+            # gloss instead of actual word form (IPA column has the form)
+            if word == concept_id and ipa and ipa != "-":
+                word = ipa
             groups[(family, concept_id)].append({
                 "iso": iso,
                 "word": word,

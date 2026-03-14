@@ -92,7 +92,11 @@ def main():
     # Second pass: write output files, keeping only best-priority entries
     print("\n  Pass 2: Writing output files...")
     written_keys: set[str] = set()
+    # Track (lang_pair, concept) combos that appear in inherited/borrowing
+    # to prevent the same language-concept pair from also appearing in similarity
+    inherited_lang_concepts: set[str] = set()
     counts = {"inherited": 0, "borrowing": 0, "similarity": 0}
+    self_pair_skips = 0
 
     with open(inherited_path, "w", encoding="utf-8") as f_inh, \
          open(borrowing_path, "w", encoding="utf-8") as f_bor, \
@@ -112,6 +116,12 @@ def main():
                     lang_b, word_b = parts[3], parts[4]
                     concept = parts[6]
                     relationship = parts[7]
+
+                    # Skip self-pairs (same language)
+                    if lang_a == lang_b:
+                        self_pair_skips += 1
+                        continue
+
                     key = pair_key(lang_a, word_a, lang_b, word_b, concept)
 
                     # Skip if already written (dedup)
@@ -123,19 +133,30 @@ def main():
                     if seen_pairs.get(key, 99) != prio:
                         continue
 
+                    # Language-concept key for cross-file dedup
+                    lc_a, lc_b = sorted([lang_a, lang_b])
+                    lang_concept_key = f"{lc_a}||{lc_b}||{concept}"
+
                     written_keys.add(key)
 
                     # Route to correct output file
                     if relationship == "expert_cognate":
                         f_inh.write(line)
                         counts["inherited"] += 1
+                        inherited_lang_concepts.add(lang_concept_key)
                     elif relationship == "borrowing":
                         f_bor.write(line)
                         counts["borrowing"] += 1
                     elif relationship == "concept_aligned":
                         f_inh.write(line)
                         counts["inherited"] += 1
+                        inherited_lang_concepts.add(lang_concept_key)
                     elif relationship == "similarity_only":
+                        # Skip if this language-concept combo already
+                        # has an inherited/expert pair (prevents cross-file
+                        # contamination)
+                        if lang_concept_key in inherited_lang_concepts:
+                            continue
                         f_sim.write(line)
                         counts["similarity"] += 1
 
@@ -149,6 +170,8 @@ def main():
     print(f"    similarity: {counts['similarity']:,}")
     print(f"    TOTAL:      {sum(counts.values()):,}")
     print(f"\n  Deduplicated: {total_input - sum(counts.values()):,} pairs removed")
+    if self_pair_skips:
+        print(f"  Self-pairs skipped (Lang_A == Lang_B): {self_pair_skips:,}")
     print("=" * 60)
 
 

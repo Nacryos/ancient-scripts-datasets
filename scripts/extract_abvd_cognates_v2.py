@@ -148,6 +148,16 @@ def main():
     with open(output_path, "w", encoding="utf-8") as out:
         out.write(HEADER)
         for cogset_id, members in cogsets.items():
+            # Deduplicate members by (iso, word) — ABVD maps multiple
+            # Language_IDs to the same ISO code with identical forms
+            seen_members: set[tuple[str, str]] = set()
+            deduped: list[dict] = []
+            for m in members:
+                key = (m["iso"], m["word"])
+                if key not in seen_members:
+                    seen_members.add(key)
+                    deduped.append(m)
+            members = deduped
             # Filter to cross-language pairs only
             for a, b in combinations(members, 2):
                 if a["iso"] == b["iso"]:

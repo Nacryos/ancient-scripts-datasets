@@ -179,6 +179,10 @@ def main():
                 # Score
                 score = sca_similarity(target["ipa"], source_ipa)
 
+                # Filter self-loans (same language borrowing from itself)
+                if target["iso"] == source_iso:
+                    continue
+
                 # Lang_A = target (borrower), Lang_B = source (donor)
                 out.write(
                     f"{target['iso']}\t{target['word']}\t{target['ipa']}\t"
