@@ -1,6 +1,6 @@
 # Ancient Scripts Datasets — Master Database Reference
 
-> **Last updated:** 2026-03-13 | **Commit:** `3e3fdf1` | **Total entries:** 3,466,000+ across 1,178 languages
+> **Last updated:** 2026-03-14 | **Commit:** `bfb61c2` | **Total entries:** 3,466,000+ across 1,178 languages
 
 This document is the single source of truth for understanding, modifying, and extending this database. It is designed for both human researchers and AI agents.
 
@@ -137,18 +137,20 @@ Lang_A  Word_A  IPA_A  Lang_B  Word_B  IPA_B  Concept_ID  Relationship  Score  S
 
 | File | Rows | Description |
 |------|------|-------------|
-| `cognate_pairs_inherited.tsv` | 21,298,208 | Expert-classified cognates + concept-aligned pairs (score ≥ 0.5) |
-| `cognate_pairs_borrowing.tsv` | 17,924 | Verified donor→recipient borrowings from WOLD BorrowingTable |
-| `cognate_pairs_similarity.tsv` | 231,784 | Phonetically similar pairs (0.3 ≤ score < 0.5), no overlap with inherited |
+| `cognate_pairs_inherited.tsv` | 21,067,818 | Expert-classified cognates ONLY (ABVD + IE-CoR + Sino-Tibetan) |
+| `cognate_pairs_borrowing.tsv` | 17,147 | Verified donor→recipient borrowings from WOLD BorrowingTable |
+| `cognate_pairs_similarity.tsv` | 465,233 | Algorithmic phonetic similarity: concept_aligned (219,519, score ≥ 0.5) + similarity_only (245,714, 0.3 ≤ score < 0.5) |
 
-**Sources:**
-- ABVD CognateTable (21.6M expert cognate pairs, 1,682 Austronesian languages)
-- IE-CoR CognateTable (412K Indo-European cognate pairs)
-- Sino-Tibetan CognateTable (4.2K pairs, borrowings filtered)
-- WOLD BorrowingTable (17.9K verified donor-recipient pairs)
-- Internal concept-aligned pairs (233K) + similarity pairs (254K)
+**Sources & provenance:**
+- **ABVD** CognateTable (20,697,739 pairs, 1,682 Austronesian languages) — Expert-classified by Greenhill, Blust & Gray (2008). Sister-sister relationships within cognate sets. `loan_flagged` for 160,768 pairs where ABVD Loan column non-empty.
+- **IE-CoR** CognateTable (365,913 pairs, 159 Indo-European languages) — Expert-classified by Heggarty et al. (2023, Science). Mixed PIE-level (32%) and branch-level (55%) cognacy. `loan_involved` for 3,598 pairs where cognateset appears in loans.csv.
+- **Sino-Tibetan** CognateTable (4,166 pairs) — Expert-classified from STEDT-derived data (Jacques & List). Borrowings (146 entries) pre-filtered at extraction.
+- **WOLD** BorrowingTable (17,147 pairs) — Expert borrowing judgments from Haspelmath & Tadmor (2009). `borrowed_immediate` (13,967) vs `borrowed_earlier` (3,180). Score = -1 sentinel for pseudo-IPA entries. Entries with "no evidence for borrowing" (802) filtered out.
+- **Concept-aligned** (219,519 pairs) + **Similarity-only** (245,714 pairs) — Algorithmically generated via SCA phonetic comparison within same language family. NOT expert cognates. Isolate and constructed languages excluded.
 
-**Deduplication:** Priority ordering expert_cognate > borrowing > concept_aligned > similarity_only. Cross-file dedup ensures no language-concept combo appears in both inherited and similarity files. See `docs/prd/PRD_COGNATE_PAIRS_V2.md` for full specification.
+**Deduplication:** Priority ordering expert_cognate > borrowing > concept_aligned > similarity_only. Pass 1.5 pre-populates expert language-concept keys across ALL files before writing, ensuring no concept_aligned/similarity pair duplicates an expert pair. See `docs/prd/PRD_COGNATE_PAIRS_V2.md` for full specification.
+
+**Adversarial audit status (2026-03-14):** All 3 output files PASS final audit. Zero cross-file contamination, zero self-pairs, zero isolate/constructed language leakage, all Source_Record_IDs traceable to source databases.
 
 ---
 
