@@ -28,7 +28,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from cognate_pipeline.normalise.sound_class import ipa_to_sound_class  # noqa: E402
 
 LEXICON_DIR = ROOT / "data" / "training" / "lexicons"
-FAMILY_MAP_PATH = ROOT / "data" / "training" / "family_map.json"
+FAMILY_MAP_PATH = ROOT / "cognate_pipeline" / "src" / "cognate_pipeline" / "cognate" / "family_map.json"
 STAGING_DIR = ROOT / "staging" / "cognate_pairs"
 STAGING_DIR.mkdir(parents=True, exist_ok=True)
 
