@@ -1,7 +1,7 @@
 # PRD: Cognate Pairs Dataset v2 — Reconstruction from Verified Sources
 
-**Status:** Draft
-**Date:** 2026-03-13
+**Status:** Complete
+**Date:** 2026-03-14 (implemented 2026-03-13 through 2026-03-14)
 **Priority:** P0 — Cognate pairs are used for validation testing; any hallucinated data invalidates model evaluation.
 
 ---
