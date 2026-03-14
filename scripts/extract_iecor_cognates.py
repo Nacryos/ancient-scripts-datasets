@@ -122,7 +122,19 @@ def main():
             }
     print(f"  Forms loaded: {len(forms)}")
 
-    # Step 4: Read cognates.csv → group by Cognateset_ID
+    # Step 4a: Read loans.csv → collect Cognateset_IDs involved in loans
+    loans_path = SOURCES_DIR / "loans.csv"
+    loan_cogset_ids: set[str] = set()
+    if loans_path.exists():
+        with open(loans_path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                cid = row.get("Cognateset_ID", "").strip()
+                if cid:
+                    loan_cogset_ids.add(cid)
+    print(f"  Loan-involved cognate sets: {len(loan_cogset_ids)}")
+
+    # Step 4b: Read cognates.csv → group by Cognateset_ID
     cognates_path = SOURCES_DIR / "cognates.csv"
     cogsets: dict[str, list[dict]] = defaultdict(list)
     doubt_count = 0
@@ -151,9 +163,13 @@ def main():
     # Step 5: Generate cross-language pairs
     output_path = STAGING_DIR / "iecor_cognate_pairs.tsv"
     pair_count = 0
+    loan_pair_count = 0
+    inherited_pair_count = 0
     with open(output_path, "w", encoding="utf-8") as out:
         out.write(HEADER)
         for cogset_id, members in cogsets.items():
+            is_loan = cogset_id in loan_cogset_ids
+            relation_detail = "loan_involved" if is_loan else "inherited"
             for a, b in combinations(members, 2):
                 if a["iso"] == b["iso"]:
                     continue
@@ -163,13 +179,19 @@ def main():
                     f"{a['iso']}\t{a['word']}\t{a['ipa']}\t"
                     f"{b['iso']}\t{b['word']}\t{b['ipa']}\t"
                     f"{a['concept']}\texpert_cognate\t{score}\tiecor\t"
-                    f"inherited\t-\t{confidence}\t{cogset_id}\n"
+                    f"{relation_detail}\t-\t{confidence}\t{cogset_id}\n"
                 )
                 pair_count += 1
+                if is_loan:
+                    loan_pair_count += 1
+                else:
+                    inherited_pair_count += 1
                 if pair_count % 100000 == 0:
                     print(f"    ... {pair_count:,} pairs written")
 
     print(f"\n  Total pairs: {pair_count:,}")
+    print(f"  Loan-involved pairs: {loan_pair_count:,}")
+    print(f"  Purely inherited pairs: {inherited_pair_count:,}")
     print(f"  Output: {output_path}")
     print("=" * 60)
 

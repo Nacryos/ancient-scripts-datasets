@@ -89,7 +89,7 @@ def main():
                 lang_iso[lid] = iso
     print(f"  Languages with ISO codes: {len(lang_iso)}")
 
-    # Step 2: Read forms.csv → Form_ID → {language, word, ipa, concept}
+    # Step 2: Read forms.csv → Form_ID → {language, word, ipa, concept, loan}
     forms_path = SOURCES_DIR / "forms.csv"
     forms = {}
     with open(forms_path, "r", encoding="utf-8") as f:
@@ -107,11 +107,13 @@ def main():
             # Extract concept from Parameter_ID (e.g., "1_hand" → "hand")
             concept = param_id.split("_", 1)[1] if "_" in param_id else param_id
             ipa = form_to_pseudo_ipa(form)
+            loan = row.get("Loan", "").strip()
             forms[fid] = {
                 "iso": iso,
                 "word": form,
                 "ipa": ipa,
                 "concept": concept,
+                "loan": loan,
             }
     print(f"  Forms loaded: {len(forms)}")
 
@@ -145,6 +147,7 @@ def main():
     # Step 4: Generate cross-language pairs within each cognate set
     output_path = STAGING_DIR / "abvd_cognate_pairs.tsv"
     pair_count = 0
+    loan_flagged_count = 0
     with open(output_path, "w", encoding="utf-8") as out:
         out.write(HEADER)
         for cogset_id, members in cogsets.items():
@@ -164,17 +167,26 @@ def main():
                     continue
                 score = sca_similarity(a["ipa"], b["ipa"])
                 confidence = "doubtful" if (a["doubt"] or b["doubt"]) else "certain"
+                # Check if either form is flagged as a loan
+                a_loan = a.get("loan", "")
+                b_loan = b.get("loan", "")
+                if (a_loan and a_loan.lower() != "false") or (b_loan and b_loan.lower() != "false"):
+                    relation_detail = "loan_flagged"
+                    loan_flagged_count += 1
+                else:
+                    relation_detail = "inherited"
                 out.write(
                     f"{a['iso']}\t{a['word']}\t{a['ipa']}\t"
                     f"{b['iso']}\t{b['word']}\t{b['ipa']}\t"
                     f"{a['concept']}\texpert_cognate\t{score}\tabvd\t"
-                    f"inherited\t-\t{confidence}\t{cogset_id}\n"
+                    f"{relation_detail}\t-\t{confidence}\t{cogset_id}\n"
                 )
                 pair_count += 1
                 if pair_count % 500000 == 0:
                     print(f"    ... {pair_count:,} pairs written")
 
     print(f"\n  Total pairs: {pair_count:,}")
+    print(f"  Loan-flagged pairs: {loan_flagged_count:,}")
     print(f"  Output: {output_path}")
     print("=" * 60)
 

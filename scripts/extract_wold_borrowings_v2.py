@@ -35,6 +35,29 @@ HEADER = (
 )
 
 
+def clean_source_word(raw: str) -> str:
+    """Clean a source word for pseudo-IPA use.
+
+    Strips parenthetical notes, proto-form asterisks, bracketed annotations,
+    and takes only the first alternative when multiple are separated by
+    comma, slash, or tilde.  Result is still pseudo-IPA (not real IPA) but
+    free of annotations that would produce garbage.
+    """
+    if not raw:
+        return ""
+    s = raw
+    # 1. Strip parenthetical notes: "(Written Tibetan)" etc.
+    s = re.sub(r"\([^)]*\)", "", s)
+    # 2. Strip bracketed annotations: "[loan]" etc.
+    s = re.sub(r"\[[^\]]*\]", "", s)
+    # 3. Strip proto-form leading asterisks
+    s = re.sub(r"^\*+", "", s.strip())
+    # 4. Take only first alternative (split on , / ~)
+    s = re.split(r"[,/~]", s)[0]
+    # 5. Strip whitespace and lowercase
+    return s.strip().lower()
+
+
 def segments_to_ipa(segments: str) -> str:
     """Convert CLDF Segments column to IPA string."""
     if not segments:
@@ -103,9 +126,10 @@ def main():
                 concept = row.get("Concepticon_Gloss", row.get("Name", pid)).strip()
                 param_concept[pid] = concept
 
-    # Step 3: Read forms.csv → Form_ID → {language, word, ipa, concept}
+    # Step 3: Read forms.csv → Form_ID → {language, word, ipa, concept} + Borrowed score
     forms_path = SOURCES_DIR / "forms.csv"
     forms = {}
+    form_borrowed: dict[str, str] = {}  # Form_ID → Borrowed score string
     with open(forms_path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -119,6 +143,8 @@ def main():
             ipa = segments_to_ipa(segments) if segments else form.lower()
             param_id = row.get("Parameter_ID", "").strip()
             concept = param_concept.get(param_id, param_id)
+            borrowed = row.get("Borrowed", "").strip()
+            form_borrowed[fid] = borrowed
             forms[fid] = {
                 "iso": iso,
                 "word": form,
@@ -133,6 +159,7 @@ def main():
     pair_count = 0
     skipped_no_target = 0
     skipped_no_source = 0
+    skipped_no_evidence = 0
 
     with open(output_path, "w", encoding="utf-8") as out:
         out.write(HEADER)
@@ -153,7 +180,14 @@ def main():
                     skipped_no_target += 1
                     continue
 
+                # Skip entries where target form has "no evidence for borrowing"
+                target_borrowed = form_borrowed.get(target_fid, "")
+                if target_borrowed.startswith("5"):
+                    skipped_no_evidence += 1
+                    continue
+
                 # Source can come from Source_Form_ID or Source_word
+                pseudo_ipa = False
                 if source_fid and source_fid in forms:
                     source = forms[source_fid]
                     source_iso = source["iso"]
@@ -162,39 +196,55 @@ def main():
                 elif source_word:
                     # Source form not in database — use Source_word + Source_languoid
                     source_iso = lang_name_to_iso.get(source_lang, "-")
-                    source_word_str = source_word
-                    source_ipa = source_word.lower()  # best-effort pseudo-IPA
+                    source_word_str = clean_source_word(source_word)
+                    source_ipa = source_word_str  # cleaned pseudo-IPA (not real IPA)
+                    pseudo_ipa = True
                 else:
                     skipped_no_source += 1
                     continue
 
-                # Donor language
-                donor_lang = source_iso if source_iso != "-" else source_lang
+                # Donor_Language: always use the WOLD language name (Source_languoid)
+                # for consistency. The field is a human-readable language name,
+                # NOT an ISO 639-3 code. Use source_iso (Lang_B) for the code.
+                donor_lang = source_lang if source_lang else "-"
 
                 # Confidence
                 confidence = "certain" if source_certain == "yes" else (
                     "uncertain" if source_certain == "no" else source_certain if source_certain else "-"
                 )
 
-                # Score
-                score = sca_similarity(target["ipa"], source_ipa)
+                # Score: -1 sentinel when source IPA is pseudo-IPA (cleaned
+                # orthography, not real IPA) — SCA similarity is unreliable
+                if pseudo_ipa:
+                    score = -1
+                else:
+                    score = sca_similarity(target["ipa"], source_ipa)
 
                 # Filter self-loans (same language borrowing from itself)
                 if target["iso"] == source_iso:
                     continue
+
+                # Relation_Detail: distinguish immediate vs earlier borrowings
+                if source_relation == "immediate":
+                    relation_detail = "borrowed_immediate"
+                elif source_relation == "earlier":
+                    relation_detail = "borrowed_earlier"
+                else:
+                    relation_detail = "borrowed"
 
                 # Lang_A = target (borrower), Lang_B = source (donor)
                 out.write(
                     f"{target['iso']}\t{target['word']}\t{target['ipa']}\t"
                     f"{source_iso}\t{source_word_str}\t{source_ipa}\t"
                     f"{target['concept']}\tborrowing\t{score}\twold\t"
-                    f"borrowed\t{donor_lang}\t{confidence}\twold_{borrowing_id}\n"
+                    f"{relation_detail}\t{donor_lang}\t{confidence}\twold_{borrowing_id}\n"
                 )
                 pair_count += 1
 
     print(f"\n  Total borrowing pairs: {pair_count:,}")
     print(f"  Skipped (no target form): {skipped_no_target}")
     print(f"  Skipped (no source info): {skipped_no_source}")
+    print(f"  Skipped (no evidence for borrowing): {skipped_no_evidence}")
     print(f"  Output: {output_path}")
     print("=" * 60)
 
