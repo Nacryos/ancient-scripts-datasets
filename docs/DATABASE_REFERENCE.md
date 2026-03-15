@@ -44,7 +44,7 @@ This document is the single source of truth for understanding, modifying, and ex
 - `scripts/` — All extraction and processing scripts
 - `cognate_pipeline/` — Python package for phonetic processing
 - `docs/` — PRDs, audit reports, this reference doc
-- `data/training/metadata/` — `languages.tsv`, `source_stats.tsv` (small summary files)
+- `data/training/metadata/` — `languages.tsv`, `source_stats.tsv`, `phylo_pairs.tsv` (small summary/lookup files)
 - `data/training/validation/` — Validation sets (via Git LFS)
 - `data/training/lexicons/*.tsv` — Ancient language TSVs (force-added despite gitignore)
 
@@ -108,7 +108,7 @@ python scripts/assemble_lexicons.py        # Generate metadata
 ancient-scripts-datasets/
   data/training/
     lexicons/           # 1,136 TSV files (one per language) [GITIGNORED]
-    metadata/           # languages.tsv, source_stats.tsv, etc. [TRACKED]
+    metadata/           # languages.tsv, source_stats.tsv, phylo_pairs.tsv [TRACKED]
     cognate_pairs/      # inherited, similarity, borrowing pairs [GITIGNORED]
     validation/         # stratified ML training/test sets [GIT LFS]
     language_profiles/  # per-language markdown profiles
@@ -152,6 +152,42 @@ Lang_A  Word_A  IPA_A  Lang_B  Word_B  IPA_B  Concept_ID  Relationship  Score  S
 **Deduplication:** Priority ordering expert_cognate > borrowing > concept_aligned > similarity_only. Pass 1.5 pre-populates expert language-concept keys across ALL files before writing, ensuring no concept_aligned/similarity pair duplicates an expert pair. See `docs/prd/PRD_COGNATE_PAIRS_V2.md` for full specification.
 
 **Adversarial audit status (2026-03-14):** All 3 output files PASS final audit. Zero cross-file contamination, zero self-pairs, zero isolate/constructed language leakage, all Source_Record_IDs traceable to source databases.
+
+### Phylogenetic Relationship Metadata
+
+**File:** `data/training/metadata/phylo_pairs.tsv` (386,101 unique language pairs)
+
+A lookup table mapping every unique `(Lang_A, Lang_B)` pair in the cognate dataset to its phylogenetic relationship, based on Glottolog CLDF v5.x (Hammarstr&ouml;m et al.). Not stored inline in the 23M-row cognate files to avoid redundancy.
+
+**Schema (9 columns, tab-separated):**
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `Lang_A` | str | ISO 639-3 code (alphabetically first) |
+| `Lang_B` | str | ISO 639-3 code (alphabetically second) |
+| `Phylo_Relation` | enum | `near_ancestral`, `close_sister`, `distant_sister`, `cross_family`, `unclassified` |
+| `Tree_Distance` | int | Edge count through MRCA (99 = unclassified/cross-family) |
+| `MRCA_Clade` | str | Glottocode of MRCA node |
+| `MRCA_Depth` | int | Depth of MRCA in tree (0 = root) |
+| `Ancestor_Lang` | str | For `near_ancestral`: ISO of the ancestor; `-` otherwise |
+| `Family_A` | str | Top-level Glottolog family of Lang_A |
+| `Family_B` | str | Top-level Glottolog family of Lang_B |
+
+**Distribution:**
+
+| Relation | Count | Percentage |
+|----------|-------|------------|
+| `distant_sister` | 249,392 | 64.6% |
+| `close_sister` | 87,078 | 22.6% |
+| `cross_family` | 45,267 | 11.7% |
+| `unclassified` | 4,302 | 1.1% |
+| `near_ancestral` | 62 | 0.0% |
+
+**Usage:** Join at query time using `pair_key = (min(a,b), max(a,b))`. The classification is orthogonal to the cognate data and can be updated independently when Glottolog releases new versions.
+
+**Scripts:** `scripts/ingest_glottolog.py` (download), `scripts/build_glottolog_tree.py` (parse), `scripts/build_phylo_pairs.py` (classify), `scripts/validate_phylo_pairs.py` (validate). See `docs/prd/PRD_PHYLO_ENRICHMENT.md` for full specification.
+
+**Validation (2026-03-14):** 45,363/45,363 tests passed. 13 known-answer checks, 62 near-ancestral integrity, 45,267 cross-family integrity, 99.4% ISO coverage, 20/20 random audit.
 
 ---
 
