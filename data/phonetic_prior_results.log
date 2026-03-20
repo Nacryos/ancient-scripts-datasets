@@ -1,0 +1,310 @@
+=== VALIDATION EXPERIMENTS ===
+
+========================================
+Lost language: osc
+========================================
+osc lost: 1538 fragments
+  osc vs lat: closeness=-19.7948, time=64s
+    Top 5 cognates:
+      gui             -> ae̯rum          (-13.49)
+      ibi             -> ae̯rum          (-13.49)
+      ant             -> abɪeːs          (-14.18)
+      ass             -> abeat           (-14.94)
+      assim           -> abere           (-15.00)
+  osc vs grc: closeness=-19.0961, time=46s
+    Top 5 cognates:
+      elg             -> alɡeo           (-13.50)
+      ibi             -> akʰɛus          (-13.61)
+      gui             -> akʰɛus          (-13.61)
+      bis             -> akónɛː          (-13.67)
+      igu             -> alɡeo           (-14.18)
+  osc vs san: closeness=-16.5292, time=43s
+    Top 5 cognates:
+      igu             -> bɐbʱɾú          (-8.46)
+      bis             -> bʱúː            (-9.26)
+      ibi             -> bʱúː            (-10.46)
+      ern             -> bʱɐws           (-10.77)
+      gui             -> bɐjɖɑː          (-10.86)
+  osc vs ang: closeness=-13.6536, time=39s
+    Top 5 cognates:
+      ass             -> -u              (-5.59)
+      bis             -> -u              (-5.99)
+      igu             -> -æ              (-7.38)
+      ahe             -> -æ              (-8.05)
+      gui             -> -æ              (-8.05)
+  osc: skipped (no vocab file)
+  osc vs xum: closeness=-13.9608, time=57s
+    Top 5 cognates:
+      ant             -> ?ew?            (-8.92)
+      elv             -> ?jos            (-9.11)
+      frv             -> ?jos            (-9.11)
+      ahe             -> ---             (-9.12)
+      ass             -> ---             (-9.12)
+
+=== OSC CLOSENESS RANKING ===
+  #1 ang: -13.6536
+  #2 xum: -13.9608
+  #3 san: -16.5292
+  #4 grc: -19.0961
+  #5 lat: -19.7948
+
+========================================
+Lost language: xum
+========================================
+xum lost: 1761 fragments
+  xum vs lat: closeness=-20.8482, time=61s
+    Top 5 cognates:
+      búr             -> abeat           (-13.04)
+      erf             -> ae̯rum          (-13.64)
+      dou             -> ae̯rum          (-14.46)
+      efi             -> abeat           (-15.32)
+      bioí            -> abere           (-15.44)
+  xum vs grc: closeness=-19.8424, time=51s
+    Top 5 cognates:
+      ahi             -> aayo            (-12.86)
+      efi             -> aayo            (-12.86)
+      dou             -> akuin           (-13.47)
+      bio             -> aayo            (-13.76)
+      cis             -> aayo            (-13.76)
+  xum vs san: closeness=-16.1078, time=44s
+    Top 5 cognates:
+      ehs             -> bʱuːmi          (-10.54)
+      cis             -> bimbɐ           (-11.08)
+      bio             -> bʱúː            (-11.37)
+      dou             -> bʱúː            (-11.41)
+      eip             -> bʱúː            (-11.41)
+  xum vs ang: closeness=-16.9047, time=44s
+    Top 5 cognates:
+      ace             -> -æ              (-6.86)
+      bio             -> -uː             (-9.59)
+      búr             -> -uː             (-9.59)
+      ens             -> -iʃ             (-9.79)
+      cis             -> -æ              (-10.48)
+  xum vs osc: closeness=-16.8824, time=48s
+    Top 5 cognates:
+      búr             -> ads             (-7.72)
+      ens             -> ab              (-9.80)
+      bio             -> ade             (-10.28)
+      cis             -> ab              (-10.31)
+      ehs             -> ab              (-10.31)
+  xum: skipped (no vocab file)
+
+=== XUM CLOSENESS RANKING ===
+  #1 san: -16.1078
+  #2 osc: -16.8824
+  #3 ang: -16.9047
+  #4 grc: -19.8424
+  #5 lat: -20.8482
+
+========================================
+Lost language: lat
+========================================
+lat lost: 65017 fragments
+  lat: skipped (no vocab file)
+  lat vs grc: closeness=-17.8400, time=82s
+    Top 5 cognates:
+      ade             -> amyðis          (-11.31)
+      ani             -> aayo            (-12.49)
+      ali             -> aayo            (-12.65)
+      and             -> aayo            (-13.52)
+      ant             -> aayo            (-13.52)
+  lat vs san: closeness=-18.3036, time=74s
+    Top 5 cognates:
+      ant             -> bimbɐ           (-7.65)
+      apr             -> bʱúː            (-9.98)
+      art             -> bilʋɐ           (-10.57)
+      and             -> bimbɐ           (-10.60)
+      ani             -> bimbɐ           (-10.60)
+  lat vs ang: closeness=-13.4383, time=56s
+    Top 5 cognates:
+      art             -> -ie             (-4.98)
+      and             -> -uː             (-5.82)
+      ani             -> -uː             (-5.82)
+      ant             -> -uː             (-5.82)
+      aro             -> -æ              (-6.78)
+  lat vs osc: closeness=-15.0755, time=77s
+    Top 5 cognates:
+      amk             -> ads             (-7.13)
+      ali             -> ?maːm           (-8.67)
+      ani             -> ?jom            (-8.93)
+      ade             -> ?lom            (-9.36)
+      ant             -> ?jom            (-9.36)
+  lat vs xum: closeness=-14.6225, time=93s
+    Top 5 cognates:
+      ade             -> ---             (-8.61)
+      afa             -> ---             (-8.61)
+      ali             -> ---             (-8.61)
+      amk             -> ---             (-8.61)
+      and             -> ---             (-8.61)
+
+=== LAT CLOSENESS RANKING ===
+  #1 ang: -13.4383
+  #2 xum: -14.6225
+  #3 osc: -15.0755
+  #4 grc: -17.8400
+  #5 san: -18.3036
+
+========================================
+Lost language: grc
+========================================
+grc lost: 9217 fragments
+  grc vs lat: closeness=-19.4123, time=87s
+    Top 5 cognates:
+      ano             -> abeat           (-13.05)
+      ato             -> abeat           (-13.05)
+      ark             -> abɪeːs          (-14.07)
+      aor             -> abeat           (-14.14)
+      atosk           -> adelfis         (-14.82)
+  grc: skipped (no vocab file)
+  grc vs san: closeness=-17.1860, time=70s
+    Top 5 cognates:
+      dato            -> bilʋɐ           (-7.07)
+      ato             -> bilʋɐ           (-7.07)
+      aorato          -> bilʋɐ           (-10.00)
+      dat             -> bilʋɐ           (-10.60)
+      atos            -> bilʋɐ           (-10.65)
+  grc vs ang: closeness=-15.1833, time=52s
+    Top 5 cognates:
+      aor             -> -æ              (-6.55)
+      ark             -> -æ              (-7.23)
+      arkʰ            -> -ettɑn          (-8.57)
+      ai̯s            -> -u              (-9.04)
+      atos            -> -u              (-9.04)
+  grc vs osc: closeness=-15.7688, time=64s
+    Top 5 cognates:
+      ark             -> ab              (-6.32)
+      ano             -> ads             (-8.90)
+      anɔ             -> ads             (-8.90)
+      arkʰ            -> ab              (-9.89)
+      ai̯             -> ade             (-10.12)
+  grc vs xum: closeness=-14.8741, time=78s
+    Top 5 cognates:
+      aor             -> ahtow           (-8.38)
+      ai̯             -> ---             (-8.75)
+      ano             -> ---             (-8.75)
+      anɔ             -> ---             (-8.75)
+      ark             -> ---             (-8.75)
+
+=== GRC CLOSENESS RANKING ===
+  #1 xum: -14.8741
+  #2 ang: -15.1833
+  #3 osc: -15.7688
+  #4 san: -17.1860
+  #5 lat: -19.4123
+
+========================================
+Lost language: san
+========================================
+san lost: 65614 fragments
+  san vs lat: closeness=-17.6240, time=86s
+    Top 5 cognates:
+      ahi             -> abeat           (-10.13)
+      aja             -> abolla          (-10.60)
+      ari             -> addant          (-12.14)
+      ana             -> addant          (-12.78)
+      aril            -> advolatus       (-13.44)
+  san vs grc: closeness=-19.6867, time=64s
+    Top 5 cognates:
+      abʰ             -> aayo            (-10.27)
+      abʰu            -> amɸiðea         (-11.34)
+      ahi             -> aayo            (-12.19)
+      ari             -> aayo            (-12.19)
+      aro             -> akuin           (-13.04)
+  san: skipped (no vocab file)
+  san vs ang: closeness=-15.5934, time=45s
+    Top 5 cognates:
+      ahi             -> -æ              (-6.68)
+      ane             -> -iʃ             (-8.78)
+      ant             -> -ie             (-8.78)
+      ahit            -> -æ              (-10.25)
+      abʰ             -> -uː             (-11.10)
+  san vs osc: closeness=-16.5570, time=55s
+    Top 5 cognates:
+      asj             -> ?jejs           (-7.73)
+      aroː            -> ab              (-8.25)
+      ahi             -> ---e-st         (-10.01)
+      asja            -> ?jejs           (-10.60)
+      ari             -> adfust          (-10.62)
+  san vs xum: closeness=-14.7586, time=68s
+    Top 5 cognates:
+      ane             -> ?jos            (-9.11)
+      abʰ             -> ---             (-9.12)
+      add             -> ---             (-9.12)
+      ahi             -> ---             (-9.12)
+      aja             -> ---             (-9.12)
+
+=== SAN CLOSENESS RANKING ===
+  #1 xum: -14.7586
+  #2 ang: -15.5934
+  #3 osc: -16.5570
+  #4 lat: -17.6240
+  #5 grc: -19.6867
+
+=== LINEAR A EXPERIMENTS ===
+Traceback (most recent call last):
+  File "/workspace/ancient-scripts-datasets/scripts/quick_linear_a.py", line 160, in <module>
+    main()
+  File "/workspace/ancient-scripts-datasets/scripts/quick_linear_a.py", line 80, in main
+    with open(la_corpus, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/ancient-scripts-datasets/data/linear_a/linear_a_corpus.txt'
+Linear A: 48 inscriptions
+  Linear A vs Hittite              (hit): closeness=-19.0765, time=103s
+    Top 3:  ip->as(-10.3)  it->as(-10.3)  ut->as(-10.3) 
+  Linear A vs Ugaritic             (uga): closeness=-16.0817, time=102s
+    Top 3:  ja->betu(-7.1)  sa->binu(-7.1) a s->bxr(-7.1) 
+  Linear A vs Phoenician           (phn): closeness=-13.1158, time=43s
+    Top 3:  id->huː(-2.7)  in->huː(-2.7)  ip->huː(-2.7) 
+  Linear A vs Urartian             (xur): closeness=-13.4027, time=71s
+    Top 3:  da->AD(-8.0)  id->AD(-8.0)  in->AD(-8.0) 
+  Linear A vs Elamite              (elx): closeness=-14.0040, time=40s
+    Top 3: a j->am(-4.7)  ja->am(-4.7) a d->ayak(-5.3) 
+  Linear A vs Avestan              (ave): closeness=-13.9922, time=50s
+    Top 3: a i->, aêm(-6.2) a d->-iʃta(-6.3)  id->aem?(-6.3) 
+  Linear A vs Old Persian          (peo): closeness=-14.7886, time=63s
+    Top 3:  da->AM(-8.0)  id->AM(-8.0)  in->AM(-8.0) 
+  Linear A vs Lydian               (xld): closeness=-13.2945, time=52s
+    Top 3:  in->=k(-5.6)  un->=k(-5.6)  ipi->=in(-6.7) 
+  Linear A vs Lycian               (xlc): closeness=-15.8402, time=62s
+    Top 3: a s->Jaɲ(-5.1)  sa->=de(-5.1) a sa->Masa(-7.5) 
+  Linear A vs Carian               (xcr): closeness=-15.3470, time=75s
+    Top 3:  un->*uksi(-6.3)  da->*ma(-8.5)  ja->*ma(-8.5) 
+  Linear A vs Phrygian             (xpg): closeness=-12.8335, time=252s
+    Top 3: a s->matar(-3.9)  in->as(-4.7)  un->as(-4.7) 
+  Linear A vs Lemnian              (xle): closeness=-16.3932, time=42s
+    Top 3: a sar->pʰoke(-8.4)  id->rom(-10.0)  in->maw(-10.0) 
+  Linear A vs Rhaetic              (xrr): closeness=-14.2626, time=44s
+    Top 3: a u->)si(-3.4)  ut->asua(-5.3) a d->)s(-6.3) 
+  Linear A vs Messapic             (cms): closeness=-15.3009, time=51s
+    Top 3:  it->ti(-3.6)  ut->ti(-3.6)  iti->penkaheh(-5.7) 
+  Linear A vs Proto-IE             (ine-pro): closeness=-14.6668, time=44s
+    Top 3: a d->bak(-7.1) a u->bʱed(-7.1) a s->bʱeħ(-7.4) 
+  Linear A vs Proto-Semitic        (sem-pro): closeness=-14.2679, time=33s
+    Top 3:  id->-r(-6.3) a d->-r(-6.3) a u->-r(-6.3) 
+  Linear A vs Proto-Kartvelian     (ccs-pro): closeness=-14.3808, time=33s
+    Top 3: a d->biɡa(-4.2) a j->br(-5.0)  da->dab(-7.1) 
+  Linear A vs Proto-Dravidian      (dra-pro): closeness=-14.7730, time=44s
+    Top 3:  un->-ar(-2.7)  ut->-aː(-5.5)  una->aːj(-6.3) 
+
+============================================================
+LINEAR A CLOSENESS RANKING
+============================================================
+  # 1 Phrygian             (xpg     ): closeness=-12.8335, cognates=80
+  # 2 Phoenician           (phn     ): closeness=-13.1158, cognates=80
+  # 3 Lydian               (xld     ): closeness=-13.2945, cognates=80
+  # 4 Urartian             (xur     ): closeness=-13.4027, cognates=80
+  # 5 Avestan              (ave     ): closeness=-13.9922, cognates=80
+  # 6 Elamite              (elx     ): closeness=-14.0040, cognates=80
+  # 7 Rhaetic              (xrr     ): closeness=-14.2626, cognates=80
+  # 8 Proto-Semitic        (sem-pro ): closeness=-14.2679, cognates=80
+  # 9 Proto-Kartvelian     (ccs-pro ): closeness=-14.3808, cognates=80
+  #10 Proto-IE             (ine-pro ): closeness=-14.6668, cognates=80
+  #11 Proto-Dravidian      (dra-pro ): closeness=-14.7730, cognates=80
+  #12 Old Persian          (peo     ): closeness=-14.7886, cognates=80
+  #13 Messapic             (cms     ): closeness=-15.3009, cognates=80
+  #14 Carian               (xcr     ): closeness=-15.3470, cognates=80
+  #15 Lycian               (xlc     ): closeness=-15.8402, cognates=80
+  #16 Ugaritic             (uga     ): closeness=-16.0817, cognates=80
+  #17 Lemnian              (xle     ): closeness=-16.3932, cognates=80
+  #18 Hittite              (hit     ): closeness=-19.0765, cognates=80
+
+Cognate lists saved to: outputs/linear_a
