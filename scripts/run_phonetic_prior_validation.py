@@ -312,9 +312,12 @@ def run_single_experiment(
 
             # Sort by score (best matches first)
             cognate_pairs.sort(key=lambda x: x["score"], reverse=True)
-            result.top_cognates = cognate_pairs[:50]
+            # Keep ALL cognate pairs for the output file (user wants full lists)
+            result.top_cognates = cognate_pairs[:50]  # summary in JSON
             result.num_cognates_found = len(cognate_pairs)
             result.closeness_score = total_score / max(len(eval_words), 1)
+            # Save FULL cognate list (all pairs, not just top 50)
+            _all_cognates = cognate_pairs  # saved to TSV below
 
             # Compute P@k if ground truth available
             if gold_map:
@@ -357,12 +360,14 @@ def run_single_experiment(
     exp_dir.mkdir(parents=True, exist_ok=True)
     with open(exp_dir / "result.json", "w", encoding="utf-8") as f:
         json.dump(asdict(result), f, indent=2, ensure_ascii=False)
-    if result.top_cognates:
-        with open(exp_dir / "cognate_list.tsv", "w", encoding="utf-8", newline="\n") as f:
+    # Save FULL cognate list (all pairs found, not truncated)
+    all_cognates = locals().get("_all_cognates", result.top_cognates)
+    if all_cognates:
+        with open(exp_dir / "cognate_list_full.tsv", "w", encoding="utf-8", newline="\n") as f:
             writer = csv.DictWriter(f, fieldnames=["lost", "known", "score"],
                                     delimiter="\t", lineterminator="\n")
             writer.writeheader()
-            for pair in result.top_cognates:
+            for pair in all_cognates:
                 writer.writerow(pair)
 
     return result
