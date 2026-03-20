@@ -127,7 +127,7 @@ def load_lost_text(path: Path) -> List[str]:
         return [line.strip() for line in f if line.strip()]
 
 
-def load_known_vocab(path: Path, max_items: int = 2000) -> List[str]:
+def load_known_vocab(path: Path, max_items: int = 700) -> List[str]:
     """Load known vocabulary (IPA words from lexicon TSV or .txt)."""
     if path.suffix == ".txt":
         with open(path, "r", encoding="utf-8") as f:
@@ -209,8 +209,8 @@ def run_single_experiment(
             result.error = f"No data: lost={len(lost_text)}, known={len(known_vocab)}"
             return result
 
-        # Cap inscriptions for memory/speed (use up to 500 for training)
-        train_text = lost_text[:500]
+        # Cap inscriptions for memory/speed
+        train_text = lost_text[:200]
 
         # Build character sets
         lost_chars = sorted(set("".join(train_text)))
@@ -282,16 +282,16 @@ def run_single_experiment(
             char_distr = model.compute_char_distr()
 
             # Score sample of lost words (up to 200)
-            eval_words = list(set("".join(lost_text).split()))[:200] if " " in "".join(lost_text) else []
+            eval_words = list(set("".join(lost_text).split()))[:100] if " " in "".join(lost_text) else []
             # For unsegmented text, extract candidate spans
             if not eval_words:
                 # Extract spans of length min_span to max_span from inscriptions
                 spans = set()
-                for text in lost_text[:100]:
+                for text in lost_text[:50]:
                     for slen in range(config["min_span"], min(config["max_span"] + 1, len(text) + 1)):
                         for start in range(len(text) - slen + 1):
                             spans.add(text[start:start + slen])
-                eval_words = sorted(spans)[:200]
+                eval_words = sorted(spans)[:100]
 
             # Rank each eval word against known vocab
             cognate_pairs = []
