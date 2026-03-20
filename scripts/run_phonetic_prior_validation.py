@@ -272,8 +272,9 @@ def run_single_experiment(
             batch = rng.choices(train_text, k=batch_size)
 
             out = train_one_step(model, optimizer, batch, known_vocab)
-            last_obj = out.objective
-            last_quality = out.quality
+            # Detach to prevent autograd graph accumulation (memory leak)
+            last_obj = float(out.objective) if hasattr(out.objective, 'item') else out.objective
+            last_quality = float(out.quality) if hasattr(out.quality, 'item') else out.quality
 
         result.objective = last_obj
         result.quality = last_quality
