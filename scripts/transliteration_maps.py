@@ -1483,6 +1483,118 @@ BIBLICAL_HEBREW_MAP: Dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
+# ANCIENT_GREEK_MAP — Ancient Greek (Unicode Greek script → IPA)
+# Source: Allen (1987) *Vox Graeca*, Classical Attic pronunciation
+# Handles: lowercase/uppercase, diphthongs, breathing marks, common digraphs.
+# Accents and iota subscript are stripped during NFC normalization or ignored.
+# ---------------------------------------------------------------------------
+ANCIENT_GREEK_MAP: Dict[str, str] = {
+    # --- Diphthongs (must precede single vowels for longest-match) ---
+    "αι": "ai̯", "ει": "eː", "οι": "oi̯",
+    "αυ": "au̯", "ευ": "eu̯", "ου": "uː",
+    "ηι": "ɛːi̯", "ωι": "ɔːi̯", "υι": "yi̯",
+    # Diphthongs uppercase (initial cap)
+    "Αι": "ai̯", "Ει": "eː", "Οι": "oi̯",
+    "Αυ": "au̯", "Ευ": "eu̯", "Ου": "uː",
+    # --- Digraphs ---
+    "γγ": "ŋɡ", "γκ": "ŋk", "γξ": "ŋks", "γχ": "ŋkʰ",
+    # --- Single vowels (lowercase) ---
+    "α": "a", "ε": "e", "η": "ɛː", "ι": "i", "ο": "o", "υ": "y", "ω": "ɔː",
+    # --- Single vowels (uppercase) ---
+    "Α": "a", "Ε": "e", "Η": "ɛː", "Ι": "i", "Ο": "o", "Υ": "y", "Ω": "ɔː",
+    # --- Consonants (lowercase) ---
+    "β": "b", "γ": "ɡ", "δ": "d", "ζ": "zd", "θ": "tʰ",
+    "κ": "k", "λ": "l", "μ": "m", "ν": "n", "ξ": "ks",
+    "π": "p", "ρ": "r", "σ": "s", "ς": "s",
+    "τ": "t", "φ": "pʰ", "χ": "kʰ", "ψ": "ps",
+    # --- Consonants (uppercase) ---
+    "Β": "b", "Γ": "ɡ", "Δ": "d", "Ζ": "zd", "Θ": "tʰ",
+    "Κ": "k", "Λ": "l", "Μ": "m", "Ν": "n", "Ξ": "ks",
+    "Π": "p", "Ρ": "r", "Σ": "s",
+    "Τ": "t", "Φ": "pʰ", "Χ": "kʰ", "Ψ": "ps",
+    # --- Breathing marks mapped to h or nothing ---
+    # Rough breathing is typically a combining character U+0314
+    # which survives NFC; we strip it in the build script.
+    # Smooth breathing U+0313 is stripped.
+}
+
+
+# ---------------------------------------------------------------------------
+# LATIN_MAP — Latin (orthography → IPA, Classical pronunciation)
+# Source: Allen (1978) *Vox Latina*
+# LLCT (Late Latin charters) uses standard Latin orthography.
+# The map assumes Classical values; late Latin shifts (ae→ɛ, c→ts) are
+# NOT applied — Classical is more useful for phonotactic analysis.
+# ---------------------------------------------------------------------------
+LATIN_MAP: Dict[str, str] = {
+    # --- Digraphs (longest-match first) ---
+    "qu": "kʷ", "Qu": "kʷ", "QU": "kʷ",
+    "ae": "ai̯", "Ae": "ai̯", "AE": "ai̯",
+    "oe": "oi̯", "Oe": "oi̯", "OE": "oi̯",
+    "ph": "pʰ", "Ph": "pʰ", "PH": "pʰ",
+    "th": "tʰ", "Th": "tʰ", "TH": "tʰ",
+    "ch": "kʰ", "Ch": "kʰ", "CH": "kʰ",
+    "rh": "r", "Rh": "r", "RH": "r",
+    # --- Long vowels (if macron-marked) ---
+    "ā": "aː", "ē": "eː", "ī": "iː", "ō": "oː", "ū": "uː",
+    "Ā": "aː", "Ē": "eː", "Ī": "iː", "Ō": "oː", "Ū": "uː",
+    # --- Short vowels (lowercase) ---
+    "a": "a", "e": "e", "i": "i", "o": "o", "u": "u", "y": "y",
+    # --- Short vowels (uppercase) ---
+    "A": "a", "E": "e", "I": "i", "O": "o", "U": "u", "Y": "y",
+    # --- Consonants (lowercase) ---
+    "b": "b", "c": "k", "d": "d", "f": "f", "g": "ɡ",
+    "h": "h", "k": "k", "l": "l", "m": "m", "n": "n",
+    "p": "p", "r": "r", "s": "s", "t": "t",
+    "v": "w", "x": "ks", "z": "z",
+    # --- Consonants (uppercase) ---
+    "B": "b", "C": "k", "D": "d", "F": "f", "G": "ɡ",
+    "H": "h", "K": "k", "L": "l", "M": "m", "N": "n",
+    "P": "p", "R": "r", "S": "s", "T": "t",
+    "V": "w", "X": "ks", "Z": "z",
+    # --- Medieval/Late Latin additions (common in LLCT charters) ---
+    "j": "j", "J": "j",   # j = /j/ (not in Classical, but common in medieval)
+    "w": "w", "W": "w",   # rare but occurs in loanwords
+}
+
+
+# ---------------------------------------------------------------------------
+# SANSKRIT_IAST_MAP — Sanskrit IAST Romanization → IPA
+# Source: Whitney (1889) *Sanskrit Grammar*; Cardona (2003)
+# IAST (International Alphabet of Sanskrit Transliteration) uses
+# diacritical marks on Latin letters. UD_Sanskrit-Vedic uses Devanagari,
+# but this map is used after script conversion to IAST.
+# ---------------------------------------------------------------------------
+SANSKRIT_IAST_MAP: Dict[str, str] = {
+    # --- Aspirated stops (digraphs — longest match first) ---
+    "kh": "kʰ", "gh": "ɡʰ",
+    "ch": "t͡ɕʰ", "jh": "d͡ʑʰ",
+    "ṭh": "ʈʰ", "ḍh": "ɖʰ",
+    "th": "tʰ", "dh": "dʰ",
+    "ph": "pʰ", "bh": "bʰ",
+    # --- Vowels (long first for longest match) ---
+    "ā": "aː", "ī": "iː", "ū": "uː",
+    "ṝ": "r̩ː", "ṛ": "r̩", "ḷ": "l̩",
+    "ai": "ai̯", "au": "au̯",
+    "a": "a", "i": "i", "u": "u",
+    "e": "eː", "o": "oː",
+    # --- Consonants ---
+    "k": "k", "g": "ɡ", "ṅ": "ŋ",
+    "c": "t͡ɕ", "j": "d͡ʑ", "ñ": "ɲ",
+    "ṭ": "ʈ", "ḍ": "ɖ", "ṇ": "ɳ",
+    "t": "t", "d": "d", "n": "n",
+    "p": "p", "b": "b", "m": "m",
+    "y": "j", "r": "r", "l": "l", "v": "ʋ",
+    "ś": "ɕ", "ṣ": "ʂ", "s": "s", "h": "h",
+    # --- Special ---
+    "ṃ": "̃",   # anusvara (nasalization combining tilde)
+    "ḥ": "h",   # visarga
+    "ṁ": "̃",   # alternate anusvara
+    "'": "ʔ",   # avagraha (rare in Vedic)
+}
+
+
+# ---------------------------------------------------------------------------
 # OSCAN_MAP — Oscan (CEIPoM Standard_aligned notation → IPA)
 # Source: CEIPoM (Pitts 2022), Buck (1904) A Grammar of Oscan and Umbrian
 # The Standard_aligned field uses doubled vowels for length.
@@ -2579,6 +2691,10 @@ ALL_MAPS: Dict[str, Dict[str, str]] = {
     "myn-pro": PROTO_MAYAN_MAP,              # Proto-Mayan
     "afa-pro": PROTO_AFROASIATIC_MAP,        # Proto-Afroasiatic
     "xib": IBERIAN_MAP,                      # Iberian
+    # Inscription dataset maps (Phase 9)
+    "grc": ANCIENT_GREEK_MAP,                # Ancient Greek
+    "lat": LATIN_MAP,                        # Latin
+    "san-iast": SANSKRIT_IAST_MAP,           # Sanskrit (IAST romanization)
 }
 
 

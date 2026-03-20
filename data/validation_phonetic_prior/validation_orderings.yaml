@@ -1,0 +1,48 @@
+# Validation orderings for Phonetic Prior algorithm
+# Each ordering asserts: anchor is closer to 'closer' than 'farther'
+
+orderings:
+  - anchor: osc
+    closer: lat
+    farther: san
+    notes: "Italic > Indo-Iranian"
+  - anchor: osc
+    closer: lat
+    farther: grc
+    notes: "Italic > Hellenic"
+  - anchor: osc
+    closer: xum
+    farther: san
+    notes: "Sabellic > Indo-Iranian"
+  - anchor: osc
+    closer: xum
+    farther: ang
+    notes: "Sabellic > Germanic"
+  - anchor: xum
+    closer: osc
+    farther: san
+    notes: "Sabellic > Indo-Iranian"
+  - anchor: xum
+    closer: lat
+    farther: ang
+    notes: "Italic > Germanic"
+  - anchor: xum
+    closer: lat
+    farther: grc
+    notes: "Italic > Hellenic"
+  - anchor: lat
+    closer: osc
+    farther: san
+    notes: "Italic > Indo-Iranian"
+  - anchor: lat
+    closer: osc
+    farther: ang
+    notes: "Italic > Germanic"
+  - anchor: grc
+    closer: lat
+    farther: ang
+    notes: "Hellenic > Germanic (debatable)"
+  - anchor: san
+    closer: grc
+    farther: ang
+    notes: "Hellenic > Germanic for Indo-Iranian"

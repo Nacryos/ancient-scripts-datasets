@@ -1,0 +1,77 @@
+{
+  "languages": {
+    "grc": {
+      "inscriptions": 1576,
+      "fragments": 9217,
+      "avg_syllables": 8.0,
+      "cognate_pairs": {
+        "lat": 49,
+        "san": 53,
+        "ang": 39,
+        "osc": 15,
+        "xum": 18
+      }
+    },
+    "lat": {
+      "inscriptions": 10687,
+      "fragments": 65017,
+      "avg_syllables": 8.1,
+      "cognate_pairs": {
+        "grc": 32,
+        "san": 40,
+        "ang": 38,
+        "osc": 23,
+        "xum": 20
+      }
+    },
+    "san": {
+      "inscriptions": 27182,
+      "fragments": 65614,
+      "avg_syllables": 6.9,
+      "cognate_pairs": {
+        "grc": 37,
+        "lat": 43,
+        "ang": 34,
+        "osc": 13,
+        "xum": 16
+      }
+    },
+    "ang": {
+      "inscriptions": 20,
+      "fragments": 44,
+      "avg_syllables": 5.8,
+      "cognate_pairs": {
+        "grc": 31,
+        "lat": 40,
+        "san": 33,
+        "osc": 11,
+        "xum": 16
+      }
+    },
+    "osc": {
+      "inscriptions": 713,
+      "fragments": 1538,
+      "avg_syllables": 5.8,
+      "cognate_pairs": {
+        "grc": 15,
+        "san": 17,
+        "lat": 26,
+        "xum": 19,
+        "ang": 13
+      }
+    },
+    "xum": {
+      "inscriptions": 761,
+      "fragments": 1761,
+      "avg_syllables": 6.9,
+      "cognate_pairs": {
+        "grc": 18,
+        "san": 19,
+        "lat": 31,
+        "osc": 19,
+        "ang": 18
+      }
+    }
+  },
+  "seed": 42
+}
