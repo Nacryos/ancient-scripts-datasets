@@ -52,8 +52,8 @@ MODEL_CONFIG = {
     "lr": 0.2,
     "p_o": 0.2,
     "dropout": 0.5,
-    "num_steps": 1000,
-    "anneal_steps": 800,
+    "num_steps": 500,
+    "anneal_steps": 400,
     "alpha_start": 10.0,
     "batch_size": 8,
     "seed": 1234,
@@ -127,7 +127,7 @@ def load_lost_text(path: Path) -> List[str]:
         return [line.strip() for line in f if line.strip()]
 
 
-def load_known_vocab(path: Path, max_items: int = 400) -> List[str]:
+def load_known_vocab(path: Path, max_items: int = 200) -> List[str]:
     """Load known vocabulary (IPA words from lexicon TSV or .txt)."""
     if path.suffix == ".txt":
         with open(path, "r", encoding="utf-8") as f:
@@ -209,8 +209,10 @@ def run_single_experiment(
             result.error = f"No data: lost={len(lost_text)}, known={len(known_vocab)}"
             return result
 
-        # Cap inscriptions for memory/speed (paper uses ~100-200)
-        train_text = lost_text[:100]
+        # Cap inscription LENGTH to ~20 chars (matching paper's Gothic verse lengths)
+        # and limit count. word_boundary_dp scales with O(len * spans * vocab).
+        MAX_INSCRIPTION_LEN = 20
+        train_text = [t[:MAX_INSCRIPTION_LEN] for t in lost_text[:80]]
 
         # Build character sets
         lost_chars = sorted(set("".join(train_text)))
