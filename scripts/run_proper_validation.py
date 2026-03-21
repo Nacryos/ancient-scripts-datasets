@@ -267,19 +267,20 @@ def run_experiment(
 
             max_eval = cfg["max_eval_words"] if cfg["max_eval_words"] > 0 else len(eval_words)
             for query_word in eval_words[:max_eval]:
-                # Filter query to chars the model knows
-                if not all(c in model.lost2idx for c in query_word):
-                    # Skip words with unknown characters
-                    continue
+                # Strip unknown chars from query (don't skip entire word)
+                filtered = "".join(c for c in query_word if c in model.lost2idx)
+                if len(filtered) < 2:
+                    continue  # too short after filtering
 
                 try:
-                    scores = model.score_against_vocab(query_word, known_vocab, char_distr)
+                    query_word_clean = filtered
+                    scores = model.score_against_vocab(query_word_clean, known_vocab, char_distr)
                     ranked_idx = scores.argsort(descending=True).tolist()
 
                     # Top matches
                     top_k_words = [(known_vocab[i], float(scores[i])) for i in ranked_idx[:10]]
                     cognate_pairs.append({
-                        "lost": query_word,
+                        "lost": query_word,  # original word (for reference)
                         "known": top_k_words[0][0],
                         "score": round(top_k_words[0][1], 4),
                         "top_10": [(w, round(s, 4)) for w, s in top_k_words],
