@@ -168,8 +168,11 @@ def run_experiment(
             eval_words = list(gold_map.keys())
 
         elif exp_type == "linear_a":
-            # Training: Linear A corpus (unsegmented inscriptions)
-            with open(data_dir / "data" / "linear_a" / "linear_a_corpus.txt", "r", encoding="utf-8") as f:
+            # Training: Linear A corpus (fully unsegmented — no spaces)
+            la_path = data_dir / "data" / "linear_a" / "linear_a_corpus_unsegmented.txt"
+            if not la_path.exists():
+                la_path = data_dir / "data" / "linear_a" / "linear_a_corpus.txt"
+            with open(la_path, "r", encoding="utf-8") as f:
                 all_lost = [l.strip() for l in f if l.strip()]
             # Known vocab from lexicon
             lex_path = data_dir / "data" / "training" / "lexicons" / f"{known_lang}.tsv"
