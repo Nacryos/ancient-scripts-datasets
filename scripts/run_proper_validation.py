@@ -42,10 +42,10 @@ CONFIG = {
     "dropout": 0.5,
     "batch_size": 8,
     "seed": 1234,
-    "max_vocab": 700,          # paper uses 300-500; we use 700 for richer data
-    "max_inscriptions": 100,   # paper uses ~100
-    "max_inscription_len": 20, # paper's Gothic verses ~10-20 chars
-    "max_eval_words": 200,     # eval against up to 200 query words
+    "max_vocab": 300,          # paper's Gothic uses 300-500
+    "max_inscriptions": 50,    # paper uses ~50-100
+    "max_inscription_len": 15, # shorter = faster DP
+    "max_eval_words": 100,     # eval against up to 100 query words
 }
 
 # Validation pairs
