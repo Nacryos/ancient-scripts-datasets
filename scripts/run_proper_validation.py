@@ -255,7 +255,11 @@ def run_experiment(
         result.final_obj = obj_val
         result.final_quality = qual_val
 
-        # --- Eval ---
+        # --- Eval: Extract cognates from unsegmented inscriptions ---
+        # The model has learned character mappings. Now extract spans from
+        # the actual inscriptions and score them against known vocab.
+        # This is how the Phonetic Prior is meant to work — joint segmentation
+        # + cognate identification from unsegmented text.
         model.eval()
         cognate_pairs = []
         hits_1 = hits_5 = hits_10 = 0
@@ -265,28 +269,49 @@ def run_experiment(
         with torch.no_grad():
             char_distr = model.compute_char_distr()
 
-            max_eval = cfg["max_eval_words"] if cfg["max_eval_words"] > 0 else len(eval_words)
-            for query_word in eval_words[:max_eval]:
-                # Strip unknown chars from query (don't skip entire word)
+            # Extract all unique spans from inscriptions
+            seen_spans = set()
+            eval_inscriptions = train_text[:200]  # use training inscriptions
+            for text in eval_inscriptions:
+                for slen in range(cfg["min_span"], cfg["max_span"] + 1):
+                    for start in range(len(text) - slen + 1):
+                        span = text[start:start + slen]
+                        # Only keep spans where all chars are known
+                        if all(c in model.lost2idx for c in span):
+                            seen_spans.add(span)
+
+            print(f"    [{lost_lang} vs {known_lang}] Eval: {len(seen_spans)} unique spans from {len(eval_inscriptions)} inscriptions", flush=True)
+
+            # Score each span against known vocab
+            for span in sorted(seen_spans):
+                try:
+                    scores = model.score_against_vocab(span, known_vocab, char_distr)
+                    ranked_idx = scores.argsort(descending=True).tolist()
+                    top_k = [(known_vocab[i], float(scores[i])) for i in ranked_idx[:10]]
+                    cognate_pairs.append({
+                        "lost": span,
+                        "known": top_k[0][0],
+                        "score": round(top_k[0][1], 4),
+                        "top_10": [(w, round(s, 4)) for w, s in top_k],
+                    })
+                except:
+                    continue
+
+            # Also score pre-segmented eval words if available (for P@k metrics)
+            for query_word in eval_words:
                 filtered = "".join(c for c in query_word if c in model.lost2idx)
                 if len(filtered) < 2:
-                    continue  # too short after filtering
-
+                    continue
                 try:
-                    query_word_clean = filtered
-                    scores = model.score_against_vocab(query_word_clean, known_vocab, char_distr)
+                    scores = model.score_against_vocab(filtered, known_vocab, char_distr)
                     ranked_idx = scores.argsort(descending=True).tolist()
-
-                    # Top matches
-                    top_k_words = [(known_vocab[i], float(scores[i])) for i in ranked_idx[:10]]
+                    top_k = [(known_vocab[i], float(scores[i])) for i in ranked_idx[:10]]
                     cognate_pairs.append({
-                        "lost": query_word,  # original word (for reference)
-                        "known": top_k_words[0][0],
-                        "score": round(top_k_words[0][1], 4),
-                        "top_10": [(w, round(s, 4)) for w, s in top_k_words],
+                        "lost": query_word,
+                        "known": top_k[0][0],
+                        "score": round(top_k[0][1], 4),
+                        "top_10": [(w, round(s, 4)) for w, s in top_k],
                     })
-
-                    # Compute P@k if ground truth exists
                     if query_word in gold_map:
                         gold_set = set(gold_map[query_word])
                         top_words = [known_vocab[i] for i in ranked_idx[:10]]
@@ -301,20 +326,26 @@ def run_experiment(
                                 mrr_sum += 1.0 / rank
                                 break
                         n_eval += 1
-                except Exception as e:
+                except:
                     continue
 
-        # Compute metrics
-        cognate_pairs.sort(key=lambda x: x["score"], reverse=True)
-        result.cognates = cognate_pairs
+        # Deduplicate and sort by score
+        seen = set()
+        unique_pairs = []
+        for c in cognate_pairs:
+            key = (c["lost"], c["known"])
+            if key not in seen:
+                seen.add(key)
+                unique_pairs.append(c)
+        unique_pairs.sort(key=lambda x: x["score"], reverse=True)
+        result.cognates = unique_pairs
         result.n_eval = n_eval
         if n_eval > 0:
             result.p_at_1 = hits_1 / n_eval
             result.p_at_5 = hits_5 / n_eval
             result.p_at_10 = hits_10 / n_eval
             result.mrr = mrr_sum / n_eval
-        # Closeness = mean score across all eval words (normalized)
-        all_scores = [c["score"] for c in cognate_pairs if c["score"] != 0]
+        all_scores = [c["score"] for c in unique_pairs if c["score"] != 0]
         result.closeness = sum(all_scores) / len(all_scores) if all_scores else 0.0
 
     except Exception as e:
