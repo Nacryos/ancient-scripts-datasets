@@ -1,0 +1,4 @@
+=== 1 experiments (jobs 42-42), 1 workers ===
+Config: 1000 steps, 500 max vocab, 0 inscriptions
+
+    [linear_a vs dra-pro] step 0/1000: obj=-8417.97, quality=-54.79
