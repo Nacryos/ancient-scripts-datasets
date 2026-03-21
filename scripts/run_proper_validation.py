@@ -238,9 +238,12 @@ def run_experiment(
 
             batch = rng.choices(train_text, k=cfg["batch_size"])
             out = train_one_step(model, optimizer, batch, known_vocab)
-            # Detach to prevent memory leak
-            obj_val = float(out.objective) if hasattr(out.objective, 'item') else float(out.objective)
-            qual_val = float(out.quality) if hasattr(out.quality, 'item') else float(out.quality)
+            # Detach and aggressively free autograd graph to prevent OOM
+            obj_val = float(out.objective.detach()) if hasattr(out.objective, 'detach') else float(out.objective)
+            qual_val = float(out.quality.detach()) if hasattr(out.quality, 'detach') else float(out.quality)
+            del out
+            if step % 50 == 0:
+                import gc; gc.collect()
 
             if step % 200 == 0:
                 print(f"    [{lost_lang} vs {known_lang}] step {step}/{cfg['num_steps']}: "
