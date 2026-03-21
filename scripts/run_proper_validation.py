@@ -348,6 +348,8 @@ def main():
     parser.add_argument("--data-dir", type=Path, default=Path("."))
     parser.add_argument("--validation-only", action="store_true")
     parser.add_argument("--linear-a-only", action="store_true")
+    parser.add_argument("--job-start", type=int, default=0, help="Start index in job list")
+    parser.add_argument("--job-end", type=int, default=9999, help="End index in job list (exclusive)")
     args = parser.parse_args()
 
     out = args.output_dir
@@ -362,7 +364,9 @@ def main():
         for known in LINEAR_A_TARGETS:
             jobs.append(("linear_a", known, "linear_a", args.data_dir, out, cfg))
 
-    print(f"=== {len(jobs)} experiments, {args.workers} workers ===")
+    # Slice to job range for distributed execution
+    jobs = jobs[args.job_start:args.job_end]
+    print(f"=== {len(jobs)} experiments (jobs {args.job_start}-{args.job_start+len(jobs)-1}), {args.workers} workers ===")
     print(f"Config: {cfg['num_steps']} steps, {cfg['max_vocab']} max vocab, "
           f"{cfg['max_inscriptions']} inscriptions")
     print(flush=True)
