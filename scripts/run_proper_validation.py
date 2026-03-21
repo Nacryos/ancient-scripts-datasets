@@ -42,10 +42,10 @@ CONFIG = {
     "dropout": 0.5,
     "batch_size": 8,
     "seed": 1234,
-    "max_vocab": 0,             # 0 = no cap, use FULL lexicon
-    "max_inscriptions": 0,      # 0 = no cap, use ALL inscriptions
+    "max_vocab": 500,           # paper's upper bound; DP doesn't scale beyond this
+    "max_inscriptions": 0,      # 0 = no cap, use ALL inscriptions (batch sampling handles this)
     "max_inscription_len": 20,  # cap individual inscription length for DP feasibility
-    "max_eval_words": 0,        # 0 = no cap, eval ALL words
+    "max_eval_words": 0,        # 0 = no cap, eval ALL ground truth words
 }
 
 # Validation pairs
