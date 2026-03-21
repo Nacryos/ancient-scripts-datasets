@@ -42,10 +42,10 @@ CONFIG = {
     "dropout": 0.5,
     "batch_size": 8,
     "seed": 1234,
-    "max_vocab": 300,          # paper's Gothic uses 300-500
-    "max_inscriptions": 50,    # paper uses ~50-100
-    "max_inscription_len": 15, # shorter = faster DP
-    "max_eval_words": 100,     # eval against up to 100 query words
+    "max_vocab": 0,             # 0 = no cap, use FULL lexicon
+    "max_inscriptions": 0,      # 0 = no cap, use ALL inscriptions
+    "max_inscription_len": 20,  # cap individual inscription length for DP feasibility
+    "max_eval_words": 0,        # 0 = no cap, eval ALL words
 }
 
 # Validation pairs
@@ -83,16 +83,15 @@ class Result:
     error: str = ""
 
 
-def load_vocab_txt(path: Path, max_items: int = 700) -> List[str]:
+def load_vocab_txt(path: Path, max_items: int = 0) -> List[str]:
     with open(path, "r", encoding="utf-8") as f:
         items = [l.strip() for l in f if l.strip() and len(l.strip()) >= 2]
-    # Shuffle deterministically so we don't just get alphabetically-first items
     rng = random.Random(42)
     rng.shuffle(items)
-    return items[:max_items]
+    return items[:max_items] if max_items > 0 else items
 
 
-def load_vocab_tsv(path: Path, max_items: int = 700) -> List[str]:
+def load_vocab_tsv(path: Path, max_items: int = 0) -> List[str]:
     vocab = set()
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
@@ -103,7 +102,7 @@ def load_vocab_tsv(path: Path, max_items: int = 700) -> List[str]:
     items = sorted(vocab)
     rng = random.Random(42)
     rng.shuffle(items)
-    return items[:max_items]
+    return items[:max_items] if max_items > 0 else items
 
 
 def load_ground_truth(path: Path) -> Dict[str, List[str]]:
@@ -190,7 +189,11 @@ def run_experiment(
             return result
 
         # Cap and truncate inscriptions
-        train_text = [t[:cfg["max_inscription_len"]] for t in all_lost[:cfg["max_inscriptions"]]]
+        # Use full dataset; only cap individual inscription length for DP feasibility
+        if cfg["max_inscriptions"] > 0:
+            train_text = [t[:cfg["max_inscription_len"]] for t in all_lost[:cfg["max_inscriptions"]]]
+        else:
+            train_text = [t[:cfg["max_inscription_len"]] for t in all_lost]
         result.n_train = len(train_text)
         result.n_vocab = len(known_vocab)
 
@@ -262,7 +265,8 @@ def run_experiment(
         with torch.no_grad():
             char_distr = model.compute_char_distr()
 
-            for query_word in eval_words[:cfg["max_eval_words"]]:
+            max_eval = cfg["max_eval_words"] if cfg["max_eval_words"] > 0 else len(eval_words)
+            for query_word in eval_words[:max_eval]:
                 # Filter query to chars the model knows
                 if not all(c in model.lost2idx for c in query_word):
                     # Skip words with unknown characters
