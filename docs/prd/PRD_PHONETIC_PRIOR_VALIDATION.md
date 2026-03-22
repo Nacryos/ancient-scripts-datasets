@@ -229,15 +229,110 @@ hit, uga, phn, xur, elx, ave, peo, xld, xlc, xcr, xpg, xle, xrr, cms, ine-pro, s
 
 ---
 
-## 6. Links & Credentials
+## 6. Push & Logging Standards
 
-### GitHub
-- **Data repo**: https://github.com/Nacryos/ancient-scripts-datasets (master branch)
+### 6.1 Primary Repo: Project-Phaistos
+
+**ALL code changes, results, and logs MUST be pushed to the Project-Phaistos GitHub org.**
+
+| Content | Target Repo | Branch |
+|---------|------------|--------|
+| Data + scripts + results | `Project-Phaistos/ancient-scripts-datasets-NEW` | `main` |
+| Model code (if modified) | `Project-Phaistos/phonetic-prior-v2` | `main` |
+| Run logs + results narrative | `docs/RUN_LOG.md` in the monorepo `Nacryos/Project-Phaistos` | `main` |
+
+Secondary/mirror push to `Nacryos/ancient-scripts-datasets` is optional but not the source of truth.
+
+### 6.2 Run Log Format
+
+All experiment results MUST be logged to `docs/RUN_LOG.md` in **reverse-chronological** order, following the existing format:
+
+```markdown
+## YYYY-MM-DD — <Title>
+
+### Summary
+<1-3 sentence overview of what was run and the key finding>
+
+### Key Findings
+- Bullet points with specific numbers
+- Include rankings, quality scores, cognate counts
+- Flag NEGATIVE results honestly
+
+### Configuration
+- Steps: 1000, Vocab: 500, Batch: 8, Inscriptions: all
+- Machine: <Vast.ai instance type, cores, RAM>
+- Runtime: <total hours>, Cost: $<amount>
+
+### Results Table
+| Lost | Known | Quality | Cognates | P@10 |
+|------|-------|---------|----------|------|
+| ... | ... | ... | ... | ... |
+
+### Cognate Lists
+- Location: `data/fleet_results/{exp}/cognate_list.tsv`
+- <Notable cognate pairs worth investigating>
+
+### Files
+- `scripts/run_proper_validation.py` — Runner script (commit <hash>)
+- `data/fleet_results/` — Raw outputs
+- `data/linear_a_cognates/` — Linear A cognate extractions
+
+### Issues & Limitations
+- <Honest accounting of what went wrong or is uncertain>
+```
+
+### 6.3 Result File Standards
+
+Every completed experiment MUST produce these files:
+
+```
+outputs/{exp_type}/{lost}_vs_{known}/
+  result.json          — Metrics (MUST include n_cognates count)
+  cognate_list.tsv     — FULL cognate list (ALL spans scored, not truncated)
+  run.log              — Training step logs
+```
+
+The `cognate_list.tsv` is the **PRIMARY deliverable**. It must contain:
+- `lost` column: IPA spans extracted from unsegmented inscriptions
+- `top1_known` column: Best-matching known vocabulary word
+- `score` column: Alignment score (higher = better match)
+- `top10` column: JSON array of top 10 matches with scores
+
+### 6.4 Push Protocol
+
+After EVERY batch of experiments completes:
+
+1. Collect ALL results from cloud machines via scp
+2. Commit to local repo with descriptive message
+3. Push to `Project-Phaistos/ancient-scripts-datasets-NEW` (main branch)
+4. Update `docs/RUN_LOG.md` in `Nacryos/Project-Phaistos` with results summary
+5. Push RUN_LOG update
+6. ONLY THEN destroy cloud machines
+
+### 6.5 Git Remotes
+
+```bash
+# In C:\Users\alvin\ancient-scripts-datasets\
+git remote add pp-new https://github.com/Project-Phaistos/ancient-scripts-datasets-NEW.git
+# Push: git push pp-new phonetic-prior-data:main
+
+# In C:\Users\alvin\AppData\Local\Temp\ProjectPhaistos\ (monorepo)
+# Push: GIT_LFS_SKIP_PUSH=1 git push origin main
+# RUN_LOG lives at: docs/RUN_LOG.md
+```
+
+---
+
+## 7. Links & Credentials
+
+### GitHub (Primary — push here)
 - **Project-Phaistos org**: https://github.com/Project-Phaistos
-  - phonetic-prior-v2: https://github.com/Project-Phaistos/phonetic-prior-v2
+  - **datasets-NEW** (push results here): https://github.com/Project-Phaistos/ancient-scripts-datasets-NEW
+  - phonetic-prior-v2 (model code): https://github.com/Project-Phaistos/phonetic-prior-v2
   - repro: https://github.com/Project-Phaistos/repro-decipher-phonetic-prior
-  - datasets-NEW: https://github.com/Project-Phaistos/ancient-scripts-datasets-NEW
-- **Monorepo** (all code): https://github.com/Nacryos/Project-Phaistos
+- **Monorepo** (RUN_LOG lives here): https://github.com/Nacryos/Project-Phaistos
+  - Run log: `docs/RUN_LOG.md` — reverse-chronological, newest first
+- **Data repo** (secondary mirror): https://github.com/Nacryos/ancient-scripts-datasets
 
 ### HuggingFace
 - **Dataset**: https://huggingface.co/datasets/Nacryos/ancient-scripts-datasets
@@ -251,7 +346,7 @@ hit, uga, phn, xur, elx, ave, peo, xld, xlc, xcr, xpg, xle, xrr, cms, ine-pro, s
 ### Local Paths (Windows)
 - Data repo: `C:\Users\alvin\ancient-scripts-datasets\`
 - HF repo: `C:\Users\alvin\hf-ancient-scripts\`
-- Project-Phaistos (sparse): `C:\Users\alvin\AppData\Local\Temp\ProjectPhaistos\`
+- Project-Phaistos monorepo: `C:\Users\alvin\AppData\Local\Temp\ProjectPhaistos\`
 
 ### Key Scripts
 - `scripts/run_proper_validation.py` — Main runner (NEEDS FIXES listed in §5.5)
@@ -269,7 +364,7 @@ hit, uga, phn, xur, elx, ave, peo, xld, xlc, xcr, xpg, xle, xrr, cms, ine-pro, s
 
 ---
 
-## 7. Validated Results (from this attempt)
+## 8. Validated Results (from this attempt)
 
 ### Latin as lost (CORRECT — full 65K inscriptions, 500 vocab, 1000 steps):
 | Rank | Known | Quality | Expected |
@@ -291,16 +386,21 @@ This proves the algorithm works when properly configured.
 
 ---
 
-## 8. Checklist for New Claude Context Window
+## 9. Checklist for New Claude Context Window
 
 The new context should include:
-- [ ] This PRD document
+- [ ] This PRD document (link: `docs/prd/PRD_PHONETIC_PRIOR_VALIDATION.md` in both repos)
 - [ ] The validated Latin ranking result (proof algorithm works)
-- [ ] Links to all repos (GitHub, HuggingFace, Vast.ai)
+- [ ] Links to all repos (§7)
 - [ ] The exact fixes needed in `run_proper_validation.py` (§5.5)
 - [ ] The deployment strategy choice (recommend Option A: single machine)
-- [ ] Budget remaining ($20.50)
+- [ ] Budget remaining ($20.50 of Vast.ai)
+- [ ] Push/logging standards (§6) — ALL results to Project-Phaistos, logs to RUN_LOG.md
 - [ ] Instruction: test ONE experiment locally before deploying to cloud
 - [ ] Instruction: ALWAYS collect results before destroying machines
 - [ ] Instruction: cognate lists are the PRIMARY output, not closeness scores
 - [ ] Instruction: Linear A MUST use `linear_a_corpus_unsegmented.txt` (no spaces)
+- [ ] Instruction: push to `Project-Phaistos/ancient-scripts-datasets-NEW` (not Nacryos)
+- [ ] Instruction: update `docs/RUN_LOG.md` in monorepo after every batch of results
+- [ ] Instruction: user's thesis is multi-influence (not one dominant language for Linear A)
+- [ ] Instruction: do NOT include `Co-Authored-By` lines in git commits
