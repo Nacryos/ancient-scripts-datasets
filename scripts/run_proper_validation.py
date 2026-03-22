@@ -273,7 +273,7 @@ def run_experiment(
 
             # Extract all unique spans from inscriptions
             seen_spans = set()
-            eval_inscriptions = train_text[:200]  # use training inscriptions
+            eval_inscriptions = train_text[:30]  # 30 inscriptions ≈ 1500 spans (200 → 10K spans was the bottleneck)
             for text in eval_inscriptions:
                 for slen in range(cfg["min_span"], cfg["max_span"] + 1):
                     for start in range(len(text) - slen + 1):
