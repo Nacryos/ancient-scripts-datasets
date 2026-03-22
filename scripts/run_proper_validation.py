@@ -248,8 +248,7 @@ def run_experiment(
             obj_val = float(out.objective.detach()) if hasattr(out.objective, 'detach') else float(out.objective)
             qual_val = float(out.quality.detach()) if hasattr(out.quality, 'detach') else float(out.quality)
             del out
-            if step % 50 == 0:
-                import gc; gc.collect()
+            import gc; gc.collect()
 
             if step % 200 == 0:
                 print(f"    [{lost_lang} vs {known_lang}] step {step}/{cfg['num_steps']}: "
@@ -297,7 +296,8 @@ def run_experiment(
                         "score": round(top_k[0][1], 4),
                         "top_10": [(w, round(s, 4)) for w, s in top_k],
                     })
-                except:
+                except Exception as e:
+                    print(f"    EVAL ERROR (span={span!r}): {e}", flush=True)
                     continue
 
             # Also score pre-segmented eval words if available (for P@k metrics)
@@ -329,7 +329,8 @@ def run_experiment(
                                 mrr_sum += 1.0 / rank
                                 break
                         n_eval += 1
-                except:
+                except Exception as e:
+                    print(f"    EVAL ERROR (word={query_word!r}): {e}", flush=True)
                     continue
 
         # Deduplicate and sort by score
@@ -360,9 +361,9 @@ def run_experiment(
     # Save result
     exp_dir = output_dir / exp_type / f"{lost_lang}_vs_{known_lang}"
     exp_dir.mkdir(parents=True, exist_ok=True)
-    # Save summary
+    # Save summary (keep n_cognates count in result.json)
     summary = asdict(result)
-    summary.pop("cognates")  # save separately
+    summary["n_cognates"] = len(summary.pop("cognates"))
     with open(exp_dir / "result.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
     # Save full cognate list
