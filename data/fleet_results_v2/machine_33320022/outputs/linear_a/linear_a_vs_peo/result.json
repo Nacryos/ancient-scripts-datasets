@@ -1,0 +1,18 @@
+{
+  "lost_lang": "linear_a",
+  "known_lang": "peo",
+  "exp_type": "linear_a",
+  "closeness": -16.473280258064477,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_vocab": 476,
+  "n_train": 48,
+  "final_obj": -18631.23046875,
+  "final_quality": -75.67323303222656,
+  "runtime": 14823.11251282692,
+  "error": "",
+  "n_cognates": 1550
+}

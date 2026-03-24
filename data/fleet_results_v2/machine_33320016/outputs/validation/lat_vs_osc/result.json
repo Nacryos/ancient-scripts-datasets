@@ -1,0 +1,18 @@
+{
+  "lost_lang": "lat",
+  "known_lang": "osc",
+  "exp_type": "validation",
+  "closeness": -17.269137114845947,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 22,
+  "n_vocab": 500,
+  "n_train": 65017,
+  "final_obj": -5420.84228515625,
+  "final_quality": -72.81871032714844,
+  "runtime": 3434.7192249298096,
+  "error": "",
+  "n_cognates": 2142
+}

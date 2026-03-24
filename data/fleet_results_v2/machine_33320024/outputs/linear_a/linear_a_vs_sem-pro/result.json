@@ -1,0 +1,18 @@
+{
+  "lost_lang": "linear_a",
+  "known_lang": "sem-pro",
+  "exp_type": "linear_a",
+  "closeness": -16.991373806451552,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_vocab": 385,
+  "n_train": 48,
+  "final_obj": -8352.4130859375,
+  "final_quality": -74.63502502441406,
+  "runtime": 7094.781861543655,
+  "error": "",
+  "n_cognates": 1550
+}

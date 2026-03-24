@@ -1,0 +1,18 @@
+{
+  "lost_lang": "xum",
+  "known_lang": "grc",
+  "exp_type": "validation",
+  "closeness": -20.69498165204693,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 17,
+  "n_vocab": 500,
+  "n_train": 1761,
+  "final_obj": -50083.171875,
+  "final_quality": -83.16314697265625,
+  "runtime": 21230.245881557465,
+  "error": "",
+  "n_cognates": 1368
+}

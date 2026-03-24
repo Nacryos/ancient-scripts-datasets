@@ -1,0 +1,18 @@
+{
+  "lost_lang": "linear_a",
+  "known_lang": "dra-pro",
+  "exp_type": "linear_a",
+  "closeness": -14.820771419354811,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_vocab": 404,
+  "n_train": 48,
+  "final_obj": -6703.08740234375,
+  "final_quality": -72.53191375732422,
+  "runtime": 9374.781543254852,
+  "error": "",
+  "n_cognates": 1550
+}

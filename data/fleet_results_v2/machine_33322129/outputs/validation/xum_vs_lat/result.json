@@ -1,0 +1,18 @@
+{
+  "lost_lang": "xum",
+  "known_lang": "lat",
+  "exp_type": "validation",
+  "closeness": -21.056716220130312,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 31,
+  "n_vocab": 500,
+  "n_train": 1761,
+  "final_obj": -9649.37109375,
+  "final_quality": -82.25350952148438,
+  "runtime": 15293.37653708458,
+  "error": "",
+  "n_cognates": 1381
+}

@@ -1,0 +1,1212 @@
+linear_a_signs	linear_a_ipa	matched_word	score	top3_matches	ipa_length
+a-a-di-k	aadik	tʰri	-12.6005	tʰri (-12.60); eti (-12.89); kin (-13.94)	5
+a-a-di-ki	aadiki	tʰri	-16.0653	tʰri (-16.07); eti (-16.39); kin (-16.78)	6
+a-a-di-ki-t	aadikit	tʰri	-19.5178	tʰri (-19.52); kin (-19.89); eti (-19.90)	7
+a-a-di-ki-te	aadikite	pinke	-20.5574	pinke (-20.56); ke (-21.72); tʰri (-22.96)	8
+a-a-di-ki-te-s	aadikites	pinke	-24.0597	pinke (-24.06); ad (-24.55); ke (-25.23)	9
+a-a-di-ki-te-si	aadikitesi	pinke	-27.5607	pinke (-27.56); ad (-28.05); Μidas (-28.67)	10
+a-da-da	adada	tʰri	-14.8683	tʰri (-14.87); kin (-15.68); ke (-15.72)	5
+a-da-da-u	adadau	tʰri	-15.4084	tʰri (-15.41); kin (-15.68); knaikan (-18.27)	6
+a-da-da-u-t	adadaut	knais	-16.8058	knais (-16.81); tʰri (-18.24); kin (-19.18)	7
+a-da-da-u-ti	adadauti	knais	-19.6066	knais (-19.61); tʰri (-21.35); knaikan (-22.48)	8
+a-da-da-u-ti-n	adadautin	knais	-22.6945	knais (-22.69); tʰri (-24.56); ab (-25.24)	9
+a-da-da-u-ti-nu	adadautinu	knaikan	-24.4407	knaikan (-24.44); knais (-25.90); anar (-26.21)	10
+a-da-u-t	adaut	knais	-10.4829	knais (-10.48); tʰri (-12.59); kin (-13.23)	5
+a-da-u-ti	adauti	knais	-13.2835	knais (-13.28); tʰri (-15.68); knaikan (-16.27)	6
+a-da-u-ti-n	adautin	knais	-16.3715	knais (-16.37); ab (-18.22); tʰri (-18.89)	7
+a-da-u-ti-nu	adautinu	knaikan	-18.3151	knaikan (-18.32); knais (-19.58); anar (-19.59)	8
+a-da-u-ti-nu-i	adautinui	knaikan	-21.8105	knaikan (-21.81); knais (-22.85); anar (-23.09)	9
+a-da-u-ti-nu-i-n	adautinuin	knaikan	-25.3031	knaikan (-25.30); knais (-26.16); anar (-26.59)	10
+a-da-wa	adawa	tʰri	-15.0245	tʰri (-15.02); kin (-16.07); ke (-16.11)	5
+a-da-wa-i	adawai	tʰri	-18.018	tʰri (-18.02); kin (-19.34); ke (-19.40)	6
+a-da-wa-i-j	adawaij	tʰri	-21.1146	tʰri (-21.11); eitou (-22.52); kin (-22.66)	7
+a-da-wa-i-ja	adawaija	tʰri	-24.2791	tʰri (-24.28); eitou (-25.89); kin (-26.00)	8
+a-di-ki	adiki	tʰri	-12.5632	tʰri (-12.56); kin (-13.27); eti (-13.29)	5
+a-di-ki-t	adikit	tʰri	-16.0155	tʰri (-16.02); kin (-16.39); eti (-16.79)	6
+a-di-ki-te	adikite	pinke	-17.0517	pinke (-17.05); ke (-18.22); tʰri (-19.46)	7
+a-di-ki-te-s	adikites	pinke	-20.5539	pinke (-20.55); ad (-21.04); ke (-21.72)	8
+a-di-ki-te-si	adikitesi	pinke	-24.055	pinke (-24.05); ad (-24.55); ke (-25.23)	9
+a-di-ki-te-si-r	adikitesir	pinke	-27.5548	pinke (-27.55); ad (-28.05); Μidas (-28.56)	10
+a-di-ki-te-t	adikitet	pinke	-20.5539	pinke (-20.55); ke (-21.72); akala (-22.84)	8
+a-di-ki-te-te	adikitete	pinke	-23.072	pinke (-23.07); ke (-24.54); kin (-26.23)	9
+a-di-ki-te-te-r	adikiteter	pinke	-26.577	pinke (-26.58); ke (-28.05); kin (-29.58)	10
+a-di-ki-tu	adikitu	kin	-14.0205	kin (-14.02); knaikan (-15.97); matar (-17.41)	7
+a-di-ki-tu-j	adikituj	kin	-17.5277	kin (-17.53); knaikan (-19.47); pinke (-20.29)	8
+a-di-ki-tu-ja	adikituja	kin	-21.0349	kin (-21.03); knaikan (-22.98); aoːroː (-23.20)	9
+a-di-ki-tu-ja-s	adikitujas	kin	-24.5421	kin (-24.54); aoːroː (-26.01); knaikan (-26.49)	10
+a-e-a-di	aeadi	e-	-12.9775	e- (-12.98); eti (-13.96); ke (-16.39)	5
+a-e-a-di-k	aeadik	eti	-11.2037	eti (-11.20); tʰri (-16.10); e- (-16.20)	6
+a-e-a-di-ki	aeadiki	eti	-14.7109	eti (-14.71); e- (-19.48); tʰri (-19.56)	7
+a-e-a-di-ki-t	aeadikit	eti	-18.2181	eti (-18.22); e- (-22.81); tʰri (-23.02)	8
+a-e-a-di-ki-te	aeadikite	eti	-21.7253	eti (-21.73); pinke (-24.06); estaes (-24.94)	9
+a-e-a-di-ki-te-t	aeadikitet	eti	-25.2324	eti (-25.23); pinke (-27.56); estaes (-27.76)	10
+a-i-da-a	aidaa	tʰri	-15.7106	tʰri (-15.71); kin (-16.37); ke (-16.39)	5
+a-i-da-a-u	aidaau	tʰri	-16.1052	tʰri (-16.11); kin (-16.35); matar (-19.05)	6
+a-i-da-j	aidaj	eitou	-15.5736	eitou (-15.57); tʰri (-15.71); kin (-16.37)	5
+a-i-da-ja	aidaja	tʰri	-18.529	tʰri (-18.53); eitou (-18.81); autos (-19.50)	6
+a-i-da-ja-s	aidajas	tʰri	-21.5232	tʰri (-21.52); eitou (-22.10); ad (-22.58)	7
+a-i-na-j	ainaj	baɡo	-13.2595	baɡo (-13.26); bedu (-13.96); ab (-17.03)	5
+a-i-na-ja	ainaja	baɡo	-16.7654	baɡo (-16.77); bedu (-17.47); bekos (-20.21)	6
+a-i-na-ja-r	ainajar	baɡo	-20.2708	baɡo (-20.27); bedu (-20.97); onoman (-22.63)	7
+a-i-na-ja-re	ainajare	baɡo	-23.7757	baɡo (-23.78); bedu (-24.26); onoman (-25.43)	8
+a-i-na-ja-re-t	ainajaret	onoman	-26.0834	onoman (-26.08); baɡo (-27.07); bedu (-27.58)	9
+a-i-na-ja-re-ta	ainajareta	onoman	-28.927	onoman (-28.93); ab- (ab-) (-29.30); baɡo (-30.39)	10
+a-i-nwa	ainwa	ab	-17.0286	ab (-17.03); e- (-17.54); baɡo (-18.75)	5
+a-i-nwa-z	ainwaz	ab	-19.5002	ab (-19.50); e- (-20.73); baɡo (-20.76)	6
+a-i-nwa-za	ainwaza	ab	-23.0004	ab (-23.00); baɡo (-23.67); ab- (ab-) (-23.86)	7
+a-i-nwa-za-*56	ainwazaΦ	ab- (ab-)	-24.8031	ab- (ab-) (-24.80); bedu (-25.16); ab (-26.50)	8
+a-i-nwa-za-*56-n	ainwazaΦn	ab- (ab-)	-27.1323	ab- (ab-) (-27.13); bedu (-27.98); e- (-28.02)	9
+a-i-nwa-za-*56-ni	ainwazaΦni	ab- (ab-)	-29.7438	ab- (ab-) (-29.74); e- (-30.88); bedu (-31.07)	10
+a-i-*301-ti	aiΘti	ab	-16.7665	ab (-16.77); as (-16.77); ad (-16.77)	5
+a-i-*301-ti-j	aiΘtij	waso	-18.797	waso (-18.80); baɡo (-18.80); autos (-19.57)	6
+a-i-*301-ti-ja	aiΘtija	aoːroː	-21.115	aoːroː (-21.11); autos (-22.18); waso (-22.29)	7
+a-i-*301-ti-ja-s	aiΘtijas	ad	-21.0369	ad (-21.04); aoːroː (-22.78); autos (-25.11)	8
+a-i-*301-ti-ja-sa	aiΘtijasa	ad	-24.5441	ad (-24.54); aoːroː (-25.13); autos (-28.17)	9
+a-i-*301-ti-ja-sa-s	aiΘtijasas	ad	-27.3605	ad (-27.36); aoːroː (-27.79); ab- (ab-) (-31.30)	10
+a-i-*301-u-j	aiΘuj	waso	-13.9757	waso (-13.98); aoːroː (-15.53); ew (-16.11)	5
+a-i-*301-u-ja	aiΘuja	aoːroː	-14.9969	aoːroː (-15.00); waso (-17.48); ew (-19.61)	6
+a-i-*301-u-t	aiΘut	waso	-13.9927	waso (-13.99); anar (-15.95); knais (-16.09)	5
+a-i-*301-u-ti	aiΘuti	waso	-16.7935	waso (-16.79); anar (-18.82); knais (-18.89)	6
+a-i-*301-u-ti-n	aiΘutin	ab	-18.2217	ab (-18.22); waso (-19.88); anar (-21.93)	7
+a-i-*301-u-ti-nu	aiΘutinu	anar	-19.592	anar (-19.59); ab (-21.73); onoman (-23.03)	8
+a-i-*301-u-ti-nu-j	aiΘutinuj	waso	-23.0799	waso (-23.08); anar (-23.09); baɡo (-23.58)	9
+a-i-*301-u-ti-nu-ja	aiΘutinuja	aoːroː	-25.0733	aoːroː (-25.07); waso (-26.58); anar (-26.59)	10
+a-i-*301-wa	aiΘwa	e-	-17.5387	e- (-17.54); ke (-19.32); as (-19.32)	5
+a-i-*301-wa-e	aiΘwae	ke	-19.8841	ke (-19.88); e- (-20.42); ew (-21.40)	6
+a-i-*301-wa-e-a	aiΘwaea	e-	-21.0376	e- (-21.04); ke (-23.38); ew (-24.34)	7
+a-i-*301-wa-e-a-d	aiΘwaead	e-	-23.8799	e- (-23.88); daket (-25.08); eti (-25.14)	8
+a-i-*301-wa-e-a-di	aiΘwaeadi	e-	-26.9912	e- (-26.99); eti (-27.99); daket (-28.57)	9
+a-i-*301-wa-e-a-di-k	aiΘwaeadik	eti	-25.2289	eti (-25.23); tʰri (-30.07); e- (-30.22)	10
+a-i-*301-wa-j	aiΘwaj	e-	-20.7328	e- (-20.73); baɡo (-20.93); bedu (-20.93)	6
+a-i-*301-wa-ja	aiΘwaja	aoːroː	-23.2191	aoːroː (-23.22); e- (-23.97); bedu (-24.43)	7
+a-i-*301-wa-ja-a	aiΘwajaa	aoːroː	-25.9579	aoːroː (-25.96); e- (-27.24); deoːs (-27.65)	8
+a-i-*301-wa-ja-a-d	aiΘwajaad	aoːroː	-28.9214	aoːroː (-28.92); autos (-29.67); ab- (ab-) (-30.10)	9
+a-i-*301-wa-ja-a-di	aiΘwajaadi	aoːroː	-31.971	aoːroː (-31.97); autos (-32.48); ab- (ab-) (-32.67)	10
+a-i-*301-wa-ja-a-j	aiΘwajaaj	eitou	-27.9104	eitou (-27.91); semou (-27.91); aoːroː (-28.80)	9
+a-i-*301-wa-ja-a-ja	aiΘwajaaja	aoːroː	-30.1701	aoːroː (-30.17); eitou (-31.42); semou (-31.42)	10
+a-i-*301-wa-ja-j	aiΘwajaj	semou	-24.4129	semou (-24.41); eitou (-24.41); aoːroː (-25.86)	8
+a-i-*301-wa-ja-ja	aiΘwajaja	aoːroː	-27.3483	aoːroː (-27.35); eitou (-27.92); semou (-27.92)	9
+a-i-*301-wa-ja-ja-a	aiΘwajajaa	aoːroː	-30.2068	aoːroː (-30.21); eitou (-31.42); semou (-31.42)	10
+a-i-*301-wa-ja-ja-d	aiΘwajajad	aoːroː	-30.2068	aoːroː (-30.21); eitou (-31.42); semou (-31.42)	10
+a-i-*301-wa-ja-ja-i	aiΘwajajai	aoːroː	-30.2068	aoːroː (-30.21); eitou (-31.42); semou (-31.42)	10
+a-i-*301-wa-ja-ja-j	aiΘwajajaj	semou	-30.1113	semou (-30.11); eitou (-30.11); aoːroː (-30.18)	10
+a-i-*301-wa-ja-ja-s	aiΘwajajas	aoːroː	-30.2068	aoːroː (-30.21); eitou (-31.42); semou (-31.42)	10
+a-i-*301-wa-ja-s	aiΘwajas	ad	-25.9512	ad (-25.95); aoːroː (-25.96); e- (-27.24)	8
+a-i-*301-wa-ja-se	aiΘwajase	deos	-28.6692	deos (-28.67); aoːroː (-28.92); ad (-29.45)	9
+a-i-*301-wa-ja-se-k	aiΘwajasek	deos	-31.4853	deos (-31.49); e- (-31.52); eti (-31.73)	10
+a-i-*301-wa-ja-t	aiΘwajat	aoːroː	-25.9576	aoːroː (-25.96); e- (-27.24); Μidas (-27.36)	8
+a-i-*301-wa-ja-tu	aiΘwajatu	onoman	-25.1031	onoman (-25.10); anar (-25.74); matar (-27.24)	9
+a-i-*301-wa-ja-tu-r	aiΘwajatur	onoman	-28.5396	onoman (-28.54); anar (-29.15); aoːroː (-30.26)	10
+a-ja-a-d	ajaad	autos	-16.7302	autos (-16.73); aoːroː (-17.29); ke (-17.38)	5
+a-ja-a-di	ajaadi	autos	-19.5372	autos (-19.54); aoːroː (-19.99); tʰri (-20.25)	6
+a-ja-a-di-k	ajaadik	eti	-19.3962	eti (-19.40); tʰri (-19.60); kin (-20.95)	7
+a-ja-a-di-ki	ajaadiki	eti	-22.9034	eti (-22.90); tʰri (-23.06); kin (-23.79)	8
+a-ja-a-di-ki-t	ajaadikit	eti	-26.4106	eti (-26.41); tʰri (-26.52); kin (-26.91)	9
+a-ja-a-di-ki-te	ajaadikite	pinke	-27.5671	pinke (-27.57); ke (-28.74); eti (-29.91)	10
+a-ja-a-j	ajaaj	semou	-16.2683	semou (-16.27); eitou (-16.27); aoːroː (-16.93)	5
+a-ja-a-ja	ajaaja	aoːroː	-17.4028	aoːroː (-17.40); semou (-19.77); eitou (-19.77)	6
+a-ja-di	ajadi	autos	-16.0504	autos (-16.05); tʰri (-16.76); ke (-16.77)	5
+a-ja-di-k	ajadik	tʰri	-16.0999	tʰri (-16.10); eti (-16.11); kin (-17.44)	6
+a-ja-di-ki	ajadiki	tʰri	-19.5649	tʰri (-19.56); eti (-19.62); kin (-20.29)	7
+a-ja-di-ki-t	ajadikit	tʰri	-23.0178	tʰri (-23.02); eti (-23.12); kin (-23.40)	8
+a-ja-di-ki-tu	ajadikitu	kin	-21.0349	kin (-21.03); knaikan (-22.94); matar (-23.34)	9
+a-ja-di-ki-tu-j	ajadikituj	kin	-24.5421	kin (-24.54); knaikan (-26.44); matar (-26.84)	10
+a-ja-i-n	ajain	ab	-16.5591	ab (-16.56); aoːroː (-17.29); e- (-17.54)	5
+a-ja-i-n-w	ajainw	aoːroː	-19.9877	aoːroː (-19.99); ab (-20.05); e- (-20.73)	6
+a-ja-i-nwa	ajainwa	aoːroː	-22.8504	aoːroː (-22.85); ab (-23.55); ab- (ab-) (-23.63)	7
+a-ja-i-nwa-z	ajainwaz	aoːroː	-25.8214	aoːroː (-25.82); ab- (ab-) (-25.96); ab (-26.15)	8
+a-ja-i-nwa-za	ajainwaza	ab- (ab-)	-28.5719	ab- (ab-) (-28.57); aoːroː (-28.87); ab (-29.65)	9
+a-ja-i-nwa-za-*56	ajainwazaΦ	ab- (ab-)	-30.4346	ab- (ab-) (-30.43); aoːroː (-31.98); bedu (-32.17)	10
+a-ja-ja	ajaja	aoːroː	-14.6882	aoːroː (-14.69); semou (-16.31); eitou (-16.31)	5
+a-ja-ja-a	ajajaa	aoːroː	-17.4877	aoːroː (-17.49); semou (-19.81); eitou (-19.81)	6
+a-ja-ja-d	ajajad	aoːroː	-17.4877	aoːroː (-17.49); autos (-19.12); eitou (-19.76)	6
+a-ja-ja-di	ajajadi	aoːroː	-20.5488	aoːroː (-20.55); autos (-21.95); eitou (-23.22)	7
+a-ja-ja-di-k	ajajadik	eti	-22.7226	eti (-22.72); tʰri (-23.09); aoːroː (-23.71)	8
+a-ja-ja-di-ki	ajajadiki	eti	-26.2298	eti (-26.23); tʰri (-26.56); aoːroː (-26.93)	9
+a-ja-ja-di-ki-t	ajajadikit	eti	-29.737	eti (-29.74); tʰri (-30.01); aoːroː (-30.18)	10
+a-ja-ja-i	ajajai	aoːroː	-17.4877	aoːroː (-17.49); semou (-19.81); eitou (-19.81)	6
+a-ja-ja-i-n	ajajain	aoːroː	-20.5488	aoːroː (-20.55); ab (-23.24); eitou (-23.32)	7
+a-ja-ja-i-n-w	ajajainw	aoːroː	-23.7134	aoːroː (-23.71); deoːs (-26.69); ab (-26.74)	8
+a-ja-ja-i-nwa	ajajainwa	aoːroː	-26.9319	aoːroː (-26.93); ab- (ab-) (-28.39); deoːs (-29.88)	9
+a-ja-ja-i-nwa-z	ajajainwaz	aoːroː	-30.1831	aoːroː (-30.18); ab- (ab-) (-30.84); ab (-32.90)	10
+a-ja-ja-j	ajajaj	aoːroː	-17.4471	aoːroː (-17.45); semou (-17.92); eitou (-17.92)	6
+a-ja-ja-ja	ajajaja	aoːroː	-19.5607	aoːroː (-19.56); semou (-21.43); eitou (-21.43)	7
+a-ja-ja-s	ajajas	aoːroː	-17.4877	aoːroː (-17.49); ad (-19.22); eitou (-19.81)	6
+a-ja-ja-sa	ajajasa	aoːroː	-20.5488	aoːroː (-20.55); ad (-22.73); eitou (-23.32)	7
+a-ja-ja-sa-s	ajajasas	aoːroː	-23.7134	aoːroː (-23.71); ad (-25.41); Μidas (-26.40)	8
+a-ja-ja-sa-sa	ajajasasa	aoːroː	-26.9319	aoːroː (-26.93); ad (-28.91); Μidas (-29.44)	9
+a-ja-ja-sa-sa-r	ajajasasar	aoːroː	-30.1831	aoːroː (-30.18); onoman (-30.54); ad (-32.42)	10
+a-ja-ja-w	ajajaw	aoːroː	-17.4877	aoːroː (-17.49); semou (-19.81); eitou (-19.81)	6
+a-ja-ja-wa	ajajawa	aoːroː	-20.5488	aoːroː (-20.55); semou (-23.32); eitou (-23.32)	7
+a-ja-re	ajare	onoman	-15.6306	onoman (-15.63); ke (-16.56); e- (-17.13)	5
+a-ja-re-t	ajaret	onoman	-16.2808	onoman (-16.28); e- (-17.54); matar (-19.57)	6
+a-ja-re-ta	ajareta	onoman	-19.1244	onoman (-19.12); e- (-20.38); matar (-22.18)	7
+a-ja-sa	ajasa	ad	-16.113	ad (-16.11); aoːroː (-17.29); e- (-17.54)	5
+a-ja-sa-s	ajasas	ad	-18.7259	ad (-18.73); aoːroː (-19.99); Μidas (-20.12)	6
+a-ja-sa-sa	ajasasa	ad	-22.2304	ad (-22.23); aoːroː (-22.85); Μidas (-23.14)	7
+a-ja-sa-sa-r	ajasasar	ad	-25.7348	ad (-25.73); aoːroː (-25.82); onoman (-25.95)	8
+a-ja-sa-sa-ra	ajasasara	onoman	-28.7579	onoman (-28.76); aoːroː (-28.87); ad (-29.24)	9
+a-ja-sa-sa-ra-m	ajasasaram	onoman	-31.8491	onoman (-31.85); aoːroː (-31.98); ab- (ab-) (-32.67)	10
+a-ja-se	ajase	deos	-14.6727	deos (-14.67); ad (-16.11); ke (-16.56)	5
+a-ja-se-k	ajasek	deos	-17.4764	deos (-17.48); e- (-17.54); eti (-17.90)	6
+a-ja-se-ka	ajaseka	e-	-20.3791	e- (-20.38); deos (-20.56); eti (-21.38)	7
+a-ja-se-ka-n	ajasekan	e-	-23.4886	e- (-23.49); deos (-23.77); eti (-24.86)	8
+a-ja-se-ka-na	ajasekana	e-	-26.712	e- (-26.71); deos (-27.04); deoːs (-27.91)	9
+a-ja-se-ka-na-s	ajasekanas	Μidas	-29.2504	Μidas (-29.25); e- (-30.00); deos (-30.35)	10
+a-ja-tu	ajatu	onoman	-11.8483	onoman (-11.85); anar (-12.35); matar (-14.54)	5
+a-ja-tu-r	ajatur	onoman	-15.2218	onoman (-15.22); anar (-15.67); aoːroː (-17.39)	6
+a-ja-tu-ru	ajaturu	anar	-16.6395	anar (-16.64); onoman (-16.86); aoːroː (-19.85)	7
+a-ja-tu-ru-s	ajaturus	anar	-20.1212	anar (-20.12); onoman (-20.35); ad (-21.04)	8
+a-ja-tu-ru-sa	ajaturusa	anar	-23.6028	anar (-23.60); onoman (-23.83); ad (-24.54)	9
+a-ja-tu-ru-sa-i	ajaturusai	anar	-27.0844	anar (-27.08); onoman (-27.31); ad (-28.05)	10
+a-ja-wa	ajawa	aoːroː	-17.2864	aoːroː (-17.29); e- (-17.54); deoːs (-18.21)	5
+a-ka-na	akana	ab	-16.7665	ab (-16.77); Μidas (-17.31); eti (-17.42)	5
+a-ka-na-s	akanas	Μidas	-16.818	Μidas (-16.82); ad (-19.22); ab (-20.26)	6
+a-ka-na-si	akanasi	Μidas	-19.627	Μidas (-19.63); ad (-22.73); bedu (-23.57)	7
+a-ma-i-n	amain	ab	-16.5591	ab (-16.56); e- (-17.54); ke (-19.32)	5
+a-ma-i-na	amaina	ab	-20.0537	ab (-20.05); e- (-20.73); baɡo (-22.44)	6
+a-ma-i-na-j	amainaj	baɡo	-19.8466	baɡo (-19.85); bedu (-20.96); ab (-23.55)	7
+a-ma-i-na-ja	amainaja	baɡo	-23.3529	baɡo (-23.35); bedu (-24.46); ab- (ab-) (-26.03)	8
+a-ma-i-na-ja-r	amainajar	baɡo	-26.8589	baɡo (-26.86); bedu (-27.96); ab- (ab-) (-28.74)	9
+a-ma-i-na-ja-re	amainajare	baɡo	-30.3646	baɡo (-30.36); bedu (-31.26); ab- (ab-) (-31.50)	10
+a-ma-na	amana	ab	-16.7665	ab (-16.77); e- (-17.54); baɡo (-19.11)	5
+a-ma-na-d	amanad	breit	-19.7277	breit (-19.73); ab (-20.26); e- (-20.73)	6
+a-ma-na-da	amanada	breit	-23.2156	breit (-23.22); bekos (-23.59); tʰri (-23.73)	7
+a-ma-na-da-w	amanadaw	tʰri	-26.2063	tʰri (-26.21); ab- (ab-) (-26.60); bekos (-26.68)	8
+a-ma-na-da-wa	amanadawa	tʰri	-29.0349	tʰri (-29.03); ab- (ab-) (-29.09); bekos (-29.88)	9
+a-ma-na-da-wa-i	amanadawai	ab- (ab-)	-31.545	ab- (ab-) (-31.55); tʰri (-32.03); tʰri (tʰri) (-32.89)	10
+a-ma-si	amasi	ad	-16.113	ad (-16.11); e- (-17.54); Μidas (-17.57)	5
+a-ma-si-r	amasir	ad	-19.6125	ad (-19.61); Μidas (-20.65); e- (-20.73)	6
+a-ma-si-ru	amasiru	ew	-22.577	ew (-22.58); kin (-22.63); semoun (-22.76)	7
+a-ma-si-ru-t	amasirut	waso	-24.5137	waso (-24.51); Μidas (-25.13); anar (-25.84)	8
+a-ma-si-ru-te	amasirute	edaes	-27.1886	edaes (-27.19); waso (-27.31); Μidas (-28.00)	9
+a-ma-te	amate	akke	-14.6632	akke (-14.66); ke (-16.56); ad (-16.77)	5
+a-me-i-t	ameit	e-	-13.3751	e- (-13.38); ke (-17.03); ew (-17.03)	5
+a-me-i-ti	ameiti	e-	-16.4818	e- (-16.48); edaes (-20.11); estaes (-20.23)	6
+a-me-u-n	ameun	ew	-11.2074	ew (-11.21); e- (-13.38); kin (-16.34)	5
+a-me-u-na	ameuna	ew	-14.7146	ew (-14.71); e- (-16.48); kin (-19.84)	6
+a-me-u-na-k	ameunak	ew	-18.2217	ew (-18.22); tʰri (-18.37); e- (-19.70)	7
+a-me-u-na-ka	ameunaka	ew	-21.7289	ew (-21.73); tʰri (-21.87); e- (-22.99)	8
+a-me-u-na-ka-n	ameunakan	ew	-25.2361	ew (-25.24); tʰri (-25.38); e- (-26.32)	9
+a-me-u-na-ka-na	ameunakana	ew	-28.7433	ew (-28.74); tʰri (-28.89); e- (-29.67)	10
+a-me-u-na-r	ameunar	ew	-18.2217	ew (-18.22); e- (-19.70); kin (-23.35)	7
+a-me-u-na-ru	ameunaru	ew	-21.0351	ew (-21.04); e- (-22.99); semoun (-23.96)	8
+a-me-u-na-ru-k	ameunaruk	tʰri	-23.7487	tʰri (-23.75); ew (-24.54); aini (-25.62)	9
+a-me-u-na-ru-ka	ameunaruka	tʰri (tʰri)	-26.9701	tʰri (tʰri) (-26.97); tʰri (-27.26); ew (-28.05)	10
+a-na-da	anada	breit	-16.2989	breit (-16.30); bekos (-16.63); tʰri (-16.76)	5
+a-na-da-w	anadaw	tʰri	-19.2115	tʰri (-19.21); bekos (-19.72); breit (-19.78)	6
+a-na-da-wa	anadawa	tʰri	-22.0323	tʰri (-22.03); bekos (-22.92); kin (-23.08)	7
+a-na-da-wa-i	anadawai	tʰri	-25.0277	tʰri (-25.03); ab- (ab-) (-25.74); bekos (-26.19)	8
+a-na-da-wa-i-j	anadawaij	baɡo	-26.5433	baɡo (-26.54); bedu (-26.67); bekos (-27.69)	9
+a-na-da-wa-i-ja	anadawaija	baɡo	-30.0493	baɡo (-30.05); bedu (-30.18); ab- (ab-) (-30.55)	10
+a-na-i-*301	anaiΘ	ab	-17.3848	ab (-17.38); e- (-17.54); baɡo (-18.48)	5
+a-na-i-*301-t	anaiΘt	baɡo	-18.1612	baɡo (-18.16); ab (-20.26); e- (-20.73)	6
+a-na-i-*301-ti	anaiΘti	baɡo	-20.972	baɡo (-20.97); ab- (ab-) (-21.41); ab (-23.38)	7
+a-na-i-*301-ti-j	anaiΘtij	baɡo	-20.8856	baɡo (-20.89); bedu (-23.33); ab- (ab-) (-23.40)	8
+a-na-i-*301-ti-ja	anaiΘtija	baɡo	-24.3792	baɡo (-24.38); ab- (ab-) (-25.89); bedu (-26.84)	9
+a-na-i-*301-ti-ja-s	anaiΘtijas	baɡo	-27.8726	baɡo (-27.87); ad (-28.05); ab- (ab-) (-28.62)	10
+a-na-i-*301-u	anaiΘu	ew	-19.2234	ew (-19.22); kin (-19.31); e- (-20.73)	6
+a-na-i-*301-u-t	anaiΘut	waso	-21.0067	waso (-21.01); bratere (-21.61); baɡo (-21.66)	7
+a-na-i-*301-u-ti	anaiΘuti	ab- (ab-)	-23.6497	ab- (ab-) (-23.65); waso (-23.81); bratere (-24.00)	8
+a-na-i-*301-u-ti-n	anaiΘutin	ab- (ab-)	-24.715	ab- (ab-) (-24.71); ab (-25.23); baɡo (-25.75)	9
+a-na-i-*301-u-ti-nu	anaiΘutinu	anar	-26.2118	anar (-26.21); ab- (ab-) (-26.72); bratere (-27.47)	10
+a-na-si	anasi	ad	-16.113	ad (-16.11); bedu (-16.61); ab (-17.38)	5
+a-na-si-s	anasis	ad	-18.7259	ad (-18.73); bedu (-19.26); Μidas (-20.12)	6
+a-na-si-si	anasisi	ad	-22.2304	ad (-22.23); bedu (-22.31); Μidas (-23.14)	7
+a-na-si-si-r	anasisir	bedu	-25.5062	bedu (-25.51); ad (-25.73); ab- (ab-) (-25.74)	8
+a-na-ti	anati	baɡo	-13.9703	baɡo (-13.97); ab (-16.39); as (-16.77)	5
+a-na-ti-*301	anatiΘ	baɡo	-17.0592	baɡo (-17.06); ab (-19.61); as (-19.88)	6
+a-na-ti-*301-w	anatiΘw	baɡo	-20.2654	baɡo (-20.27); ab- (ab-) (-22.64); ab (-22.90)	7
+a-na-ti-*301-wa	anatiΘwa	baɡo	-23.5361	baɡo (-23.54); ab- (ab-) (-25.04); ab (-26.23)	8
+a-na-ti-*301-wa-j	anatiΘwaj	baɡo	-23.5434	baɡo (-23.54); bedu (-26.67); ab- (ab-) (-27.53)	9
+a-na-ti-*301-wa-ja	anatiΘwaja	baɡo	-27.0448	baɡo (-27.04); aoːroː (-29.96); ab- (ab-) (-30.10)	10
+a-ra-ma	arama	e-	-17.5387	e- (-17.54); matar (-18.57); ke (-19.32)	5
+a-ra-ma-n	araman	ab	-19.8841	ab (-19.88); e- (-20.73); matar (-21.64)	6
+a-ra-ma-na	aramana	ab	-23.3807	ab (-23.38); e- (-23.97); matar (-24.79)	7
+a-ra-ma-na-d	aramanad	ab- (ab-)	-25.8943	ab- (ab-) (-25.89); matar (-26.05); breit (-26.61)	8
+a-ra-ma-na-da	aramanada	ab- (ab-)	-28.3378	ab- (ab-) (-28.34); matar (-28.90); breit (-30.10)	9
+a-ra-ma-na-da-w	aramanadaw	ab- (ab-)	-31.1054	ab- (ab-) (-31.11); matar (-32.01); tʰri (-33.19)	10
+a-ra-me	arame	ke	-16.5591	ke (-16.56); e- (-17.13); ew (-17.94)	5
+a-ra-me-i	aramei	e-	-17.5422	e- (-17.54); ke (-20.05); ew (-20.86)	6
+a-ra-me-i-t	arameit	e-	-20.3791	e- (-20.38); matar (-22.44); ke (-23.55)	7
+a-ra-me-i-ti	arameiti	e-	-23.4886	e- (-23.49); matar (-25.16); ab- (ab-) (-25.78)	8
+a-ra-me-u	arameu	ew	-14.7128	ew (-14.71); e- (-17.54); matar (-17.97)	6
+a-ra-me-u-n	arameun	ew	-18.22	ew (-18.22); e- (-20.38); matar (-21.47)	7
+a-ra-me-u-na	arameuna	ew	-21.7271	ew (-21.73); e- (-23.49); matar (-24.96)	8
+a-ra-me-u-na-k	arameunak	tʰri	-24.5429	tʰri (-24.54); ew (-25.23); aini (-26.32)	9
+a-ra-me-u-na-ka	arameunaka	tʰri	-28.05	tʰri (-28.05); ew (-28.74); aini (-29.82)	10
+a-ra-me-u-na-r	arameunar	ew	-25.2343	ew (-25.23); e- (-26.71); ab- (ab-) (-28.39)	9
+a-ra-me-u-na-ru	arameunaru	ew	-28.0478	ew (-28.05); e- (-30.00); semoun (-30.35)	10
+a-re-di	aredi	e-	-13.3751	e- (-13.38); eti (-13.98); matar (-15.98)	5
+a-re-di-j	aredij	e-	-16.4818	e- (-16.48); eitou (-16.79); bekos (-16.98)	6
+a-re-di-ja	aredija	e-	-19.7037	e- (-19.70); bekos (-19.82); eitou (-20.03)	7
+a-re-ja	areja	e-	-13.3751	e- (-13.38); semou (-15.68); deoːs (-15.69)	5
+a-re-ta	areta	e-	-13.3751	e- (-13.38); matar (-15.17); ab (-16.77)	5
+a-ru-ka	aruka	tʰri	-11.9787	tʰri (-11.98); aini (-13.24); eti (-16.34)	5
+a-ru-ka-n	arukan	tʰri	-15.4857	tʰri (-15.49); aini (-16.75); eti (-19.84)	6
+a-ru-ka-na	arukana	tʰri	-18.9927	tʰri (-18.99); aini (-20.25); tʰri (tʰri) (-22.75)	7
+a-ru-ka-na-s	arukanas	tʰri	-22.4997	tʰri (-22.50); Μidas (-22.75); aini (-23.76)	8
+a-sa-ra	asara	ad	-16.7665	ad (-16.77); e- (-17.54); deoːs (-17.60)	5
+a-sa-ra-m	asaram	ad	-20.2581	ad (-20.26); deoːs (-20.50); e- (-20.73)	6
+a-sa-ra-ma	asarama	deoːs	-23.5031	deoːs (-23.50); ad (-23.75); e- (-23.97)	7
+a-sa-ra-ma-n	asaraman	deoːs	-26.5767	deoːs (-26.58); ab (-26.61); e- (-27.24)	8
+a-sa-ra-ma-na	asaramana	deoːs	-29.7038	deoːs (-29.70); ab- (ab-) (-29.72); ab (-30.11)	9
+a-sa-ra-ma-na-d	asaramanad	daket	-30.6052	daket (-30.61); ab- (ab-) (-31.05); deoːs (-32.87)	10
+a-sa-ra-me	asarame	deos	-21.6314	deos (-21.63); deoːs (-23.20); ke (-23.24)	7
+a-sa-ra-me-i	asaramei	deos	-24.4567	deos (-24.46); e- (-24.53); deoːs (-25.93)	8
+a-sa-ra-me-i-t	asarameit	e-	-27.3798	e- (-27.38); deos (-27.55); zemeloːs (-28.69)	9
+a-sa-ra-me-i-ti	asarameiti	e-	-30.4932	e- (-30.49); deos (-30.76); ab- (ab-) (-31.21)	10
+a-sa-ra-me-u	asarameu	ew	-21.7254	ew (-21.73); deos (-24.46); e- (-24.53)	8
+a-sa-ra-me-u-n	asarameun	ew	-25.2326	ew (-25.23); e- (-27.38); deos (-27.55)	9
+a-sa-ra-me-u-na	asarameuna	ew	-28.7397	ew (-28.74); e- (-30.49); deos (-30.76)	10
+a-sa-sa	asasa	ad	-15.7212	ad (-15.72); Μidas (-17.24); deoːs (-17.44)	5
+a-sa-sa-r	asasar	ad	-19.2234	ad (-19.22); deoːs (-20.28); Μidas (-20.37)	6
+a-sa-sa-ra	asasara	ad	-22.7256	ad (-22.73); deoːs (-23.22); Μidas (-23.59)	7
+a-sa-sa-ra-m	asasaram	ad	-26.2276	ad (-26.23); deoːs (-26.25); Μidas (-26.87)	8
+a-sa-sa-ra-ma	asasarama	deoːs	-29.3401	deoːs (-29.34); ad (-29.73); ab- (ab-) (-30.10)	9
+a-sa-sa-ra-ma-n	asasaraman	deoːs	-32.4789	deoːs (-32.48); ab- (ab-) (-32.55); ad (-33.23)	10
+a-sa-sa-ra-me	asasarame	deos	-27.9315	deos (-27.93); deoːs (-29.14); daket (-29.39)	9
+a-sa-sa-ra-me-i	asasaramei	deos	-30.7675	deos (-30.77); e- (-31.52); deoːs (-32.01)	10
+a-sa-sa-ra-me-u	asasarameu	ew	-28.738	ew (-28.74); deos (-30.77); e- (-31.52)	10
+a-sa-u-n	asaun	ew	-16.113	ew (-16.11); kin (-16.34); ab (-16.56)	5
+a-sa-u-na	asauna	ew	-19.6125	ew (-19.61); kin (-19.84); ab (-20.05)	6
+a-sa-u-na-k	asaunak	tʰri	-18.3661	tʰri (-18.37); aini (-19.84); eti (-22.63)	7
+a-sa-u-na-ka	asaunaka	tʰri	-21.8732	tʰri (-21.87); aini (-23.34); ab- (ab-) (-26.03)	8
+a-sa-u-na-ka-n	asaunakan	tʰri	-25.3802	tʰri (-25.38); aini (-26.85); ab- (ab-) (-28.64)	9
+a-sa-u-na-ka-na	asaunakana	tʰri	-28.8872	tʰri (-28.89); aini (-30.35); ab- (ab-) (-31.27)	10
+a-se-ka	aseka	e-	-13.3751	e- (-13.38); deos (-13.55); eti (-14.47)	5
+a-se-ka-n	asekan	e-	-16.4818	e- (-16.48); deos (-16.76); eti (-17.95)	6
+a-se-ka-na	asekana	e-	-19.7037	e- (-19.70); deos (-20.03); deoːs (-20.95)	7
+a-se-ka-na-s	asekanas	Μidas	-22.7491	Μidas (-22.75); e- (-22.99); deos (-23.34)	8
+a-se-ka-na-si	asekanasi	Μidas	-25.5595	Μidas (-25.56); e- (-26.32); deos (-26.68)	9
+a-se-ka-na-si-s	asekanasis	Μidas	-28.3734	Μidas (-28.37); e- (-29.67); deos (-30.04)	10
+a-se-ra	asera	e-	-13.3751	e- (-13.38); deos (-13.55); deoːs (-15.16)	5
+a-se-ra-t	aserat	e-	-16.4818	e- (-16.48); deos (-16.76); zemeloːs (-17.76)	6
+a-se-ra-te	aserate	zemeloːs	-18.6412	zemeloːs (-18.64); e- (-19.70); deos (-19.86)	7
+a-si-i-p	asiip	deoːs	-12.2016	deoːs (-12.20); deos (-12.86); Μidas (-15.06)	5
+a-si-i-pi	asiipi	deoːs	-15.706	deoːs (-15.71); deos (-16.37); Μidas (-18.56)	6
+a-si-i-pi-n	asiipin	deoːs	-19.2087	deoːs (-19.21); deos (-19.87); Μidas (-22.05)	7
+a-si-i-pi-na	asiipina	deoːs	-22.7094	deoːs (-22.71); deos (-23.38); Μidas (-25.54)	8
+a-si-i-pi-na-m	asiipinam	deoːs	-26.2079	deoːs (-26.21); deos (-26.88); ab- (ab-) (-28.39)	9
+a-si-i-pi-na-ma	asiipinama	deoːs	-29.7038	deoːs (-29.70); deos (-30.38); ab- (ab-) (-30.87)	10
+a-si-ru	asiru	ew	-15.898	ew (-15.90); kin (-16.04); semoun (-16.29)	5
+a-si-ru-t	asirut	waso	-17.4997	waso (-17.50); matar (-19.13); anar (-19.21)	6
+a-si-ru-te	asirute	waso	-20.3006	waso (-20.30); edaes (-20.84); daket (-21.28)	7
+a-si-si	asisi	ad	-15.7212	ad (-15.72); Μidas (-17.24); deoːs (-17.44)	5
+a-si-si-r	asisir	ad	-19.2234	ad (-19.22); deoːs (-20.28); Μidas (-20.37)	6
+a-ta-i-*301	ataiΘ	ad	-16.113	ad (-16.11); as (-16.11); ab (-16.11)	5
+a-ta-i-*301-u	ataiΘu	anar	-15.6702	anar (-15.67); aoːroː (-18.06); matar (-18.53)	6
+a-ta-i-*301-u-j	ataiΘuj	aoːroː	-18.1433	aoːroː (-18.14); anar (-19.02); waso (-20.72)	7
+a-ta-i-*301-u-ja	ataiΘuja	aoːroː	-17.6132	aoːroː (-17.61); anar (-22.40); waso (-24.22)	8
+a-ta-i-*301-w	ataiΘw	ad	-19.3992	ad (-19.40); as (-19.40); ab (-19.40)	6
+a-ta-i-*301-wa	ataiΘwa	ab- (ab-)	-22.6273	ab- (ab-) (-22.63); aoːroː (-22.64); ad (-22.73)	7
+a-ta-i-*301-wa-e	ataiΘwae	akke	-23.3336	akke (-23.33); ab- (ab-) (-24.76); aoːroː (-25.53)	8
+a-ta-i-*301-wa-e-a	ataiΘwaea	akke	-26.8371	akke (-26.84); ab- (ab-) (-27.11); e- (-28.02)	9
+a-ta-i-*301-wa-e-a-d	ataiΘwaead	abberet	-28.5454	abberet (-28.55); daket (-29.53); ab- (ab-) (-29.63)	10
+a-ta-i-*301-wa-j	ataiΘwaj	ab- (ab-)	-24.759	ab- (ab-) (-24.76); aoːroː (-25.23); waso (-25.39)	8
+a-ta-i-*301-wa-ja	ataiΘwaja	aoːroː	-26.0551	aoːroː (-26.06); ab- (ab-) (-27.11); autos (-28.53)	9
+a-ta-i-*301-wa-ja-a	ataiΘwajaa	aoːroː	-28.6499	aoːroː (-28.65); ab- (ab-) (-29.63); autos (-31.55)	10
+a-ta-i-*301-wa-ja-j	ataiΘwajaj	aoːroː	-28.4453	aoːroː (-28.45); ab- (ab-) (-29.63); autos (-30.36)	10
+a-ta-i-*301-wa-ja-s	ataiΘwajas	ad	-28.0478	ad (-28.05); aoːroː (-28.65); ab- (ab-) (-29.63)	10
+a-ta-i-*301-wa-ja-t	ataiΘwajat	aoːroː	-28.6499	aoːroː (-28.65); ab- (ab-) (-29.45); akala (-30.51)	10
+a-ti-*301-w	atiΘw	ad	-16.113	ad (-16.11); as (-16.11); ab (-16.11)	5
+a-ti-*301-wa	atiΘwa	ad	-19.3992	ad (-19.40); as (-19.40); ab (-19.40)	6
+a-ti-*301-wa-j	atiΘwaj	baɡo	-22.0766	baɡo (-22.08); waso (-22.08); aoːroː (-22.25)	7
+a-ti-*301-wa-ja	atiΘwaja	aoːroː	-22.9917	aoːroː (-22.99); ab- (ab-) (-24.76); autos (-25.16)	8
+a-tu-ru	aturu	anar	-9.6807	anar (-9.68); aoːroː (-14.53); matar (-14.69)	5
+a-tu-ru-s	aturus	anar	-13.1609	anar (-13.16); ad (-14.02); aoːroː (-17.02)	6
+a-tu-ru-sa	aturusa	anar	-16.6411	anar (-16.64); ad (-17.53); aoːroː (-19.83)	7
+a-tu-ru-sa-i	aturusai	anar	-20.1213	anar (-20.12); ad (-21.04); aoːroː (-22.81)	8
+a-tu-ru-sa-i-d	aturusaid	anar	-23.6016	anar (-23.60); ad (-24.54); anar (anar) (-25.55)	9
+a-tu-ru-sa-i-da	aturusaida	anar	-27.0819	anar (-27.08); ad (-28.05); anar (anar) (-28.29)	10
+a-u-na-k	aunak	tʰri	-12.9295	tʰri (-12.93); aini (-13.92); eti (-16.04)	5
+a-u-na-ka	aunaka	tʰri	-16.4363	tʰri (-16.44); aini (-17.42); eti (-19.55)	6
+a-u-na-ka-n	aunakan	tʰri	-19.9429	tʰri (-19.94); aini (-20.92); ab (-22.90)	7
+a-u-na-ka-na	aunakana	tʰri	-23.4494	tʰri (-23.45); aini (-24.43); ab- (ab-) (-25.90)	8
+a-u-ti-n	autin	ab	-11.2074	ab (-11.21); waso (-12.87); anar (-15.60)	5
+a-u-ti-nu	autinu	anar	-13.2404	anar (-13.24); ab (-14.71); waso (-16.07)	6
+a-u-ti-nu-i	autinui	anar	-16.7332	anar (-16.73); ab (-18.22); waso (-19.34)	7
+a-u-ti-nu-i-n	autinuin	anar	-20.2258	anar (-20.23); ab (-21.04); waso (-22.65)	8
+a-u-ti-nu-i-na	autinuina	anar	-23.7182	anar (-23.72); ab (-24.54); ab- (ab-) (-25.28)	9
+a-u-ti-nu-i-na-i	autinuinai	ab- (ab-)	-26.2219	ab- (ab-) (-26.22); anar (-27.21); ab (-28.05)	10
+a-wa-i-j	awaij	e-	-17.5387	e- (-17.54); baɡo (-17.81); waso (-17.81)	5
+a-wa-i-ja	awaija	aoːroː	-20.3094	aoːroː (-20.31); e- (-20.73); bedu (-21.30)	6
+a-za-*56-n	azaΦn	e-	-14.0452	e- (-14.05); bedu (-14.65); ab (-16.24)	5
+a-za-*56-ni	azaΦni	e-	-16.8775	e- (-16.88); bedu (-17.74); ab (-19.74)	6
+da-da-u	dadau	tʰri	-11.9016	tʰri (-11.90); kin (-12.18); knaikan (-14.79)	5
+da-da-u-t	dadaut	knais	-13.2982	knais (-13.30); tʰri (-14.73); kin (-15.67)	6
+da-da-u-ti	dadauti	knais	-16.0989	knais (-16.10); tʰri (-17.84); knaikan (-18.97)	7
+da-da-u-ti-n	dadautin	knais	-19.1868	knais (-19.19); tʰri (-21.05); ab (-21.73)	8
+da-da-u-ti-nu	dadautinu	knaikan	-20.9371	knaikan (-20.94); knais (-22.39); anar (-22.88)	9
+da-da-u-ti-nu-i	dadautinui	knaikan	-24.4346	knaikan (-24.43); knais (-25.66); anar (-26.38)	10
+da-ja-j	dajaj	eitou	-13.7906	eitou (-13.79); tʰri (-14.51); semou (-15.36)	5
+da-ja-ja	dajaja	eitou	-17.2965	eitou (-17.30); tʰri (-17.61); aoːroː (-17.74)	6
+da-ja-s	dajas	tʰri	-14.5121	tʰri (-14.51); kin (-15.84); ad (-15.90)	5
+da-ma-t	damat	tʰri	-14.5121	tʰri (-14.51); akala (-15.76); kin (-15.84)	5
+da-ma-te	damate	ke	-14.7093	ke (-14.71); tʰri (-17.61); akke (-18.00)	6
+da-se-r	daser	ke	-11.2047	ke (-11.20); deos (-13.97); e- (-14.05)	5
+da-se-ra	dasera	ke	-14.711	ke (-14.71); e- (-16.88); deos (-17.06)	6
+da-se-ra-t	daserat	ke	-18.2173	ke (-18.22); e- (-19.99); deos (-20.27)	7
+da-se-ra-te	daserate	ke	-21.036	ke (-21.04); zemeloːs (-22.15); e- (-23.20)	8
+da-u-ti	dauti	knais	-9.7763	knais (-9.78); tʰri (-12.18); knaikan (-12.76)	5
+da-u-ti-n	dautin	knais	-12.8643	knais (-12.86); ab (-14.71); tʰri (-15.39)	6
+da-u-ti-nu	dautinu	knaikan	-14.8103	knaikan (-14.81); knais (-16.07); anar (-16.36)	7
+da-u-ti-nu-i	dautinui	knaikan	-18.3057	knaikan (-18.31); knais (-19.34); anar (-19.86)	8
+da-u-ti-nu-i-n	dautinuin	knaikan	-21.7982	knaikan (-21.80); knais (-22.65); anar (-23.36)	9
+da-u-ti-nu-i-na	dautinuina	knaikan	-25.2878	knaikan (-25.29); knais (-25.99); tʰri (tʰri) (-26.81)	10
+da-wa-i	dawai	tʰri	-14.5121	tʰri (-14.51); kin (-15.84); ke (-15.90)	5
+da-wa-i-j	dawaij	tʰri	-17.6084	tʰri (-17.61); kin (-19.15); ke (-19.22)	6
+da-wa-i-ja	dawaija	tʰri	-20.7727	tʰri (-20.77); kin (-22.49); ke (-22.58)	7
+di-ki-t	dikit	tʰri	-12.5113	tʰri (-12.51); kin (-12.88); eti (-13.96)	5
+di-ki-te	dikite	pinke	-13.5454	pinke (-13.55); ke (-14.71); tʰri (-15.95)	6
+di-ki-te-s	dikites	pinke	-17.0476	pinke (-17.05); ad (-17.53); ke (-18.22)	7
+di-ki-te-si	dikitesi	pinke	-20.5486	pinke (-20.55); ad (-21.04); ke (-21.72)	8
+di-ki-te-si-r	dikitesir	pinke	-24.0485	pinke (-24.05); ad (-24.55); ke (-25.23)	9
+di-ki-te-si-ra	dikitesira	pinke	-27.5472	pinke (-27.55); ad (-28.05); Μidas (-28.67)	10
+di-ki-te-t	dikitet	pinke	-17.0476	pinke (-17.05); ke (-18.22); tʰri (-19.39)	7
+di-ki-te-te	dikitete	pinke	-19.5654	pinke (-19.57); ke (-21.04); kin (-22.72)	8
+di-ki-te-te-r	dikiteter	pinke	-23.0704	pinke (-23.07); ke (-24.54); kin (-26.07)	9
+di-ki-te-te-re	dikitetere	pinke	-25.9355	pinke (-25.94); ke (-27.65); patereːs (-28.90)	10
+di-ki-tu	dikitu	kin	-10.5133	kin (-10.51); knaikan (-12.47); pinke (-13.98)	6
+di-ki-tu-j	dikituj	kin	-14.0205	kin (-14.02); knaikan (-15.98); pinke (-16.78)	7
+di-ki-tu-ja	dikituja	kin	-17.5277	kin (-17.53); knaikan (-19.48); aoːroː (-19.87)	8
+di-ki-tu-ja-s	dikitujas	kin	-21.0349	kin (-21.03); aoːroː (-22.67); knaikan (-22.99)	9
+e-a-di-k	eadik	eti	-7.6974	eti (-7.70); tʰri (-12.60); e- (-12.69)	5
+e-a-di-ki	eadiki	eti	-11.2046	eti (-11.20); e- (-15.98); tʰri (-16.07)	6
+e-a-di-ki-t	eadikit	eti	-14.7118	eti (-14.71); e- (-19.30); tʰri (-19.52)	7
+e-a-di-ki-te	eadikite	eti	-18.219	eti (-18.22); pinke (-20.56); estaes (-21.46)	8
+e-a-di-ki-te-t	eadikitet	eti	-21.7262	eti (-21.73); pinke (-24.06); estaes (-24.28)	9
+e-a-di-ki-te-te	eadikitete	eti	-25.2333	eti (-25.23); pinke (-26.58); estaes (-26.91)	10
+e-di-ja	edija	e-	-12.6937	e- (-12.69); eitou (-13.12); eti (-13.30)	5
+e-i-da-j	eidaj	e-	-12.6937	e- (-12.69); eitou (-12.73); eti (-13.57)	5
+e-i-da-ja	eidaja	eitou	-15.9596	eitou (-15.96); e- (-15.98); eti (-16.79)	6
+e-i-da-ja-j	eidajaj	eitou	-13.9004	eitou (-13.90); e- (-19.30); semou (-19.96)	7
+e-i-da-ja-ja	eidajaja	eitou	-17.4067	eitou (-17.41); e- (-22.66); bekos (-23.30)	8
+e-i-ja-s	eijas	e-	-12.6937	e- (-12.69); eitou (-15.65); ad (-15.90)	5
+e-i-ja-sa	eijasa	e-	-15.9787	e- (-15.98); deoːs (-18.86); eitou (-19.00)	6
+e-i-ja-sa-s	eijasas	e-	-19.3043	e- (-19.30); deoːs (-21.91); ad (-22.05)	7
+e-i-ja-sa-sa	eijasasa	e-	-22.6578	e- (-22.66); deoːs (-25.03); edaes (-25.41)	8
+e-i-ja-sa-u	eijasau	ew	-18.2147	ew (-18.21); e- (-19.30); semoun (-20.76)	7
+e-i-ja-sa-u-n	eijasaun	ew	-21.7219	ew (-21.72); e- (-22.66); aoːroː (-23.68)	8
+e-i-ja-sa-u-na	eijasauna	ew	-25.229	ew (-25.23); e- (-26.03); aoːroː (-26.42)	9
+e-i-ja-sa-u-na-k	eijasaunak	tʰri	-27.7372	tʰri (-27.74); ew (-28.74); aoːroː (-29.37)	10
+e-i-ke-t	eiket	e-	-12.4698	e- (-12.47); eti (-13.87); Μidas (-15.27)	5
+e-i-ke-ta	eiketa	e-	-15.6434	e- (-15.64); eti (-17.35); Μidas (-18.11)	6
+e-i-ke-ta-n	eiketan	ab	-18.2217	ab (-18.22); e- (-18.90); eti (-20.83)	7
+e-i-ke-ta-na	eiketana	ab	-21.728	ab (-21.73); e- (-22.21); ab- (ab-) (-24.24)	8
+e-i-ke-ta-na-i	eiketanai	ab- (ab-)	-24.884	ab- (ab-) (-24.88); ab (-25.23); e- (-25.55)	9
+e-i-ke-ta-na-i-*301	eiketanaiΘ	ab- (ab-)	-27.3372	ab- (ab-) (-27.34); ab (-28.74); e- (-28.92)	10
+e-ka-na	ekana	e-	-12.6937	e- (-12.69); eti (-14.52); eitou (-15.18)	5
+e-ka-na-s	ekanas	e-	-15.9787	e- (-15.98); Μidas (-16.82); eti (-18.00)	6
+e-ka-na-si	ekanasi	e-	-19.3043	e- (-19.30); Μidas (-19.63); eitou (-21.45)	7
+e-ka-na-si-s	ekanasis	Μidas	-22.4383	Μidas (-22.44); e- (-22.66); eitou (-24.66)	8
+e-ka-na-si-si	ekanasisi	Μidas	-25.53	Μidas (-25.53); e- (-26.03); eitou (-27.91)	9
+e-ka-na-si-si-r	ekanasisir	Μidas	-28.7379	Μidas (-28.74); e- (-29.42); eitou (-31.19)	10
+e-ra-te	erate	e-	-12.6898	e- (-12.69); edaes (-14.09); estaes (-14.13)	5
+e-si-ra	esira	e-	-12.6937	e- (-12.69); edaes (-15.18); eti (-16.53)	5
+e-ta-na	etana	ab	-11.2065	ab (-11.21); e- (-12.69); as (-16.11)	5
+e-ta-na-i	etanai	ab	-14.7128	ab (-14.71); e- (-15.98); ab- (ab-) (-18.91)	6
+e-ta-na-i-*301	etanaiΘ	ab	-18.2191	ab (-18.22); e- (-19.30); ab- (ab-) (-20.74)	7
+e-ta-na-i-*301-t	etanaiΘt	ab	-21.7236	ab (-21.72); ab- (ab-) (-21.83); e- (-22.66)	8
+e-ta-na-i-*301-ti	etanaiΘti	ab- (ab-)	-22.2095	ab- (ab-) (-22.21); ab (-25.23); e- (-26.03)	9
+e-ta-na-i-*301-ti-j	etanaiΘtij	ab- (ab-)	-24.2042	ab- (ab-) (-24.20); baɡo (-27.26); ab (-28.73)	10
+e-te-re	etere	e-	-12.2869	e- (-12.29); akke (-13.27); edaes (-13.82)	5
+e-te-re-p	eterep	edaes	-11.0339	edaes (-11.03); estaes (-11.16); as (-14.02)	6
+e-to-i-j	etoij	e-	-12.6937	e- (-12.69); eitou (-14.97); waso (-15.59)	5
+e-to-i-ja	etoija	e-	-15.9787	e- (-15.98); aoːroː (-17.06); eitou (-18.31)	6
+e-tu-me	etume	ew	-11.2065	ew (-11.21); anar (-12.36); e- (-12.69)	5
+e-tu-me-i	etumei	ew	-14.7128	ew (-14.71); anar (-15.67); e- (-15.80)	6
+e-tu-me-i-j	etumeij	ew	-18.2191	ew (-18.22); anar (-19.02); e- (-19.02)	7
+e-tu-me-i-ja	etumeija	aoːroː	-20.2234	aoːroː (-20.22); ew (-21.73); e- (-22.30)	8
+e-tu-me-i-ja-s	etumeijas	aoːroː	-23.0252	aoːroː (-23.03); ad (-24.54); ew (-25.23)	9
+e-tu-me-i-ja-sa	etumeijasa	aoːroː	-26.089	aoːroː (-26.09); ad (-28.05); ew (-28.74)	10
+e-u-na-k	eunak	ew	-11.2092	ew (-11.21); e- (-12.69); tʰri (-12.93)	5
+e-u-na-ka	eunaka	ew	-14.7164	ew (-14.72); e- (-15.98); tʰri (-16.44)	6
+e-u-na-ka-n	eunakan	ew	-18.2235	ew (-18.22); e- (-19.30); tʰri (-19.94)	7
+e-u-na-ka-na	eunakana	ew	-21.7307	ew (-21.73); e- (-22.66); tʰri (-23.45)	8
+e-u-na-ka-na-s	eunakanas	ew	-25.2379	ew (-25.24); Μidas (-25.97); e- (-26.03)	9
+e-u-na-ka-na-si	eunakanasi	ew	-28.745	ew (-28.75); Μidas (-28.78); ab- (ab-) (-29.33)	10
+e-u-na-r	eunar	ew	-11.2092	ew (-11.21); e- (-12.69); eti (-16.53)	5
+e-u-na-ru	eunaru	ew	-14.0225	ew (-14.02); e- (-15.98); semoun (-17.93)	6
+e-u-na-ru-k	eunaruk	tʰri	-17.4483	tʰri (-17.45); ew (-17.53); aini (-19.13)	7
+e-u-na-ru-ka	eunaruka	tʰri	-20.9555	tʰri (-20.96); ew (-21.04); tʰri (tʰri) (-21.59)	8
+e-u-na-ru-ka-n	eunarukan	tʰri (tʰri)	-24.4144	tʰri (tʰri) (-24.41); tʰri (-24.46); ew (-24.55)	9
+e-u-na-ru-ka-na	eunarukana	tʰri (tʰri)	-27.5072	tʰri (tʰri) (-27.51); tʰri (-27.97); ew (-28.05)	10
+i-da-a-u	idaau	tʰri	-12.5996	tʰri (-12.60); kin (-12.85); ew (-15.90)	5
+i-da-ja	idaja	tʰri	-15.0245	tʰri (-15.02); eitou (-15.98); kin (-16.07)	5
+i-da-ja-j	idajaj	eitou	-13.924	eitou (-13.92); tʰri (-18.02); semou (-18.25)	6
+i-da-ja-ja	idajaja	eitou	-17.4303	eitou (-17.43); aoːroː (-20.90); tʰri (-21.11)	7
+i-da-ja-s	idajas	tʰri	-18.018	tʰri (-18.02); ad (-19.22); eitou (-19.27)	6
+i-i-pi-n	iipin	as	-16.3873	as (-16.39); ab (-16.56); e- (-17.54)	5
+i-i-pi-na	iipina	as	-19.8841	as (-19.88); ab (-20.05); e- (-20.73)	6
+i-i-pi-na-m	iipinam	as	-23.3807	as (-23.38); ab (-23.55); ab- (ab-) (-23.63)	7
+i-i-pi-na-ma	iipinama	ab- (ab-)	-26.0312	ab- (ab-) (-26.03); as (-26.88); ab (-27.04)	8
+i-i-pi-na-ma-i	iipinamai	ab- (ab-)	-28.7379	ab- (ab-) (-28.74); as (-30.37); ab (-30.54)	9
+i-i-pi-na-ma-i-n	iipinamain	ab- (ab-)	-31.3914	ab- (ab-) (-31.39); ab (-33.02); e- (-33.85)	10
+i-ja-re	ijare	onoman	-15.6306	onoman (-15.63); ke (-16.56); e- (-17.13)	5
+i-ja-re-d	ijared	e-	-17.5422	e- (-17.54); eti (-18.16); daket (-18.46)	6
+i-ja-re-di	ijaredi	e-	-20.3791	e- (-20.38); eti (-20.99); onoman (-21.92)	7
+i-ja-re-di-j	ijaredij	bekos	-23.4806	bekos (-23.48); e- (-23.49); eitou (-23.67)	8
+i-ja-re-di-ja	ijaredija	bekos	-26.3243	bekos (-26.32); aoːroː (-26.53); autos (-26.53)	9
+i-ja-sa	ijasa	ad	-16.113	ad (-16.11); aoːroː (-17.29); e- (-17.54)	5
+i-ja-sa-s	ijasas	ad	-18.7259	ad (-18.73); aoːroː (-19.99); Μidas (-20.12)	6
+i-ja-sa-sa	ijasasa	ad	-22.2304	ad (-22.23); aoːroː (-22.85); Μidas (-23.14)	7
+i-ja-sa-sa-r	ijasasar	ad	-25.7348	ad (-25.73); aoːroː (-25.82); onoman (-25.95)	8
+i-ja-sa-u	ijasau	onoman	-18.1659	onoman (-18.17); aoːroː (-18.32); ew (-19.22)	6
+i-ja-sa-u-n	ijasaun	aoːroː	-20.5884	aoːroː (-20.59); onoman (-21.55); ew (-22.73)	7
+i-ja-sa-u-na	ijasauna	aoːroː	-23.3246	aoːroː (-23.32); onoman (-24.89); ew (-26.23)	8
+i-ja-sa-u-na-k	ijasaunak	tʰri	-24.5429	tʰri (-24.54); aoːroː (-26.27); aini (-26.32)	9
+i-ja-sa-u-na-ka	ijasaunaka	tʰri	-28.05	tʰri (-28.05); aoːroː (-29.34); aini (-29.82)	10
+i-ke-ta	iketa	e-	-13.3751	e- (-13.38); Μidas (-15.27); eti (-16.54)	5
+i-ke-ta-n	iketan	ab	-14.7146	ab (-14.71); e- (-16.48); Μidas (-18.38)	6
+i-ke-ta-na	iketana	ab	-18.2209	ab (-18.22); e- (-19.70); Μidas (-21.59)	7
+i-ke-ta-na-i	iketanai	ab	-21.7271	ab (-21.73); e- (-22.99); ab- (ab-) (-23.41)	8
+i-ke-ta-na-i-*301	iketanaiΘ	ab	-25.2334	ab (-25.23); ab- (ab-) (-25.80); e- (-26.32)	9
+i-ke-ta-na-i-*301-t	iketanaiΘt	ab- (ab-)	-28.1158	ab- (ab-) (-28.12); ab (-28.74); e- (-29.67)	10
+i-ki-te	ikite	akke	-14.6632	akke (-14.66); Μidas (-15.27); pinke (-16.31)	5
+i-ki-te-s	ikites	ad	-14.0243	ad (-14.02); Μidas (-16.65); e- (-17.54)	6
+i-ki-te-si	ikitesi	ad	-17.5315	ad (-17.53); Μidas (-19.51); e- (-20.38)	7
+i-ki-te-si-r	ikitesir	ad	-21.0387	ad (-21.04); Μidas (-22.62); e- (-23.49)	8
+i-ki-te-si-ra	ikitesira	ad	-24.5459	ad (-24.55); Μidas (-25.84); e- (-26.71)	9
+i-ki-te-t	ikitet	e-	-17.5422	e- (-17.54); Μidas (-17.91); akke (-18.16)	6
+i-ki-te-te	ikitete	akke	-20.0634	akke (-20.06); e- (-20.37); Μidas (-20.96)	7
+i-ki-te-te-r	ikiteter	e-	-23.2042	e- (-23.20); akke (-23.57); Μidas (-24.15)	8
+i-ki-te-te-re	ikitetere	akke	-26.1098	akke (-26.11); e- (-26.31); edaes (-27.37)	9
+i-ki-te-te-re-p	ikiteterep	edaes	-24.6749	edaes (-24.67); estaes (-25.10); Μidas (-25.47)	10
+i-ki-tu	ikitu	anar	-12.3464	anar (-12.35); kin (-13.27); matar (-14.54)	5
+i-ki-tu-j	ikituj	anar	-15.6732	anar (-15.67); kin (-16.78); aoːroː (-17.04)	6
+i-ki-tu-ja	ikituja	aoːroː	-16.5268	aoːroː (-16.53); anar (-19.02); kin (-20.29)	7
+i-ki-tu-ja-s	ikitujas	aoːroː	-19.3281	aoːroː (-19.33); ad (-21.04); anar (-22.39)	8
+i-na-i-d	inaid	breit	-15.6374	breit (-15.64); bekos (-16.92); ab (-17.38)	5
+i-na-i-da	inaida	breit	-19.1311	breit (-19.13); bekos (-19.74); tʰri (-20.25)	6
+i-na-i-da-j	inaidaj	baɡo	-19.8432	baɡo (-19.84); bedu (-20.02); bekos (-20.42)	7
+i-na-i-da-ja	inaidaja	bekos	-23.2596	bekos (-23.26); baɡo (-23.35); bedu (-23.53)	8
+i-na-i-da-ja-s	inaidajas	bekos	-26.3718	bekos (-26.37); baɡo (-26.85); bedu (-26.99)	9
+i-na-ja	inaja	baɡo	-13.5528	baɡo (-13.55); bedu (-13.97); bekos (-16.71)	5
+i-na-ja-r	inajar	baɡo	-17.0576	baɡo (-17.06); bedu (-17.47); onoman (-19.32)	6
+i-na-ja-re	inajare	baɡo	-20.5618	baɡo (-20.56); bedu (-20.76); onoman (-22.12)	7
+i-na-ja-re-t	inajaret	onoman	-22.7691	onoman (-22.77); baɡo (-23.79); bedu (-24.08)	8
+i-na-ja-re-ta	inajareta	onoman	-25.6127	onoman (-25.61); ab- (ab-) (-26.24); baɡo (-27.07)	9
+i-na-ma	inama	ab	-17.3848	ab (-17.38); e- (-17.54); baɡo (-18.48)	5
+i-na-ma-i	inamai	e-	-20.7328	e- (-20.73); ab (-20.86); baɡo (-21.61)	6
+i-na-ma-i-n	inamain	ab	-23.0004	ab (-23.00); ab- (ab-) (-23.26); baɡo (-23.78)	7
+i-na-ma-i-na	inamaina	ab- (ab-)	-25.1904	ab- (ab-) (-25.19); ab (-26.50); baɡo (-26.72)	8
+i-na-ma-i-na-j	inamainaj	baɡo	-24.1351	baɡo (-24.14); ab- (ab-) (-26.27); bedu (-26.44)	9
+i-na-ma-i-na-ja	inamainaja	baɡo	-27.6421	baɡo (-27.64); ab- (ab-) (-28.73); bedu (bedu) (-29.93)	10
+i-na-ma-s	inamas	ad	-19.2234	ad (-19.22); bedu (-20.07); e- (-20.73)	6
+i-na-ma-si	inamasi	ad	-22.7256	ad (-22.73); bedu (-22.94); ab- (ab-) (-23.71)	7
+i-na-ma-si-r	inamasir	ab- (ab-)	-25.7401	ab- (ab-) (-25.74); bedu (-26.06); ad (-26.23)	8
+i-na-ma-si-ru	inamasiru	ab- (ab-)	-28.0446	ab- (ab-) (-28.04); bedu (-29.28); kin (-29.33)	9
+i-na-ma-si-ru-t	inamasirut	ab- (ab-)	-30.381	ab- (ab-) (-30.38); Μidas (-31.34); waso (-31.53)	10
+i-nu-i-n	inuin	breit	-15.6875	breit (-15.69); ab (-16.24); ew (-16.39)	5
+i-nu-i-na	inuina	breit	-18.68	breit (-18.68); ab (-19.74); ew (-19.88)	6
+i-nu-i-na-i	inuinai	breit	-21.7774	breit (-21.78); ab- (ab-) (-21.93); ab (-23.24)	7
+i-nu-i-na-i-d	inuinaid	breit	-20.0242	breit (-20.02); ab- (ab-) (-24.29); abberet (-25.17)	8
+i-nu-i-na-i-da	inuinaida	breit	-23.5299	breit (-23.53); ab- (ab-) (-26.97); bratere (-28.54)	9
+i-nu-i-na-i-da-j	inuinaidaj	breit	-27.0351	breit (-27.04); baɡo (-28.01); waso (-29.49)	10
+i-nu-ja	inuja	aoːroː	-12.5282	aoːroː (-12.53); baɡo (-13.55); bedu (-13.97)	5
+i-nu-ja-s	inujas	aoːroː	-15.3498	aoːroː (-15.35); baɡo (-17.06); bedu (-17.41)	6
+i-nu-ja-sa	inujasa	aoːroː	-18.4522	aoːroː (-18.45); baɡo (-20.56); bedu (-20.86)	7
+i-nu-ja-sa-s	inujasas	aoːroː	-21.6697	aoːroː (-21.67); baɡo (-24.07); bedu (-24.24)	8
+i-nu-ja-sa-sa	inujasasa	aoːroː	-24.95	aoːroː (-24.95); bedu (bedu) (-27.17); baɡo (-27.57)	9
+i-nu-ja-sa-sa-r	inujasasar	aoːroː	-28.2698	aoːroː (-28.27); bedu (bedu) (-29.88); onoman (-30.29)	10
+i-nwa-z	inwaz	ab	-16.2408	ab (-16.24); baɡo (-17.33); e- (-17.54)	5
+i-nwa-za	inwaza	ab	-19.7391	ab (-19.74); baɡo (-20.22); e- (-20.73)	6
+i-nwa-za-*56	inwazaΦ	bedu	-21.6569	bedu (-21.66); ab- (ab-) (-21.93); ab (-23.24)	7
+i-nwa-za-*56-n	inwazaΦn	ab- (ab-)	-24.2179	ab- (ab-) (-24.22); bedu (-24.47); e- (-24.53)	8
+i-nwa-za-*56-ni	inwazaΦni	ab- (ab-)	-26.7923	ab- (ab-) (-26.79); e- (-27.38); bedu (-27.56)	9
+i-pi-na	ipina	as	-16.7665	as (-16.77); ab (-16.77); e- (-17.54)	5
+i-pi-na-m	ipinam	as	-20.2581	as (-20.26); ab (-20.26); e- (-20.73)	6
+i-pi-na-ma	ipinama	ab	-23.7495	ab (-23.75); as (-23.75); e- (-23.97)	7
+i-pi-na-ma-i	ipinamai	ab- (ab-)	-26.5963	ab- (ab-) (-26.60); e- (-27.24); ab (-27.24)	8
+i-pi-na-ma-i-n	ipinamain	ab- (ab-)	-28.861	ab- (ab-) (-28.86); ab (-29.65); e- (-30.54)	9
+i-pi-na-ma-i-na	ipinamaina	ab- (ab-)	-31.1365	ab- (ab-) (-31.14); ab (-33.16); baɡo (-33.65)	10
+i-pi-na-ma-s	ipinamas	ad	-25.9512	ad (-25.95); ab- (ab-) (-26.60); bedu (-27.05)	8
+i-pi-na-ma-si	ipinamasi	ab- (ab-)	-29.0895	ab- (ab-) (-29.09); ad (-29.45); bedu (-29.93)	9
+i-pi-na-ma-si-r	ipinamasir	ab- (ab-)	-31.545	ab- (ab-) (-31.55); semou (-32.74); ad (-32.96)	10
+i-ru-te	irute	waso	-13.2863	waso (-13.29); akke (-14.66); matar (-14.99)	5
+i-ru-te-i	irutei	waso	-16.3742	waso (-16.37); e- (-17.54); matar (-17.99)	6
+i-ru-te-i-d	iruteid	matar	-17.4756	matar (-17.48); waso (-19.58); breit (-19.74)	7
+i-ru-te-i-di	iruteidi	matar	-20.2845	matar (-20.28); waso (-22.85); breit (-23.24)	8
+i-te-si	itesi	ad	-10.5171	ad (-10.52); e- (-13.38); akke (-14.65)	5
+i-te-si-r	itesir	ad	-14.0243	ad (-14.02); e- (-16.48); akke (-18.14)	6
+i-te-si-ra	itesira	ad	-17.5315	ad (-17.53); e- (-19.70); akke (-21.63)	7
+i-te-te	itete	akke	-13.0545	akke (-13.05); e- (-13.37); edaes (-14.88)	5
+i-te-te-r	iteter	e-	-16.195	e- (-16.20); akke (-16.56); edaes (-17.77)	6
+i-te-te-re	itetere	akke	-19.0985	akke (-19.10); e- (-19.30); edaes (-20.62)	7
+i-te-te-re-p	iteterep	edaes	-17.8727	edaes (-17.87); estaes (-18.15); as (-20.35)	8
+i-tu-ja	ituja	aoːroː	-9.7638	aoːroː (-9.76); anar (-12.36); waso (-13.86)	5
+i-tu-ja-s	itujas	aoːroː	-12.5589	aoːroː (-12.56); ad (-14.02); anar (-15.67)	6
+i-*301-ti-j	iΘtij	baɡo	-15.5871	baɡo (-15.59); waso (-15.59); autos (-16.07)	5
+i-*301-ti-ja	iΘtija	aoːroː	-17.6633	aoːroː (-17.66); autos (-18.68); waso (-19.08)	6
+i-*301-ti-ja-s	iΘtijas	ad	-17.5297	ad (-17.53); aoːroː (-19.29); autos (-21.60)	7
+i-*301-ti-ja-sa	iΘtijasa	ad	-21.0369	ad (-21.04); aoːroː (-21.63); autos (-24.67)	8
+i-*301-ti-ja-sa-s	iΘtijasas	ad	-23.8533	ad (-23.85); aoːroː (-24.29); autos (-27.82)	9
+i-*301-ti-ja-sa-sa	iΘtijasasa	aoːroː	-27.1333	aoːroː (-27.13); ad (-27.36); ab- (ab-) (-30.53)	10
+i-*301-u-ja	iΘuja	aoːroː	-12.5282	aoːroː (-12.53); waso (-13.98); ew (-16.39)	5
+i-*301-u-ti	iΘuti	waso	-13.2863	waso (-13.29); anar (-15.60); knais (-15.67)	5
+i-*301-u-ti-n	iΘutin	ab	-14.7146	ab (-14.71); waso (-16.37); anar (-18.71)	6
+i-*301-u-ti-nu	iΘutinu	anar	-16.3621	anar (-16.36); ab (-18.22); waso (-19.58)	7
+i-*301-u-ti-nu-j	iΘutinuj	waso	-19.5728	waso (-19.57); anar (-19.86); baɡo (-20.29)	8
+i-*301-u-ti-nu-ja	iΘutinuja	aoːroː	-21.6174	aoːroː (-21.62); waso (-23.07); anar (-23.36)	9
+i-*301-u-ti-nu-ja-s	iΘutinujas	aoːroː	-24.4375	aoːroː (-24.44); waso (-26.57); anar (-26.85)	10
+i-*301-wa-e	iΘwae	ke	-16.5591	ke (-16.56); e- (-17.13); ew (-17.94)	5
+i-*301-wa-e-a	iΘwaea	e-	-17.5422	e- (-17.54); ke (-20.05); ew (-20.86)	6
+i-*301-wa-e-a-d	iΘwaead	e-	-20.3791	e- (-20.38); eti (-21.64); daket (-21.95)	7
+i-*301-wa-e-a-di	iΘwaeadi	e-	-23.4886	e- (-23.49); eti (-24.48); daket (-25.44)	8
+i-*301-wa-e-a-di-k	iΘwaeadik	eti	-21.7226	eti (-21.72); tʰri (-26.58); e- (-26.71)	9
+i-*301-wa-e-a-di-ki	iΘwaeadiki	eti	-25.2298	eti (-25.23); e- (-30.00); tʰri (-30.05)	10
+i-*301-wa-j	iΘwaj	e-	-17.5387	e- (-17.54); baɡo (-17.81); waso (-17.81)	5
+i-*301-wa-ja	iΘwaja	aoːroː	-20.3094	aoːroː (-20.31); e- (-20.73); bedu (-21.30)	6
+i-*301-wa-ja-a	iΘwajaa	aoːroː	-22.9977	aoːroː (-23.00); e- (-23.97); deoːs (-24.38)	7
+i-*301-wa-ja-a-d	iΘwajaad	aoːroː	-25.903	aoːroː (-25.90); autos (-26.34); e- (-27.24)	8
+i-*301-wa-ja-a-di	iΘwajaadi	aoːroː	-28.8974	aoːroː (-28.90); autos (-29.16); ab- (ab-) (-30.10)	9
+i-*301-wa-ja-a-di-k	iΘwajaadik	eti	-29.4516	eti (-29.45); tʰri (-30.07); kin (-31.47)	10
+i-*301-wa-ja-a-j	iΘwajaaj	semou	-24.7797	semou (-24.78); eitou (-24.78); aoːroː (-25.75)	8
+i-*301-wa-ja-a-ja	iΘwajaaja	aoːroː	-26.8994	aoːroː (-26.90); eitou (-28.28); semou (-28.28)	9
+i-*301-wa-ja-j	iΘwajaj	semou	-21.2845	semou (-21.28); eitou (-21.28); aoːroː (-22.86)	7
+i-*301-wa-ja-ja	iΘwajaja	aoːroː	-24.1093	aoːroː (-24.11); eitou (-24.79); semou (-24.79)	8
+i-*301-wa-ja-ja-a	iΘwajajaa	aoːroː	-26.9505	aoːroː (-26.95); eitou (-28.30); semou (-28.30)	9
+i-*301-wa-ja-ja-d	iΘwajajad	aoːroː	-26.9505	aoːroː (-26.95); eitou (-28.28); semou (-28.30)	9
+i-*301-wa-ja-ja-di	iΘwajajadi	aoːroː	-30.0345	aoːroː (-30.03); autos (-31.77); eitou (-31.78)	10
+i-*301-wa-ja-ja-i	iΘwajajai	aoːroː	-26.9505	aoːroː (-26.95); eitou (-28.30); semou (-28.30)	9
+i-*301-wa-ja-ja-i-n	iΘwajajain	aoːroː	-30.0345	aoːroː (-30.03); eitou (-31.80); semou (-31.80)	10
+i-*301-wa-ja-ja-j	iΘwajajaj	aoːroː	-26.9181	aoːroː (-26.92); semou (-26.93); eitou (-26.93)	9
+i-*301-wa-ja-ja-ja	iΘwajajaja	aoːroː	-29.1705	aoːroː (-29.17); semou (-30.44); eitou (-30.44)	10
+i-*301-wa-ja-ja-s	iΘwajajas	aoːroː	-26.9505	aoːroː (-26.95); eitou (-28.30); semou (-28.30)	9
+i-*301-wa-ja-ja-sa	iΘwajajasa	aoːroː	-30.0345	aoːroː (-30.03); eitou (-31.80); semou (-31.80)	10
+i-*301-wa-ja-s	iΘwajas	ad	-22.577	ad (-22.58); aoːroː (-23.00); e- (-23.97)	7
+i-*301-wa-ja-se	iΘwajase	deos	-25.1704	deos (-25.17); aoːroː (-25.90); ad (-26.08)	8
+i-*301-wa-ja-se-k	iΘwajasek	deos	-27.9833	deos (-27.98); e- (-28.02); eti (-28.27)	9
+i-*301-wa-ja-se-ka	iΘwajaseka	e-	-30.879	e- (-30.88); deos (-31.07); eti (-31.76)	10
+i-*301-wa-ja-t	iΘwajat	aoːroː	-22.9971	aoːroː (-23.00); e- (-23.97); Μidas (-24.16)	7
+i-*301-wa-ja-tu	iΘwajatu	onoman	-21.7504	onoman (-21.75); anar (-22.36); matar (-23.99)	8
+i-*301-wa-ja-tu-r	iΘwajatur	onoman	-25.1776	onoman (-25.18); anar (-25.76); aoːroː (-26.97)	9
+i-*301-wa-ja-tu-ru	iΘwajaturu	anar	-27.078	anar (-27.08); onoman (-27.13); aoːroː (-29.51)	10
+ja-a-di	jaadi	autos	-16.6956	autos (-16.70); tʰri (-16.76); ke (-16.77)	5
+ja-a-di-k	jaadik	tʰri	-16.0999	tʰri (-16.10); eti (-16.11); kin (-17.44)	6
+ja-a-di-ki	jaadiki	tʰri	-19.5649	tʰri (-19.56); eti (-19.62); kin (-20.29)	7
+ja-a-di-ki-t	jaadikit	tʰri	-23.0178	tʰri (-23.02); eti (-23.12); kin (-23.40)	8
+ja-a-di-ki-te	jaadikite	pinke	-24.0626	pinke (-24.06); ke (-25.23); tʰri (-26.46)	9
+ja-a-di-ki-te-s	jaadikites	pinke	-27.5648	pinke (-27.56); ad (-28.05); ke (-28.74)	10
+ja-a-ja	jaaja	aoːroː	-14.5976	aoːroː (-14.60); e- (-17.54); onoman (-17.92)	5
+ja-di-k	jadik	tʰri	-12.6005	tʰri (-12.60); eti (-12.89); kin (-13.94)	5
+ja-di-ki	jadiki	tʰri	-16.0653	tʰri (-16.07); eti (-16.39); kin (-16.78)	6
+ja-di-ki-t	jadikit	tʰri	-19.5178	tʰri (-19.52); kin (-19.89); eti (-19.90)	7
+ja-di-ki-tu	jadikitu	kin	-17.5277	kin (-17.53); knaikan (-19.46); matar (-20.24)	8
+ja-di-ki-tu-j	jadikituj	kin	-21.0349	kin (-21.03); knaikan (-22.96); matar (-23.75)	9
+ja-di-ki-tu-ja	jadikituja	kin	-24.5421	kin (-24.54); aoːroː (-24.79); knaikan (-26.47)	10
+ja-i-n-w	jainw	ab	-16.7665	ab (-16.77); aoːroː (-17.28); e- (-17.54)	5
+ja-i-nwa	jainwa	aoːroː	-20.1003	aoːroː (-20.10); ab (-20.26); e- (-20.73)	6
+ja-i-nwa-z	jainwaz	ab	-22.8091	ab (-22.81); aoːroː (-23.05); ab- (ab-) (-23.88)	7
+ja-i-nwa-za	jainwaza	aoːroː	-26.076	aoːroː (-26.08); ab- (ab-) (-26.26); ab (-26.31)	8
+ja-i-nwa-za-*56	jainwazaΦ	ab- (ab-)	-27.6516	ab- (ab-) (-27.65); bedu (-28.67); aoːroː (-29.17)	9
+ja-i-nwa-za-*56-n	jainwazaΦn	ab- (ab-)	-30.055	ab- (ab-) (-30.05); bedu (-31.49); e- (-31.52)	10
+ja-ja-a	jajaa	aoːroː	-14.6868	aoːroː (-14.69); e- (-17.54); onoman (-17.65)	5
+ja-ja-d	jajad	aoːroː	-14.6868	aoːroː (-14.69); autos (-16.03); ke (-17.38)	5
+ja-ja-di	jajadi	aoːroː	-17.7346	aoːroː (-17.73); autos (-18.85); tʰri (-20.25)	6
+ja-ja-di-k	jajadik	eti	-19.3962	eti (-19.40); tʰri (-19.60); aoːroː (-20.88)	7
+ja-ja-di-ki	jajadiki	eti	-22.9034	eti (-22.90); tʰri (-23.06); kin (-23.79)	8
+ja-ja-di-ki-t	jajadikit	eti	-26.4106	eti (-26.41); tʰri (-26.52); kin (-26.91)	9
+ja-ja-di-ki-tu	jajadikitu	kin	-24.5421	kin (-24.54); onoman (-25.25); knaikan (-26.41)	10
+ja-ja-i	jajai	aoːroː	-14.6868	aoːroː (-14.69); e- (-17.54); onoman (-17.65)	5
+ja-ja-i-n	jajain	aoːroː	-17.7346	aoːroː (-17.73); ab (-19.88); onoman (-20.64)	6
+ja-ja-i-n-w	jajainw	aoːroː	-20.8836	aoːroː (-20.88); ab (-23.38); onoman (-23.73)	7
+ja-ja-i-nwa	jajainwa	aoːroː	-24.0849	aoːroː (-24.08); ab- (ab-) (-25.89); ab (-26.88)	8
+ja-ja-i-nwa-z	jajainwaz	aoːroː	-27.3181	aoːroː (-27.32); ab- (ab-) (-28.30); ab (-29.52)	9
+ja-ja-i-nwa-za	jajainwaza	aoːroː	-30.5731	aoːroː (-30.57); ab- (ab-) (-31.01); ab (-33.02)	10
+ja-ja-j	jajaj	aoːroː	-14.6389	aoːroː (-14.64); semou (-15.36); eitou (-15.36)	5
+ja-ja-ja	jajaja	aoːroː	-16.6464	aoːroː (-16.65); semou (-18.86); eitou (-18.86)	6
+ja-ja-ja-w	jajajaw	aoːroː	-19.5636	aoːroː (-19.56); semou (-22.36); eitou (-22.36)	7
+ja-ja-ja-wa	jajajawa	aoːroː	-22.6868	aoːroː (-22.69); semou (-25.87); eitou (-25.87)	8
+ja-ja-s	jajas	aoːroː	-14.6868	aoːroː (-14.69); ad (-15.90); e- (-17.54)	5
+ja-ja-sa	jajasa	aoːroː	-17.7346	aoːroː (-17.73); ad (-19.40); Μidas (-20.61)	6
+ja-ja-sa-s	jajasas	aoːroː	-20.8836	aoːroː (-20.88); ad (-22.05); Μidas (-23.23)	7
+ja-ja-sa-sa	jajasasa	aoːroː	-24.0849	aoːroː (-24.08); ad (-25.56); Μidas (-26.26)	8
+ja-ja-sa-sa-r	jajasasar	onoman	-27.0548	onoman (-27.05); aoːroː (-27.32); ad (-29.06)	9
+ja-ja-sa-sa-ra	jajasasara	onoman	-29.8725	onoman (-29.87); aoːroː (-30.57); ad (-32.57)	10
+ja-ja-w	jajaw	aoːroː	-14.6868	aoːroː (-14.69); e- (-17.54); onoman (-17.65)	5
+ja-ja-wa	jajawa	aoːroː	-17.7346	aoːroː (-17.73); onoman (-20.64); e- (-20.73)	6
+ja-re-d	jared	e-	-14.0452	e- (-14.05); eti (-14.65); daket (-15.42)	5
+ja-re-di	jaredi	e-	-16.8775	e- (-16.88); eti (-17.48); onoman (-18.82)	6
+ja-re-di-j	jaredij	e-	-19.9855	e- (-19.99); bekos (-20.20); eitou (-20.25)	7
+ja-re-di-ja	jaredija	bekos	-23.0403	bekos (-23.04); e- (-23.21); eitou (-23.48)	8
+ja-re-t	jaret	onoman	-13.1773	onoman (-13.18); e- (-14.05); matar (-16.07)	5
+ja-re-ta	jareta	onoman	-16.0208	onoman (-16.02); e- (-16.88); matar (-18.68)	6
+ja-sa-s	jasas	ad	-15.4403	ad (-15.44); Μidas (-17.12); aoːroː (-17.28)	5
+ja-sa-sa	jasasa	ad	-18.944	ad (-18.94); aoːroː (-20.10); Μidas (-20.11)	6
+ja-sa-sa-r	jasasar	ad	-22.4476	ad (-22.45); onoman (-22.59); aoːroː (-23.05)	7
+ja-sa-sa-ra	jasasara	onoman	-25.3993	onoman (-25.40); ad (-25.95); aoːroː (-26.08)	8
+ja-sa-sa-ra-m	jasasaram	onoman	-28.49	onoman (-28.49); aoːroː (-29.17); ad (-29.45)	9
+ja-sa-sa-ra-ma	jasasarama	onoman	-31.6965	onoman (-31.70); aoːroː (-32.31); ab- (ab-) (-32.67)	10
+ja-sa-sa-ra-me	jasasarame	deos	-31.4386	deos (-31.44); onoman (-31.70); aoːroː (-32.31)	10
+ja-sa-u	jasau	onoman	-14.9584	onoman (-14.96); aoːroː (-15.52); ew (-15.90)	5
+ja-sa-u-n	jasaun	aoːroː	-17.7702	aoːroː (-17.77); onoman (-18.30); ew (-19.40)	6
+ja-sa-u-na	jasauna	aoːroː	-20.5027	aoːroː (-20.50); onoman (-21.60); ew (-22.90)	7
+ja-sa-u-na-k	jasaunak	tʰri	-21.409	tʰri (-21.41); aini (-23.05); aoːroː (-23.45)	8
+ja-sa-u-na-ka	jasaunaka	tʰri	-24.9161	tʰri (-24.92); aoːroː (-26.52); aini (-26.55)	9
+ja-sa-u-na-ka-n	jasaunakan	tʰri	-28.4232	tʰri (-28.42); aoːroː (-29.66); aini (-30.06)	10
+ja-se-k	jasek	deos	-13.9739	deos (-13.97); e- (-14.05); eti (-14.44)	5
+ja-se-ka	jaseka	e-	-16.8775	e- (-16.88); deos (-17.06); eti (-17.92)	6
+ja-se-ka-n	jasekan	e-	-19.9855	e- (-19.99); deos (-20.27); eti (-21.41)	7
+ja-se-ka-na	jasekana	e-	-23.2081	e- (-23.21); deos (-23.54); deoːs (-24.45)	8
+ja-se-ka-na-s	jasekanas	Μidas	-25.968	Μidas (-25.97); e- (-26.49); deos (-26.85)	9
+ja-se-ka-na-si	jasekanasi	Μidas	-28.7798	Μidas (-28.78); e- (-29.82); deos (-30.18)	10
+ja-ta-i	jatai	ab	-16.3873	ab (-16.39); as (-16.39); ad (-16.39)	5
+ja-ta-i-*301	jataiΘ	ab	-19.6125	ab (-19.61); as (-19.61); ad (-19.61)	6
+ja-ta-i-*301-u	jataiΘu	anar	-19.0206	anar (-19.02); onoman (-19.08); aoːroː (-21.02)	7
+ja-ta-i-*301-u-j	jataiΘuj	aoːroː	-21.1738	aoːroː (-21.17); onoman (-22.33); anar (-22.40)	8
+ja-ta-i-*301-u-ja	jataiΘuja	aoːroː	-20.6461	aoːroː (-20.65); onoman (-25.46); anar (-25.78)	9
+ja-tu-r	jatur	onoman	-11.9799	onoman (-11.98); anar (-12.36); aoːroː (-14.47)	5
+ja-tu-ru	jaturu	anar	-13.1601	anar (-13.16); onoman (-13.45); aoːroː (-16.87)	6
+ja-tu-ru-s	jaturus	anar	-16.641	anar (-16.64); onoman (-16.93); ad (-17.53)	7
+ja-tu-ru-sa	jaturusa	anar	-20.122	anar (-20.12); onoman (-20.41); ad (-21.04)	8
+ja-tu-ru-sa-i	jaturusai	anar	-23.6029	anar (-23.60); onoman (-23.89); ad (-24.54)	9
+ja-tu-ru-sa-i-d	jaturusaid	anar	-27.0838	anar (-27.08); onoman (-27.38); ad (-28.05)	10
+ja-wa-*56	jawaΦ	ke	-16.5591	ke (-16.56); e- (-17.13); aoːroː (-17.28)	5
+ka-na-s	kanas	ad	-15.898	ad (-15.90); Μidas (-16.93); ab (-17.03)	5
+ka-na-si	kanasi	ad	-19.3992	ad (-19.40); Μidas (-19.74); bedu (-20.09)	6
+ka-na-si-s	kanasis	ad	-22.052	ad (-22.05); Μidas (-22.47); bedu (-22.75)	7
+ka-na-si-si	kanasisi	Μidas	-25.5355	Μidas (-25.54); ad (-25.56); bedu (-25.80)	8
+ka-na-si-si-r	kanasisir	ab- (ab-)	-28.6846	ab- (ab-) (-28.68); Μidas (-28.73); bedu (-28.99)	9
+ke-ta-n	ketan	ab	-11.2074	ab (-11.21); e- (-12.98); as (-16.39)	5
+ke-ta-na	ketana	ab	-14.7137	ab (-14.71); e- (-16.20); as (-19.61)	6
+ke-ta-na-i	ketanai	ab	-18.22	ab (-18.22); e- (-19.48); ab- (ab-) (-21.52)	7
+ke-ta-na-i-*301	ketanaiΘ	ab	-21.7263	ab (-21.73); e- (-22.81); ab- (ab-) (-23.68)	8
+ke-ta-na-i-*301-t	ketanaiΘt	ab- (ab-)	-25.2048	ab- (ab-) (-25.20); ab (-25.23); e- (-26.16)	9
+ke-ta-na-i-*301-ti	ketanaiΘti	ab- (ab-)	-25.7052	ab- (ab-) (-25.71); ab (-28.74); e- (-29.54)	10
+ki-te-s	kites	ad	-10.5171	ad (-10.52); e- (-14.05); akke (-14.66)	5
+ki-te-si	kitesi	ad	-14.0243	ad (-14.02); e- (-16.88); akke (-18.15)	6
+ki-te-si-r	kitesir	ad	-17.5315	ad (-17.53); e- (-19.99); akke (-21.65)	7
+ki-te-si-ra	kitesira	ad	-21.0387	ad (-21.04); e- (-23.21); akke (-25.13)	8
+ki-te-t	kitet	e-	-14.0452	e- (-14.05); akke (-14.66); akala (-14.93)	5
+ki-te-te	kitete	akke	-16.5593	akke (-16.56); e- (-16.87); edaes (-18.20)	6
+ki-te-te-r	kiteter	e-	-19.6998	e- (-19.70); akke (-20.06); edaes (-21.11)	7
+ki-te-te-re	kitetere	akke	-22.6043	akke (-22.60); e- (-22.80); edaes (-23.99)	8
+ki-te-te-re-p	kiteterep	edaes	-21.2695	edaes (-21.27); estaes (-21.63); as (-23.85)	9
+ki-tu-j	kituj	anar	-12.3576	anar (-12.36); aoːroː (-13.68); waso (-13.81)	5
+ki-tu-ja	kituja	aoːroː	-13.1629	aoːroː (-13.16); anar (-15.68); waso (-17.31)	6
+ki-tu-ja-s	kitujas	aoːroː	-15.9609	aoːroː (-15.96); ad (-17.53); anar (-19.02)	7
+ma-i-na	maina	ab	-16.7665	ab (-16.77); e- (-17.54); baɡo (-19.11)	5
+ma-i-na-j	mainaj	baɡo	-16.5333	baɡo (-16.53); bedu (-17.46); ab (-20.26)	6
+ma-i-na-ja	mainaja	baɡo	-20.0394	baɡo (-20.04); bedu (-20.96); aoːroː (-23.22)	7
+ma-i-na-ja-r	mainajar	baɡo	-23.5452	baɡo (-23.55); bedu (-24.47); aoːroː (-25.96)	8
+ma-i-na-ja-re	mainajare	baɡo	-27.0506	baɡo (-27.05); bedu (-27.76); onoman (-28.77)	9
+ma-i-na-ja-re-t	mainajaret	onoman	-29.4251	onoman (-29.43); baɡo (-30.38); bedu (-31.08)	10
+ma-na-d	manad	breit	-16.2754	breit (-16.28); ab (-17.03); bekos (-17.30)	5
+ma-na-da	manada	breit	-19.7624	breit (-19.76); bekos (-20.11); tʰri (-20.25)	6
+ma-na-da-w	manadaw	tʰri	-22.7102	tʰri (-22.71); bekos (-23.20); breit (-23.24)	7
+ma-na-da-wa	manadawa	tʰri	-25.5343	tʰri (-25.53); bekos (-26.40); ab- (ab-) (-26.52)	8
+ma-na-da-wa-i	manadawai	tʰri	-28.5312	tʰri (-28.53); ab- (ab-) (-28.68); bekos (-29.67)	9
+ma-na-da-wa-i-j	manadawaij	baɡo	-29.9346	baɡo (-29.93); bedu (-30.17); ab- (ab-) (-31.05)	10
+ma-si-r	masir	ad	-16.3873	ad (-16.39); e- (-17.54); Μidas (-17.75)	5
+ma-si-ru	masiru	ew	-19.2234	ew (-19.22); kin (-19.31); semoun (-19.50)	6
+ma-si-ru-t	masirut	waso	-21.0067	waso (-21.01); Μidas (-22.21); anar (-22.51)	7
+ma-si-ru-te	masirute	waso	-23.8077	waso (-23.81); edaes (-23.96); daket (-24.79)	8
+me-i-ja	meija	e-	-12.9775	e- (-12.98); eitou (-15.82); deoːs (-16.06)	5
+me-i-ja-s	meijas	e-	-16.1989	e- (-16.20); deoːs (-18.77); eitou (-19.14)	6
+me-i-ja-sa	meijasa	e-	-19.4842	e- (-19.48); deoːs (-21.71); eitou (-22.49)	7
+me-i-ja-sa-s	meijasas	e-	-22.8099	e- (-22.81); deoːs (-24.77); ad (-25.41)	8
+me-i-ja-sa-sa	meijasasa	e-	-26.1635	e- (-26.16); deoːs (-27.90); aoːroː (-28.86)	9
+me-i-ja-sa-u	meijasau	ew	-21.721	ew (-21.72); e- (-22.81); semoun (-23.57)	8
+me-i-ja-sa-u-n	meijasaun	ew	-25.2282	ew (-25.23); e- (-26.16); aoːroː (-26.87)	9
+me-i-ja-sa-u-na	meijasauna	ew	-28.7353	ew (-28.74); e- (-29.54); aoːroː (-29.62)	10
+me-i-ti	meiti	e-	-12.9775	e- (-12.98); edaes (-16.63); estaes (-16.73)	5
+me-u-na	meuna	ew	-11.2083	ew (-11.21); e- (-12.98); kin (-16.75)	5
+me-u-na-k	meunak	ew	-14.7155	ew (-14.72); tʰri (-15.48); e- (-16.20)	6
+me-u-na-ka	meunaka	ew	-18.2226	ew (-18.22); tʰri (-18.98); e- (-19.48)	7
+me-u-na-ka-n	meunakan	ew	-21.7298	ew (-21.73); tʰri (-22.49); e- (-22.81)	8
+me-u-na-ka-na	meunakana	ew	-25.237	ew (-25.24); tʰri (-26.00); e- (-26.16)	9
+me-u-na-ka-na-s	meunakanas	ew	-28.7441	ew (-28.74); Μidas (-29.26); tʰri (-29.51)	10
+me-u-na-r	meunar	ew	-14.7155	ew (-14.72); e- (-16.20); eti (-20.03)	6
+me-u-na-ru	meunaru	ew	-17.5288	ew (-17.53); e- (-19.48); semoun (-20.83)	7
+me-u-na-ru-k	meunaruk	tʰri	-20.5704	tʰri (-20.57); ew (-21.04); aini (-22.35)	8
+me-u-na-ru-ka	meunaruka	tʰri	-24.0776	tʰri (-24.08); tʰri (tʰri) (-24.12); ew (-24.54)	9
+me-u-na-ru-ka-n	meunarukan	tʰri (tʰri)	-26.9426	tʰri (tʰri) (-26.94); tʰri (-27.58); ew (-28.05)	10
+na-da-d	nadad	breit	-14.893	breit (-14.89); tʰri (-15.70); bekos (-15.77)	5
+na-da-da	nadada	tʰri	-18.3733	tʰri (-18.37); breit (-18.39); bekos (-18.80)	6
+na-da-da-u	nadadau	tʰri	-18.915	tʰri (-18.91); kin (-19.18); matar (-21.60)	7
+na-da-da-u-t	nadadaut	knais	-20.3135	knais (-20.31); tʰri (-21.75); kin (-22.68)	8
+na-da-da-u-ti	nadadauti	knais	-23.1142	knais (-23.11); tʰri (-24.85); knaikan (-25.98)	9
+na-da-da-u-ti-n	nadadautin	knais	-26.2022	knais (-26.20); ab- (ab-) (-27.36); tʰri (-28.07)	10
+na-da-w	nadaw	tʰri	-15.7106	tʰri (-15.71); bekos (-16.24); breit (-16.30)	5
+na-da-wa	nadawa	tʰri	-18.529	tʰri (-18.53); bekos (-19.44); kin (-19.58)	6
+na-da-wa-i	nadawai	tʰri	-21.5232	tʰri (-21.52); bekos (-22.71); kin (-22.85)	7
+na-da-wa-i-j	nadawaij	baɡo	-23.1633	baɡo (-23.16); bedu (-23.17); bekos (-24.21)	8
+na-da-wa-i-ja	nadawaija	baɡo	-26.6691	baɡo (-26.67); bedu (-26.67); bekos (-27.09)	9
+na-i-da	naida	breit	-15.6465	breit (-15.65); bekos (-16.25); tʰri (-16.76)	5
+na-i-da-j	naidaj	baɡo	-16.5135	baɡo (-16.51); bedu (-16.52); bekos (-16.93)	6
+na-i-da-ja	naidaja	bekos	-19.772	bekos (-19.77); baɡo (-20.02); bedu (-20.02)	7
+na-i-da-ja-s	naidajas	bekos	-22.8841	bekos (-22.88); bedu (-23.49); baɡo (-23.52)	8
+na-i-*301-t	naiΘt	baɡo	-14.6597	baɡo (-14.66); ab (-17.03); as (-17.38)	5
+na-i-*301-ti	naiΘti	baɡo	-17.4686	baɡo (-17.47); ab- (ab-) (-18.67); ab (-20.05)	6
+na-i-*301-ti-j	naiΘtij	baɡo	-17.3931	baɡo (-17.39); bedu (-19.83); ab- (ab-) (-20.66)	7
+na-i-*301-ti-ja	naiΘtija	baɡo	-20.8866	baɡo (-20.89); ab- (ab-) (-23.15); bedu (-23.33)	8
+na-i-*301-ti-ja-s	naiΘtijas	baɡo	-24.3798	baɡo (-24.38); ad (-24.54); ab- (ab-) (-25.87)	9
+na-i-*301-ti-ja-sa	naiΘtijasa	baɡo	-27.8728	baɡo (-27.87); ad (-28.05); aoːroː (-28.62)	10
+na-i-*301-u	naiΘu	ew	-15.898	ew (-15.90); kin (-16.04); breit (-17.28)	5
+na-i-*301-u-t	naiΘut	waso	-17.4997	waso (-17.50); bratere (-18.10); baɡo (-18.16)	6
+na-i-*301-u-ti	naiΘuti	waso	-20.3006	waso (-20.30); bratere (-20.50); ab- (ab-) (-20.87)	7
+na-i-*301-u-ti-n	naiΘutin	ab	-21.728	ab (-21.73); ab- (ab-) (-21.93); baɡo (-22.24)	8
+na-i-*301-u-ti-nu	naiΘutinu	anar	-22.8824	anar (-22.88); ab- (ab-) (-23.93); bratere (-23.97)	9
+na-i-*301-u-ti-nu-j	naiΘutinuj	baɡo	-22.407	baɡo (-22.41); ab- (ab-) (-24.57); anar (-26.38)	10
+na-ja-r	najar	baɡo	-13.9538	baɡo (-13.95); bedu (-13.97); onoman (-16.04)	5
+na-ja-re	najare	bedu	-17.2532	bedu (-17.25); baɡo (-17.46); onoman (-18.84)	6
+na-ja-re-t	najaret	onoman	-19.4942	onoman (-19.49); baɡo (-20.57); bedu (-20.57)	7
+na-ja-re-ta	najareta	onoman	-22.3378	onoman (-22.34); ab- (ab-) (-23.44); baɡo (-23.79)	8
+na-ka-n	nakan	breit	-16.3023	breit (-16.30); ab (-16.39); eti (-16.75)	5
+na-ka-na	nakana	breit	-19.5104	breit (-19.51); ab (-19.88); baɡo (-19.98)	6
+na-ka-na-s	nakanas	Μidas	-19.6459	Μidas (-19.65); ab- (ab-) (-21.14); ad (-22.58)	7
+na-ka-na-si	nakanasi	Μidas	-22.4548	Μidas (-22.45); ab- (ab-) (-23.56); bedu (-25.77)	8
+na-ma-i	namai	e-	-17.5387	e- (-17.54); ab (-17.94); baɡo (-18.27)	5
+na-ma-i-n	namain	ab	-19.7391	ab (-19.74); baɡo (-20.33); ab- (ab-) (-20.53)	6
+na-ma-i-na	namaina	ab- (ab-)	-22.4285	ab- (ab-) (-22.43); ab (-23.24); baɡo (-23.26)	7
+na-ma-i-na-j	namainaj	baɡo	-20.6499	baɡo (-20.65); bedu (-22.93); ab- (ab-) (-23.49)	8
+na-ma-i-na-ja	namainaja	baɡo	-24.157	baɡo (-24.16); ab- (ab-) (-25.95); bedu (-26.44)	9
+na-ma-i-na-ja-r	namainajar	baɡo	-27.664	baɡo (-27.66); ab- (ab-) (-28.74); bedu (bedu) (-29.28)	10
+na-ma-s	namas	ad	-15.898	ad (-15.90); bedu (-16.58); e- (-17.54)	5
+na-ma-si	namasi	ad	-19.3992	ad (-19.40); bedu (-19.45); Μidas (-20.61)	6
+na-ma-si-r	namasir	bedu	-22.5676	bedu (-22.57); ad (-22.90); ab- (ab-) (-22.99)	7
+na-ma-si-ru	namasiru	ab- (ab-)	-25.2736	ab- (ab-) (-25.27); bedu (-25.79); ew (-25.95)	8
+na-ma-si-ru-t	namasirut	ab- (ab-)	-27.5872	ab- (ab-) (-27.59); waso (-28.02); Μidas (-28.19)	9
+na-ma-si-ru-te	namasirute	bratere	-27.9221	bratere (-27.92); ab- (ab-) (-29.07); breit (-29.37)	10
+na-ru-k	naruk	tʰri	-11.3575	tʰri (-11.36); aini (-12.83); breit (-14.43)	5
+na-ru-ka	naruka	tʰri	-14.8647	tʰri (-14.86); aini (-16.33); breit (-17.25)	6
+na-ru-ka-n	narukan	tʰri	-18.3718	tʰri (-18.37); aini (-19.84); breit (-20.34)	7
+na-ru-ka-na	narukana	tʰri	-21.8788	tʰri (-21.88); aini (-23.35); breit (-23.54)	8
+na-ru-ka-na-s	narukanas	tʰri	-25.3859	tʰri (-25.39); Μidas (-25.97); ab- (ab-) (-26.08)	9
+na-si-i	nasii	bedu	-16.2382	bedu (-16.24); ad (-16.39); e- (-17.54)	5
+na-si-i-p	nasiip	deoːs	-15.7021	deoːs (-15.70); deos (-16.37); Μidas (-17.68)	6
+na-si-i-pi	nasiipi	deoːs	-19.2065	deoːs (-19.21); deos (-19.87); Μidas (-21.18)	7
+na-si-i-pi-n	nasiipin	deoːs	-22.7092	deoːs (-22.71); deos (-23.38); Μidas (-24.68)	8
+na-si-i-pi-na	nasiipina	deoːs	-26.2099	deoːs (-26.21); deos (-26.88); ab- (ab-) (-27.42)	9
+na-si-i-pi-na-m	nasiipinam	ab- (ab-)	-28.8256	ab- (ab-) (-28.83); deoːs (-29.71); deos (-30.38)	10
+na-si-s	nasis	ad	-15.4403	ad (-15.44); bedu (-15.78); Μidas (-17.12)	5
+na-si-si	nasisi	bedu	-18.8288	bedu (-18.83); ad (-18.94); Μidas (-20.11)	6
+na-si-si-r	nasisir	bedu	-22.0203	bedu (-22.02); ad (-22.45); ab- (ab-) (-22.99)	7
+na-ti-*301	natiΘ	baɡo	-13.5544	baɡo (-13.55); ab (-16.24); ad (-16.39)	5
+na-ti-*301-w	natiΘw	baɡo	-16.7605	baɡo (-16.76); ab (-19.50); as (-19.61)	6
+na-ti-*301-wa	natiΘwa	baɡo	-20.0311	baɡo (-20.03); ab- (ab-) (-22.29); ab (-22.81)	7
+na-ti-*301-wa-j	natiΘwaj	baɡo	-20.043	baɡo (-20.04); bedu (-23.17); ab- (ab-) (-24.68)	8
+na-ti-*301-wa-ja	natiΘwaja	baɡo	-23.5444	baɡo (-23.54); aoːroː (-26.48); bedu (-26.67)	9
+nu-i-na	nuina	breit	-15.1738	breit (-15.17); ab (-16.56); baɡo (-16.76)	5
+nu-i-na-i	nuinai	breit	-18.2711	breit (-18.27); ab- (ab-) (-19.23); baɡo (-19.87)	6
+nu-i-na-i-d	nuinaid	breit	-16.518	breit (-16.52); ab- (ab-) (-21.58); bratere (-22.44)	7
+nu-i-na-i-da	nuinaida	breit	-20.0236	breit (-20.02); ab- (ab-) (-24.24); bratere (-25.04)	8
+nu-i-na-i-da-j	nuinaidaj	breit	-23.5289	breit (-23.53); baɡo (-24.53); waso (-25.99)	9
+nu-i-na-i-da-ja	nuinaidaja	breit	-27.0338	breit (-27.03); baɡo (-28.04); bekos (-29.22)	10
+nu-ja-s	nujas	bedu	-13.9096	bedu (-13.91); baɡo (-13.95); waso (-13.98)	5
+nu-ja-sa	nujasa	bedu	-17.3579	bedu (-17.36); baɡo (-17.46); waso (-17.48)	6
+nu-ja-sa-s	nujasas	bedu	-20.7359	bedu (-20.74); aoːroː (-20.79); baɡo (-20.96)	7
+nu-ja-sa-sa	nujasasa	bedu (bedu)	-23.6662	bedu (bedu) (-23.67); aoːroː (-24.03); bedu (-24.13)	8
+nu-ja-sa-sa-r	nujasasar	bedu (bedu)	-26.3837	bedu (bedu) (-26.38); onoman (-27.16); aoːroː (-27.29)	9
+nu-ja-sa-sa-ra	nujasasara	bedu (bedu)	-29.3072	bedu (bedu) (-29.31); onoman (-29.98); ab- (ab-) (-30.39)	10
+nu-*56-e-t	nuΦet	breit	-10.2357	breit (-10.24); bratere (-11.89); e- (-12.97)	5
+nu-*56-e-tu	nuΦetu	anar	-13.2406	anar (-13.24); breit (-13.39); bratere (-13.54)	6
+nu-*56-e-tu-m	nuΦetum	bratere	-16.4326	bratere (-16.43); breit (-16.63); anar (-16.73)	7
+nu-*56-e-tu-me	nuΦetume	bratere	-14.4376	bratere (-14.44); breit (-19.77); anar (-20.23)	8
+nu-*56-e-tu-me-i	nuΦetumei	bratere	-17.9426	bratere (-17.94); breit (-23.00); anar (-23.72)	9
+nu-*56-e-tu-me-i-j	nuΦetumeij	bratere	-21.4475	bratere (-21.45); breit (-26.29); waso (-26.34)	10
+nwa-za	nwaza	ab	-16.5591	ab (-16.56); baɡo (-16.76); e- (-17.54)	5
+nwa-za-*56	nwazaΦ	bedu	-18.1502	bedu (-18.15); ab- (ab-) (-19.23); baɡo (-19.87)	6
+nwa-za-*56-n	nwazaΦn	bedu	-20.9644	bedu (-20.96); e- (-21.04); ab- (ab-) (-21.50)	7
+nwa-za-*56-ni	nwazaΦni	e-	-23.8799	e- (-23.88); ab- (ab-) (-24.05); bedu (-24.06)	8
+o-sa-re	osare	deos	-14.6556	deos (-14.66); ke (-16.56); ad (-16.77)	5
+o-sa-re-j	osarej	deos	-14.6519	deos (-14.65); deoːs (-14.67); zemeloːs (-17.14)	6
+o-sa-re-ja	osareja	deoːs	-16.8438	deoːs (-16.84); deos (-17.48); zemeloːs (-19.34)	7
+pi-na-m	pinam	ab	-17.0286	ab (-17.03); as (-17.38); e- (-17.54)	5
+pi-na-ma	pinama	ab	-20.5153	ab (-20.52); e- (-20.73); as (-20.86)	6
+pi-na-ma-i	pinamai	e-	-23.9705	e- (-23.97); ab (-24.00); as (-24.34)	7
+pi-na-ma-i-n	pinamain	ab- (ab-)	-26.1494	ab- (ab-) (-26.15); ab (-26.31); baɡo (-27.23)	8
+pi-na-ma-i-na	pinamaina	ab- (ab-)	-28.1753	ab- (ab-) (-28.18); ab (-29.81); baɡo (-30.19)	9
+pi-na-ma-i-na-j	pinamainaj	baɡo	-27.6201	baɡo (-27.62); ab- (ab-) (-29.31); bedu (-29.94)	10
+pi-na-ma-s	pinamas	ad	-22.577	ad (-22.58); bedu (-23.56); e- (-23.97)	7
+pi-na-ma-si	pinamasi	ad	-26.0799	ad (-26.08); bedu (-26.43); ab- (ab-) (-26.52)	8
+pi-na-ma-si-r	pinamasir	ab- (ab-)	-28.6846	ab- (ab-) (-28.68); semou (-29.24); bedu (-29.55)	9
+pi-na-ma-si-ru	pinamasiru	semoun	-29.2298	semoun (-29.23); ab- (ab-) (-31.05); semou (-32.11)	10
+ra-ma-n	raman	ab	-16.5591	ab (-16.56); e- (-17.54); matar (-18.14)	5
+ra-ma-na	ramana	ab	-20.0537	ab (-20.05); e- (-20.73); matar (-21.29)	6
+ra-ma-na-d	ramanad	matar	-22.546	matar (-22.55); breit (-23.17); ab (-23.55)	7
+ra-ma-na-da	ramanada	matar	-25.3985	matar (-25.40); ab- (ab-) (-26.03); breit (-26.66)	8
+ra-ma-na-da-w	ramanadaw	matar	-28.5027	matar (-28.50); ab- (ab-) (-28.74); tʰri (-29.70)	9
+ra-ma-na-da-wa	ramanadawa	ab- (ab-)	-31.5049	ab- (ab-) (-31.50); matar (-31.72); tʰri (-32.53)	10
+ra-me-i	ramei	e-	-14.0452	e- (-14.05); ke (-16.77); ew (-17.38)	5
+ra-me-i-t	rameit	e-	-16.8775	e- (-16.88); matar (-18.93); ke (-20.26)	6
+ra-me-i-ti	rameiti	e-	-19.9855	e- (-19.99); matar (-21.66); ab- (ab-) (-23.33)	7
+ra-me-u	rameu	ew	-11.2065	ew (-11.21); e- (-14.05); matar (-14.47)	5
+ra-me-u-n	rameun	ew	-14.7137	ew (-14.71); e- (-16.88); matar (-17.97)	6
+ra-me-u-na	rameuna	ew	-18.2209	ew (-18.22); e- (-19.99); matar (-21.46)	7
+ra-me-u-na-k	rameunak	tʰri	-21.409	tʰri (-21.41); ew (-21.73); aini (-23.05)	8
+ra-me-u-na-ka	rameunaka	tʰri	-24.9161	tʰri (-24.92); ew (-25.24); e- (-26.49)	9
+ra-me-u-na-ka-n	rameunakan	tʰri	-28.4232	tʰri (-28.42); ew (-28.74); e- (-29.82)	10
+ra-me-u-na-r	rameunar	ew	-21.728	ew (-21.73); e- (-23.21); matar (-24.95)	8
+ra-me-u-na-ru	rameunaru	ew	-24.5415	ew (-24.54); e- (-26.49); matar (-26.95)	9
+ra-me-u-na-ru-k	rameunaruk	tʰri	-26.9704	tʰri (-26.97); ew (-28.05); aini (-28.94)	10
+re-di-j	redij	e-	-12.9775	e- (-12.98); eitou (-13.34); eti (-13.58)	5
+re-di-ja	redija	e-	-16.1989	e- (-16.20); eitou (-16.57); bekos (-16.72)	6
+re-i-ke	reike	e-	-12.9723	e- (-12.97); eti (-13.87); ke (-16.24)	5
+re-i-ke-t	reiket	e-	-15.9756	e- (-15.98); eti (-17.35); Μidas (-18.37)	6
+re-i-ke-ta	reiketa	e-	-19.1496	e- (-19.15); eti (-20.83); Μidas (-21.21)	7
+re-i-ke-ta-n	reiketan	ab	-21.7289	ab (-21.73); e- (-22.41); eti (-24.31)	8
+re-i-ke-ta-na	reiketana	ab	-25.2352	ab (-25.24); e- (-25.72); ab- (ab-) (-26.39)	9
+re-i-ke-ta-na-i	reiketanai	ab- (ab-)	-27.0258	ab- (ab-) (-27.03); ab (-28.74); e- (-29.06)	10
+ri-da-u	ridau	matar	-12.4287	matar (-12.43); kin (-13.23); tʰri (-13.28)	5
+ru-ka-n	rukan	tʰri	-12.9434	tʰri (-12.94); aini (-13.93); ab (-16.56)	5
+ru-ka-na	rukana	tʰri	-16.4502	tʰri (-16.45); aini (-17.43); matar (-20.00)	6
+ru-ka-na-s	rukanas	Μidas	-19.6459	Μidas (-19.65); tʰri (-19.96); aini (-20.94)	7
+ru-sa-i	rusai	ad	-16.3873	ad (-16.39); matar (-16.58); ew (-16.77)	5
+ru-sa-i-d	rusaid	daket	-18.2453	daket (-18.25); breit (-18.83); matar (-18.95)	6
+ru-sa-i-da	rusaida	daket	-21.5585	daket (-21.56); matar (-21.92); breit (-22.33)	7
+ru-sa-i-da-a	rusaidaa	daket	-24.8975	daket (-24.90); matar (-25.07); tʰri (tʰri) (-25.56)	8
+ru-sa-i-da-a-u	rusaidaau	matar	-25.142	matar (-25.14); tʰri (tʰri) (-25.63); tʰri (-26.61)	9
+ru-te-i	rutei	waso	-12.8671	waso (-12.87); e- (-14.05); matar (-14.48)	5
+ru-te-i-d	ruteid	matar	-13.9685	matar (-13.97); waso (-16.07); breit (-16.63)	6
+ru-te-i-di	ruteidi	matar	-16.7773	matar (-16.78); waso (-19.34); e- (-19.99)	7
+sa-i-da	saida	daket	-14.5679	daket (-14.57); tʰri (-16.76); ke (-16.77)	5
+sa-i-da-a	saidaa	daket	-17.9062	daket (-17.91); tʰri (-19.21); kin (-19.88)	6
+sa-i-da-a-u	saidaau	tʰri	-19.6102	tʰri (-19.61); kin (-19.84); daket (-21.26)	7
+sa-ra-m	saram	deoːs	-16.9966	deoːs (-17.00); ad (-17.38); e- (-17.54)	5
+sa-ra-ma	sarama	deoːs	-19.9983	deoːs (-20.00); e- (-20.73); deos (-20.76)	6
+sa-ra-ma-n	saraman	deoːs	-23.0717	deoːs (-23.07); ab (-23.24); e- (-23.97)	7
+sa-ra-ma-na	saramana	deoːs	-26.1986	deoːs (-26.20); ab (-26.74); ab- (ab-) (-27.21)	8
+sa-ra-ma-na-d	saramanad	daket	-27.1023	daket (-27.10); ab- (ab-) (-28.39); deoːs (-29.37)	9
+sa-ra-ma-na-da	saramanada	daket	-30.51	daket (-30.51); ab- (ab-) (-30.87); matar (-32.40)	10
+sa-ra-me	sarame	deos	-18.1246	deos (-18.12); deoːs (-19.69); daket (-19.79)	6
+sa-ra-me-i	saramei	deos	-20.9498	deos (-20.95); e- (-21.04); deoːs (-22.43)	7
+sa-ra-me-i-t	sarameit	e-	-23.8799	e- (-23.88); deos (-24.05); zemeloːs (-25.20)	8
+sa-ra-me-i-ti	sarameiti	e-	-26.9912	e- (-26.99); deos (-27.25); zemeloːs (-27.96)	9
+sa-ra-me-u	sarameu	ew	-18.2191	ew (-18.22); deos (-20.95); e- (-21.04)	7
+sa-ra-me-u-n	sarameun	ew	-21.7263	ew (-21.73); e- (-23.88); deos (-24.05)	8
+sa-ra-me-u-na	sarameuna	ew	-25.2334	ew (-25.23); e- (-26.99); deos (-27.25)	9
+sa-ra-me-u-na-k	sarameunak	tʰri	-27.7372	tʰri (-27.74); ew (-28.74); aini (-29.63)	10
+sa-ra-me-u-na-r	sarameunar	ew	-28.7406	ew (-28.74); e- (-30.22); deos (-30.53)	10
+sa-re-j	sarej	deos	-11.1447	deos (-11.14); deoːs (-11.17); zemeloːs (-13.65)	5
+sa-re-ja	sareja	deoːs	-13.3366	deoːs (-13.34); deos (-13.97); zemeloːs (-15.85)	6
+sa-sa-r	sasar	ad	-16.113	ad (-16.11); deoːs (-16.77); deos (-17.27)	5
+sa-sa-ra	sasara	ad	-19.6125	ad (-19.61); deoːs (-19.72); deos (-20.38)	6
+sa-sa-ra-m	sasaram	deoːs	-22.7436	deoːs (-22.74); ad (-23.11); deos (-23.56)	7
+sa-sa-ra-ma	sasarama	deoːs	-25.834	deoːs (-25.83); ad (-26.61); deos (-26.78)	8
+sa-sa-ra-ma-n	sasaraman	deoːs	-28.9727	deoːs (-28.97); ab- (ab-) (-29.95); ab (-30.00)	9
+sa-sa-ra-ma-na	sasaramana	deoːs	-32.1496	deoːs (-32.15); ab- (ab-) (-32.36); deos (-33.32)	10
+sa-sa-ra-me	sasarame	deos	-24.4241	deos (-24.42); deoːs (-25.64); daket (-25.88)	8
+sa-sa-ra-me-i	sasaramei	deos	-27.26	deos (-27.26); e- (-28.02); deoːs (-28.51)	9
+sa-sa-ra-me-i-t	sasarameit	deos	-30.3595	deos (-30.36); e- (-30.88); zemeloːs (-31.14)	10
+sa-sa-ra-me-u	sasarameu	ew	-25.2317	ew (-25.23); deos (-27.26); e- (-28.02)	9
+sa-sa-ra-me-u-n	sasarameun	ew	-28.7389	ew (-28.74); deos (-30.36); e- (-30.88)	10
+sa-u-na	sauna	ew	-16.3873	ew (-16.39); kin (-16.75); ab (-16.77)	5
+sa-u-na-k	saunak	tʰri	-15.478	tʰri (-15.48); aini (-16.74); eti (-19.31)	6
+sa-u-na-ka	saunaka	tʰri	-18.985	tʰri (-18.98); aini (-20.24); eti (-22.82)	7
+sa-u-na-ka-n	saunakan	tʰri	-22.492	tʰri (-22.49); aini (-23.75); deoːs (-26.20)	8
+sa-u-na-ka-na	saunakana	tʰri	-25.9988	tʰri (-26.00); aini (-27.25); ab- (ab-) (-28.67)	9
+se-ka-n	sekan	e-	-12.9775	e- (-12.98); deos (-13.25); deoːs (-14.48)	5
+se-ka-na	sekana	e-	-16.1989	e- (-16.20); deos (-16.52); deoːs (-17.44)	6
+se-ka-na-s	sekanas	e-	-19.4842	e- (-19.48); Μidas (-19.65); deos (-19.83)	7
+se-ka-na-si	sekanasi	Μidas	-22.4548	Μidas (-22.45); e- (-22.81); deos (-23.17)	8
+se-ka-na-si-s	sekanasis	Μidas	-25.2674	Μidas (-25.27); e- (-26.16); deos (-26.53)	9
+se-ka-na-si-si	sekanasisi	Μidas	-28.3595	Μidas (-28.36); e- (-29.54); deos (-29.90)	10
+se-ra-t	serat	e-	-12.9775	e- (-12.98); deos (-13.25); zemeloːs (-14.25)	5
+se-ra-te	serate	zemeloːs	-15.1341	zemeloːs (-15.13); e- (-16.20); deos (-16.35)	6
+se-to-i	setoi	e-	-12.9775	e- (-12.98); deos (-13.25); deoːs (-14.48)	5
+se-to-i-j	setoij	zemeloːs	-13.5234	zemeloːs (-13.52); deos (-14.56); deoːs (-14.62)	6
+se-to-i-ja	setoija	zemeloːs	-15.6975	zemeloːs (-15.70); deoːs (-16.82); deos (-17.43)	7
+si-i-pi	siipi	deoːs	-12.2028	deoːs (-12.20); deos (-12.86); as (-16.11)	5
+si-i-pi-n	siipin	deoːs	-15.7055	deoːs (-15.71); deos (-16.37); as (-19.61)	6
+si-i-pi-na	siipina	deoːs	-19.2062	deoːs (-19.21); deos (-19.87); as (-23.11)	7
+si-i-pi-na-m	siipinam	deoːs	-22.7046	deoːs (-22.70); deos (-23.37); ab- (ab-) (-25.89)	8
+si-i-pi-na-ma	siipinama	deoːs	-26.2005	deoːs (-26.20); deos (-26.88); ab- (ab-) (-28.34)	9
+si-i-pi-na-ma-i	siipinamai	deoːs	-29.6937	deoːs (-29.69); deos (-30.38); ab- (ab-) (-31.11)	10
+si-ru-t	sirut	waso	-13.9927	waso (-13.99); matar (-15.65); anar (-15.95)	5
+si-ru-te	sirute	waso	-16.7935	waso (-16.79); daket (-17.77); edaes (-17.98)	6
+si-ru-te-i	sirutei	waso	-19.8814	waso (-19.88); daket (-20.60); edaes (-20.83)	7
+si-ru-te-i-d	siruteid	daket	-17.8761	daket (-17.88); matar (-20.98); abberet (-22.86)	8
+si-ru-te-i-di	siruteidi	daket	-21.3393	daket (-21.34); matar (-23.79); waso (-26.36)	9
+si-si-r	sisir	ad	-16.113	ad (-16.11); deoːs (-16.77); deos (-17.27)	5
+ta-i-*301-u	taiΘu	anar	-12.3433	anar (-12.34); aoːroː (-14.57); ew (-15.90)	5
+ta-i-*301-u-j	taiΘuj	aoːroː	-14.6514	aoːroː (-14.65); anar (-15.67); waso (-17.34)	6
+ta-i-*301-u-ja	taiΘuja	aoːroː	-14.1213	aoːroː (-14.12); anar (-19.02); waso (-20.84)	7
+ta-i-*301-w	taiΘw	as	-15.898	as (-15.90); ad (-15.90); ab (-15.90)	5
+ta-i-*301-wa	taiΘwa	aoːroː	-19.1568	aoːroː (-19.16); ab- (ab-) (-19.17); ab (-19.22)	6
+ta-i-*301-wa-e	taiΘwae	akke	-19.8277	akke (-19.83); ab- (ab-) (-21.29); aoːroː (-22.04)	7
+ta-i-*301-wa-e-a	taiΘwaea	akke	-23.3312	akke (-23.33); ab- (ab-) (-23.64); e- (-24.53)	8
+ta-i-*301-wa-e-a-d	taiΘwaead	abberet	-25.0404	abberet (-25.04); ab- (ab-) (-26.15); akke (-26.52)	9
+ta-i-*301-wa-e-a-di	taiΘwaeadi	abberet	-28.5467	abberet (-28.55); ab- (ab-) (-28.78); akke (-29.77)	10
+ta-i-*301-wa-j	taiΘwaj	ab- (ab-)	-21.2916	ab- (ab-) (-21.29); aoːroː (-21.74); autos (-22.27)	7
+ta-i-*301-wa-ja	taiΘwaja	aoːroː	-22.5609	aoːroː (-22.56); ab- (ab-) (-23.64); autos (-25.02)	8
+ta-i-*301-wa-ja-a	taiΘwajaa	aoːroː	-25.1527	aoːroː (-25.15); ab- (ab-) (-26.15); autos (-28.04)	9
+ta-i-*301-wa-ja-a-d	taiΘwajaad	aoːroː	-27.9472	aoːroː (-27.95); autos (-27.98); ab- (ab-) (-28.78)	10
+ta-i-*301-wa-ja-a-j	taiΘwajaaj	aoːroː	-27.7297	aoːroː (-27.73); ab- (ab-) (-28.78); autos (-29.99)	10
+ta-i-*301-wa-ja-j	taiΘwajaj	aoːroː	-24.9464	aoːroː (-24.95); ab- (ab-) (-26.15); autos (-26.85)	9
+ta-i-*301-wa-ja-ja	taiΘwajaja	aoːroː	-25.8519	aoːroː (-25.85); ab- (ab-) (-28.78); autos (-29.74)	10
+ta-i-*301-wa-ja-s	taiΘwajas	ad	-24.5406	ad (-24.54); aoːroː (-25.15); ab- (ab-) (-26.15)	9
+ta-i-*301-wa-ja-se	taiΘwajase	aoːroː	-27.9472	aoːroː (-27.95); ad (-28.05); ab- (ab-) (-28.78)	10
+ta-i-*301-wa-ja-t	taiΘwajat	aoːroː	-25.1527	aoːroː (-25.15); ab- (ab-) (-25.97); akala (-27.10)	9
+ta-i-*301-wa-ja-tu	taiΘwajatu	anar	-25.9011	anar (-25.90); aoːroː (-26.43); ab- (ab-) (-27.44)	10
+ta-na-i	tanai	ab	-11.2056	ab (-11.21); ab- (ab-) (-15.51); as (-15.90)	5
+ta-na-i-*301	tanaiΘ	ab	-14.7119	ab (-14.71); ab- (ab-) (-17.29); aoːroː (-19.16)	6
+ta-na-i-*301-t	tanaiΘt	ab	-18.2164	ab (-18.22); ab- (ab-) (-18.33); akala (-20.60)	7
+ta-na-i-*301-ti	tanaiΘti	ab- (ab-)	-18.7039	ab- (ab-) (-18.70); ab (-21.72); akala (-23.98)	8
+ta-na-i-*301-ti-j	tanaiΘtij	ab- (ab-)	-20.6982	ab- (ab-) (-20.70); baɡo (-24.02); ab (-25.23)	9
+ta-na-i-*301-ti-ja	tanaiΘtija	ab- (ab-)	-23.1868	ab- (ab-) (-23.19); baɡo (-27.52); ab (-28.73)	10
+ta-na-i-*301-u	tanaiΘu	ab	-18.2182	ab (-18.22); anar (-19.00); ab- (ab-) (-19.21)	7
+ta-na-i-*301-u-t	tanaiΘut	ab- (ab-)	-20.3553	ab- (ab-) (-20.36); anar (-20.80); ab (-21.72)	8
+ta-na-i-*301-u-ti	tanaiΘuti	ab- (ab-)	-20.9311	ab- (ab-) (-20.93); anar (-23.71); ab (-25.23)	9
+ta-na-i-*301-u-ti-n	tanaiΘutin	ab- (ab-)	-21.9964	ab- (ab-) (-22.00); anar (-26.85); ab (-27.65)	10
+te-i-da	teida	e-	-12.9775	e- (-12.98); akke (-12.99); abberet (-13.52)	5
+te-i-da-j	teidaj	akke	-16.1479	akke (-16.15); e- (-16.20); eitou (-16.21)	6
+te-i-da-ja	teidaja	autos	-19.0828	autos (-19.08); akke (-19.39); eitou (-19.44)	7
+te-i-da-ja-j	teidajaj	eitou	-17.379	eitou (-17.38); aoːroː (-21.70); autos (-21.78)	8
+te-i-da-ja-ja	teidajaja	eitou	-20.8853	eitou (-20.89); aoːroː (-22.38); autos (-24.84)	9
+te-i-di	teidi	e-	-12.9775	e- (-12.98); akke (-12.99); abberet (-13.52)	5
+te-re-p	terep	as	-10.5153	as (-10.52); edaes (-11.09); e- (-12.69)	5
+te-si-r	tesir	ad	-10.5171	ad (-10.52); e- (-12.98); akke (-14.64)	5
+te-si-ra	tesira	ad	-14.0243	ad (-14.02); e- (-16.20); akke (-18.13)	6
+te-te-r	teter	e-	-12.6898	e- (-12.69); akke (-13.05); edaes (-14.45)	5
+te-te-re	tetere	akke	-15.5922	akke (-15.59); e- (-15.79); edaes (-17.27)	6
+te-te-re-p	teterep	edaes	-14.4861	edaes (-14.49); estaes (-14.66); as (-16.84)	7
+ti-ja-s	tijas	ad	-10.5153	ad (-10.52); aoːroː (-12.29); autos (-14.59)	5
+ti-ja-sa	tijasa	ad	-14.0225	ad (-14.02); aoːroː (-14.62); autos (-17.65)	6
+ti-ja-sa-s	tijasas	ad	-16.8389	ad (-16.84); aoːroː (-17.28); autos (-20.80)	7
+ti-ja-sa-sa	tijasasa	aoːroː	-20.1218	aoːroː (-20.12); ad (-20.35); ab- (ab-) (-23.64)	8
+ti-ja-sa-sa-r	tijasasar	aoːroː	-23.0833	aoːroː (-23.08); ad (-23.85); ab- (ab-) (-26.15)	9
+ti-nu-i	tinui	ab	-11.2056	ab (-11.21); anar (-12.36); abberet (-13.86)	5
+ti-nu-i-n	tinuin	ab	-14.0229	ab (-14.02); anar (-15.68); ab- (ab-) (-16.57)	6
+ti-nu-i-na	tinuina	ab	-17.5301	ab (-17.53); ab- (ab-) (-18.41); anar (-19.02)	7
+ti-nu-i-na-i	tinuinai	ab- (ab-)	-19.2326	ab- (ab-) (-19.23); ab (-21.04); anar (-22.39)	8
+ti-nu-i-na-i-d	tinuinaid	ab- (ab-)	-21.5995	ab- (ab-) (-21.60); abberet (-22.66); breit (-23.53)	9
+ti-nu-i-na-i-da	tinuinaida	ab- (ab-)	-24.2728	ab- (ab-) (-24.27); abberet (-26.16); breit (-27.04)	10
+ti-nu-j	tinuj	baɡo	-11.0866	baɡo (-11.09); ab (-11.21); aoːroː (-11.71)	5
+ti-nu-ja	tinuja	aoːroː	-11.1833	aoːroː (-11.18); baɡo (-14.59); ab (-14.71)	6
+ti-nu-ja-s	tinujas	aoːroː	-14.0031	aoːroː (-14.00); ad (-17.53); baɡo (-18.10)	7
+ti-nu-ja-sa	tinujasa	aoːroː	-17.1024	aoːroː (-17.10); ab- (ab-) (-20.98); ad (-21.04)	8
+ti-nu-ja-sa-s	tinujasas	aoːroː	-20.3157	aoːroː (-20.32); ab- (ab-) (-23.02); ad (-23.85)	9
+ti-nu-ja-sa-sa	tinujasasa	aoːroː	-23.5907	aoːroː (-23.59); ab- (ab-) (-25.33); ad (-27.36)	10
+ti-*301-wa	tiΘwa	as	-15.898	as (-15.90); ad (-15.90); ab (-15.90)	5
+ti-*301-wa-j	tiΘwaj	aoːroː	-18.7639	aoːroː (-18.76); autos (-18.93); ab- (ab-) (-19.17)	6
+ti-*301-wa-ja	tiΘwaja	aoːroː	-19.4993	aoːroː (-19.50); ab- (ab-) (-21.29); autos (-21.66)	7
+to-i-ja	toija	aoːroː	-13.5747	aoːroː (-13.57); autos (-14.97); ab (-15.90)	5
+to-sa-r	tosar	ad	-10.5171	ad (-10.52); as (-15.90); ab (-15.90)	5
+to-sa-re	tosare	ad	-14.0243	ad (-14.02); akke (-16.52); deos (-18.16)	6
+to-sa-re-j	tosarej	ad	-17.5315	ad (-17.53); deos (-18.16); deoːs (-18.18)	7
+to-sa-re-ja	tosareja	deoːs	-20.351	deoːs (-20.35); deos (-20.99); ad (-21.04)	8
+tu-ja-s	tujas	aoːroː	-9.1098	aoːroː (-9.11); ad (-10.52); anar (-12.35)	5
+tu-me-i	tumei	anar	-12.3464	anar (-12.35); akke (-13.55); e- (-14.05)	5
+tu-me-i-j	tumeij	anar	-15.6594	anar (-15.66); waso (-16.03); aoːroː (-16.81)	6
+tu-me-i-ja	tumeija	aoːroː	-16.7735	aoːroː (-16.77); anar (-19.00); waso (-19.54)	7
+tu-me-i-ja-s	tumeijas	aoːroː	-19.5737	aoːroː (-19.57); ad (-21.03); anar (-22.36)	8
+tu-me-i-ja-sa	tumeijasa	aoːroː	-22.6352	aoːroː (-22.64); ad (-24.54); anar (-25.74)	9
+tu-me-i-ja-sa-s	tumeijasas	aoːroː	-25.7971	aoːroː (-25.80); ad (-27.36); ab- (ab-) (-28.78)	10
+tu-me-i-ja-sa-u	tumeijasau	aoːroː	-25.3166	aoːroː (-25.32); anar (-25.90); noːrikon (-28.02)	10
+tu-ru-s	turus	anar	-9.6808	anar (-9.68); ad (-10.52); aoːroː (-13.54)	5
+tu-ru-sa	turusa	anar	-13.1603	anar (-13.16); ad (-14.02); aoːroː (-16.35)	6
+tu-ru-sa-i	turusai	anar	-16.6398	anar (-16.64); ad (-17.53); aoːroː (-19.33)	7
+tu-ru-sa-i-d	turusaid	anar	-20.1193	anar (-20.12); ad (-21.04); anar (anar) (-22.29)	8
+tu-ru-sa-i-da	turusaida	anar	-23.599	anar (-23.60); ad (-24.54); anar (anar) (-24.96)	9
+tu-ru-sa-i-da-a	turusaidaa	anar	-27.0787	anar (-27.08); anar (anar) (-27.69); ad (-28.05)	10
+u-i-na-i	uinai	ab	-17.0286	ab (-17.03); ew (-17.38); e- (-17.54)	5
+u-i-na-i-d	uinaid	breit	-18.5311	breit (-18.53); bekos (-20.41); noːrikon (-20.44)	6
+u-i-na-i-da	uinaida	breit	-22.0303	breit (-22.03); bekos (-23.23); noːrikon (-23.24)	7
+u-i-na-i-da-j	uinaidaj	waso	-22.4815	waso (-22.48); baɡo (-23.20); bedu (-23.53)	8
+u-i-na-i-da-ja	uinaidaja	waso	-25.9874	waso (-25.99); baɡo (-26.70); noːrikon (-26.73)	9
+u-i-na-i-da-ja-s	uinaidajas	waso	-29.493	waso (-29.49); noːrikon (-29.84); bekos (-29.86)	10
+u-ja-sa	ujasa	waso	-13.9732	waso (-13.97); ad (-16.11); noːrikon (-16.30)	5
+u-ja-sa-s	ujasas	waso	-17.4705	waso (-17.47); ad (-18.73); noːrikon (-19.01)	6
+u-ja-sa-sa	ujasasa	waso	-20.966	waso (-20.97); noːrikon (-21.85); ad (-22.23)	7
+u-ja-sa-sa-r	ujasasar	onoman	-24.2646	onoman (-24.26); waso (-24.46); noːrikon (-24.78)	8
+u-ja-sa-sa-ra	ujasasara	onoman	-27.082	onoman (-27.08); noːrikon (-27.79); waso (-27.95)	9
+u-ja-sa-sa-ra-m	ujasasaram	onoman	-30.1755	onoman (-30.18); noːrikon (-30.85); waso (-31.44)	10
+u-ka-na	ukana	ab	-16.7665	ab (-16.77); aini (-17.22); Μidas (-17.31)	5
+u-ka-na-s	ukanas	Μidas	-16.818	Μidas (-16.82); ad (-19.22); ab (-20.26)	6
+u-me-i-j	umeij	waso	-12.5622	waso (-12.56); e- (-13.38); eitou (-16.01)	5
+u-me-i-ja	umeija	waso	-16.0677	waso (-16.07); e- (-16.48); deoːs (-19.18)	6
+u-me-i-ja-s	umeijas	waso	-19.5727	waso (-19.57); e- (-19.70); deoːs (-21.89)	7
+u-me-i-ja-sa	umeijasa	e-	-22.9893	e- (-22.99); waso (-23.08); deoːs (-24.82)	8
+u-me-i-ja-sa-s	umeijasas	e-	-26.3152	e- (-26.32); waso (-26.58); deoːs (-27.89)	9
+u-me-i-ja-sa-sa	umeijasasa	e-	-29.669	e- (-29.67); waso (-30.09); deoːs (-31.03)	10
+u-me-i-ja-sa-u	umeijasau	noːrikon	-24.5397	noːrikon (-24.54); ew (-25.23); e- (-26.32)	9
+u-me-i-ja-sa-u-n	umeijasaun	noːrikon	-27.7167	noːrikon (-27.72); ew (-28.73); e- (-29.67)	10
+u-na-ka	unaka	eti	-16.3369	eti (-16.34); breit (-16.62); tʰri (-16.80)	5
+u-na-ka-n	unakan	ab	-19.6125	ab (-19.61); breit (-19.72); eti (-19.84)	6
+u-na-ka-na	unakana	breit	-22.928	breit (-22.93); ab- (ab-) (-22.99); ab (-23.11)	7
+u-na-ka-na-s	unakanas	Μidas	-22.7525	Μidas (-22.75); ab- (ab-) (-23.90); ad (-25.95)	8
+u-na-ka-na-si	unakanasi	Μidas	-25.5615	Μidas (-25.56); ab- (ab-) (-26.32); bedu (-29.27)	9
+u-na-ru	unaru	ew	-15.7212	ew (-15.72); anar (-15.91); kin (-16.03)	5
+u-na-ru-k	unaruk	tʰri	-14.3981	tʰri (-14.40); aini (-16.03); noːrikon (-17.48)	6
+u-na-ru-ka	unaruka	tʰri	-17.9052	tʰri (-17.91); aini (-19.54); noːrikon (-19.93)	7
+u-na-ru-ka-n	unarukan	tʰri	-21.4124	tʰri (-21.41); noːrikon (-22.75); aini (-23.04)	8
+u-na-ru-ka-na	unarukana	tʰri	-24.9195	tʰri (-24.92); noːrikon (-25.75); aini (-26.55)	9
+u-na-ru-ka-na-s	unarukanas	tʰri	-28.4266	tʰri (-28.43); noːrikon (-28.85); ab- (ab-) (-28.88)	10
+u-ru-sa	urusa	ad	-16.113	ad (-16.11); ew (-16.11); anar (-16.54)	5
+u-ru-sa-i	urusai	ad	-19.6125	ad (-19.61); ew (-19.61); anar (-20.00)	6
+u-ru-sa-i-d	urusaid	noːrikon	-21.4217	noːrikon (-21.42); breit (-21.54); daket (-21.74)	7
+u-ru-sa-i-da	urusaida	noːrikon	-24.2557	noːrikon (-24.26); breit (-25.04); daket (-25.05)	8
+u-ru-sa-i-da-a	urusaidaa	noːrikon	-27.3524	noːrikon (-27.35); tʰri (tʰri) (-28.09); daket (-28.39)	9
+u-ru-sa-i-da-a-u	urusaidaau	noːrikon	-27.3114	noːrikon (-27.31); tʰri (tʰri) (-28.16); matar (-28.64)	10
+u-sa-i-d	usaid	daket	-14.7518	daket (-14.75); breit (-15.99); ad (-16.77)	5
+u-sa-i-da	usaida	daket	-18.0643	daket (-18.06); breit (-19.50); tʰri (-20.25)	6
+u-sa-i-da-a	usaidaa	daket	-21.4028	daket (-21.40); tʰri (-22.71); breit (-23.00)	7
+u-sa-i-da-a-u	usaidaau	tʰri	-23.1147	tʰri (-23.11); noːrikon (-23.33); kin (-23.34)	8
+u-te-i-d	uteid	waso	-12.5656	waso (-12.57); e- (-13.38); abberet (-13.52)	5
+u-te-i-di	uteidi	waso	-15.8361	waso (-15.84); e- (-16.48); akke (-16.50)	6
+u-ti-nu	utinu	anar	-10.3695	anar (-10.37); ab (-11.21); waso (-12.57)	5
+u-ti-nu-i	utinui	anar	-13.8496	anar (-13.85); ab (-14.71); waso (-15.84)	6
+u-ti-nu-i-n	utinuin	anar	-17.3297	anar (-17.33); ab (-17.53); waso (-19.15)	7
+u-ti-nu-i-na	utinuina	anar	-20.8099	anar (-20.81); ab (-21.04); ab- (ab-) (-21.91)	8
+u-ti-nu-i-na-i	utinuinai	ab- (ab-)	-22.7366	ab- (ab-) (-22.74); anar (-24.29); ab (-24.54)	9
+u-ti-nu-i-na-i-d	utinuinaid	ab- (ab-)	-25.1043	ab- (ab-) (-25.10); abberet (-26.17); breit (-27.03)	10
+u-ti-nu-j	utinuj	waso	-12.5584	waso (-12.56); anar (-13.85); baɡo (-13.94)	6
+u-ti-nu-ja	utinuja	aoːroː	-14.6702	aoːroː (-14.67); waso (-16.06); anar (-17.33)	7
+u-ti-nu-ja-s	utinujas	aoːroː	-17.49	aoːroː (-17.49); waso (-19.56); anar (-20.81)	8
+u-ti-nu-ja-sa	utinujasa	aoːroː	-20.5895	aoːroː (-20.59); waso (-23.06); anar (-24.29)	9
+u-ti-nu-ja-sa-s	utinujasas	aoːroː	-23.803	aoːroː (-23.80); ab- (ab-) (-26.53); waso (-26.56)	10
+u-*56-e-tu	uΦetu	anar	-10.3697	anar (-10.37); ew (-10.52); e- (-12.47)	5
+u-*56-e-tu-m	uΦetum	anar	-13.8499	anar (-13.85); ew (-14.02); e- (-15.64)	6
+u-*56-e-tu-me	uΦetume	bratere	-17.1956	bratere (-17.20); anar (-17.33); ew (-17.53)	7
+u-*56-e-tu-me-i	uΦetumei	bratere	-20.7005	bratere (-20.70); anar (-20.81); ew (-21.04)	8
+u-*56-e-tu-me-i-j	uΦetumeij	waso	-22.8299	waso (-22.83); bratere (-24.21); anar (-24.29)	9
+u-*56-e-tu-me-i-ja	uΦetumeija	waso	-26.3314	waso (-26.33); aoːroː (-27.00); bratere (-27.71)	10
+wa-e-a-d	waead	e-	-13.3751	e- (-13.38); eti (-14.62); daket (-16.00)	5
+wa-e-a-di	waeadi	e-	-16.4818	e- (-16.48); eti (-17.47); daket (-19.47)	6
+wa-e-a-di-k	waeadik	eti	-14.71	eti (-14.71); tʰri (-19.60); e- (-19.70)	7
+wa-e-a-di-ki	waeadiki	eti	-18.2172	eti (-18.22); e- (-22.99); tʰri (-23.06)	8
+wa-e-a-di-ki-t	waeadikit	eti	-21.7244	eti (-21.72); e- (-26.32); tʰri (-26.52)	9
+wa-e-a-di-ki-te	waeadikite	eti	-25.2316	eti (-25.23); pinke (-27.57); estaes (-28.42)	10
+wa-i-ja	waija	e-	-17.5387	e- (-17.54); aoːroː (-17.54); baɡo (-18.27)	5
+wa-ja-a	wajaa	aoːroː	-17.4114	aoːroː (-17.41); e- (-17.54); deoːs (-18.09)	5
+wa-ja-a-d	wajaad	autos	-19.8385	autos (-19.84); aoːroː (-20.08); e- (-20.73)	6
+wa-ja-a-di	wajaadi	autos	-22.6472	autos (-22.65); aoːroː (-22.89); tʰri (-23.73)	7
+wa-ja-a-di-k	wajaadik	eti	-22.7226	eti (-22.72); tʰri (-23.09); kin (-24.46)	8
+wa-ja-a-di-ki	wajaadiki	eti	-26.2298	eti (-26.23); tʰri (-26.56); kin (-27.30)	9
+wa-ja-a-di-ki-t	wajaadikit	eti	-29.737	eti (-29.74); tʰri (-30.01); tʰri (tʰri) (-30.32)	10
+wa-ja-a-j	wajaaj	semou	-18.8455	semou (-18.85); eitou (-18.85); aoːroː (-19.80)	6
+wa-ja-a-ja	wajaaja	aoːroː	-20.4789	aoːroː (-20.48); semou (-22.35); eitou (-22.35)	7
+wa-ja-j	wajaj	semou	-15.3621	semou (-15.36); eitou (-15.36); aoːroː (-17.12)	5
+wa-ja-ja	wajaja	aoːroː	-17.7437	aoːroː (-17.74); semou (-18.87); eitou (-18.87)	6
+wa-ja-ja-a	wajajaa	aoːroː	-20.5549	aoːroː (-20.55); eitou (-22.37); semou (-22.37)	7
+wa-ja-ja-d	wajajad	aoːroː	-20.5549	aoːroː (-20.55); autos (-22.33); eitou (-22.35)	7
+wa-ja-ja-di	wajajadi	aoːroː	-23.6238	aoːroː (-23.62); autos (-25.16); eitou (-25.83)	8
+wa-ja-ja-di-k	wajajadik	eti	-26.0769	eti (-26.08); tʰri (-26.58); aoːroː (-26.80)	9
+wa-ja-ja-di-ki	wajajadiki	eti	-29.5841	eti (-29.58); aoːroː (-30.02); tʰri (-30.05)	10
+wa-ja-ja-i	wajajai	aoːroː	-20.5549	aoːroː (-20.55); eitou (-22.37); semou (-22.37)	7
+wa-ja-ja-i-n	wajajain	aoːroː	-23.6238	aoːroː (-23.62); eitou (-25.88); semou (-25.88)	8
+wa-ja-ja-i-n-w	wajajainw	aoːroː	-26.796	aoːroː (-26.80); eitou (-29.38); semou (-29.38)	9
+wa-ja-ja-i-nwa	wajajainwa	aoːroː	-30.0225	aoːroː (-30.02); ab- (ab-) (-31.05); semou (-32.88)	10
+wa-ja-ja-j	wajajaj	aoːroː	-20.5177	aoːroː (-20.52); semou (-20.79); eitou (-20.79)	7
+wa-ja-ja-ja	wajajaja	aoːroː	-22.6849	aoːroː (-22.68); semou (-24.30); eitou (-24.30)	8
+wa-ja-ja-s	wajajas	aoːroː	-20.5549	aoːroː (-20.55); eitou (-22.37); semou (-22.37)	7
+wa-ja-ja-sa	wajajasa	aoːroː	-23.6238	aoːroː (-23.62); semou (-25.88); eitou (-25.88)	8
+wa-ja-ja-sa-s	wajajasas	aoːroː	-26.796	aoːroː (-26.80); ad (-28.78); eitou (-29.38)	9
+wa-ja-ja-sa-sa	wajajasasa	aoːroː	-30.0225	aoːroː (-30.02); ad (-32.29); ab- (ab-) (-32.67)	10
+wa-ja-s	wajas	ad	-15.898	ad (-15.90); aoːroː (-17.41); e- (-17.54)	5
+wa-ja-se	wajase	deos	-18.1721	deos (-18.17); ad (-19.40); ke (-19.88)	6
+wa-ja-se-k	wajasek	deos	-20.9789	deos (-20.98); e- (-21.04); eti (-21.35)	7
+wa-ja-se-ka	wajaseka	e-	-23.8799	e- (-23.88); deos (-24.07); eti (-24.84)	8
+wa-ja-se-ka-n	wajasekan	e-	-26.9912	e- (-26.99); deos (-27.27); eti (-28.32)	9
+wa-ja-se-ka-na	wajasekana	e-	-30.2156	e- (-30.22); deos (-30.54); deoːs (-31.36)	10
+wa-ja-t	wajat	ab	-17.3848	ab (-17.38); ad (-17.38); as (-17.38)	5
+wa-ja-tu	wajatu	onoman	-15.1132	onoman (-15.11); anar (-15.66); matar (-17.62)	6
+wa-ja-tu-r	wajatur	onoman	-18.5114	onoman (-18.51); anar (-19.02); aoːroː (-20.51)	7
+wa-ja-tu-ru	wajaturu	anar	-20.1189	anar (-20.12); onoman (-20.28); aoːroː (-23.00)	8
+wa-ja-tu-ru-s	wajaturus	anar	-23.6013	anar (-23.60); onoman (-23.77); ad (-24.54)	9
+wa-ja-tu-ru-sa	wajaturusa	anar	-27.0836	anar (-27.08); onoman (-27.25); ad (-28.05)	10
+wa-za-*56	wazaΦ	bedu	-15.3574	bedu (-15.36); ke (-16.56); ab (-17.03)	5
+wa-za-*56-n	wazaΦn	e-	-17.5422	e- (-17.54); bedu (-18.16); ab (-19.50)	6
+wa-za-*56-ni	wazaΦni	e-	-20.3791	e- (-20.38); bedu (-21.25); ab (-23.00)	7
+za-*56-ni	zaΦni	e-	-13.3751	e- (-13.38); bedu (-14.24); bekos (-16.31)	5
+*301-ti-ja	Θtija	aoːroː	-14.1929	aoːroː (-14.19); autos (-15.17); waso (-15.98)	5
+*301-ti-ja-s	Θtijas	ad	-14.0225	ad (-14.02); aoːroː (-15.79); autos (-18.09)	6
+*301-ti-ja-sa	Θtijasa	ad	-17.5297	ad (-17.53); aoːroː (-18.13); autos (-21.16)	7
+*301-ti-ja-sa-s	Θtijasas	ad	-20.3461	ad (-20.35); aoːroː (-20.78); autos (-24.31)	8
+*301-ti-ja-sa-sa	Θtijasasa	aoːroː	-23.6279	aoːroː (-23.63); ad (-23.85); ab- (ab-) (-27.11)	9
+*301-ti-ja-sa-sa-r	Θtijasasar	aoːroː	-26.5898	aoːroː (-26.59); ad (-27.36); ab- (ab-) (-29.63)	10
+*301-u-ti-n	Θutin	ab	-11.2074	ab (-11.21); waso (-12.87); anar (-15.60)	5
+*301-u-ti-nu	Θutinu	anar	-13.2404	anar (-13.24); ab (-14.71); waso (-16.07)	6
+*301-u-ti-nu-j	Θutinuj	waso	-16.0656	waso (-16.07); anar (-16.73); baɡo (-17.06)	7
+*301-u-ti-nu-ja	Θutinuja	aoːroː	-18.15	aoːroː (-18.15); waso (-19.57); anar (-20.23)	8
+*301-u-ti-nu-ja-s	Θutinujas	aoːroː	-20.97	aoːroː (-20.97); waso (-23.07); anar (-23.72)	9
+*301-u-ti-nu-ja-sa	Θutinujasa	aoːroː	-24.0696	aoːroː (-24.07); waso (-26.56); anar (-27.21)	10
+*301-wa-e-a	Θwaea	e-	-14.0452	e- (-14.05); ke (-16.77); ew (-17.38)	5
+*301-wa-e-a-d	Θwaead	e-	-16.8775	e- (-16.88); eti (-18.13); daket (-18.90)	6
+*301-wa-e-a-di	Θwaeadi	e-	-19.9855	e- (-19.99); eti (-20.97); daket (-22.39)	7
+*301-wa-e-a-di-k	Θwaeadik	eti	-18.2163	eti (-18.22); tʰri (-23.09); e- (-23.21)	8
+*301-wa-e-a-di-ki	Θwaeadiki	eti	-21.7235	eti (-21.72); e- (-26.49); tʰri (-26.56)	9
+*301-wa-e-a-di-ki-t	Θwaeadikit	eti	-25.2307	eti (-25.23); e- (-29.82); tʰri (-30.01)	10
+*301-wa-ja	Θwaja	e-	-17.5387	e- (-17.54); aoːroː (-17.54); baɡo (-18.27)	5
+*301-wa-ja-a	Θwajaa	aoːroː	-20.1381	aoːroː (-20.14); e- (-20.73); deoːs (-21.18)	6
+*301-wa-ja-a-d	Θwajaad	aoːroː	-22.9513	aoːroː (-22.95); autos (-23.06); e- (-23.97)	7
+*301-wa-ja-a-di	Θwajaadi	aoːroː	-25.869	aoːroː (-25.87); autos (-25.87); deoːs (-27.19)	8
+*301-wa-ja-a-di-k	Θwajaadik	eti	-26.0769	eti (-26.08); tʰri (-26.58); kin (-27.96)	9
+*301-wa-ja-a-di-ki	Θwajaadiki	eti	-29.5841	eti (-29.58); tʰri (-30.05); tʰri (tʰri) (-30.10)	10
+*301-wa-ja-a-j	Θwajaaj	semou	-21.738	semou (-21.74); eitou (-21.74); aoːroː (-22.74)	7
+*301-wa-ja-a-ja	Θwajaaja	aoːroː	-23.6615	aoːroː (-23.66); semou (-25.24); eitou (-25.24)	8
+*301-wa-ja-j	Θwajaj	eitou	-18.2467	eitou (-18.25); semou (-18.25); aoːroː (-19.94)	6
+*301-wa-ja-ja	Θwajaja	aoːroː	-20.9008	aoːroː (-20.90); eitou (-21.75); semou (-21.75)	7
+*301-wa-ja-ja-a	Θwajajaa	aoːroː	-23.7259	aoːroː (-23.73); eitou (-25.26); semou (-25.26)	8
+*301-wa-ja-ja-d	Θwajajad	aoːroː	-23.7259	aoːroː (-23.73); eitou (-25.24); semou (-25.26)	8
+*301-wa-ja-ja-di	Θwajajadi	aoːroː	-26.8023	aoːroː (-26.80); autos (-28.44); eitou (-28.73)	9
+*301-wa-ja-ja-di-k	Θwajajadik	eti	-29.4516	eti (-29.45); aoːroː (-29.98); tʰri (-30.07)	10
+*301-wa-ja-ja-i	Θwajajai	aoːroː	-23.7259	aoːroː (-23.73); eitou (-25.26); semou (-25.26)	8
+*301-wa-ja-ja-i-n	Θwajajain	aoːroː	-26.8023	aoːroː (-26.80); eitou (-28.76); semou (-28.76)	9
+*301-wa-ja-ja-i-n-w	Θwajajainw	aoːroː	-29.9807	aoːroː (-29.98); eitou (-32.27); semou (-32.27)	10
+*301-wa-ja-ja-j	Θwajajaj	aoːroː	-23.6913	aoːroː (-23.69); semou (-23.82); eitou (-23.82)	8
+*301-wa-ja-ja-ja	Θwajajaja	aoːroː	-25.902	aoːroː (-25.90); semou (-27.32); eitou (-27.32)	9
+*301-wa-ja-ja-s	Θwajajas	aoːroː	-23.7259	aoːroː (-23.73); eitou (-25.26); semou (-25.26)	8
+*301-wa-ja-ja-sa	Θwajajasa	aoːroː	-26.8023	aoːroː (-26.80); eitou (-28.76); semou (-28.76)	9
+*301-wa-ja-ja-sa-s	Θwajajasas	aoːroː	-29.9807	aoːroː (-29.98); ad (-32.17); semou (-32.27)	10
+*301-wa-ja-s	Θwajas	ad	-19.2234	ad (-19.22); aoːroː (-20.14); e- (-20.73)	6
+*301-wa-ja-se	Θwajase	deos	-21.6713	deos (-21.67); ad (-22.73); aoːroː (-22.95)	7
+*301-wa-ja-se-k	Θwajasek	deos	-24.4812	deos (-24.48); e- (-24.53); eti (-24.81)	8
+*301-wa-ja-se-ka	Θwajaseka	e-	-27.3798	e- (-27.38); deos (-27.57); eti (-28.30)	9
+*301-wa-ja-se-ka-n	Θwajasekan	e-	-30.4932	e- (-30.49); deos (-30.78); eti (-31.78)	10
+*301-wa-ja-t	Θwajat	aoːroː	-20.137	aoːroː (-20.14); e- (-20.73); ab (-20.86)	6
+*301-wa-ja-tu	Θwajatu	onoman	-18.418	onoman (-18.42); anar (-19.00); matar (-20.78)	7
+*301-wa-ja-tu-r	Θwajatur	onoman	-21.833	onoman (-21.83); anar (-22.38); aoːroː (-23.72)	8
+*301-wa-ja-tu-ru	Θwajaturu	anar	-23.5984	anar (-23.60); onoman (-23.70); aoːroː (-26.23)	9
+*301-wa-ja-tu-ru-s	Θwajaturus	anar	-27.0815	anar (-27.08); onoman (-27.19); ad (-28.05)	10
+*56-e-tu-m	Φetum	ew	-10.5166	ew (-10.52); e- (-12.14); anar (-12.36)	5
+*56-e-tu-me	Φetume	ew	-14.0234	ew (-14.02); e- (-15.39); anar (-15.68)	6
+*56-e-tu-me-i	Φetumei	ew	-17.5301	ew (-17.53); e- (-18.61); anar (-19.02)	7
+*56-e-tu-me-i-j	Φetumeij	ew	-21.0369	ew (-21.04); e- (-21.90); anar (-22.39)	8
+*56-e-tu-me-i-ja	Φetumeija	aoːroː	-23.627	aoːroː (-23.63); ew (-24.54); e- (-25.23)	9
+*56-e-tu-me-i-ja-s	Φetumeijas	aoːroː	-26.4314	aoːroː (-26.43); ad (-28.05); ew (-28.05)	10
+a-di-ki-te	adikite	pinke	-17.0517	pinke (-17.05); ke (-18.22); tʰri (-19.46)	7
+a-di-ki-te-te	adikitete	pinke	-23.072	pinke (-23.07); ke (-24.54); kin (-26.23)	9
+a-na-ti-*301-wa-ja	anatiΘwaja	baɡo	-27.0448	baɡo (-27.04); aoːroː (-29.96); ab- (ab-) (-30.10)	10
+a-sa-sa-ra	asasara	ad	-22.7256	ad (-22.73); deoːs (-23.22); Μidas (-23.59)	7
+a-ta-i-*301-wa-e	ataiΘwae	akke	-23.3336	akke (-23.33); ab- (ab-) (-24.76); aoːroː (-25.53)	8
+a-ta-i-*301-wa-ja	ataiΘwaja	aoːroː	-26.0551	aoːroː (-26.06); ab- (ab-) (-27.11); autos (-28.53)	9
+da-ma-te	damate	ke	-14.7093	ke (-14.71); tʰri (-17.61); akke (-18.00)	6
+da-se-ra-te	daserate	ke	-21.036	ke (-21.04); zemeloːs (-22.15); e- (-23.20)	8
+i-ja-re-di-ja	ijaredija	bekos	-26.3243	bekos (-26.32); aoːroː (-26.53); autos (-26.53)	9
+i-na-i-da	inaida	breit	-19.1311	breit (-19.13); bekos (-19.74); tʰri (-20.25)	6
+i-na-ja-re-ta	inajareta	onoman	-25.6127	onoman (-25.61); ab- (ab-) (-26.24); baɡo (-27.07)	9
+i-pi-na-ma	ipinama	ab	-23.7495	ab (-23.75); as (-23.75); e- (-23.97)	7
+ja-di-ki-tu	jadikitu	kin	-17.5277	kin (-17.53); knaikan (-19.46); matar (-20.24)	8
+ja-i-nwa-za	jainwaza	aoːroː	-26.076	aoːroː (-26.08); ab- (ab-) (-26.26); ab (-26.31)	8
+ja-sa-sa	jasasa	ad	-18.944	ad (-18.94); aoːroː (-20.10); Μidas (-20.11)	6
+ja-sa-sa-ra	jasasara	onoman	-25.3993	onoman (-25.40); ad (-25.95); aoːroː (-26.08)	8
+ja-sa-sa-ra-ma	jasasarama	onoman	-31.6965	onoman (-31.70); aoːroː (-32.31); ab- (ab-) (-32.67)	10
+ja-sa-sa-ra-me	jasasarame	deos	-31.4386	deos (-31.44); onoman (-31.70); aoːroː (-32.31)	10
+ja-sa-u-na-ka-na-si	jasaunakanasi	ab- (ab-)	-38.4888	ab- (ab-) (-38.49); Μidas (-38.75); tʰri (-38.94)	13
+ja-ta-i-*301-u-ja	jataiΘuja	aoːroː	-20.6461	aoːroː (-20.65); onoman (-25.46); anar (-25.78)	9
+ja-wa-*56	jawaΦ	ke	-16.5591	ke (-16.56); e- (-17.13); aoːroː (-17.28)	5
+pi-te-ri	piteri	semou	-13.9717	semou (-13.97); semoun (-16.38); e- (-16.88)	6
+re-i-ke	reike	e-	-12.9723	e- (-12.97); eti (-13.87); ke (-16.24)	5
+ri-da-u	ridau	matar	-12.4287	matar (-12.43); kin (-13.23); tʰri (-13.28)	5
+sa-ra-me	sarame	deos	-18.1246	deos (-18.12); deoːs (-19.69); daket (-19.79)	6
+sa-sa-ra-me	sasarame	deos	-24.4241	deos (-24.42); deoːs (-25.64); daket (-25.88)	8
+se-ka-na-si	sekanasi	Μidas	-22.4548	Μidas (-22.45); e- (-22.81); deos (-23.17)	8
+se-to-i-ja	setoija	zemeloːs	-15.6975	zemeloːs (-15.70); deoːs (-16.82); deos (-17.43)	7
+si-ru-te	sirute	waso	-16.7935	waso (-16.79); daket (-17.77); edaes (-17.98)	6
+ta-na-i-*301-ti	tanaiΘti	ab- (ab-)	-18.7039	ab- (ab-) (-18.70); ab (-21.72); akala (-23.98)	8
+ta-na-i-*301-u-ti-nu	tanaiΘutinu	ab- (ab-)	-23.9979	ab- (ab-) (-24.00); anar (-24.54); bratere (-30.98)	11
+ta-na-ra-te-u-ti-nu	tanarateutinu	ab- (ab-)	-29.3511	ab- (ab-) (-29.35); anar (-30.86); anar (anar) (-32.31)	13
+tu-me-i	tumei	anar	-12.3464	anar (-12.35); akke (-13.55); e- (-14.05)	5
+tu-ru-sa	turusa	anar	-13.1603	anar (-13.16); ad (-14.02); aoːroː (-16.35)	6
+u-na-ka	unaka	eti	-16.3369	eti (-16.34); breit (-16.62); tʰri (-16.80)	5
+u-na-ka-na	unakana	breit	-22.928	breit (-22.93); ab- (ab-) (-22.99); ab (-23.11)	7
+u-na-ka-na-si	unakanasi	Μidas	-25.5615	Μidas (-25.56); ab- (ab-) (-26.32); bedu (-29.27)	9
+u-na-ru-ka-ja-si	unarukajasi	noːrikon	-30.0396	noːrikon (-30.04); aoːroː (-30.76); tʰri (-31.93)	11
+u-na-ru-ka-na-si	unarukanasi	ab- (ab-)	-31.3635	ab- (ab-) (-31.36); tʰri (-31.93); noːrikon (-32.02)	11
+u-na-ru-ka-na-ti	unarukanati	ab- (ab-)	-31.0057	ab- (ab-) (-31.01); tʰri (-31.93); noːrikon (-32.02)	11
+u-ti-nu	utinu	anar	-10.3695	anar (-10.37); ab (-11.21); waso (-12.57)	5
+*56-ni-wi	Φniwi	e-	-12.6937	e- (-12.69); eti (-16.53); ew (-16.56)	5

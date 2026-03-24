@@ -1,0 +1,18 @@
+{
+  "lost_lang": "linear_a",
+  "known_lang": "xpg",
+  "exp_type": "linear_a",
+  "closeness": -18.13084438709678,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_vocab": 56,
+  "n_train": 48,
+  "final_obj": -2222.727294921875,
+  "final_quality": -72.72698974609375,
+  "runtime": 12223.102558851242,
+  "error": "",
+  "n_cognates": 1550
+}

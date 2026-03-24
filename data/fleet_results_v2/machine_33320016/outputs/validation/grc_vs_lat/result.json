@@ -1,0 +1,18 @@
+{
+  "lost_lang": "grc",
+  "known_lang": "lat",
+  "exp_type": "validation",
+  "closeness": -17.684225310748186,
+  "p_at_1": 0.0,
+  "p_at_5": 0.0,
+  "p_at_10": 0.0,
+  "mrr": 0.0,
+  "n_eval": 48,
+  "n_vocab": 500,
+  "n_train": 9217,
+  "final_obj": -3737.224365234375,
+  "final_quality": -83.0588150024414,
+  "runtime": 4368.387927770615,
+  "error": "",
+  "n_cognates": 8206
+}
